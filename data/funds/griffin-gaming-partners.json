@@ -23,7 +23,58 @@
     "x": "https://x.com/Griffin_GP",
     "linkedin": "https://www.linkedin.com/company/griffin-gaming-partners/"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-07-05",
+      "type": "Post",
+      "title": "Griffin Gaming Partners Acquires 3.24% Strategic Stake In tinyBuild - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOc0V0Zl84dkhxM0VmUUJlSmF6VFFXaVlLclRBM1p5c3h2X2Jmc2ZOVnpsR245cWVyLVJfaU5XNmJHZHpDVTMtOU1CNGdpcEdtZzBQSnZFUERZSEpKMnhzY1NlNFVGa0FWX25QSUNXSTZ3VFNvSGFaZnhmU2pkaERYVDJXb2FjeXk5MElDUzE1a9IBlAFBVV95cUxPNDJXNEJWa2dGRE1JUzNXZWZrS3pXeVNERm56aU10dTBjQloxR05MVzJrU1Y2c0o4X2xrQUZTZ3hkY0lFbXdncVBLcUF5VTl0NGkwTjlJTkw2VnlVdk1ONVlYREZ3UG41OTBzX3pVc21kaWNhZ1V5UG4zSEhfSmRjbWc2V2E5ZHM5OXZFSER4Y0JQUHJq?oc=5",
+      "summary": "Griffin Gaming Partners Acquires 3.24% Strategic Stake In tinyBuild&nbsp;&nbsp;Pulse 2.0"
+    },
+    {
+      "date": "2026-06-30",
+      "type": "Investment",
+      "title": "Griffin Gaming Partners invests in TinyBuild - GamesIndustry.biz",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwREtwSGJYcmtnWGlSamtXZ3ZaZDhMazJ3Y3A3Z0V1TDg4SmIyOTlrV0tvRkI2V091WXFlbDVzS01EMlViWDdKYmprY3lSUHV6cVRZdUFtdktJSnQ4TzFtUXBrdmloQVZQVzVXZDZhZk95TVl0YU04SnJIR256Qlk?oc=5",
+      "summary": "Griffin Gaming Partners invests in TinyBuild&nbsp;&nbsp;GamesIndustry.biz"
+    },
+    {
+      "date": "2026-06-29",
+      "type": "Post",
+      "title": "Griffin Gaming Partners Acquires Strategic Stake in tinyBuild - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNWpxd21HMWdSb29RR21OZllRV1pJT0RCaEdFQU40TUt5X2ZlUGpTWGoyaEZvWGpxaVRWbUJGbTRKN0ZDelhhWkJtNXo5Q1RSMzI5Z2dwSjRNalp4SUJoSU5lSWlQb0xMdWhuN1BYWU1JNWxEbmhJbUxqSTh6U2hvTWVFQ3M0QlB2eWxVeV93ZlZ6UXgtaWpKSkJsakNraGl2QjREWWx2OC12aVBSZTlhelBITEVyUGJKN2c?oc=5",
+      "summary": "Griffin Gaming Partners Acquires Strategic Stake in tinyBuild&nbsp;&nbsp;Business Wire"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "Investment",
+      "title": "Could AI bring investors back to video games? - The Game Business",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WbWhDRm5vWlA0T0gzWmE0TmtfYzdPMFd6T252NlRsSldTX1poX0ZTb1ZQWjd6NTl3WHV6ZnlOS2NXR3BSWmpNcjNWNUJtaTNVRUZJM2k1bTRWNFBoQ2VEX2JFMm5kZDhETkwzM3hFNXR2cnAy?oc=5",
+      "summary": "Could AI bring investors back to video games?&nbsp;&nbsp;The Game Business"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Could AI bring investors back to video games? - The Game Business",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WbWhDRm5vWlA0T0gzWmE0TmtfYzdPMFd6T252NlRsSldTX1poX0ZTb1ZQWjd6NTl3WHV6ZnlOS2NXR3BSWmpNcjNWNUJtaTNVRUZJM2k1bTRWNFBoQ2VEX2JFMm5kZDhETkwzM3hFNXR2cnAy?oc=5",
+      "date": "2026-05-14"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Scott Coker creates international MMA league with $60M in funding | exclusive interview - GamesBeat",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWnluZXhJdEx3amRzOTBLTjh4TnFLY2s3ejVaN25ZS0tiUXNBVDBlZUZrWHFtWGg2cHRPaVYtYmFpcmEwWGozLVNKcUEwYWVuMHczOXEtVHVQWG1yMGJNQkZXY2pCRjB1c05MNXVMRWRraVFBTG9TMjFYZktrM0VUeXZNMVUyQ2dyMlJYVGptNHVzVUFRTlJnTmtyUGFCeGp4S3RNdE92RGJza1k?oc=5",
+      "date": "2026-05-21"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Griffin Gaming Partners acquired a stake in tinyBuild - Game World Observer",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZzIxajEwRDhOQjRfQ3lPOTh4bUNtMm52dUw2NktfYWVTbF85LWdFeEpJeVU0OTE4Wk9lS1JmdnJFVzBKTnRnVmFVMFEta1lFSW8xX1U4NjdDYkVpcWV0Y2JWdHBkVl9DaDJlSkt4bUttUkRGUXprT1BmSDdoYkxoNXR4cGZQY2c0MlFFYVViOS1XMklUQzg2d0dn?oc=5",
+      "date": "2026-06-30"
+    }
+  ],
   "people": []
 }

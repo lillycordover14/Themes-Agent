@@ -23,14 +23,30 @@
     "x": "https://twitter.com/EnergyImpact_",
     "linkedin": "https://www.linkedin.com/company/energy-impact-partners"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-26",
+      "type": "Post",
+      "title": "Form Energy - 2026 Funding Rounds & List of Investors - Tracxn",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeFVNckFISWdiVTVjQ0c0S0Jkb3IxZUo2cktfWlJEeVQyUlBoTjk2MjRKMmV5QW93aFl6NFEybG42WS1mTlZhWFRSTDR4UVBYV3VHWUc2WHNfWmtLOHNlckhvWk5kYVFKOEZSN1VybmFLVFlBeGphRkQ2Rko3S1FaM0RvRG9VRGJpc3lFS2JLNVZIbkE3UWJjOGFIY3RSaTJpcFEzMHlhNFN4WS1adGFz?oc=5",
+      "summary": "Form Energy - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Andy Lubershane",
       "url": "https://steelforfuel.substack.com"
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Building inference data centers on the high seas - Latitude Media",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPekVNcUE4VWVBbzA5eTZsWnllX1lDelQzRlZMRHVTbzZEN2VXdTNVdExOM3JVZE9xYkVrT3hNUVEtMElFODlTZTA2ME5ieXlaaGxTX1RaVkdTOWs3SlRtSU5RaEtzaTRnNlNjT3RlSUthVUZSRW9JenRJX05OLUlJcEF4eGtYTklWeVE1bDNPQWlJd3R0M2Jaag?oc=5",
+      "date": "2026-05-28"
+    }
+  ],
   "people": [
     {
       "name": "Andy Lubershane",

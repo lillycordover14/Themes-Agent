@@ -29,7 +29,15 @@
       "url": "https://bradleytusk.substack.com/"
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Watch CNBC's full interview with Tusk Venture Partners' Tusk and Space Capital's Anderson - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdS1uekJXaEVEdTNxcGtZeE9KNFZRaFhlR3prZHdpUWp0TUxxUlhrckRpeTlPMDdtQ0M3T2hOYmxOUVNWMDhkOUtjUGVFak1xTzk2WkF0ZlRNTDlEYThWeWpwaVB4ZEVLejFhX1hHMHBycng4WjFTenk5UnN0Y3hMYlBrVFR1VUlfSTZ2WWJLT2ljbXN3NlpXQ3UyREJLRW0xTjU0Vk8tYTQ4WUVoeUJ3ckpJSC1pdUpfUVdPN0lTY0NFNU1jb0xETQ?oc=5",
+      "date": "2026-06-12"
+    }
+  ],
   "people": [
     {
       "name": "Bradley Tusk",

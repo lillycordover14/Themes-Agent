@@ -23,6 +23,14 @@
     "linkedin": "https://www.linkedin.com/company/pelion-venture-partners"
   },
   "updates": [],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Primitive launches AI agent operating system for financial services - FinTech Futures",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT0tCSkJWNzNDVHdJcU9uSWpJbGxtQmRvV2JFWTRSOFQ2bDZ3ODlIQUhGVEx3OHJnemxIX0l3bzVING5Ndk5HXzBKR1NrN3p6TEd5dnFXd1ZMemVwY1g2WXhVTnlvVmlRbkVfTEdCR2tUQlVRTjlmMVVVU2F4dVBfUGs1N2I4ckxFQXJMOE5HTnJnYTBEMnhBaGlINGh5c0VoeEdmNkpIXzd2ZzJCV1BTczZR?oc=5",
+      "date": "2026-05-25"
+    }
+  ],
   "people": []
 }

@@ -21,7 +21,22 @@
     "news": "https://news.google.com/search?q=KittyHawk",
     "linkedin": "https://www.linkedin.com/company/kittyhawk-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-30",
+      "type": "Post",
+      "title": "Base announces special holiday operating hours for July 4, 2026 - wpafb.af.mil",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcF9wX2pCS0RBUEp5TTdIZFNFYlJIWV96M2Jfd3BhMDg4eE5hOGlxb3JBcWlSNEVxd2xueDdQLXNxeUhpeV8zWUN6SFQ2MEl1b1FlR3RkNHhKdDVjc3lTRUdUcDRCYzVrSVFmZV9jVGZpNlhZTWxmcV9TQm9KOVNPRjZyUWJtTW52eVRHb0xnWEkyWjN1M09hZFdsbzF6dXRfRDBSa1FRYnBXbVdVQzRvZmtfVDFZeGluSnNCelVXVkRrRlk?oc=5",
+      "summary": "Base announces special holiday operating hours for July 4, 2026&nbsp;&nbsp;wpafb.af.mil"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Post",
+      "title": "Base announces special holiday operating hours for Memorial Day - wpafb.af.mil",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT0E5VHBzY1JCaURFQ3FLN0hDRk5iTHlMQW9TRUNrYjJtZ18tdkt5VFdmeDBNVXNrdVBPYTlNenVJSFRmcG43MmhfdUt0djVJVnZxQ3Buc3dnZm55R0NSQ0wzNUhiNlBpZVVFSE9NX0xQdXhSbW9NTG5SSTYwQXV2UFFOQ1RTckNHdENnT1FQazgyZWFEYlBua3hRaUNwcVRVVnd3TnFWVk9uWEI4X2RLRVdvMG5xSzk5QXFCajVkdTdaeHRF?oc=5",
+      "summary": "Base announces special holiday operating hours for Memorial Day&nbsp;&nbsp;wpafb.af.mil"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

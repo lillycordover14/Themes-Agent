@@ -22,7 +22,30 @@
     "blog": "https://www.glynncapital.com/news",
     "linkedin": "https://www.linkedin.com/company/glynn-capital-management"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-16",
+      "type": "Investment",
+      "title": "Flutterwave raises $250M Series D, valuation jumps above $3B - CryptoRank",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5pb28waUYzVldCQ1ItNlNZekZ0THVsX0M5aDhKenNXMEdUYXBvNERwYUZRVk9saGFrMElHbFhRWmt2NThQaU1GWnppUTR6RWNKcGh1UFloV2VyUUk3V2dVbFZ6Nzd5UFdtQzNjdDZaNzNjaDlBYk9vY3AtYw?oc=5",
+      "summary": "Flutterwave raises $250M Series D, valuation jumps above $3B&nbsp;&nbsp;CryptoRank"
+    },
+    {
+      "date": "2026-06-06",
+      "type": "Post",
+      "title": "Lyra Health - 2026 Funding Rounds & List of Investors - Tracxn",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUGJMSkJOSUtJVFpLOUVuNnh4eGtlS1luRzA3RHpJaXJpVjhzV1FjTGxZZWx1N013Tlk1M0UzQms5eUhoaU5VSEVoNy1fb1ZhQS14QjdrMkdUck9Wb0lHamlHRjhBdVk2VWpBRG5XMjhlTFJ3c2ZUZ21icjZscXFDdjl3ckxXSUFiMmxTX0V1U2Z0RjVvajVLQjcyejVCQzQ5NWllaWdDTF9MMjJzM0E?oc=5",
+      "summary": "Lyra Health - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Penske buying what's left of Vox Media - Axios",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QS0tqci05dUJWLXJUY0Y1ZDctcE92NzdoVGVvZ2VlMFJZd2F2ZEx3TlIzZkxHZ18ybjVNemNXSFVMS2RqYlJJNmtuVVVCNnNjZko1VzZ0bjdnY2gyRXc?oc=5",
+      "date": "2026-06-22"
+    }
+  ],
   "people": []
 }

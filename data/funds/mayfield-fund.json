@@ -23,7 +23,15 @@
     "x": "https://x.com/mayfieldfund",
     "linkedin": "https://www.linkedin.com/company/mayfield-fund"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-27",
+      "type": "Post",
+      "title": "Navin Chaddha - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RcnpaVjZZUGlGSXZPR0VEQ2lnWVpjQzZ2VnJDSzRrTXFWaUNKMi1Gb2o5NGp3QjRKUHNlZ0RDVGJ0ZnRDS3dSR2Rmci1tZTVyNXQyN2hqSzU?oc=5",
+      "summary": "Navin Chaddha&nbsp;&nbsp;Forbes"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

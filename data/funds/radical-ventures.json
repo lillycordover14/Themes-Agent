@@ -23,7 +23,72 @@
     "x": "https://x.com/radicalvcfund",
     "linkedin": "https://www.linkedin.com/company/radicalventures"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-07-08",
+      "type": "Investment",
+      "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVWs0Y0htWE03N0JMbjZ2czFUUHozVm5pV0Fya3hJMEtjM3ZwRTJxNjJHN29XaDg2bG5rWmFVcHRuSjc3SGhJOGRLOU51aXBzYTdjVGhKVkZuT0dlakotaWMzQnl4c0dwVk1fQ1hKUjFiYXRvdTdpeFpmRkg3OHV3MFNPajJTUHA4eldKMG5JM3dTQWM1emlROUxTOUZMdDlqLXRmMEdod2wzQTlvazBhaTZNZjB6enE2?oc=5",
+      "summary": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents&nbsp;&nbsp;TechCrunch"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "Post",
+      "title": "Radical Ventures - CryptoRank",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01VGFiSWJWak1ubUZCSlMtR2hWWEQzTDhsTFU2YWpEMFFRRWhGYkdoWlBleHdCSGtUMjRYSU5ZX1BLMTBuMzAteldHanYtX3VCNnBvOGxsdw?oc=5",
+      "summary": "Radical Ventures&nbsp;&nbsp;CryptoRank"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "Investment",
+      "title": "Prime Intellect Raises $130 Million for Enterprise AI Agents - Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcGhyX3RVUU9tYTZ4T2g2dGN0dzA4cWR3bkZTdF9mS3dCX2ZNeEVhM1BmQWQ2dHZ5R2lVWndFSGk4dzBQRU9jdm1HYVh3NkRxY0ltbnJUUFNoY1FMTzMzcTRpNllOZGFybWhkSGRKdFc5RExtY1RuSktQT1BSaE1NZzI4Rjd0V3RFSGdDeTZvMFo?oc=5",
+      "summary": "Prime Intellect Raises $130 Million for Enterprise AI Agents&nbsp;&nbsp;Startup Fortune"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "Investment",
+      "title": "Generalist AI raises $400M at $2B valuation, backed by Nvidia - qz.com",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBTLTJuUnkyMnBLZ1A4ZlIwbmdIbHYzZkJGdWhtVGFodENvS2I2ZVdfZ18zT0lyV0FuZWZ4blAyZkNWbWF5cWRiT19RazBYbjN0anBRUE12SnRaTERBcHJYbW52YzI1djhmQ0lmMXpaN2RXd1k?oc=5",
+      "summary": "Generalist AI raises $400M at $2B valuation, backed by Nvidia&nbsp;&nbsp;qz.com"
+    },
+    {
+      "date": "2026-07-01",
+      "type": "Investment",
+      "title": "TwelveLabs Raises $100 Million in Series B Funding to Build Video Superintelligence - GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMEM1TmdMSUpZVVBCUjNZeTVIbTVoYjFtd252eEZBb0libkM5YWtJNHJtQTlTckJPTHRFdTUyLUh6aVJkU3Rma0tKODQ3Qy1qZE9FX2J0RE00OTYyTFBDYUtIdGFmLTVTRXJXTURuazZtTGdoLTg0NFd1ekladTQzcEpVMWJhTDFIWDZaUzBoOXRXRmFYY0JEaUd6cFZabVBLbVB0WHU3Y0RWTW1LUWFaVTFNMHF2aXR0T2xwSWJ5ZkRwNzRrYVZDcVNPUkpWY1dZOGc5OUhEeFJCLWdKdWRfT3lScE42Rktwdnc?oc=5",
+      "summary": "TwelveLabs Raises $100 Million in Series B Funding to Build Video Superintelligence&nbsp;&nbsp;GlobeNewswire"
+    },
+    {
+      "date": "2026-06-04",
+      "type": "Post",
+      "title": "Nvidia-Backed Robotics Startup Generalist AI Valued at $2 Billion - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUkl0dWo1cmVmQTAwa3FPOUlhUGdKUU45U1N0STUxWEtodnpqT1FnaHlGQ1ZNTFo4M3d2S3IxSGFYVHE5X2hZQ05rMUFZUFYtQ1g5Wjc4MVhsSW40SVBWS3otU1hBMjRlOWRaZFZaM2hVMTd6elFPY0pSa2V0V3F5XzlrTVhRT1lzcEUtRXhNLVJtZV82QmJvUFY2OUFuZ3FVNDFSYUxFSFVnbHpzZ2k3YkJ5TGh5QQ?oc=5",
+      "summary": "Nvidia-Backed Robotics Startup Generalist AI Valued at $2 Billion&nbsp;&nbsp;Bloomberg.com"
+    },
+    {
+      "date": "2026-06-04",
+      "type": "Investment",
+      "title": "Generalist AI raises $400M in funding round led by Radical Ventures, hitting $2B valuation - Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5uTGJaRThJZjRPZGVNaG1oUHF0b1ZOdF9Sd3NKTFB0cGI2MUctYU11UWl4UTVMc1dNZ1RxeEUzMWJJdUU0ZXF6Ui1FTDBfUnNCcjkzQVVuTXlodGJtbzdDREp4ZUNqLV9EZWNKR2hseGMtcW11enNSRU93?oc=5",
+      "summary": "Generalist AI raises $400M in funding round led by Radical Ventures, hitting $2B valuation&nbsp;&nbsp;Crypto Briefing"
+    },
+    {
+      "date": "2026-06-04",
+      "type": "Investment",
+      "title": "Generalist AI Raises $400M in New Funding to Develop Physical AGI - AI Insider",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcFN5NkZ5S3NBZkc0UFhaQ2hwTXcwQldRZ0QwUkJNdC16WEdsMVJ5V1AyczNqNGVWYVhYNXJBZGsxS2oweUVMR1JZTi16NUZ5Q2hYSzVEcDNISFdjWEZWZmdhVFVlX1B6NzlUbjI2T0x2ekFlLXh0eHIxZUk0amhZNHNkTVRDZ09IVHRTa1JJdnNTQzE3M3kzbWNoU3lNZlNsN2U3cQ?oc=5",
+      "summary": "Generalist AI Raises $400M in New Funding to Develop Physical AGI&nbsp;&nbsp;AI Insider"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Exclusive: Orbital Industries, startup using AI to discover exotic new materials, raises $50 million Series B funding round - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUXU4T1R3dWFtTF9KNUxBUzduWVR1UDR3LTBzdUtBRWlMWE9kTl9MZUgwMl94Skg5Yk52ZXNSUkppSllES0RhUl8zQk1PYkVMbHNHOW5EUFRRbnVMTldiQzdXY3JpYUtpWnFpWk1wUE9VOGJwT0JpclI0YkNTa2oyay1rNTdmLXVBX2xZZ1I1RklPN1o2ckZ3QmUxSGFLR3ctajNiRHBxWEpuZnBDZEhKMmtoODVSbHlMR3kyQjN6WUQxRV9jLXNFcl9BQjNwc2lFWUtv?oc=5",
+      "date": "2026-05-28"
+    }
+  ],
   "people": []
 }

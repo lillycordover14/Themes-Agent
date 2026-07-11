@@ -23,7 +23,15 @@
     "x": "https://x.com/deviationcap",
     "linkedin": "https://www.linkedin.com/company/deviation-capital"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-01",
+      "type": "Post",
+      "title": "The Big Apple Is No Longer Big Enough for New York Venture Firms - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa24tVE90T0ducEM1UEdTZ3pVMVdub0UxYnlZdjdUZm9FdTJCaWVBUktYcndpSDBQNTFNRHlBN2swWlVaUERMb0xCZzdYYktwT0x4T0tPWkxnWldKQ2tKWndObDdRZ3Y5eVNRdl93R3FOT2l3a1pxeVRZYlMwZ01TSnRFT0tKcnRaQlFoZFRfdWJXRTRudU1vdTlNc3hGVGxaV2dtUXN2R0Q3ZzlHdlNpUXJGNA?oc=5",
+      "summary": "The Big Apple Is No Longer Big Enough for New York Venture Firms&nbsp;&nbsp;WSJ"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

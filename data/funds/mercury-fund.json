@@ -24,6 +24,14 @@
     "linkedin": "https://www.linkedin.com/company/mercury-fund/"
   },
   "updates": [],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Stablecoins Are Creating a New Financial System - The Block",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNUhucVF6N2JMSzVnaU4tNVpnWFBRVzV2bkFvclk1R1FKZE5Zc05ZMTB4ejdGNjBlMUJpZWxIZ0c1VmZmT3p6aUo5TWVpdjQtckFWSzFRYTBRS0NyZERaYTd5c0V6NGVVUjZSY0F0d1gtWjI3Z3JCLWRTRWJBVUJZa3A1bC1qcHJiYVhv?oc=5",
+      "date": "2026-05-28"
+    }
+  ],
   "people": []
 }

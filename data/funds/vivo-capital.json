@@ -22,7 +22,30 @@
     "x": "https://x.com/VivoCapitalLLC",
     "linkedin": "https://www.linkedin.com/company/vivo-capital"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-12",
+      "type": "Investment",
+      "title": "SonoThera Raises $125M to Develop Ultrasound-Mediated Genetic Medicines - Genetic Engineering and Biotechnology News",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVh4bGVxN3k2T19vWWVXeDRWcGtWaXJtRERqTTlBbE1TMzlBV3Bma3Q1OFJXUXROdS1fZmpKOGV5S1VVYWlmVGloYWt3YXZZbHA0NEIyR1BLTkNsaEVjRWRIVUt6WmpGSlNFR2w2c2F3VEF1aHVrVHl1TlZUcER4UWxoNzIxOE1iTWxmeW03QVVlbm1zM2JYUE95LU84NkUwZW5OcENVeHQxVnVtZEVoejJPTXlVSDc2cEdOeA?oc=5",
+      "summary": "SonoThera Raises $125M to Develop Ultrasound-Mediated Genetic Medicines&nbsp;&nbsp;Genetic Engineering and Biotechnology News"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "What Prompted Vivo Capital's Exit from Cidara Therapeutics - Kavout | AI",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN1Z6bk1DNlJhQmd0dW1CRGFaV2U3MGdUOTdzbzBVaDZfZ2hFcmRTMmdxVDBmRjhKTE53aVREeEhMWnV0VXV5cVlCc0hCZFF6NTBkS3d6LVVZYl90ZGc1dXRCU3VXYURKSzdDTFY4S25JTl81VXBWRnhYRU55U1JzbDRqU3ZsMTJyOXczVjE3TmNIUmhKQlNzbg?oc=5",
+      "date": "2026-05-16"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "SonoThera Raises $125M to Develop Ultrasound-Mediated Genetic Medicines - Genetic Engineering and Biotechnology News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVh4bGVxN3k2T19vWWVXeDRWcGtWaXJtRERqTTlBbE1TMzlBV3Bma3Q1OFJXUXROdS1fZmpKOGV5S1VVYWlmVGloYWt3YXZZbHA0NEIyR1BLTkNsaEVjRWRIVUt6WmpGSlNFR2w2c2F3VEF1aHVrVHl1TlZUcER4UWxoNzIxOE1iTWxmeW03QVVlbm1zM2JYUE95LU84NkUwZW5OcENVeHQxVnVtZEVoejJPTXlVSDc2cEdOeA?oc=5",
+      "date": "2026-06-12"
+    }
+  ],
   "people": []
 }

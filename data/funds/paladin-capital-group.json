@@ -23,7 +23,23 @@
     "x": "https://twitter.com/paladincap",
     "linkedin": "https://www.linkedin.com/company/paladin-capital-group"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-03",
+      "type": "Investment",
+      "title": "Arpio Raises $15 Million to Advance AI-Native Automated Recovery Platform for Cloud Environments - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWGxBcTRwOWZYMnV2QkhBUVF0VjExREUxTUQ4RW41azFOUmN4V1huem5BZzhCQ1lJNGlpYW9lM1MzU1ZDN1AxZ3lFNjYtY19id094NmkwTnVkQzhRTWplS0RzUkthSEMyRmotSjFRR1B2dnBJSjM4VERFMWM4d1FGS3VKd3dFNmVIck5UV2pNa3dQc2p6TW1yNnUzb0p2WGt4YXBzTE02NFk0dUx4NW55MTB1Z091Ni01MjNITllEa3RyOVFFbjF1QXEzTU9KZzhTbEdHVFhrNDdINkVpc2tUZE9yWnBaWGVudHZ3?oc=5",
+      "summary": "Arpio Raises $15 Million to Advance AI-Native Automated Recovery Platform for Cloud Environments&nbsp;&nbsp;Business Wire"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Former spy-chief-turned-arms-firm-adviser says military AI can be moral in shock to nobody - thecanary.co",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83ZE5DXzlOeVF3ZlRSd0t3UFBQenJwVWR4dENoS1ExYlZBTVBOWDZrOU94VTZvaWtCV2MzLXBmVzJvcGFWSXdLNkdSdUlGUTVpYTgyRFVjWV9zeWRhdGpzaHZac1hpUEdqdEk4NFBfWDFlX2tr?oc=5",
+      "date": "2026-06-04"
+    }
+  ],
   "people": []
 }

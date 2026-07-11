@@ -30,7 +30,15 @@
       "url": "https://www.mattturck.com/"
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Watch CNBC's full interview with the 'Closing Bell' Panel - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ1FldVcxVzlvcTdZckYzb0dQRmJ2QjlEaFRaRlduWF80ek1NdTRPbktxanpVSk1SdlRFSGx4bmJqVzV1VF82RlRCYUQwdlJGOFFMODhfbVN2b19FY29UeFI2QWI1d2p2MGZza2p5Nmx0c3VaNzFGS0N4bUN0RnBOSEdENHNLMlFfN0N4MnF4aVNvTXBNaGMxZ1prQVhuZw?oc=5",
+      "date": "2026-06-12"
+    }
+  ],
   "people": [
     {
       "name": "Matt Turck",

@@ -23,7 +23,15 @@
     "x": "https://twitter.com/polarisvc",
     "linkedin": "https://www.linkedin.com/company/polaris-partners/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-01",
+      "type": "Post",
+      "title": "Polaris partners with public land foundation to support OHV access - Powersports Business",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWZMLXZ3ekVMNVZ6S3piT3ZoZm9xRk5kUEFpUUs3dWlQb2hzRGNJYklWRXJhSk13Vlp0cWdDMmlwOTJZYnpuV1NpcmdXUmVoWF9PcGZaQ2tpYVJRRWlOdkpfU1FEdHJDN2h0X1BRT0w0WVVucTFVUEI0VGxvQWJxU3NTcG1VMEVoUGxGZWgzTU5WdGRzNHlqMnI5aDVjTkJEMkxzMVJHWGVCX0FJaThzSEQ5cEVSdw?oc=5",
+      "summary": "Polaris partners with public land foundation to support OHV access&nbsp;&nbsp;Powersports Business"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

@@ -24,6 +24,14 @@
     "linkedin": "https://www.linkedin.com/company/epicventures/"
   },
   "updates": [],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "SewerAI Raises $15M Series B for AI Sewer Inspection Tech - Causeartist",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeHV3S1ZuT2ZJeHBVcEIxX1BaU3N0eXlXdWZoVDNsR01NdHB4ejVWWmFheDlYZ0VZNGxfVF9PV0VjaUpPTjNFNVNYWG9YOTROOUdrbjR5Nlp3OTZVYV9mQ19GTzJjREY1TEtPSEdHZmhBOUFXSUVXcnY3bUdWQnlBRQ?oc=5",
+      "date": "2026-06-03"
+    }
+  ],
   "people": []
 }

@@ -24,6 +24,21 @@
     "linkedin": "https://www.linkedin.com/company/goodwater-capital"
   },
   "updates": [],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Chi-Hua Chien saw Facebook coming — now he says the real AI winners won’t be selling AI - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRkVfT1lVNWdrelFaUGhhVUUtSjRaWGtQNWhBdWZhM1dKREdKaUVBS2lXdjAwdmlKaWUyRDROb2d0NHkzZTlndnlNYVBNMVZYdDlHMGpFenBZSFNJWFpyQkw2a0xTcjQtVjFrZDJab1VxcHZWQW1BZTRZdWpKNm4yVkFKZ1piYm41a1V2N1BjT2ZldGw0Q2VMa2pseWU4dG16cG44QzJNZnNQRDlScldVMDlXWTJOaHFYXzdF?oc=5",
+      "date": "2026-06-17"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Goodwater Capital Releases 2026 U.S. Consumer Survey That Tracks AI’s Growing Role in Everyday Life - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV1BHVnY0WXB5WkRCajZ3aGdJa1BWWWUzMGdnVnFXU2U2TFpvSGVHbTN2VUd6a3hVYnM4bEpTZjRpSTd6c1Y4TEJLMWs1Y05kWGdZV00zMFpXektMOW5VMW03S2ZsbTBid2dWdXFxYmMyUlpjdWNOZXVmcGJhbXhESDhZVQ?oc=5",
+      "date": "2026-06-08"
+    }
+  ],
   "people": []
 }

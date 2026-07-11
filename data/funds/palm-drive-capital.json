@@ -24,6 +24,14 @@
     "linkedin": "https://www.linkedin.com/company/palm-drive-ventures"
   },
   "updates": [],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Dr. Henry Kang, Founder and CEO of Clipto – Interview Series - Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMmJvekd6Zzl1Vy1Gb1pfMEZUVWxQUkxXMk1RZnVUeEdwN1FjMFB4T3FLMlB1LTFBSzBkZDhuQ3VoWVJJa3JKT0JaR3lLcEotWXRGRWZsUjN3SHI0SXBfX21HUGtDLThsU3dRelFPYU9HTE5MVUlYbFpGMlZ0YlJtVFJVejE?oc=5",
+      "date": "2026-07-10"
+    }
+  ],
   "people": []
 }

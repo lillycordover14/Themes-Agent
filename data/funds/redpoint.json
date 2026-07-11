@@ -12,6 +12,20 @@
   },
   "updates": [
     {
+      "date": "2026-06-05",
+      "type": "Investment",
+      "title": "Collate Raises $95M to Transform Life Sciences AI - Ventureburn",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NckY3a0EydThxY3UxdFVsME5uVVFDRm9xaTVOWV96UVZKUWNDRE1KSzBaMHBZUTQ2X2p4YnRGS1RvcHVKbXAtOVhLOEVrc25uU1JRTlRYZkNoc0pxc2xadVlPR3pEQjFoM05PWUxCeGJpOFNMUXZNcmpWaVFhd9IBfkFVX3lxTE9NckY3a0EydThxY3UxdFVsME5uVVFDRm9xaTVOWV96UVZKUWNDRE1KSzBaMHBZUTQ2X2p4YnRGS1RvcHVKbXAtOVhLOEVrc25uU1JRTlRYZkNoc0pxc2xadVlPR3pEQjFoM05PWUxCeGJpOFNMUXZNcmpWaVFhdw?oc=5",
+      "summary": "Collate Raises $95M to Transform Life Sciences AI&nbsp;&nbsp;Ventureburn"
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Post",
+      "title": "The AlleyWatch Startup Daily Funding Report: 5/28/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVNvc2ZSNGFBOFpVU0FBNHY5cHptamlyWURGYmJxb2pYUU15cVdwMERHakFxbTJkX3JvU0twSDF2YlNOOEZaOGNuWk1jb2ZTbEQtNTNxRHdBbzZETE1MYmtSbzYyV3lLRFREcWs4MS1mc255a3ZSUHRhekg5WjFETzRpc2tZMGRGX1R4Z2NR?oc=5",
+      "summary": "The AlleyWatch Startup Daily Funding Report: 5/28/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
       "date": "2026",
       "type": "Thesis",
       "title": "From Pilots to Platforms: Picks for ’26",
@@ -38,6 +52,14 @@
   },
   "region": "Americas",
   "pbid": "11281-06",
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "OpenAI and Anthropic are racing to hit public markets first, says Redpoint Ventures' Logan Bartlett - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaWhCNTFjR2VHaXBLcGpHWnhiTVpncHV1Sk1TZHZLWjBhVUlER0FDTklKSzE1WGtDSzRWUWFzUWd1bjBzLXpxYWNrQ3N4VnR0ZVJnejVWRnZ6b2VHNFZBX1JvczJ5M01ya3hBTHVoVUFhYkpFZldrMjl3M1RmX00yeWFrMHk5MDZicWFDaHEyS3daU3R2NTY1SUxfSDFYMXh1eGdJRDFaZmlvZnZ0R0JNSFlWdExYT2NPWmY2dnFHa3J5bkJpY0toSlBSaW9VS0lrTXlDbTJtYw?oc=5",
+      "date": "2026-06-09"
+    }
+  ],
   "people": []
 }

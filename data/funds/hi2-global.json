@@ -21,7 +21,29 @@
     "news": "https://news.google.com/search?q=Hi2%20Global",
     "linkedin": "https://www.linkedin.com/company/hi2global"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-25",
+      "type": "Investment",
+      "title": "Revora raises $2 million to scale AI-driven conversational commerce across MENA - Wamda",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVXBQVUJIUVhWM0xRWE5KWHcxWlFLdDFoaFVVQXQwV19pNGhGZHl1OFJKRXZYUFZyQ1kzS0Zwa2pzNFktZEdUWXhkNVVNRV95aU9Hc2RtdnBIZzRRYXNsTWU1dVJLbHpJNkI5R0w3MDBVTGxsMm5jR3d0WUE4VXlfNzljR3NBdnBnSTViR01wTllxamhNMG94UEZtZUV4U3c?oc=5",
+      "summary": "Revora raises $2 million to scale AI-driven conversational commerce across MENA&nbsp;&nbsp;Wamda"
+    },
+    {
+      "date": "2026-06-25",
+      "type": "Post",
+      "title": "Pak-Bangla Startup Revora Secures $2M Seed Funding for AI E-Commerce Platform - TechJuice",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM3hOZE15eDZ3Wk5NTEpfUlVIQjZrSGViTG10UE5CenFDc3B2SnFDQkdiRWY0aFZmVXRRY2NSRlpzaXpDZjNla0RBYjc1ZWJnZnpMdkxaSll5ajVQZUZqejV5M0RtRXd1MGhhV2t3WDA2aDJIQ3pPeV94aVJmSFBqUkV3NlNJYzNfYkFCRXFkeWpxTG1Ga1J3cFZLazFmeGV4OEs5Sg?oc=5",
+      "summary": "Pak-Bangla Startup Revora Secures $2M Seed Funding for AI E-Commerce Platform&nbsp;&nbsp;TechJuice"
+    },
+    {
+      "date": "2026-06-24",
+      "type": "Investment",
+      "title": "Revora, formerly MyAlice, raises $2 million seed round - The Daily Star",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcEVLQkU2V2tNc1VZQ0lMaUstTElYMUpreXFaZVZKeFd5MERGbllIQTVJaTZ6R3BoNUIwYmJ2Vkd5cTU1Q25hREV0eUx0WW1SMnVjOEZjd1VUTDNiblM3aUVyUDV3U0dFa2xUbng3WnM5WmpDTFcxS0ZSZnl6dnFLbHd3N0daMW4xZUdHdkRma2VXTExjczRvMm1vek1zSGZRZkpuQWxRTlZvQ3V5MVFlRQ?oc=5",
+      "summary": "Revora, formerly MyAlice, raises $2 million seed round&nbsp;&nbsp;The Daily Star"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

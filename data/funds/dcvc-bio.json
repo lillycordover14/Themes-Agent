@@ -23,7 +23,22 @@
     "x": "https://twitter.com/dcvc",
     "linkedin": "https://www.linkedin.com/company/dcvcbio"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-22",
+      "type": "Investment",
+      "title": "Syntax Bio Raises $14.4 Million Series A And Announces Leadership Appointments - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMDF1a3NzdVhzRS1CVVNRSTctRno5TkswWXdmTWFjMUg3bUd3MTJaZkZ5V3RjUjhwelJEa0FybVlRZHlSV3ZTTlR2UXljTUJZcnhKcFdISzBrSXBZSnZGVDdvbXpvTFBjWGtrX25EaUdCZ3FrYW80YUZyQ2RJZGxLNUhkSFMzMEk0ZFlqSUJoVjRLdUt5LVVEeFVXSmoxZ9IBowFBVV95cUxQbWMzdy1lUVF0TnBlc2JzZEFyellPclE2bHhiMXNzLXhDY2QwdmxEcGpWczlOVkk2MERpM3hkYkxSLWdPLTI4THBjVUpVemNORG1EN3dCdFVpaUJzRU51U3JSRFVqQ19KZnNVQW1PY0ZHYlplNkpzRE1EdkJoX3ZmWXdtYnpvV1F1SXRaTklTbUNQaGJYNWRhcWVBV2xJeC1ZTFRr?oc=5",
+      "summary": "Syntax Bio Raises $14.4 Million Series A And Announces Leadership Appointments&nbsp;&nbsp;Pulse 2.0"
+    },
+    {
+      "date": "2026-06-21",
+      "type": "Investment",
+      "title": "Syntax Bio Announces Expanded Series A and Leadership Appointments - BioSpace",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNktVYk5NdzRBbEZyVmhmV2dvR2huYVhHT1JlcTZyYUhWWlo2XzlEcFhNcFhKZUQ2U1BQMENjSE9RajlQYkVvaDZOc1BESHJ6SU81RDBaM2pVRkhodldhQTB2Um9UZldoMk1naUw2bGJzOTJPbTJWOUlsQmJjTHdqamFwZGpZYzBaanNxenZCeUVfeGFjd0hPellCM0JrWGZ0TUFaM1c4MnVhdw?oc=5",
+      "summary": "Syntax Bio Announces Expanded Series A and Leadership Appointments&nbsp;&nbsp;BioSpace"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

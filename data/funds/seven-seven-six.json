@@ -22,14 +22,30 @@
     "x": "https://x.com/sevensevensix",
     "linkedin": "https://www.linkedin.com/company/sevensevensix"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-23",
+      "type": "Investment",
+      "title": "HaloBraid raises $7M from Seven Seven Six to end the six-hour hair salon appointment - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOWtjYzFLUW1MR3ZITV9VWk9IdjdjRmNZZENyY0RBSFdjQ040VzZSNHhQLWRDM0RvYlJtMmpkeGw1RUdST1lKVVRrY0c1dFZMMlU2aDJ1VU1yalBkUTl5dTFXV2JHdDVvdks0RjJBdW5RRFRHOFZpT0NBNy1BNFpmT0ZhNG5BbjgyWmUwbWVzVnY3TC1kb3RqUWhHZ3NJVlk1QU5zbmExQU5YdHZsWmtiUjZMRGw5ZFdZMGc?oc=5",
+      "summary": "HaloBraid raises $7M from Seven Seven Six to end the six-hour hair salon appointment&nbsp;&nbsp;TechCrunch"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Alexis Ohanian",
       "url": "https://alexisohanian.com/"
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "New Episode of JaneWallStreet’s At The Table: ATHLOS Acting President Kayla Green - Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQS2ZZVUVOVmoxZlZHREFjbUVUSTREUFZ1VGluRmt5YlN4d3VRZFpHald1OG5RaE1DMUpsc0NveGJNSjNuS2JHMnpQTkxZdmtVVVlLYnVseDJ0MnYwWU1Cd2tVZVhxaloyZGpVbkVvMVFkdzlWRmhKbzEtSU81c2dNZmNpQnExN2tBaFdxU0FTSURGdkhqaGc?oc=5",
+      "date": "2026-06-04"
+    }
+  ],
   "people": [
     {
       "name": "Alexis Ohanian",

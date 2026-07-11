@@ -24,7 +24,64 @@
     "x": "https://x.com/canonicalcc",
     "linkedin": "https://www.linkedin.com/company/canonicalcrypto"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-10",
+      "type": "Thesis",
+      "title": "The Transistor Was the Easy Part",
+      "link": "https://blog.canonical.cc/p/the-transistor-was-the-easy-part",
+      "summary": "The next decade in chips will be won on integration, not invention."
+    },
+    {
+      "date": "2026-07-04",
+      "type": "Thesis",
+      "title": "Why We Read Papers",
+      "link": "https://blog.canonical.cc/p/why-we-read-papers",
+      "summary": "Why our sourcing runs through the lab, not just the accelerator"
+    },
+    {
+      "date": "2026-07-02",
+      "type": "Thesis",
+      "title": "The Custom Silicon Wave: Why AI Hardware Just Changed Forever",
+      "link": "https://blog.canonical.cc/p/the-custom-silicon-wave-why-ai-hardware",
+      "summary": "The era of generalist GPUs is giving way to hyper-specialized custom silicon. Here is what the sudden hardware wave means for tech moats, venture capital, and the cost of compute."
+    },
+    {
+      "date": "2026-06-23",
+      "type": "Thesis",
+      "title": "Power In, Heat Out: An AI Data Center Primer",
+      "link": "https://blog.canonical.cc/p/power-in-heat-out-an-ai-data-center",
+      "summary": "Why power, not chips, is the real bottleneck. And why AI is both the strain on the buildout and the tool finishing it."
+    },
+    {
+      "date": "2026-06-19",
+      "type": "Thesis",
+      "title": "One Model Won't Win",
+      "link": "https://blog.canonical.cc/p/one-model-wont-win",
+      "summary": "Open models are near-frontier and nearly free. The advantage just moved off the model."
+    },
+    {
+      "date": "2026-06-16",
+      "type": "Thesis",
+      "title": "AI Wants to Be Open",
+      "link": "https://blog.canonical.cc/p/ai-wants-to-be-open",
+      "summary": "In 2023, decentralized AI was more concept than product."
+    },
+    {
+      "date": "2026-06-12",
+      "type": "Thesis",
+      "title": "Memory Is Not Reasoning",
+      "link": "https://blog.canonical.cc/p/memory-is-not-reasoning",
+      "summary": "The next frontier is architectural, not bigger"
+    },
+    {
+      "date": "2026-06-08",
+      "type": "Thesis",
+      "title": "Sand to Superintelligence: A Beginner’s Guide to the Silicon Stack",
+      "link": "https://blog.canonical.cc/p/sand-to-superintelligence-a-beginners",
+      "summary": "How a chip actually gets made, why two companies can stop the entire AI industry, and why AI is both the cause of the bottleneck and the best hope of fixing it."
+    }
+  ],
   "podcasts": [],
   "people": []
 }

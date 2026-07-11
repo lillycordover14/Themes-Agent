@@ -21,7 +21,44 @@
     "news": "https://news.google.com/search?q=XYZ%20Venture%20Capital",
     "x": "https://x.com/xyz_vc"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-02",
+      "type": "Investment",
+      "title": "Plot Raises $10M in Seed Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAtZWV4Ymoxb2hPM3lUSGhNUFZGYVJubEtJWFVnV09ueGZWVFRtVEFiWkdnbUJWclVHNjlkTHlnNzRaMVJQZzNRU2UwblFPc3ZmbTFzd09SWVQ1alhqT0U0Tm51MWY5ZlZQUkdCWTFUcTc4bkRmN05r?oc=5",
+      "summary": "Plot Raises $10M in Seed Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-06-02",
+      "type": "Investment",
+      "title": "Pitch Deck: Ex-Apple Marketer Raises $10M to Scale AI Agents That Decode Social Video - ADWEEK",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOUNpNS1BRktBNlNEa093MUZtajFRTGt0M0tFT2ZpRm9uOFB1dFlNRVJfR01ReEY5dXZuQWJnZWFPaGNBMGFSak00MHdPcUJmcEs0Q3M1Vy1wX3VmZ1hlcGI3cFZyeGdObHBQWUdZSE5yd3lnY1dob1kxTEpVWmhRelE1TG9HSjUxWUk5SmRfX0NmdzBDeUJqVDhHNGVGY0d0dHYybHVuOHp6eDhPRGdzSEtndzRuWVlDaXRfWDNCZEk4Zw?oc=5",
+      "summary": "Pitch Deck: Ex-Apple Marketer Raises $10M to Scale AI Agents That Decode Social Video&nbsp;&nbsp;ADWEEK"
+    },
+    {
+      "date": "2026-05-27",
+      "type": "Post",
+      "title": "Ross Fubini - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1iQ0RiV1AtTzd6WG05ZjN1S0FKTU0wamJTbllaNHBXYzNlMXJNQzh5d2tyN25aY2xlRHNZT2VBX1dkdGlkMlBiSk1hQnJDczNTYnZsRzFn?oc=5",
+      "summary": "Ross Fubini&nbsp;&nbsp;Forbes"
+    },
+    {
+      "date": "2026-05-15",
+      "type": "Post",
+      "title": "The 18 Largest US Funding Rounds of April 2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUjdjNHU1aHdZWTRBX1FBWWh0NkQzdG1hTWJUbmFSSDhCWDFFNE43MzBqd3RHN1BUaHJtZDVRSXlRV0FoQ2F1Y0NJMlRPV1o5elgwbWRNYkVOYnpWQ3JPNVAwZDlRaFNwNDJCRG5GcUlXX0d6dW9aTzhnZXpuNUJ4dzVB?oc=5",
+      "summary": "The 18 Largest US Funding Rounds of April 2026&nbsp;&nbsp;AlleyWatch"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Defense tech is flooded with money, but who’s built to last? - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWWlMWlZmalhNZ0lyeUYxbGR5el9RT0tVT3FyVDNMU0lHaDgybXFmaUVQYXpwWkZ0clI0RWZMVWgxMVdDdWIyem5MY1F0ckRacm5VT3NEQnlHa1pFZ29sWG1NamI0RGZMa1AxR05aZURxZEM2S29DTHBJYU04d3QtLVhsREtqNUNLNy1XMVRZTVo?oc=5",
+      "date": "2026-06-03"
+    }
+  ],
   "people": []
 }

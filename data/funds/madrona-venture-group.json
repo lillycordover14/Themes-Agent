@@ -24,7 +24,15 @@
     "x": "https://x.com/madronaventures",
     "linkedin": "https://www.linkedin.com/company/madrona-venture-group"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-20",
+      "type": "Post",
+      "title": "S. 'Soma' Somasegar, longtime Seattle tech leader and VC, dies at 59 - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNWM1c3lOTkt3VEUxMk1hWnJQbW83SXlvblpJcEJJR3dFQk40NG5qSGcxeDRrcTlJSncydjhfUXJoQVVjVHR5Y2lSTzdrOW1oQVVvZkhlcnVmckhqZ0VMclhFdGttVjE0TlBHdlkyUnQyUEtOdlI3eG9zRUJNRFVaTXZST3hsNjljYTVpQkpmSm5HalpXbGMzcjlqd0hxVDhjbWRFcFR3?oc=5",
+      "summary": "S. 'Soma' Somasegar, longtime Seattle tech leader and VC, dies at 59&nbsp;&nbsp;The Business Journals"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

@@ -21,7 +21,15 @@
     "news": "https://news.google.com/search?q=Underdog%20Labs",
     "linkedin": "https://www.linkedin.com/company/underdog-labs"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-09",
+      "type": "Investment",
+      "title": "Campground Raises Over $2.2 Million to Reinvent How Social Impact Programs Operate - The Malaysian Reserve",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMTRsZ1YzVXJEb1drNjBpc2w2b0VuczREekpDVGxtYW55QUxCMkx1b3BoTERDR1dmMWxJTVhvSGNvNnY4TnpyTWVpSDAyWXVscXpmSzB6UmZqVUZkV21KMkR5X2xpblF3WC1VTktXV2c5UVNKMzYtNl82ZnBTMjBhM3ZZVEdZcE4xM2ppY1p2Qlc4MlpVX3JkLWFHVXpHZHhjSWp6X1dBN3VfWUdSeTE2VU1xc2QwZjc2cTVSMGhqS1B6ZUE?oc=5",
+      "summary": "Campground Raises Over $2.2 Million to Reinvent How Social Impact Programs Operate&nbsp;&nbsp;The Malaysian Reserve"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

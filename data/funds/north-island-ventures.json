@@ -23,7 +23,86 @@
     "x": "https://x.com/northislandvc",
     "linkedin": "https://www.linkedin.com/company/north-island-ventures"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-07-01",
+      "type": "Post",
+      "title": "Venice AI hits $1b valuation, Plaid eyes IPO, and Qualcomm's security buy - Axios",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vUHlMazJpNktyNFlKOVpFSy1vaFI3Z0RDTDdhWVNDeFVjSUEyd2pqUTQ1cUtyZWl0T3QzRlFiWklGc0FfbENkeU04OHpieVF4MjFKSEQtNDVqdGc2bkUxUTVtNzV2clp2YVphVFZCeGNaU0RlZHBNbXRtalpleW8?oc=5",
+      "summary": "Venice AI hits $1b valuation, Plaid eyes IPO, and Qualcomm's security buy&nbsp;&nbsp;Axios"
+    },
+    {
+      "date": "2026-07-01",
+      "type": "Investment",
+      "title": "Venice raises $65M at $1B valuation for private, uncensored AI - SiliconANGLE",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORTMzVlNyMVRpNEpFbVU0RFd2M1h0QUZVTVNfbHNudFNtcWdqa3VEVW1jbzhpbHNXQUNSWDRqY2lrTWpnS0FNUUIySDZRdkQ5VEhGcmFERi1HVXJ4RXhwcFg1YjBNdG1KN0w3ZkprdHRwemVUdVo2MTZtZXVyVm51N0h3Y2EwR2M4aVR3MHF0SXQ4d2c?oc=5",
+      "summary": "Venice raises $65M at $1B valuation for private, uncensored AI&nbsp;&nbsp;SiliconANGLE"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Investment",
+      "title": "AI-Focused Futures Exchange MNX Raises $6.4M in Pre-Seed Funding - CryptoRank",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zdUVXb0J1RUpxMnZQTGNqSjYtZFZSckhWV0dxYUdncURuV0pIelh4ZTlJT3NmR1dfVC1BWFBfemIyM25UMWJGMVZMMnREZ2x6Qk5GYWdTU05MNHBBZTZzUFVHQ0NOdm9wQlhjQ21heDZsaG16RUJuTA?oc=5",
+      "summary": "AI-Focused Futures Exchange MNX Raises $6.4M in Pre-Seed Funding&nbsp;&nbsp;CryptoRank"
+    },
+    {
+      "date": "2026-05-22",
+      "type": "Investment",
+      "title": "Ripple, North Island Ventures back $6 million round for cross-chain platform Squid - The Block",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS0ZXODJCQVVNRjk3M0sxVWFrYm54MzJXdHBfbEloSF9zWXBWcnBVb2lZZlE3WWlMdnRHcndWWE9Fd19DdXk5MnNzNlBxdTZIV1JGajR1RksyZDF3VTZfYms1Q0pPVVU0TzZ4Tm9ZZXRsdjJmUGJnSmZBeDBUbGJZRmR2czh1ZjM2dXNJUE13?oc=5",
+      "summary": "Ripple, North Island Ventures back $6 million round for cross-chain platform Squid&nbsp;&nbsp;The Block"
+    },
+    {
+      "date": "2026-05-22",
+      "type": "Investment",
+      "title": "Squid Raises $6M to Expand Consumer Product Offering on Cross-Chain Infrastructure - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeWxtQ2lXUUkwUzV6NEIta1EtajFUSi1GUDlCQ2RqVVNPMnRkbS15YzA1c2xqS2VhX0pmQnpDZkowVTNJMTFZel9UVlR2UG80ejF3ejIyRXJqajdSeWxRMlZDVEFYQkhEODg5bUZScEtsYW1jazV3LThSa3Bjb21FcUJrVjlndEd2MzRhamI3SHRJQTk3MllMMGZuTGNDLVhDeHFQaU9uN1FSS3htQldMV25LUUlSWktlemxxVzBma2Z0QWZDN0c4MG1TT2N4TGt4LUNF?oc=5",
+      "summary": "Squid Raises $6M to Expand Consumer Product Offering on Cross-Chain Infrastructure&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-05-22",
+      "type": "Investment",
+      "title": "Ripple backs Squid’s $6M round to expand cross-chain consumer platform - Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNl9VQTJpb3FmTWhiSjFoMl9JNEt0WjJoQ0l0TnBpV0hqeU9DM0FWRmJBRDBWc0MzdFZURXlLREVjUC1Wb002dlVxTWY0d3dEVmJIVk91ckZBdHdfQldEUXN3bDRfck9tY2t0cXdMQTRPbUZaVjItb1hqYW50LXQwcjBXeWlPTjV3ZGtSMHZMVHdrQ09IYUI5NFB1Ymk?oc=5",
+      "summary": "Ripple backs Squid’s $6M round to expand cross-chain consumer platform&nbsp;&nbsp;Crypto Briefing"
+    },
+    {
+      "date": "2026-05-20",
+      "type": "Investment",
+      "title": "Variational Raises $50M to Power Crypto Derivatives - Ventureburn",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSGVwWDhZNzRLZkVkQ0hEdExVcFZaVWk4amY1dGZVQ0tBdmZON29TSzNSWjI1RHlMQkttWk5lZE5IUVlWdVMzMmVWRHoxUVRXMXhSWk0tVzUwc2U0LW9QQlF3dnhKQzNJMEdhVTVtREE4OG93WVJMWEdzNWxkTTIycdIBgAFBVV95cUxPSGVwWDhZNzRLZkVkQ0hEdExVcFZaVWk4amY1dGZVQ0tBdmZON29TSzNSWjI1RHlMQkttWk5lZE5IUVlWdVMzMmVWRHoxUVRXMXhSWk0tVzUwc2U0LW9QQlF3dnhKQzNJMEdhVTVtREE4OG93WVJMWEdzNWxkTTIycQ?oc=5",
+      "summary": "Variational Raises $50M to Power Crypto Derivatives&nbsp;&nbsp;Ventureburn"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX3FjbE45Sjc1bXdFQS1XaW9ucnpTb2lVRFRha0sxSTNhU2dNQTJIU295eVlkVEJ5eWQ4UUctV1hBOEZsVWFXRXJVVEt0Rll2clVoaXhsZk9pUElVT2RXN3B5cmtpMXBPbnpXdWR2Q240eVpIWC1HeE9TU0I0QWJtNlN6R1J3bkU2MGxrWWcyQzEyRzVRbzIwYTVXQVNLRzZySGhNWFdnSnh2SU8tXzhhbjlCOGlLT3psdjVEUGJ1X2w?oc=5",
+      "date": "2026-07-01"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Squid Raises $6M to Expand Consumer Product Offering on Cross-Chain Infrastructure - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeWxtQ2lXUUkwUzV6NEIta1EtajFUSi1GUDlCQ2RqVVNPMnRkbS15YzA1c2xqS2VhX0pmQnpDZkowVTNJMTFZel9UVlR2UG80ejF3ejIyRXJqajdSeWxRMlZDVEFYQkhEODg5bUZScEtsYW1jazV3LThSa3Bjb21FcUJrVjlndEd2MzRhamI3SHRJQTk3MllMMGZuTGNDLVhDeHFQaU9uN1FSS3htQldMV25LUUlSWktlemxxVzBma2Z0QWZDN0c4MG1TT2N4TGt4LUNF?oc=5",
+      "date": "2026-05-22"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Venice AI Hits Unicorn Status With $65M Series A Led by Dragonfly - finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96Y25KRFhYbjNUOWp0LV9CeXFVUnFNd2lFTENNM0p4bFNETnQ2dEhuZzFvVjBKb2hWanNEX2REQjN2UTVzWWJkaV9ETjR2VG15WE50QjFBTkkyYjdUQ01DdW04enlBekJIUUJJcm8zLW5JTTVjWXc?oc=5",
+      "date": "2026-07-01"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Ripple backs Squid’s $6M round to expand cross-chain consumer platform - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNl9VQTJpb3FmTWhiSjFoMl9JNEt0WjJoQ0l0TnBpV0hqeU9DM0FWRmJBRDBWc0MzdFZURXlLREVjUC1Wb002dlVxTWY0d3dEVmJIVk91ckZBdHdfQldEUXN3bDRfck9tY2t0cXdMQTRPbUZaVjItb1hqYW50LXQwcjBXeWlPTjV3ZGtSMHZMVHdrQ09IYUI5NFB1Ymk?oc=5",
+      "date": "2026-05-22"
+    }
+  ],
   "people": []
 }

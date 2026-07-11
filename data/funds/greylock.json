@@ -9,7 +9,36 @@
     "linkedin": "https://www.linkedin.com/company/greylock-partners",
     "x": "https://x.com/GreylockVC"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-24",
+      "type": "Post",
+      "title": "Merav Bahat raising $25-30 million AI fund with Assaf Rappaport, Sequoia, Greylock and a16z - CTech",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMOTUxMC0za3JQcUtJLWdfVUdscmxFb1hJUHRpTU1NcGhROE5hRzZaZU5PTEFJVjl1S2J1bU5abmF6eFpqT3FTcmNnVjZTbnc2ZWxQWFlHbUNhb3BsRzZXYkIyWXpodVJi?oc=5",
+      "summary": "Merav Bahat raising $25-30 million AI fund with Assaf Rappaport, Sequoia, Greylock and a16z&nbsp;&nbsp;CTech"
+    },
+    {
+      "date": "2026-06-16",
+      "type": "Investment",
+      "title": "Greylock Federal Credit Union's Shred Day event raises $3,000 for Berkshire United Way - The Berkshire Eagle",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZlh5aVpOVy1USS1PLXZscWdIVDdrVURYQkRraXJkLW9YZUx5RXo5RFgtWFdkdXg2WHc3ZnBEcVJmSW5ZWDA5QlBjZFYybnZ6Z2VKbkFEdElBUVJFdXMtUnNYc3NONGZaSHcxSmt2UlJIV0c4Q0stcWY3YWxXVUNGaXhjakowOHZEWGFwbTVTdlI5VnNqdDIyTllpM3FoMjJSNGtNdHR6dFI3TFRUbU4xSlFQaVRUZ3RoQTJKQWxpYTdvOUdOQk1VaWMyc3RCZkF1NEZ1MHBEQVd5SGhKWTFxNg?oc=5",
+      "summary": "Greylock Federal Credit Union's Shred Day event raises $3,000 for Berkshire United Way&nbsp;&nbsp;The Berkshire Eagle"
+    },
+    {
+      "date": "2026-06-14",
+      "type": "Post",
+      "title": "Mount Greylock Regional School Committee approves spending $120,000 on math interventionist - The Berkshire Eagle",
+      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPZnlfNkd1dE80c28yYlZJZTZZazhuWWl4QWlBbEYtU3lhMjMyMzcxTzBESUl1d0RNR1NqYmtzVUZja3VYSDVUZElROGs5d214OUlmczFjTmtiMHYwVlp1emtUNXFmTW5fbGZmc2hCekNxUW9tRzQ0aExwWFItSEVuZWdKbHlGd3JuektZbi02ZGR1bEVadnUzRlplRF8yc1lMOWUyTWNLdUZXeEhyYmVXd1R0VEJvdHVRb1JId1ZId210aUtrY0F6TVFxZnNGcTU3VWVjN0hZT2QzTEs3ZENGWjVpcHgtTFpSNXhIVW5HSEUwZGVvSTZiZFZrNXMxcFc5eG0yQnpmaHlnX3N3bUxhbmtlVllDZFNDU2dCOUhhRmdfZw?oc=5",
+      "summary": "Mount Greylock Regional School Committee approves spending $120,000 on math interventionist&nbsp;&nbsp;The Berkshire Eagle"
+    },
+    {
+      "date": "2026-05-22",
+      "type": "Post",
+      "title": "Voters override School Committee concerns to fund Williamstown math position - The Berkshire Eagle",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPc3VPN1VPZGpZc0VSSjYzSUtieGoxR3FNSTFTblRqNEFRaUFmWUNBU2M5R2pOS3hmeTJ5MHBVMldtMTRDX0lXZ3M1MkZSVk5sRnEtVFgxOENTX2Vwak9GQnZZQkw2LWtxOEM0UkFhVzV3R3dmenlIemxLM1NmYUJ4TjRIajh5LVo0cnlHV2M0ZnQxbUd3RGlXMXJzcXlheVZLbTNadDFFdE13RjhhdDUxZVlmUEFhNVJ2emRiaWI2c3hhdmxKUU5xRjZUZDlyYWRrSkVyNUktbmx5bGx3N1N4R3RUUzhTT0pfSFRuTmloOWVBdVhlVS1JbkhvRQ?oc=5",
+      "summary": "Voters override School Committee concerns to fund Williamstown math position&nbsp;&nbsp;The Berkshire Eagle"
+    }
+  ],
   "region": "Americas",
   "meta": null,
   "podcasts": [],

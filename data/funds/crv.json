@@ -23,7 +23,64 @@
     "x": "https://x.com/CRV",
     "linkedin": "https://www.linkedin.com/company/crv"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-19",
+      "type": "Investment",
+      "title": "California invests millions to expand bottle deposit return network - Packaging Insights",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORExNNE1LekdhY08wclQ2SS1vSVNjNlFQZTh0enAxZTRiMkQ5YXBULWc2ajRwc0xhWHB1SWxjWVJmSnFkUnFvR3NPQXh0aGpPZmx6d05QajRiQUx2c1Fla2xRZnlwRTNEbkk1NWpQTnYwdG9jYkdxS2RzVDdLMkVLSDc4ZWxTY09oekRoag?oc=5",
+      "summary": "California invests millions to expand bottle deposit return network&nbsp;&nbsp;Packaging Insights"
+    },
+    {
+      "date": "2026-06-12",
+      "type": "Investment",
+      "title": "Largest robotics Series A ever raised in Europe: How THEKER pulled CRV, Samsung, and LVMH to Barcelona with $85M — TFN - Tech Funding News",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNk53eF9yeFFNNkcwSFl3ZkU3RGxkUEdleFJELXBNdmMzU0ZXZ1lYWVd0Q3hGYmxRU1hISGtkYXZ5bllxaDlNejZmcVg3SmRtLUJJRko5NHNXMUdLR2NQNnZXRE11RmpzU2Q0Yk4zN1V0Vmx3cGF0MllrdC14OVBHZ1JjSnY3NUtL?oc=5",
+      "summary": "Largest robotics Series A ever raised in Europe: How THEKER pulled CRV, Samsung, and LVMH to Barcelona with $85M — TFN&nbsp;&nbsp;Tech Funding News"
+    },
+    {
+      "date": "2026-06-12",
+      "type": "Investment",
+      "title": "Spanish AI robotics startup Theker raises EUR 73 mln from CRV, Samsung, LVMH - Telecompaper",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOW0wTVJlY0xPTGNUMkdQM2hnODlIYUVydkQwbXhfWW9yLW9RMnJVcHpaRHpGMHVxN2xBRzJGcVZiaW1pRnBTN2F5UnVPb3VtUm9FbDRSSzBSQkg5Q3h5d2xuN3NlN0RpbXV2M1lOa1YyLU5xNEttSlpXcTRYM2dISS1tamdPTnk2RGhHbC0yWURoZDc2b1BFSHJwcHU2aXhfaHBZM1R3ZDA2SmxtY0hoSkpLNEJlWm9B?oc=5",
+      "summary": "Spanish AI robotics startup Theker raises EUR 73 mln from CRV, Samsung, LVMH&nbsp;&nbsp;Telecompaper"
+    },
+    {
+      "date": "2026-06-12",
+      "type": "Investment",
+      "title": "Spanish company Theker closes a €73 million funding round with LVMH’s participation - FashionNetwork - The World's Fashion Business News",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOU5KM3VndWNWY0VVMV9TV0NQNUdoaW1ZSjZwT3lDZkI2MUNrN1FhR0lkUFNISDlkTkt4M2xiNkR3VFNZaWZrSzVYUlhWclVFQS1panpMN0lBZ1FzVXVSX1psSTY3UTF1NS1vVWdpMG5yYldrNVBZMTBxaEJjUkNGMG5SNnlTRndnd2ZKaVZCTXdSTmp4NXpXSUUweEYybHZ2SFpIaEY3ajRsOHg4cDN5eEJucEtiUXdIZVpYSm05NzlNbnYwaW9iUDdn?oc=5",
+      "summary": "Spanish company Theker closes a €73 million funding round with LVMH’s participation&nbsp;&nbsp;FashionNetwork - The World's Fashion Business News"
+    },
+    {
+      "date": "2026-06-12",
+      "type": "Post",
+      "title": "What Does Theker's $85 Million Funding Mean for Robotics? - Analytics India Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObEVseWk4NTJRV0NaVTd4aUVwZXhRbDBjb2poVjBva2tpSUF2eTJJWnNJZ21pUzNUWXpnSmswU2ZuQmZoM3BuUk5USFNnZW5PbkhHdEJBZ1pFNVpoY1dJajlOVVVDZjdrUHZXbVYweElBZnBiczk2Ni0wLXN6Mk14UmpNYTVuNk80R28yMS1DeXJibm9INDI3VVFFU3ZodWl3d2p2UmJXcUEzNDF4SzBMYjRtRQ?oc=5",
+      "summary": "What Does Theker's $85 Million Funding Mean for Robotics?&nbsp;&nbsp;Analytics India Magazine"
+    },
+    {
+      "date": "2026-06-11",
+      "type": "Investment",
+      "title": "THEKER raises $85M in Europe’s largest ever robotics Series A, led by CRV with backing from Samsung and LVMH - Cathay Capital",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUDlzUTBGQ0pTTC1jV2d5YVBRXy00NmdCTmt4bmZzNlpaSERrS3psZ0syajB1SnJGa2hxV0poUXJIYUZxU0xQUWR2eTZfVVh4UXJ5dmtBejhyNFpuVGJZemh5UGVnVTk3MDdkRTNiOWxFdmdrVlc0Ul9MX1BxMzJtb1ZYTHktYlJpV2FoV2FNb2xBSUZCcENEOUMyajBGd1pwS3VqalRVVENBVVFkdnFnNGlkZDdBaUN4T25ua2RiOEd0Y1FleDBIdzhGM24zT3VrSVE?oc=5",
+      "summary": "THEKER raises $85M in Europe’s largest ever robotics Series A, led by CRV with backing from Samsung and LVMH&nbsp;&nbsp;Cathay Capital"
+    },
+    {
+      "date": "2026-06-11",
+      "type": "Investment",
+      "title": "Theker Raises $85M for AI Robotics with LVMH, CRV & Samsung Support - Global Banking & Finance Review",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd1VKQlFLaWlhN2xRSWNBXzdEeUNlMEItRVNDbzlaVlViTlJ4ZTVNV09FWDhuRnRCLWIzaDEwakNPeWNrRXRGMzY4bmctYVF2ZlFOcG9kU0dORkNOQlp0Tmw3ekVLWDNSMnEzWWkyV1ExVTBldTNNU1FYMERMOVBoNlNWNEFQSzhZQjF5WGlzUGFCZXJicnNoQm5MZw?oc=5",
+      "summary": "Theker Raises $85M for AI Robotics with LVMH, CRV & Samsung Support&nbsp;&nbsp;Global Banking & Finance Review"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "Post",
+      "title": "Factorial - 2026 Funding Rounds & List of Investors - Tracxn",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWjdRNUVPY29QYmVjTjg0RUJXU09GT3RYbW1oNDR6Smk1UWlEUGd3akpUWlFQVk53T2xDZE9TeEpLekZrMFdqQ3h1UUZZNVp2STRySC0xdm1PRDRjTGM2dUNSR25udWpEVFVRYUZuMHJGWUo5OWhVTHJfNXlSYm9WaDZDR0RTWnc1Rjlnb1NfYzRGMy1hSFY2QjlVbkN4QklPS0xfekJmTVMxd3I1?oc=5",
+      "summary": "Factorial - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

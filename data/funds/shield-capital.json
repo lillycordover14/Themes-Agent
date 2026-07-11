@@ -23,7 +23,51 @@
     "x": "https://x.com/shieldcapvc",
     "linkedin": "https://www.linkedin.com/company/shieldcap"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-05-20",
+      "type": "Investment",
+      "title": "Shield Capital - 2026 Investor Profile, Portfolio, Team & Investment Trends - Tracxn",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaUNRdXNkMjdOSXBzd2dLUFVialRjTzNDYkNrMENIcW5pVmF3U0dybWJSQTVYc3p3TE93VmxwdmU0RHhpNjdWS1dVYk9TaDE1MUtKVm1XQ0hFMFlvS2ZQWm0yRlZvSm0ya2JiUTdOWUUwZmRnVDRDYkxCUlp4ZjRRYmpES0YzSGF1akFHMVFEc2tqMU9sbEVXeVlDT2k?oc=5",
+      "summary": "Shield Capital - 2026 Investor Profile, Portfolio, Team & Investment Trends&nbsp;&nbsp;Tracxn"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Investment",
+      "title": "Modular data center builder Armada raises $230 million, to build Arizona factory with new investor Johnson Controls - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWVVLXzdLbi1VcGpnUnBIcmhUVGZWak5rZ0dLRUx3aVJrbVVndUVGSTYxb19mWWgtRTg5Q0RkZHp4YS02cFJ3UU5jTjVZNGZnbm1MWFEyaVBhSnlWYlFGXy1EUHFXMzhrLWk1Q0tLUGdwbzhnRGY4TW5mR1NtbGV0UlROU0tQX04wblRLbDlCNDduM0do0gGaAUFVX3lxTE4xWF9TaFdsSWEzT0t5S2xXbkZEN3QtamVmQld3Szc5cV9ETzc3UEVEMVZtNWswR1hPelNRTUJ3cDE5Ni0zMzNET0taM1h3SE55TDdTR2c1SkxUX2xjYjBMUEpNcU5LUTMwMUdmdjFuVkZ3eGtjVTVDQk05aDQtVVFpR254S2xUTjZLclZKRDNqN09WM0RKdnluYXc?oc=5",
+      "summary": "Modular data center builder Armada raises $230 million, to build Arizona factory with new investor Johnson Controls&nbsp;&nbsp;CNBC"
+    },
+    {
+      "date": "2026-05-12",
+      "type": "Investment",
+      "title": "Star Catcher Raises $65M Series A to Fuel In-Orbit Power Grid - Via Satellite",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaXN5NGh2RjZRRVpPemlucHpBbDc0bkl0RFYwMDVmTFBGaTUzM29yQ3BMbHZxMVI2RGFJVlQzengyNndXNFMyTWhra0d1eGw0cWU5ajVIYWp0NTBkNllFNHVRREFxVkEybm9rLWtNOXo5dXp5VkxOc2s1R3Fra0E3MWtXNUR3Uk04LVQ3Slp3VmZlckdsR1NSYTNoWTJ0TnV6UUIxNno5TWw2NWthVGpteA?oc=5",
+      "summary": "Star Catcher Raises $65M Series A to Fuel In-Orbit Power Grid&nbsp;&nbsp;Via Satellite"
+    },
+    {
+      "date": "2026-05-12",
+      "type": "Investment",
+      "title": "Star Catcher Industries Raises $65M in Series A Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVg3OXUydHUxbjM3TzZZVVZ0NEQ0bjdYMUp2ek53NkJxb3A2ZEQzV3hjbUQyeW1fckJobXVWb1E5VUtoOUltamdfc2RfZF9KdFl4ajgzbXd3WXZyVnNBbURsOWlDMXZSUHpULTB5SnZSai01cFdpaEdvX2ZoWGRuMlJDcEN4dVVDRGNYQTdVMXRQdEZTdHc?oc=5",
+      "summary": "Star Catcher Industries Raises $65M in Series A Funding&nbsp;&nbsp;FinSMEs"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Raj Shah: AI and autonomy are changing military power - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUm9nN0hlUmN1azRscnMzMzUtaDY1Tmw2Wi1jeGYzSWl6ZHBiYjVJZVVDNWptMm9HMV9xTWNRTUVLcjIxQjlFdGVrc2czWHh5R1BaR29teXYzclBKTzZSeHN3UFpTOXkwY2xPNktYd3ptUjlJNzRrNFRwMDdSVXo0N0h0X0xjMFpqeFB1cjlhSVNXN2tEZFFSNWJuQQ?oc=5",
+      "date": "2026-06-05"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Investing in Star Catcher - Shield Capital",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82RDZmVmZ3b3dXbHZXdGxhN1F6OXhXN0xJUTdPTkJjVjFiQUxpOUgtT05NeUhUOTNzcFZBam1uUHFLNkNOVm5zQVdhRjJLT0g1VVFaQU1JZGhRd2NrbnpkMkZVNUtmb1ozWmRJbA?oc=5",
+      "date": "2026-05-12"
+    }
+  ],
   "people": []
 }

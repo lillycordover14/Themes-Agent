@@ -23,7 +23,64 @@
     "x": "https://twitter.com/upfrontvc",
     "linkedin": "https://www.linkedin.com/company/upfront-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-31",
+      "type": "Post",
+      "title": "The Weekly Notable Startup Funding Report: 6/1/26 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUGE1VVZUQkhnYW9vV2k1Tzl3QmlQV3pBelExNGw4YVpHc25VLW9BX3hVdjRHLXQyOFh4dTUtZnZONkNYenR1WFYyUFRVLXdCLWV0aFd2LVdmMHcxNHRmd0ZpWjQtN1NYc2JlYWZNLVI5WGtMWkdiMjVhT29oNDRGZnBZMTZ0Rll4MkpPRw?oc=5",
+      "summary": "The Weekly Notable Startup Funding Report: 6/1/26&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-05-29",
+      "type": "Investment",
+      "title": "Observable Space Raises $90M to Build Beyond Rockets - dot.LA",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1qaUJOZ0t2b1ZIRVc4Y1hZUFFFRzNrRzVaUEYyNTB1bDktSEIxWERkeWpDZ1k4VnZBMzlBd2xYT1F2MUxrTFpmbE9CbFR6UnEwdE9ESTR2d2lhVEhmZUVLUlo3dW91NGEtZXNoakFqZ01jOFpX?oc=5",
+      "summary": "Observable Space Raises $90M to Build Beyond Rockets&nbsp;&nbsp;dot.LA"
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Post",
+      "title": "The AlleyWatch Startup Daily Funding Report: 5/28/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVNvc2ZSNGFBOFpVU0FBNHY5cHptamlyWURGYmJxb2pYUU15cVdwMERHakFxbTJkX3JvU0twSDF2YlNOOEZaOGNuWk1jb2ZTbEQtNTNxRHdBbzZETE1MYmtSbzYyV3lLRFREcWs4MS1mc255a3ZSUHRhekg5WjFETzRpc2tZMGRGX1R4Z2NR?oc=5",
+      "summary": "The AlleyWatch Startup Daily Funding Report: 5/28/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Investment",
+      "title": "Itera: $12 Million Seed Funding Raised To Bring Real-Time Prototyping To Electronics - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVWpkb1BCbFhVR042NlNMa0xCOVU3Tl9VdkRTOXFkMkZ4aWcwdzJDQkt2VXJLOG1uNk5vMm1lOFJ1ZjhYa2c3RjJqdTQzbFRjbkV3bEpiM2VBR2NITTlKczhkWDlqZDEtdDYtVzZmSERUbmNBcWFQZ1U5Q3JRY3NveXNaLUNnM3NfbHpuNE5meWs2bDVLZlRodlVuMmhQbmJzbTBoMtIBqgFBVV95cUxPVDlmYXlBdVFsUl9SSXZpT2lNS3hPdlNlaHhmbEpOVExPMS1jSEd2RU1NV09lekV6MHdFLUZaTUt2LWN3Y1l1TnRjWDdlSmJydkNERHI0TmlFaGhEQ2cxRi1WN1ZlUWNRNUkzb3Y2LXhDYXpYUUpQbUFsYzVJd1ZkZURna3FfUXNGV2d4MUxseEtLSFM1ZGV5RlRINkttQ1hnUHhrYlJGRW1Wdw?oc=5",
+      "summary": "Itera: $12 Million Seed Funding Raised To Bring Real-Time Prototyping To Electronics&nbsp;&nbsp;Pulse 2.0"
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Investment",
+      "title": "Observable Space raises $90 million and wins Space Force contract for optical systems - SpaceNews",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaFBTN19LSmJLc3E4bTFKOXhQYWE3YzZsTTEzbW9sZGt4aTZwTU9Bd0JHRnRNTnhQc3JyWmt0cTUyMEdaendOQ2l5UFhVUWhxRFRuTUlqUHJDYUFHODZOb1FpQ0JlX0FseWJNRl9rUVBYRUJOanlBbFpua1JHTnFHclF6NVZNd3NSSmFOY1VLTFc0MG0wWGJXM0Z5MlZ6TnB2Qm5vekpDWkdGWE0?oc=5",
+      "summary": "Observable Space raises $90 million and wins Space Force contract for optical systems&nbsp;&nbsp;SpaceNews"
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Investment",
+      "title": "Kubera Health Raises $6.5M to Repair the Payment Layer Driving Healthcare's $1 Trillion Admin Burden - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPM3V1azNDWVBnODJrUlgzU3IzbGlsY1hReV9xcmY5MWFGZWJqRk9vVHZxQlcyenlubW9LZnBpYmlPVExVRVlfTjRWZkV1X0pWNlI0ZmlkbWJLcURYb3J6bXJSWjZqWjB2WVBxNFVTaUswdHNmSXpmTVFFb2NBUjJKY0JOc0Vpb09GNXV3bEpsS05WNXdHLURCTnQ1MG0yMHdhY2gyODFRR2N5dWZkdkhFWG1fVy1hd2M2ZV9IWUFEWGxtNWdxSU9jeGRtXy13M0VJZXlRM3dZc0hfekJJMGUwWVViOC1jdWtM?oc=5",
+      "summary": "Kubera Health Raises $6.5M to Repair the Payment Layer Driving Healthcare's $1 Trillion Admin Burden&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-05-27",
+      "type": "Investment",
+      "title": "Itera Raises $12M in Seed Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9XNWdJLTRqVGQ1NlJlMkRlc3pYeXdTQ1liWFltb2MzcnFsdmRmQnc4eFhqOU1TSHZKakRULXJTR1NlU1ZFZDJSUnE3YVV3OEdlV0lxWVZYdXlTOTBXVWZfVFRQMHRmd3dGZUFfNF9nRUVQbnBOdGhtRw?oc=5",
+      "summary": "Itera Raises $12M in Seed Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "Investment",
+      "title": "CVRD Health Announces $5M Seed Round Led by Upfront Ventures to Modernize Benefits Compliance for Federal Government Contractors - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYldFSk13S0VCQ09xV1lVQUpoX2ZBRm04d0Q2ZmxndEVHdnhFdWt4aFVBVG5UVTVBczVENy1vYjZ4RlZxN0d1R1FnSUdCQ1h4emtsRnN3TmdQZEVKNVFDVjdYZXhMUVcwUXBXRWhfMzRCZFpwbXRlWWh2SkI3R21hWmhfT3RyOUNJR0FlS0FXS3RnSEdFR0lDbnZFVlR6ZWc?oc=5",
+      "summary": "CVRD Health Announces $5M Seed Round Led by Upfront Ventures to Modernize Benefits Compliance for Federal Government Contractors&nbsp;&nbsp;Yahoo Finance"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Mark Suster",

@@ -21,7 +21,15 @@
     "news": "https://news.google.com/search?q=Mangusta%20Capital",
     "linkedin": "https://www.linkedin.com/company/mangustacap"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-11",
+      "type": "Investment",
+      "title": "Turnout Raises $35 Million Series A to Put an AI Advocate in Every American's Corner - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORVpXOEtfVUFtdHhLa0lIUEN0dURPYTJzVzZudldUNjhqaHZzNEhrQWFNMVZSazkwa0NVZ0p0aTVfSjZKakpHNWhWSmRVWW1seEpHSHhyRHo0SW1ERW5nVVFlZlp2OGh0bHEyX21jNVQ4dWNhSWZrZXpZNkhqb1NINGYyZ1lvUEVnTXVLdDktbFI2VTZZelRpNUs5V3NVVFl5RmZ5XzRJcWVaOFZqR1RNajh5cTFvM1BvZlk3a3ZUbmpCQUFTR0JPSy10RGtvcFA5NFd6TA?oc=5",
+      "summary": "Turnout Raises $35 Million Series A to Put an AI Advocate in Every American's Corner&nbsp;&nbsp;PR Newswire"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

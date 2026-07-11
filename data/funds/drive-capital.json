@@ -23,7 +23,23 @@
     "x": "https://x.com/drivecapital",
     "linkedin": "https://www.linkedin.com/company/drivecapital"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-05-15",
+      "type": "Post",
+      "title": "The 18 Largest US Funding Rounds of April 2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUjdjNHU1aHdZWTRBX1FBWWh0NkQzdG1hTWJUbmFSSDhCWDFFNE43MzBqd3RHN1BUaHJtZDVRSXlRV0FoQ2F1Y0NJMlRPV1o5elgwbWRNYkVOYnpWQ3JPNVAwZDlRaFNwNDJCRG5GcUlXX0d6dW9aTzhnZXpuNUJ4dzVB?oc=5",
+      "summary": "The 18 Largest US Funding Rounds of April 2026&nbsp;&nbsp;AlleyWatch"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Capital Ideas: How Wall Street Lost the Small IPO and Why Relationships Still Drive Capital Formation - Crowdfund Insider",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUjNWZ3loamlBZFM1SkRDTkRqNGxKYThUY0FzVkFBQ3hfbkpZNVRGUEVISEFLZFRCV2xUZkZnZThOUlFQeUFYcHFNa0ZUWDJnRlZqYnRLd1hkajFKbUtwTi1qZVUzbTJ2anV1dDc5TFZyUWRRS0pGYXJoeGRnNkFnTU9EdncwVHFmRklKMzJiczJkVlB6b01COEVpRVppVmZpV29wa2lNUXVjZVE4MFA5d2V4OVh2eWpXZlZ4VTFaNHZDbHFtRFU4RUF6VTBqR1oxYjRxVTkwaERZNTVPT0NDSnNVaw?oc=5",
+      "date": "2026-06-08"
+    }
+  ],
   "people": []
 }

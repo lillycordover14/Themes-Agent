@@ -21,7 +21,29 @@
     "news": "https://news.google.com/search?q=Western%20Technology%20Investment",
     "linkedin": "https://www.linkedin.com/company/western-technology-investment"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-30",
+      "type": "Post",
+      "title": "The 22 Largest US Funding Rounds of May 2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ma2FHZEhkNlplZnJRWGRSSDhOZENfOS15WFZzR0NkWWlVRTVRRUlNNUdWYnppT3pvQXBvMDNEa0hYbWlkbE5EbkJBbng0WFJENFhFR080cWdTME5qaDFuT29yaG9va3lSRVd0c0t4bmx1cjlPN21uX29mUTRCZGc?oc=5",
+      "summary": "The 22 Largest US Funding Rounds of May 2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-06-05",
+      "type": "Investment",
+      "title": "Findigs Raises $32 Million Series C Funding To Expand AI-Native Leasing Decisioning Platform - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS1FUVEVHOU9adV8tNmMtMnJqcWd0anlPeHJ4WUJqRXZBUmN4RzV0UUhTRlpXNFhFT1k4NU04YW4zd0g3RG8wOTZkdlFtVGFPS2Z5ay1NaWh3c3BYX0QxT1NleWNLTWFLLVVxaUxnTW85VXhPaktlYVhyZlBfVGozMGpHRk9SM3hXWEhsUm16bVk3T3J1ajBBT0FlZHU4bHBySW5qYlpUam9NTWlyVHd2VNIBtgFBVV95cUxNMFJHUDE4b3VKMlg0a0h0LTUxMFZvVGxrclQzbUZwVHVteEpaVUJiZmxXUjRESW9kWUFILVcyZmM5VzhoSHNpQ1VOVzQ0amE0NTdTRGlJaUhUMDJiVWtzWVFLT1c2RUJIVElkYWVEb1R2TlFoS3lZaXRvV054OGlVWFROQnJUVTZ5ZS1jOTN2MFNjbW5nWkhKY0ltai01ZjJ4aXVRQV9jdmdhM0xBVVNJTjZUOGtidw?oc=5",
+      "summary": "Findigs Raises $32 Million Series C Funding To Expand AI-Native Leasing Decisioning Platform&nbsp;&nbsp;Pulse 2.0"
+    },
+    {
+      "date": "2026-06-02",
+      "type": "Investment",
+      "title": "Findigs Raises $32M Series C Funding to Redefine Leasing Decisioning - GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaUl3d0hPT1pxanZoVzMyS0d3SngtS3Z3dWlrOUFoeXFIeGpzYU1JTUJZVEdZNE4wMVZfT3dkTy03VFZaYkY2OC1iTjhtdUVlNFhpSXNlazlFZmp0VElOdS1kSmdrV0I4bk96UEdfOWo2NTdKeEtYME5jQ0tUVUg2WDBKb1pMZ1M3OG9UcHdZRExheHEyUUMxWE9KTkZZeFZMUWhnektnSkxZem1ZTEFGdTc2VU5SM3RBR3JieEZNLVNtUjRqa21TOWU4MkliYlBnLXZxYlFR?oc=5",
+      "summary": "Findigs Raises $32M Series C Funding to Redefine Leasing Decisioning&nbsp;&nbsp;GlobeNewswire"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

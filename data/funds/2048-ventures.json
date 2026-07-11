@@ -23,14 +23,58 @@
     "x": "https://x.com/2048vc",
     "linkedin": "https://www.linkedin.com/company/2048vc"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-29",
+      "type": "Post",
+      "title": "The AlleyWatch Startup Daily Funding Report: 6/29/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxON1lMSjY5cWxrWENnX052X2tmRDBNYl84TktycTdPRUt5MXNBSk5PNm1iMWJJeDR2U29ZMmZYMmw5N1BzNmdvWlQwRzIyRkQ0b0stbWM5UGhremJuSzcybVVwUHdPa0JsMVY3WlNJeUg5dDRDdFh2TjRZM05NSDV5ZExVV0pHVTFSOGFiMlh3?oc=5",
+      "summary": "The AlleyWatch Startup Daily Funding Report: 6/29/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Investment",
+      "title": "Rely raises $4.5M seed round to scale AI-native diligence platform for multifamily real estate - GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbE5hc0dCSklmdHlsQ1FIOTFSOVVzSThhcS1ZWk9OZnlPbE1ReWJ2c0diR0tuYU9sakY2TmI1ejNxenM0dzRUbXYtVlY0UGFDZXRQUF9TR3FBVmhWcDVrZUFiOUJtTVpaOFRCNkowTzVLdmlhdC1sTDNVZ1loNmxnbTg5QlhUNG03ajJRN1E1c3QwckdZZzNzZm1vcEhoNGhCMWlRbDBrek8wV2EtZlN5dkJ3dEd4ZXdxLWkzd2ZHeVVSeXpScFFORHpONGY2NXpuTlNYUV96YjM4a1VVM3k2NjhfTm5VS2RwWFpEUmlmd1E5QjZRbjJVTQ?oc=5",
+      "summary": "Rely raises $4.5M seed round to scale AI-native diligence platform for multifamily real estate&nbsp;&nbsp;GlobeNewswire"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Investment",
+      "title": "Century Health Raises $5M Seed Round as AI-Powered Platform Achieves 97% Accuracy in Clinical Data Abstraction - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOUHlZdGRFS1h4b09RWl9uNE5Zc09LSC1uczJLdGl2VkFMZHQ5XzZwMncxc1kxcGtERUFkZ2ZEWmVDUkJzVHJnN21CR3VhRUNYZnNXaUNDME0yejZoVmF5b0tHZ19JR2VyMF9JdzJISWNJUXN5TWxvaVAySmlzUWVrSFpuOUQtV1BKcmhMcXZWNHM1Y3dBRlcwaFN2WDUwWk1nLVNETnFIZ3FkZWhCYUVOeEpLYWo2ZDdrTjUtN0xyMnZ2ckxqV1pDdDl5MWhQazhPS1VkVUI3MzNtWXVNYjZTXzRVZlV2SkROdEVSOWRSYURNQlo3X3Fz?oc=5",
+      "summary": "Century Health Raises $5M Seed Round as AI-Powered Platform Achieves 97% Accuracy in Clinical Data Abstraction&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Investment",
+      "title": "Rely Raises $4.5M in Seed Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1iZ3VYeFBJOWZsQ2hJck02RGlRN2VmRVNfZFhieGxBd2RuQUxKcy0tVHdKX0M3eDF4MHFvRjZFZU1aMFd4Wmp2WmM4ckNLdWIzZklmVVNCdk5HZkY1TFVNTmRoSXNCVjI5VW9fVTg1OGZyc0RBUk8tTw?oc=5",
+      "summary": "Rely Raises $4.5M in Seed Funding&nbsp;&nbsp;FinSMEs"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Alex Iskold",
       "url": "https://www.startuphacks.vc/"
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Century Health Raises $5M Seed Round as AI-Powered Platform Achieves 97% Accuracy in Clinical Data Abstraction - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOUHlZdGRFS1h4b09RWl9uNE5Zc09LSC1uczJLdGl2VkFMZHQ5XzZwMncxc1kxcGtERUFkZ2ZEWmVDUkJzVHJnN21CR3VhRUNYZnNXaUNDME0yejZoVmF5b0tHZ19JR2VyMF9JdzJISWNJUXN5TWxvaVAySmlzUWVrSFpuOUQtV1BKcmhMcXZWNHM1Y3dBRlcwaFN2WDUwWk1nLVNETnFIZ3FkZWhCYUVOeEpLYWo2ZDdrTjUtN0xyMnZ2ckxqV1pDdDl5MWhQazhPS1VkVUI3MzNtWXVNYjZTXzRVZlV2SkROdEVSOWRSYURNQlo3X3Fz?oc=5",
+      "date": "2026-05-19"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Alphabet’s GV backs fintech firm Nebex that aims to serve as space industry broker - The Business Times",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZ3AyRExoV3l5NlRoVlp3aHNxLWpZWmpEY0t6Y211dEllV0dETFhvMTZtQWpYazNEYUlUeUlaNWY5eFdvXzd0TVJfVUJYM1p3bnFUbmJGZ1JOR0NVcHc2dDJ6OE1UN3huZWFoOEhSMkt3cHFhd2V4cDV0Q0V0SklzR1pwMU40d0tsQV9MM2FFY19MMDhTTHRMQXd6LW0wcXFVRzY5YTRLbjZRcE9TaUVQZEhkMjh4VnFhYlRhR1pB?oc=5",
+      "date": "2026-06-30"
+    }
+  ],
   "people": [
     {
       "name": "Alex Iskold",

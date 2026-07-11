@@ -24,7 +24,37 @@
     "x": "https://twitter.com/armorysv",
     "linkedin": "https://www.linkedin.com/company/armory-square-ventures"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-29",
+      "type": "Post",
+      "title": "The AlleyWatch Startup Daily Funding Report: 6/29/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxON1lMSjY5cWxrWENnX052X2tmRDBNYl84TktycTdPRUt5MXNBSk5PNm1iMWJJeDR2U29ZMmZYMmw5N1BzNmdvWlQwRzIyRkQ0b0stbWM5UGhremJuSzcybVVwUHdPa0JsMVY3WlNJeUg5dDRDdFh2TjRZM05NSDV5ZExVV0pHVTFSOGFiMlh3?oc=5",
+      "summary": "The AlleyWatch Startup Daily Funding Report: 6/29/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-05-16",
+      "type": "Post",
+      "title": "ACV Auctions - 2026 Funding Rounds & List of Investors - Tracxn",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa2J4d1YxTEZ3YXVqOHdaQXhnMHVmdXJfaDI5UXpaR1NkdC1Jczl2aFVvckgwRnVQQ3R5azk4RWd5VjBjQVUxdENtTnNjZVhRdWxUaFpsNkFGN2RwY1BFdmlrMDJaSTdkcmQzTGkteEFlWnY2NklnbkVwUDFSZE9nSjBwd1c2NVVHSXRvR3Q3UG5ZTFhCUEcxY0pReDFRTE9iWk9yRmdNYk1YSlpLUGdv?oc=5",
+      "summary": "ACV Auctions - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Besty AI closes $3.75M seed round - PhocusWire",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBqdGZLQjlJQmRENU55YTNVN2pqbGxvRDNZOTNiMDRXczRWYjl6aTIyRkJuSEhxUFFVMXF3XzFGTks0aGpVeEUyREwycm1ZcVJubl9BbUJtOURyZGU1UUs4U0theXlva2dQejdtMl9kVmt0VFJQ?oc=5",
+      "date": "2026-06-16"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Steno Names Its Current COO Prabhdeep Singh as New CEO to Lead Next Phase of Growth - LawSites",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUmZTUHNHRXZhUlNFM0FlSGNKYU5QT0taZ1RrSm5vWHZfdnZKWVU3TEJzcVpCTW1SNWNQMDBlSkdHQnJHd1ZTdVZDeTBCd0V4Yl9NLWVSTVNPazBPdmJfRnVIQmxGUHlWM2NmN2tDdHR1aS1iWW1DeC1HSlNHVUhOUm8zNVhoT0VTSHpZSkI5NjhJZ21jUkxVSWticTFwbDNJVUpqdG1OTDlaM3JsVWFGdVhmdGR2T0F2NE8zMg?oc=5",
+      "date": "2026-06-09"
+    }
+  ],
   "people": []
 }

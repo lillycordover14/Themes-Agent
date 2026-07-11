@@ -23,7 +23,64 @@
     "x": "https://x.com/generalcatalyst",
     "linkedin": "https://www.linkedin.com/company/general-catalyst-partners"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-06",
+      "type": "Post",
+      "title": "The 10 Largest NYC Tech Startup Funding Rounds of June 2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcXFUSFVQbU00S2VOR0dCbnNRSGtNMGVaNzlRMlBtVkxtTTVpUm9VWWw3V0hTaUJVeTRTLTFJajk2d1dMam9iRG5vdDBxeUNTdTZtbU5iNkhMdmpNVGxveDRrdmZwa1pMNnBzV3pXY3lVODBUOXdzaDFHckk5MWFvM29JVnpkRFU?oc=5",
+      "summary": "The 10 Largest NYC Tech Startup Funding Rounds of June 2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-06-30",
+      "type": "Post",
+      "title": "Janus Henderson Completes Take-Private Transaction with Trian, General Catalyst, and QIA - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT3NuLWhNSmFLTU1RaUR5LTVBamVaZmV4MmF5ejB2amhyUXVNVG5heU1YY2Y0N29WSHZNT2dNWTY4Y1plTVdoWk5YWEIteE9GdzVYSEFHazEtNl9UUEx2TXNKMW5LQ25jRkJSLUxRbzJmTzZmQ2hHZ3BLM0hyQUhTMnhLdGRTaV9KcmtVcEFWem11T0JkRENDbkU2Yko2TEVMb3AzTFZNZ1hGME5QcUFkMEFDcm5mclZNRWhfbldyUjFCREYzUGtTY0NmMXAtMGRrd09ENko2MTFha00?oc=5",
+      "summary": "Janus Henderson Completes Take-Private Transaction with Trian, General Catalyst, and QIA&nbsp;&nbsp;Business Wire"
+    },
+    {
+      "date": "2026-06-25",
+      "type": "Thesis",
+      "title": "6 Venture Capital Firms Now Dominate Startup Financing. How Entrepreneurs Can Win in the Age of the Giga VC - inc.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSTlZMEZRZElKdmM4UmxxV2RWU0g5SF9iUXBCMWw2ZFV0VVY4TW12cTNUcnNlRVNyM1JHTXU5QmZVV1dhaS1zaWJwNDh4WXFVMmRvQmtrcWladHJkQTdKMHRna2xodHhlWDNTSi12bHBTclRmT1FwLVRpMlBBWFBGY0hqQWJWcUEzWjd1eWpSaVRIaUoyMnA0ZFh0YXNfMDFXMVNXTEp0ckVZN18wamJ5NFFXNlZNUUdkUHZRTXJfQzBNbnJVTDJtczJn?oc=5",
+      "summary": "6 Venture Capital Firms Now Dominate Startup Financing. How Entrepreneurs Can Win in the Age of the Giga VC&nbsp;&nbsp;inc.com"
+    },
+    {
+      "date": "2026-06-18",
+      "type": "Post",
+      "title": "Janus Henderson Announces Receipt of Required Regulatory Approvals and Client Consents Following Resounding Shareholder Approval of the Trian and General Cataly",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNkJOXzNFeWtlNE5kRmFnNkF2emd3NWJkRzB1NjZNSVA1d2xRODM4WXQxbUd3aHRYRE9NdmRsV3pKaWdQcGo1eFg2cS1KN1poazFYNlhTQms4ckU0anJqN2QtdzJUNm85SFFTTHZxcWRIZ1BPc2FaMXZDMExlcXZzbUN6VXlHNm03R1NUdktvZ05YRC1xZWNiZWVlaFFaa3dPMnZHOXRYWEowZDQ?oc=5",
+      "summary": "Janus Henderson Announces Receipt of Required Regulatory Approvals and Client Consents Following Resounding Shareholder Approval of the Trian and General Catalyst Take-Private Tran"
+    },
+    {
+      "date": "2026-06-03",
+      "type": "Investment",
+      "title": "Factorial raises $150m Series D backed by General Catalyst and Atomico - Sifted",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWG1IY0tPZkxXVDVYWnN3X1RRSDdBOUtJd2w2ZThfUmNEcWtmWjVMQ2toTEVvWmRhODFDNjhnR3NiRTdodTlFcnhCSTdVYVIzRFZUMXFzTHNRUWVtZzFsRUtRUmoyaGxKR0pYWnBlMkN1VkFDY1NVdlRxUnJsUlRQNi1n?oc=5",
+      "summary": "Factorial raises $150m Series D backed by General Catalyst and Atomico&nbsp;&nbsp;Sifted"
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Post",
+      "title": "MainePERS makes two venture capital fund commitments for up to $30 million - Pensions & Investments",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVGxDZjBTdTVTTWxsN25Wc0tDa2FiQndWTTI4NTNIMlhoQjN4clpFUS1FWGlhY2N4cXBQakVzRjQyaTAwd3pfMTQ4TktqZjg1UTduSFNwU2RLcF9TRmw1QW90MGQ0Mkk3aENDaEZlcXFsLXdYNnVicDdVMDBnUGpPWnRXOF84UGFJTXQxTDNWV2RyTXpPQkt5bDFFOA?oc=5",
+      "summary": "MainePERS makes two venture capital fund commitments for up to $30 million&nbsp;&nbsp;Pensions & Investments"
+    },
+    {
+      "date": "2026-05-26",
+      "type": "New fund",
+      "title": "Musely Raises $360M Through General Catalyst’s Customer Value Fund - The Healthcare Technology Report.",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc2xMcmk2YmtoOTBSeVlEdG81WGRhMlJwTmk5N2NxQmNTU1l2eHU2TTdQNmlNVjZ3XzJzS1k1elhkaWdTSzVqa1l6R3l5X2ZRTjdfMXdoa3RoQ2ZYb2VDb3E2eDFWWXRyZjNJakdoTnYtNnVzQzBKak0xaGVxdjN4V3NMV0JoclB4UXpxdWZGZ0lvQXBDMkctU1NWMWJtekZEZENhMnY5alNlRlk?oc=5",
+      "summary": "Musely Raises $360M Through General Catalyst’s Customer Value Fund&nbsp;&nbsp;The Healthcare Technology Report."
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Investment",
+      "title": "AI company Commure banks $70M funding round, hits $7B valuation - Fierce Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUTNkUmZ4U1A0a1lKNS1YVm9iNF9kbTFmRFBhQVZBdDhHNm01UzRsQzNSbm10aFdMR3RFVzExdi1xWmJLOHZKbTU1YTNHUTVnYU5rcFV1ZENpSWgxVG9ERWxDbVBuMHNoNUxsb1ZVekNTQkR6SzY3c1BEMmNIRnZXREdkTTVwdjZzVlpycFJkODd6RmhCRGZPeGduUVJpWmd3WmNocVE4UGpXa2dFenB4TWt0TlRCWVU5?oc=5",
+      "summary": "AI company Commure banks $70M funding round, hits $7B valuation&nbsp;&nbsp;Fierce Healthcare"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

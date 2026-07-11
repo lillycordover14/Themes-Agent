@@ -22,7 +22,22 @@
     "x": "https://x.com/iaventures",
     "linkedin": "https://www.linkedin.com/company/ia-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-29",
+      "type": "Post",
+      "title": "The AlleyWatch Startup Daily Funding Report: 6/29/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxON1lMSjY5cWxrWENnX052X2tmRDBNYl84TktycTdPRUt5MXNBSk5PNm1iMWJJeDR2U29ZMmZYMmw5N1BzNmdvWlQwRzIyRkQ0b0stbWM5UGhremJuSzcybVVwUHdPa0JsMVY3WlNJeUg5dDRDdFh2TjRZM05NSDV5ZExVV0pHVTFSOGFiMlh3?oc=5",
+      "summary": "The AlleyWatch Startup Daily Funding Report: 6/29/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-06-26",
+      "type": "Investment",
+      "title": "Hera Raises $27M To Bring its Senior Care ‘Coordination Layer’ To 25+ States - Home Health Care News",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY0V4XzVxbzJJeE8zN1lDeXlWQ0tPQW1JN0t5cHZPeFlIajNPR3BOMC02d2ZKYnIxMHVhdXZnRS0zdzV1UzRvV255QUxBSTV2b1lpR2ZoOVlPSVZYb3B5bGc5eHJVcDhLN0dNeUh4cU1RcjZnck1uX3pjZ05JbUxCUUdablRNWjN4N2NFQU5TcHFNWEM3cWlrNTZHQjlEd2IwNml6UU5GMlZnUWJyRDZzN0Nn?oc=5",
+      "summary": "Hera Raises $27M To Bring its Senior Care ‘Coordination Layer’ To 25+ States&nbsp;&nbsp;Home Health Care News"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Roger Ehrenberg",

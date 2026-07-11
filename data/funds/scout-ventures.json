@@ -24,6 +24,14 @@
     "linkedin": "https://www.linkedin.com/company/scout-ventures"
   },
   "updates": [],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "VCs Leaning Into Defense Tech Plays - sdbj.com",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14alo5d3lOcFVCeGdVM3Vuc3o5OUc5VTBiLVFsanlDclR1YS1KMmpiVGxrSk9ZSXhIcVdyMGtZRG5EUTBYNXZCaWpQUGhDOG9uNnJTMExiNXlfdGtRcnlzUDJldlNhcWgtcnFRNHRFY2NsT0Y4bktIY2owbw?oc=5",
+      "date": "2026-06-22"
+    }
+  ],
   "people": []
 }

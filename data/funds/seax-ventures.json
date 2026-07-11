@@ -23,7 +23,57 @@
     "x": "https://twitter.com/SeaxVentures",
     "linkedin": "https://www.linkedin.com/company/seax-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-12",
+      "type": "Post",
+      "title": "Onibi Secures Strategic Funding - The SaaS News",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYlVZaVk2dEJCU3NGUDEyTllRQUpTbUszSmRPTV9Pb0hOV0NReWJYX3U2MWlKQXR1SXlBR21rWUNXTVZqMXlWeTNKczRkamNoT01aNUZzbkRnX3dOeFhqSHR0Ukw3aVRLMloxNnE2cTJOYmxfdVM3bWZHbDI1Wm01MmdpLVhSYU1yYWZlaVItbHNJTVpwNDByOGhBRlM0bWtTb2NaWUZKaEFoVHM3YnhSRm5JdGdFME44OWJB?oc=5",
+      "summary": "Onibi Secures Strategic Funding&nbsp;&nbsp;The SaaS News"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Investment",
+      "title": "AI Game Studio Onibi raises funding from SeaX Ventures to develop open-world RPG Tomo: Endless Blue - TNGlobal",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMGEwLWE0Zy1jczd1cFotcHBwZlVxYU5CMHhacVA1VGhwRTZVdGZySnVva1BBajNKZFZ6dE51Qkd3eXFOd0lZMzZsNTRMSDI0UXBueGRkSzk1NHBvWDJkQmhkcnVhU0dIaWViUVVRRzc2ekxOa0FqUWszYWpoRGlSeWdpNlU1ZHk3clJjbTkzQVE2aV9USHJJeG1Ccjk5LWhvaU96bTZiSGZJd2lxVkJnaGdEV0N1eWZDVUpZVFlJNXIxQzltQlZvYTFlN2tZZGM?oc=5",
+      "summary": "AI Game Studio Onibi raises funding from SeaX Ventures to develop open-world RPG Tomo: Endless Blue&nbsp;&nbsp;TNGlobal"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Investment",
+      "title": "SeaX Ventures backs AI game studio Onibi - Tech in Asia",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE52elNnMlR1M3d3WTNDaXpndEdsb05kNWh5b0k2UnBiY1NKakVKQ1Fha3VpZmdScERZMlYtcVk0UDFfOGh2SmljVDlsd0xNZjJMSHBPMm9ZZk91dW5aM2tqRDlhYmRmcS13TXVXaEhXQmVRRG90c2Z5LTUzSUU?oc=5",
+      "summary": "SeaX Ventures backs AI game studio Onibi&nbsp;&nbsp;Tech in Asia"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Investment",
+      "title": "Deals in brief: FusionAP raises pre-seed funding, SeaX Ventures backs US-based Melazyme, seven China investments, and more - KrASIA",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMHNiNzJBY185Y0YwVXdqaXhWS1lCSnc1b0N4TjEyUnowYzZlUWdrS0pMRkNJQ3VMRWhPZ0lCUklhQmo4VXMxc2szeTFlSkFsTFFOY0VYVDhtRnMzaXk3a0duaDkxZGZZLVJ2UlRZaWN4Y3o3TGlpQW9oVnJrSUZPRnVITFZvR0dESWItanN1WnBQbjVqand6aVhNNXhOZnpueEtsWHNFNGpBdHM0SEJ3cUZUZk80V1p4c0x6clI5V19SMVBjc0NqUHB5WER5RHVaUGVCTw?oc=5",
+      "summary": "Deals in brief: FusionAP raises pre-seed funding, SeaX Ventures backs US-based Melazyme, seven China investments, and more&nbsp;&nbsp;KrASIA"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "Investment",
+      "title": "Founded by Perfect Day Alums, Melazyme Raises $2M for Melanin & Sweet Proteins - Green Queen Media",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTVhBSG5XOFI1QVdCckl1cWpHTE1qbkFxNHJKX1V4U0M1VGlYelRZYnV1N3UtbVRJYjVTTERiRDRZMF9jT2liRUVuVlZiLVowZk1lWHVlTXRib0xmbThQRlBraXhUNURTeDlZalIzcDQyRjlrOGkwc1NoWGpPTEZWQlRhWHU5MG9fSDZmT3pOM0FaN0gtc1hPV1lBYXotZk5iUHExRHJ5T1NXbzA?oc=5",
+      "summary": "Founded by Perfect Day Alums, Melazyme Raises $2M for Melanin & Sweet Proteins&nbsp;&nbsp;Green Queen Media"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "Investment",
+      "title": "Biotech Melazyme closes US$2 million seed funding round - Asset Publishing and Research Limited",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM0pVTFFqaERCeGVOZlNzenprMFBWUjZEOGxNUjhuOG5jOGk0T1o5QTlGZ1IwUHJFaDA0Yy1VX2JMZTYwS3Z1V2ZVSU4zTVAxLUtJMzlDem1SUEJqakVNdVRPRGxUakJwVGM0SkEzMy1nRDhaMHROZ3U0N3ZSc3NNRVE4ZWJ2d1doNlN0VFU1NGJBZzlOWk9NYlJ3?oc=5",
+      "summary": "Biotech Melazyme closes US$2 million seed funding round&nbsp;&nbsp;Asset Publishing and Research Limited"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "Investment",
+      "title": "Melazyme raises $2M seed round from Thailand-based SeaX to scale precision fermentation platform - TNGlobal",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdjN6T0dnTjRRNTdJaGRmYUtlRTVQZzU2Um5wMW9aZ2R1LUN0ZFBaY0F3VXEySnBVdXo0M1BYM0F4eVhEbGxSZ2NSM2tIX05uVmNkN3dDQTZyZUx1TkJvUHpGc2gtSEx1Q0tLT0RrQTVNU21odlQyRkpvSDZkbU41R2NlS2xNajFxTmhfcWdXX0tXdWF0VUp1TGJlN19sQ2F0bXVQajRyZV8wbEJ4R2RYT0NNQ29fcms?oc=5",
+      "summary": "Melazyme raises $2M seed round from Thailand-based SeaX to scale precision fermentation platform&nbsp;&nbsp;TNGlobal"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

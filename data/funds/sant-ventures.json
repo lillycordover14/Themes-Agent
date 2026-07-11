@@ -22,7 +22,15 @@
     "blog": "https://sante.com/newsroom",
     "linkedin": "https://www.linkedin.com/company/sante-ventures/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-29",
+      "type": "Post",
+      "title": "New platform for healthcare startup growth - The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdjRTcXYxUS1xVUp0TC1JaHdYcE9GcTRmNXBNbW5rMndXb3dmT3BhLXVMMjNaWUNXanVWVmlRQW5tejE1MEZmNEhKSkxfQVktSXlzSE9IZmJ3dEZobDhtb2U3YjhJMFQ5WlBPQmRzNHJ6U254d3dKMmY3MGlzcmhPZnc3Q2ZzSDdoUHd5WEZMd2sxX1MtdWpzcW1mR1c2MFFOcnpNRUg3eF95T3AyQVo2SUJ3YkRRSUFXbF9VWlB4Z1Utb2xEN09ISjhnMA?oc=5",
+      "summary": "New platform for healthcare startup growth&nbsp;&nbsp;The Straits Times"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

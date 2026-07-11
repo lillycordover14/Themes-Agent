@@ -22,7 +22,44 @@
     "blog": "https://www.nea.com/blog",
     "x": "https://x.com/NEA"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-07-09",
+      "type": "Investment",
+      "title": "Databento Raises $97 Million Series B Led by NEA - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYi1BRndyakJydE9yUEdidHQ0NTc5OHdYbXpVcURGNG9nQzRDWExKMWFZSlcxWUNGNWdkQmM3ZzJaSDhhR0JxTXVTSklKNzc3LUNCQ1VudXEyeFRkZ1l0Q3BTdEU1dEJkU3VXSER2M3RUR0Rhb21IbUxiMHZjaUZsYXZMYkdPeG1SdXVKc25BVENPZXJSQnRIUkFaWXpuT2VWMUg4OGFB?oc=5",
+      "summary": "Databento Raises $97 Million Series B Led by NEA&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "Post",
+      "title": "Databricks - 2026 Funding Rounds & List of Investors - Tracxn",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcGNDNi1wSTY2eW1UdkNTZmJHRmdtV3pHX0JfR2Y0c0Nxb0xXTW1velMxc05VVXZRQVhHOXY1UHZaNkhLLUl0ZTdILTZLTmxTSU1lUnZMNmJualVPUzF5cUdMekN2aWh4X1pOUm5nemVlc2lYcmhQRlV2WU81aE52SHlXQ3FXaDlBd0ctZ1pJd2o1b2FXTGVnOExYRlVfNS1saXBQZVBoX1lkVTc0MWc?oc=5",
+      "summary": "Databricks - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
+    },
+    {
+      "date": "2026-07-02",
+      "type": "Investment",
+      "title": "TwelveLabs Raises $100M to Expand Enterprise Video AI Platform - citybiz",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZDJ0SURnTTRXT2FpdGhYU2tmUk5LOVdTVl9hZ3Rod2g0NnlwZWRyOTJOMDR6aWZLaGU0ZE5HV01fdC1hY18wTmc5eHozNWJqUUd1UzBxZ1g2VURiS2NuVVVTU1RCTG9CVlNfaUJvQjlYMTEwMW16TEV3WEF3SEpwWU9MTHBGNF9XRDdSUFhZbVVZMFVxYTAwS0FmdzQ3UHFQcEE?oc=5",
+      "summary": "TwelveLabs Raises $100M to Expand Enterprise Video AI Platform&nbsp;&nbsp;citybiz"
+    },
+    {
+      "date": "2026-06-02",
+      "type": "Investment",
+      "title": "Sekai Raises $26 Million To Build A Social Platform For AI-Created Mini-Apps - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcXowX18tYXU4Zzk4UzUtTWVhc0NXb1FSaHNmWkhQc2IwSk5fMW1ac0dwazFONVA4aFg2VmlnLWxsaTNPd1pjZHBXMEZfWEdGOTNDRDJ3TTY5emloM3lFR3RlUXpzQjFhZHAxbVo3cUdnMDcxdmhiMmJrSnA2cjZfbFYtY1Y5dXc4a1BkaXAwajRrek8teGluS1pvc9IBoAFBVV95cUxQMTFWXzFCMzk5ckJ3aW5GVWdzYk1IY0ktanlGaEpMYUVTQ182dWV6MXl0czNxRzlZTTBaTFU3WUdyeDRtM3FRc2RZSGRJcmdCSy1hU1lkMmFYOHZmWTF0WVFDeWV5NVZYdzVSalZzV0RldXAwVFF5elRxdFhrc2V4c2xnY1AwSzNEcUFkOW0tOTB4cXdNdS1LSjExOFlaV0lK?oc=5",
+      "summary": "Sekai Raises $26 Million To Build A Social Platform For AI-Created Mini-Apps&nbsp;&nbsp;Pulse 2.0"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "From GE’s hot seat to Substack: Jeff Immelt reflects on a new chapter and why now is the time to get candid - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE40Sk9CTGV6dUtaR0o3U2Y2TnRrdU9LZ0ZxcFhhcEZhaC1fWkpwR1lQaThGRzBDbzVYaS1KTEh2Q1EtNV9BY1A1RG5kSmVhSFJOZVBtVEtkSTh6aGJwWkZ6LVNpTEo1a1hLVmhqak1jVi16bk9VaXV5WHFn?oc=5",
+      "date": "2026-06-01"
+    }
+  ],
   "people": []
 }

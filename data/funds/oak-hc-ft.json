@@ -23,7 +23,22 @@
     "x": "https://x.com/oakhcft",
     "linkedin": "https://www.linkedin.com/company/oak-hc-ft-partners"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-09",
+      "type": "Post",
+      "title": "The AlleyWatch Startup Daily Funding Report: 6/9/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOelluX0h1VmVxZTBKZ2Yxd0I5aWhDTUdoeExON3BvR3Y0OEgybjVmQU10UncteUZFTG9fcjZuOWV5Sm82WEcyUWVNRTM3ZGZKNkxUZVpfMzN0M3hiRWo0Tzdma2s4YVNudjBocmhwX3l2UWFBeEJ3ZVhDbldkeDNROG1Sc216aXlpeEFJTg?oc=5",
+      "summary": "The AlleyWatch Startup Daily Funding Report: 6/9/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-06-08",
+      "type": "Post",
+      "title": "Stepful banks $55M to scale AI-powered medical training to boost the workforce pipeline - Fierce Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWmxUOGRHb0RsTTRBeThQcEJ4cHQ3aXJnY3JoRGJFekRfU3ppR091YzNwYl9SdEVYX1FmaTRMVlBjM0Vza2VRNktfNFRZbFpiRVNkUF8zWW5IN2hHUUo3TmpsTHd4OWUtNnBLM1liR2JJMVdpd2VTa2stODM0N2lwQ1hQdTFuaHZpWk1QRm92aDdNcnMtQXFrQVpzLVVhaDNMWHpiNHpLYVMweWlkTFZBNEgyckRyYlM4TVJ6LW1nb1FYeWk1cjFfQWlyTQ?oc=5",
+      "summary": "Stepful banks $55M to scale AI-powered medical training to boost the workforce pipeline&nbsp;&nbsp;Fierce Healthcare"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

@@ -22,7 +22,15 @@
     "blog": "https://www.vectors.earth/vectors-insight",
     "linkedin": "https://www.linkedin.com/company/vectors-capital"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-11",
+      "type": "Post",
+      "title": "The Structural Friction of Overlapping US and China Sanctions on African Enterprise - Lavender Hotel",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd3AyZE5DU3EtaTVLSTN0RWRHb3BmZnB5Rmk3d1FtOW5vZk90eXNMbFlMVkszT2h0dGFzMDNzSUNaLVh6YWdMRnBfaHppVjdWVHVhdHc2a2wzSWlpa1VTa05yX1hBVTktVF9uTHJLbVVlR1d1WEo3Q0ItbTZKYkZNV01Ya2tra18tOHpJOGFaT293UndpaHNrbExILUUyZlVZWmZDQTVRZnFCTTA?oc=5",
+      "summary": "The Structural Friction of Overlapping US and China Sanctions on African Enterprise&nbsp;&nbsp;Lavender Hotel"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

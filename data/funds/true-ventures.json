@@ -23,14 +23,79 @@
     "x": "https://twitter.com/trueventures",
     "linkedin": "https://www.linkedin.com/company/true-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-18",
+      "type": "Investment",
+      "title": "Endoscopic Robotics Company Channel Robotics Raises $4.6 Million - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMnVPUHlWa3NLUEotdGxRZklRUzNOeldFUGR6aEszOXh3aGpRVElQUnpLSE1JUmVneTJmbzk4Q3ZqMk5hZU0zbDF5LVplTzRfbmVZa3ZoVXZacFN6ZTlCeDE3cDB4WG4tMzdET1VRQ1lNVllfbVN2SXBPdmcyWllrQ3JnM0lLcDQzTzYzV1ZfMEdVRW40ejBMQm10blRzcXVCYW5JamNRcmFtOWJ2X19FaERySFE3dEFxaXpV?oc=5",
+      "summary": "Endoscopic Robotics Company Channel Robotics Raises $4.6 Million&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-06-12",
+      "type": "Investment",
+      "title": "ChatSee.ai Raises $6.5M led by True Ventures to Tackle the Growing Problem of AI Agent Failures - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOU2xwcm1EODVvT3RKUmI2UkpnSDMtWm0wdEdYNE4xUzNLUV9fVHJDeFRZQ2hDNmFKN0dHVjRDMzNWRVNLU0xMcHJ1MldGLWV1N1g1XzhqME1YYkgzSFV4TlBqcGw3VUNxUzc3VUVoaV9ONFM1ZWdsNmFOdWJoMVNSZzBqdW9LVlpWVFVJYW5aMHQyNmFEZG1uemZqWFRKV0tRakl3X1NHbEJGSTZSaXFLVTVwYWY5QVpwNXNnRHF0TlZQZjdmTTlFbHZVU2thdjhtMGlDemJEc0d0ZjlBeElrbnJSUQ?oc=5",
+      "summary": "ChatSee.ai Raises $6.5M led by True Ventures to Tackle the Growing Problem of AI Agent Failures&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Post",
+      "title": "6/10/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc01PRUhzTFJKZ0RpVWd2cmlUNGVJOEJzeXlPcXkyV2duUkNXYXZ4TTJxVjI5SjhNUFFzUGtpUVg2V3pjZTM2QUxqLVVocXIwNkx5LVN5SFQ4aE0yaTJ0VWF1c3ctOXJQUHBaYXYyRGlaT1lVdjJoRFE2SjNaQVNlQkR6SUhqaGs4YUdZYlBIbnJqclU?oc=5",
+      "summary": "6/10/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Investment",
+      "title": "Flux Raises $5M in New Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0MWhCamJaWWk4dmRHQktRZlNYaWoyTWdJT0ljNVJaMWVWb2ZwQldRWm1KcmluOHduN0h5NUQxUHpiVVgwb0kxT2U0Q01fNFNSY1p6UFE2b09sSFNzNGdmS09uaFQ3eFMxWU15YzVhMjlnSl9r?oc=5",
+      "summary": "Flux Raises $5M in New Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-05-29",
+      "type": "Investment",
+      "title": "Fragrance Tech Company Patina Raises $2 Million - BeautyMatter",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdmJXbkJERlMtbXNQLXVsQXc1UXNCYXRORVRkaUZxQjlBaFNEZ0hFUGJkelZicDA0aTBFVzlGaGVNRWI2WENrNTdjQnczcDJ1VVpSUEhHYktmcHNBSThGQjZDRzlVWXZGNWtRaFNnQzdKTnZ3aGJxY3JZMDI3ZVJTbTlMa2stSEE?oc=5",
+      "summary": "Fragrance Tech Company Patina Raises $2 Million&nbsp;&nbsp;BeautyMatter"
+    },
+    {
+      "date": "2026-05-26",
+      "type": "Post",
+      "title": "The AlleyWatch Startup Daily Funding Report: 5/26/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU1pONGFCOExhMXBQS3NyaGV5elU5eWdJb0I0N2s0TGlRMU5tdW9UZGRaT3AxSmpzMUFrR0ttQXZwU1FyVTFUdkJ0SDhSUHc4UnppZ2hsSGhhdGNBTzgxNWp2Tjc5bTM2Nlh6WE5RSXJqY2ZDZVVNY3hyNDlBZVJrLVNVWl9SRkp0VjVLTVhRa09JbTg?oc=5",
+      "summary": "The AlleyWatch Startup Daily Funding Report: 5/26/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-05-15",
+      "type": "Post",
+      "title": "HashiCorp - 2026 Funding Rounds & List of Investors - Tracxn",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa3pCbTdKeFRWb09BQkNlUDZpcW54Yk4yUHNHcUVwLVZVU3d3d1BGd1pNS3Y0QzJOU2taOVZzZ3ZEQmtjTWd0MFNCVk9pUW1tX0d5WjZVT3UxOHZKVHVqeGZ6VktGWFNuX2NhS3ZadmNtVWg2WXdWcTByWHpCT29qRVZaNEpLX3VlUGw2VTZQVi04SHV4TnVwdkoyZDM4N3lybFZaMmxnQ0pSWUhZ?oc=5",
+      "summary": "HashiCorp - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
+    },
+    {
+      "date": "2026-05-15",
+      "type": "Investment",
+      "title": "Flick Raises $6M Seed Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9sMnVobHlyTGgtbDF5YkliQlBoVFg1VmpaUVprb0lGazFEb3pXM0RSNnVQeTQybm9mem9EQV93cUlxLWZ3bDZsRUx1TC1XdFRDTlFuWkdnazRvQnpTNmoxS0ZQTkRRazdQNElUbWVJT0RNLTA?oc=5",
+      "summary": "Flick Raises $6M Seed Funding&nbsp;&nbsp;FinSMEs"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Om Malik",
       "url": "https://om.co"
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "In Loving Memory Of Om Malik, Friend, Writer, Venture Capitalist, And Ever The Believer - Hodinkee",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU0dFSmx5SFc4UWo5U19TMUhrNkVOVHBhaTNXUkVRWUNsT2NYZ25xVlF6a3RGNTBvQTBlNkhITjdTMzZGOE5MNTY0d3JPN3RIWnFCbThYVjh6Z2tQYTdOYzdhZ2ttd2lnVklLN0t5azZha0ZfanQ5aThndEtfbDE0SVV0TzJIbnRueXp2NGJNTkRwQS1wd29OYm1PNzIzZ2x1M0JTcUpZUEswbEFTS2NNMDVNVHNIS0lr?oc=5",
+      "date": "2026-06-26"
+    }
+  ],
   "people": [
     {
       "name": "Om Malik",

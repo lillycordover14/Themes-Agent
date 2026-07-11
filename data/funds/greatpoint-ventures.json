@@ -23,7 +23,22 @@
     "x": "https://x.com/greatpointvc",
     "linkedin": "https://www.linkedin.com/company/greatpoint-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-01",
+      "type": "Investment",
+      "title": "Integral Raises to Build the Independent Privacy Layer for the Real-World Data Economy - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNW1nSzRsMmkyWWRGZXlJZ2tuLXBQcFJGSk9sZ2hHWnBGMnNBLWRxS2pCZDgxcnl2aFRLZXM4NFNMSWlLX1NBN3lEb1BTalkxclp2N3g3VU1mX3VEWW9nd0dlUUpHVzdZNDNOMG9GbXJOU3RCYXVFWUpUUEJHaVJTTGFTQTdNUUpTc1Y1ZkM1WEdQMW41SngyYlk1ZHVYWk5WTE1RQkdkOG1wRnlUaktiLWo2OFRmNmZqTlVQdkRnU0ExS3FiQld1LVlobXNkQ1Z6dUpvV2V0TTJUTGc?oc=5",
+      "summary": "Integral Raises to Build the Independent Privacy Layer for the Real-World Data Economy&nbsp;&nbsp;Business Wire"
+    },
+    {
+      "date": "2026-05-12",
+      "type": "Investment",
+      "title": "Star Catcher Industries Raises $65M in Series A Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVg3OXUydHUxbjM3TzZZVVZ0NEQ0bjdYMUp2ek53NkJxb3A2ZEQzV3hjbUQyeW1fckJobXVWb1E5VUtoOUltamdfc2RfZF9KdFl4ajgzbXd3WXZyVnNBbURsOWlDMXZSUHpULTB5SnZSai01cFdpaEdvX2ZoWGRuMlJDcEN4dVVDRGNYQTdVMXRQdEZTdHc?oc=5",
+      "summary": "Star Catcher Industries Raises $65M in Series A Funding&nbsp;&nbsp;FinSMEs"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

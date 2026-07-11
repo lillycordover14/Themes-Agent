@@ -23,7 +23,15 @@
     "x": "https://twitter.com/ttvcapital",
     "linkedin": "https://www.linkedin.com/company/ttv-capital/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-23",
+      "type": "Investment",
+      "title": "Six-month-old Anchorbase closes $2 million USD pre-seed round - BetaKit",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSTlmaDRMWGgyWWlzQnA4eVROQTBVNzlaREIwT2lVR0Q4VnAwUmVzNjY1N2gzMmlsYWotNU5Zd1Jlb0J6Mjl2MGkwZmlYam9FenhobGw4cDBrYnhGVXhQNE1DaFNHejFKdUthb0J1cHVYSi16MVF6aWlCcnZ4Zy1CcUx3dHZKUXln?oc=5",
+      "summary": "Six-month-old Anchorbase closes $2 million USD pre-seed round&nbsp;&nbsp;BetaKit"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

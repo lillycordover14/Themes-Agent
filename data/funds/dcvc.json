@@ -23,7 +23,22 @@
     "x": "https://x.com/DCVC",
     "linkedin": "https://www.linkedin.com/company/data-collective/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-01",
+      "type": "Post",
+      "title": "DriveNets hits $8.5b, sports cards merger, and a new DCVC fund - Axios",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoMWNQZEZkbFFLXzlSMmZfcnpOSHktMXQ0SDh5M0p5Tk9GUnlJUkR6ajZEY2poeTFYVDlUb19PSS1Yb09mNmJBU0lSZFgxell4OEZVTkk4cHRfdFFnangxUkt2X002aFBBdE9BMHFORzNhUkxSTGt0c0p1emxLUjA?oc=5",
+      "summary": "DriveNets hits $8.5b, sports cards merger, and a new DCVC fund&nbsp;&nbsp;Axios"
+    },
+    {
+      "date": "2026-06-01",
+      "type": "Post",
+      "title": "Palo Alto venture firm files for $500M energy vehicle - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbWtqN3d0bkhOSGttSzJWYjlmcF9uRnM1d2ZIalpBejNBNjVQX0pMWVIxYUZWdDVFa2EtWG4wMF9MamY0UmNjNmRISklrUklaLXpvczJuQjZPVTlrQ0xNOHhhUHJmM1FwN0V5VDlQZ3V0RUE0X0hCOHBGSlQtSllmbVdGN0RFcWJLalZVOXN6SQ?oc=5",
+      "summary": "Palo Alto venture firm files for $500M energy vehicle&nbsp;&nbsp;The Business Journals"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

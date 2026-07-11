@@ -22,7 +22,29 @@
     "x": "https://x.com/i2bf",
     "linkedin": "https://www.linkedin.com/company/i2bf-global-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-08",
+      "type": "Investment",
+      "title": "Klinic Raises $24M in Series A Equity Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQmFoVnlQUkpmUXduckphanVuY0F0dXA4WmdOSjdBYmMzSmEwRFFqUE11RkhuLVhMZ2JrYmV0enVCeUpYM3NzU3BBczNRS1IxZFlmMkpQTnhGeWZ1N3hJMEZ3UWI0d3FOZmowQ05lZ2lXcUMyTFl1Qkl4aXhlYnUxajE4RGFJSXkt?oc=5",
+      "summary": "Klinic Raises $24M in Series A Equity Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-06-21",
+      "type": "Post",
+      "title": "The Weekly Notable Startup Funding Report: 6/22/26 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdzdyTGN6aDFoYndVSmVqREpfWDZSWDNEX2VabTgyZ1ZhU3gyY196aWFRa2xTQW5rSFVONElIVXlhY2pEODVVa09KOGpFWmVxVkdkLXVkVW51M2JOZ2hoemdUZWRBMllRRHBRbzNxTnNDY3pGQVZhZUhDWnV4dTdjM1Uzc2xRLU5lNnVScC1B?oc=5",
+      "summary": "The Weekly Notable Startup Funding Report: 6/22/26&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-05-15",
+      "type": "Investment",
+      "title": "Wirestock Raises $23M in Series A Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN0tfbmRfcWRrU0pfZEdyaHBMX2ttbnh5cE15ZDhndC1jNFh2QVVVS1drR2t3bGh3cjRvT1FibXM0ekVFQVJUbnRYQzJmT011bkVrbHotWVFZMkZLUHFjWkZFd2dsUENZdG9qXzVhZHZWZVFTUjJ6S2IyMjVTbFdlVzBCNA?oc=5",
+      "summary": "Wirestock Raises $23M in Series A Funding&nbsp;&nbsp;FinSMEs"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

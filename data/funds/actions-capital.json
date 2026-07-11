@@ -21,7 +21,15 @@
     "news": "https://news.google.com/search?q=Actions%20Capital",
     "linkedin": "https://www.linkedin.com/company/actions-capital/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-02",
+      "type": "Post",
+      "title": "Petal Surgical adds more funding for incisionless surgical robot - The Robot Report",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZXMxWGhkUHhoNVJLVU4wemNJRnRiRzRXQzBlOXVrbHFMbEJHX0xTMGt1VjM4MW4tQ3NwNDdZemNOMmZVRnBsZGstMGZwam8yRy1KQ1lWUzlxTTJ3b3V0SVFVX0J4Qmdoby1USC1jdzc5Zm9Dc1NSUUEySTI3TDA1dXdiOW05RVVVMEZRUUtVbUQ0QjN1YjBpM0xHVTA?oc=5",
+      "summary": "Petal Surgical adds more funding for incisionless surgical robot&nbsp;&nbsp;The Robot Report"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

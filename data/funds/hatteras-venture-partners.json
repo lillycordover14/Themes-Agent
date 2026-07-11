@@ -22,7 +22,37 @@
     "blog": "https://www.hatterasvp.com/news/",
     "linkedin": "https://www.linkedin.com/company/hatteras-venture-partners"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-05-15",
+      "type": "Investment",
+      "title": "The Week’s 10 Biggest Funding Rounds: Anduril Leads Varied Lineup Of Large Deals - Crunchbase News",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWnNpNTNqRGZ1MlRpeUFFcFViZDZxN2JfYzRlSUdnVTdieUJianE2aDAtenRaMlFNRE9JdW5CbEtfbzE2c1VCSWRFX3JjTk94MjlfU2pZTHFKMUhwdmhxOFNjckJkQUdBZHY5bDE2YWRIMXp4QTNLckhXLVRBT204YW9HU1BSYl9hOVMzZmkzSkhiV1Mwb1E?oc=5",
+      "summary": "The Week’s 10 Biggest Funding Rounds: Anduril Leads Varied Lineup Of Large Deals&nbsp;&nbsp;Crunchbase News"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "Investment",
+      "title": "CREATE Medicines Announces $122 Million Series B Financing to Advance In Vivo CAR Pipeline in Autoimmune Disease and Oncology - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQSXZjVFBOaWFTelRJVlRMVGZFMHA5WXZrdEFqVUMyQmVJc0V6dzJCNDN1aEdEcGYtOFFUdnRNTVlvY0t1M3pGeW42WFF2aGRUY180N1B5NXp6RDEtaE1kRTdKNENPaXJfTmhqWjNYc1VBaEp3TDdJXzUwMURXVnh3WUR0d0NHMnBPZ1g2U2Nzc1RONmxXSzF4MWtVSnEyRXFQTW5KQ3RtQmR2a2QzYUwzN0c3NE5MT2d6UEV2bmU3QlluSDEwYTFtTzhyS3VHZGptS1N0MGxuNlB2elRkaHZCcFNuSVI3UWtJRlozYl85TEc3UWo1NjRrdEN2d0pDczNCX1R0akJlalBEN29l?oc=5",
+      "summary": "CREATE Medicines Announces $122 Million Series B Financing to Advance In Vivo CAR Pipeline in Autoimmune Disease and Oncology&nbsp;&nbsp;PR Newswire"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "CREATE Medicines Announces $122 Million Series B Financing to Advance In Vivo CAR Pipeline in Autoimmune Disease and Oncology - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQSXZjVFBOaWFTelRJVlRMVGZFMHA5WXZrdEFqVUMyQmVJc0V6dzJCNDN1aEdEcGYtOFFUdnRNTVlvY0t1M3pGeW42WFF2aGRUY180N1B5NXp6RDEtaE1kRTdKNENPaXJfTmhqWjNYc1VBaEp3TDdJXzUwMURXVnh3WUR0d0NHMnBPZ1g2U2Nzc1RONmxXSzF4MWtVSnEyRXFQTW5KQ3RtQmR2a2QzYUwzN0c3NE5MT2d6UEV2bmU3QlluSDEwYTFtTzhyS3VHZGptS1N0MGxuNlB2elRkaHZCcFNuSVI3UWtJRlozYl85TEc3UWo1NjRrdEN2d0pDczNCX1R0akJlalBEN29l?oc=5",
+      "date": "2026-05-14"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "CREATE Medicines, a biotech company developing CAR-T therapies, raises $122 million - STAT",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HUWJHcGczT2wyLXl2bFZsTEJEX2N2RC1OZkZ0UGJHQzM0QVgyQXVvemlMQWotZzRuOEFHVDVmblBRanZLLXNwcFlBQ2FsV3l6VV9NRzc2Z0NXeWRlbmFzYTN0MkFKay1SWHJvS3B5UmhzSjFfLThrZW9iYkN0RVE?oc=5",
+      "date": "2026-05-14"
+    }
+  ],
   "people": []
 }

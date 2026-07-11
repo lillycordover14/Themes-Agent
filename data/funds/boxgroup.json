@@ -21,7 +21,22 @@
     "news": "https://news.google.com/search?q=BoxGroup",
     "linkedin": "https://www.linkedin.com/company/boxgroup"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-30",
+      "type": "Post",
+      "title": "The 22 Largest US Funding Rounds of May 2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ma2FHZEhkNlplZnJRWGRSSDhOZENfOS15WFZzR0NkWWlVRTVRRUlNNUdWYnppT3pvQXBvMDNEa0hYbWlkbE5EbkJBbng0WFJENFhFR080cWdTME5qaDFuT29yaG9va3lSRVd0c0t4bmx1cjlPN21uX29mUTRCZGc?oc=5",
+      "summary": "The 22 Largest US Funding Rounds of May 2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-06-02",
+      "type": "Investment",
+      "title": "Adaptive Innovations Emerges with $50M Series A to Build Healthcare Abundance with AI Native Homecare Agency - The AI Journal",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObWtwczg0cWVMYTZLS3A0dGRJUjJPNG96MzdaUDNrUHlvcHdoaE9Lc2pOb280QUt5eFdnQmVDdkhKdGVVNWNrVHYwaExkMHRab195bXFsV0tHWTlLMHJZM1lYa0FfbmhfX2ZNQWRmR0FnWlBvMmw2Q2hhV09tTDhhMTlJMHFzM3pjOExZTWJ2eXFYcEdabWlPZXpHTDJMT2MwTTBIeHh2MnJwTzNLLW5JODRVU041cTlpZUVLcnphaUhMNTdrYjM0?oc=5",
+      "summary": "Adaptive Innovations Emerges with $50M Series A to Build Healthcare Abundance with AI Native Homecare Agency&nbsp;&nbsp;The AI Journal"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

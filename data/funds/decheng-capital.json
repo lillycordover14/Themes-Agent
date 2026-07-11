@@ -23,6 +23,14 @@
     "linkedin": "https://www.linkedin.com/company/decheng-capital-"
   },
   "updates": [],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Remix to take Nasdaq spot of Passage Bio in reverse merger for mRNA degrader - Endpoints News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSE9PMk1oZnBPZ3hKaGFsVHBtVDN6Uk14TkdiNmdfeUNZWFRKdTI5VEhxN2I5aER4dFMtMGtFT1pnTFVVM1pOZHZLTTQ4bVBrWVVCNUdaWXlWRTg5TTdfY0RFbWo3cVRpeFZTd3ZkYnVfWUR6UlgzZUplUzgzUUpRb2xJVGZTdXNGNkkzQg?oc=5",
+      "date": "2026-06-25"
+    }
+  ],
   "people": []
 }

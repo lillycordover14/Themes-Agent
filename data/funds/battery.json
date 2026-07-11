@@ -9,9 +9,95 @@
     "x": "https://x.com/BatteryVentures",
     "linkedin": "https://www.linkedin.com/company/battery-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-09",
+      "type": "Thesis",
+      "title": "From Dirt to Tokens: How AI is Collapsing the Walls Between Apps and Infrastructure",
+      "link": "https://www.battery.com/blog/from-dirt-to-tokens-how-ai-is-collapsing-the-walls-between-apps-and-infrastructure/",
+      "summary": "As long-time technology investors, we’ve seen the lines between applications and infrastructure blur faster than at any point since the cloud era. Our Battery General Partner Dharm"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "Thesis",
+      "title": "Behind the deal: Why Battery Ventures invested in one of Boston's AI 'unicorns' - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTE4xd3Nwelh5eV8wWklCUk1QdmhtMHBPT3dyVzBYQ2J6dVg3VUdDbHVpQk14dXRtZDYtRU1RTW1RZmU1MUZnejZ2dWZwR1VUY3NFX2ZTR0FVMnNQZWpVMFlydzRkWmVHZWFhUzY4U19aMUMxWXBDc0xOWjVIZG4tLUg1dGcxVTljaEF3T0pMb2FTV2IxU1lKY2RiM3ZBRzZp?oc=5",
+      "summary": "Behind the deal: Why Battery Ventures invested in one of Boston's AI 'unicorns'&nbsp;&nbsp;The Business Journals"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "New fund",
+      "title": "‘Battery storage may be important' QIC on Queensland’s new fund - Energy-Storage.News",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUXFyZGY5X3NaMThwd3BOeURTbXR6Y056TGtDcHVTUGxkUlpkUzlsVW5lTlBQbHNiODZuWUZQUFZ2VEJtMjRqbTlXaURGdm9JbDR0TTVJMnl4eWc5MGxzVnA1RmdvM25VNmVuNjBKalQtT2RwZ2xVcGhxZHNuU2pLOEZJcEZJako4YWJiM3hIQzNzdklrUDVSUXdkeTJPaUJPaXBWRlQ4QVdDb3FzUkdtenU3YzBiWURxS2NhWGRjOEtITW1hOHZsTDBsSFpjVTBLZ1VFRXNpc3hhOF9FLUdFYkdZUQ?oc=5",
+      "summary": "‘Battery storage may be important' QIC on Queensland’s new fund&nbsp;&nbsp;Energy-Storage.News"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "Investment",
+      "title": "Hyundai Motor Türkiye invests in new battery assembly plant for IONIQ 3 - Charged EVs",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOXzJmMEFseEZqRl9Nc1BZVXd1djlWZ3RjRXVUSUpmcXB4RzRPemNYbER0M0NfMDdjbEJ4ckNTRXp6akZ4dWhuRkpEbnBzdXRzM2dNcnhRQ0plbWw2VExhNExBOE9FZlVZbHlkTjFtUkZTZTJsWFpEemZ3NVBxb1ZPM28xaUFLZUdOR3V3NDhnR3htT05sVnVuUE1yQmp5dXZVMmM2QlIwbw?oc=5",
+      "summary": "Hyundai Motor Türkiye invests in new battery assembly plant for IONIQ 3&nbsp;&nbsp;Charged EVs"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "Post",
+      "title": "GLOBAL BATTERY MATERIALS ANNOUNCES POSITIVE PRELIMINARY ECONOMIC ASSESSMENT FOR THE KEARNEY GRAPHITE PROJECT - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNYXZHakdlN0dESGNtSnhLZ2p0cDcyZUp4M3NBTEVVUmdyQ29ncXNaVHpRNlJ6OVVwWVlNZkZSbko5M2NhQXFOZG94dWlfM3JsV2RfbnVtSGoxX0JvZUYwQklPd0FzWjBTVlIzMW1hUG5JWU5LXzU2Sm9KdFhHT003Z1ZabHEzdWxiekpybklsSzRTN0FrbEJQWmhSNWZ5WGFsVktpb2dFX3B6V2hHbWhtdE1SeV95QmR4V0tvOERaaGdKU3NTSFRMWnVzNFB2Q3dIcDF5ZWFuVEJIZmVzVUUyT0drVWNOb29uZGhSN2d6QTBiWC1SWWF3?oc=5",
+      "summary": "GLOBAL BATTERY MATERIALS ANNOUNCES POSITIVE PRELIMINARY ECONOMIC ASSESSMENT FOR THE KEARNEY GRAPHITE PROJECT&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "Post",
+      "title": "'Nintendo will no longer sell to retailers hardware in the Nintendo Switch family of systems' — The sale of original Switch consoles will end in Europe next yea",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxObFM1cHN2NUdYTzZIbWtVZWZ6S0VKZVlwNndNbndhNUQ1NnlRZWR4OThUbzVHRkVCYmptWWVwVEdWY3pIRTVLcjd0a3JWdl9oTGVTYjVrVVREWlNoY3Q3RlAxUTJqWkw1dGxKQVh5d2JZemRiVGNSMFotVDVvUlpOOHh3RlZLSExuMHRMNm9iVWRHUXZjdnJjZTduRmNWQUlHVTBRaXU1Nm1fWTZxcnotdlowcVBfX3NpRDJZQnFBbjYzM3B1d3daZHVWOHpwNjh3SzY2V1V2SGJrdGh4MUlES1h1VVI5X2pRRVR0MFdiaElpR0JuZHZ5c3A3S2RRYUl5Ql9JZWJyTldGc0pza2c4?oc=5",
+      "summary": "'Nintendo will no longer sell to retailers hardware in the Nintendo Switch family of systems' — The sale of original Switch consoles will end in Europe next year as the Mario maker"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "Post",
+      "title": "Surge Battery Metals Announces Investor Relations Agreement - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdEtTXzFpWVlKVy00Smp2VndBTXV1ajQtRnc3LXF4R3RNdER0djFsRnpPZF8ySHNOaWIzRzBpS1A3dVU4d09LM21VVWRhSGRNYmU4SXlybThpVEM3R3BjcGl1S2xVTThqQVo2dm9MeEhjQ0xjWFVfVXJURVNIWmkzaklMY0lsV2lORGVURTd2UFZhZFljS3lnNS1UeGE?oc=5",
+      "summary": "Surge Battery Metals Announces Investor Relations Agreement&nbsp;&nbsp;Yahoo Finance"
+    },
+    {
+      "date": "2026-07-02",
+      "type": "Post",
+      "title": "Altilium secures government funding for breakthrough battery anode recycling project - renewableenergymagazine.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQzJXYzdhMnhGN2xjeGFQSUt5eklFOUVNQngydmJCSWhCaXlfT0ZlMXlzTnVlLTRudVh0aVJoVGhUUHBxOUpjSnY2Vnd2OHFhWE9jWS11S1ZPc1JRU05IMFdldnhBQ2ZsbS1tVnNNWFF4RnVyNGozRnh3VGtpOUF4Yy1kMHVtbkZoZ1pXWU5fdzcwV3FIQVlKSTdPQWlhQjZqbS1Cb0hZbzdTcmdxX2pGanN6LVg0R1Bl?oc=5",
+      "summary": "Altilium secures government funding for breakthrough battery anode recycling project&nbsp;&nbsp;renewableenergymagazine.com"
+    }
+  ],
   "region": "Americas",
   "meta": null,
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "INTERVIEW - ElevenEs targets H2 2027 launch for battery mega factory - SeeNews",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOFdxaFpJRWh1UjFhYjVKTzdTV0I2VE8tTV9zbkd3OENucGZLZjE1UUZkb1M3NzYtZzF3aXllOEpoNUhrU2dYbGQ4WHJ2dm5MbjhzdHo4b254cVd6NFB2ZG8wd01iQ3ptaS1nYmRJUzVlV2xTVktyWDBUcm9sUmVseHZqdzR6cVA0eDIxTk1fRW5KWUlkamFvUVNIWGN2X25I?oc=5",
+      "date": "2026-07-09"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Battery Interview - Oil, Gas & Electricity - United Kingdom - Mondaq",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1VRTRBM2tYR0pxM2dQb3I3eU1XNFNYWDE2MmtQUFNKUXl3WGctNjVCYS16U2tVX01nLU5lY2FIVUduQm0yZTNTZXVTSWhaNmdGVHJnZ25fb0xNMHBmWjdmSmFyRHpaR0hjQzdmLVprbnh3eGpmQW5WMmZkUQ?oc=5",
+      "date": "2026-07-09"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "FULL INTERVIEW: Children's Hospital Colorado doctor talks button battery awareness - KKTV",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQXlJRmNjd0hGWF9hQWZnT1FOM2FTb0MxVURjckxXY0JjRUVIeEdvTTFtQW9ZOEtHVDBZMmtUYXliS1FFY3Z5alhKUWptbXduV3hjVUtHbDRDYktoR1dUQzN3d1ZNR1F0UlNmRi1qTF91MHZ2SE9wME1GRzM3SF9IQjZqWHZYdkJwX0lXM2laVUV3SnlQZmptcTA5SURYNm51ZlcybnV3YkJmejlTbWgwOFd4U042SGRwdHNr?oc=5",
+      "date": "2026-06-19"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Atlanta Braves News: Chris Sale interview, Braves shut out, more - Battery Power",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXliUWFQYnBZSUpFd3loUkt3QURFRnZmNk5MeUwwb1VYdElDWXJPZzZfQ1J3RkE4Sy1Vb1BRZ2xocnZKODIzbURpRXh2MGN2ZmRROGNLOHJBdnlJODBXOVZudjYwcEhaTDN4elNrZmN0NUx4VXkxUmdCY3JsZDctN281bWI3d1NLd3lFOWROX0Nxb2p5d1RHaDRhMk1yaEtPWFBYVXlQRHVhQ3Rnc2hQZE8xM3k5di1F?oc=5",
+      "date": "2026-05-23"
+    }
+  ],
   "people": []
 }

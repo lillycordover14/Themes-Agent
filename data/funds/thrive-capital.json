@@ -22,7 +22,72 @@
     "x": "https://x.com/thrivecapital",
     "linkedin": "https://www.linkedin.com/company/thrive-capital"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-07-06",
+      "type": "Investment",
+      "title": "Thrive Holdings Raises $2 Billion to Buy and Rewire Services Firms With AI - PYMNTS.com",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcEJybXU1UjVPSF9vRmFYT1NtQnZSWC1QcU1rdC16RFE1MHoyR3p2dU4yMFZNc3NVeGhLX1VtZ0pwMWpjcFo4anJSRGR0cjF6cmtxTnFJdHg4T0k1TnY1bUlHRlhIV2pqNmp5cnN1d1pOakJ0S3A3WUkzQi1XQ1ZiNUxmdnFLSkxaMEVzakdPa1VaNWg2Qi1zbnI1aUY4X2J1NUc0SXhrRWhLSFNXYk9VMVI1RERySGJZTlMyaHprNzB4X2RzcXJDdjRYaw?oc=5",
+      "summary": "Thrive Holdings Raises $2 Billion to Buy and Rewire Services Firms With AI&nbsp;&nbsp;PYMNTS.com"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "Post",
+      "title": "The 10 Largest NYC Tech Startup Funding Rounds of June 2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcXFUSFVQbU00S2VOR0dCbnNRSGtNMGVaNzlRMlBtVkxtTTVpUm9VWWw3V0hTaUJVeTRTLTFJajk2d1dMam9iRG5vdDBxeUNTdTZtbU5iNkhMdmpNVGxveDRrdmZwa1pMNnBzV3pXY3lVODBUOXdzaDFHckk5MWFvM29JVnpkRFU?oc=5",
+      "summary": "The 10 Largest NYC Tech Startup Funding Rounds of June 2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-06-30",
+      "type": "Post",
+      "title": "The 22 Largest US Funding Rounds of May 2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ma2FHZEhkNlplZnJRWGRSSDhOZENfOS15WFZzR0NkWWlVRTVRRUlNNUdWYnppT3pvQXBvMDNEa0hYbWlkbE5EbkJBbng0WFJENFhFR080cWdTME5qaDFuT29yaG9va3lSRVd0c0t4bmx1cjlPN21uX29mUTRCZGc?oc=5",
+      "summary": "The 22 Largest US Funding Rounds of May 2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-06-29",
+      "type": "Thesis",
+      "title": "How six venture capital giants are reshaping startup financing - Baton Rouge Business Report",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWTJUZnp4Vkd5dFhMZDFqd3ZDZk96NC1sa1o5TnNTSk9PLUNwU1dXZy1NdElISXhRZ1M3dlFXVkJlSHhmNGpGTWY3ei1xNENGS1VPYjVDY3BxUWhDcEtFaXktQzdpd2NySFFIWlI0V203cERZbEQ1X19pN2ZRUk55X2RSTnlyZUJCbGpLOF9FelVING5VMjZMYm12NmxaWm9sQ3hr0gGrAUFVX3lxTE1Mc19VVWQyZDZ2V0NXdDBjaDB3SDc2aExMX01UYmNsSVg2MDZLVkNQSDlkalV6VExVcEJGeFIyclBJdHZEUTZmMklaV0VMNk9ibWF2ZTlHdzFYbmJGZXNmdTZWNmJ1eXJubTRmbXlEUldTcHpjYUZMazQtRnVmbXpuTVNZX2E5Z3Q0MFBEc2RwcHFINUdtY0p5VC1xUzdhM1pOSTVIU0duaXRKRQ?oc=5",
+      "summary": "How six venture capital giants are reshaping startup financing&nbsp;&nbsp;Baton Rouge Business Report"
+    },
+    {
+      "date": "2026-06-25",
+      "type": "Thesis",
+      "title": "6 Venture Capital Firms Now Dominate Startup Financing. How Entrepreneurs Can Win in the Age of the Giga VC - inc.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSTlZMEZRZElKdmM4UmxxV2RWU0g5SF9iUXBCMWw2ZFV0VVY4TW12cTNUcnNlRVNyM1JHTXU5QmZVV1dhaS1zaWJwNDh4WXFVMmRvQmtrcWladHJkQTdKMHRna2xodHhlWDNTSi12bHBTclRmT1FwLVRpMlBBWFBGY0hqQWJWcUEzWjd1eWpSaVRIaUoyMnA0ZFh0YXNfMDFXMVNXTEp0ckVZN18wamJ5NFFXNlZNUUdkUHZRTXJfQzBNbnJVTDJtczJn?oc=5",
+      "summary": "6 Venture Capital Firms Now Dominate Startup Financing. How Entrepreneurs Can Win in the Age of the Giga VC&nbsp;&nbsp;inc.com"
+    },
+    {
+      "date": "2026-06-23",
+      "type": "Investment",
+      "title": "Cadence secures $100M series C to advance AI-powered care for chronic disease - Fierce Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaWRTQ2p6cW9RTFh0VWFiQWZxSzRJWGRpaEJyeVdQWGtONWlwdnZzaXFudzBQejM0SmVBN1liUWNubElwWVQ4Wm9JTVZhTnhzaEwycG5lMWd1TklkYTdLLTh3bzVObkx6Y3AxeHp1a0RFcDZjRkJ4UU5veVVoQXU4NlhlQWt2c0NsX0lsckNKbFVUX1dhQnNCNzJReVB3dUhMRWxV?oc=5",
+      "summary": "Cadence secures $100M series C to advance AI-powered care for chronic disease&nbsp;&nbsp;Fierce Healthcare"
+    },
+    {
+      "date": "2026-05-27",
+      "type": "Investment",
+      "title": "Thrive and Sequoia back Pace in $46m Series B round - FinTech Global",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcUdUbFlibkNhVFUwMlFsZzRyWnc0RHBDUUNBRjB1anhNU3U2c2diRnNLa0g2RGRDSExfbHJ2d0JNUHFVY0N5N001dlFLT1NhRWdzTHVoOWd6OXVoSU9vQ29OaENQSTRWU3daeGpZaUVtQTQtLTliSGozempYejZiYlZiZFROTWFNQWNTdFNB?oc=5",
+      "summary": "Thrive and Sequoia back Pace in $46m Series B round&nbsp;&nbsp;FinTech Global"
+    },
+    {
+      "date": "2026-05-17",
+      "type": "Post",
+      "title": "Thrive Capital’s Shopify Bet Puts AI And Valuation In Focus - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZzBaUU5PMi1mYTRURnNoQmN0ZkhvQ3hvZmx6bE5WYi1WOGctNUJsdVBsQnlGbHRic2VqVFJ4S2VqbVJPX1VTNnNjLU5pT0VGM3p0ekNwd1BuZkxYakhXQ0xtSDRtN3lsSkctQ1h4a3NSU2VuLTVCU1dKSk9XS3ZuSGVxRV9mM2hyQjRtaFVnLXlSelhTVnEtQ3NGd1g?oc=5",
+      "summary": "Thrive Capital’s Shopify Bet Puts AI And Valuation In Focus&nbsp;&nbsp;Yahoo Finance"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Anduril raises $5B, doubles valuation to $61B - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaklJbi1NOGt0aTJjR05LaTNreTlqcDR0a21YaUJlMUVEOVR4Ump2bHU1MFJMcHUyTHJlUUhfYWRlX1ZMZVE3YU9acEJpOUpsWG9kVHplMWU4bnFnTDM2RDlkOUhoQ0NjWDQtdHphSFFpc0ZldEVoVW9iUGtLNWpMekEwWQ?oc=5",
+      "date": "2026-05-13"
+    }
+  ],
   "people": []
 }

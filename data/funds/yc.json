@@ -10,7 +10,57 @@
     "x": "https://x.com/ycombinator",
     "linkedin": "https://www.linkedin.com/company/y-combinator"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-08",
+      "type": "Investment",
+      "title": "Y Combinator-backed German startup Finto raises $3.4M, says chose Munich over Silicon Valley - Tech.eu",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHdwcF83VExYcktpNy1zN091YUpVNE1iT3dScW1JaEhpT1hmTDhsTDIxOUZzZE9aZk9Bek9XNDBySGU2TlU2V3dCdUlTU3hsekQtd0w1WUZaQkhxeFlfVmp4RUJDSXU5T0dkb09zMmZiRFlpcU5UblZLSjgwanY0TjY1Q280V0VJWFFMN2hMZ01JZWdpV05PNU5fRk1xdmhPaHc1dlBobXdfYTRrdnNGWG1MSQ?oc=5",
+      "summary": "Y Combinator-backed German startup Finto raises $3.4M, says chose Munich over Silicon Valley&nbsp;&nbsp;Tech.eu"
+    },
+    {
+      "date": "2026-06-23",
+      "type": "Post",
+      "title": "Y Combinator Opens Applications for Fall 2026 Startup Batch - Tech In Africa",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRzg3R0NQX1lQTmIxcHZUZ3RVcWhsbzNiMFR2OFNTbG81MDAxdlc2aU9UX1EwNHdMSjZUUk54SElzeDBQaG42WXFoSFNyS0hXdEsxYTJSb3kwTjAtV19hd1ZwUXV6RExGa3Z0R1dvZ2tKcEhoMWNXcnFNcE5HQVVVaEZGd1VTYXdqazlXUXBpVU0xMU0?oc=5",
+      "summary": "Y Combinator Opens Applications for Fall 2026 Startup Batch&nbsp;&nbsp;Tech In Africa"
+    },
+    {
+      "date": "2026-06-20",
+      "type": "Post",
+      "title": "Apply to Y Combinator – Fall 2026 (up to $500,000) - Opportunity Desk",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9keGd2dlBheW80Z29pdnVTNFEzamh0OVlJbXdLZ2RQOW1pX25OTjJ5d0hURWhSdHhCeGlJa1VldFJ3NFQ2OXFfUjItWFZZZGdjclk5MFhoNWZsMVFDVkFLTkJqcGtiMTUzTEhxazViOA?oc=5",
+      "summary": "Apply to Y Combinator – Fall 2026 (up to $500,000)&nbsp;&nbsp;Opportunity Desk"
+    },
+    {
+      "date": "2026-06-18",
+      "type": "Post",
+      "title": "Y Combinator unveils standout startups from Spring 2026 Demo Day, with stablecoin funding taking center stage - Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcVJHTUoxcGpPX1Z2SFZvOWRpaDFVTUo2c29xTUxZVmt1bkZwdnMtbXhma09KcU1nRHo0eWZCRWhVdFdzb3hsQ0M0YzVQRmg2bXROYWlUWS1YTGpfRW1LNlBJWmxab2llZWM5Qko3RFlDNlI3aThrYnNQSnRiTTRpdkh3WQ?oc=5",
+      "summary": "Y Combinator unveils standout startups from Spring 2026 Demo Day, with stablecoin funding taking center stage&nbsp;&nbsp;Crypto Briefing"
+    },
+    {
+      "date": "2026-06-17",
+      "type": "Investment",
+      "title": "Ploy Raises $27M to Turn Your Company's Website Into Your Hardest-Working Employee - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT21oN0ZRSWRsVWhHb3k3NE84Y0JfRnBCazRHNE5sU0pBTmZoWGtkM1o4clVGYVRTaUxzaUJKRFNCNnNpZ0E3YTEwc3E3Zll4Mng0eE5rYzRzb0I2V0dzTnlxNkFBTDlhU016aGFQeUpqdHVpeVRyVy1FZlFIWTNlUXYxbDRHRkVJZVJDbHAzbjA3MEY1aklVRXB3?oc=5",
+      "summary": "Ploy Raises $27M to Turn Your Company's Website Into Your Hardest-Working Employee&nbsp;&nbsp;Yahoo Finance"
+    },
+    {
+      "date": "2026-06-16",
+      "type": "Thesis",
+      "title": "Christopher Golda and Grey Baker Join YC as General Partners",
+      "link": "https://www.ycombinator.com/blog/chris-golda-and-grey-baker-general-partners/",
+      "summary": "We're excited to announce that Christopher Golda and Grey Baker are joining YC as General Partners."
+    },
+    {
+      "date": "2026-06-11",
+      "type": "Thesis",
+      "title": "Diana Hu Is YC's Newest Managing Partner",
+      "link": "https://www.ycombinator.com/blog/diana-hu-managing-partner/",
+      "summary": "We're thrilled to announce that Diana Hu has been promoted to Managing Partner at Y Combinator. Few people have built a startup from zero and also shipped tech to 100 million peopl"
+    }
+  ],
   "region": "Americas",
   "meta": null,
   "partner_substacks": [
@@ -19,7 +69,36 @@
       "url": "https://paulgraham.com"
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Y Combinator Partners on Building Superintelligence - StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUM5V3FQaTdxU2dLNkxWZHRXd0x1WFYwT2k1NDZSQ0c5M1o3ZzNwMVRYNDZUMGVFRWc5akF1OHJwWlJWZXN2MnZwc25xLWh0TV9Uc2dDM20yRjRtQ2FLd0tTMzFHWC0wQldudHdjSFcza2swRXZtQTgtQWpwR0FBTWtPR3NUSVB1RmJ5V0hpX2RReS1QTERQY19razVUQTlpclAyUlNaN1Y3enB5U2hBWWJ0SDU?oc=5",
+      "date": "2026-05-28"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "4 Irish founders join Y Combinator’s Summer 2026 Cohort - Think Business",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVzJfajdYU2c0WjRkVk5lSmVHTkZwSzhTZGRYak9XUnF2eXA1bjZmUVZ1S1hDdzRCRGxON3FnYUp4U3E1cmNzeUtSUXFBcjFNN2lueG9rUE9fQVR0UW82S1JIR1JSai1yZkt0Rkx1TlJrdEpxLWJjdUEza1F3MnhUdVlPYjhnRkZETmdta3l4N2xZNHc2UFBjNENkR1RaS3pLNVg4?oc=5",
+      "date": "2026-06-23"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Two Irish startups land places on coveted Y Combinator accelerator - Business Post",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONmw2aDRNM2dobGpWMzBnWTJ5WFVNTGdSR3JoLUo2VjVIeHNYUGRDN1NYTTFEM2pHWDVaYm93eVZUTVpuaVJQSUt1b2xpLXplQmIyVnM1RS0tb0dZdkVEU3BDcTluakd0SEprXzBHeFNOd0dlT3VIcWxFS25hWWlfSjIxRm5JRkZjbVdwVG83eVpsNFlwZEJsbjRpV2NUWGsydGc?oc=5",
+      "date": "2026-06-23"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Interview with Prox AI startup co‑founder Dmytro Yanovskyi - en.ain.ua",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUxnVjJrcDFhZVhsMVlFbDRMUmZPMDE2U2hfZnYyekdOX2lzMkVpZ3pTMF9vdGRXR3pNVnhYTUd3Q01kMWdrMWFkMHpDY0dJMFJIM0NONFZ5YmJ1cXdhcmsyVWVCWUkzMHd4UUVaZ0ZwYkhoYWNuS1ZrX3BoZDhMQkRRcE9wYVljbVlWcERaWXdENm1sd1puaUJRdDk?oc=5",
+      "date": "2026-05-26"
+    }
+  ],
   "people": [
     {
       "name": "Paul Graham",

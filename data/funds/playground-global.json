@@ -23,7 +23,79 @@
     "x": "https://x.com/Playground_VC",
     "linkedin": "https://www.linkedin.com/company/playground-global/"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-25",
+      "type": "Post",
+      "title": "Playground Global and Matter Venture Partners join US$117 million NUS VC Programme to tap Singapore's deep tech ecosystem, as global competition intensifies - M",
+      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQVGZCUFRxUndYT1dJNk81cnZFaktCS0ZCOFpIdXVGVzFKajZtZlJUQ2h5ZGpNVFBoTDBBSVRIRkthZ3B3SGFwclJSQWFjMGhCOTVCbER3OXl0REtmRzJFSTZ2eUhuVDJaeFJHOWZJYmRCY2RLV3pjREZ1V1I0ZlpLY1dxVWpJcmN5Y3F4dDBSa0VhWlR0RFFGYVpXZzJsQTFmSGdTbEpKQlhnSF83dmc1QnpidTRlWmxlMjc5MTZ5Zm1XUWlxX1Q4NW5ucWoxSERVcENLbFBrbWhkempvN3c2TmFfOXVlRFJReUh0NVpldHZpaFViRFNiekhLaExOV3NISjI5LXh6WTRGTEg5aWh1UWpmeXlyd1VBYTlrVERxNl9WYWxLenNBc2pzQlZEelFBbWJ4TExad015QQ?oc=5",
+      "summary": "Playground Global and Matter Venture Partners join US$117 million NUS VC Programme to tap Singapore's deep tech ecosystem, as global competition intensifies&nbsp;&nbsp;Morningstar"
+    },
+    {
+      "date": "2026-06-16",
+      "type": "Investment",
+      "title": "Silicon Is Back: Playground Global’s Decade-Long Bet On Hardware, Energy And Deep Tech Looks Prescient - Crunchbase News",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX1dOZTNfaUZ1NWJHWFlkdldZWVlKQnF6aHFlS3A4a09rTXhhN2tMTUhPZk9hMS1aUDk4aGdZVkVURHJPaFQ0R283b08tUVlTUVVOYllZLThsRUlERDl2S090aFJVVmVja0ZCUmVROE9xMDNSd2gyNWN4d0FvQVFCMmwyTm5jbGdMNmtGZmhSNFRUUzVIWGpVTW5XZEV0T3Zu?oc=5",
+      "summary": "Silicon Is Back: Playground Global’s Decade-Long Bet On Hardware, Energy And Deep Tech Looks Prescient&nbsp;&nbsp;Crunchbase News"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Investment",
+      "title": "UK invests £1.1 billion towards AI and semiconductor industry - Open Access Government",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSk5QdUYyWmI4VEh6MGtwQmpRbmRnUG5mQjdqUzNqUElQVDBjNG1qcXBZQ0dnMlV2UTI3QjhyX2lmdF9ST203dG41X1c0WlpBclJiMkV3ZG1nTEExakRtOGlpWWNKc1Y1NEZYdFdubjJZRTJNTURuNmNfaHZBanYyenhjSll0aVIyNTBzX3BnZERqSVpwUVlTcXBtaDEzemt3Q3FWeXpMNks?oc=5",
+      "summary": "UK invests £1.1 billion towards AI and semiconductor industry&nbsp;&nbsp;Open Access Government"
+    },
+    {
+      "date": "2026-06-08",
+      "type": "Post",
+      "title": "UK sets out $1.5 billion AI hardware plan with supercomputer, chip funding - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVpmcjByVl93d2lKdkoyTEVYdWo3Q1h2ZlRHQjROSEJMcExiTTlVRFozdTdBaFVfOGZUUGxZWC1xQVNjN3Y0WUo4SC05N3F0MzJ4OVZaQjdnOUszdjZsM2QtVWU5WlpSLWY4TG5IYm5SbUxUckJoWm5Ub01XOE10eW8zTnRaWTVKQnZtZ2JSSlptRV9DM0xGYWRqWE14SF95NnFYU2hTSzd1bk9Bbk9EWmNmbVkxV2M?oc=5",
+      "summary": "UK sets out $1.5 billion AI hardware plan with supercomputer, chip funding&nbsp;&nbsp;Reuters"
+    },
+    {
+      "date": "2026-05-20",
+      "type": "Investment",
+      "title": "GlobalFoundries invests in AI startups through venture fund - Times Union",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMWszQ0ZfNVVrRW1VV1NVbHFmd29BakdYQllOSWVLR05xT0RUblg0V1RWeTJmLTdKV3lYa1NVTldVV0lvWGlDQUpYeXdtYWtzcnoybVk5ZVNFMmVWdEpTcGtMZ1NkcnVsak45VFhSVUJnNWZlOVUwQUZ3aDFNV1ROMFVCaXNUeWt2dG5xTXl1bVQwb1Nhcm1DNkNLZXB1UlA2ZXhtQTNaZUs?oc=5",
+      "summary": "GlobalFoundries invests in AI startups through venture fund&nbsp;&nbsp;Times Union"
+    },
+    {
+      "date": "2026-05-20",
+      "type": "New fund",
+      "title": "GlobalFoundries invests in Playground Global Fund IV to advance semiconductor technology innovation - digitimes",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWEVjLUZiZHlrRldzQ2VfVHVHd2F1ZzM5V01QdmwyU0J2OS1fOVA0VWl0VXgwSFlZM1NkZE9uMDBteDgxc191U2p2QV9zZDhrZ2RpR2c0ckxXYngyeHM2ZzQ5V1hZc0RWTnJoY0ViRTJoTVlGX0NyOHgyUFZwaGxndThZMmRhbVNtMmJzODQ2QWhwa0cwRUZ2b0J0eG1scmp2VmRXWGtSTEpwdWc4Mmp5cHR2RmIxUHFr?oc=5",
+      "summary": "GlobalFoundries invests in Playground Global Fund IV to advance semiconductor technology innovation&nbsp;&nbsp;digitimes"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Post",
+      "title": "Chipmaker GlobalFoundries funds deep-tech startups behind future AI data centers - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS1J2eldMcENabUlOeU4wb3dJYmJyTVZiOXhESklpdFFrdWZmcW1UY0N4WEFvMXhEamhpTEhXNVYwd1h6RVliZHFaX3NMRWsybm9jUmwwZ0o1YXpYTWc0MmtpVDk0eHNHdmxRRzVuQmhHN01OWExPTVplOGQ5YXIwV1ViQnk5RG1IVU5mQkJnbml5SFlfa25mNzdjSFQ4NFpfM2JSRmlqcXBSeHJVTU9SMlZZdVVLZHAxY0NV?oc=5",
+      "summary": "Chipmaker GlobalFoundries funds deep-tech startups behind future AI data centers&nbsp;&nbsp;Stock Titan"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "New fund",
+      "title": "GlobalFoundries invests in Playground Global Fund IV By Investing.com - Investing.com Canada",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNUpDQzd5em5mQWo5RV9ublU3dmhHSFFMUVdXa3A3a2xDN29VUTgzOThsNHlNV242V3RFT0Jtc1k1TF9HUU4xVEtDRmJkbVVpRDY4UEVOQjhRQnBLaC1mSmFiWkJ0c3czUno5M2tfWEZ4Vl9yelNRWTdlRGh0cEpvdVVSTEZFQ3ZVQVNuRmRKSGNTbHRSVy04TC1KWV82elRQbXNKVXFoZG5hempsNjlnZDB3bw?oc=5",
+      "summary": "GlobalFoundries invests in Playground Global Fund IV By Investing.com&nbsp;&nbsp;Investing.com Canada"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Silicon Is Back: Playground Global’s Decade-Long Bet On Hardware, Energy And Deep Tech Looks Prescient - Crunchbase News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX1dOZTNfaUZ1NWJHWFlkdldZWVlKQnF6aHFlS3A4a09rTXhhN2tMTUhPZk9hMS1aUDk4aGdZVkVURHJPaFQ0R283b08tUVlTUVVOYllZLThsRUlERDl2S090aFJVVmVja0ZCUmVROE9xMDNSd2gyNWN4d0FvQVFCMmwyTm5jbGdMNmtGZmhSNFRUUzVIWGpVTW5XZEV0T3Zu?oc=5",
+      "date": "2026-06-16"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "How do you announce a live service game in 2026? Plus, Nex Playground's global expansion - The Game Business",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PZjlxalo2TUtITmlZMVJWbTdBVGV4WFFhaW5CVkhNLXVBTklpajlxSl91d1FaNURreWF2ZTNZY1F6T2RFOFpkaEg0UkdnVzVjNURKWno5WEhkTTBXV3A2YnZyWWlQY2VZcEpCYTRfZ1hFNTFVb000?oc=5",
+      "date": "2026-05-21"
+    }
+  ],
   "people": []
 }

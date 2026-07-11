@@ -23,7 +23,64 @@
     "x": "https://twitter.com/sparkcapital",
     "linkedin": "https://www.linkedin.com/company/spark-capital-llc"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-10",
+      "type": "Investment",
+      "title": "xCures Closes $46 Million Series B Financing | Cadence Raises $100M Series C Led by Spark Capital - Healthcare IT Today",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSU9pbC1paDZoX3Z1YWdlTFIyQklqQ0pBTW4yX1l4TGFpSVVqTFNNakRzQkxTdUNzcGUxeGdsSEE0SU5sa1h5UWlSRlZ4WHB2RkgybEtWb0dqMV9vb2kzb25yeXlONXpiUFBiUVVILUdmTE9Fd0RhNjJpc0twNm1JOTBhbTI5SEVRdUxiRXpjY09GYVpfM3BwSGxfUHJ4cFpzQmc3c3JPbE95a0RuTnN1aU4weGhfUkdtMGs5bjVQQldsMUh3U3BjQ3lXYnFUZGdCSk1IV2xR?oc=5",
+      "summary": "xCures Closes $46 Million Series B Financing | Cadence Raises $100M Series C Led by Spark Capital&nbsp;&nbsp;Healthcare IT Today"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "Investment",
+      "title": "Oratomic raises $300M to build a viable quantum computer that needs only 20K qubits - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeFNZOWFaRGdKdFNpTkhwZHNJR1k0bHpHMUdkYWpCT2M1T3c4TnJkNGZoQVUxZHdUWHg0dVAwaDJyYS1BbWU4OFRfWGF4LVdmRXlNQU9fcXlpOE12UXRxMVdkYUpmRFVTWnh2N2haNXJRZDc3N01kVVNnZmRiTkFCMjVOTW1vcmVSUVh0Q0xKcnk2Y3NpRUVNejliTEh2MW5FbE04UVBDcVUtdHVlbEFDR0NjV1JHbnZB?oc=5",
+      "summary": "Oratomic raises $300M to build a viable quantum computer that needs only 20K qubits&nbsp;&nbsp;TechCrunch"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "Investment",
+      "title": "Oratomic Raises $300 Million Series A - The Quantum Insider",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNEpYcjNIYUxTUjFIZU1NTWd0WDI4d2JmT0ZQWFNLcGx5S0lNQWt4eVVqREo0aWR6eWEzcXRDaUZVWmNnRkNFZG9jenliTERsMFlOS2g1OVRPdDVPcjE5bDdXdWpMNGxKeUNzc3ZaRHM2b21ncEtvN1hQVDlpbnRCUWZCYWw?oc=5",
+      "summary": "Oratomic Raises $300 Million Series A&nbsp;&nbsp;The Quantum Insider"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "Post",
+      "title": "The 10 Largest NYC Tech Startup Funding Rounds of June 2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcXFUSFVQbU00S2VOR0dCbnNRSGtNMGVaNzlRMlBtVkxtTTVpUm9VWWw3V0hTaUJVeTRTLTFJajk2d1dMam9iRG5vdDBxeUNTdTZtbU5iNkhMdmpNVGxveDRrdmZwa1pMNnBzV3pXY3lVODBUOXdzaDFHckk5MWFvM29JVnpkRFU?oc=5",
+      "summary": "The 10 Largest NYC Tech Startup Funding Rounds of June 2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-06-26",
+      "type": "Post",
+      "title": "Spark Capital entities disclose 3.65M Teamshares stake (LOKV) - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWV9YX20xZjdGVEdvbHNsVmR3M2ZadVZ2VXRJUy1URXFEUEhnSTFBZmNMZHhlbUtzZ3dtaVp6V0xjVHI5b1hYSVR3YjBzeFV6czRPT083R2g3enVxSVR0QjBGSUZtRTBETFFTT3RtZFhBNF9jTjVDdmhKUEdhcXMyYzUxaXNqV2tjTTVWa29kbmdPSmVoVGNfN3cwN0VmZEg5X0F0TWUxYnduZXpCQVV1TXc3Y1pRNjZsZnZyeEN0aTdXUk84MFNyMDNYSQ?oc=5",
+      "summary": "Spark Capital entities disclose 3.65M Teamshares stake (LOKV)&nbsp;&nbsp;Stock Titan"
+    },
+    {
+      "date": "2026-06-24",
+      "type": "Investment",
+      "title": "Cadence Raises $100M Series C Led by Spark Capital to Automate Chronic Care - citybiz",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSDg0dFNTclZyY1EyWTU1TTNFcG1HVHpOMXdrb3JwLTM3ZGRxNWczVjhvUENsOUk1Uk1XX2plbFRXZU9GMjRrZFdPRmVpSXRLTWhaMFRYR0x0a0pLNFJOaC03WXlXSlFiUy0xVVM3SVJDSGVaOGMxU3BGLXpsYkRRbTQzTGlIMC1UcVNuU0xUcDBMSVpmZUh0bXBheU5JSWFSUWh5aWhrYXNCVzlOYzl0YUFJbw?oc=5",
+      "summary": "Cadence Raises $100M Series C Led by Spark Capital to Automate Chronic Care&nbsp;&nbsp;citybiz"
+    },
+    {
+      "date": "2026-06-23",
+      "type": "Investment",
+      "title": "Cadence Raises $100M Series C Led by Spark Capital to Automate Chronic Care - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUXN1WmhpUkRpQWRZQTZ2S040THZjUVZUMW8tQWJLMlg4NW5RZWlEZG1yWGJDUkE4cXlYbWVUbGhkcEFCYXVHbTR5TDd5Y0NScDhRa2xZV1NEa0ZyWDR6ekFiLUw0UXdfODhlb2hoNWlDWkhRekMwV2o3LXZQNTJBVlhBQnMyN0xCUjF2NzZNcjRGWGNLWkJHd0RVTFJONFNfX01VVGtsZktjajQ4U05qbVFPYm5XNndXdWlBVk1aOUp1clF1Z0ttTnZjYVlXcG8?oc=5",
+      "summary": "Cadence Raises $100M Series C Led by Spark Capital to Automate Chronic Care&nbsp;&nbsp;Business Wire"
+    },
+    {
+      "date": "2026-06-23",
+      "type": "Investment",
+      "title": "Cadence secures $100M series C to advance AI-powered care for chronic disease - Fierce Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaWRTQ2p6cW9RTFh0VWFiQWZxSzRJWGRpaEJyeVdQWGtONWlwdnZzaXFudzBQejM0SmVBN1liUWNubElwWVQ4Wm9JTVZhTnhzaEwycG5lMWd1TklkYTdLLTh3bzVObkx6Y3AxeHp1a0RFcDZjRkJ4UU5veVVoQXU4NlhlQWt2c0NsX0lsckNKbFVUX1dhQnNCNzJReVB3dUhMRWxV?oc=5",
+      "summary": "Cadence secures $100M series C to advance AI-powered care for chronic disease&nbsp;&nbsp;Fierce Healthcare"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Nabeel Hyatt",

@@ -24,6 +24,21 @@
     "linkedin": "https://www.linkedin.com/company/emergent-vc"
   },
   "updates": [],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Ep 442: A Masterclass On Regulation (and Deregulation) James Bond (elm2iTVNlS) - Mshale",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UUnNSY0tlYWFqMFMzTVlmOENLdGVITXBmMnJ5ZXB5OEUzSHVtakUweVpuNGhLOFJkMUJSSGhzaVFJdExPMWpaa04zMk02cDhDRTBiYXhvckZhZ1k?oc=5",
+      "date": "2026-06-29"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Tripura researchers Shatadru and Srijib receive prestigious international emergent ventures grant - Tripura Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQeWQ2XzVwY21xY3pHRE9FajdlUWQyb3kydEhvTmZrM3VtS3lYcXhsUnBRVG9Vd0djRDBielRuZGYzdDdWY042alEyZWtNV244eVFETDRRSHJTYnVNNVJiOWJrOUVJeVJ2MDdhMUd2OG1RR3dIN29mQ0MyMFBBSjlOekQzU25sUWxGYVhtWjVtM2dETFlyVVBKQjBwOFZ5N0txLVJXemFBTHY3Y1lkY2E2WXF6b0NUeTFJbGxaVS1mYmdzMXYxU2g1RC1LdnF1Y1RsWWdv?oc=5",
+      "date": "2026-06-20"
+    }
+  ],
   "people": []
 }

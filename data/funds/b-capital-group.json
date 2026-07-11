@@ -23,7 +23,30 @@
     "x": "https://x.com/BCapitalGroup",
     "linkedin": "https://www.linkedin.com/company/b-capital-group"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-16",
+      "type": "Investment",
+      "title": "Flutterwave raises $250M Series D, valuation jumps above $3B - CryptoRank",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5pb28waUYzVldCQ1ItNlNZekZ0THVsX0M5aDhKenNXMEdUYXBvNERwYUZRVk9saGFrMElHbFhRWmt2NThQaU1GWnppUTR6RWNKcGh1UFloV2VyUUk3V2dVbFZ6Nzd5UFdtQzNjdDZaNzNjaDlBYk9vY3AtYw?oc=5",
+      "summary": "Flutterwave raises $250M Series D, valuation jumps above $3B&nbsp;&nbsp;CryptoRank"
+    },
+    {
+      "date": "2026-06-16",
+      "type": "Investment",
+      "title": "SolarSquare Raises $53M led by B Capital to Build India’s Largest End-to-End Residential Solar Platform - Indianweb2.com",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY0JNcXZQWW9VVHNCRl82VzJDcWptOHZqSmN0eG9ETFd6SV82VThaTmpXT0IzOU9kVTVBODZjcGNkSUt1bnQzTDB4c2JoZi1xeURwS3RFWU9GcU92Y3g4R0tEWGZZTUpIaXpXX2NXWV81dV9kX0VtNTlqMmZlTVVxZzhFdnJUQQ?oc=5",
+      "summary": "SolarSquare Raises $53M led by B Capital to Build India’s Largest End-to-End Residential Solar Platform&nbsp;&nbsp;Indianweb2.com"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "B Capital-led group buys Russell Investments for $2.8 billion - Bloomberg By Investing.com - Investing.com UK",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNV05GWTN0dFYyemJoY2QtajRrRTctdm5uWHdzUHBleHh1SmhuTmFtMWY1V3FWeVp6Mzc5VjFsX3MyMlpMR2wzeVNzN2tfdFdRb016TzFqUXdaamc2N3BfRzFGSkdJdS1DZkR5UmJrMzJQSjl5OFlkWlFQV2FPMXNSQ3FhNzVLcjEydk5XVTEwNlVWa2NmUXg2cXhQWGliTlkyOGRFR0R4WkFlb3ZxTXNsMXoyRXBfbU84OHVWQmtjMFZmb2RhSVNXMnhrSnRDUHJoX2xxZkdib2RQdw?oc=5",
+      "date": "2026-07-09"
+    }
+  ],
   "people": []
 }

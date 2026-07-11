@@ -23,7 +23,22 @@
     "x": "https://x.com/socialleverage",
     "linkedin": "https://www.linkedin.com/company/socialleverage"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-10",
+      "type": "Investment",
+      "title": "SyntheticFi Raises $13M in Funding - The SaaS News",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ERGplSDBaOWh3TllBZGFNYkVUanpabEN1NWROdURMbno2VGFrb29YN3pkWmJvMTJjOC1nLWZMdlVHTVRsRFFSMWFtOWFJTXg0MUdxTnpfTURiaWNmYV9veXdQckpxbEhCVFY3RTEwOA?oc=5",
+      "summary": "SyntheticFi Raises $13M in Funding&nbsp;&nbsp;The SaaS News"
+    },
+    {
+      "date": "2026-06-09",
+      "type": "Investment",
+      "title": "SyntheticFi Raises $13M and Exceeds $2B in Regulatory AUM - Yahoo Finance Singapore",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcDVTbGY0bUY2c0R1elg4UnVKakFkLU82N2daWGpFakxUNFBQTlRzVVFYVUxfS2Y5ZFZuTGU0Zl9wbWM3aVppUmQ1ZmtIU2Q4d1RkWFR1VUFlRTMwSTkwR1V6aHJPZlVkOEpuUk1ZWGNBaWFuNDBTT3dpY20wbF9EdFh4cEYwNVB5N2c?oc=5",
+      "summary": "SyntheticFi Raises $13M and Exceeds $2B in Regulatory AUM&nbsp;&nbsp;Yahoo Finance Singapore"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Howard Lindzon",

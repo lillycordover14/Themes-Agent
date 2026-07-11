@@ -23,7 +23,58 @@
     "x": "https://twitter.com/inovia",
     "linkedin": "https://www.linkedin.com/company/inovia-capital/"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-29",
+      "type": "Investment",
+      "title": "Canadian fintech Float raises C$85m - Finextra Research",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVVNfMlZ3TVNneHRzbHZtbm1ERHY0Vnd1YkhpUlJUWlM0N2dKMDlhWnZWb0FzZ0J0ZW94OG1rRjAxYmlwdHk3OS1PVVJFS2FqNHVxLXlKenFFd1p5T01HcTFKUjZxUlVPbFpZUzZDRzNrdl9DNWNQak9PY3hXSUd2RkNRYw?oc=5",
+      "summary": "Canadian fintech Float raises C$85m&nbsp;&nbsp;Finextra Research"
+    },
+    {
+      "date": "2026-06-24",
+      "type": "Post",
+      "title": "Toronto fintech Float hits $548-million value with new funding as it pushes into AI finance software - The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLWt6a1ctMmJUZWQtenhyTklpOUtRTzdyanpBTm5wRGFwdGxaT0UtLV95Vkpqci1YRUhKU1o3bE5UTGxaUVVsM1ZOR2Y1X2QwV01zYVRYbWtibTE1M1R6RFltNENrUW9Vdkx4VE41MWVfT2UtVVpfNU5iRkxDcFNkTDdZZFhfQnM2ejJNZWFvdDdGMW5vb052NlNxdGdORUZmQVp0bVBJMGdrZWJlUjVEV0l5TkN2blRs?oc=5",
+      "summary": "Toronto fintech Float hits $548-million value with new funding as it pushes into AI finance software&nbsp;&nbsp;The Globe and Mail"
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Investment",
+      "title": "Kopa.ai raises €2M to build AI agents for end-to-end e-commerce operations - Tech.eu",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX2I0a0JiV0VKSklnazdCbUlhTUUwc1l2Ni1uVkxFVTRqVGR0UWhZS1RPeUFJTTNQUTNpM3IzOWMzN1lTWTRZVUJXODdQOVdkNldrUGV0eUk3emluc2dnQjdjam5hb2RNWGYyMGxWaXhhbXZXUEN5LTF0cmNQMV9ZdXUyNTdHdlI2Tlc3LVN6MTJQNHRILVJjeG9EcDJ1RVR6QnB0anZn?oc=5",
+      "summary": "Kopa.ai raises €2M to build AI agents for end-to-end e-commerce operations&nbsp;&nbsp;Tech.eu"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "Investment",
+      "title": "Ranger AI Raises $8.4M in Seed Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Sa0wta05oODhrMk92b1I2UEVNQ1lVOFdvRFRBUlpQN2M5Y08tSG9jdEZIMFRUMVNaVUhmVVJrX0VvbG5sYXcyMkNjcG4tRGN3a28tTFFKSXNhMElnSV9hWlUxNk5EVjBCZnBESUdaRWtwODU2Y2tUZTQ3TGp0OGM?oc=5",
+      "summary": "Ranger AI Raises $8.4M in Seed Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-05-13",
+      "type": "Investment",
+      "title": "gaiia Raises $40M in Series B Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0xX1pwSmRaX1BaTmo0cFh1VnB3Mnh6c3hzcjdFR2lIa0pCcmtSajlpck9XNlhlX09xRTlpa094cl9MczZ0SlZrUmgzbWtwMmNvS2FQVW9mUm1lTU5fQU8tVENkNWpadEJXSjdnaXU3VUR4V1d4R2wwRnNhdWMxdw?oc=5",
+      "summary": "gaiia Raises $40M in Series B Funding&nbsp;&nbsp;FinSMEs"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Steve Woods of Inovia Capital On How to Build a Purpose-Driven Culture That Attracts Top Talent - Medium",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcXBYVnBSa2tTX240WGtCdGM2Q1hqVU1HOElDYXhkdFFZRl9Mb3ZJWVJIYXI3cDg4Q3pzNklpZUJZWGd4SWVSbGc0UUFjS3pvT3JGSWVCclM2bEs0WmhsOVA2RTRjeS1tYUZqdUd0NmppRlNVZGIwNHd3dU9NMTZCUmJZcVBvZGJZY24tV3VLdzRCaEhuUWg5Q0FNN2RNYTF3SWhlZlR0WjczaWJ0dUpMdk9udW9wdHA5Z0hWMUMxS3d0clFwUXpUQWRvLW1fejdlZER0dkZYQkt4dHZwZ21F?oc=5",
+      "date": "2026-05-21"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Inovia promotes Mia Morisset to partner on growth team - BetaKit",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOajFfYXB6Vm9aTUtJMWtyVjl5N3ZyQ0tsZnNkVjZHOFZfTnNrYzFRNWF2dU5HY3FvRGZhUlJkSXlnYzFJWDJqaW5pTG83Y0tmV2VRVTlMVlROV1RDYTRXdDhoS1JNT1A5OU5vMThWc01oSmw5NW91aENxWTMxMTJuLQ?oc=5",
+      "date": "2026-06-05"
+    }
+  ],
   "people": []
 }

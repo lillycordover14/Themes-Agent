@@ -23,7 +23,72 @@
     "x": "https://x.com/collabfund",
     "linkedin": "https://www.linkedin.com/company/collaborative-fund"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-07-11",
+      "type": "Post",
+      "title": "Collaborative Fund Advisors LLC Takes Position in JPMorgan Chase & Co. $JPM - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYzd2SUJJN3BJem5adFBwOVRCTklBaEVCVm9NUmhSUjM4Ui1iTmIwZV9FRlF6OFRocm9PZUhwTEdkTng1SmhOU0JiSVZRanVaSTJiM2ZmQklBTF9LN2xkNGxTdDNJR0R3dl90ZVZ3bGxBTjVsMnNlYVA2alZ2VThKQ3BRZ0oyQmpTTlVMejdYbHdmZHBPNGVUYmFZU0dPcmppUlpacV9PMjRHVm9wRVRxU3hmdkctMmhHSE5xLW9UWDVRcF9mWlhmeXRLNV8?oc=5",
+      "summary": "Collaborative Fund Advisors LLC Takes Position in JPMorgan Chase & Co. $JPM&nbsp;&nbsp;MarketBeat"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "New fund",
+      "title": "DataBento's $97M, Qiagen's suitors, and Serent's new fund - Axios",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCVW4xZzJYZ0xxSFk4bGx3TFRCbEl1RmJsQjZlOUtwVTNFVENSZTQ3U1Z3Ymd1UnBJV1d4ZHNJOUF5S1FxMFl4MzJGNDNmaXgzcW03bWpIcUd6eHR1dlVoOFNNV3FlVWtPU0VMVXpwM3paaC0wckkxdlEyTzlzUTQ?oc=5",
+      "summary": "DataBento's $97M, Qiagen's suitors, and Serent's new fund&nbsp;&nbsp;Axios"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "Post",
+      "title": "Collaborative Fund Advisors LLC Purchases New Shares in Johnson & Johnson $JNJ - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQc2FwVjNmSEtHYnFyazdidzItUzRaZ1EzNHF2bVdhRkZ6bzdFMG5TM1pqMXcyTG9qWHpqeWZNLXFrU1lqLXVmM1pzVjc0c1JFZThNNl9zWm5LYTJpeFdncm5iWGYzT1FCZ0VfeDl4THllNTBHMzFBbk9HS2FpcXhJSl8zQ2paMHhHUzdaNXZrQ0NlVjUyaUR1aG1WWjhsTkZ0ZU1NNFVPb2U2cE83c205VzVTMk9VVzJTT2ZjNGZVSDlKcHVrTU5DcFA1Z05Ta1BGUGc?oc=5",
+      "summary": "Collaborative Fund Advisors LLC Purchases New Shares in Johnson & Johnson $JNJ&nbsp;&nbsp;MarketBeat"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "Thesis",
+      "title": "How a Collaborative Fund Uses DAF Infrastructure to Fund Local Organizations - Devex",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU2E3ZTJPblRsQ2RFa0QwRURnUjl3U0VZZkRqVThvaVdYVGlrQXVSWkp1RzR4N3lvUFdfZWcyZjd2N0RpRDVfa0U2cEJ4elpwTDdwQ3lHTDF5cGNqVm9YVkh6TFJNRFptcTRyRXZ2UFh1R0c3SktNenU2WlBSd3dXNjZJdWpZZURvSXNqR2hqTGRhdXFOZEllMXRFU19xNVZ1bzlINWRQSXEzR0JDVUE?oc=5",
+      "summary": "How a Collaborative Fund Uses DAF Infrastructure to Fund Local Organizations&nbsp;&nbsp;Devex"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "Investment",
+      "title": "Collaborative Fund Advisors LLC Makes New Investment in Salesforce Inc. $CRM - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNN24xdFlBcDBySTNKSWxIT0luT29aZ3VnOWtmbnRFQ1Q3eElFdWdmYlFILXFNS0pkUXdFNnJ2dUN4U25GRk95Wm1rRkpSMVdDLUZtM2RDNS11Um5RUGNkZS10X2Y2dWdMLU5vNFNCMGxPMFdEVFRabFlGSnFWZVB1aTZ4OTJKZGN2R3pjWFFHYnNjZVlqaVNPV29PS011WTN2MHRxWTJSR2psZGx4QTh6Y1Y0NjZJejZ0QjRKZXRhN2RYQkNWMGJxZk9qZjdSd1JH?oc=5",
+      "summary": "Collaborative Fund Advisors LLC Makes New Investment in Salesforce Inc. $CRM&nbsp;&nbsp;MarketBeat"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "Post",
+      "title": "Collaborative Fund Advisors LLC Purchases Shares of 9,373 Expedia Group, Inc. $EXPE - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVXc0MENMR3E0NGNQekxaaXJpdmRiQ0NuR3Z0SFBUMS16TVNqdzFsb2p0dWRlbDY0cEZQU240eTcxR2RyTkFRX3g0WWVuRU9wY3BHSFAtTEg2ZEpOVl9sOGpBTWVWY1lIVUN2TFM0YkdMVnljVnphTmZEZFUxdm56Vm44UFRDN2NnNEZKUDlMaHctdXBhT3FsX25ESFpvcTM4ZUJPbng3bWNSSGpsWlNXQTZrNGU2UzhIQ0ZrRU9sNTU3Z0R1Rm1saGY2bFJTZ1F6NFdTMllENA?oc=5",
+      "summary": "Collaborative Fund Advisors LLC Purchases Shares of 9,373 Expedia Group, Inc. $EXPE&nbsp;&nbsp;MarketBeat"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "Investment",
+      "title": "Collaborative Fund Advisors LLC Invests $1.16 Million in Sanmina Corporation $SANM - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaUllYkkybjNOSEJqX1dWY0hZcmlXc05PSGZIZ1VVS0ZkVWEzZXlUa2tqR0NYbVc2RnRfQktybmRPM3ZFUVVTYU5KNkdYSjh4eW44LXZUN2p2aDJlWVdCV3dGbzFoc19kdXpWWDlvMnhkQ284OWk3TXpNSi1hMnBpQUgyVTUzWjlkYWMtZEZ0Z1p6TTk4bVNSSUdkc01NSHhybUdLQ1YycktCUW5BWC1QTF9KR2RjLTFQQWdtZ3lZTEkyNENjVG13ZFBkUkhCd0dPNldYcHhkOA?oc=5",
+      "summary": "Collaborative Fund Advisors LLC Invests $1.16 Million in Sanmina Corporation $SANM&nbsp;&nbsp;MarketBeat"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "Investment",
+      "title": "Collaborative Fund Advisors LLC Invests $2.06 Million in Cummins Inc. $CMI - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSGtRT2VNV2ZnRXdoYk9QMkRlOFQ0Z0Nveko2VUdOdzdxUWV0OXNsTV9YR2UzR0ZFU2JYTEZObnhwMjZHNV9OckdPN1pEZGZNZTBOTHZaME83WWxiTXVIdGtlTUxCMDd3VDA5T0EwQ2I2YUVhM3dBX0NwV3E5bWVyTS1LZi1vTTBKREpYaHZUdFpZNFlqRDg4WDdMSkRaQl9qWmNITjBGZWRCeXotTUFFVEhpM25LU0hPaFlIMDFyVFNlWFNFQmlKaUJ1Yw?oc=5",
+      "summary": "Collaborative Fund Advisors LLC Invests $2.06 Million in Cummins Inc. $CMI&nbsp;&nbsp;MarketBeat"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Charities that will receive share of £15m collaborative fund revealed - Third Sector",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVElMYXlXRFRfNUZoeUUzRDViTTBKbkZMZmNpNnNGNFNWbDFMZDFtZktveFRRTmxOeS1VeEhTOExobUFkNlZ5bW9kcXROcWUzcjFTQjVuNTR5ZW5Xd252YWFhbjlId2xfdE95cXJYRTJUX04wZmgwUlIxUEFIMk5Wa29ERzA0OVNIcDZNZThZS1M1ZGJjWC04UEVNdGU5dHRqVV81WkEyQWNZWmRNdGNJS3JSX0NvVDVHTGc?oc=5",
+      "date": "2026-05-26"
+    }
+  ],
   "people": []
 }

@@ -11,7 +11,15 @@
     "pitchbook": "https://pitchbook.com/profiles/investor/58373-20",
     "news": "https://news.google.com/search?q=Pear%20(California)"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-13",
+      "type": "Investment",
+      "title": "Forus Raises Over $160M in Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11LWJObkl2TXF6dUt4Z0gxTmNjNnd1TzVxZFVIVnJvc0F0OElidXpYVExjUkxHSm9WNnVKRE9ZN3JYSHhldXpTLVFOZ25JQ1hTdjR2Tk5XaGFvdkVDVGZzeGx5MDREQXNMZ2JYcVZwYVZrY3VpWl9IQjhB?oc=5",
+      "summary": "Forus Raises Over $160M in Funding&nbsp;&nbsp;FinSMEs"
+    }
+  ],
   "region": "Americas",
   "meta": {
     "aum": "$741M",
@@ -23,6 +31,14 @@
     "pbid": "58373-20",
     "itype": "Venture Capital"
   },
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Law & Order SVU episode 2409 \"And A Trauma In A Pear Tree\". - IMDb",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DUWc4a2lWZ2x1RU54WElLQVVaMDJIaEotVnBNeHFiQlZ3czZsT2hsalliTzFuU1ZycHRvYVowMjBQUE9nQmF2RE9EX1FhRnRFc2dFeVM3b0VJZw?oc=5",
+      "date": "2026-06-09"
+    }
+  ],
   "people": []
 }

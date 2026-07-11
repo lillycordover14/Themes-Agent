@@ -23,7 +23,51 @@
     "x": "https://x.com/aixventureshq",
     "linkedin": "https://www.linkedin.com/company/aixventures"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-05-15",
+      "type": "Post",
+      "title": "The AlleyWatch Startup Daily Funding Report: 5/15/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYU9iU21Od3lvbFpndVd6dW5ZcjloeVdrTlZSLVJTdjZuUXpyT0tzZE1YbnZLTDNjMDU2d1BnODREa3lwMUQxTTRGU1FJU2VPZ2RESGJfc0JfUDNocWhiS2NmUjZkbmJTdXpZdEo2eEZKVFRoWG5pYWZfZ1ktWDU3WnNyV1E4b2swUEdrbFJB?oc=5",
+      "summary": "The AlleyWatch Startup Daily Funding Report: 5/15/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-05-15",
+      "type": "Investment",
+      "title": "Chromie Health Raises $2M in Pre-Seed Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOV2czV2FTLTVUbWlHTUV6aTlkT0JuWEx5Sm5PdkliOTFsdmpEZ2Y5RVQzdk9RMWdqLWZGX0NYdGNaRU5ZMS1pM1NiRktXR3dqMW4yYlM5TlRSel9QRVU4YlJSZlFwSnVsdHI5WWNtcGhrUWNNb2l2R0tpN2FpUHUtZ0EyTHNWbEpW?oc=5",
+      "summary": "Chromie Health Raises $2M in Pre-Seed Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "Post",
+      "title": "Chromie Health Nabs Funding from AIX Ventures to Kill the Frantic Hospital Group Text with SMS-based AI Agents - citybiz",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPXzhNVUlLUjFhOVduczYwekFVZTRQQmlOWjBZNV95T3ktTEpTNWtDS0lwemM1cmVwaTF3aHdBU21NRVpwN0RsU2JmakxvdHZWc0VXQWN4RENaV2pIQnRIcEJfQzVZOG95clM3WUZaYWZmWUhWMmxRSUJiRW9jRWctR2MwMzdfUEtuYWVDTVVMMHZYbXN6dUlIRHhJcGViNDBFZk5aNlZ1NFV3ZFNDcGJaWHhjNzlhVFcwRjhZQkM1b0NGcTR5c2s3SWlqOGc1MFlIUWIwbjh1bVRCYVNFNUszZWRYcw?oc=5",
+      "summary": "Chromie Health Nabs Funding from AIX Ventures to Kill the Frantic Hospital Group Text with SMS-based AI Agents&nbsp;&nbsp;citybiz"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "Investment",
+      "title": "Chromie Health picks up $2M in pre-seed funding, launches SMS AI-powered nurse staffing agent - Fierce Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd1QtUktNQVRUMjdtQkhXb3Y1NVdKSGRuLVQzX1hoYVByalNQYjRwVVVmSjcxTDZkSHdWRlEtZGIzQTRpbkpwbTdJT25aSUdpN2Q1cHJaVXF0enIzalozU0Zfd2g2WnBQM2lES3laSHg3a2t6aDZiY1pqMTNRd3RjSGRpT1FxZzI5T0dNMi1fNi1XWXlHR3paUi1maFppMkRVZTFMb1RPbmFBRE5jZ0JXaTgyZDliZzJueXBsQWxDbm9wTTNBWUFCbUtR?oc=5",
+      "summary": "Chromie Health picks up $2M in pre-seed funding, launches SMS AI-powered nurse staffing agent&nbsp;&nbsp;Fierce Healthcare"
+    },
+    {
+      "date": "2026-05-13",
+      "type": "Investment",
+      "title": "BranchLab Raises $26M Series A Led by McKesson Ventures to Bring AI to Pharma Commercialization - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNS1BvSEM5M3puS2RiVjlVa3diMHZBVnhKRUJzNXp0THhKcXlrMTA2b3RQbkwtNnExRUgtVGZ2SE1UTVEyenRDNkhUR0N3bFU0X3htMHVtc2xqRnFXYm5UX3BHb1FITG5td0VBS3dXWThNZDhYeGFxWGZ3cjE0bGRtTlAxdDlyNVQ0OFkzYjNOVy1rY1M1NDk0TktZNXpOSmdfWVpIMFFPeENCeFFSTVlVUnZQZkRPVmRJN3M4eEtMWlJTUmVIZUstZmxCQlpMbGEza3I1ZTlyNHFiZmZ0V1J6THNBLWE?oc=5",
+      "summary": "BranchLab Raises $26M Series A Led by McKesson Ventures to Bring AI to Pharma Commercialization&nbsp;&nbsp;PR Newswire"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Chromie Health Emerges with Backing from AIX Ventures to Solve Nursing Staffing Headaches with AI - The AI Journal",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSjJmc1hGVnFVRXhqc3BDeTliOUVBWVhpSXpPR1c0bUV6bDlhQl9HTkFyNTIwaHZLUkdXSEFsaUJPTzd1dUJkZVJaUVFQUGVadkMtelpKTTF0UTV6U3VSX1hyc0NkRkdvYjBfZlBVcjhvZE5CT25SQ3RkYXhjbEVnajdOZGdqTHpOVUQ2U2JKY09OUW9tRnp0S2s5dDJsV3BaWm5jb1U2RnZJbERzUXhQTUVTQlgtdEw1ZXc?oc=5",
+      "date": "2026-05-14"
+    }
+  ],
   "people": []
 }

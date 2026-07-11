@@ -23,7 +23,30 @@
     "x": "https://x.com/canaanpartners",
     "linkedin": "https://www.linkedin.com/company/canaan-partners"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-22",
+      "type": "Investment",
+      "title": "Vedana Therapeutics Raises $46M in Series A Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeHgyQTBOTFVLczlJQU84T2l0QU93akpYNnFadmdXQ0VHVGpSZl9NRUtURG5taHpxdUNhMmV6d0FzUFlReE91TmRiZVhMMWZNeGlDbXozUzB4MTN0MjVJN2lRQmdjYzdwSjRLaWhjbENGQ1hxTDlSdmhYb1llcDJ3c1pmQ0h3VXpXa1FyU3VKZlc?oc=5",
+      "summary": "Vedana Therapeutics Raises $46M in Series A Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-06-09",
+      "type": "Post",
+      "title": "The AlleyWatch Startup Daily Funding Report: 6/9/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOelluX0h1VmVxZTBKZ2Yxd0I5aWhDTUdoeExON3BvR3Y0OEgybjVmQU10UncteUZFTG9fcjZuOWV5Sm82WEcyUWVNRTM3ZGZKNkxUZVpfMzN0M3hiRWo0Tzdma2s4YVNudjBocmhwX3l2UWFBeEJ3ZVhDbldkeDNROG1Sc216aXlpeEFJTg?oc=5",
+      "summary": "The AlleyWatch Startup Daily Funding Report: 6/9/2026&nbsp;&nbsp;AlleyWatch"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "“The Israeli startups that will win are the ones building focused AI” - CTech",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9yV0duTERrREY1V0Z4UHAwSXp0YlZCT0pOX3pjZ05vdzlpVFV1TXFhUHpSV09NN3E5eDQ2LUZaNmc3X2RUVUFKSXY2bUMyd200RDQyRG9WY1VCTkw2TVlSaHE2U3Exa2s?oc=5",
+      "date": "2026-05-18"
+    }
+  ],
   "people": []
 }

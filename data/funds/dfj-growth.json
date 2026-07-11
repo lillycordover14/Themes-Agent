@@ -23,7 +23,23 @@
     "x": "https://x.com/dfjgrowth",
     "linkedin": "https://www.linkedin.com/company/dfj-growth/"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-05-27",
+      "type": "Post",
+      "title": "The Venture Capitalists Winning The Frontier Race - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS2xaSTlrQkh2WGFTbC1XR0FLbWx6Xy1waThQV3F2UE9wZ09xM0djSmJjM0dzdnoxaVhUcnBXNS1nV0otajlaQUxCdG1ZLU9NU1AtNkNRRmx6MWx1d3RYZnVfTG00dGpmMG9HWGJFTTZOckJtRTNRNkxRUVpoU1J1b1FFV01oZURXcU5PLVVTUExieUUzVjQ0ejVvTmNtMzgwNUdB?oc=5",
+      "summary": "The Venture Capitalists Winning The Frontier Race&nbsp;&nbsp;Forbes"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "The Hollywood power players set to make billions in Elon Musk’s SpaceX IPO - Page Six",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSXNUTlZmR3FmRmJsTFl6dS05NnJwaGNlTkZlUHJQZDUtQmFOd3hVdkVnZkhhbEZfbDJDSnV3LTFyN3o1Wk9RX0NjTC1sRnVVSXBYMDQ3Szl6XzFJR2FtY3BhblFqdkI5ckJvM0piZ0t1VGg0bkJsaFAyaF8zSVNMS2xCRVEzZEVQLUpIX2F3dXY2bFl4ZlZwbUxiUmpaMVNjMG5vdUt5Z0FVREZESzlKaE9JclVnZw?oc=5",
+      "date": "2026-06-10"
+    }
+  ],
   "people": []
 }

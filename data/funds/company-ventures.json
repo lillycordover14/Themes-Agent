@@ -23,7 +23,43 @@
     "x": "https://x.com/Company",
     "linkedin": "https://www.linkedin.com/company/company-ventures/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-22",
+      "type": "Post",
+      "title": "The AlleyWatch Startup Daily Funding Report: 6/22/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeWQzNDk2dEV2QXRmS0Q5RDdIVkZXSy0zNGprdDNHZmNaY2hWT2JFcDVQc2t3SWM1M3A5YXN6ZHcwc0VzVVZFZUo1ZEhvWS1XMXhOMlRzc2plU2ZKR21oLUdTaTRUWG13RWpDaEQ0RnhPYkdkRFpMYl9HbHdwR1FvYkQyXzRad19HcHpiMDg3UHR3NWc?oc=5",
+      "summary": "The AlleyWatch Startup Daily Funding Report: 6/22/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "Investment",
+      "title": "Exclusive: Index Ventures, Union Square Ventures back trading app Fomo at $550 million valuation - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaUJGVVFLZ2dTbXh2LWMzeVZJYmoxX2JRTjB3WVh5VE92N0lBTVowQVg0MzgyVkxmZGt1U1BCSmFoaXU0aDROdkxmNXVTZWpRc0VkbTVjaXc0UElMWFlCVzBoUExuRzh6R3NqdkdZZ3c4QTR2b0VERk42SG1IdnByV2JKUEctSHk0RnBlTEloaEVwRDd0djY0?oc=5",
+      "summary": "Exclusive: Index Ventures, Union Square Ventures back trading app Fomo at $550 million valuation&nbsp;&nbsp;Fortune"
+    },
+    {
+      "date": "2026-05-29",
+      "type": "Investment",
+      "title": "Observable Space Raises $90M to Build Beyond Rockets - dot.LA",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1qaUJOZ0t2b1ZIRVc4Y1hZUFFFRzNrRzVaUEYyNTB1bDktSEIxWERkeWpDZ1k4VnZBMzlBd2xYT1F2MUxrTFpmbE9CbFR6UnEwdE9ESTR2d2lhVEhmZUVLUlo3dW91NGEtZXNoakFqZ01jOFpX?oc=5",
+      "summary": "Observable Space Raises $90M to Build Beyond Rockets&nbsp;&nbsp;dot.LA"
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Investment",
+      "title": "Kubera Health: $6.5 Million Raised To Repair Healthcare Payment Infrastructure - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc2Z3RTZSM2xCdXJfYk1kZDZHMlUwaExZWkViWmFBMWlPZmpzVE1MSk85Ym9WTnBZckw3OC0tRWd2SWlUeHNVOFQtM0tUT3VtMUxYeFVKaGdwN0JtMlRvZWRuT2pQS1Q1YXkzSlczRzEyYXA4VDBWM1RoR0hfZUxuUXc4cUhESVJyb0VPQXZXU0VuMXVTcWp0VzdFNDjSAaIBQVVfeXFMTWNqSmxKTjQwTWRfVEtycDJyV0l6TVM0c2dGTVBQMjJLTER1OEhJQUptbjZrWWxxWi1SNlREZlhqR2MySUxvOGNJZXpGOEVncEdlVnZmMkFEY19iczdCV2ozejBHUTJvMGloVURDRUhBZk5GcVJLNEFqRFpRVEpyVklrWThjeFZLZkpFVjV1cXBmcFN5RUNBSDJ5Mk1zaWhoYml3?oc=5",
+      "summary": "Kubera Health: $6.5 Million Raised To Repair Healthcare Payment Infrastructure&nbsp;&nbsp;Pulse 2.0"
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Post",
+      "title": "The AlleyWatch Startup Daily Funding Report: 5/28/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVNvc2ZSNGFBOFpVU0FBNHY5cHptamlyWURGYmJxb2pYUU15cVdwMERHakFxbTJkX3JvU0twSDF2YlNOOEZaOGNuWk1jb2ZTbEQtNTNxRHdBbzZETE1MYmtSbzYyV3lLRFREcWs4MS1mc255a3ZSUHRhekg5WjFETzRpc2tZMGRGX1R4Z2NR?oc=5",
+      "summary": "The AlleyWatch Startup Daily Funding Report: 5/28/2026&nbsp;&nbsp;AlleyWatch"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

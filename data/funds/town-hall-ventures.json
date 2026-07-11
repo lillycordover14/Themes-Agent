@@ -23,7 +23,22 @@
     "x": "https://twitter.com/townhallvntrs",
     "linkedin": "https://www.linkedin.com/company/townhallventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-25",
+      "type": "Post",
+      "title": "The Weekly Notable Startup Funding Report: 5/25/26 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWjBaZERQSHBSdTF3ZXNWX3U5VVdBLUhrUHMyTmxNUEhJN0N5SWhRUFBld1RqVzR5Y0FCdWtBWGFIQjg1TkdfSDhtVkVJakVDcG1neHRJcVZWSGdXa3dpNC1NdGMteENqZVduSnpxUlhYM2w0c2hEQ2pReUtUWER2bXoyWmMxQ2Q0VW5uTVhn?oc=5",
+      "summary": "The Weekly Notable Startup Funding Report: 5/25/26&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-05-18",
+      "type": "Investment",
+      "title": "Kin Health Raises $9M To Give Patients a Record of Their Own Care - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN0Y5V0htcE9QWE4ydWk3YmpHcGh1emVCcHR2SzVPVUpHdHpBQ0lSNUtKYk5NWFBrV0NfcV82VWd2WlVjTkhRMFd2UThpMVE4TDc1NHBEVWhfOTFBM0p6VU1GSkNzSVIybmVqbUJZb2ZkWVJiNDVnOGNtZGJtVmp3Z2JyQ1p4X21XcXpTVklHR3RYUFprOUVoS3N6MFA3Qm1yYnluSEJoRmRjdXh5NlpRQzh6cXNPd01zdXdBVUhxVzJKUQ?oc=5",
+      "summary": "Kin Health Raises $9M To Give Patients a Record of Their Own Care&nbsp;&nbsp;Business Wire"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Andy Slavitt",

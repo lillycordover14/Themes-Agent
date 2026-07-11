@@ -22,7 +22,15 @@
     "blog": "https://www.femhealthventures.com/news",
     "linkedin": "https://www.linkedin.com/company/femhealth-ventures/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-16",
+      "type": "Post",
+      "title": "Rejoni, Inc. Secures $25 Million in Financing to Accelerate the Juveena - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNSFJPOVdMNjdUeGRXT1hFZXBHb2N2UWZkQ3h6eVJ0UXJMVHRINGpiWEhORy16UUpJYWo2Nk1sTG5nMDY5cGNoVDBsRlJWX0FoRnAzZ0ZaR0d6RzB2ckt6ZXE5RHlyLXVtZ1RqN1hEeXNZMERkYjN3T3BLdFdqU3FKQTk0NTJtSXRLeDJKZVlyc0dsaWVQX25BM0FwZGVjV2NzMnZkenhYdmttb2RxWDBKakU0ZmZjeko5aUJPT0MwSmx3dWM5dzBfYnltb1FSb0QyNHBUb0NYTjJmUjFXYldtelhlTDh0R1B6SEp5ZVZiN1FuUUljYy1sMXVRS0xjM1hpSDJnV0tqYw?oc=5",
+      "summary": "Rejoni, Inc. Secures $25 Million in Financing to Accelerate the Juveena&nbsp;&nbsp;Business Wire"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

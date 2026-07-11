@@ -22,7 +22,15 @@
     "x": "https://x.com/resolutevc",
     "linkedin": "https://www.linkedin.com/company/resolute-ventures/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-16",
+      "type": "Post",
+      "title": "6/16/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZkFLZEs0SUJheUJHUTJ5aUdkX05TRHlEMXZOSGoyc0t4aHdqMExrZVpyalZxWi1SQ0gydnBTRjFxRGZtbHppZlM0dnhVRmFfNkgtcUlCbE51STd3a2pXM0JfdHdPM0JGT3pYZDRCVHBPSlJSQVlDWXF0ZkhHeFotYXlSeDJSejJlRGNDS1FR?oc=5",
+      "summary": "6/16/2026&nbsp;&nbsp;AlleyWatch"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

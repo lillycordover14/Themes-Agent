@@ -21,7 +21,29 @@
     "news": "https://news.google.com/search?q=Bain%20Capital%20Life%20Sciences",
     "linkedin": "https://www.linkedin.com/company/bain-capital-life-sciences-fund-lp"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-04",
+      "type": "Investment",
+      "title": "CereVasc, Inc. Announces Over-Subscribed $85 Million Series C Financing to Advance its Novel eShunt® System for the Treatment of Normal Pressure Hydrocephalus -",
+      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPbDB6d0JkRDlST1Fta0g4UGQ4Z1Q5OEsyRWxGODVRWVR4TjhLeUpoeFVSSTFyNzYwY1JJWTJ3YWhTalNMT3ZMTGNPQzEtNEE5Q01rNmdlcjA5YmxTTmZPVGZrZ3I2N2IxdFA5SlZ6d2xBV29PeTRMdEhCZFJwaFJ6Y21YS2ROaUJDcUlMTmVvUlJzTUEtYmxxc19wb0FMRFRzMExsbHNkejFsTHFPcHZGWDByUUFuZHZQeWhPOE9ILXgtdU5ZamZDZDI1bXF6S3RJQXVWYVBVM2hVd0dYcmxuckpkNUs0NWwxZFMtODNBX011QXM1ZjJzN1JUQmQwcWdCQTN0aTUwQmh4N1pucDRzQUpUNVQ0ZXp6Z1I2a1lWeER4dzlHdXVNMWlMNVhlNTViXy1OMw?oc=5",
+      "summary": "CereVasc, Inc. Announces Over-Subscribed $85 Million Series C Financing to Advance its Novel eShunt® System for the Treatment of Normal Pressure Hydrocephalus&nbsp;&nbsp;PR Newswir"
+    },
+    {
+      "date": "2026-06-01",
+      "type": "Post",
+      "title": "HBM Healthcare Investments Announces Closing of Swixx Biopharma Transaction with SK Capital and Bain Capital Life Sciences - marketscreener.com",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNGhGTW5Jd200SVo4UkxEQW5LRkU1SXl6WXJSclJmQUVnWGRIaTEzaUYxbEx1ZzA4Qzl6S1lwQmMyaFAzTHRZM204NDVBS1NQN0tpcXFLajNuMU8tWllCUXhCNXUyLUJKRE55U2VudW5mRFNTdzdESmc4aXVHUGh0Yk5fd21lMXRZUzlYSkRHLWYxT2E2QWtnbmpMaDgzMjlNWnMyWnR4ZEJfQ2hNMm1QbVd3Zm90SmhKc2JJczBCS1BRMHZTSF9fLWJzdDk0ZXY3THdQMnExVWRNZE9YZXVDVHpocFhUdFhu?oc=5",
+      "summary": "HBM Healthcare Investments Announces Closing of Swixx Biopharma Transaction with SK Capital and Bain Capital Life Sciences&nbsp;&nbsp;marketscreener.com"
+    },
+    {
+      "date": "2026-05-18",
+      "type": "Post",
+      "title": "Rapid Micro Biosystems Announces Pricing of Up to Approximately $32 Million Underwritten Offering - GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPQUdBeG9NTXFWQ09EMmQwM01zT0piUklQUjAxTWhGTG0zdWhGUnp4TEx5MW5WdWtOSG5DcFZhQ1l2bi1wTDNZUE1JLVlMNXZlc044c2RyRmdTOXRFMHp2UjlNTDA2Sno3dlhYSXo5eTRwMEpic3dBU3E2bHlWeVI5c1VLNkkwa0VZQlgwSXpzY1VkeDlOcVg5SkZOMGZaTnQtc05jYVZBbzlLaFdfckFad1k0b3U1WFgtMDB4aWlrdm9zUV82QllmM2xkSTdNaWZyQXZCR01qLWh1U2hBUEwtQnIyNlFJVFVrVGdraXZBTHRZTmRWN29ZRHg0NjBSb1o3b0E?oc=5",
+      "summary": "Rapid Micro Biosystems Announces Pricing of Up to Approximately $32 Million Underwritten Offering&nbsp;&nbsp;GlobeNewswire"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

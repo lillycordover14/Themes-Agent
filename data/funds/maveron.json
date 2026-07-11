@@ -24,7 +24,37 @@
     "x": "https://x.com/Maveron",
     "linkedin": "https://www.linkedin.com/company/maveron"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-05-18",
+      "type": "Investment",
+      "title": "Kin Health Raises $9M To Give Patients a Record of Their Own Care - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN0Y5V0htcE9QWE4ydWk3YmpHcGh1emVCcHR2SzVPVUpHdHpBQ0lSNUtKYk5NWFBrV0NfcV82VWd2WlVjTkhRMFd2UThpMVE4TDc1NHBEVWhfOTFBM0p6VU1GSkNzSVIybmVqbUJZb2ZkWVJiNDVnOGNtZGJtVmp3Z2JyQ1p4X21XcXpTVklHR3RYUFprOUVoS3N6MFA3Qm1yYnluSEJoRmRjdXh5NlpRQzh6cXNPd01zdXdBVUhxVzJKUQ?oc=5",
+      "summary": "Kin Health Raises $9M To Give Patients a Record of Their Own Care&nbsp;&nbsp;Business Wire"
+    },
+    {
+      "date": "2026-05-18",
+      "type": "Investment",
+      "title": "Kin Health raises $9M to build an AI notetaker for patients - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMnVXeThyRGxQQjNxdlNXN0pWMzV1Q1ZBMlFEWTlJZTVQZGdzWVRMSnNhbVJJbDhweWg1TjIxTEZRVWVYRTF3Ukp0bzdYQ1J1d2lPVG90UEtoaWVxdUoxWjlZUjVzMmpyQWRLb1pqdWhGMDNiWkkwd2o0eXp6anBDRFE5d05mTkt5Snh6bk8yQ1VmN3VRQUc5MQ?oc=5",
+      "summary": "Kin Health raises $9M to build an AI notetaker for patients&nbsp;&nbsp;TechCrunch"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Filing: College app Fizz accuses VC of sharing confidential startup information with rival Sidechat - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbEJnNTFVZHlTalJ4TkpCd0dFNE0xdm9MQnNLRjMtVm9hWFdJUWRhTWZIZnpCS1RoU0xXZlR1U0dXNzZVM3hnd1ozUzdBWWJlZWVDVkFOTVhFTW5ndUw2ZC1EcXB4SzZDekpvOFJ3blltQjVXTzMxMWJXWjFFdElIME53eDJlODBmUGdFa19jZ09Ja3lfaXBpQmpIaUo1V19QXzEtNTU5cUlxWm9fcjNSVzJWY2ZYQzF4MGgyTEJvd2tFdVVkanp4WlJpNU5Edw?oc=5",
+      "date": "2026-07-10"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Everlane’s sale to Shein shows the limits of sustainability-led fashion brands - glossy.co",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSTZrTVFEQ1pNaGR1Mm1xaEtuOTh2eFFtenRjNGhyWm1ZUEx5UFZoSldFTmhiWWpkdHlMci1TTFJzRy1KWkVOUXkxQ01mZndBTGZzT1NuNkpTXzIzRjA3V3U1MHVZOUZWYkktYVBwYkpZQmtqbWRwdDB6RXlENzFUZVN3ZWZOdWdGVjg0LUFTT01RSHFZcVlpeXFnSlFxUTVNWmNnVTI5MXo1N0pk?oc=5",
+      "date": "2026-05-18"
+    }
+  ],
   "people": []
 }

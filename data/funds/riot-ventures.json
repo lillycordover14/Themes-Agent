@@ -22,7 +22,29 @@
     "x": "https://x.com/riotvc",
     "linkedin": "https://www.linkedin.com/company/riotvc"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-30",
+      "type": "Post",
+      "title": "Startup Queue lands $12.6M to launch autonomous robotic pharmacy kiosks - Fierce Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQengwcDdVWlhoRllDeEhlYnV2akdrMlJoQWZlNlphLWthUkxHcmVJblVENWI5S1BLREFlVzE1QUluWWNHdHR0MFJkUFpoeURxQzBhU3dSckFwdUUyb1NiYmQybWJtS2lpNTFtc0ltMmdrV01wLTV2VERzSk54bC1QSGFmVUJIeVFRc01yMnI2V3ZJbWRfemY1RHBZYmxuWFRRV05JY2R0RWlPZGRDVEdzZw?oc=5",
+      "summary": "Startup Queue lands $12.6M to launch autonomous robotic pharmacy kiosks&nbsp;&nbsp;Fierce Healthcare"
+    },
+    {
+      "date": "2026-06-28",
+      "type": "Post",
+      "title": "Shield AI - 2026 Funding Rounds & List of Investors - Tracxn",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcGNVb2t3ZjJGbmNZd1czM2p2NE4xS3gteHZFbGt6YkJLUXlWVnV1UkxuejU1YmFHOElGVHE4Mk1wekMtZjZ2NWJCOWlnQmVjS25jN1FoNlVwRDJmS094TkEyamRyMFV6emZMU0xyVVBHTWx2LUctcEtQS0RZMW1OM253QTJ0S01ma1Mtc0U2aEQ5TlE2U1FkcVRoMXJYZmtkTVNWU2pDS2xyY2Vq?oc=5",
+      "summary": "Shield AI - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
+    },
+    {
+      "date": "2026-06-12",
+      "type": "Investment",
+      "title": "Endurance Energy Raises $54M in Series A Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaFdCT3JuYlk2Q3J2cFNaMmE2V3BBZHJqVFd0OWZZNm5WZ29sRFpDbDF3NXRORXdHRll2TUxLalRzUk9kVXhWWU11bHJiOXMzblNzWW1kbXEtX0RKa1hSaXhwS2NpUjBNSTVkWThsd0Jhc1lOeUdGVElLMUJsUGVZSTd0MG85N2FNdFRwNQ?oc=5",
+      "summary": "Endurance Energy Raises $54M in Series A Funding&nbsp;&nbsp;FinSMEs"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

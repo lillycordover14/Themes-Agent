@@ -23,7 +23,22 @@
     "x": "https://x.com/RRE",
     "linkedin": "https://www.linkedin.com/company/rre-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-10",
+      "type": "Post",
+      "title": "6/10/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc01PRUhzTFJKZ0RpVWd2cmlUNGVJOEJzeXlPcXkyV2duUkNXYXZ4TTJxVjI5SjhNUFFzUGtpUVg2V3pjZTM2QUxqLVVocXIwNkx5LVN5SFQ4aE0yaTJ0VWF1c3ctOXJQUHBaYXYyRGlaT1lVdjJoRFE2SjNaQVNlQkR6SUhqaGs4YUdZYlBIbnJqclU?oc=5",
+      "summary": "6/10/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "Post",
+      "title": "RRE Ventures Acquisition Corp. Announces the Separate Trading of its Class A ordinary shares and Warrants Commencing May 20, 2026 - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQZWxVc0RBa1EyRWFNRjk2STRzYV9ya1RaeVlOZ2dkTjRHLWl5WEJHbWNXc3ZwNV9JdjdGdDdWOVdZQmp3NGVqNjUzYmN2Vjd5N0lYUlM0VW1RWmw3cktqSjVwWjRjbkRyMEZ1NmpuQW5yN3N6U1N5WTA0TzNoLWRZOUU1dFRnMjJFWlZ4Y29iZjlhOGFkOU4yMG52RW95VENQOHFXa2RpMVk2REJfYk4yVWY1RWJUOWVjNFBEb2tDd201Umd2QU9YMjczMXVuNFBROGFfTl9jR3JJNHV0cGtWOVFvWWdpVXcwanNhM21WakJGa0dDazhqN0xsbXAzRWdwcnNmemxQdWtZNzZnVWp5QXFNbw?oc=5",
+      "summary": "RRE Ventures Acquisition Corp. Announces the Separate Trading of its Class A ordinary shares and Warrants Commencing May 20, 2026&nbsp;&nbsp;Business Wire"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

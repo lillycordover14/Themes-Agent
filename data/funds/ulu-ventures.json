@@ -23,7 +23,15 @@
     "x": "https://x.com/uluventures",
     "linkedin": "https://www.linkedin.com/company/ulu-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-15",
+      "type": "Post",
+      "title": "Meridian Ventures launched a $35M fund with a focus on MBA-deferred founders - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcW9KR3dKOEI5d3hIaDdYdFNEODNxTU1nYzZZOVFBbloySTNWWXh2akNjSjRLcm1XNWNBaVNNdm1kVjRvRXZjZkdOdTBIdUR5UThnZFRIS2N5OHhBWVJyVXJCcDVRNDdua0VQdnQyUHNLSldOUHk5MzkzSGpNQ25tQnNRODhKQ3Vick8wWWVzSHZjMnFJQjNDckdEUDJKdkJUMXc?oc=5",
+      "summary": "Meridian Ventures launched a $35M fund with a focus on MBA-deferred founders&nbsp;&nbsp;Yahoo Finance"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

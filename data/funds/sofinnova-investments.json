@@ -22,7 +22,37 @@
     "blog": "https://www.sofinnova.com/press/",
     "linkedin": "https://www.linkedin.com/company/sofinnova-ventures/"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-08",
+      "type": "Investment",
+      "title": "City Therapeutics Announces $99.5 Million Series B Financing to Advance Next-Generation RNAi Therapeutics - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQaTFkSktqazNqS2tIUUtyZnhKOTNBaVpQZnZjZUpQZ1ExMkU5aGhsR3hMUEtVT1l1Y0NJT0Rfa0xqSFV6SHhORklaUXRCREkxd19WTHpxN1BzUkt4WG12N1NEcy0xNWljZ2phbTczZm5JMThyYVA5RXpUbmVRUThZamptbm5NWU5zQTZiQmVobzZGRXVhRlpIY2lkT0VKdGtaTTFqMmNIVjdEVHZNUjZDRWdHRE4xM1dTV1d0dmRzUFNjS0hyblhlVm84ei14bnZtSVBqQWs3dUw1MXA2Z09KZzBHVVNCdnhZVWFNcmE2bEl0cnNTWE5z?oc=5",
+      "summary": "City Therapeutics Announces $99.5 Million Series B Financing to Advance Next-Generation RNAi Therapeutics&nbsp;&nbsp;Business Wire"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Biotech Investor Pumps the Brakes on AI Drug Discovery - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeGVwYXlSb1hkR2NTYlg1VDJ2SXRmaVVYaEZUX3ozblZjOS1wdWdXeU40bFJlUGRTUXlKUW5Vb19tMGN2TnNQaUd1SjRKV0RXODZnZ2IzaXg2bkdQb3Jvc1owYzVnTjFrWTRNcmx6c3IwTDk1Y2dZdURpcl9ncXdJeUVvUnJsY3JmQ3hxd0x3MElzcXpxbThDbkRyWjQySVlfZnJXenFR?oc=5",
+      "date": "2026-06-29"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "‘The window’s open’: At BIO, investors take stock of a growing class of biotech IPOs - Pharma Voice",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNX0hQRkZiZ282YkRRNGJiSUdqZmlkNWlHVGMtUE9kWmUwY2tLb1dsMzhhbTluNXkwMFhqZ2ZYVWtULVdRbWVaOTFxQW15U0UxQ2dIeGhsTVF5WGJUVmNnRXU1eWFXbFpaU1BpU1ZLVS04amZZNkk3MHp3MkhQY09xZkhoemtyWXNsb0I4czdn?oc=5",
+      "date": "2026-06-23"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "City Therapeutics gets $99M to gather data on three RNAi medicines - Endpoints News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRkx5azFSM3cyTkIwaC05a2E5bVpubG1KV0FIdDByOUg3VE5NMUZmLUtwMzItbDhzNkhyaVNJeXlfYm9sSUdVVlMybHVBbWJrYllZeE9xTHNWekVIYXY2Ym9XWUJ5WC1BMTB6YXBMMW1vckpLWVI3aDJCTUFGaV8xeDZSOUpoWXlMcGZJbU9QMmxoTVk?oc=5",
+      "date": "2026-06-09"
+    }
+  ],
   "people": []
 }

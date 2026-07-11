@@ -24,7 +24,43 @@
     "x": "https://twitter.com/EqualVentures",
     "linkedin": "https://www.linkedin.com/company/equal-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-10",
+      "type": "Thesis",
+      "title": "WE > ME – Announcing our newest partners and promotions at Equal Ventures",
+      "link": "https://newsletter.equal.vc/p/we-me-announcing-our-newest-partners",
+      "summary": "This quarter marks a special moment in the history of Equal, as we promote Ali Afridi and Chelsea Zhang to Partner and Sophia Dodd to Principal."
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Thesis",
+      "title": "Relationships Over Research",
+      "link": "https://newsletter.equal.vc/p/relationships-over-research",
+      "summary": "Follow the discussion on X here"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "Thesis",
+      "title": "Ephemeral Margins in AI-Native Services",
+      "link": "https://newsletter.equal.vc/p/ephemeral-margins-in-ai-native-services",
+      "summary": "Follow the discussion on X here"
+    },
+    {
+      "date": "2026-05-17",
+      "type": "Post",
+      "title": "Texas Weekly Deal Highlights - Texas CEO Magazine",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54ZElTZkRjRU9JX1c5OUItWjFKYVg3OG96V2V6OWNwOGN1ZTgzS3pQbV9aYzBWZml5UG5MWG94UnNydmU2QmVJclRVSkZHMFVVczZjUzF2T2d2eDhRdy1Fekk4NVFoLU5pX2Nuc1dCZGVoaER0MXc?oc=5",
+      "summary": "Texas Weekly Deal Highlights&nbsp;&nbsp;Texas CEO Magazine"
+    },
+    {
+      "date": "2026-05-12",
+      "type": "Thesis",
+      "title": "Announcing the 5th Annual Emerging Manager Circle Summit",
+      "link": "https://newsletter.equal.vc/p/announcing-the-5th-annual-emerging",
+      "summary": "The EMC community has become one of my proudest accomplishments as a professional."
+    }
+  ],
   "podcasts": [],
   "people": []
 }

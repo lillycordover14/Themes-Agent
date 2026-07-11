@@ -23,7 +23,44 @@
     "x": "https://twitter.com/RightSideCapVC",
     "linkedin": "https://www.linkedin.com/company/right-side-capital-management"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-05-18",
+      "type": "Post",
+      "title": "The Weekly Notable Startup Funding Report: 5/18/26 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPU29pSzdkZE5RdDk1TWhIMnhhcUNQUXI5ckU1V05KOHV4R3lMcXhoZURHUzRXeUE4WjBPcTZiSkJtLVRVQ3Bub0twVFRzUmVJTXlGa2QzRHpKWFlReDlZdzRLVnNLTGJ0YzVYQWx5ZmwwTTNuUzZobTFackR0THV2b0VxYlc0S2RSOTVRVUl3?oc=5",
+      "summary": "The Weekly Notable Startup Funding Report: 5/18/26&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "Post",
+      "title": "Insider One Acquires Bluecore to Strengthen Agentic Customer Engagement Platform - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZGpLcmFaNExtd3VCTjFsMDBBM1dXVnQyVC1DR0VGcVVYcGozZEFQTXg2OXNZU2lHVllBTHRLelNKQTg5UFo2OEhhdDBJQVFoVkFrQXRhVXhLVVFkbkg4VXNmZmJubHFmZjJ3MFpNdy1jOU9uZzBpWmlnN3hUaURLRGlvMGdyR19ZNk9UdWVYVWF1dXJDSWdqXzMzQVlIRlhXdHY3T3Y3S0NkdVBza29Pa1NyeHY?oc=5",
+      "summary": "Insider One Acquires Bluecore to Strengthen Agentic Customer Engagement Platform&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-05-13",
+      "type": "Investment",
+      "title": "Aumet closes $12 million Series A led by Emkan Capital - Wamda",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWWQxVTMycHF2enFIT1MyTFE0TDZIUTFvNWxRMTN0U281Q3B6LVVQOWd2YkF3X3ItSl9kNGNvMzNHM3pvTnRGNklsTklUNnFrckFrQ3pyMzBVX2tPdG1LMHlYQm9TNFNQSGdHYWZPNFUzc2NlLWdydTlvb1hhY2xER1VWcHA4SmR1TWVJ?oc=5",
+      "summary": "Aumet closes $12 million Series A led by Emkan Capital&nbsp;&nbsp;Wamda"
+    },
+    {
+      "date": "2026-05-13",
+      "type": "Investment",
+      "title": "Aumet Raises USD 12M to Build Its AI Procurement OS for Healthcare - waya.media",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNDEyYmVaRHVtdXlJM2JCTUN2ejFkajJQVTZmMFIwX3VEajNtSWNNMGZFcURpSDRrck1ybnJ6WUl2ZlNnajhWUGtGOVRzb196YUpGc01SRWNzb19fdkk2QUwyNjNTU2hnT1p3eUsxQjZtSzNpUGNfc2FuVTh3LUVvbUZhX3Y0VlViSVFEc2JuMA?oc=5",
+      "summary": "Aumet Raises USD 12M to Build Its AI Procurement OS for Healthcare&nbsp;&nbsp;waya.media"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "a16z's first GCC bet, Breadfast layoffs - FWDStart",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yTmdlc1ZSaDhDam9kcmpvV05aTnp5eG1xc0hoRC05ZFl0T2N2UGJLY1lWMHgxSWM2MUhMbDFQRkRkNkNOdF9FczBGRlpUSkNldndaR3VEOEY1ZTRXcEVUUnVKUVpTS0Y5VXh5V3JVbzNQZw?oc=5",
+      "date": "2026-05-15"
+    }
+  ],
   "people": []
 }

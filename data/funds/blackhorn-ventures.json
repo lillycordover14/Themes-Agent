@@ -23,7 +23,22 @@
     "x": "https://x.com/blackhornvc",
     "linkedin": "https://www.linkedin.com/company/blackhorn-ventures/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-29",
+      "type": "Investment",
+      "title": "LightTable Raises $22M in Series A Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT2Q3X0cyeXZreDh2ZDhRUFJYVE95YktKSWJYbWc2bHEwODBheFJRcG5QX09kXzVVYlhVUGhha2owNmVWeVd2c2lHUEdPaGZkM3BMdGhfM1FJM2FoelAwMl9meEVSZ0xYdXVVTGtvemtpTWc3WGpsbXM3Q243TVB4YkN1d2c?oc=5",
+      "summary": "LightTable Raises $22M in Series A Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-05-27",
+      "type": "Investment",
+      "title": "Canyon Code Raises $5M in Pre-Seed Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFppRWVqMjM1RjFYT2liQ2tZY2ZkdmFqaHNick1MQksxcEJEbV8zbE11STlLZ1N5c3h2dXhjZnpKYklTMHNtRXZVWVFPenZQVVFmSlBpUFZnaXl4QUhZdWF4LTM2dERJVmVkaU9HTmZVZy1fMGowZjBaZ1pKS1pzQWxhd1A?oc=5",
+      "summary": "Canyon Code Raises $5M in Pre-Seed Funding&nbsp;&nbsp;FinSMEs"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

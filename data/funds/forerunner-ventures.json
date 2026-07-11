@@ -23,7 +23,22 @@
     "x": "https://twitter.com/ForerunnerVC",
     "linkedin": "https://www.linkedin.com/company/forerunner-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-04",
+      "type": "Investment",
+      "title": "Suno Raises Over $400M in Series D Funding at $5.4 Billion Valuation - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVXR3aTRuc0RkdlRyX0U2dURBcW1acjFRanBtdnZzWi1SN3B6bGxJTlBidExsRTBteDBaVnFWZ0lCazZTeHI4UjVtSE85anZFeFZ6anc1RWMtM0VyWFZJZnJDd0pHeUxKM1BTaF9GZTByQXZoclY1dzBLSzJSYXRGVjNxLU5mVm9ZdDhtYkNzclhFZXZqT0d1cHM4OVJXZllnd2RrOFR3?oc=5",
+      "summary": "Suno Raises Over $400M in Series D Funding at $5.4 Billion Valuation&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-06-03",
+      "type": "Post",
+      "title": "Town’s AI assistants learn your life—Andreessen Horowitz and Forerunner just backed the vision with $55 million - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSE1WekNOeFlDWWRiZmRMX2E1dzR6WnJqYnNXdmpLb1djRGZiclQ3QU1HNGRVTEhxallYcTlFcjhONGFPZUtwU0Fhdzk5dFJ2Z3VyU0ExcXBWbmRpcU8wcEJmWTFna0N6elI5WVFUdXBwUmF5elVXX3ZPUUpkM2hDT0pMRlRPRlJBaElBb3J2UGFTZ010eGNRNw?oc=5",
+      "summary": "Town’s AI assistants learn your life—Andreessen Horowitz and Forerunner just backed the vision with $55 million&nbsp;&nbsp;Fortune"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

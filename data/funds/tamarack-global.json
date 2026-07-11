@@ -21,7 +21,22 @@
     "news": "https://news.google.com/search?q=Tamarack%20Global",
     "linkedin": "https://www.linkedin.com/company/tamarack-4"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-21",
+      "type": "Investment",
+      "title": "Hark Raises $700M in Series A Funding at a $6B Valuation - AI Insider",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUWdZQnI1dGNZSVhQSTFYZkpxVjNMRDBHUEJmSEppLVFKenVGV1dxZ1RReU5EQjkyVXVqeTdPUjdmM19SYlo2S1c3Mmd2ODdqTXFFczRqTGg2bnY0SUJ5M041eG9WNk9FajB3NC1VV0dqM0MtT19pRzJ3aVNxdnV4d2dMX3dMQVF4?oc=5",
+      "summary": "Hark Raises $700M in Series A Funding at a $6B Valuation&nbsp;&nbsp;AI Insider"
+    },
+    {
+      "date": "2026-05-20",
+      "type": "Post",
+      "title": "The 17 Largest Global Startup Funding Rounds of April 2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOEpaNTBmeHNQQ0ZGWVNFQ2VMRzFKY29saGxaYjdfY0JYMFRaclprLVI5bVplRkNzRGNnUGI2enJmUmRHM2huTWNScU9zSkt0bW5xdF9ZNUdBSElEZFlDMXBJYXNGS3l5T3VrVjRKN1ItZmI3aHN0OXVsX2dFUmtIMVRRSnhFdzh1WTFJRA?oc=5",
+      "summary": "The 17 Largest Global Startup Funding Rounds of April 2026&nbsp;&nbsp;AlleyWatch"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

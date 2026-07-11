@@ -21,7 +21,93 @@
     "news": "https://news.google.com/search?q=Align%20Ventures",
     "linkedin": "https://www.linkedin.com/company/align-ventures"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-15",
+      "type": "Investment",
+      "title": "Align Ventures raises $84.17m for Align Ventures II, target size unknown - Venture Capital Journal",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUWZDYV9WVWxUVHNZUDFqWlItbE1RR1dmQkpvOG5MaWRhUW9MdXNIbFlyX0IweGx3T0lRYlB0OVN0LU9Fa3dCaVIyMjJiMlUtbE56N1hOdm5CNVFpZk5FMDJyMmRJd1FRajV2elVRQ0hNR3V1My1FcDF4cUZxQzFvMzV1alZPODhBOG4xSHM2OU1uc0ZUUVFVUThldk1udU84d3ZKOXlaaFlVRDI4U0E?oc=5",
+      "summary": "Align Ventures raises $84.17m for Align Ventures II, target size unknown&nbsp;&nbsp;Venture Capital Journal"
+    },
+    {
+      "date": "2026-06-03",
+      "type": "Investment",
+      "title": "EXCLUSIVE: California Naturals Closes Series B Funding, Names Hayden Hiatt CEO - WWD",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUG00OWR6elVVd1pvLU1sc2FyZjdDXzdFeFpSVUtrQ3o2d2txLWdLMDk5c0hvLUh6Nkdjcm0zb3ktS195VGRCQl9Nd0p3RnVZN2NtdUhVeUhYY092ejBKb0Q2QmJBM2JGbG1IMWxURlp3ZzZMRmFfTHk4eC13czFVU1R1dkkyeDNpTkgweHVkWkp0ajlrWW91Z1V3NlNxX1I3SnAtYjIzTGxHMUVET21rNzNrQ21OMnFZbVFxRU05NGZ4UQ?oc=5",
+      "summary": "EXCLUSIVE: California Naturals Closes Series B Funding, Names Hayden Hiatt CEO&nbsp;&nbsp;WWD"
+    },
+    {
+      "date": "2026-06-03",
+      "type": "Investment",
+      "title": "California Naturals Raises Series B To Expand Distribution And Categories - Beauty Independent",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPX0N1ZC14Sl9BYWhTUllFb1R1cVJQVWdWRE45eDl6OWxISGFnSGZoUzlnUTBkdnExdGdvYlVkYkJXNGdJa0RHR2I2MXYzaWROMkRDVVVJWndBRkFqbzlqX2lRUHNmbmJIa0V2Wkp1U25MVHpsbkNwczk3a3lTYTdjOS1qV25WdTNsTmZoR1drUHp4SkZpSWxvSk14OXJBdmV5ODBrVA?oc=5",
+      "summary": "California Naturals Raises Series B To Expand Distribution And Categories&nbsp;&nbsp;Beauty Independent"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "Investment",
+      "title": "Hark raises $700M Series A for its secretive ‘universal’ AI interface - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORGx6ZVpHYk5xY0loaUU0OWtvbWRLWGs4cTh5YmlQOXU2NUVhNllXY0hmMFladkJxQlJ6NG81QjFYcGFPOEdCV0YtU052MFo3S3Z1SXhtdVRVTWpPZlQtMDMydnhOTnJBbkg2MXhKdU5UdW1SZDB2X1AySl90OGEtQktvU1llYjdiaHZGdzNUQllSdEdPZkRWUnZpWW9DcmlLTnp3?oc=5",
+      "summary": "Hark raises $700M Series A for its secretive ‘universal’ AI interface&nbsp;&nbsp;TechCrunch"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "Investment",
+      "title": "Hark Raises $700M Series A at $6B Valuation to Build Secretive ‘Universal’ AI Interface - BBN Times",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeDlzbDhfLWtacDBLdlM1SmR4YkdheVBDSXdkcDhRYU1VbnJDNXNkMklUYVpaVWtUX1BSVjFxVmNjQk5tNDZuYnB3djY2R0g1RFZuY2I2a1BWMEs4dDVTTWZ3ZUdCcWUxbV9QREFkN0Q3S1dZY3lndVoxajhhclJGYzcxRmdxNW5paVZCc2xqNVFQSWdhUFd4NDlHZVJqM0tVajdhV29Da0ZkRWZUUS1NV3dfQWpRczA1MEp3?oc=5",
+      "summary": "Hark Raises $700M Series A at $6B Valuation to Build Secretive ‘Universal’ AI Interface&nbsp;&nbsp;BBN Times"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "Investment",
+      "title": "Hark Raises $700M in Series A Funding at a $6B Valuation - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNd20wRnRFZlRhLWRmdHBObW1PX3U2MHltUEY2QUpJMVpKd0lzbWZVSWZyVTNPVnhNNHZNTjRWendpSFdXZnl2Mm9XS2JCU1N4QmRIRlZoWkN3MmQ2MXpNWmZudnVNRHpmNzVtRXFYaUVjNG05MGlWUFpqNXFqWFNTUGdXNjdsMVg3NHFGR1dENGVCUldjTWc?oc=5",
+      "summary": "Hark Raises $700M in Series A Funding at a $6B Valuation&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Investment",
+      "title": "Radar raises $170M Series B, reaches unicorn valuation - qz.com",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5EVmpWU1ZEcmEtbElsMGFvSlpOSTBTd29oUDJ0cjBvcVRSQm9WbnJKM0RTY3lLRmNUNk9EcnpGMG9IRy1rRDJrT1psa2NDOU5FazItYlM2dW52UmFwWEhjb3hPQzlFOU5uVTZhSzl0OUJUeDRQaHBXUlJn?oc=5",
+      "summary": "Radar raises $170M Series B, reaches unicorn valuation&nbsp;&nbsp;qz.com"
+    },
+    {
+      "date": "2026-05-15",
+      "type": "Post",
+      "title": "The 18 Largest US Funding Rounds of April 2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUjdjNHU1aHdZWTRBX1FBWWh0NkQzdG1hTWJUbmFSSDhCWDFFNE43MzBqd3RHN1BUaHJtZDVRSXlRV0FoQ2F1Y0NJMlRPV1o5elgwbWRNYkVOYnpWQ3JPNVAwZDlRaFNwNDJCRG5GcUlXX0d6dW9aTzhnZXpuNUJ4dzVB?oc=5",
+      "summary": "The 18 Largest US Funding Rounds of April 2026&nbsp;&nbsp;AlleyWatch"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "EXCLUSIVE: California Naturals Closes Series B Funding, Names Hayden Hiatt CEO - WWD",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUG00OWR6elVVd1pvLU1sc2FyZjdDXzdFeFpSVUtrQ3o2d2txLWdLMDk5c0hvLUh6Nkdjcm0zb3ktS195VGRCQl9Nd0p3RnVZN2NtdUhVeUhYY092ejBKb0Q2QmJBM2JGbG1IMWxURlp3ZzZMRmFfTHk4eC13czFVU1R1dkkyeDNpTkgweHVkWkp0ajlrWW91Z1V3NlNxX1I3SnAtYjIzTGxHMUVET21rNzNrQ21OMnFZbVFxRU05NGZ4UQ?oc=5",
+      "date": "2026-06-03"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Startup backed by American Eagle CEO reaches unicorn status in latest funding round - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMGNORVM2U2ZpdkNjbmtIbVFSTzdWbHBteXppRGlnS19CWVlwZWY5ODZJLUhZamlmRkU3RlRUVnBlOXlNOE4tODUtektRTjRCNi1UQTRncE41RG5RZ2dEZktxeUQwU09iZUlDZHN6U2M2RU5HU1loTHRSVmwweFRKVC1Kc0NYdEpWaFdPTUVJT0QxLUh4RWfSAZsBQVVfeXFMT1pua1FWZ1RhY1V3YmdZWjFmeGJfYnRocTlPRXMyMVBBUkh2ZXZ0OW1ZLUJjOHFuY3AyUjQzTnhNRHk2QlJTNnhPYWlKNS1tTXVJUHJmb1BJYklaM3dyemtfQWRMVEpvMjVseWFqNFVVejlyVnUxMVpiMHBPRERWc0k3V2EyTUR0VVctamJubHllMXlVM1RFb1F6X0E?oc=5",
+      "date": "2026-05-19"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Hark raises $700M Series A for its secretive ‘universal’ AI interface - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORGx6ZVpHYk5xY0loaUU0OWtvbWRLWGs4cTh5YmlQOXU2NUVhNllXY0hmMFladkJxQlJ6NG81QjFYcGFPOEdCV0YtU052MFo3S3Z1SXhtdVRVTWpPZlQtMDMydnhOTnJBbkg2MXhKdU5UdW1SZDB2X1AySl90OGEtQktvU1llYjdiaHZGdzNUQllSdEdPZkRWUnZpWW9DcmlLTnp3?oc=5",
+      "date": "2026-05-21"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Hark Raises $700M for a Secretive Universal AI Assistant — but What Is It Building? - Binance",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81SWhvRS0wVDAyWEhnaloycGloRFMtN1hWM29vQkwzNi1IdVp3X0hJNWI5Q1BmLUtITkNGMVZ6cjdPVEZCVVVlRHV1Nlg0X1E0czRPaXY2WjBXOFh0YVNLSEFRMU4?oc=5",
+      "date": "2026-05-21"
+    }
+  ],
   "people": []
 }

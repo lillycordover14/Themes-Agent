@@ -23,7 +23,51 @@
     "x": "https://x.com/restivevc",
     "linkedin": "https://www.linkedin.com/company/restiveventures/"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-02",
+      "type": "New fund",
+      "title": "Backswing Ventures Announces Fund II Surpasses 1.0x DPI in Under Three Years - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWm92Z0FKb2xkTDFUWFEzdWdTbjFLa0s1b1BodjBIaVIxVVRyWFNZSnJUMjg5NHJYOVY4QUJsbTN3MmJRdFVwVVBHRmo3S2t3aXNzY3A2TFBzbm0wT0NIYWpoczc4eHhhNXZiZGMtNWJjRUpITlFFVGFXczNrSzFIbk5yTUcycXRLUjJnMVBRWFotbDV3S2RiTWVaRXpHa2JBM2dZ?oc=5",
+      "summary": "Backswing Ventures Announces Fund II Surpasses 1.0x DPI in Under Three Years&nbsp;&nbsp;Yahoo Finance"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Investment",
+      "title": "Eisen raises $18.5 million to help Americans recover over $70 billion in forgotten funds held by state governments - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObld1NTNvajJYYkRpQ3ZRb1ptMEJiQm13bTRuX0VJMEd3bVU1NnN3a19QMENBQXUyOEVYYUlGdl85VXdWQVJNM2thN0VaSmd6alBBaU1YUWpxSTFGUm9zZnN2MnhqOVo1ejU2QzhuXzJEZ2hnRm1UVGYxQ3BOanRvZFZ0MElNbjQ?oc=5",
+      "summary": "Eisen raises $18.5 million to help Americans recover over $70 billion in forgotten funds held by state governments&nbsp;&nbsp;Fortune"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Investment",
+      "title": "Regtech Eisen Raises $18.5 Million to Streamline Escheatment - Finovate",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeS1hSF9tUVQybmpGSFZzb3FnZDFNZ0NNTWhMZDJzNTlsRk0xQUhhSmI2Zm5EYnhOT1Z2a2xUQ1RuUldRRTdlQzhoWnlhQ2lISWVBa1NVbEpsWG1rSlFaV3ltbFdtT1ROLWdpcUpYM0hYdU5nSjRMS3NDbkExcHRKclVFZDh3RXFv?oc=5",
+      "summary": "Regtech Eisen Raises $18.5 Million to Streamline Escheatment&nbsp;&nbsp;Finovate"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Eisen raises $18.5 million to help Americans recover over $70 billion in forgotten funds held by state governments - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObld1NTNvajJYYkRpQ3ZRb1ptMEJiQm13bTRuX0VJMEd3bVU1NnN3a19QMENBQXUyOEVYYUlGdl85VXdWQVJNM2thN0VaSmd6alBBaU1YUWpxSTFGUm9zZnN2MnhqOVo1ejU2QzhuXzJEZ2hnRm1UVGYxQ3BOanRvZFZ0MElNbjQ?oc=5",
+      "date": "2026-05-19"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Regtech Eisen Raises $18.5 Million to Streamline Escheatment - Finovate",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeS1hSF9tUVQybmpGSFZzb3FnZDFNZ0NNTWhMZDJzNTlsRk0xQUhhSmI2Zm5EYnhOT1Z2a2xUQ1RuUldRRTdlQzhoWnlhQ2lISWVBa1NVbEpsWG1rSlFaV3ltbFdtT1ROLWdpcUpYM0hYdU5nSjRMS3NDbkExcHRKclVFZDh3RXFv?oc=5",
+      "date": "2026-05-19"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "220 unicorn startups have lost their billion-dollar status. Here’s why - The News International",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkVSd0hsOE05cHJNWkJuMWZFZmtLOWpBa2dDWU0yY0hXLWZ5Nm4yTUFjQmh5ZFdWOVlnTV9fUTAyVHc3SjQ5UzdOVmdZb1k1WkJYajZvQjdaTDI1YU4wZWZ2NUNVNnpmWnNubkM5TXBNN2Fpa2NCRlZQSnFqRXppZmpCMlNQMjZmT0FCNHdWSFBLQTJKX2ZrNGRhSWI2WGNFX3o5Q0hNRG5hQkh0N0p3?oc=5",
+      "date": "2026-06-01"
+    }
+  ],
   "people": []
 }

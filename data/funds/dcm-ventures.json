@@ -23,7 +23,15 @@
     "x": "https://x.com/DCM_VC",
     "linkedin": "https://www.linkedin.com/company/dcm"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-24",
+      "type": "Investment",
+      "title": "Trovy Raises $25 Million in Total Funding To Turn Every Home Into a Financial Asset - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOb05sLWg4MGFuX0Y0S1lQR1N0SmIwUjRTb3VyYTk0TnJ0R2ZmdHFQOXEtSXY3UldQWW5tQ2diYnRlZjRBYVpwSi1EU2FGUXZ2UzB6SXJiZ2Q4Y0o3OFBaVDE4UGY1WlRERjZwYVY4eVk3X09EbF9lV01qWUd0aEF1VzNiVXB3eTdXNTVJTl9XbWZ4dFlHWHBGa1doQjJuRE0wWGpFbFd6TjVFcTIwSGJSTjFKRGJfb0IwTDd5NFFhZnlWc1ZxSjV1ZWZLb2wtMXJVR05fMw?oc=5",
+      "summary": "Trovy Raises $25 Million in Total Funding To Turn Every Home Into a Financial Asset&nbsp;&nbsp;PR Newswire"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

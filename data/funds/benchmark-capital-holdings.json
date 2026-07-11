@@ -22,7 +22,15 @@
     "x": "https://twitter.com/benchmark",
     "linkedin": "https://www.linkedin.com/company/benchmark-vc"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-01",
+      "type": "Post",
+      "title": "Tech unicorn companies list & tracker - PitchBook",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55SFZfSXlGb1l4ZXVjYno0bjhsOWxKQ1dnWXVyd3lUc2R0cm5KSkxmTTM2WjFXdS1ZTVc3QjRWdnlndGZVeVMtbEJPUV9mZl9nNTNoZXpleHhVNDJFeS1HVVU5TVVGWEF5M2VjTEtfeF9TZw?oc=5",
+      "summary": "Tech unicorn companies list & tracker&nbsp;&nbsp;PitchBook"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Bill Gurley",

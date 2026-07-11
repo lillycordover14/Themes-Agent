@@ -22,7 +22,22 @@
     "blog": "https://www.founderscoop.com/our-thoughts",
     "linkedin": "https://www.linkedin.com/company/founders-co-op"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-20",
+      "type": "Investment",
+      "title": "StitcherAI Raises $3M in Pre-Seed Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWHZfaVZJNHRBMHNjR2xpeFpaSnhMUFFxQk9rR2lKaHpRS0d3Z1F3VW5pRm8ybkd2YTA2TG1feUFCaGZvRWNJXzhZV0I2QWg3VWZxTmxDcS0wX29TOEhzQnJ0d1NtQVZMeGJ3T1hsUjAyNXlyTkpJVHlaUWtkNWh4VjNaMA?oc=5",
+      "summary": "StitcherAI Raises $3M in Pre-Seed Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Post",
+      "title": "Redmond AI startup launches from stealth with plans to grow leadership team - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQnE1R3plakE3Z196RjYxbjdEa2dSSzgwRVFiN0NTTVR6OUl3NzFSSzI4RkFyODhGeC1ldVFXQjNFc09EUl9sLVFRMlB6ZXN3R290UUNGcDV5TnR2Q3BmUHF1RGFaNzdkSW5MX011djBZekt6U2RQeUZPdFp4NWNSSGl0QnR1TnJnMmtpVnIwU0VSNERZRmVxZ0NPazFOZ1ZKLW5DYnRn?oc=5",
+      "summary": "Redmond AI startup launches from stealth with plans to grow leadership team&nbsp;&nbsp;The Business Journals"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Chris DeVore",

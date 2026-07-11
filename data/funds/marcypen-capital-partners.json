@@ -21,7 +21,86 @@
     "news": "https://news.google.com/search?q=MarcyPen%20Capital%20Partners",
     "linkedin": "https://www.linkedin.com/company/marcypen-capital-partners"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-07-02",
+      "type": "Post",
+      "title": "Hanwha, MarcyPen launch fund platform for K-culture brands - The Korea Herald",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ibExJY0xPQ2hxandkZXd2Ym9XY2w1aktranF5VmlTMmVPYU40czdTNWZBbHZpZGlPU3R3QXhJRGtpTVVIRXJuekdUM1UyZ2NTQzhRQTFaRQ?oc=5",
+      "summary": "Hanwha, MarcyPen launch fund platform for K-culture brands&nbsp;&nbsp;The Korea Herald"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "Post",
+      "title": "Inside LVMH’s beauty shakeup amid luxury slowdown - Personal Care Insights",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNamFMM185SnpPVzJGcy1LczRXbl9PN3hrMk9FRlFzRU1GR21aemcxVTlIMnF3Sm53eU8xMEVFQ1NxRHVYd1pwOFBSZzYtOWdvS1B3Q3EzcE8xdE5DNGZUYi0yVEwtSkp6UEFKa3ZMdmNTUVNhN2J2U3h0aS1xZ0x0S2s5bnBaUFhhZnc?oc=5",
+      "summary": "Inside LVMH’s beauty shakeup amid luxury slowdown&nbsp;&nbsp;Personal Care Insights"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "Post",
+      "title": "JAY-Z’s MarcyPen Capital Partners Looking To Buy LVMH’s Stake In Fenty Beauty - Black Enterprise",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xamZGYmphM1lvRG9VX2F6LXFjekhRd3FTUE13MjBzZGhMbExzOXdOYmNocnkwREdHOEYzZENEUjhFYjFpUlYzbDZ6cy10RHJOYXNCWTB1cHhTaWRiY0NndTAtczJjMEFMOS1KQnpqbzR3a0dl?oc=5",
+      "summary": "JAY-Z’s MarcyPen Capital Partners Looking To Buy LVMH’s Stake In Fenty Beauty&nbsp;&nbsp;Black Enterprise"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Post",
+      "title": "Jay-Z’s MarcyPen Capital Partners Emerges As Strong Contender For Fenty Beauty - Beauty Independent",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTU9aNWNreXJCLUkxYkFOOEFwbTF5TzR0Sm1LMlZTQWktdkFmVU03MElaZ2FYVnI2bzRKSFItV0E5MndCSFUwQkhQM2I2YXU3eXd1a0UteWtMa2JYN1BZOHczdWV3bW84ZC0wU296RFBhMFlYQUJCVllWNGJmUWRJZV9GMEdCWEx5WWlyWm9yUVgxV2xKWWE0Sk1tRVI0ZkU3bVNGUGZIRQ?oc=5",
+      "summary": "Jay-Z’s MarcyPen Capital Partners Emerges As Strong Contender For Fenty Beauty&nbsp;&nbsp;Beauty Independent"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Savannah James and April McDaniel launch a triple-threat company - Fast Company",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbE5Ja2txcDE2U04tbmRHZ25vTnBQVW4zaUhrejBHZGdDWHhBTng1TWxheGZlcFVVcFA2RU9FdWlwZUtRUkJzUEV4MzFZRjNvQ0tDdXJiTjZrbzQ2WHI0aC10a3loZ1hJRWhBTzVFZFQ4UmxYWEdFYW5Zdi1aMXJMZ0tjVzVlTC02WFB1bg?oc=5",
+      "date": "2026-06-29"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Savannah James, April McDaniel Launch Company Around ‘Everybody’s Crazy’ Podcast. - podcastnewsdaily.com",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQVTRtQW5VT3haaTIxM0lPQ0oyVUozcEZ3YzlLMHg4aTFYakpuOV8ta3U0RjZ1Wm5vbG15TjNsTG1XTUJWM1FUM3hqa2s0V2wyTm5qSjNBWlhfU1FXbXlTVXdvMVhYQzh4clpqQmZKOHdtUjVMZjR4Q21GLWJHZzJiV2ZaSURoNEdNc2N3SUg4RjNLY080VHR4NGpmSE1YQ3VfRGNTZnFLSTlWZHQycXcxdmV2endFdkJ3TGE5MVZaU0lackZmNEphaEJKWGNIOFdSTW1YbFRSZlQtcGxhb0RLLWFmUnNzamJCeTc2S3VmMnhldjF2SmtxQg?oc=5",
+      "date": "2026-06-30"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "JAY-Z’s MarcyPen Capital Partners Looking To Buy LVMH’s Stake In Fenty Beauty - Black Enterprise",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xamZGYmphM1lvRG9VX2F6LXFjekhRd3FTUE13MjBzZGhMbExzOXdOYmNocnkwREdHOEYzZENEUjhFYjFpUlYzbDZ6cy10RHJOYXNCWTB1cHhTaWRiY0NndTAtczJjMEFMOS1KQnpqbzR3a0dl?oc=5",
+      "date": "2026-06-15"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Jay-Z-Backed MarcyPen Capital Partners in Discussions To Acquire LVMH's Stake in Fenty Beauty - peopleofcolorintech.com",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS1RpS3F3U3dVTFB5dEtmczZYQU9qdC1BNGpncHNyYmpJLXN5QTVYbFdiVmNaTVRzeDhkYnlHSDAxXzRzcjJyekh5ZTNBdG9selJyT2t2RnBUZUpYV0ttbGFweTIyNjUtNkE2N29FZ0d5U2ZINTBXOXZwY2pyelloXzBUYndWWkozaHJQdENZNklxc2g1bzlQXzVhQXQxZlQ1aVBPcFEyTzl4ZlhxUEE4YmZlX2dZTXpUTTZXVm13Z2ZtbDEtNlF0Q19ueloxMzQ?oc=5",
+      "date": "2026-06-16"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Savannah James and April McDaniel launch women-focused holding firm - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZ0J6TFNPaTRIN3JCQ0VzMWJkUXJtbGVvMU9ZanZNenNiMmRTWG0tZ0xRMW90R3hWV3VCeDJlb19WdDUwaVJWQjhEaHZ3V014T2xhRXRoZy1rU0NrZ2pZN2I0R0l4LUFlREFlNFlrcWU1XzJPUWQtOGNMZE5JZjN3eWpNU28zMjVDS2pYc0NGekVHSE8xTGxTcEFrNzBuZnRYMERvRUxpcGRnNldLeTl5SlJudThLNkpJTnY4NHB0dExacnVZdDR2WWpmRFlQT1l3X3F4eHZkRWZSVmotYzRSdVg1SDd4MmJWVGlocFk0R1BJaURMd2VMWEowTDF4QQ?oc=5",
+      "date": "2026-07-02"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Savannah James & April McDaniel Launch ‘Signed’ To Elevate Women-Focused Brands - WBLS",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONkJhTjlQWDhReTZ0X1VENEtManVuQ0tpUGx6ZGp4QWdRUkxIVHlMdV96VDVtelA3SXpfTzgyT1FoaFc5STgyU0xRREFvYVlYTjlyaGtZeFNzTmhEaUN5SmFweXR3MDFqZ0QzUF9ycTJvOWNHdGdWRWN1NWI2eDV6RDZFRW9lMG5NQVp3RHRwbi1Ga184NkJ5Y3I4czVhY1dyT24yMA?oc=5",
+      "date": "2026-07-03"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Savannah James Launches New Holding Company Backed By Jay-Z’s MarcyPen Capital - Black Enterprise",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE16UmZaSzNoZ2dMeWVXQ05XY2JjbURlNGwyd2c3NmhuVVVsVjYyZ096WFhlb19Kc1hCNlZQQVh5RktBUmZtb0RaSFk3ckhrTVpaMmd0ZTFFelhLMGxSekUzNWlzSEVfZ1V5TUNRcFhSZzh0ZFk1SFhRQWp3?oc=5",
+      "date": "2026-06-30"
+    }
+  ],
   "people": []
 }

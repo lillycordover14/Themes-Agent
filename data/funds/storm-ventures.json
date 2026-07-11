@@ -23,7 +23,22 @@
     "x": "https://x.com/stormventures",
     "linkedin": "https://www.linkedin.com/company/storm-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-02",
+      "type": "Investment",
+      "title": "AB180 Inc. announced that it has received KRW 21.4 billion in funding from Storm Ventures LLC, Atinum Investment Co., Ltd, Z Venture Capital Co., Ltd., Delight ",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTk04VmI5VlYtNkZTRlR0Q3lVOUVNN2lqY1hjX2xaZGFiWmNVRWlyaGlfWTZoR1lzb001Sy16bk1qUWFWMVQ2Qko1SjZZX3c5SUk1UVJhcnpRck9Pb3dNOEpnQUNqX09XVTdTTk9UbU5vZThXdHAtOUdKMnY3UGdwdzZjYjZQWk4yR3V4LWJRV2RiNm1DNHE5S0ZMa0M2Ri0yeU5tZGpWeDF3NzhocTJpUGduS0tuU0tQZ0tOVGdHYnYxa2dlcGt0V0tJaU1McWlfQUtkTjZzeUpQZmx1VDl0NXNkamwzZw?oc=5",
+      "summary": "AB180 Inc. announced that it has received KRW 21.4 billion in funding from Storm Ventures LLC, Atinum Investment Co., Ltd, Z Venture Capital Co., Ltd., Delight investment Co.,Ltd.,"
+    },
+    {
+      "date": "2026-07-01",
+      "type": "Post",
+      "title": "Venice AI hits $1b valuation, Plaid eyes IPO, and Qualcomm's security buy - Axios",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vUHlMazJpNktyNFlKOVpFSy1vaFI3Z0RDTDdhWVNDeFVjSUEyd2pqUTQ1cUtyZWl0T3QzRlFiWklGc0FfbENkeU04OHpieVF4MjFKSEQtNDVqdGc2bkUxUTVtNzV2clp2YVphVFZCeGNaU0RlZHBNbXRtalpleW8?oc=5",
+      "summary": "Venice AI hits $1b valuation, Plaid eyes IPO, and Qualcomm's security buy&nbsp;&nbsp;Axios"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

@@ -23,7 +23,22 @@
     "x": "https://twitter.com/nfx",
     "linkedin": "https://www.linkedin.com/company/nfxvc"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-02",
+      "type": "Post",
+      "title": "NFX Digital Pvt. Ltd Funding 2026 – Total Funding, Rounds & Investors - Inc42",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wWVhXVEdPLTVjd2dtdWJWVkJBaHhOQmNfRUdQUWlzTmhaWHJSdFRjTzM2c000WXI3UjQwdDI5ZzlWMkVEbGp2WGJoLXRyY281OUJoRG9yNVNyc0pHY2h4SHE3aXRGZw?oc=5",
+      "summary": "NFX Digital Pvt. Ltd Funding 2026 – Total Funding, Rounds & Investors&nbsp;&nbsp;Inc42"
+    },
+    {
+      "date": "2026-06-11",
+      "type": "Post",
+      "title": "The Case for Venture Capital in the Age of Superintelligence - NFX",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13elczV0tMVjREQS1iMF9QUjEwbXNUOS1mT3haM0o3bUhVYmRIejZlNG05ZEg4UkpKWHFFSFVRSG9VbDd4Smd6Ry1sRDR0a2k0eVotbEt0T0Q?oc=5",
+      "summary": "The Case for Venture Capital in the Age of Superintelligence&nbsp;&nbsp;NFX"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

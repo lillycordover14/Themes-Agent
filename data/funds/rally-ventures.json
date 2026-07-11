@@ -24,7 +24,36 @@
     "x": "https://x.com/rallyvc",
     "linkedin": "https://www.linkedin.com/company/rallyventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-09",
+      "type": "Investment",
+      "title": "Allen Control Systems raises $200 mn in series B led by Smash Capital - Indiatimes",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPS3NHWlVOb2dqRGZ1N0dncWtrVnVSMjdKc09CNzVsOENZeVhJNkZqUmxOOXNZc193S3BRMWgxbFBUckZvSjJMbzR1R1dHVHhaTzRGbmhpUHRFUlhrNENGS0h4SU1sQ203TGNKTUFjdjZGTTRCTzBYTnRuS0hiS19ZU2YwbkRweUdqbEY0OGdISjZtWmQxRVFCalRabmlwQVh4MVNmVnUxSXRUc1QyZlhWcFFvaVRsZHRaeDFTSnFMS01kaGM0Ym5sckZQaEoybnVrNkM1bzhaSU5tS0pxWDdFMzZLS094YTRxNG85QnhQd1U1SmxzakNv0gH8AUFVX3lxTE9OZGVMMUZPVFhOZHJEbWtMa2RxLWlvaU1Ld3lHRGhYdGJrWDhaODB1YVNrYnJUdzN5bXNpTm04REtpeTVXSE5sYjE5dU1zU2FySlBqcTlRYUJicDVhSGtzTThPb0ZMNVJUcmZvcndFLTFSaGVxaHFzem1jaGpOU2lYTDZJa2N3b3BLVkFGcUFYWlRJWGVSWjRKUTM2cldTekZMWk1XV0VsSFgwd05jZ0hqNlRZdFZnV2FSX1NDZ0dwWmRpZ0VScVJzR1Bya1N2UGZnNENic0cwMVRTdEhCUW1CMjVuRTlRM2FFcF9lSDRGNklVNlFlc252MzZ2Yw?oc=5",
+      "summary": "Allen Control Systems raises $200 mn in series B led by Smash Capital&nbsp;&nbsp;Indiatimes"
+    },
+    {
+      "date": "2026-06-05",
+      "type": "Investment",
+      "title": "Allen Control Systems Raises $200 Million Series B at $2.2 Billion Post-Money Valuation to Scale Manufacturing and Accelerate Deployment of Bullfrog - Business ",
+      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNbWRaX2xlc1BsN0cxbHNpVk5vU2VkeENaMnVWbUVzQWJlbW1lbnNFRWpVWWlpUUZEdDNXUGRqSUZjQkNidG55TkkwTm1GTldLZ0dLNTR1LTk0OE1RWjJ2WV81SGc5TU04Qm1rMm9fLWJ2TTlCVHhMYXR2ZGtpZHB1QW9ZR0tkbU9ZMmEwcGlJZHQ4RFFxdnBSYlV5Vkc5Z29xUVVjTEUxUC1HczE5bW1ZbXE4MkFjWkI3OG5OanozRWthNzVRV0RsSUZkRHlvbWxFM2tfZnZIVGdjbUtaaVVKUkF6N29tRnBOb2Q1M01JaWllSmRIN0lDODVqdmUyQXpMR0FMdmNPZHJfRktEYnF3RVVmYTRHaFV4MVdKNlVhTWRZQTRjWXN1cV8tZFhTUV9ZeW5N?oc=5",
+      "summary": "Allen Control Systems Raises $200 Million Series B at $2.2 Billion Post-Money Valuation to Scale Manufacturing and Accelerate Deployment of Bullfrog&nbsp;&nbsp;Business Wire"
+    },
+    {
+      "date": "2026-06-05",
+      "type": "Investment",
+      "title": "Scoop: Smash leads $200M deal for defense-tech Allen Control Systems - Axios",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MYVZNMmktUTdvOXBYc0l5T3djNnlyc283VE1WSDZfWlBQd0tQUUJlNko2aHJzdnZvTFU5WDRNdkxNYTdKRWNDMElrMVRWUEU5REE4OVpzb2ttcG1OWlBvLVUwdnU0dGgwR3VWLTRUd3hZTTBYUWc?oc=5",
+      "summary": "Scoop: Smash leads $200M deal for defense-tech Allen Control Systems&nbsp;&nbsp;Axios"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "Post",
+      "title": "Bugcrowd - 2026 Funding Rounds & List of Investors - Tracxn",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSEpSSkFxdGJJSjFPelVHMGtQTm5qZ3plNkN5cmJQRVYxLURtV1ozaEdWVEhybHI4eU9CankyOG5hOEFhYXpnMWw3b1dWaXJQQmotUkUzQmFla0E4YnA3Q2ZZeGxON2w1T3p0VUIta3psTm8wV1FPdk9xRGozaV9taEhwSUxsUkw1UzBQaU9FN3gxY3dZTFc2c2c3OFVJWHZzU2tjaWVMbmx2aHc?oc=5",
+      "summary": "Bugcrowd - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

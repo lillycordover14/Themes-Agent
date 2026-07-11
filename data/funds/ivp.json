@@ -24,6 +24,35 @@
     "linkedin": "https://www.linkedin.com/company/ivp"
   },
   "updates": [],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "IVP President and Publisher Terumi Echols to Retire - Publishers Weekly",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVW1jczZSMGRrRkVqdFhGajFicTVTTThkWjYxNWd3dFpGcElIRjZ3RGpJU0x5UUNKRS1XeTZ0VjdtYXlnY05jMWhNblBkREJVWjBRTWxwcHFKYVp5MkJ3X1NHdUhvekxnYWhFQ2VlWnJXcnp5S1JsUUM4TXkxLWdobTFsTXNiaG44SVkxTGN1djg4RDBPM040SVdLT0E5UzNLVWFDNkdJaUtJUnNhVFZLVnJqVGNUV3RHVE80QXhQT1RLV0paaGpuVjU5c18wUFJTdkRKZ0NR?oc=5",
+      "date": "2026-06-25"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "'Saving America' Starts by Fixing the Elections Most Voters Never Get to Vote In - Independent Voter News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcEw3X2o1SlZfcktuUDJ6QjYxclRSanJQTVhQM2wzWFZKZ0JfTFc2TE0wR09OLTJXclZtTE9SN2ZYLUk2WlhFa1BXOElYa1Bvc29ZaGxUbmhkLXpfYnV1QkRCQU5aSkNscmktTE5CUW1EWFBORlY5eGxhZ1Jsb0NQb19QYTlUUklwYzNiOVI2OUVqakRMcW9ybVBzTmd5SGdReV9XMUxB?oc=5",
+      "date": "2026-07-06"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Suno raises over $400 million, pushing valuation to $5.4 billion - Music Business Worldwide",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTHdHOGpyWDYzRzZNekl2VGczdmFpRVFxOWt3b091a0luUVh0X0EteWJjdDBhTW5oQXdOQ0ctM1hyclBUVmZZZTZQR29Ha3NDcklaVzh4dDhkMkVMOUF6eXFjOFZ2aGNBNnFfNkYzZ2RXOVY0T1hSTGVodlFZWm1jdXRaWHZCTE1QbzBNMkdBVThnREpVeTkzTzJfeFk2bThNd200?oc=5",
+      "date": "2026-06-03"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "The Bipartisan Plot to Lock 6.2 Million California Voters Out of Elections - Independent Voter News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZlZ6eUdsUFhwT2tJeHVaSVFkeGJTbW1YZThPZkFiZmpNX0hkMXNBQW9DSmNfMVZyOWFWQjdhOXotRURLYjB4RVhpNG55c1FfYkdZWV9haGplUjdHb1FDSGRHckxsUnBELWpFVUpWWXl6OFRLRFFqLUxIeDNCZzFaOWlhSG9hSjAtdTYtWFRIcmttT2R5SG1aNGF2NnVlVzNs?oc=5",
+      "date": "2026-05-14"
+    }
+  ],
   "people": []
 }

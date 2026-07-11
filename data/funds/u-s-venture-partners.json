@@ -23,7 +23,37 @@
     "x": "https://x.com/USVP_",
     "linkedin": "https://www.linkedin.com/company/u.s.-venture-partners"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-12",
+      "type": "Investment",
+      "title": "Maneva raises $27-million USD Series A to expand AI vision in manufacturing - BetaKit",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeWE5MU9VSmlUanpjd1ZSM012OERFak9xcDNSMkhycEo3TG9XS1VGMG9ZcE9zX3lvWDhINmlYTmtGemZkTXpKUnhsX2JoYk8zdzI2ejVRWnlnQmNLbEZGN3VqUU5fZHA1SHdNdUJPVmp6LXpvQWIzSkM5UTVKc3loQm16dzg2bTl3ck8yVk4yR2R2VjZCUW1waXZVSQ?oc=5",
+      "summary": "Maneva raises $27-million USD Series A to expand AI vision in manufacturing&nbsp;&nbsp;BetaKit"
+    },
+    {
+      "date": "2026-06-11",
+      "type": "Post",
+      "title": "SpaceX is about to make history—and 80% of VCs won’t see a dime of it - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYjdfclViRU5KNlJYUGk2RmR0bjByazlQLXZ5dWcyVFhILVlVSmVuSVFFT2lPTmRRRVcxanBLZEVKSFlKaWQ2THhkU3J5ODEwakRnZ1BBUXZ0R0JFSDlVSm1QVWQ3V1BqQnRKRko2QlhUU3FqOTBUUGE5Rm9pcnFzbUJR?oc=5",
+      "summary": "SpaceX is about to make history—and 80% of VCs won’t see a dime of it&nbsp;&nbsp;Fortune"
+    },
+    {
+      "date": "2026-05-25",
+      "type": "Post",
+      "title": "The Weekly Notable Startup Funding Report: 5/25/26 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWjBaZERQSHBSdTF3ZXNWX3U5VVdBLUhrUHMyTmxNUEhJN0N5SWhRUFBld1RqVzR5Y0FCdWtBWGFIQjg1TkdfSDhtVkVJakVDcG1neHRJcVZWSGdXa3dpNC1NdGMteENqZVduSnpxUlhYM2w0c2hEQ2pReUtUWER2bXoyWmMxQ2Q0VW5uTVhn?oc=5",
+      "summary": "The Weekly Notable Startup Funding Report: 5/25/26&nbsp;&nbsp;AlleyWatch"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Maneva raises $27-million USD Series A to expand AI vision in manufacturing - BetaKit",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeWE5MU9VSmlUanpjd1ZSM012OERFak9xcDNSMkhycEo3TG9XS1VGMG9ZcE9zX3lvWDhINmlYTmtGemZkTXpKUnhsX2JoYk8zdzI2ejVRWnlnQmNLbEZGN3VqUU5fZHA1SHdNdUJPVmp6LXpvQWIzSkM5UTVKc3loQm16dzg2bTl3ck8yVk4yR2R2VjZCUW1waXZVSQ?oc=5",
+      "date": "2026-06-12"
+    }
+  ],
   "people": []
 }

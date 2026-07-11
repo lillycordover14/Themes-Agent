@@ -23,7 +23,51 @@
     "x": "https://x.com/blockchaincap",
     "linkedin": "https://www.linkedin.com/company/blockchain-capital-llc"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-07-03",
+      "type": "Post",
+      "title": "Blockchain Capital Targets $700M Across Two New Crypto Funds - CoinMarketCap",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdzVXRlVfcWdrcGlYbzZqRU1VaHZPY1Y1bGhGWmRWY2ZXRkNpeGo3NDQ3a1NDbnM5Q1Z2aW9GWTNRaU9SQko0Q2lKSHZIdC1vaDJERGdjWVJDc0hMeG41VHNzVmRpRGxYQzRmRU1lb3hlTTVZbk0tQzJHVWItaUwwYll0X09GMkdIYzdFYTJ6aDQxWlVfOWFDQVdzakZOWVI1b0xwMHhVZzVIM0E?oc=5",
+      "summary": "Blockchain Capital Targets $700M Across Two New Crypto Funds&nbsp;&nbsp;CoinMarketCap"
+    },
+    {
+      "date": "2026-06-25",
+      "type": "Post",
+      "title": "SPIRIT BLOCKCHAIN CAPITAL COMPLETES SHARES FOR SERVICES ISSUANCE - GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdXhINWxJRHZySzY3c2lfZXhQWjZDVDFWbWZqNXFRRWRYZEx6NTFtN0dzdTg1aFJkUzRwRUZGYi0xRGhQS0ktbVg5WDJyRzBMMkdkUDhxX0otNTdURGpyMzJGb0JKN2EzNTVnYU5yVlozZ09tVEdTd1U0REVNa3VybnlHcS1vYlVreG1SaDNUUzJ4dk40dmdRSDltUF8tSGROM0hFV0c0bWk5c3RKR1BLZkdNREt2QlA0dk13dERwS21yNmsxWDBYcnMtR0FjOW9ib1E?oc=5",
+      "summary": "SPIRIT BLOCKCHAIN CAPITAL COMPLETES SHARES FOR SERVICES ISSUANCE&nbsp;&nbsp;GlobeNewswire"
+    },
+    {
+      "date": "2026-06-18",
+      "type": "Post",
+      "title": "Spirit Blockchain Capital Announces Shares For Services Issuance - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWEdUenlDRDRtdGljY3lNOGJoLWRrUWpBTUxNMjlSQl9aT3B5aFRRTzFaNU5obFExYVlYdlZySnNlWFlfNzVBaWVRZnpKTUpoMTZmdmhWX0dMRlRtV1JyLW5QeDNIckFmbkZDSVQ4VnRIcElReGdrYWFhN2ZhMnBMQjRlQ25MY0dyTUd4aTRyN0VJQ3hPY3JzUzhLWkpScXFsdExUYUF3ZWpOQjg?oc=5",
+      "summary": "Spirit Blockchain Capital Announces Shares For Services Issuance&nbsp;&nbsp;Yahoo Finance"
+    },
+    {
+      "date": "2026-05-25",
+      "type": "Post",
+      "title": "Spirit Blockchain Capital Reports Q1 2026 Highlights and Announces Closing of Private Placement - Moomoo",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNy1vcXIzM3lOTWR0MWVnSDBBZjZrQ2pWY0JlcTNFdl9yXzN2aFF2MV93eXM0cDRUS3RUa2J6aHRkUG9FQU1nR0x6bUR1YVBnSFNjOTMtY09CRVNVN3IzQXJIcktaU083c240anE1VWRTc3NfakhpaFpKN0tLYXo3ZFZzbFVFT1Q3WV9ubGttWjJIdWVFNkhiTmptSGxEUERkcGZwU184TnNwQXFFQ1NlTUVVYVA0UTQ?oc=5",
+      "summary": "Spirit Blockchain Capital Reports Q1 2026 Highlights and Announces Closing of Private Placement&nbsp;&nbsp;Moomoo"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Blockchain Capital’s Spencer Bogart outlines contrarian crypto thesis for next decade - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVWc1VnNaSDJDR0thOEdQS2c3VGlnUGdyc2s5N1FKaW1DNWctX1MwSmw0TFBaWUxPdHNiOExpaFg4RUxwSkNlNlpBWW1nc1dpRnJ3elhYUGRBcF9FOFZlU0RiQnREU2hxeHJncWFXcnE4bGhxeDJWRWJnaFpNcXFEN3dMY3M?oc=5",
+      "date": "2026-06-11"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Traders no longer fully price in Federal Reserve rate hike this year - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lUXBuNUlObVh2OGR3dlFBZlp6eW9IaHdxU3A2UUJDc2NOYWxaSHBEWGlReXo3Vm04aXo1Zld5dkZWN2V6U2lzNjJwZkdPQkpLckdmYUVta0diWWZURkNjNzRFUXZtT3pXUHR6WXY3YkFvNnF0cS1z?oc=5",
+      "date": "2026-06-11"
+    }
+  ],
   "people": []
 }

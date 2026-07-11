@@ -24,7 +24,15 @@
     "x": "https://x.com/craft_ventures",
     "linkedin": "https://www.linkedin.com/company/craft-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-11",
+      "type": "Investment",
+      "title": "Norm AI Raises $120 Mn In Series C Round Led By Khosla Ventures, Reaches Unicorn Valuation - BWDisrupt",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa1V3Z0QxX2toZU5oeGpMTWVkTzBLLUM4V2cxd2stVF9feklCdGw1N1hZc1JaSGRvNlBPU1JmUzFjU2xnOU1IUjh3OW5QMURZanVoWEJfQmtKaFRhcTAwNlNEdE43X2xkaU9mNkRSbVpfTUZmQ09GWWdSOGRkQXhaT2hOZ2c0am5pM195MFNOeFNjR1FLX01DVl9kSGR0clliRnJvWHBXeFMxNGxfQndWb3NWMUdUa3d5X0hXYmN5ZFJfbFBabzRRSw?oc=5",
+      "summary": "Norm AI Raises $120 Mn In Series C Round Led By Khosla Ventures, Reaches Unicorn Valuation&nbsp;&nbsp;BWDisrupt"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "David Sacks",

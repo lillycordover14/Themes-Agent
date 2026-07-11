@@ -23,14 +23,37 @@
     "x": "https://x.com/notablecap",
     "linkedin": "https://www.linkedin.com/company/notablecapital/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-19",
+      "type": "Investment",
+      "title": "Lauxera Capital Raises €520M for Healthtech Growth - Ventureburn",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWFNhc2ktU3pWZjNuVG4ybXZscXFseDZyTFVEeURFZG9JX0tGR0J6NzQwamZLRGVnYzlKU0p6a01seW9jRm84eE5Od2hJbU5VcDFGTDZqLXpudEhjcGpvbktURXRBZzhyVTZneXdVRmdyU2NOZDVZMF9QU2t4T1dLONIBgAFBVV95cUxNWFNhc2ktU3pWZjNuVG4ybXZscXFseDZyTFVEeURFZG9JX0tGR0J6NzQwamZLRGVnYzlKU0p6a01seW9jRm84eE5Od2hJbU5VcDFGTDZqLXpudEhjcGpvbktURXRBZzhyVTZneXdVRmdyU2NOZDVZMF9QU2t4T1dLOA?oc=5",
+      "summary": "Lauxera Capital Raises €520M for Healthtech Growth&nbsp;&nbsp;Ventureburn"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Glenn Solomon",
       "url": "https://goinglongblog.com/"
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "/C O R R E C T I O N -- Notable Capital Management, L.L.C./ - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMW1nbFl1cWxnV3phUXJZYUtvNk1lNWx3WVFkTnRVYmVMNFRmaHdybnNMSzRFd1ZudzU4b0xjUnhPaEZpZlJHbXdfYmsxdHd4VXNJQVNJQ3JHd3BURXZ0ZEliLWw2Uk4yUWQ1LVZWRlFncVlMMDNMclBOalJRSEhPXzB4bjBoYk9KQmdydzZGTG94QTJRNlA0dVR5cXFWb2thdWc?oc=5",
+      "date": "2026-05-12"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Notable Capital Region deaths in 2026 - Times Union",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ITGhpeDU3SlY0QkdoNzRZM2p3T2RkZ3hzMjl2Y1puZ29WMHQwQ0NWREpac2VuU0h1OElNVEVBQ0ZpX2FsUDY2TkhWVXJONlhEMlpOaW0teE0yM043UHNDRXdqQjFQYnc2TFRhV1VaZ3l0RVVvSDZpaEk2QQ?oc=5",
+      "date": "2026-07-01"
+    }
+  ],
   "people": [
     {
       "name": "Glenn Solomon",

@@ -10,7 +10,15 @@
     "x": "https://x.com/uncorkcap",
     "linkedin": "https://www.linkedin.com/company/uncorkcapital"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-08",
+      "type": "Post",
+      "title": "Northern Michigan’s Uncork Up North returns to support breast cancer patients - 9and10News.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNWVlOEtiR1lJRjJ4TG1aN1BWVldqYXQzczV0WmZZb2JPbHBZenhJS0I3NkNVNU1xWjJDR3dKdk4zSHlYMjczbGJTQk1BOGd0QVpna0gyc1R1X29iX1d1UDdfa1BmMmk1QU43QmFhT1ZlbmsxdU1FdGxHUTJaY2RRVDJIX1JMNEc3RUZEaWIzdEZRMjQwR3l4SzB1UnVTdllyQTd3a2V6VEpNZV9JMW4wSlY3VXpOUQ?oc=5",
+      "summary": "Northern Michigan’s Uncork Up North returns to support breast cancer patients&nbsp;&nbsp;9and10News.com"
+    }
+  ],
   "meta": {
     "aum": "$1.2B",
     "active": 96,
@@ -23,6 +31,14 @@
   },
   "region": "Americas",
   "pbid": "48176-38",
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Gordon Ramsay’s favorite takeout and game day foods - MSN",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcndjUU5YMURlVEZFRmhCanozM2dScDh6NnJSRVhxLVczSDlwai00Q0pscktpQXVmNFQ4NUlfTXVRTC1Fb0YzV2k2MzNUU3dZSE9JWFB6OWxtcFA4UlpqZnpXRGZJd2ljNUNOWWZ6eEtxX2xiM0gzRXY2SzYtQ3BBSG4xQXI4czlVV1JQWHFXVHpOWmpHbm94XzRldTN4aVA3c1FNaG9DSWk2cjJiN3VBMg?oc=5",
+      "date": "2026-06-27"
+    }
+  ],
   "people": []
 }

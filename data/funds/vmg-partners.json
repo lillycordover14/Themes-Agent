@@ -23,7 +23,79 @@
     "x": "https://x.com/vmg_partners",
     "linkedin": "https://www.linkedin.com/company/vmg-partners/"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-06-11",
+      "type": "Investment",
+      "title": "Stars + Honey Raises Growth Investment From VMG Partners To Support National Expansion - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONW5NRlJaUmlwZ1NTcXMtQUJBclllQzlRdUY1NEVoVHIwU3NXRk9GODdPNk9zV2pkajd5eE56d3FMZ0RZU2g1U0VwTXZHN2NLQllqZmNNWVJFQ1c1aU51bS1BM3ZtTjRhd2l1WnN3ejl0aVJuQjQtNEJZMktGa1I4QVhQQjE1Z2pxbDAtRlViZWhiSTJFV1J4QnVRRTk3VDM4cE50Q2Ztb9IBrAFBVV95cUxQU2ZHMWxBQXhtc0VpdXEwQkd3cDZqWWlFWEgzcERqRzhHcmZUb0tRV1A5NnAtLTF0aDEzT0dubEV6LVlJYnR1ZmU1WFJvUi1vcmhDVGVfVFV5MjNOdnRYMWpxd0pXcWd0d0kxdTZ0aExqVTRBTmYwYXF0WmQ1akUtMHhEaDdCMkhtMk1LeFdwUFZHSU5zQTZJX3R4ZW1QT3JrcUhfdkZvczBHakFQ?oc=5",
+      "summary": "Stars + Honey Raises Growth Investment From VMG Partners To Support National Expansion&nbsp;&nbsp;Pulse 2.0"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Investment",
+      "title": "VMG Partners invests in US collagen-bar firm Stars + Honey - Global Food Industry News",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9SOExxSzA2S3dOelpiRGdlaEpGMWFVcUlZYmxfeUNWR2ZMS0htRW85a3V4eXdFS1lYNFFxajVtd1BNcjFfNHNPanJockc2TGlPNTUyc0ZxZEs0SDRNX0JlMDBwRVRaLW9ZckttSFdYTFRYdw?oc=5",
+      "summary": "VMG Partners invests in US collagen-bar firm Stars + Honey&nbsp;&nbsp;Global Food Industry News"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Investment",
+      "title": "Collagen Protein Bar Brand Stars + Honey Raises $24M - Athletech News",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWWRnY0NyNGFVV082WW51M1RtU2owN2tza1FDRXFOU2gxaHNPTURGSXJPYnFPUkV6TXo3MGhEU3BsZVA4MVVsVTZhWG1BcjFRRWFKZWFQdE92akV5YnBncm1aRWJUT1dxY0E5Z0dDT1NaT3pKN3UwU3NTOXhzQ0syN2ZVVmtSSjd0ZDlvWEl3QWRYbTJL?oc=5",
+      "summary": "Collagen Protein Bar Brand Stars + Honey Raises $24M&nbsp;&nbsp;Athletech News"
+    },
+    {
+      "date": "2026-06-09",
+      "type": "Investment",
+      "title": "VMG Partners invests in collagen protein bar company - Food Business News",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWFUwOHhUZ01uZHVqMl9jNTM3cjQ3aGt4NERlVDR4LWtIeDZSdWhVZWJoQkQ5RndMaEtHQ3RiVGh0N2EwLVVPTHFvTHJneURualFVM0FfQW5qMHhsVm1jOC1uNDZ1eTgxb2tyWFFaenk1WDlfVkFicWxSM09SS2plOU1PVWoyRzI3X3p4NzBIUTAzb1prNWNwZVhfUnNRSzNHMGc?oc=5",
+      "summary": "VMG Partners invests in collagen protein bar company&nbsp;&nbsp;Food Business News"
+    },
+    {
+      "date": "2026-06-09",
+      "type": "Investment",
+      "title": "Stars + Honey Secures Growth Equity Investment Led by VMG Partners to Accelerate National Expansion - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNU1VNc2NyM2xjR04xZ294TTN6d0hVWVNkQWJ6Wnkwb3c1S2FNNjJEMEc5dE9MM3JiY3VqNG0xOWpQR3k1b3IyRzhHRFIyVElmNkgzcHB1cGtPUElzRlJZZlNHNk1lSnFqLURweFM4ZnZpVnYwblJpQXBPeGs0NlN0SWJPNmZ6REZ0TUtnMlVmek5DbFEyZmpPNzR3NzNra3ZzWnczQUlNUGlBeXRTaFNJcmlCQ0Qwdk9QQzdxWDBBd0RSMVZ6NjVKNk5Xa0VxWlpjd2NWZTNVTElSLXRra283VU1oV1JobktET0E?oc=5",
+      "summary": "Stars + Honey Secures Growth Equity Investment Led by VMG Partners to Accelerate National Expansion&nbsp;&nbsp;Business Wire"
+    },
+    {
+      "date": "2026-06-09",
+      "type": "Investment",
+      "title": "Protein Bar Brand Stars + Honey Raises $24 Million From VMG Partners - WWD",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQlJuN1BzeU91V09GUkJZTUVRcFV3WjgwZVpRejRfMkVtOVl1QVYyX0JJNXltOWtlcmhXV1BqWm1YQ1lNMExOMnVid0w5SDRYSy1jbFpVRGdQX2RrOWRHbGpBYnVkNHAyYWFHNEhGb1FUcWF1ZE9DVlVkNHV4c25QNWs1Tl9zNi1wcE9kQ0tHMGUxTXdaVkVnSzc0ajNTLWpXd2JwQ05jVzZfQTJwNlFneg?oc=5",
+      "summary": "Protein Bar Brand Stars + Honey Raises $24 Million From VMG Partners&nbsp;&nbsp;WWD"
+    },
+    {
+      "date": "2026-06-04",
+      "type": "Investment",
+      "title": "Exclusive: Scotch Raises $20M Series A To Disrupt Legacy Liquor Retail Tech With AI - Crunchbase News",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMzlCbjBnSmNFbngxd1pOX2pKcGMtUWFOUWQyWFplakxkdVU1NGpkS283S0tRdHh5MV93Q1FfV25ERDJoMGtYUnFieU5uSGFMYlNLb1NLSXVEcGNsSFJsMGxFQldiTDZ6NEQyZXdtcG9vZDhHMkRJZ2huOXFkVmdZRWRpZ2VadmM?oc=5",
+      "summary": "Exclusive: Scotch Raises $20M Series A To Disrupt Legacy Liquor Retail Tech With AI&nbsp;&nbsp;Crunchbase News"
+    },
+    {
+      "date": "2026-05-26",
+      "type": "Post",
+      "title": "Pasta maker secures $33 million in funding - Baking Business",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdXR2RkVBbFo1aFlkTGw3N3FqdzgzOFVlNWZiODZzWkRpc3dyREJPcWJPSjR4WTJtTWoxenJxMU1zV1JWQUZTM2JJMnRCZUNHaHR1ZXVfLU9kRkdNdlI4NjZHUDItSjJDbU9ScEZ3LWpQd2JmV1dwZG9HbTVCUmRpaWtzbkFNN2t4a2RMT3g4N3I?oc=5",
+      "summary": "Pasta maker secures $33 million in funding&nbsp;&nbsp;Baking Business"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "BRAMI Raises $33 Million Series B Led by VMG Partners to Scale Italian Protein Pasta - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQT3hYajg2ZEVYcjhleGd2aFVGNXRCYmpQc00ySDV4UmRUUm53UE5OTGdRb19WVlFZakxsYUFZMU5QbjJYQU9HOV9tU1pCQmtFRWRUeUVoZHloZ0dkX05HNFVhVWladHFrbHdpakJObXdWc0QtN01zYVNlXzAyOVVidEYyU095UUltSVdyUllaTzdWeWZrVGNWTVZMRTBBWVlQZHh5ZWVNUVRfZDhsclVCcmdQMFR1bjdObWIxWU9jTGVoUzhobTlXODY0OUw5REYzYkU0U093?oc=5",
+      "date": "2026-05-19"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "VMG Partners Backs Stars + Honey with $24M Growth Investment - Nosh.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNFZzcmltZDBXTzNxNkx3OWhsc3p5TVR4Y1YweXZtYmJoWjUwQWVkd2NEZFN6LVhNanVmQTB4WFJ6cjEzVVUyR20wTTh6TmRZaWtKM0U0SVdXVnZQSzI2MDNzZVltUGJCOWpQZUxtZmZoS0xQX1V5V3poSkRQY0ZnQ003dHFVQUFLbDF1WTd0QUdRclU?oc=5",
+      "date": "2026-06-09"
+    }
+  ],
   "people": []
 }

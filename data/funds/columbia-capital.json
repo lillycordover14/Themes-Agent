@@ -21,7 +21,79 @@
     "news": "https://news.google.com/search?q=Columbia%20Capital",
     "linkedin": "https://www.linkedin.com/company/columbia-capital"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-07-05",
+      "type": "Post",
+      "title": "ABDAX Stock Fund Price and Chart — NASDAQ:ABDAX - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OVHM4QzNBQmZEQndFQXViVl80TGk5U0dOMU04RldyTDlJS0stNU9hSmZzNm1ydi1RalV4bHR1NURjbG1aM2lIckNxR0JsYTBLejh4Y2YxdzdnSXJIc0E?oc=5",
+      "summary": "ABDAX Stock Fund Price and Chart — NASDAQ:ABDAX&nbsp;&nbsp;TradingView"
+    },
+    {
+      "date": "2026-06-24",
+      "type": "Post",
+      "title": "Digital Realty buying Columbia Capital - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnhaVW5BWGFMZ3cyWGE1YnJtalUtWDdPN2UzOXJkd1Z0VFJQZVZDMGtlZHZXVDBjQ2dfbVc3dTQ2Z1lSNWhBclhuV1FqclpUZEk4eGgtUjJPZVdSSzlEX3NvX0R0ZlA1WmVKdTllaV91ODFwTkk4TG9jV0paV0ZYUUpjUzRkMFV5Zk1GTXQwQzNGUTcyUlE?oc=5",
+      "summary": "Digital Realty buying Columbia Capital&nbsp;&nbsp;The Business Journals"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "Post",
+      "title": "Digital Realty Announces Transactions to Drive Continued Platform Growth - GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOLURfV2dBU0tnbzdWaWRYSWVIT1VFSWJxZ3VObU96cVdLZnZzeHgxa0VKc3hfVEQtQVUwSjcyY2dCbTRVQWszbmg3NmZCOV8zcXVGQkFuRk5kZ3ItZ1I2Y0Yxa2Y3NXFydGtmcjUzMVdSYzgtU2pVZ2dZbDltc3EwZHBvcUplS2hNLVlhdTR6MGlLejRzcWZIU1NGc2V3TW1aSmYyRloyN0Y2MHJKaXFpcEJZRjZyUXVrbnR6ZGNQNTV3NmhySWdULW83eVRUQUt1b005VHVKeU5oNDM4?oc=5",
+      "summary": "Digital Realty Announces Transactions to Drive Continued Platform Growth&nbsp;&nbsp;GlobeNewswire"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "Investment",
+      "title": "Digital Realty plans 600MW campus in Kansas, acquires investment firm Columbia Capital - Data Center Dynamics",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaVNUMFctNk14dGdHXzUwUWllQjFOX1VyYzQ5OXBkVjVHUWdhdzJmUFltV3BSNm84bldKMlRGbFVtRDZ2Nm51WXl3bWVEeUdKbnd2QS1TSXJVRE94bG13YWd2SHRYaHFGWFpTbXBlS1ZlY2pIemZXc2VsY3JyUXlYN3I5TzhNUEp0bmtsWDZYOV90VHBNeXJQM1FvdnNDOWNxOUdQbXN0el9FOXpYZ2VVSk13ZXRaNzBacVNwUWFKMGF1eWpkUWRGOQ?oc=5",
+      "summary": "Digital Realty plans 600MW campus in Kansas, acquires investment firm Columbia Capital&nbsp;&nbsp;Data Center Dynamics"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "Post",
+      "title": "Digital Realty to Acquire Columbia Capital, Expand Global Data Center Footprint - citybiz",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcFZpQ2hiSkYzTXNMX3FFUjlnVmZyRkd3YmZLSmN3YlUyQTI5ajRSTVhTUmtjejZqQndDUURuVTNpRXJzVUE0LXduZHhCYmdsdVF5WkZMRFZrWWUtTU5oZFM4SXBnQ19OWlBGMGNUOUIxMFd6UGRoajZFNEhqOGRhbUhMa2dMV2pCdWkxNjZQZGRzMldBU2ZCUkdfWjhrSU9nWmtIOVJrSEVOVWlNNkJDbDAwaE5QSDd5?oc=5",
+      "summary": "Digital Realty to Acquire Columbia Capital, Expand Global Data Center Footprint&nbsp;&nbsp;citybiz"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "Post",
+      "title": "Digital Realty (NYSE: DLR) expands Teraco stake and to acquire Columbia Capital - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcFNROWxqWm5ocHZucURoQ0lZcjNmSTlDU3VVWlFXT1lRMXZ5UlFpQ1diaUk0ckJRYlBUN3ZxR045VUFfb0RmdTdYRWoxWXoxNVl1cDZ3TDRvNW8wTDBUVHpUcTcwckZKNktpOXg0dXkxOFp4WUNJb21rUG4ycE56MjhpejdLN01uNWpuS05IV3FobDIzZTJ0a1VHU2FvcWVCVkNRaEo2RUVpNVQ2blg0YUtR?oc=5",
+      "summary": "Digital Realty (NYSE: DLR) expands Teraco stake and to acquire Columbia Capital&nbsp;&nbsp;Stock Titan"
+    },
+    {
+      "date": "2026-05-22",
+      "type": "Investment",
+      "title": "BIG Fiber Raises $250M in Funding Led by Stonepeak - Ventureburn",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRZ1VzVmptZjFMejh0UGs4M2xwaXNmSEw5emJmbld3NFVHdnJUQ25oVDUtLU5rVDNKWUkwMm8zUzFQUDExX094NGtMdHR1eWJwS3ZYenBUSmFiQi16dnZjUXJ4SUdGOUo3Y19oclBLRkVya3ZDMnpoOFRkUHN4NGvSAX9BVV95cUxQUWdVc1ZqbWYxTHo4dFBrODNscGlzZkhMOXpiZm5XdzRVR3ZyVENuaFQ1LS1Oa1QzSllJMDJvM1MxUFAxMV9PeDRrTHR0dXlicEt2WHpwVEphYkItenZ2Y1FyeElHRjlKN2NfaHJQS0ZFcmt2QzJ6aDhUZFBzeDRr?oc=5",
+      "summary": "BIG Fiber Raises $250M in Funding Led by Stonepeak&nbsp;&nbsp;Ventureburn"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Digital Realty buying Columbia Capital - The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnhaVW5BWGFMZ3cyWGE1YnJtalUtWDdPN2UzOXJkd1Z0VFJQZVZDMGtlZHZXVDBjQ2dfbVc3dTQ2Z1lSNWhBclhuV1FqclpUZEk4eGgtUjJPZVdSSzlEX3NvX0R0ZlA1WmVKdTllaV91ODFwTkk4TG9jV0paV0ZYUUpjUzRkMFV5Zk1GTXQwQzNGUTcyUlE?oc=5",
+      "date": "2026-06-24"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "United States - Proskauer Advises Columbia Capital On Agreement To Be Acquired By Digital Realty - Mondaq",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSUFIa2d4ZWNmOUgtQ0VleDM2a19HUFV0bldRakZjcDRVSVJpemdKb18zQlhsVzh6VjFVQWV6a3g1YnRYY1VCeTNQbWZJTzltanhTOTJ4OU9zUGJFUV9VSUY1dWRoam9JVVhPNU1SZnBMbVVDa2NqQWZ0YkZITDc5RmhWUVRRdE9QejExNDd6RktDS1R1NEpUOVZnaEYzWUFCT1ROM0ZpVXdOODZqTzRUekpxeWJHbkFPc19TdGRpNzA?oc=5",
+      "date": "2026-06-30"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Digital Realty Announces Transactions to Drive Continued Platform Growth - GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOLURfV2dBU0tnbzdWaWRYSWVIT1VFSWJxZ3VObU96cVdLZnZzeHgxa0VKc3hfVEQtQVUwSjcyY2dCbTRVQWszbmg3NmZCOV8zcXVGQkFuRk5kZ3ItZ1I2Y0Yxa2Y3NXFydGtmcjUzMVdSYzgtU2pVZ2dZbDltc3EwZHBvcUplS2hNLVlhdTR6MGlLejRzcWZIU1NGc2V3TW1aSmYyRloyN0Y2MHJKaXFpcEJZRjZyUXVrbnR6ZGNQNTV3NmhySWdULW83eVRUQUt1b005VHVKeU5oNDM4?oc=5",
+      "date": "2026-06-22"
+    }
+  ],
   "people": []
 }

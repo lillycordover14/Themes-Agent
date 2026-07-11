@@ -23,7 +23,79 @@
     "x": "https://x.com/khoslaventures",
     "linkedin": "https://www.linkedin.com/company/khosla-ventures"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-07-11",
+      "type": "Investment",
+      "title": "Norm AI Raises $120 Mn In Series C Round Led By Khosla Ventures, Reaches Unicorn Valuation - BWDisrupt",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa1V3Z0QxX2toZU5oeGpMTWVkTzBLLUM4V2cxd2stVF9feklCdGw1N1hZc1JaSGRvNlBPU1JmUzFjU2xnOU1IUjh3OW5QMURZanVoWEJfQmtKaFRhcTAwNlNEdE43X2xkaU9mNkRSbVpfTUZmQ09GWWdSOGRkQXhaT2hOZ2c0am5pM195MFNOeFNjR1FLX01DVl9kSGR0clliRnJvWHBXeFMxNGxfQndWb3NWMUdUa3d5X0hXYmN5ZFJfbFBabzRRSw?oc=5",
+      "summary": "Norm AI Raises $120 Mn In Series C Round Led By Khosla Ventures, Reaches Unicorn Valuation&nbsp;&nbsp;BWDisrupt"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "Post",
+      "title": "Rocket Lab - 2026 Funding Rounds & List of Investors - Tracxn",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRGRaZmZ1bEd3VFZGUGRtVzkydEkzV3Z2SmZPWkRWT01SWElieWNTZFU4X3hYcXFwc2ZIdDJveWxQYnNONVlGV0phRlVJcFcyLTJLeUVVVjQzbEhOa1J2dlYwYUZ4MmQ1X1Zkd0tBdDllTTk4dlp2THFZS0d0dVg1XzI4QkVwWktBX1ZqNEZRSjJ6MFhHTDVnVHg5OFl2UTV3VXJkaHhFSVV0SWdfRlE?oc=5",
+      "summary": "Rocket Lab - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "Post",
+      "title": "Legal AI startup Norm Ai hits $1.2 billion valuation after $120 million funding - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdmU5Ym5YckNvRUhYOGx0dHp1ZUVUMm1yTWl3cFJpSDJJZnVqMjluc3dmNF9XUlhyX3lMby0wWmNLZXBLNGMzTUl6T191ei1TdTJ0MkNmeDhKN0dLLWZta3pYeElOcGQ2aVdyckthTk1Bb3ktZFJnOHdCRXZPOWZPNnNzeVBMRWFlTlBMZTJDak1fUFpjMkZ3OU5XLWFsdXNVbmxHVVpkSnRjWDVpTzNWVTc3REZvNzRYTjNKTnVWX1E?oc=5",
+      "summary": "Legal AI startup Norm Ai hits $1.2 billion valuation after $120 million funding&nbsp;&nbsp;Reuters"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "Investment",
+      "title": "Norm Ai Raises $120 Million at a $1.2 Billion Valuation Led by Khosla Ventures to Deliver the Full-Stack Model for Legal AI - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxObjJaRXR5czc0MDg0OVBZbVhOQl90a0VPUk44a0hsMjVFMG90WkdubnVvUlRUNjhLMklrZGQzZ0VPZ1dadzVOUXVEbW1pU01xaHN2NU5zVXFlRDRuTEgyeldtU25UbjN2UVRkTjBsZF96SG5YNk9paU1LMlNKZUNhZnRiYnZfejlHdGZ1Wk4zdVl4Y2gyeHEzMHhreUJDMUxxcmJIeEpaMEJEVGEyTzZCbGFRZC1RT0RIcVVSVzczLXZ1bEJtaWdOalF3N0xqNVh0aVhsaTdVV25tdUFjc2VDTUh1WUJPZWRkU0N4LUtOZDVqSW95Um5YLVhoaDdwN3drV0tDc1BLS0s?oc=5",
+      "summary": "Norm Ai Raises $120 Million at a $1.2 Billion Valuation Led by Khosla Ventures to Deliver the Full-Stack Model for Legal AI&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "Investment",
+      "title": "Oratomic Raises $300 Million Series A - The Quantum Insider",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNEpYcjNIYUxTUjFIZU1NTWd0WDI4d2JmT0ZQWFNLcGx5S0lNQWt4eVVqREo0aWR6eWEzcXRDaUZVWmNnRkNFZG9jenliTERsMFlOS2g1OVRPdDVPcjE5bDdXdWpMNGxKeUNzc3ZaRHM2b21ncEtvN1hQVDlpbnRCUWZCYWw?oc=5",
+      "summary": "Oratomic Raises $300 Million Series A&nbsp;&nbsp;The Quantum Insider"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "Investment",
+      "title": "AI Legal Startup Norm Valued at $1.2 Billion in Funding Round - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFkxYzc4RVJGX2hJdERZd0pWWVRGenZGYUhnSWwwbGJaM3d4YlpoSGtrMG1Xc1V6bVl3cWZiN2NkYzFHQllUY1NTR2Q4enh6dFVKeEFMWHhodGNranVrOUYwR3FIdWpwUHkwZFZFZk9HRm1OVmFsZm4zcWdXcGR0djJUQjBCWUQ3ekp1WXI5RzZkTTEwZEVDdm1FMVZDOVdJU2pRUGdVTnlnVUZ1VzV2NA?oc=5",
+      "summary": "AI Legal Startup Norm Valued at $1.2 Billion in Funding Round&nbsp;&nbsp;Bloomberg.com"
+    },
+    {
+      "date": "2026-06-24",
+      "type": "Investment",
+      "title": "Exclusive: Vinod Khosla wanted every dollar of Runlayer's round. It just raised $30 million - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQUttenUxZ0l6cmc4YzNHbEU1QjE0aGgyb25icWNlOVhFNXE5MFowZFE2SEZwZW5ydmdvcmdlR1FtUXE2c3hLVjhvLTNqYmhmYzhBblJ0eW1wdDBRNWFDdTdPcFV6R2FSQkpnTnBoUS04cE11M0t4d3ZsVXJ6NWNaTG9tMjB0cjZWWkU4SmRxaUZZcDVvSTh4QjRpdDJCUTRFdDgzaA?oc=5",
+      "summary": "Exclusive: Vinod Khosla wanted every dollar of Runlayer's round. It just raised $30 million&nbsp;&nbsp;Fortune"
+    },
+    {
+      "date": "2026-06-18",
+      "type": "Investment",
+      "title": "Pramaana Labs Raises $27M Led by Khosla Ventures to Build the AI Layer That Proves It Is Telling the Truth - GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNRUpXenotOTBwdkRQZ0VSZjBoM085OGNsWUpLU0o0Ymh4QzF3Q2Y0c3JVNnZaak9rUE9OQUJxMTl0Y1duUnBiS2dvbnBSME1tQVFUMEI0U3RyMGIxZ09HMjBNcHI5c1VRaVJKNFN0S2pxVUtELVh2QzRTaGEzd3B1T01xVXNnbnBGaTdYYnVZRTc0WmRxdVNmdEpobVA1NmJ3TUVlbWQzaXUyRWV5V3c2MDlkV3RsLXVTUVFuQ3dpYWt6V2dTRXpyb1pReWhtMUF0LWFBZkF3Wk43YjNZU3RjNU5sR2lPS25ERDBtdE9YYXBPNFZQVURQcGZiZlpoNGtnb2RfWnllTkg?oc=5",
+      "summary": "Pramaana Labs Raises $27M Led by Khosla Ventures to Build the AI Layer That Proves It Is Telling the Truth&nbsp;&nbsp;GlobeNewswire"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Tech Billionaire Vinod Khosla Wants to Pay More Taxes. He Explained to Us Why. - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcEIyVzYtSTF4MGxrQ2lJZUpBRWJuTC10MVF1U24tdFhsX0VFUklkbkEyLUpXb0FJaEw1blVBUDhuTjJmZTM2cmdTX0JlRjdFdnBxemoxUVdMVV9kNWNDQ0x0UnZVTEcyYnh6V3lxR0I2QzJMZmJqZFlTSUtkSXQ2UTdLVUlWY1FCaG54enBRYVYxMDg?oc=5",
+      "date": "2026-07-05"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "What Vinod Khosla Looks for in Founders ‘Above Everything Else’ - Entrepreneur",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObm45Y2hPc2hkTWRCYWlkRjc2dERXYXJZS05qRmxLNndnSWw2MEFWemgyV3dsaG85UzZZV3J3cER2X1doc2JnRmNSdjh6NFRMZ083Uk94end5MVFoOUtjZzJ0bWJlbC1pTkRXTVRlRmZVVnU5aGQxXzhxdnVTMG1UdHI2VUZOTFRHNmx1MFdMQS1OV1pwNkx1SUZqcm5vc01HbEVVZW03VWxNQjRHa3BBcXBQUnZxcjRBc0x5dkhrcUROQzA?oc=5",
+      "date": "2026-05-12"
+    }
+  ],
   "people": []
 }

@@ -24,6 +24,14 @@
     "linkedin": "https://www.linkedin.com/company/airbus-ventures"
   },
   "updates": [],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Anthropic lifts export curbs as AI sovereignty fears grow - SecurityBrief UK",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNGF6eUlhM0hMaEhuaFhzaExtOXJaaUJhV1A3SjF0a1hrUTl0bHFmTVM0V1VxWGVXWFFyQTZKeVFGWl82N1ZnNERLajI3QmsyblRfV0VSc0ZGcWsyTEdVZnhPLWM0WjlpLVJqTFZTU0U2enh0My1jdHBrZEtndlFBbHVDUV9za1lVZUhOS3Y2UlR2SlJfdUE?oc=5",
+      "date": "2026-07-03"
+    }
+  ],
   "people": []
 }
