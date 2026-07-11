@@ -73,7 +73,7 @@ def merge_harmonic():
 
 
 merge_harmonic()
-BLOB = json.dumps({"D": D, "F": FUNDS}, ensure_ascii=False)
+BLOB = json.dumps({"D": D, "F": FUNDS}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
 TEMPLATE = open(os.path.join(HERE, "dashboard_template.html"), encoding="utf-8").read()
 html = TEMPLATE.replace("__BLOB__", BLOB)
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)

@@ -140,4 +140,33 @@ function fundCard(f){
  const m=f.meta||{};const mb=[];if(m.aum)mb.push('AUM '+m.aum);if(m.active)mb.push(m.active+' active');if(typeof m.d6==='number')mb.push(m.d6+' deals/6mo');if(m.hq)mb.push(m.hq);
  const metaline=mb.length?'<div class="fmeta">'+mb.map(x=>'<span>'+x+'</span>').join('')+'</div>':'';
  const qb=(m.quartile===1)?'<span class="qbadge">★ Top quartile</span>':'';
- const np=(f.podcasts||[]).len
+ const np=(f.podcasts||[]).length, npl=(f.people||[]).length;
+ const cue='<div class="details-cue">▸ '+npl+' people · '+np+' podcasts · click to open file</div>';
+ const ups=f.updates.length?f.updates.slice(0,3).map(u=>'<div class="upd"><div class="u1"><span class="utype '+utClass(u.type)+'">'+u.type+'</span><span class="ud">'+u.date+'</span></div><div class="ut"><a href="'+u.link+'" target="_blank">'+u.title+'</a></div></div>').join(''):'<div class="mon">Monitored — new items appear on the next scrape.</div>';
+ return '<div class="fc" data-active="'+(f.updates.length?1:0)+'" data-q="'+(m.quartile===1?1:0)+'" data-d6="'+(m.d6||0)+'" data-name="'+(f.name||'').toLowerCase().replace(/"/g,'')+'" data-slug="'+f.slug+'"><div class="fhd"><h3><a href="'+f.url+'" target="_blank">'+f.name+'</a></h3>'+qb+'</div><div class="focus">'+f.focus+'</div>'+metaline+'<div class="chips">'+chips+pchips+'</div>'+ups+cue+'</div>';
+}
+FF.funds.sort((a,b)=>(b.updates.length>0)-(a.updates.length>0)||((b.meta&&b.meta.d6)||0)-((a.meta&&a.meta.d6)||0));
+document.getElementById('fgrid').innerHTML=FF.funds.map(fundCard).join('');
+window._ff='all';
+function setFundFilter(f,btn){window._ff=f;document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('on'));btn.classList.add('on');applyFunds();}
+function applyFunds(){const q=(document.getElementById('fsearch').value||'').toLowerCase().trim();const f=window._ff;let n=0;document.querySelectorAll('#fgrid .fc').forEach(c=>{let ok=(f==='all')||(f==='active'&&c.dataset.active==='1')||(f==='topq'&&c.dataset.q==='1')||(f==='veryactive'&&(+c.dataset.d6)>=20);if(ok&&q)ok=c.dataset.name.indexOf(q)>=0;c.style.display=ok?'':'none';if(ok)n++;});document.getElementById('fcount').textContent=n+' of '+FF.count+' firms shown';}
+applyFunds();
+const FBY={};FF.funds.forEach(f=>FBY[f.slug]=f);
+document.getElementById('fgrid').addEventListener('click',e=>{if(e.target.closest('a'))return;const c=e.target.closest('.fc');if(c&&c.dataset.slug)openFirm(c.dataset.slug);});
+function chip(k,v){return v?'<a class="chip" href="'+v+'" target="_blank">'+k+' ↗</a>':'';}
+function openFirm(slug){const f=FBY[slug];if(!f)return;const m=f.meta||{};const src=f.sources||{};
+ const srcChips=Object.entries(src).map(([k,v])=>chip(k,v)).join('')+(f.partner_substacks||[]).map(p=>'<a class="chip" style="background:#f3eefc;border-color:#e6dcf7;color:#6a4c93" href="'+p.url+'" target="_blank">✍ '+esc(p.name)+'</a>').join('');
+ const mb=[];if(m.aum)mb.push('AUM '+m.aum);if(m.active)mb.push(m.active+' active');if(typeof m.d6==='number')mb.push(m.d6+' deals/6mo');if(m.hq)mb.push(m.hq);if(m.quartile===1)mb.push('★ Top quartile');
+ const ppl=(f.people||[]);
+ const people=ppl.length?ppl.map(p=>'<div class="person"><span class="pn">'+esc(p.name)+'</span>'+(p.role?'<span class="pr">'+esc(p.role)+'</span>':'')+chip('X',p.x)+chip('in',p.linkedin)+chip('substack',p.substack)+'</div>').join(''):'<div class="mplace">Populating on the next scheduled run.</div>';
+ const pods=(f.podcasts||[]);
+ const podcasts=pods.length?pods.map(p=>'<div class="pod"><div class="pt"><a href="'+p.url+'" target="_blank">'+esc(p.title||p.show||'Appearance')+'</a></div><div class="pm">'+[esc(p.person),esc(p.show),p.date].filter(Boolean).join(' · ')+'</div></div>').join(''):'<div class="mplace">Discovered automatically each week — populating soon.</div>';
+ const ups=(f.updates||[]);
+ const acts=ups.length?ups.map(u=>'<div class="pod"><div class="pt"><a href="'+u.link+'" target="_blank">'+esc(u.title)+'</a></div><div class="pm">'+[u.type,u.date].filter(Boolean).join(' · ')+'</div></div>').join(''):'<div class="mplace">No items yet.</div>';
+ document.getElementById('modalBody').innerHTML='<div class="mh"><h2>'+esc(f.name)+'</h2><button class="x" onclick="closeFirm()">×</button></div>'+(mb.length?'<div class="fmeta">'+mb.map(x=>'<span>'+x+'</span>').join('')+'</div>':'')+'<div class="mfocus">'+esc(f.focus||'')+'</div><div class="chips">'+srcChips+'</div><div class="msec"><h4>People</h4>'+people+'</div><div class="msec"><h4>Podcasts &amp; interviews</h4>'+podcasts+'</div><div class="msec"><h4>Recent activity</h4>'+acts+'</div>';
+ document.getElementById('ov').classList.add('on');
+}
+function closeFirm(){document.getElementById('ov').classList.remove('on');}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeFirm();});
+document.getElementById('foot').innerHTML='A comprehensive, self-updating VC intelligence database. Firm activity, podcasts and news auto-pulled from the web weekly by a GitHub Action and saved to /data in your repo. Tailwind data from public VC funding news + Harmonic. LinkedIn/X captured as profile links (login-gated). Framework: Saurav Gopal, "12 Legendary Investors."';
+</script></body></html>
