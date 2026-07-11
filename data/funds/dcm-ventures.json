@@ -1,0 +1,29 @@
+{
+  "name": "DCM Ventures",
+  "slug": "dcm-ventures",
+  "url": "https://www.dcm.com/",
+  "focus": "Venture Capital · Founded in 1996, DCM Ventures is a venture capital firm based in Menlo Park, California. T",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11165-50",
+  "meta": {
+    "aum": "$4.0B",
+    "active": 159,
+    "d6": 9,
+    "d12": 11,
+    "hq": "Menlo Park, CA",
+    "quartile": 3,
+    "pbid": "11165-50",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11165-50",
+    "news": "https://news.google.com/search?q=DCM%20Ventures",
+    "blog": "https://dcm-vc.medium.com/",
+    "x": "https://x.com/DCM_VC",
+    "linkedin": "https://www.linkedin.com/company/dcm"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

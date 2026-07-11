@@ -1,0 +1,44 @@
+{
+  "name": "Craft Ventures",
+  "slug": "craft-ventures",
+  "url": "https://www.craftventures.com",
+  "focus": "Venture Capital · Founded in 2017, Craft Ventures is a venture capital firm based in San Francisco, Californ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "225318-25",
+  "meta": {
+    "aum": "$3.3B",
+    "active": 208,
+    "d6": 21,
+    "d12": 34,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "225318-25",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/225318-25",
+    "news": "https://news.google.com/search?q=Craft%20Ventures",
+    "blog": "https://craftventures.substack.com",
+    "substack": "https://craftventures.substack.com",
+    "x": "https://x.com/craft_ventures",
+    "linkedin": "https://www.linkedin.com/company/craft-ventures"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "David Sacks",
+      "url": "https://craftventures.substack.com"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "David Sacks",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://craftventures.substack.com"
+    }
+  ]
+}

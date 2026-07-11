@@ -1,0 +1,29 @@
+{
+  "name": "Altos Ventures",
+  "slug": "altos-ventures",
+  "url": "https://altos.vc",
+  "focus": "Venture Capital · Founded in 1996, Altos Ventures is a venture capital firm based in Burlingame, California.",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11110-06",
+  "meta": {
+    "aum": "$6.1B",
+    "active": 157,
+    "d6": 13,
+    "d12": 31,
+    "hq": "Burlingame, CA",
+    "quartile": 1,
+    "pbid": "11110-06",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11110-06",
+    "news": "https://news.google.com/search?q=Altos%20Ventures",
+    "blog": "https://medium.com/altos-blog",
+    "x": "https://x.com/altosvc",
+    "linkedin": "https://www.linkedin.com/company/altos-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

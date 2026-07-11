@@ -1,0 +1,24 @@
+{
+  "name": "Basis Set",
+  "slug": "basis-set",
+  "url": "https://www.basisset.com",
+  "focus": "AI-native seed/A; autonomous systems, enterprise automation",
+  "tier": "Seed/A",
+  "sources": {
+    "site": "https://www.basisset.vc/",
+    "x": "https://x.com/BasisSet"
+  },
+  "updates": [
+    {
+      "date": "2026-01",
+      "type": "New fund",
+      "title": "$250M Fund IV",
+      "link": "https://f4.fund/firms/basis-set-ventures",
+      "summary": "Quantitative founder selection + deep technical engagement."
+    }
+  ],
+  "region": "Americas",
+  "meta": null,
+  "podcasts": [],
+  "people": []
+}

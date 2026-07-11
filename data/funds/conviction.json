@@ -1,0 +1,39 @@
+{
+  "name": "Conviction",
+  "slug": "conviction",
+  "url": "https://www.conviction.com",
+  "focus": "Leads AI pre-seed/seed; infra depth, data moats",
+  "tier": "Seed",
+  "sources": {
+    "site": "https://www.conviction.com/",
+    "x": "https://x.com/conviction",
+    "linkedin": "https://www.linkedin.com/company/convictionvc"
+  },
+  "updates": [
+    {
+      "date": "2026",
+      "type": "Thesis",
+      "title": "Backing infra depth, applied vertical wedges, defensible data",
+      "link": "https://www.conviction.com/",
+      "summary": "AI pre-seed/seed leader (Sarah Guo)."
+    }
+  ],
+  "region": "Americas",
+  "meta": null,
+  "partner_substacks": [
+    {
+      "name": "Sarah Guo",
+      "url": "https://sarahguo.com"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Sarah Guo",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://sarahguo.com"
+    }
+  ]
+}

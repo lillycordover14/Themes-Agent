@@ -1,0 +1,28 @@
+{
+  "name": "New Enterprise Associates",
+  "slug": "new-enterprise-associates",
+  "url": "https://www.nea.com",
+  "focus": "Venture Capital · Founded in 1977, New Enterprise Associates is a venture capital investment firm headquarte",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11251-81",
+  "meta": {
+    "aum": "$35.6B",
+    "active": 350,
+    "d6": 27,
+    "d12": 68,
+    "hq": "Menlo Park, CA",
+    "quartile": 4,
+    "pbid": "11251-81",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11251-81",
+    "news": "https://news.google.com/search?q=New%20Enterprise%20Associates",
+    "blog": "https://www.nea.com/blog",
+    "x": "https://x.com/NEA"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

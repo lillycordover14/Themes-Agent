@@ -1,0 +1,66 @@
+{
+  "name": "a16z",
+  "slug": "a16z",
+  "url": "https://a16z.com",
+  "focus": "Seed → growth; enterprise, infra, American Dynamism",
+  "tier": "Multistage",
+  "sources": {
+    "newsletter": "https://a16z.com/news-content/",
+    "enterprise": "https://a16z.com/enterprise/",
+    "x": "https://x.com/a16z",
+    "blog": "https://a16z.com/news-content/",
+    "linkedin": "https://www.linkedin.com/company/andreessen-horowitz",
+    "pitchbook": "https://pitchbook.com/profiles/investor/41716-90",
+    "news": "https://news.google.com/search?q=Andreessen%20Horowitz"
+  },
+  "updates": [
+    {
+      "date": "2026",
+      "type": "Thesis",
+      "title": "Big Ideas 2026 — agent-native infrastructure",
+      "link": "https://a16z.com/newsletter/big-ideas-2026-part-1/",
+      "summary": "Re-architecting the control plane for agent-speed workloads."
+    },
+    {
+      "date": "2026",
+      "type": "Thesis",
+      "title": "Notes on AI Apps in 2026",
+      "link": "https://a16z.com/notes-on-ai-apps-in-2026/",
+      "summary": "Every team a software team; system of record loses primacy."
+    },
+    {
+      "date": "2026",
+      "type": "Thesis",
+      "title": "Leaders, gainers & unexpected winners in the enterprise AI arms race",
+      "link": "https://a16z.com/leaders-gainers-and-unexpected-winners-in-the-enterprise-ai-arms-race/",
+      "summary": "Who’s winning enterprise AI adoption."
+    }
+  ],
+  "region": "Americas",
+  "meta": {
+    "aum": "$100.0B",
+    "active": 1185,
+    "d6": 175,
+    "d12": 360,
+    "hq": "Menlo Park, CA",
+    "quartile": 1,
+    "pbid": "41716-90",
+    "itype": "Venture Capital"
+  },
+  "partner_substacks": [
+    {
+      "name": "Andrew Chen",
+      "url": "https://andrewchen.substack.com"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Andrew Chen",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://andrewchen.substack.com"
+    }
+  ]
+}

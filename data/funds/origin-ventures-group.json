@@ -1,0 +1,29 @@
+{
+  "name": "Origin Ventures Group",
+  "slug": "origin-ventures-group",
+  "url": "https://www.originventures.com/",
+  "focus": "Venture Capital · Founded in 1999, Origin Ventures is a venture capital investment firm based in Chicago, Il",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11263-96",
+  "meta": {
+    "aum": "$500M",
+    "active": 61,
+    "d6": 3,
+    "d12": 9,
+    "hq": "Chicago, IL",
+    "quartile": 4,
+    "pbid": "11263-96",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11263-96",
+    "news": "https://news.google.com/search?q=Origin%20Ventures%20Group",
+    "blog": "https://www.originventures.com/blog",
+    "x": "https://twitter.com/originventures",
+    "linkedin": "https://www.linkedin.com/company/origin-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

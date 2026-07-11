@@ -1,0 +1,28 @@
+{
+  "name": "Run Ventures",
+  "slug": "run-ventures",
+  "url": "https://run.vc/",
+  "focus": "Venture Capital · Founded in 2000, Run Ventures is a venture capital firm based in Salt Lake City, Utah. The",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11331-01",
+  "meta": {
+    "aum": "$500M",
+    "active": 51,
+    "d6": 5,
+    "d12": 25,
+    "hq": "Salt Lake City, UT",
+    "quartile": 3,
+    "pbid": "11331-01",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11331-01",
+    "news": "https://news.google.com/search?q=Run%20Ventures",
+    "x": "https://x.com/runventures_vc",
+    "linkedin": "https://www.linkedin.com/company/runventures/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

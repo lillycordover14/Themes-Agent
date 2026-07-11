@@ -1,0 +1,24 @@
+{
+  "name": "Andreessen Horowitz",
+  "slug": "andreessen-horowitz",
+  "url": "https://pitchbook.com/profiles/investor/41716-90",
+  "focus": "Venture Capital · Founded in 2009, Andreessen Horowitz is a venture capital firm headquartered in Menlo Park",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "41716-90",
+  "meta": {
+    "aum": "$100.0B",
+    "active": 1185,
+    "d6": 175,
+    "d12": 360,
+    "hq": "Menlo Park, CA",
+    "quartile": 1,
+    "pbid": "41716-90",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/41716-90",
+    "news": "https://news.google.com/search?q=Andreessen%20Horowitz"
+  },
+  "updates": []
+}

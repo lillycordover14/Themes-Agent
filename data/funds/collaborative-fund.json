@@ -1,0 +1,29 @@
+{
+  "name": "Collaborative Fund",
+  "slug": "collaborative-fund",
+  "url": "https://collabfund.com",
+  "focus": "Venture Capital · Founded in 2010, Collaborative Fund is a venture capital firm based in New York. The firm ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "51595-21",
+  "meta": {
+    "aum": "$500M",
+    "active": 229,
+    "d6": 20,
+    "d12": 37,
+    "hq": "New York, NY",
+    "quartile": 1,
+    "pbid": "51595-21",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/51595-21",
+    "news": "https://news.google.com/search?q=Collaborative%20Fund",
+    "blog": "https://collabfund.com/blog/",
+    "x": "https://x.com/collabfund",
+    "linkedin": "https://www.linkedin.com/company/collaborative-fund"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

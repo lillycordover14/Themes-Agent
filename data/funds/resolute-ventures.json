@@ -1,0 +1,28 @@
+{
+  "name": "Resolute Ventures",
+  "slug": "resolute-ventures",
+  "url": "https://www.resolute.vc/",
+  "focus": "Venture Capital · Founded in 2011, Resolute Ventures is a venture capital firm based in San Francisco, Calif",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "53333-83",
+  "meta": {
+    "aum": "$400M",
+    "active": 82,
+    "d6": 5,
+    "d12": 8,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "53333-83",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/53333-83",
+    "news": "https://news.google.com/search?q=Resolute%20Ventures",
+    "x": "https://x.com/resolutevc",
+    "linkedin": "https://www.linkedin.com/company/resolute-ventures/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

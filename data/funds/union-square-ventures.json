@@ -1,0 +1,54 @@
+{
+  "name": "Union Square Ventures",
+  "slug": "union-square-ventures",
+  "url": "https://www.usv.com/",
+  "focus": "Venture Capital · Founded in 2003, Union Square Ventures is a venture capital firm based in New York. The fi",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11323-45",
+  "meta": {
+    "aum": null,
+    "active": 154,
+    "d6": 18,
+    "d12": 30,
+    "hq": "New York, NY",
+    "quartile": 8,
+    "pbid": "11323-45",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11323-45",
+    "news": "https://news.google.com/search?q=Union%20Square%20Ventures",
+    "blog": "https://www.usv.com/writing/",
+    "x": "https://twitter.com/usv",
+    "linkedin": "https://www.linkedin.com/company/union-square-ventures"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Fred Wilson",
+      "url": "https://avc.com/"
+    },
+    {
+      "name": "Albert Wenger",
+      "url": "https://continuations.com/"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Fred Wilson",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://avc.com/"
+    },
+    {
+      "name": "Albert Wenger",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://continuations.com/"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Tribeca Venture Partners",
+  "slug": "tribeca-venture-partners",
+  "url": "https://tribecavp.com/",
+  "focus": "Venture Capital · Founded in 2011, Tribeca Venture Partners is a venture capital firm based in New York, New",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11877-94",
+  "meta": {
+    "aum": "$308M",
+    "active": 40,
+    "d6": 4,
+    "d12": 6,
+    "hq": "New York, NY",
+    "quartile": 1,
+    "pbid": "11877-94",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11877-94",
+    "news": "https://news.google.com/search?q=Tribeca%20Venture%20Partners",
+    "blog": "https://tribecavp.com/insights/",
+    "x": "https://twitter.com/tribecavp",
+    "linkedin": "https://www.linkedin.com/company/tribecavp/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

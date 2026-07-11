@@ -1,0 +1,43 @@
+{
+  "name": "Social Leverage",
+  "slug": "social-leverage",
+  "url": "https://socialleverage.com",
+  "focus": "Venture Capital · Founded in 2009, Social Leverage is a venture capital firm based in Scottsdale, Arizona. T",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "51468-94",
+  "meta": {
+    "aum": "$381M",
+    "active": 64,
+    "d6": 3,
+    "d12": 10,
+    "hq": "Scottsdale, AZ",
+    "quartile": 2,
+    "pbid": "51468-94",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/51468-94",
+    "news": "https://news.google.com/search?q=Social%20Leverage",
+    "blog": "https://socialleverage.com/stories",
+    "x": "https://x.com/socialleverage",
+    "linkedin": "https://www.linkedin.com/company/socialleverage"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Howard Lindzon",
+      "url": "https://howardlindzon.com"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Howard Lindzon",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://howardlindzon.com"
+    }
+  ]
+}

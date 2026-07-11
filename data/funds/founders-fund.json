@@ -1,0 +1,40 @@
+{
+  "name": "Founders Fund",
+  "slug": "founders-fund",
+  "url": "https://foundersfund.com",
+  "focus": "Seed → growth; deep tech, defense, AI",
+  "tier": "Multistage",
+  "sources": {
+    "site": "https://foundersfund.com/",
+    "blog": "https://foundersfund.com/anatomy-of-next/",
+    "x": "https://x.com/foundersfund",
+    "linkedin": "https://www.linkedin.com/company/founders-fund"
+  },
+  "updates": [
+    {
+      "date": "2026",
+      "type": "Investment",
+      "title": "Armada; led Halter Series E ($220M)",
+      "link": "https://foundersfund.com/",
+      "summary": "Deep-tech and physical-world bets."
+    }
+  ],
+  "region": "Americas",
+  "meta": null,
+  "partner_substacks": [
+    {
+      "name": "John Luttig",
+      "url": "https://blog.johnluttig.com"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "John Luttig",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://blog.johnluttig.com"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Restive Ventures",
+  "slug": "restive-ventures",
+  "url": "https://www.restive.com/",
+  "focus": "Venture Capital · Founded in 2018, Restive Ventures is a venture capital investment firm based in San Franci",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "229762-63",
+  "meta": {
+    "aum": "$80M",
+    "active": 54,
+    "d6": 5,
+    "d12": 10,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "229762-63",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/229762-63",
+    "news": "https://news.google.com/search?q=Restive%20Ventures",
+    "blog": "https://www.restive.com/content",
+    "x": "https://x.com/restivevc",
+    "linkedin": "https://www.linkedin.com/company/restiveventures/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

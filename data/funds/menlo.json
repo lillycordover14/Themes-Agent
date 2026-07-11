@@ -1,0 +1,29 @@
+{
+  "name": "Menlo",
+  "slug": "menlo",
+  "url": "https://menlovc.com",
+  "focus": "Early → growth; enterprise + AI",
+  "tier": "Multistage",
+  "sources": {
+    "perspective": "https://menlovc.com/perspective/",
+    "pitchbook": "https://pitchbook.com/profiles/investor/11242-54",
+    "blog": "https://menlovc.com/perspective/",
+    "x": "https://x.com/MenloVentures",
+    "linkedin": "https://www.linkedin.com/company/menlo-ventures"
+  },
+  "updates": [],
+  "meta": {
+    "aum": "$6.8B",
+    "active": 230,
+    "d6": 35,
+    "d12": 68,
+    "hq": "San Francisco, CA",
+    "quartile": 5,
+    "pbid": "11242-54",
+    "itype": "Venture Capital"
+  },
+  "region": "Americas",
+  "pbid": "11242-54",
+  "podcasts": [],
+  "people": []
+}

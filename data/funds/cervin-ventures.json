@@ -1,0 +1,29 @@
+{
+  "name": "Cervin Ventures",
+  "slug": "cervin-ventures",
+  "url": "https://www.cervinventures.com/",
+  "focus": "Venture Capital · Founded in 2011, Cervin is a venture capital firm based in Palo Alto, California. The firm",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "51552-19",
+  "meta": {
+    "aum": "$393M",
+    "active": 45,
+    "d6": 7,
+    "d12": 12,
+    "hq": "Palo Alto, CA",
+    "quartile": 4,
+    "pbid": "51552-19",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/51552-19",
+    "news": "https://news.google.com/search?q=Cervin%20Ventures",
+    "blog": "https://www.cervinventures.com/news",
+    "x": "https://twitter.com/cervinventures",
+    "linkedin": "https://www.linkedin.com/company/cervin-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Vivo Capital",
+  "slug": "vivo-capital",
+  "url": "https://vivocapital.com/",
+  "focus": "Venture Capital · Founded in 1996, Vivo Capital is a venture capital firm based in Palo Alto, California. Th",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11125-00",
+  "meta": {
+    "aum": "$6.1B",
+    "active": 65,
+    "d6": 20,
+    "d12": 29,
+    "hq": "Palo Alto, CA",
+    "quartile": 1,
+    "pbid": "11125-00",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11125-00",
+    "news": "https://news.google.com/search?q=Vivo%20Capital",
+    "x": "https://x.com/VivoCapitalLLC",
+    "linkedin": "https://www.linkedin.com/company/vivo-capital"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

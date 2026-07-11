@@ -1,0 +1,29 @@
+{
+  "name": "B Capital Group",
+  "slug": "b-capital-group",
+  "url": "https://b.capital",
+  "focus": "Venture Capital · Founded in 2015, B Capital Group is a venture capital firm based in Manhattan Beach, Calif",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "155248-48",
+  "meta": {
+    "aum": "$12.0B",
+    "active": 150,
+    "d6": 16,
+    "d12": 38,
+    "hq": "Manhattan Beach, CA",
+    "quartile": 1,
+    "pbid": "155248-48",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/155248-48",
+    "news": "https://news.google.com/search?q=B%20Capital%20Group",
+    "blog": "https://b.capital/news-and-insights/",
+    "x": "https://x.com/BCapitalGroup",
+    "linkedin": "https://www.linkedin.com/company/b-capital-group"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

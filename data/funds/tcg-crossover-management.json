@@ -1,0 +1,28 @@
+{
+  "name": "TCG Crossover Management",
+  "slug": "tcg-crossover-management",
+  "url": "https://tcgcrossover.com/",
+  "focus": "Venture Capital · Founded in 2020, TCG Crossover Management is a venture capital firm based in Palo Alto, Ca",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "462988-36",
+  "meta": {
+    "aum": "$5.1B",
+    "active": 33,
+    "d6": 14,
+    "d12": 23,
+    "hq": "Palo Alto, CA",
+    "quartile": 2,
+    "pbid": "462988-36",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/462988-36",
+    "news": "https://news.google.com/search?q=TCG%20Crossover%20Management",
+    "blog": "https://tcgcrossover.com/news/",
+    "linkedin": "https://www.linkedin.com/company/tcg-crossover"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Bullpen Capital",
+  "slug": "bullpen-capital",
+  "url": "https://www.bullpencap.com/",
+  "focus": "Venture Capital · Founded in 2010, Bullpen Capital is a venture capital investment firm based in San Francis",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "51468-67",
+  "meta": {
+    "aum": null,
+    "active": 63,
+    "d6": 5,
+    "d12": 10,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "51468-67",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/51468-67",
+    "news": "https://news.google.com/search?q=Bullpen%20Capital",
+    "blog": "https://www.bullpencap.com/blog",
+    "x": "https://x.com/bullpencap",
+    "linkedin": "https://www.linkedin.com/company/bullpen-capital/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

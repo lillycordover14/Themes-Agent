@@ -1,0 +1,29 @@
+{
+  "name": "Mayfield Fund",
+  "slug": "mayfield-fund",
+  "url": "https://www.mayfield.com/",
+  "focus": "Venture Capital · Founded in 1969, Mayfield is a venture capital investment firm based in Menlo Park, Califo",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11237-95",
+  "meta": {
+    "aum": "$3.0B",
+    "active": 128,
+    "d6": 17,
+    "d12": 31,
+    "hq": "Menlo Park, CA",
+    "quartile": 6,
+    "pbid": "11237-95",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11237-95",
+    "news": "https://news.google.com/search?q=Mayfield%20Fund",
+    "blog": "https://www.mayfield.com/news/",
+    "x": "https://x.com/mayfieldfund",
+    "linkedin": "https://www.linkedin.com/company/mayfield-fund"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

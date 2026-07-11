@@ -1,0 +1,43 @@
+{
+  "name": "Foundation Capital",
+  "slug": "foundation-capital",
+  "url": "https://foundationcapital.com/",
+  "focus": "Venture Capital · Founded in 1995, Foundation Capital is a venture capital firm based in Palo Alto, Californ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11193-13",
+  "meta": {
+    "aum": "$6.0B",
+    "active": 201,
+    "d6": 4,
+    "d12": 18,
+    "hq": "Palo Alto, CA",
+    "quartile": 1,
+    "pbid": "11193-13",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11193-13",
+    "news": "https://news.google.com/search?q=Foundation%20Capital",
+    "blog": "https://foundationcapital.com/ideas/perspectives",
+    "x": "https://x.com/FoundationCap",
+    "linkedin": "https://www.linkedin.com/company/foundation-capital"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Ashu Garg",
+      "url": "https://ashugarg.substack.com/"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Ashu Garg",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://ashugarg.substack.com/"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Foundry Group",
+  "slug": "foundry-group",
+  "url": "https://foundry.vc/",
+  "focus": "Venture Capital · Founded in 2007, Foundry Group is a venture capital firm based in Boulder, Colorado. The f",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "42240-79",
+  "meta": {
+    "aum": "$3.5B",
+    "active": 76,
+    "d6": 6,
+    "d12": 9,
+    "hq": "Boulder, CO",
+    "quartile": 2,
+    "pbid": "42240-79",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/42240-79",
+    "news": "https://news.google.com/search?q=Foundry%20Group",
+    "blog": "https://foundry.vc/blog/",
+    "x": "https://x.com/FoundryVC",
+    "linkedin": "https://www.linkedin.com/company/foundry-vc/"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Brad Feld",
+      "url": "https://feld.com/"
+    },
+    {
+      "name": "Seth Levine",
+      "url": "https://www.sethlevine.com/"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Brad Feld",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://feld.com/"
+    },
+    {
+      "name": "Seth Levine",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://www.sethlevine.com/"
+    }
+  ]
+}

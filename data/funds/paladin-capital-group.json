@@ -1,0 +1,29 @@
+{
+  "name": "Paladin Capital Group",
+  "slug": "paladin-capital-group",
+  "url": "https://www.paladincapgroup.com/",
+  "focus": "Venture Capital · Founded in 2001, Paladin Capital Group is a venture capital investment firm headquartered ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "10156-69",
+  "meta": {
+    "aum": "$1.3B",
+    "active": 53,
+    "d6": 4,
+    "d12": 9,
+    "hq": "Washington, DC",
+    "quartile": 1,
+    "pbid": "10156-69",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/10156-69",
+    "news": "https://news.google.com/search?q=Paladin%20Capital%20Group",
+    "blog": "https://www.paladincapgroup.com/news/",
+    "x": "https://twitter.com/paladincap",
+    "linkedin": "https://www.linkedin.com/company/paladin-capital-group"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

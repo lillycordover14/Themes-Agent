@@ -1,0 +1,29 @@
+{
+  "name": "Blackhorn Ventures",
+  "slug": "blackhorn-ventures",
+  "url": "https://www.blackhornvc.com/",
+  "focus": "Venture Capital · Founded in 2017, Blackhorn Ventures is a venture capital investment firm based in Denver, ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "168750-91",
+  "meta": {
+    "aum": "$362M",
+    "active": 59,
+    "d6": 5,
+    "d12": 9,
+    "hq": "Denver, CO",
+    "quartile": 1,
+    "pbid": "168750-91",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/168750-91",
+    "news": "https://news.google.com/search?q=Blackhorn%20Ventures",
+    "blog": "https://www.blackhornvc.com/news",
+    "x": "https://x.com/blackhornvc",
+    "linkedin": "https://www.linkedin.com/company/blackhorn-ventures/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

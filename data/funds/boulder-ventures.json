@@ -1,0 +1,28 @@
+{
+  "name": "Boulder Ventures",
+  "slug": "boulder-ventures",
+  "url": "https://www.boulderventures.com/",
+  "focus": "Venture Capital · Founded in 1995, Boulder Ventures is a venture capital firm based in Boulder, Colorado. Th",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11128-06",
+  "meta": {
+    "aum": null,
+    "active": 21,
+    "d6": 4,
+    "d12": 7,
+    "hq": "Boulder, CO",
+    "quartile": 1,
+    "pbid": "11128-06",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11128-06",
+    "news": "https://news.google.com/search?q=Boulder%20Ventures",
+    "blog": "https://www.boulderventures.com/perspectives",
+    "linkedin": "https://www.linkedin.com/company/boulder-ventures/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

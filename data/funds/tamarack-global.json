@@ -1,0 +1,27 @@
+{
+  "name": "Tamarack Global",
+  "slug": "tamarack-global",
+  "url": "https://www.tamarackglobal.com/",
+  "focus": "Venture Capital · Founded in 2019, Tamarack Global is a venture capital firm based in Greenwich, Connecticut",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "458764-03",
+  "meta": {
+    "aum": "$250M",
+    "active": 30,
+    "d6": 4,
+    "d12": 7,
+    "hq": "Greenwich, CT",
+    "quartile": 1,
+    "pbid": "458764-03",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/458764-03",
+    "news": "https://news.google.com/search?q=Tamarack%20Global",
+    "linkedin": "https://www.linkedin.com/company/tamarack-4"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "IVP",
+  "slug": "ivp",
+  "url": "https://www.ivp.com",
+  "focus": "Venture Capital · Founded in 1980, IVP is a venture capital firm based in Menlo Park, California. The firm p",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11211-40",
+  "meta": {
+    "aum": "$8.7B",
+    "active": 91,
+    "d6": 14,
+    "d12": 28,
+    "hq": "Menlo Park, CA",
+    "quartile": 4,
+    "pbid": "11211-40",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11211-40",
+    "news": "https://news.google.com/search?q=IVP",
+    "blog": "https://www.ivp.com/content/",
+    "x": "https://x.com/ivp",
+    "linkedin": "https://www.linkedin.com/company/ivp"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Lux Capital",
+  "slug": "lux-capital",
+  "url": "https://www.luxcapital.com/",
+  "focus": "Venture Capital · Founded in 2000, Lux Capital is a venture capital firm based in New York. The firm seeks t",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11229-04",
+  "meta": {
+    "aum": "$7.0B",
+    "active": 239,
+    "d6": 33,
+    "d12": 66,
+    "hq": "New York, NY",
+    "quartile": 3,
+    "pbid": "11229-04",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11229-04",
+    "news": "https://news.google.com/search?q=Lux%20Capital",
+    "blog": "https://www.luxcapital.com/riskgaming",
+    "substack": "https://riskgaming.com",
+    "x": "https://twitter.com/Lux_Capital",
+    "linkedin": "https://www.linkedin.com/company/lux-capital"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Danny Crichton",
+      "url": "https://substack.com/@dannycrichton"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Danny Crichton",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://substack.com/@dannycrichton"
+    }
+  ]
+}

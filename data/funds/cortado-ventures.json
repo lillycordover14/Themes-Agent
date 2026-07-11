@@ -1,0 +1,29 @@
+{
+  "name": "Cortado Ventures",
+  "slug": "cortado-ventures",
+  "url": "https://cortado.ventures/",
+  "focus": "Venture Capital · Founded in 2020, Cortado Ventures is a venture capital firm based in Oklahoma City, Oklaho",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "435874-42",
+  "meta": {
+    "aum": "$110M",
+    "active": 47,
+    "d6": 3,
+    "d12": 9,
+    "hq": "Oklahoma City, OK",
+    "quartile": 1,
+    "pbid": "435874-42",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/435874-42",
+    "news": "https://news.google.com/search?q=Cortado%20Ventures",
+    "blog": "https://cortado.ventures/news/",
+    "x": "https://x.com/cortadoventures",
+    "linkedin": "https://www.linkedin.com/company/cortadoventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

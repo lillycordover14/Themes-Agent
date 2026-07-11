@@ -1,0 +1,27 @@
+{
+  "name": "XYZ Venture Capital",
+  "slug": "xyz-venture-capital",
+  "url": "https://www.xyz.vc",
+  "focus": "Venture Capital · Founded in 2017, XYZ Venture Capital is a venture capital firm based in San Francisco, Cal",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "178234-03",
+  "meta": {
+    "aum": null,
+    "active": 104,
+    "d6": 16,
+    "d12": 29,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "178234-03",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/178234-03",
+    "news": "https://news.google.com/search?q=XYZ%20Venture%20Capital",
+    "x": "https://x.com/xyz_vc"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

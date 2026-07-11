@@ -1,0 +1,28 @@
+{
+  "name": "Kickstart (US)",
+  "slug": "kickstart-us",
+  "url": "https://www.kickstart.com/",
+  "focus": "Venture Capital · Founded in 2008, Kickstart is a venture capital firm based in Cottonwood Heights, Utah.",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "42788-17",
+  "meta": {
+    "aum": "$544M",
+    "active": 125,
+    "d6": 5,
+    "d12": 15,
+    "hq": "Cottonwood Heights, UT",
+    "quartile": 1,
+    "pbid": "42788-17",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/42788-17",
+    "news": "https://news.google.com/search?q=Kickstart%20(US)",
+    "x": "https://x.com/KickstartFund",
+    "linkedin": "https://www.linkedin.com/company/kickstartfund"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

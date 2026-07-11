@@ -1,0 +1,33 @@
+{
+  "name": "Felicis",
+  "slug": "felicis",
+  "url": "https://www.felicis.com",
+  "focus": "Before consensus; AI infra",
+  "tier": "Multistage",
+  "sources": {
+    "news": "https://www.felicis.com/news",
+    "x": "https://x.com/felicis",
+    "blog": "https://www.felicis.com/insights",
+    "linkedin": "https://www.linkedin.com/company/felicis-ventures"
+  },
+  "updates": [
+    {
+      "date": "2025-06",
+      "type": "New fund",
+      "title": "FV X — $900M, largest fund yet",
+      "link": "https://en.wikipedia.org/wiki/Felicis",
+      "summary": "Deploying early into AI infra before valuations reset."
+    },
+    {
+      "date": "2026",
+      "type": "Investment",
+      "title": "Armada, Fractile",
+      "link": "https://www.felicis.com/news",
+      "summary": "Moving early on AI infrastructure."
+    }
+  ],
+  "region": "Americas",
+  "meta": null,
+  "podcasts": [],
+  "people": []
+}

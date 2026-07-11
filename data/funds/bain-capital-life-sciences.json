@@ -1,0 +1,27 @@
+{
+  "name": "Bain Capital Life Sciences",
+  "slug": "bain-capital-life-sciences",
+  "url": "https://www.baincapitallifesciences.com/",
+  "focus": "Corporate Venture Capital · Founded in 2016, Bain Capital Life Sciences is a corporate venture capital arm of Bain Cap",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "459912-07",
+  "meta": {
+    "aum": "$4.6B",
+    "active": 33,
+    "d6": 8,
+    "d12": 15,
+    "hq": "Boston, MA",
+    "quartile": 2,
+    "pbid": "459912-07",
+    "itype": "Corporate Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/459912-07",
+    "news": "https://news.google.com/search?q=Bain%20Capital%20Life%20Sciences",
+    "linkedin": "https://www.linkedin.com/company/bain-capital-life-sciences-fund-lp"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Playground Global",
+  "slug": "playground-global",
+  "url": "https://www.playground.vc/",
+  "focus": "Venture Capital · Founded in 2015, Playground Global is a venture capital firm based in Palo Alto, Californi",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "111213-01",
+  "meta": {
+    "aum": "$1.2B",
+    "active": 52,
+    "d6": 4,
+    "d12": 12,
+    "hq": "Palo Alto, CA",
+    "quartile": 1,
+    "pbid": "111213-01",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/111213-01",
+    "news": "https://news.google.com/search?q=Playground%20Global",
+    "blog": "https://www.playground.vc/news",
+    "x": "https://x.com/Playground_VC",
+    "linkedin": "https://www.linkedin.com/company/playground-global/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Moderne Ventures",
+  "slug": "moderne-ventures",
+  "url": "https://www.moderneventures.com/",
+  "focus": "Venture Capital · Founded in 2015, Moderne Ventures is a venture capital firm based in Chicago, Illinois. Th",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "125262-64",
+  "meta": {
+    "aum": "$600M",
+    "active": 100,
+    "d6": 7,
+    "d12": 18,
+    "hq": "Chicago, IL",
+    "quartile": 1,
+    "pbid": "125262-64",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/125262-64",
+    "news": "https://news.google.com/search?q=Moderne%20Ventures",
+    "blog": "https://www.moderneventures.com/news-insights",
+    "x": "https://x.com/moderneventures",
+    "linkedin": "https://www.linkedin.com/company/moderne-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

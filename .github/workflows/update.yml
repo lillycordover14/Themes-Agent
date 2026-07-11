@@ -1,0 +1,58 @@
+name: Update Themes Agent dashboard
+
+# Runs autonomously on GitHub's servers — no local machine needed.
+on:
+  schedule:
+    - cron: "0 12 * * 1"      # every Monday 12:00 UTC
+  workflow_dispatch: {}         # manual "Run workflow" button
+
+permissions:
+  contents: write               # allow the action to commit the refreshed data + dashboard
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Pull latest fund activity from the web
+        run: python scripts/scrape_funds.py
+
+      - name: Refresh tailwind data from public VC funding news
+        run: python scripts/scrape_tailwinds.py
+
+      - name: Pull Harmonic (optional — uses HARMONIC_API_KEY secret)
+        env:
+          HARMONIC_API_KEY: ${{ secrets.HARMONIC_API_KEY }}
+          HARMONIC_ENDPOINT: ${{ secrets.HARMONIC_ENDPOINT }}
+        run: python scripts/pull_harmonic.py
+
+      - name: Pull PitchBook (optional — uses PITCHBOOK_API_KEY secret)
+        env:
+          PITCHBOOK_API_KEY: ${{ secrets.PITCHBOOK_API_KEY }}
+          PITCHBOOK_ENDPOINT: ${{ secrets.PITCHBOOK_ENDPOINT }}
+        run: python scripts/pull_pitchbook.py
+
+      - name: Rebuild dashboard
+        run: python scripts/build_dashboard.py
+
+      - name: Commit & push if anything changed
+        run: |
+          git config user.name "themes-agent-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes this run."
+          else
+            git commit -m "Auto-update: fund intelligence + dashboard ($(date -u +%Y-%m-%d))"
+            git push
+          fi

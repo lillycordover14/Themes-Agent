@@ -1,0 +1,29 @@
+{
+  "name": "Flagship Pioneering",
+  "slug": "flagship-pioneering",
+  "url": "https://www.flagshippioneering.com",
+  "focus": "Venture Capital · Founded in 2000, Flagship Pioneering is a venture capital firm based in Cambridge, Massach",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11262-52",
+  "meta": {
+    "aum": "$14.0B",
+    "active": 37,
+    "d6": 3,
+    "d12": 6,
+    "hq": "Cambridge, MA",
+    "quartile": 2,
+    "pbid": "11262-52",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11262-52",
+    "news": "https://news.google.com/search?q=Flagship%20Pioneering",
+    "blog": "https://www.flagshippioneering.com/news",
+    "x": "https://x.com/FlagshipPioneer",
+    "linkedin": "https://www.linkedin.com/company/flagship-pioneering"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

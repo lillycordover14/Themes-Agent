@@ -1,0 +1,30 @@
+{
+  "name": "Armory Square Ventures",
+  "slug": "armory-square-ventures",
+  "url": "https://www.armorysv.com/",
+  "focus": "Venture Capital · Founded in 2013, Armory Square Ventures is a venture capital firm based in Skaneateles, Ne",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "59938-66",
+  "meta": {
+    "aum": "$100M",
+    "active": 18,
+    "d6": 7,
+    "d12": 8,
+    "hq": "Skaneateles, NY",
+    "quartile": 1,
+    "pbid": "59938-66",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/59938-66",
+    "news": "https://news.google.com/search?q=Armory%20Square%20Ventures",
+    "blog": "https://www.armorysv.com/asv-press",
+    "substack": "https://armorysv.substack.com/",
+    "x": "https://twitter.com/armorysv",
+    "linkedin": "https://www.linkedin.com/company/armory-square-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

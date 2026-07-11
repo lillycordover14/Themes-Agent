@@ -1,0 +1,29 @@
+{
+  "name": "Shield Capital",
+  "slug": "shield-capital",
+  "url": "https://shieldcap.com/",
+  "focus": "Venture Capital · Founded in 2021, Shield Capital Partners is a venture capital investment firm based in Bur",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "471110-59",
+  "meta": {
+    "aum": "$500M",
+    "active": 42,
+    "d6": 9,
+    "d12": 15,
+    "hq": "Burlingame, CA",
+    "quartile": 1,
+    "pbid": "471110-59",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/471110-59",
+    "news": "https://news.google.com/search?q=Shield%20Capital",
+    "blog": "https://shieldcap.com/news",
+    "x": "https://x.com/shieldcapvc",
+    "linkedin": "https://www.linkedin.com/company/shieldcap"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

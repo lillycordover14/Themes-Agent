@@ -1,0 +1,52 @@
+{
+  "name": "Accel",
+  "slug": "accel",
+  "url": "https://www.accel.com",
+  "focus": "Seed → growth; enterprise, AI, infra",
+  "tier": "Multistage",
+  "sources": {
+    "insights": "https://www.accel.com/news/insights",
+    "portfolio": "https://www.accel.com/news/portfolio",
+    "linkedin": "https://www.linkedin.com/company/accel-vc",
+    "pitchbook": "https://pitchbook.com/profiles/investor/10139-41",
+    "blog": "https://www.accel.com/news/insights",
+    "x": "https://x.com/Accel"
+  },
+  "updates": [
+    {
+      "date": "2026-07-08",
+      "type": "Investment",
+      "title": "Leading Agave’s Series A — AI infrastructure for construction",
+      "link": "https://www.accel.com/news/portfolio",
+      "summary": "Doubling down on autonomous back-office finance for a vertical (construction)."
+    },
+    {
+      "date": "2026-07-07",
+      "type": "Investment",
+      "title": "Our investment in Pocket — the device that remembers",
+      "link": "https://www.accel.com/news/portfolio",
+      "summary": "Consumer-adjacent hardware/memory device."
+    },
+    {
+      "date": "2026-03",
+      "type": "New program",
+      "title": "Atoms AI (with Google AI Futures Fund)",
+      "link": "https://www.accel.com/news",
+      "summary": "Selecting early-stage teams for enterprise-AI “white space.”"
+    }
+  ],
+  "meta": {
+    "aum": "$38.0B",
+    "active": 659,
+    "d6": 91,
+    "d12": 173,
+    "hq": "Palo Alto, CA",
+    "quartile": 4,
+    "pbid": "10139-41",
+    "itype": "Venture Capital"
+  },
+  "region": "Americas",
+  "pbid": "10139-41",
+  "podcasts": [],
+  "people": []
+}

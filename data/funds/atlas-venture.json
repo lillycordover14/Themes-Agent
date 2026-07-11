@@ -1,0 +1,43 @@
+{
+  "name": "Atlas Venture",
+  "slug": "atlas-venture",
+  "url": "https://atlasventure.com/",
+  "focus": "Venture Capital · Founded in 1980, Atlas Venture is a venture capital firm based in Cambridge, Massachusetts",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11132-20",
+  "meta": {
+    "aum": "$2.7B",
+    "active": 43,
+    "d6": 5,
+    "d12": 12,
+    "hq": "Cambridge, MA",
+    "quartile": 1,
+    "pbid": "11132-20",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11132-20",
+    "news": "https://news.google.com/search?q=Atlas%20Venture",
+    "blog": "https://atlasventure.com/news/",
+    "x": "https://x.com/atlasventure",
+    "linkedin": "https://www.linkedin.com/company/atlas-venture"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Bruce Booth",
+      "url": "https://lifescivc.com/"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Bruce Booth",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://lifescivc.com/"
+    }
+  ]
+}

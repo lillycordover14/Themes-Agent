@@ -1,0 +1,28 @@
+{
+  "name": "Pear",
+  "slug": "pear",
+  "url": "https://pear.vc",
+  "focus": "Pre-seed/seed; enterprise + AI",
+  "tier": "Seed",
+  "sources": {
+    "blog": "https://pear.vc/resources/blog/",
+    "x": "https://x.com/pearvc",
+    "linkedin": "https://www.linkedin.com/company/pear-vc",
+    "pitchbook": "https://pitchbook.com/profiles/investor/58373-20",
+    "news": "https://news.google.com/search?q=Pear%20(California)"
+  },
+  "updates": [],
+  "region": "Americas",
+  "meta": {
+    "aum": "$741M",
+    "active": 250,
+    "d6": 22,
+    "d12": 54,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "58373-20",
+    "itype": "Venture Capital"
+  },
+  "podcasts": [],
+  "people": []
+}

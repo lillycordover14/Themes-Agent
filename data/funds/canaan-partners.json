@@ -1,0 +1,29 @@
+{
+  "name": "Canaan Partners",
+  "slug": "canaan-partners",
+  "url": "https://www.canaan.com",
+  "focus": "Venture Capital · Founded in 1987, Canaan Partners is a venture capital firm based in San Francisco, Califor",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11135-71",
+  "meta": {
+    "aum": "$7.0B",
+    "active": 175,
+    "d6": 13,
+    "d12": 21,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "11135-71",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11135-71",
+    "news": "https://news.google.com/search?q=Canaan%20Partners",
+    "blog": "https://blog.canaan.com",
+    "x": "https://x.com/canaanpartners",
+    "linkedin": "https://www.linkedin.com/company/canaan-partners"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

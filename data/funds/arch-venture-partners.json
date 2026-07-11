@@ -1,0 +1,28 @@
+{
+  "name": "ARCH Venture Partners",
+  "slug": "arch-venture-partners",
+  "url": "https://www.archventure.com/",
+  "focus": "Venture Capital · Founded in 1986, ARCH Venture Partners is a venture capital firm based in Chicago, Illinoi",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11111-68",
+  "meta": {
+    "aum": "$9.0B",
+    "active": 125,
+    "d6": 11,
+    "d12": 32,
+    "hq": "Chicago, IL",
+    "quartile": 3,
+    "pbid": "11111-68",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11111-68",
+    "news": "https://news.google.com/search?q=ARCH%20Venture%20Partners",
+    "blog": "https://www.archventure.com/news/",
+    "linkedin": "https://www.linkedin.com/company/avpvc"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

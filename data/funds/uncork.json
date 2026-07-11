@@ -1,0 +1,28 @@
+{
+  "name": "Uncork",
+  "slug": "uncork",
+  "url": "https://uncorkcapital.com",
+  "focus": "Seed; enterprise + infra",
+  "tier": "Seed",
+  "sources": {
+    "blog": "https://uncorkcapital.com/blog/",
+    "pitchbook": "https://pitchbook.com/profiles/investor/48176-38",
+    "x": "https://x.com/uncorkcap",
+    "linkedin": "https://www.linkedin.com/company/uncorkcapital"
+  },
+  "updates": [],
+  "meta": {
+    "aum": "$1.2B",
+    "active": 96,
+    "d6": 11,
+    "d12": 21,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "48176-38",
+    "itype": "Venture Capital"
+  },
+  "region": "Americas",
+  "pbid": "48176-38",
+  "podcasts": [],
+  "people": []
+}

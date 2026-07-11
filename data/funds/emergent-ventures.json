@@ -1,0 +1,29 @@
+{
+  "name": "Emergent Ventures",
+  "slug": "emergent-ventures",
+  "url": "https://www.emergent.vc/",
+  "focus": "Venture Capital · Founded in 2016, Emergent Ventures is a venture capital investment firm headquartered in S",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "180467-38",
+  "meta": {
+    "aum": "$200M",
+    "active": 48,
+    "d6": 3,
+    "d12": 8,
+    "hq": "San Mateo, CA",
+    "quartile": 1,
+    "pbid": "180467-38",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/180467-38",
+    "news": "https://news.google.com/search?q=Emergent%20Ventures",
+    "blog": "https://www.emergent.vc/blog",
+    "x": "https://x.com/emergent_vc",
+    "linkedin": "https://www.linkedin.com/company/emergent-vc"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

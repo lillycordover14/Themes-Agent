@@ -1,0 +1,29 @@
+{
+  "name": "GreatPoint Ventures",
+  "slug": "greatpoint-ventures",
+  "url": "https://www.gpv.com/",
+  "focus": "Venture Capital · Founded in 2015, GreatPoint Ventures is a venture capital firm based in San Francisco, Cal",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "51254-02",
+  "meta": {
+    "aum": "$500M",
+    "active": 72,
+    "d6": 7,
+    "d12": 11,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "51254-02",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/51254-02",
+    "news": "https://news.google.com/search?q=GreatPoint%20Ventures",
+    "blog": "https://www.gpv.com/newsroom",
+    "x": "https://x.com/greatpointvc",
+    "linkedin": "https://www.linkedin.com/company/greatpoint-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

@@ -1,0 +1,43 @@
+{
+  "name": "True Ventures",
+  "slug": "true-ventures",
+  "url": "https://www.trueventures.com/",
+  "focus": "Venture Capital · Founded in 2005, True Ventures is a venture capital investment firm based in Palo Alto, Ca",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11321-29",
+  "meta": {
+    "aum": null,
+    "active": 262,
+    "d6": 25,
+    "d12": 56,
+    "hq": "Palo Alto, CA",
+    "quartile": 4,
+    "pbid": "11321-29",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11321-29",
+    "news": "https://news.google.com/search?q=True%20Ventures",
+    "blog": "https://www.trueventures.com/blog",
+    "x": "https://twitter.com/trueventures",
+    "linkedin": "https://www.linkedin.com/company/true-ventures"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Om Malik",
+      "url": "https://om.co"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Om Malik",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://om.co"
+    }
+  ]
+}

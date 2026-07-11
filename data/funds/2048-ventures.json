@@ -1,0 +1,43 @@
+{
+  "name": "2048 Ventures",
+  "slug": "2048-ventures",
+  "url": "https://www.2048.vc/",
+  "focus": "Venture Capital · Founded in 2018, 2048 Ventures is a venture capital firm based in New York. The firm seeks",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "265527-82",
+  "meta": {
+    "aum": "$95M",
+    "active": 94,
+    "d6": 10,
+    "d12": 16,
+    "hq": "New York, NY",
+    "quartile": 2,
+    "pbid": "265527-82",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/265527-82",
+    "news": "https://news.google.com/search?q=2048%20Ventures",
+    "blog": "https://www.2048.vc/blog",
+    "x": "https://x.com/2048vc",
+    "linkedin": "https://www.linkedin.com/company/2048vc"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Alex Iskold",
+      "url": "https://www.startuphacks.vc/"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Alex Iskold",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://www.startuphacks.vc/"
+    }
+  ]
+}

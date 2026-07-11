@@ -1,0 +1,29 @@
+{
+  "name": "RRE Ventures",
+  "slug": "rre-ventures",
+  "url": "https://rre.com/",
+  "focus": "Venture Capital · Founded in 1994, RRE Ventures is a venture capital firm headquartered in New York, New Yor",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11290-51",
+  "meta": {
+    "aum": "$2.5B",
+    "active": 112,
+    "d6": 10,
+    "d12": 14,
+    "hq": "New York, NY",
+    "quartile": 2,
+    "pbid": "11290-51",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11290-51",
+    "news": "https://news.google.com/search?q=RRE%20Ventures",
+    "blog": "https://blog.rre.com/",
+    "x": "https://x.com/RRE",
+    "linkedin": "https://www.linkedin.com/company/rre-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

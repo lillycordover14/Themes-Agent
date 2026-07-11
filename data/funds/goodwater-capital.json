@@ -1,0 +1,29 @@
+{
+  "name": "Goodwater Capital",
+  "slug": "goodwater-capital",
+  "url": "https://www.goodwatercap.com",
+  "focus": "Venture Capital · Founded in 2014, Goodwater Capital is a venture capital investment firm based in Burlingam",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "64182-25",
+  "meta": {
+    "aum": "$5.0B",
+    "active": 573,
+    "d6": 15,
+    "d12": 28,
+    "hq": "Burlingame, CA",
+    "quartile": 1,
+    "pbid": "64182-25",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/64182-25",
+    "news": "https://news.google.com/search?q=Goodwater%20Capital",
+    "blog": "https://www.goodwatercap.com/insights/",
+    "x": "https://x.com/GoodwaterCap",
+    "linkedin": "https://www.linkedin.com/company/goodwater-capital"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

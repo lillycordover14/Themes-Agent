@@ -1,0 +1,17 @@
+{
+  "name": "Battery",
+  "slug": "battery",
+  "url": "https://www.battery.com",
+  "focus": "Seed → growth; software, infra",
+  "tier": "Multistage",
+  "sources": {
+    "blog": "https://www.battery.com/blog/",
+    "x": "https://x.com/BatteryVentures",
+    "linkedin": "https://www.linkedin.com/company/battery-ventures"
+  },
+  "updates": [],
+  "region": "Americas",
+  "meta": null,
+  "podcasts": [],
+  "people": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Sofinnova Investments",
+  "slug": "sofinnova-investments",
+  "url": "https://www.sofinnova.com/",
+  "focus": "Venture Capital · Founded in 1976, Sofinnova Investments is a venture capital firm based in Menlo Park, Cali",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11300-14",
+  "meta": {
+    "aum": "$5.4B",
+    "active": 24,
+    "d6": 4,
+    "d12": 8,
+    "hq": "Menlo Park, CA",
+    "quartile": 2,
+    "pbid": "11300-14",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11300-14",
+    "news": "https://news.google.com/search?q=Sofinnova%20Investments",
+    "blog": "https://www.sofinnova.com/press/",
+    "linkedin": "https://www.linkedin.com/company/sofinnova-ventures/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

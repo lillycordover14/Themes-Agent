@@ -1,0 +1,30 @@
+{
+  "name": "Rally Ventures",
+  "slug": "rally-ventures",
+  "url": "https://www.rallyventures.com",
+  "focus": "Venture Capital · Founded in 2012, Rally Ventures is a venture capital investment firm based in Menlo Park, ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "58804-66",
+  "meta": {
+    "aum": "$840M",
+    "active": 52,
+    "d6": 3,
+    "d12": 12,
+    "hq": "Menlo Park, CA",
+    "quartile": 2,
+    "pbid": "58804-66",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/58804-66",
+    "news": "https://news.google.com/search?q=Rally%20Ventures",
+    "blog": "https://www.rallyventures.com/content/",
+    "substack": "https://rallyventures.substack.com",
+    "x": "https://x.com/rallyvc",
+    "linkedin": "https://www.linkedin.com/company/rallyventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

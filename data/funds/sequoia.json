@@ -1,0 +1,44 @@
+{
+  "name": "Sequoia",
+  "slug": "sequoia",
+  "url": "https://www.sequoiacap.com",
+  "focus": "Seed → growth",
+  "tier": "Multistage",
+  "sources": {
+    "perspectives": "https://sequoiacap.com/?story_category=perspective",
+    "x": "https://x.com/sequoia",
+    "pitchbook": "https://pitchbook.com/profiles/investor/11295-73",
+    "blog": "https://www.sequoiacap.com/stories/",
+    "linkedin": "https://www.linkedin.com/company/sequoia"
+  },
+  "updates": [
+    {
+      "date": "2026",
+      "type": "Thesis",
+      "title": "2026: This is AGI",
+      "link": "https://sequoiacap.com/article/2026-this-is-agi/",
+      "summary": "Long-horizon agents are functionally AGI; 2026 apps become autonomous “doers.”"
+    },
+    {
+      "date": "2026",
+      "type": "Thesis",
+      "title": "AI Ascent 2026 — AI-native services that sell completed work",
+      "link": "https://sequoiacap.com/",
+      "summary": "Value shifts to outcome-based services, not seats."
+    }
+  ],
+  "meta": {
+    "aum": "$60.5B",
+    "active": 904,
+    "d6": 94,
+    "d12": 180,
+    "hq": "Menlo Park, CA",
+    "quartile": 8,
+    "pbid": "11295-73",
+    "itype": "Venture Capital"
+  },
+  "region": "Americas",
+  "pbid": "11295-73",
+  "podcasts": [],
+  "people": []
+}

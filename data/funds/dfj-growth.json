@@ -1,0 +1,29 @@
+{
+  "name": "DFJ Growth",
+  "slug": "dfj-growth",
+  "url": "https://dfjgrowth.com/",
+  "focus": "Venture Capital · Founded in 2006, DFJ Growth is a venture capital firm based in San Mateo, California. The ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "51249-34",
+  "meta": {
+    "aum": "$2.1B",
+    "active": 46,
+    "d6": 6,
+    "d12": 10,
+    "hq": "San Mateo, CA",
+    "quartile": 1,
+    "pbid": "51249-34",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/51249-34",
+    "news": "https://news.google.com/search?q=DFJ%20Growth",
+    "blog": "https://dfjgrowth.com/news",
+    "x": "https://x.com/dfjgrowth",
+    "linkedin": "https://www.linkedin.com/company/dfj-growth/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

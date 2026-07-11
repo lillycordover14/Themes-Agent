@@ -1,0 +1,29 @@
+{
+  "name": "SeaX Ventures",
+  "slug": "seax-ventures",
+  "url": "https://seaxventures.vc/",
+  "focus": "Venture Capital · Founded in 2018, SeaX Ventures is a venture capital firm based in Millbrae, California. Th",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "265684-15",
+  "meta": {
+    "aum": "$73M",
+    "active": 35,
+    "d6": 5,
+    "d12": 11,
+    "hq": "Millbrae, CA",
+    "quartile": 1,
+    "pbid": "265684-15",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/265684-15",
+    "news": "https://news.google.com/search?q=SeaX%20Ventures",
+    "blog": "https://medium.com/seax-ventures",
+    "x": "https://twitter.com/SeaxVentures",
+    "linkedin": "https://www.linkedin.com/company/seax-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

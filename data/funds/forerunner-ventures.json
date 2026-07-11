@@ -1,0 +1,29 @@
+{
+  "name": "Forerunner Ventures",
+  "slug": "forerunner-ventures",
+  "url": "https://www.forerunnerventures.com/",
+  "focus": "Venture Capital · Founded in 2012, Forerunner Ventures is a venture capital firm based in San Francisco, Cal",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "52507-90",
+  "meta": {
+    "aum": "$3.0B",
+    "active": 111,
+    "d6": 10,
+    "d12": 34,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "52507-90",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/52507-90",
+    "news": "https://news.google.com/search?q=Forerunner%20Ventures",
+    "blog": "https://www.forerunnerventures.com/perspectives",
+    "x": "https://twitter.com/ForerunnerVC",
+    "linkedin": "https://www.linkedin.com/company/forerunner-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

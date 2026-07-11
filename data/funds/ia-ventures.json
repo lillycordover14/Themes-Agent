@@ -1,0 +1,42 @@
+{
+  "name": "IA Ventures",
+  "slug": "ia-ventures",
+  "url": "https://www.iaventures.com/",
+  "focus": "Venture Capital · Founded in 2010, IA Ventures is a venture capital firm based in New York. The firm prefers",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "50986-90",
+  "meta": {
+    "aum": "$160M",
+    "active": 46,
+    "d6": 4,
+    "d12": 6,
+    "hq": "New York, NY",
+    "quartile": 2,
+    "pbid": "50986-90",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/50986-90",
+    "news": "https://news.google.com/search?q=IA%20Ventures",
+    "x": "https://x.com/iaventures",
+    "linkedin": "https://www.linkedin.com/company/ia-ventures"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Roger Ehrenberg",
+      "url": "https://infoarbitrage.substack.com/"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Roger Ehrenberg",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://infoarbitrage.substack.com/"
+    }
+  ]
+}

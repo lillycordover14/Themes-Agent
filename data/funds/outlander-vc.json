@@ -1,0 +1,29 @@
+{
+  "name": "Outlander VC",
+  "slug": "outlander-vc",
+  "url": "https://outlander.vc/",
+  "focus": "Venture Capital · Founded in 2015, Outlander VC is a venture capital firm based in New York, New York. The f",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "112786-30",
+  "meta": {
+    "aum": "$378M",
+    "active": 66,
+    "d6": 3,
+    "d12": 17,
+    "hq": "New York, NY",
+    "quartile": 2,
+    "pbid": "112786-30",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/112786-30",
+    "news": "https://news.google.com/search?q=Outlander%20VC",
+    "blog": "https://outlander.vc/fieldguides/",
+    "x": "https://twitter.com/outlandervc",
+    "linkedin": "https://www.linkedin.com/company/outlandervc"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

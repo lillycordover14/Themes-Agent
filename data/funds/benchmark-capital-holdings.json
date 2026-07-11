@@ -1,0 +1,42 @@
+{
+  "name": "Benchmark Capital Holdings",
+  "slug": "benchmark-capital-holdings",
+  "url": "https://www.benchmark.com/",
+  "focus": "Venture Capital · Founded in 1995, Benchmark Capital Holdings is a venture capital firm headquartered in Woo",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11133-01",
+  "meta": {
+    "aum": null,
+    "active": 81,
+    "d6": 14,
+    "d12": 27,
+    "hq": "Woodside, CA",
+    "quartile": 2,
+    "pbid": "11133-01",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11133-01",
+    "news": "https://news.google.com/search?q=Benchmark%20Capital%20Holdings",
+    "x": "https://twitter.com/benchmark",
+    "linkedin": "https://www.linkedin.com/company/benchmark-vc"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Bill Gurley",
+      "url": "https://abovethecrowd.com/"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Bill Gurley",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://abovethecrowd.com/"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Blockchain Capital",
+  "slug": "blockchain-capital",
+  "url": "https://www.blockchaincapital.com",
+  "focus": "Venture Capital · Founded in 2013, Blockchain Capital is a venture capital firm based in San Francisco, Cali",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "62119-72",
+  "meta": {
+    "aum": "$2.0B",
+    "active": 109,
+    "d6": 3,
+    "d12": 6,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "62119-72",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/62119-72",
+    "news": "https://news.google.com/search?q=Blockchain%20Capital",
+    "blog": "https://www.blockchaincapital.com/blog",
+    "x": "https://x.com/blockchaincap",
+    "linkedin": "https://www.linkedin.com/company/blockchain-capital-llc"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

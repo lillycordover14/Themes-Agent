@@ -1,0 +1,43 @@
+{
+  "name": "Town Hall Ventures",
+  "slug": "town-hall-ventures",
+  "url": "https://www.townhallventures.com/",
+  "focus": "Venture Capital · Founded in 2018, Town Hall Ventures is a venture capital investment firm based in New York",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "228475-00",
+  "meta": {
+    "aum": "$1.0B",
+    "active": 38,
+    "d6": 8,
+    "d12": 18,
+    "hq": "New York, NY",
+    "quartile": 1,
+    "pbid": "228475-00",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/228475-00",
+    "news": "https://news.google.com/search?q=Town%20Hall%20Ventures",
+    "blog": "https://www.townhallventures.com/insights",
+    "x": "https://twitter.com/townhallvntrs",
+    "linkedin": "https://www.linkedin.com/company/townhallventures"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Andy Slavitt",
+      "url": "https://medium.com/@ASlavitt"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Andy Slavitt",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://medium.com/@ASlavitt"
+    }
+  ]
+}

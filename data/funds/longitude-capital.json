@@ -1,0 +1,29 @@
+{
+  "name": "Longitude Capital",
+  "slug": "longitude-capital",
+  "url": "https://www.longitudecapital.com/",
+  "focus": "Venture Capital · Founded in 1997, Longitude Capital is a venture capital investment firm based in Menlo Par",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "13473-10",
+  "meta": {
+    "aum": "$2.4B",
+    "active": 32,
+    "d6": 4,
+    "d12": 7,
+    "hq": "Menlo Park, CA",
+    "quartile": 3,
+    "pbid": "13473-10",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/13473-10",
+    "news": "https://news.google.com/search?q=Longitude%20Capital",
+    "blog": "https://www.longitudecapital.com/posts/",
+    "x": "https://twitter.com/longitudecap",
+    "linkedin": "https://www.linkedin.com/company/longitude-capital"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

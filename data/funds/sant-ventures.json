@@ -1,0 +1,28 @@
+{
+  "name": "Santé Ventures",
+  "slug": "sant-ventures",
+  "url": "https://sante.com/",
+  "focus": "Venture Capital · Founded in 2006, Santé Ventures is a venture capital investment firm based in Austin, Texa",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11456-92",
+  "meta": {
+    "aum": "$1.1B",
+    "active": 40,
+    "d6": 6,
+    "d12": 12,
+    "hq": "Austin, TX",
+    "quartile": 2,
+    "pbid": "11456-92",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11456-92",
+    "news": "https://news.google.com/search?q=Santé%20Ventures",
+    "blog": "https://sante.com/newsroom",
+    "linkedin": "https://www.linkedin.com/company/sante-ventures/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

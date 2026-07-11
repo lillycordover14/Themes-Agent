@@ -1,0 +1,30 @@
+{
+  "name": "Madrona Venture Group",
+  "slug": "madrona-venture-group",
+  "url": "https://www.madrona.com/",
+  "focus": "Venture Capital · Founded in 1995, Madrona Venture Group is a venture capital firm based in Seattle, Washing",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11229-85",
+  "meta": {
+    "aum": "$3.0B",
+    "active": 140,
+    "d6": 12,
+    "d12": 25,
+    "hq": "Seattle, WA",
+    "quartile": 1,
+    "pbid": "11229-85",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11229-85",
+    "news": "https://news.google.com/search?q=Madrona%20Venture%20Group",
+    "blog": "https://www.madrona.com/insights/",
+    "substack": "https://hookedbymadrona.substack.com/",
+    "x": "https://x.com/madronaventures",
+    "linkedin": "https://www.linkedin.com/company/madrona-venture-group"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

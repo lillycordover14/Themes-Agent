@@ -1,0 +1,47 @@
+{
+  "name": "Boldstart",
+  "slug": "boldstart",
+  "url": "https://boldstart.vc",
+  "focus": "Inception / first-check; cyber, AI infra, physical AI",
+  "tier": "Seed",
+  "sources": {
+    "news": "https://boldstart.vc/news/",
+    "x": "https://x.com/boldstartvc",
+    "blog": "https://medium.com/boldstart-ventures",
+    "linkedin": "https://www.linkedin.com/company/boldstart-ventures"
+  },
+  "updates": [
+    {
+      "date": "2025-07",
+      "type": "New fund",
+      "title": "Fund VII — $250M inception-stage enterprise",
+      "link": "https://www.newcomer.co/p/exclusive-boldstart-ventures-raises",
+      "summary": "First-check for developer/infra founders building the autonomous enterprise; >$1B AUM."
+    },
+    {
+      "date": "2025",
+      "type": "Portfolio",
+      "title": "Clay, CrewAI, Tessl, Snyk, Protect AI",
+      "link": "https://boldstart.vc/",
+      "summary": "Cyber, AI infra, agent frameworks."
+    }
+  ],
+  "region": "Americas",
+  "meta": null,
+  "partner_substacks": [
+    {
+      "name": "Ed Sim",
+      "url": "https://www.whatshotit.vc"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Ed Sim",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://www.whatshotit.vc"
+    }
+  ]
+}

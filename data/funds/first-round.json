@@ -1,0 +1,26 @@
+{
+  "name": "First Round",
+  "slug": "first-round",
+  "url": "https://firstround.com",
+  "focus": "Seed; enterprise + SaaS",
+  "tier": "Seed",
+  "sources": {
+    "review": "https://review.firstround.com/",
+    "x": "https://x.com/firstround",
+    "blog": "https://review.firstround.com",
+    "linkedin": "https://www.linkedin.com/company/first-round-capital"
+  },
+  "updates": [
+    {
+      "date": "2026",
+      "type": "Investment",
+      "title": "Actively; Parallel Web Systems",
+      "link": "https://review.firstround.com/",
+      "summary": "16 new investments by mid-2026; steady AI/SaaS pace."
+    }
+  ],
+  "region": "Americas",
+  "meta": null,
+  "podcasts": [],
+  "people": []
+}

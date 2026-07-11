@@ -1,0 +1,29 @@
+{
+  "name": "TechOperators",
+  "slug": "techoperators",
+  "url": "https://www.techoperators.com/",
+  "focus": "Venture Capital · Founded in 2008, TechOperators is a venture capital firm based in Atlanta, Georgia. TechOp",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "25038-01",
+  "meta": {
+    "aum": "$185M",
+    "active": 13,
+    "d6": 3,
+    "d12": 4,
+    "hq": "Atlanta, GA",
+    "quartile": 1,
+    "pbid": "25038-01",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/25038-01",
+    "news": "https://news.google.com/search?q=TechOperators",
+    "blog": "https://www.techoperators.com/insights",
+    "x": "https://x.com/techoperators",
+    "linkedin": "https://www.linkedin.com/company/techoperators-llc"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

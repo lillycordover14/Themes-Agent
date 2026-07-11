@@ -1,0 +1,28 @@
+{
+  "name": "GoalVest Advisory",
+  "slug": "goalvest-advisory",
+  "url": "https://www.goalvestadvisory.com/",
+  "focus": "Venture Capital · Founded in 2016, GoalVest Advisory is a venture capital firm based in New York. This firm ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "483235-66",
+  "meta": {
+    "aum": "$777M",
+    "active": 20,
+    "d6": 3,
+    "d12": 4,
+    "hq": "New York, NY",
+    "quartile": 2,
+    "pbid": "483235-66",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/483235-66",
+    "news": "https://news.google.com/search?q=GoalVest%20Advisory",
+    "blog": "https://www.goalvestadvisory.com/insights",
+    "linkedin": "https://www.linkedin.com/company/goalvest-advisory"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

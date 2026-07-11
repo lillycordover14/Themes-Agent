@@ -1,0 +1,27 @@
+{
+  "name": "Actions Capital",
+  "slug": "actions-capital",
+  "url": "https://www.actions.capital/",
+  "focus": "Venture Capital · Founded in 2017, Actions Capital is a venture capital firm based in New York, New York. Th",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "436568-23",
+  "meta": {
+    "aum": null,
+    "active": 130,
+    "d6": 6,
+    "d12": 12,
+    "hq": "Encinitas, CA",
+    "quartile": 1,
+    "pbid": "436568-23",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/436568-23",
+    "news": "https://news.google.com/search?q=Actions%20Capital",
+    "linkedin": "https://www.linkedin.com/company/actions-capital/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

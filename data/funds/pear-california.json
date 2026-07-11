@@ -1,0 +1,24 @@
+{
+  "name": "Pear (California)",
+  "slug": "pear-california",
+  "url": "https://pitchbook.com/profiles/investor/58373-20",
+  "focus": "Venture Capital · Founded in 2013, Pear is a venture capital investment firm based in San Francisco, Califor",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "58373-20",
+  "meta": {
+    "aum": "$741M",
+    "active": 250,
+    "d6": 22,
+    "d12": 54,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "58373-20",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/58373-20",
+    "news": "https://news.google.com/search?q=Pear%20(California)"
+  },
+  "updates": []
+}

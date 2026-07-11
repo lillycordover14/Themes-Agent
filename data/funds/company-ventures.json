@@ -1,0 +1,29 @@
+{
+  "name": "Company Ventures",
+  "slug": "company-ventures",
+  "url": "https://www.companyventures.com/",
+  "focus": "Venture Capital · Founded in 2016, Company Ventures is a venture capital investment firm headquartered in Ne",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "97704-82",
+  "meta": {
+    "aum": "$133M",
+    "active": 101,
+    "d6": 4,
+    "d12": 13,
+    "hq": "New York, NY",
+    "quartile": 1,
+    "pbid": "97704-82",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/97704-82",
+    "news": "https://news.google.com/search?q=Company%20Ventures",
+    "blog": "https://www.companyventures.com/news-and-insights",
+    "x": "https://x.com/Company",
+    "linkedin": "https://www.linkedin.com/company/company-ventures/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

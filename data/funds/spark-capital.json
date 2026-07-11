@@ -1,0 +1,43 @@
+{
+  "name": "Spark Capital",
+  "slug": "spark-capital",
+  "url": "https://www.sparkcapital.com/",
+  "focus": "Venture Capital · Founded in 2005, Spark Capital is a venture capital firm based in San Francisco, Californi",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11303-02",
+  "meta": {
+    "aum": "$6.4B",
+    "active": 226,
+    "d6": 27,
+    "d12": 48,
+    "hq": "San Francisco, CA",
+    "quartile": 5,
+    "pbid": "11303-02",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11303-02",
+    "news": "https://news.google.com/search?q=Spark%20Capital",
+    "blog": "https://medium.com/spark-capital",
+    "x": "https://twitter.com/sparkcapital",
+    "linkedin": "https://www.linkedin.com/company/spark-capital-llc"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Nabeel Hyatt",
+      "url": "https://nabeelhyatt.com/"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Nabeel Hyatt",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://nabeelhyatt.com/"
+    }
+  ]
+}

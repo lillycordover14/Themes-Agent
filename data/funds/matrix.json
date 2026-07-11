@@ -1,0 +1,42 @@
+{
+  "name": "Matrix",
+  "slug": "matrix",
+  "url": "https://matrix.vc/",
+  "focus": "Venture Capital · Founded in 1977, Matrix is a venture capital firm based in Cambridge, Massachusetts. The f",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11237-50",
+  "meta": {
+    "aum": "$4.0B",
+    "active": 99,
+    "d6": 9,
+    "d12": 23,
+    "hq": "Cambridge, MA",
+    "quartile": 1,
+    "pbid": "11237-50",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11237-50",
+    "news": "https://news.google.com/search?q=Matrix",
+    "x": "https://x.com/matrixvc",
+    "linkedin": "https://www.linkedin.com/company/matrix-vc"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "David Skok",
+      "url": "https://www.forentrepreneurs.com/"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "David Skok",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://www.forentrepreneurs.com/"
+    }
+  ]
+}

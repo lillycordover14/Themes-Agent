@@ -1,0 +1,29 @@
+{
+  "name": "TTV Capital",
+  "slug": "ttv-capital",
+  "url": "https://ttvcapital.com/",
+  "focus": "Venture Capital · Founded in 2000, TTV Capital is a venture capital firm based in Atlanta, Georgia. The firm",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11319-04",
+  "meta": {
+    "aum": "$750M",
+    "active": 77,
+    "d6": 4,
+    "d12": 17,
+    "hq": "Atlanta, GA",
+    "quartile": 1,
+    "pbid": "11319-04",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11319-04",
+    "news": "https://news.google.com/search?q=TTV%20Capital",
+    "blog": "https://ttvcapital.com/insights/",
+    "x": "https://twitter.com/ttvcapital",
+    "linkedin": "https://www.linkedin.com/company/ttv-capital/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

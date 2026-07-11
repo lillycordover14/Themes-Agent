@@ -1,0 +1,30 @@
+{
+  "name": "Equal Ventures Management",
+  "slug": "equal-ventures-management",
+  "url": "https://www.equal.vc/",
+  "focus": "Venture Capital · Founded in 2018, Equal Ventures Management is a venture capital firm based in New York. Th",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "232303-96",
+  "meta": {
+    "aum": null,
+    "active": 24,
+    "d6": 3,
+    "d12": 6,
+    "hq": "New York, NY",
+    "quartile": 1,
+    "pbid": "232303-96",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/232303-96",
+    "news": "https://news.google.com/search?q=Equal%20Ventures%20Management",
+    "blog": "https://www.equal.vc/insights",
+    "substack": "https://newsletter.equal.vc/",
+    "x": "https://twitter.com/EqualVentures",
+    "linkedin": "https://www.linkedin.com/company/equal-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

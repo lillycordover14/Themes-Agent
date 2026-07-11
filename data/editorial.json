@@ -1,0 +1,359 @@
+{
+  "tailwinds": [
+    {
+      "k": "physical",
+      "name": "Physical World AI",
+      "signal": "Capability threshold · Cost curve",
+      "color": "#c0562e",
+      "why": "The loudest 2026 signal: AI moving from words to the physical world. Seedcamp just built a $320M fund around it; defense, robotics and space are drawing early capital. Vision-model quality crossed \"genuinely good\" as inference cost fell ~10x.",
+      "watch": "Multi-customer industrial/defense deployments proving the economics before national scale — the constrained-geography proof point.",
+      "examples": [
+        "Arkenstone Defense ($35M seed)",
+        "BioOrbit ($13M)",
+        "Sunrise Robotics",
+        "Oxipital AI",
+        "Aatmunn",
+        "Cableteque"
+      ]
+    },
+    {
+      "k": "agentinfra",
+      "name": "Agent-native infrastructure & AgentOps",
+      "signal": "Technical talent · New-infra bottleneck",
+      "color": "#116b6b",
+      "why": "a16z: the enterprise backend isn’t built for one agent goal to fan out into 5,000 sub-tasks in milliseconds. The control plane is being re-architected for agent-speed workloads — and the AgentOps orchestration layer is where the moat lives.",
+      "watch": "Bottom-up developer adoption with zero paid acquisition (GitHub stars, Show HN) — the GitHub/Stripe pattern.",
+      "examples": [
+        "Poetic ($50M A)",
+        "BespokeLabs",
+        "EquiLibre",
+        "display.dev",
+        "Bito",
+        "+ OpenClaw / Firecrawl (GitHub)"
+      ]
+    },
+    {
+      "k": "datainfra",
+      "name": "Unstructured-data cleanup & RL/eval infra",
+      "signal": "Bottleneck about to become evident",
+      "color": "#6a4c93",
+      "why": "a16z’s \"data entropy\": 80% of corporate knowledge is unstructured and decaying. Enterprises need continuous clean/structure/validate/govern so downstream AI works. Frontier labs are shifting from scraped to curated data + RL/eval — infra appreciates 2–3 yrs before apps (Gil).",
+      "watch": "Adoption by frontier labs / large enterprises as the reliability layer — the tell before it’s obvious.",
+      "examples": [
+        "BespokeLabs (Series A, $40M — Wing, Mayfield)",
+        "ARC Intelligence",
+        "Katalyze AI",
+        "+ Firecrawl (GitHub)"
+      ]
+    },
+    {
+      "k": "services",
+      "name": "AI-native services & digital labor",
+      "signal": "Irreversible behavior shift",
+      "color": "#3a7d44",
+      "why": "Sequoia: the next wave is AI-native services that sell completed work, not seats. PitchBook calls it a margin super-cycle from seat-based licenses to outcome-based digital labor. GTM, delivery and workforce ops are being rebuilt agent-first.",
+      "watch": "Outcome/usage pricing + becoming the system of record vs. a feature; net retention >120%.",
+      "examples": [
+        "Alta (AI revenue system)",
+        "Rocketlane",
+        "Skello",
+        "Hostie",
+        "Kapture CX"
+      ]
+    },
+    {
+      "k": "finops",
+      "name": "Autonomous back-office finance & GRC",
+      "signal": "Stagnant category · Behavior shift",
+      "color": "#2f6f8f",
+      "why": "AP, tax, collections and compliance software has been structurally unchanged for a decade; AI agents now do the work end-to-end. Finance teams already improvise with LLMs — the behavior is underway, the reliable infrastructure is the opening.",
+      "watch": "Ownership of a specific workflow with proprietary data + net retention >120% as it nears SPC stage.",
+      "examples": [
+        "Taxwire ($25M)",
+        "Finto",
+        "Agave ($15M A)",
+        "Auxilius.ai",
+        "blanco"
+      ]
+    },
+    {
+      "k": "vertical",
+      "name": "Vertical copilots for regulated professions",
+      "signal": "Stagnant category · Capability threshold",
+      "color": "#8a5a2b",
+      "why": "LLM reasoning crossed the bar for law, notarial work, medical billing and regulated finance — long-stagnant categories with deep workflow lock-in and proprietary-data moats. PitchBook: software without a data moat faces \"failure to thrive.\"",
+      "watch": "Depth of workflow integration + proprietary data that improves with scale — the differentiation budget can’t buy.",
+      "examples": [
+        "Turbo Law",
+        "paraito (notaries)",
+        "Procode AI",
+        "Kord"
+      ]
+    }
+  ],
+  "market": [
+    {
+      "t": "Physical AI is the consensus \"next wave.\"",
+      "d": "Seedcamp raised its biggest-ever $320M fund centered on AI touching the physical world; investors see Europe’s deep-tech edge here.",
+      "u": "https://my.pitchbook.com/news-center/pb9025673887873089449"
+    },
+    {
+      "t": "Agent-speed workloads break the enterprise backend.",
+      "d": "a16z Big Ideas 2026: recursive, bursty agent fan-out forces a re-architected control plane — \"agent-native\" infra and AgentOps.",
+      "u": "https://a16z.com/newsletter/big-ideas-2026-part-1/"
+    },
+    {
+      "t": "The moat moved to AgentOps + data moats.",
+      "d": "PitchBook: frontier LLMs are commoditized rentable engines; value is in the orchestration layer. ~20% of software is \"failure to thrive\" without a data moat.",
+      "u": "https://my.pitchbook.com/news-center/pb2145835526448331853"
+    },
+    {
+      "t": "AI-native services sell completed work, not seats.",
+      "d": "Sequoia’s 2026 thesis hardens around long-horizon agents and outcome-based \"digital labor\"; ~40% of enterprise software to embed task-specific agents.",
+      "u": "https://a16z.com/notes-on-ai-apps-in-2026/"
+    },
+    {
+      "t": "Financial & enterprise AI is the resilient applied vertical.",
+      "d": "PitchBook: the only applied vertical growing in both deal count and value — automation, risk, compliance; strong early-stage skew.",
+      "u": "https://my.pitchbook.com/research-center/report/9449bccc-5817-35f5-9b78-04119624c941"
+    },
+    {
+      "t": "North American funding hit records in H1 2026, AI-driven.",
+      "d": "Crunchbase: AI, energy and biotech led the biggest rounds; seed/angle dollars actually dipped in Q2 (~$4.9B) — selectivity rising.",
+      "u": "https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026/"
+    }
+  ],
+  "investors": [
+    {
+      "fund": "Accel",
+      "focus": "Seed / Series A · enterprise + AI",
+      "bets": "Code Metal (hardware/defense AI) · VoidZero · Atoms AI (w/ Google AI Futures)",
+      "note": "SPC-adjacent: Code Metal"
+    },
+    {
+      "fund": "Redpoint",
+      "focus": "Seed → growth · \"Pilots to Platforms\"",
+      "bets": "Champions AI (seed) · Gradient Labs ($26M A) · Modal Labs",
+      "note": ""
+    },
+    {
+      "fund": "Boldstart",
+      "focus": "Inception / first-check",
+      "bets": "Cybersecurity, AI infra, physical AI · Clay, CrewAI, Tessl",
+      "note": "Enterprise infra bellwether"
+    },
+    {
+      "fund": "Basis Set",
+      "focus": "AI-native seed / A · $250M Fund IV",
+      "bets": "Autonomous systems, AI infra, enterprise automation",
+      "note": ""
+    },
+    {
+      "fund": "Conviction",
+      "focus": "Leads AI pre-seed / seed",
+      "bets": "Infra depth, vertical wedges, defensible data moats",
+      "note": ""
+    },
+    {
+      "fund": "Amplify",
+      "focus": "Technical-founder infra seed",
+      "bets": "AI dev tools & data platforms (infra layer)",
+      "note": ""
+    },
+    {
+      "fund": "Felicis",
+      "focus": "Before consensus · $900M FV X",
+      "bets": "Armada · Fractile — moving early on AI infra",
+      "note": ""
+    },
+    {
+      "fund": "Wing",
+      "focus": "Early-stage enterprise",
+      "bets": "Led BespokeLabs ($40M A — data/RL infra)",
+      "note": ""
+    },
+    {
+      "fund": "Founders Fund",
+      "focus": "Seed → growth",
+      "bets": "Armada · led Halter Series E",
+      "note": ""
+    },
+    {
+      "fund": "First Round",
+      "focus": "Seed · 16 new deals by mid-2026",
+      "bets": "Actively · Parallel Web Systems",
+      "note": ""
+    }
+  ],
+  "engineers": [
+    {
+      "n": "OpenClaw",
+      "s": "210k★",
+      "d": "Agent that browses, fills forms, runs shell/code, writes its own skills. The breakout of 2026."
+    },
+    {
+      "n": "Firecrawl",
+      "s": "+5.1k★/wk",
+      "d": "Turns any website into clean, AI-ready data — context API for agents."
+    },
+    {
+      "n": "ponytail",
+      "s": "+8.2k★/wk",
+      "d": "Makes your AI agent \"think like the laziest senior dev\" — fast-rising agent tool."
+    },
+    {
+      "n": "Langflow / Dify / n8n",
+      "s": "trending",
+      "d": "Drag-and-drop agent pipeline builders — domain experts, not just ML engineers."
+    },
+    {
+      "n": "Ollama",
+      "s": "trending",
+      "d": "Run LLMs entirely on your own hardware — the on-device / edge signal."
+    },
+    {
+      "n": "Bumblebee (Perplexity)",
+      "s": "trending",
+      "d": "Supply-chain scanning — agentic tooling for physical/industrial ops."
+    },
+    {
+      "n": "BespokeLabs",
+      "s": "Series A",
+      "d": "Reliability for AI via large-scale simulation & evaluation (also a funded raise)."
+    },
+    {
+      "n": "display.dev",
+      "s": "Pre-Seed",
+      "d": "Share the files your AI agents create with teammates."
+    }
+  ],
+  "trackedFunds": "Accel · Redpoint · Sequoia · a16z · Benchmark · Greylock · Lightspeed · Bessemer · Battery · Menlo · Index · Insight · Boldstart · Amplify · Wing · Basis Set · Conviction · Felicis · Founders Fund · First Round · Uncork · Essence · Pear · YC",
+  "stages": [
+    "Angel",
+    "Pre Seed",
+    "Seed",
+    "Series A",
+    "Series A3",
+    "Early Stage",
+    "Later Stage",
+    "Strategic",
+    "Debt",
+    "Other"
+  ],
+  "classify_order": [
+    "physical",
+    "vertical",
+    "finops",
+    "datainfra",
+    "services",
+    "agentinfra"
+  ],
+  "keywords": {
+    "physical": [
+      "robot",
+      "machine vision",
+      "computer vision",
+      "visual ai",
+      "inspection",
+      "manufactur",
+      "wire harness",
+      "warehouse",
+      "logistic",
+      "supply chain",
+      "drone",
+      "autonomous",
+      "sensor",
+      "defense",
+      "space",
+      "fleet",
+      "safety",
+      "industrial",
+      "biomanufact",
+      "hardware"
+    ],
+    "vertical": [
+      "legal",
+      "litigation",
+      "notar",
+      "medical bill",
+      "clinical",
+      "patient",
+      "healthcare",
+      "insurance",
+      "broker",
+      "regulated",
+      "attorney",
+      "enrollment"
+    ],
+    "finops": [
+      "invoice",
+      "sales tax",
+      " tax ",
+      "accounts payable",
+      "expense",
+      "financial operations",
+      "job costing",
+      "governance, risk",
+      "grc",
+      "collections",
+      "credit management",
+      "financing",
+      "underwrit",
+      "accounting",
+      "bookkeep",
+      "spend management",
+      "fintech"
+    ],
+    "datainfra": [
+      "data curation",
+      "reinforcement learning",
+      "rl environ",
+      "evaluation",
+      "data intelligence",
+      "unstructured",
+      "training data",
+      "fine-tun",
+      "simulation",
+      "reliab",
+      "data pipeline",
+      "data platform"
+    ],
+    "services": [
+      "revenue",
+      "gtm",
+      "go-to-market",
+      "sales",
+      "customer experience",
+      "customer support",
+      "marketing",
+      "project management",
+      "workforce",
+      "scheduling",
+      "restaurant",
+      "productivity",
+      "onboarding",
+      "public relations",
+      "services"
+    ],
+    "agentinfra": [
+      "agent",
+      "orchestrat",
+      "developer",
+      "coding",
+      "deployment",
+      "inference",
+      "no-code",
+      "low-code",
+      "sdk",
+      " api",
+      "runtime",
+      "observability",
+      "knowledge base",
+      "virtualization",
+      "infrastructure",
+      "platform",
+      "copilot",
+      "llm"
+    ]
+  }
+}

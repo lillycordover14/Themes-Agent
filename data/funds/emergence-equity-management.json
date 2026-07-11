@@ -1,0 +1,30 @@
+{
+  "name": "Emergence Equity Management",
+  "slug": "emergence-equity-management",
+  "url": "https://www.emcap.com/",
+  "focus": "Venture Capital · Founded in 2003, Emergence Equity Management is a venture capital investment firm based in",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11171-44",
+  "meta": {
+    "aum": "$2.3B",
+    "active": 77,
+    "d6": 12,
+    "d12": 23,
+    "hq": "San Francisco, CA",
+    "quartile": 2,
+    "pbid": "11171-44",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11171-44",
+    "news": "https://news.google.com/search?q=Emergence%20Equity%20Management",
+    "blog": "https://www.emcap.com/thoughts",
+    "substack": "https://emcap.substack.com/",
+    "x": "https://x.com/emergencecap",
+    "linkedin": "https://www.linkedin.com/company/emergence-capital-partners"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

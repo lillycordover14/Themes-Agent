@@ -1,0 +1,28 @@
+{
+  "name": "Thrive Capital",
+  "slug": "thrive-capital",
+  "url": "https://www.thrivecap.com",
+  "focus": "Venture Capital · Founded in 2009, Thrive Capital is a venture capital firm headquartered in New York. The f",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "51625-90",
+  "meta": {
+    "aum": "$50.5B",
+    "active": 138,
+    "d6": 24,
+    "d12": 49,
+    "hq": "New York, NY",
+    "quartile": 3,
+    "pbid": "51625-90",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/51625-90",
+    "news": "https://news.google.com/search?q=Thrive%20Capital",
+    "x": "https://x.com/thrivecapital",
+    "linkedin": "https://www.linkedin.com/company/thrive-capital"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

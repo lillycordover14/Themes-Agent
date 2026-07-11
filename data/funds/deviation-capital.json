@@ -1,0 +1,29 @@
+{
+  "name": "Deviation Capital",
+  "slug": "deviation-capital",
+  "url": "https://deviation.com/",
+  "focus": "Venture Capital · Founded in 2012, Deviation Capital is a venture capital firm based in New York. The firm p",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "156736-99",
+  "meta": {
+    "aum": "$2.0B",
+    "active": 88,
+    "d6": 7,
+    "d12": 12,
+    "hq": "New York, NY",
+    "quartile": 1,
+    "pbid": "156736-99",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/156736-99",
+    "news": "https://news.google.com/search?q=Deviation%20Capital",
+    "blog": "https://deviation.com/updates",
+    "x": "https://x.com/deviationcap",
+    "linkedin": "https://www.linkedin.com/company/deviation-capital"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

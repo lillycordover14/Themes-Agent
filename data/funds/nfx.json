@@ -1,0 +1,29 @@
+{
+  "name": "NFX",
+  "slug": "nfx",
+  "url": "https://www.nfx.com/",
+  "focus": "Venture Capital · Founded in 2014, NFX is a venture capital firm based in San Francisco, California. The fir",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "124319-53",
+  "meta": {
+    "aum": "$1.0B",
+    "active": 267,
+    "d6": 21,
+    "d12": 43,
+    "hq": "San Francisco, CA",
+    "quartile": 2,
+    "pbid": "124319-53",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/124319-53",
+    "news": "https://news.google.com/search?q=NFX",
+    "blog": "https://www.nfx.com/library/essays",
+    "x": "https://twitter.com/nfx",
+    "linkedin": "https://www.linkedin.com/company/nfxvc"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

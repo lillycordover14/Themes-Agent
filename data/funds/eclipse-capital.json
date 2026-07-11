@@ -1,0 +1,29 @@
+{
+  "name": "Eclipse Capital",
+  "slug": "eclipse-capital",
+  "url": "https://eclipse.capital",
+  "focus": "Venture Capital · Founded in 2015, Eclipse Capital is a venture capital firm based in Palo Alto, California.",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "126290-08",
+  "meta": {
+    "aum": "$10.0B",
+    "active": 87,
+    "d6": 20,
+    "d12": 33,
+    "hq": "Palo Alto, CA",
+    "quartile": 1,
+    "pbid": "126290-08",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/126290-08",
+    "news": "https://news.google.com/search?q=Eclipse%20Capital",
+    "blog": "https://eclipse.capital/blog/",
+    "x": "https://x.com/EclipseVentures",
+    "linkedin": "https://www.linkedin.com/company/eclipse-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

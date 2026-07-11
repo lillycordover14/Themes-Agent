@@ -1,0 +1,29 @@
+{
+  "name": "VMG Partners",
+  "slug": "vmg-partners",
+  "url": "https://www.vmgpartners.com/",
+  "focus": "Venture Capital · Founded in 2005, VMG Partners is a venture capital firm based in San Francisco, California",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "10742-95",
+  "meta": {
+    "aum": "$3.2B",
+    "active": 53,
+    "d6": 6,
+    "d12": 13,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "10742-95",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/10742-95",
+    "news": "https://news.google.com/search?q=VMG%20Partners",
+    "blog": "https://www.vmgpartners.com/news",
+    "x": "https://x.com/vmg_partners",
+    "linkedin": "https://www.linkedin.com/company/vmg-partners/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

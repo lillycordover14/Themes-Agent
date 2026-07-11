@@ -1,0 +1,29 @@
+{
+  "name": "Initialized Capital",
+  "slug": "initialized-capital",
+  "url": "https://initialized.com/",
+  "focus": "Venture Capital · Founded in 2011, Initialized Capital is a venture capital firm based in San Francisco, Cal",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "54726-76",
+  "meta": {
+    "aum": "$3.0B",
+    "active": 181,
+    "d6": 11,
+    "d12": 23,
+    "hq": "San Francisco, CA",
+    "quartile": 3,
+    "pbid": "54726-76",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/54726-76",
+    "news": "https://news.google.com/search?q=Initialized%20Capital",
+    "blog": "https://blog.initialized.com/",
+    "x": "https://x.com/Initialized",
+    "linkedin": "https://www.linkedin.com/company/initialized-capital"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

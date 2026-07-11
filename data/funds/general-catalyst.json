@@ -1,0 +1,29 @@
+{
+  "name": "General Catalyst",
+  "slug": "general-catalyst",
+  "url": "https://www.generalcatalyst.com",
+  "focus": "Venture Capital · Founded in 2000, General Catalyst is a venture capital firm headquartered in San Francisco",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "10123-03",
+  "meta": {
+    "aum": "$45.5B",
+    "active": 715,
+    "d6": 112,
+    "d12": 225,
+    "hq": "San Francisco, CA",
+    "quartile": 6,
+    "pbid": "10123-03",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/10123-03",
+    "news": "https://news.google.com/search?q=General%20Catalyst",
+    "blog": "https://www.generalcatalyst.com/perspectives",
+    "x": "https://x.com/generalcatalyst",
+    "linkedin": "https://www.linkedin.com/company/general-catalyst-partners"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

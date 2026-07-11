@@ -1,0 +1,29 @@
+{
+  "name": "Drive Capital",
+  "slug": "drive-capital",
+  "url": "https://drivecapital.com/",
+  "focus": "Venture Capital · Founded in 2012, Drive Capital is a venture capital firm headquartered in Columbus, Ohio. ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "56852-47",
+  "meta": {
+    "aum": "$4.4B",
+    "active": 83,
+    "d6": 5,
+    "d12": 11,
+    "hq": "Columbus, OH",
+    "quartile": 2,
+    "pbid": "56852-47",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/56852-47",
+    "news": "https://news.google.com/search?q=Drive%20Capital",
+    "blog": "https://drivecapital.com/press",
+    "x": "https://x.com/drivecapital",
+    "linkedin": "https://www.linkedin.com/company/drivecapital"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

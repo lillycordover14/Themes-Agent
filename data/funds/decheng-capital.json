@@ -1,0 +1,28 @@
+{
+  "name": "Decheng Capital",
+  "slug": "decheng-capital",
+  "url": "https://www.decheng.com/",
+  "focus": "Venture Capital · Founded in 2012, Decheng Capital is a venture capital firm based in Menlo Park, California",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "53940-61",
+  "meta": {
+    "aum": "$2.5B",
+    "active": 31,
+    "d6": 4,
+    "d12": 7,
+    "hq": "Menlo Park, CA",
+    "quartile": 1,
+    "pbid": "53940-61",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/53940-61",
+    "news": "https://news.google.com/search?q=Decheng%20Capital",
+    "blog": "https://www.decheng.com/news.html",
+    "linkedin": "https://www.linkedin.com/company/decheng-capital-"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

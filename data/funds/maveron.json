@@ -1,0 +1,30 @@
+{
+  "name": "Maveron",
+  "slug": "maveron",
+  "url": "https://www.maveron.com",
+  "focus": "Venture Capital · Founded in 1998, Maveron is a venture capital firm headquartered in Seattle, Washington. T",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11237-68",
+  "meta": {
+    "aum": "$778M",
+    "active": 98,
+    "d6": 3,
+    "d12": 7,
+    "hq": "Seattle, WA",
+    "quartile": 6,
+    "pbid": "11237-68",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11237-68",
+    "news": "https://news.google.com/search?q=Maveron",
+    "blog": "https://www.maveron.com/insights",
+    "substack": "https://maveronvc.substack.com",
+    "x": "https://x.com/Maveron",
+    "linkedin": "https://www.linkedin.com/company/maveron"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

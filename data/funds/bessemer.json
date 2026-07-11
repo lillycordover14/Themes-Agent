@@ -1,0 +1,19 @@
+{
+  "name": "Bessemer",
+  "slug": "bessemer",
+  "url": "https://www.bvp.com",
+  "focus": "Seed → growth; cloud/AI (Atlas + Roadmaps)",
+  "tier": "Multistage",
+  "sources": {
+    "atlas": "https://www.bvp.com/atlas",
+    "roadmaps": "https://www.bvp.com/roadmaps",
+    "blog": "https://www.bvp.com/atlas",
+    "x": "https://x.com/BessemerVP",
+    "linkedin": "https://www.linkedin.com/company/bessemer-venture-partners"
+  },
+  "updates": [],
+  "region": "Americas",
+  "meta": null,
+  "podcasts": [],
+  "people": []
+}

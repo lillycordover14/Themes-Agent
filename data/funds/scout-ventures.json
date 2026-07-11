@@ -1,0 +1,29 @@
+{
+  "name": "Scout Ventures",
+  "slug": "scout-ventures",
+  "url": "https://www.scout.vc/",
+  "focus": "Venture Capital · Founded in 2009, Scout Ventures is a venture capital firm based in Austin, Texas. The firm",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "54883-36",
+  "meta": {
+    "aum": "$275M",
+    "active": 49,
+    "d6": 7,
+    "d12": 11,
+    "hq": "Austin, TX",
+    "quartile": 2,
+    "pbid": "54883-36",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/54883-36",
+    "news": "https://news.google.com/search?q=Scout%20Ventures",
+    "blog": "https://www.scout.vc/media",
+    "x": "https://x.com/ScoutVentures",
+    "linkedin": "https://www.linkedin.com/company/scout-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

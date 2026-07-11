@@ -1,0 +1,28 @@
+{
+  "name": "FINTOP (US)",
+  "slug": "fintop-us",
+  "url": "https://www.fintopcapital.com/",
+  "focus": "Venture Capital · Founded in 2016, FINTOP (US) is a venture capital firm based in Nashville, Tennessee. The ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "222604-48",
+  "meta": {
+    "aum": "$677M",
+    "active": 48,
+    "d6": 7,
+    "d12": 10,
+    "hq": "Nashville, TN",
+    "quartile": 1,
+    "pbid": "222604-48",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/222604-48",
+    "news": "https://news.google.com/search?q=FINTOP%20(US)",
+    "x": "https://twitter.com/fintopcap",
+    "linkedin": "https://www.linkedin.com/company/fintop-capital"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Polaris Partners",
+  "slug": "polaris-partners",
+  "url": "https://polarispartners.com/",
+  "focus": "Venture Capital · Founded in 1996, Polaris Partners is a venture capital firm based in Boston, Massachusetts",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11274-22",
+  "meta": {
+    "aum": "$4.0B",
+    "active": 128,
+    "d6": 3,
+    "d12": 12,
+    "hq": "Boston, MA",
+    "quartile": 2,
+    "pbid": "11274-22",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11274-22",
+    "news": "https://news.google.com/search?q=Polaris%20Partners",
+    "blog": "https://polarispartners.com/all-news/",
+    "x": "https://twitter.com/polarisvc",
+    "linkedin": "https://www.linkedin.com/company/polaris-partners/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

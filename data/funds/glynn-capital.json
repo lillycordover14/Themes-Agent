@@ -1,0 +1,28 @@
+{
+  "name": "Glynn Capital",
+  "slug": "glynn-capital",
+  "url": "https://www.glynncapital.com/",
+  "focus": "Venture Capital · Founded in 1974, Glynn Capital is a venture capital firm based in Menlo Park, California. ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11201-77",
+  "meta": {
+    "aum": "$1.5B",
+    "active": 51,
+    "d6": 4,
+    "d12": 5,
+    "hq": "Menlo Park, CA",
+    "quartile": 2,
+    "pbid": "11201-77",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11201-77",
+    "news": "https://news.google.com/search?q=Glynn%20Capital",
+    "blog": "https://www.glynncapital.com/news",
+    "linkedin": "https://www.linkedin.com/company/glynn-capital-management"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

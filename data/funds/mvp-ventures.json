@@ -1,0 +1,28 @@
+{
+  "name": "MVP Ventures",
+  "slug": "mvp-ventures",
+  "url": "https://www.mvp-vc.com/",
+  "focus": "Venture Capital · Founded in 2020, MVP Ventures is a venture capital investment firm based in Menlo Park, Ca",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "459230-05",
+  "meta": {
+    "aum": "$325M",
+    "active": 102,
+    "d6": 11,
+    "d12": 24,
+    "hq": "Menlo Park, CA",
+    "quartile": 1,
+    "pbid": "459230-05",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/459230-05",
+    "news": "https://news.google.com/search?q=MVP%20Ventures",
+    "x": "https://x.com/mvp_ventures",
+    "linkedin": "https://www.linkedin.com/company/mvp-venture-partners"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

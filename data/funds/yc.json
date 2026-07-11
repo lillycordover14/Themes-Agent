@@ -1,0 +1,32 @@
+{
+  "name": "Y Combinator",
+  "slug": "yc",
+  "url": "https://www.ycombinator.com",
+  "focus": "Accelerator / pre-seed",
+  "tier": "Seed",
+  "sources": {
+    "blog": "https://www.ycombinator.com/blog",
+    "launches": "https://www.ycombinator.com/launches",
+    "x": "https://x.com/ycombinator",
+    "linkedin": "https://www.linkedin.com/company/y-combinator"
+  },
+  "updates": [],
+  "region": "Americas",
+  "meta": null,
+  "partner_substacks": [
+    {
+      "name": "Paul Graham",
+      "url": "https://paulgraham.com"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Paul Graham",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://paulgraham.com"
+    }
+  ]
+}

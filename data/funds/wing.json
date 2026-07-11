@@ -1,0 +1,26 @@
+{
+  "name": "Wing",
+  "slug": "wing",
+  "url": "https://www.wing.vc",
+  "focus": "Early-stage enterprise",
+  "tier": "Seed/A",
+  "sources": {
+    "content": "https://www.wing.vc/content",
+    "blog": "https://www.wing.vc/content",
+    "x": "https://x.com/Wing_VC",
+    "linkedin": "https://www.linkedin.com/company/wing-venture-capital"
+  },
+  "updates": [
+    {
+      "date": "2026",
+      "type": "Investment",
+      "title": "Led BespokeLabs ($40M Series A)",
+      "link": "https://www.wing.vc/content",
+      "summary": "Data curation + RL/eval infrastructure for model reliability."
+    }
+  ],
+  "region": "Americas",
+  "meta": null,
+  "podcasts": [],
+  "people": []
+}

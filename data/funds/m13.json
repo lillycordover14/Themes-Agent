@@ -1,0 +1,29 @@
+{
+  "name": "M13",
+  "slug": "m13",
+  "url": "https://www.m13.co/",
+  "focus": "Venture Capital · Founded in 2016, M13 is a venture capital firm based in Santa Monica, California. The firm",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "160610-32",
+  "meta": {
+    "aum": "$1.0B",
+    "active": 135,
+    "d6": 8,
+    "d12": 16,
+    "hq": "Santa Monica, CA",
+    "quartile": 1,
+    "pbid": "160610-32",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/160610-32",
+    "news": "https://news.google.com/search?q=M13",
+    "blog": "https://www.m13.co/insights",
+    "x": "https://twitter.com/m13company",
+    "linkedin": "https://www.linkedin.com/company/m13-company"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

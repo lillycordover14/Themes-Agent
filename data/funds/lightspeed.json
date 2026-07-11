@@ -1,0 +1,28 @@
+{
+  "name": "Lightspeed",
+  "slug": "lightspeed",
+  "url": "https://lsvp.com",
+  "focus": "Seed → growth; enterprise + AI",
+  "tier": "Multistage",
+  "sources": {
+    "blog": "https://lsvp.com/stories/",
+    "x": "https://x.com/lightspeedvp",
+    "pitchbook": "https://pitchbook.com/profiles/investor/11333-26",
+    "linkedin": "https://www.linkedin.com/company/lightspeed-venture-partners"
+  },
+  "updates": [],
+  "meta": {
+    "aum": "$30.0B",
+    "active": 521,
+    "d6": 76,
+    "d12": 149,
+    "hq": "Menlo Park, CA",
+    "quartile": 8,
+    "pbid": "11333-26",
+    "itype": "Venture Capital"
+  },
+  "region": "Americas",
+  "pbid": "11333-26",
+  "podcasts": [],
+  "people": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Benchmark",
+  "slug": "benchmark",
+  "url": "https://www.benchmark.com",
+  "focus": "Series A-focused, concentrated",
+  "tier": "Multistage",
+  "sources": {
+    "x": "https://x.com/benchmark"
+  },
+  "updates": [],
+  "region": "Americas",
+  "meta": null,
+  "partner_substacks": [
+    {
+      "name": "Sarah Tavel",
+      "url": "https://www.sarahtavel.com"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Sarah Tavel",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://www.sarahtavel.com"
+    }
+  ]
+}

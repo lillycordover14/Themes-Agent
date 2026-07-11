@@ -1,0 +1,43 @@
+{
+  "name": "Upfront Ventures",
+  "slug": "upfront-ventures",
+  "url": "https://upfront.com/",
+  "focus": "Venture Capital · Founded in 1996, Upfront Ventures is a venture capital firm based in Los Angeles, Californ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11201-59",
+  "meta": {
+    "aum": "$3.3B",
+    "active": 103,
+    "d6": 9,
+    "d12": 23,
+    "hq": "Los Angeles, CA",
+    "quartile": 1,
+    "pbid": "11201-59",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11201-59",
+    "news": "https://news.google.com/search?q=Upfront%20Ventures",
+    "blog": "https://upfront.com/thoughts",
+    "x": "https://twitter.com/upfrontvc",
+    "linkedin": "https://www.linkedin.com/company/upfront-ventures"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Mark Suster",
+      "url": "https://bothsidesofthetable.com/"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Mark Suster",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://bothsidesofthetable.com/"
+    }
+  ]
+}

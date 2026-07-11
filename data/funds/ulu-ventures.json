@@ -1,0 +1,29 @@
+{
+  "name": "Ulu Ventures",
+  "slug": "ulu-ventures",
+  "url": "https://uluventures.com",
+  "focus": "Venture Capital · Founded in 2008, Ulu Ventures is a venture capital firm based in Palo Alto, California. Th",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "43226-11",
+  "meta": {
+    "aum": "$200M",
+    "active": 156,
+    "d6": 3,
+    "d12": 9,
+    "hq": "Palo Alto, CA",
+    "quartile": 1,
+    "pbid": "43226-11",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/43226-11",
+    "news": "https://news.google.com/search?q=Ulu%20Ventures",
+    "blog": "https://uluventures.com/insights-blog/",
+    "x": "https://x.com/uluventures",
+    "linkedin": "https://www.linkedin.com/company/ulu-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

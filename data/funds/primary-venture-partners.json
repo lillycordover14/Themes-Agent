@@ -1,0 +1,29 @@
+{
+  "name": "Primary Venture Partners",
+  "slug": "primary-venture-partners",
+  "url": "https://www.primary.vc/",
+  "focus": "Venture Capital · Founded in 2015, Primary Venture Partners is a venture capital firm based in New York. The",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11209-51",
+  "meta": {
+    "aum": "$1.6B",
+    "active": 90,
+    "d6": 9,
+    "d12": 22,
+    "hq": "New York, NY",
+    "quartile": 1,
+    "pbid": "11209-51",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11209-51",
+    "news": "https://news.google.com/search?q=Primary%20Venture%20Partners",
+    "blog": "https://www.primary.vc/insights",
+    "x": "https://twitter.com/PrimaryVC",
+    "linkedin": "https://www.linkedin.com/company/primary-venture-partners"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

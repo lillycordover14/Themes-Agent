@@ -1,0 +1,29 @@
+{
+  "name": "Bain Capital Ventures",
+  "slug": "bain-capital-ventures",
+  "url": "https://baincapitalventures.com/",
+  "focus": "Venture Capital · Founded in 1984, Bain Capital Ventures is a venture capital firm based in San Francisco, C",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "42202-18",
+  "meta": {
+    "aum": "$10.0B",
+    "active": 209,
+    "d6": 31,
+    "d12": 56,
+    "hq": "Boston, MA",
+    "quartile": 2,
+    "pbid": "42202-18",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/42202-18",
+    "news": "https://news.google.com/search?q=Bain%20Capital%20Ventures",
+    "blog": "https://baincapitalventures.com/insights/",
+    "x": "https://twitter.com/baincapvc",
+    "linkedin": "https://www.linkedin.com/company/bain-capital-ventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Scale Venture Partners",
+  "slug": "scale-venture-partners",
+  "url": "https://www.scalevp.com/",
+  "focus": "Venture Capital · Founded in 2000, Scale Venture Partners is a venture capital firm based in Foster City, Ca",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "10521-46",
+  "meta": {
+    "aum": "$2.8B",
+    "active": 77,
+    "d6": 5,
+    "d12": 14,
+    "hq": "Foster City, CA",
+    "quartile": 1,
+    "pbid": "10521-46",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/10521-46",
+    "news": "https://news.google.com/search?q=Scale%20Venture%20Partners",
+    "blog": "https://www.scalevp.com/insights/",
+    "x": "https://x.com/scalevp",
+    "linkedin": "https://www.linkedin.com/company/scale-venture-partners"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

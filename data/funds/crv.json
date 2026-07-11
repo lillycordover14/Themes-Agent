@@ -1,0 +1,29 @@
+{
+  "name": "CRV",
+  "slug": "crv",
+  "url": "https://www.crv.com",
+  "focus": "Venture Capital · Founded in 1970, CRV is a venture capital firm based in Palo Alto, California. The firm pr",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "10133-20",
+  "meta": {
+    "aum": "$2.5B",
+    "active": 190,
+    "d6": 20,
+    "d12": 42,
+    "hq": "Palo Alto, CA",
+    "quartile": 1,
+    "pbid": "10133-20",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/10133-20",
+    "news": "https://news.google.com/search?q=CRV",
+    "blog": "https://medium.com/crv-insights",
+    "x": "https://x.com/CRV",
+    "linkedin": "https://www.linkedin.com/company/crv"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

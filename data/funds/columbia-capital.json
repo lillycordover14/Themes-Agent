@@ -1,0 +1,27 @@
+{
+  "name": "Columbia Capital",
+  "slug": "columbia-capital",
+  "url": "https://colcap.com/",
+  "focus": "Venture Capital · Founded in 1989, Columbia Capital is a venture capital firm based in Alexandria, Virginia.",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "10195-75",
+  "meta": {
+    "aum": "$9.1B",
+    "active": 45,
+    "d6": 5,
+    "d12": 9,
+    "hq": "Alexandria, VA",
+    "quartile": 2,
+    "pbid": "10195-75",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/10195-75",
+    "news": "https://news.google.com/search?q=Columbia%20Capital",
+    "linkedin": "https://www.linkedin.com/company/columbia-capital"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

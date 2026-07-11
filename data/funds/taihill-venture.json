@@ -1,0 +1,27 @@
+{
+  "name": "Taihill Venture",
+  "slug": "taihill-venture",
+  "url": "https://taihill.vc/",
+  "focus": "Venture Capital · Founded in 2017, Taihill Venture is a venture capital firm based in Cambridge, Massachuset",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "180248-23",
+  "meta": {
+    "aum": "$50M",
+    "active": 68,
+    "d6": 3,
+    "d12": 7,
+    "hq": "Cambridge, MA",
+    "quartile": 1,
+    "pbid": "180248-23",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/180248-23",
+    "news": "https://news.google.com/search?q=Taihill%20Venture",
+    "linkedin": "https://www.linkedin.com/company/taihill-venture"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Inovia Capital",
+  "slug": "inovia-capital",
+  "url": "https://www.inovia.vc/",
+  "focus": "Venture Capital · Founded in 2007, Inovia Capital is a venture capital firm based in Montreal, Canada. The f",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "10618-12",
+  "meta": {
+    "aum": "$2.5B",
+    "active": 135,
+    "d6": 17,
+    "d12": 29,
+    "hq": "Montreal, Canada",
+    "quartile": 1,
+    "pbid": "10618-12",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/10618-12",
+    "news": "https://news.google.com/search?q=Inovia%20Capital",
+    "blog": "https://www.inovia.vc/inovia-conversations/",
+    "x": "https://twitter.com/inovia",
+    "linkedin": "https://www.linkedin.com/company/inovia-capital/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

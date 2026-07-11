@@ -1,0 +1,43 @@
+{
+  "name": "Energy Impact Partners",
+  "slug": "energy-impact-partners",
+  "url": "https://www.energyimpactpartners.com/",
+  "focus": "Venture Capital · Founded in 2015, Energy Impact Partners is a venture capital firm based in New York. The f",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "126374-59",
+  "meta": {
+    "aum": "$4.5B",
+    "active": 111,
+    "d6": 30,
+    "d12": 55,
+    "hq": "New York, NY",
+    "quartile": 1,
+    "pbid": "126374-59",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/126374-59",
+    "news": "https://news.google.com/search?q=Energy%20Impact%20Partners",
+    "blog": "https://www.energyimpactpartners.com/news/",
+    "x": "https://twitter.com/EnergyImpact_",
+    "linkedin": "https://www.linkedin.com/company/energy-impact-partners"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Andy Lubershane",
+      "url": "https://steelforfuel.substack.com"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Andy Lubershane",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://steelforfuel.substack.com"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "8VC",
+  "slug": "8vc",
+  "url": "https://www.8vc.com",
+  "focus": "Venture Capital · Founded in 2012, 8VC is a venture capital investment firm based in Austin, Texas. The firm",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "149720-23",
+  "meta": {
+    "aum": "$6.7B",
+    "active": 381,
+    "d6": 44,
+    "d12": 84,
+    "hq": "Austin, TX",
+    "quartile": 1,
+    "pbid": "149720-23",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/149720-23",
+    "news": "https://news.google.com/search?q=8VC",
+    "blog": "https://www.8vc.com/resources",
+    "x": "https://x.com/8vc",
+    "linkedin": "https://www.linkedin.com/company/8vc"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

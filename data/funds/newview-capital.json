@@ -1,0 +1,29 @@
+{
+  "name": "NewView Capital",
+  "slug": "newview-capital",
+  "url": "https://www.nvc.vc/",
+  "focus": "Venture Capital · Founded in 2018, NewView Capital is a venture capital investment firm based in Burlingame,",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "234961-84",
+  "meta": {
+    "aum": "$3.9B",
+    "active": 62,
+    "d6": 7,
+    "d12": 11,
+    "hq": "Burlingame, CA",
+    "quartile": 1,
+    "pbid": "234961-84",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/234961-84",
+    "news": "https://news.google.com/search?q=NewView%20Capital",
+    "blog": "https://www.nvc.vc/stories",
+    "x": "https://x.com/newviewcap",
+    "linkedin": "https://www.linkedin.com/company/newviewcap"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "LiveOak Ventures",
+  "slug": "liveoak-ventures",
+  "url": "https://liveoak.vc/",
+  "focus": "Venture Capital · Founded in 2012, LiveOak Ventures is a venture capital firm based in Austin, Texas. The fi",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "42728-77",
+  "meta": {
+    "aum": "$500M",
+    "active": 50,
+    "d6": 4,
+    "d12": 9,
+    "hq": "Austin, TX",
+    "quartile": 1,
+    "pbid": "42728-77",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/42728-77",
+    "news": "https://news.google.com/search?q=LiveOak%20Ventures",
+    "blog": "https://liveoak.vc/news-insights/",
+    "x": "https://twitter.com/liveoakvp",
+    "linkedin": "https://www.linkedin.com/company/liveoak-venture-partners/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

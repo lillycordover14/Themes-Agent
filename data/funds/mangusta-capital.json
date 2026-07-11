@@ -1,0 +1,27 @@
+{
+  "name": "Mangusta Capital",
+  "slug": "mangusta-capital",
+  "url": "https://www.mangustacap.com/",
+  "focus": "Venture Capital · Founded in 2024, Mangusta Capital is a venture firm based in San Francisco, United States.",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "606681-73",
+  "meta": {
+    "aum": "$100M",
+    "active": 20,
+    "d6": 4,
+    "d12": 13,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "606681-73",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/606681-73",
+    "news": "https://news.google.com/search?q=Mangusta%20Capital",
+    "linkedin": "https://www.linkedin.com/company/mangustacap"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

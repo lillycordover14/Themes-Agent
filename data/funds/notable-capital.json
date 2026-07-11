@@ -1,0 +1,43 @@
+{
+  "name": "Notable Capital",
+  "slug": "notable-capital",
+  "url": "https://www.notablecap.com/",
+  "focus": "Venture Capital · Founded in 2000, Notable Capital is a venture capital firm based in Menlo Park, California",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11203-21",
+  "meta": {
+    "aum": "$5.0B",
+    "active": 113,
+    "d6": 6,
+    "d12": 16,
+    "hq": "Menlo Park, CA",
+    "quartile": 4,
+    "pbid": "11203-21",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11203-21",
+    "news": "https://news.google.com/search?q=Notable%20Capital",
+    "blog": "https://www.notablecap.com/content",
+    "x": "https://x.com/notablecap",
+    "linkedin": "https://www.linkedin.com/company/notablecapital/"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Glenn Solomon",
+      "url": "https://goinglongblog.com/"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Glenn Solomon",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://goinglongblog.com/"
+    }
+  ]
+}

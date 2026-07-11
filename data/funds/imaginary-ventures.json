@@ -1,0 +1,27 @@
+{
+  "name": "Imaginary Ventures",
+  "slug": "imaginary-ventures",
+  "url": "https://www.imaginary.co/",
+  "focus": "Venture Capital · Founded in 2017, Imaginary Ventures is a venture capital firm based in New York. The firm ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "173473-84",
+  "meta": {
+    "aum": "$1.0B",
+    "active": 53,
+    "d6": 8,
+    "d12": 10,
+    "hq": "New York, NY",
+    "quartile": 1,
+    "pbid": "173473-84",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/173473-84",
+    "news": "https://news.google.com/search?q=Imaginary%20Ventures",
+    "linkedin": "https://www.linkedin.com/company/imaginary"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

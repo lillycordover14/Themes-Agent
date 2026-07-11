@@ -1,0 +1,29 @@
+{
+  "name": "AIX Ventures",
+  "slug": "aix-ventures",
+  "url": "https://www.aixventures.com/",
+  "focus": "Venture Capital · Founded in 2021, AIX Ventures is a venture capital firm based in San Francisco, California",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "489570-40",
+  "meta": {
+    "aum": "$250M",
+    "active": 79,
+    "d6": 9,
+    "d12": 22,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "489570-40",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/489570-40",
+    "news": "https://news.google.com/search?q=AIX%20Ventures",
+    "blog": "https://www.aixventures.com/newsroom",
+    "x": "https://x.com/aixventureshq",
+    "linkedin": "https://www.linkedin.com/company/aixventures"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": []
+}

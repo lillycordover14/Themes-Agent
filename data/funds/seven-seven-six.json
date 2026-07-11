@@ -1,0 +1,42 @@
+{
+  "name": "Seven Seven Six",
+  "slug": "seven-seven-six",
+  "url": "https://sevensevensix.com/",
+  "focus": "Venture Capital · Founded in 2020, Seven Seven Six is a venture capital investment firm based in Jupiter, Fl",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "439547-77",
+  "meta": {
+    "aum": "$1.3B",
+    "active": 123,
+    "d6": 7,
+    "d12": 28,
+    "hq": "Jupiter, FL",
+    "quartile": 4,
+    "pbid": "439547-77",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/439547-77",
+    "news": "https://news.google.com/search?q=Seven%20Seven%20Six",
+    "x": "https://x.com/sevensevensix",
+    "linkedin": "https://www.linkedin.com/company/sevensevensix"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Alexis Ohanian",
+      "url": "https://alexisohanian.com/"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Alexis Ohanian",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://alexisohanian.com/"
+    }
+  ]
+}

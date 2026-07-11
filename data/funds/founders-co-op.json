@@ -1,0 +1,42 @@
+{
+  "name": "Founders' Co-op",
+  "slug": "founders-co-op",
+  "url": "https://www.founderscoop.com",
+  "focus": "Venture Capital · Founded in 2008, Founders' Co-op is a venture capital firm based in Seattle, Washington. T",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "43003-54",
+  "meta": {
+    "aum": "$103M",
+    "active": 59,
+    "d6": 3,
+    "d12": 5,
+    "hq": "Seattle, WA",
+    "quartile": 1,
+    "pbid": "43003-54",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/43003-54",
+    "news": "https://news.google.com/search?q=Founders'%20Co-op",
+    "blog": "https://www.founderscoop.com/our-thoughts",
+    "linkedin": "https://www.linkedin.com/company/founders-co-op"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Chris DeVore",
+      "url": "https://crashdev.com"
+    }
+  ],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Chris DeVore",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://crashdev.com"
+    }
+  ]
+}
