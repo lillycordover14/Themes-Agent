@@ -50,6 +50,43 @@
   ],
   "region": "Americas",
   "meta": null,
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Byron Deeter",
+      "show": "Cloud Giants",
+      "title": "Host of Cloud Giants (Bessemer's cloud podcast)",
+      "url": "https://www.bvp.com/atlas/cloud-giants",
+      "date": ""
+    },
+    {
+      "person": "Jeremy Levine & Kent Bennett",
+      "show": "Invest Like the Best",
+      "title": "Building a VC Firm that Lasts Centuries (EP.327)",
+      "url": "https://open.spotify.com/episode/6YJOd54jJEwVpRNe3IslxS",
+      "date": "2023"
+    }
+  ],
+  "people": [
+    {
+      "name": "Byron Deeter",
+      "role": "Partner",
+      "x": "https://x.com/bdeeter",
+      "linkedin": "https://www.linkedin.com/in/byrondeeter",
+      "substack": ""
+    },
+    {
+      "name": "Jeremy Levine",
+      "role": "Partner",
+      "x": "https://x.com/jeremyl",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Talia Goldberg",
+      "role": "Partner",
+      "x": "https://x.com/TaliaGold",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

@@ -83,12 +83,41 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Learn All Crypto Topics | Phemex Academy - Phemex",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03dWEzZ0VPcHI1Q3hhTjQxbVZuOGtHcGd3R2F2VEFKTUJxOE93bUU2TENTYnlySk1DekxPSlhJcXdUT1hyWFJaQ2hWUFEzNVMtYUZxOWVrSldvUEdq?oc=5",
-      "date": "2026-05-12"
+      "person": "Anna Khan",
+      "show": "20VC",
+      "title": "Why Few Firms Are Doing True Early Stage Investing",
+      "url": "https://www.thetwentyminutevc.com/annakhan",
+      "date": ""
+    },
+    {
+      "person": "Saar Gur",
+      "show": "NFX Podcast",
+      "title": "On Why Market is the Most Important Factor",
+      "url": "https://www.youtube.com/watch?v=g2VO29nBWMI",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Saar Gur",
+      "role": "General Partner",
+      "x": "https://x.com/saarsaar",
+      "linkedin": "https://www.linkedin.com/in/saargur",
+      "substack": ""
+    },
+    {
+      "name": "Anna Khan",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Murat Bicer",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

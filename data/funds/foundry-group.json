@@ -34,21 +34,43 @@
       "url": "https://www.sethlevine.com/"
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "Seth Levine",
+      "show": "The Dart Board",
+      "title": "On Building a $4B Platform",
+      "url": "https://podcasts.apple.com/us/podcast/seth-levine-foundry-group/id1785419533?i=1000739465777",
+      "date": "2025"
+    },
+    {
+      "person": "Jaclyn Freeman Hester",
+      "show": "Acquired",
+      "title": "VC Fundamentals Part 4: Portfolio Management",
+      "url": "https://www.acquired.fm/episodes/vc-fundamentals-part-4",
+      "date": ""
+    }
+  ],
   "people": [
     {
       "name": "Brad Feld",
-      "role": "",
-      "x": "",
+      "role": "Co-founder & Partner",
+      "x": "https://x.com/bfeld",
       "linkedin": "",
-      "substack": "https://feld.com/"
+      "substack": "https://feld.com"
     },
     {
       "name": "Seth Levine",
-      "role": "",
+      "role": "Co-founder & Partner",
+      "x": "https://x.com/sether",
+      "linkedin": "",
+      "substack": "https://sethlevine.com"
+    },
+    {
+      "name": "Jaclyn Freeman Hester",
+      "role": "Partner",
       "x": "",
       "linkedin": "",
-      "substack": "https://www.sethlevine.com/"
+      "substack": ""
     }
   ]
 }

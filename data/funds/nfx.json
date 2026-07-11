@@ -39,6 +39,50 @@
       "summary": "The Case for Venture Capital in the Age of Superintelligence&nbsp;&nbsp;NFX"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "James Currier & Pete Flint",
+      "show": "The NFX Podcast",
+      "title": "Inside the Marketplace of Lyft",
+      "url": "https://podtail.com/en/podcast/the-nfx-podcast/",
+      "date": "2019"
+    },
+    {
+      "person": "Pete Flint",
+      "show": "The NFX Podcast",
+      "title": "The Four Major Defensibilities in the Digital World",
+      "url": "https://podcast.nfx.com/",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "James Currier",
+      "role": "General Partner",
+      "x": "https://x.com/JamesCurrier",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Pete Flint",
+      "role": "General Partner",
+      "x": "https://x.com/peteflint",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Gigi Levy-Weiss",
+      "role": "General Partner",
+      "x": "https://x.com/gigilevy",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Morgan Beller",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

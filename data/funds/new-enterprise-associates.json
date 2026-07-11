@@ -54,12 +54,41 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "From GE’s hot seat to Substack: Jeff Immelt reflects on a new chapter and why now is the time to get candid - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE40Sk9CTGV6dUtaR0o3U2Y2TnRrdU9LZ0ZxcFhhcEZhaC1fWkpwR1lQaThGRzBDbzVYaS1KTEh2Q1EtNV9BY1A1RG5kSmVhSFJOZVBtVEtkSTh6aGJwWkZ6LVNpTEo1a1hLVmhqak1jVi16bk9VaXV5WHFn?oc=5",
-      "date": "2026-06-01"
+      "person": "Mohamad Makhzoumi",
+      "show": "The Heart of Healthcare",
+      "title": "NEA Co-CEO Mohamad Makhzoumi",
+      "url": "https://podcasts.apple.com/us/podcast/healthcares-eras-tour-nea-co-ceo-mohamad-makhzoumi/id1575404727?i=1000701537530",
+      "date": "2025-03"
+    },
+    {
+      "person": "Tony Florence",
+      "show": "StrictlyVC Download",
+      "title": "On Building Breakthrough Brands",
+      "url": "https://podcasts.apple.com/us/podcast/neas-tony-florence/id1498270180?i=1000508878292",
+      "date": "2021"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Scott Sandell",
+      "role": "Executive Chairman & CIO",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Tony Florence",
+      "role": "Co-CEO",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Ann Bordetsky",
+      "role": "Partner, early-stage consumer & AI",
+      "x": "https://x.com/annbordetsky",
+      "linkedin": "https://www.linkedin.com/in/annbordetsky",
+      "substack": "https://annbordetsky.com/"
+    }
+  ]
 }

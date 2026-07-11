@@ -33,12 +33,41 @@
   "pbid": "48176-38",
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Gordon Ramsay’s favorite takeout and game day foods - MSN",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcndjUU5YMURlVEZFRmhCanozM2dScDh6NnJSRVhxLVczSDlwai00Q0pscktpQXVmNFQ4NUlfTXVRTC1Fb0YzV2k2MzNUU3dZSE9JWFB6OWxtcFA4UlpqZnpXRGZJd2ljNUNOWWZ6eEtxX2xiM0gzRXY2SzYtQ3BBSG4xQXI4czlVV1JQWHFXVHpOWmpHbm94XzRldTN4aVA3c1FNaG9DSWk2cjJiN3VBMg?oc=5",
-      "date": "2026-06-27"
+      "person": "Jeff Clavier",
+      "show": "Venture Unlocked",
+      "title": "Jeff Clavier on being one of the earliest seed VCs",
+      "url": "https://ventureunlocked.substack.com/p/jeffclavier",
+      "date": "2021-06"
+    },
+    {
+      "person": "Andy McLoughlin",
+      "show": "Venture with Grace",
+      "title": "Andy McLoughlin, Uncork Capital Managing Partner",
+      "url": "https://podcasts.apple.com/us/podcast/andy-mcloughlin-uncork-capital-managing-partner-on/id1729243199?i=1000752774620",
+      "date": "2025"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Jeff Clavier",
+      "role": "Founder & Managing Partner",
+      "x": "https://x.com/jeff",
+      "linkedin": "https://www.linkedin.com/in/jeffclavier/",
+      "substack": ""
+    },
+    {
+      "name": "Andy McLoughlin",
+      "role": "Managing Partner",
+      "x": "https://x.com/Bandrew",
+      "linkedin": "https://www.linkedin.com/in/andymcloughlin",
+      "substack": "https://www.andymcloughlin.co/"
+    },
+    {
+      "name": "Susan Liu",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/susanwliu/",
+      "substack": ""
+    }
+  ]
 }

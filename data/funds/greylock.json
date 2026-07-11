@@ -41,6 +41,50 @@
   ],
   "region": "Americas",
   "meta": null,
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Reid Hoffman",
+      "show": "Possible",
+      "title": "Host of Possible (with Aria Finger)",
+      "url": "https://www.possible.fm/",
+      "date": ""
+    },
+    {
+      "person": "Saam Motamedi",
+      "show": "Uncapped with Jack Altman",
+      "title": "How Venture Firms Endure",
+      "url": "https://www.youtube.com/watch?v=hdk8UXqW2AE",
+      "date": "2025-12"
+    },
+    {
+      "person": "Reid Hoffman & Saam Motamedi",
+      "show": "Greymatter (Greylock)",
+      "title": "Conversations About the State of AI",
+      "url": "https://greylock.com/blog/greymatter/",
+      "date": "2023"
+    }
+  ],
+  "people": [
+    {
+      "name": "Reid Hoffman",
+      "role": "General Partner",
+      "x": "https://x.com/reidhoffman",
+      "linkedin": "https://www.linkedin.com/in/reidhoffman",
+      "substack": "https://www.reidhoffman.org"
+    },
+    {
+      "name": "Saam Motamedi",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/saammotamedi",
+      "substack": ""
+    },
+    {
+      "name": "Jerry Chen",
+      "role": "Partner",
+      "x": "https://x.com/jerrychen",
+      "linkedin": "https://www.linkedin.com/in/jerrychenprofile",
+      "substack": ""
+    }
+  ]
 }

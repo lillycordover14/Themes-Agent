@@ -71,33 +71,48 @@
   "meta": null,
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Acclaimed podcast launches season two to amplify the voices of Black British writers - IMDb",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tc0dGSkZFZ1l0c2cteGxOTFZsb0ludXNJU3JxLWtGZWNUUV9hU1N5eFdjQWtfb2hHTUNWc1ZIaHlwODJrazZYcWxjRkladlF5N1RIQ3pNNGo3RGIwWTc1QzZKYW1waHprbnBrb2F6aw?oc=5",
-      "date": "2026-07-09"
+      "person": "Sunil Dhaliwal",
+      "show": "Open Source Ready (Heavybit)",
+      "title": "Technical Founders in the AI Era",
+      "url": "https://www.heavybit.com/library/podcasts/open-source-ready/ep-34-technical-founders-in-the-ai-era-with-sunil-dhaliwal",
+      "date": "2026-03"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Honoring America’s Veterans Launches New Podcast to Amplify Veterans Voices - The National Law Review",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTnMtd1F6emJrN1JYU0xZUWNzeUdXNC13SmNSUmxJbGxlcnMtdkwzOHZ4RW5TNTR5aUY5NW9BTGJwYWhCcEhPdm1STkUyZnFSX045NmdzV1pmTTFRc2lnMF9FVDdYNGFzSUFlN280V3pDQXBrSko0U0Vqdm9lS2tOeWY2bWkxckctellNZU9wRkxFU3JVZW9mek5BZ1JzZGlfbGh3WjdVUFF6M1pxR1IxUw?oc=5",
-      "date": "2026-07-01"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "FG launches podcast to amplify children’s voices - TheCable",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9DSzJwWGZUNGNQZmMwZlZ3Nm4wSml4TTdndVRXSHVsRHlsWVNQX1VaU2xnOU05TFNYeXJreVMtOVhmc3dRTHIzeVB5dm9CRUUxLV91aG00WWVocUpMTk9NbVl2MlFaNTZxRXZmbTFCcTdhM1VIWFlGZTRMSjM?oc=5",
-      "date": "2026-05-17"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Nigerian Government Unveils Podcast to Amplify Children’s Voices - Voice of Nigeria",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbnFMSDJrY3pqbXdkZFpLbExBU2RZSjhIOUQ0bGRvUjd6YlgxcGM1Yk5MRGM4S2dUbWYwQkk2akU0SFlvb3BxS1RBcWJEcFZ3V0VUMDlhX0w0V2NuZW9IM2QxZmRNcnVQNHdoUnczN3ppQ3BrYWFEUW9KOW9DbV9LNXJqdFlrLXkxLVdN?oc=5",
-      "date": "2026-05-16"
+      "person": "Sarah Catanzaro",
+      "show": "Gradient Dissent",
+      "title": "Remembering the Lessons of the Last AI Renaissance",
+      "url": "https://podcasts.apple.com/us/podcast/sarah-catanzaro/id1504567418?i=1000597742333",
+      "date": "2023-02"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Sunil Dhaliwal",
+      "role": "Founder & General Partner",
+      "x": "https://x.com/dhaliwas",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Mike Dauber",
+      "role": "General Partner",
+      "x": "https://x.com/dauber",
+      "linkedin": "https://www.linkedin.com/in/dauber/",
+      "substack": ""
+    },
+    {
+      "name": "Sarah Catanzaro",
+      "role": "General Partner",
+      "x": "https://x.com/sarahcat21",
+      "linkedin": "https://www.linkedin.com/in/sarah-catanzaro-9770b98/",
+      "substack": ""
+    },
+    {
+      "name": "Lenny Pruss",
+      "role": "General Partner",
+      "x": "https://x.com/lennypruss",
+      "linkedin": "https://www.linkedin.com/in/lennypruss",
+      "substack": ""
+    }
+  ]
 }

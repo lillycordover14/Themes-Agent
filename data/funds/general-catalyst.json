@@ -81,6 +81,36 @@
       "summary": "Relay Secures $50 Million in Financing to Build the Small Business Financial Command Center&nbsp;&nbsp;PR Newswire"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Hemant Taneja",
+      "show": "20VC",
+      "title": "The Future of VC: Chanel vs Walmart | Scaling GC to $40BN",
+      "url": "https://podcasts.apple.com/ge/podcast/20vc-general-catalyst-ceo-hemant-taneja/id958230465?i=1000727829613",
+      "date": "2025-09"
+    },
+    {
+      "person": "Hemant Taneja",
+      "show": "The Generalist Podcast",
+      "title": "Inside GC's $1B+ Bet on Fixing Healthcare",
+      "url": "https://www.generalist.com/p/inside-general-catalyst-hemant-taneja",
+      "date": "2025-08"
+    }
+  ],
+  "people": [
+    {
+      "name": "Hemant Taneja",
+      "role": "CEO & Managing Partner",
+      "x": "https://x.com/htaneja",
+      "linkedin": "https://www.linkedin.com/in/hemanttaneja",
+      "substack": ""
+    },
+    {
+      "name": "Ken Chenault",
+      "role": "Chairman & Managing Director",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

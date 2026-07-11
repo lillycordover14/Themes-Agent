@@ -83,19 +83,41 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Tech Billionaire Vinod Khosla Wants to Pay More Taxes. He Explained to Us Why. - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcEIyVzYtSTF4MGxrQ2lJZUpBRWJuTC10MVF1U24tdFhsX0VFUklkbkEyLUpXb0FJaEw1blVBUDhuTjJmZTM2cmdTX0JlRjdFdnBxemoxUVdMVV9kNWNDQ0x0UnZVTEcyYnh6V3lxR0I2QzJMZmJqZFlTSUtkSXQ2UTdLVUlWY1FCaG54enBRYVYxMDg?oc=5",
-      "date": "2026-07-05"
+      "person": "Vinod Khosla & Keith Rabois",
+      "show": "Uncapped with Jack Altman",
+      "title": "Vinod Khosla and Keith Rabois from Khosla Ventures",
+      "url": "https://pod.wave.co/podcast/uncapped-with-jack-altman/uncapped-40-vinod-khosla-and-keith-rabois",
+      "date": "2026-01"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "What Vinod Khosla Looks for in Founders ‘Above Everything Else’ - Entrepreneur",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObm45Y2hPc2hkTWRCYWlkRjc2dERXYXJZS05qRmxLNndnSWw2MEFWemgyV3dsaG85UzZZV3J3cER2X1doc2JnRmNSdjh6NFRMZ083Uk94end5MVFoOUtjZzJ0bWJlbC1pTkRXTVRlRmZVVnU5aGQxXzhxdnVTMG1UdHI2VUZOTFRHNmx1MFdMQS1OV1pwNkx1SUZqcm5vc01HbEVVZW03VWxNQjRHa3BBcXBQUnZxcjRBc0x5dkhrcUROQzA?oc=5",
-      "date": "2026-05-12"
+      "person": "Vinod Khosla",
+      "show": "More or Less",
+      "title": "What to Build in AI",
+      "url": "https://open.spotify.com/episode/1EsJkv2RubpJTs9vVsJpJL",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Vinod Khosla",
+      "role": "Founder & Managing Partner",
+      "x": "https://x.com/vkhosla",
+      "linkedin": "",
+      "substack": "https://medium.com/@vkhosla"
+    },
+    {
+      "name": "Keith Rabois",
+      "role": "Managing Director",
+      "x": "https://x.com/rabois",
+      "linkedin": "https://www.linkedin.com/in/keith/",
+      "substack": ""
+    },
+    {
+      "name": "Samir Kaul",
+      "role": "Founding Partner & MD",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

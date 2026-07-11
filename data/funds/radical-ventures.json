@@ -83,19 +83,41 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVWs0Y0htWE03N0JMbjZ2czFUUHozVm5pV0Fya3hJMEtjM3ZwRTJxNjJHN29XaDg2bG5rWmFVcHRuSjc3SGhJOGRLOU51aXBzYTdjVGhKVkZuT0dlakotaWMzQnl4c0dwVk1fQ1hKUjFiYXRvdTdpeFpmRkg3OHV3MFNPajJTUHA4eldKMG5JM3dTQWM1emlROUxTOUZMdDlqLXRmMEdod2wzQTlvazBhaTZNZjB6enE2?oc=5",
-      "date": "2026-07-08"
+      "person": "Rob Toews",
+      "show": "Radical Talks (Radical Ventures)",
+      "title": "On Overcoming AI's Catastrophic Forgetting",
+      "url": "https://creators.spotify.com/pod/profile/radicalventures/episodes/Rob-Toews-e37d1ae",
+      "date": "2025"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Exclusive: Orbital Industries, startup using AI to discover exotic new materials, raises $50 million Series B funding round - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUXU4T1R3dWFtTF9KNUxBUzduWVR1UDR3LTBzdUtBRWlMWE9kTl9MZUgwMl94Skg5Yk52ZXNSUkppSllES0RhUl8zQk1PYkVMbHNHOW5EUFRRbnVMTldiQzdXY3JpYUtpWnFpWk1wUE9VOGJwT0JpclI0YkNTa2oyay1rNTdmLXVBX2xZZ1I1RklPN1o2ckZ3QmUxSGFLR3ctajNiRHBxWEpuZnBDZEhKMmtoODVSbHlMR3kyQjN6WUQxRV9jLXNFcl9BQjNwc2lFWUtv?oc=5",
-      "date": "2026-05-28"
+      "person": "Jordan Jacobs",
+      "show": "The Unlimited Podcast",
+      "title": "Revisiting the AI Revolution",
+      "url": "https://creators.spotify.com/pod/profile/ginslerwealth/episodes/E58-Revisiting-the-AI-Revolution-with-Jordan-Jacobs-e36t487",
+      "date": "2025-08"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Jordan Jacobs",
+      "role": "Co-Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://ca.linkedin.com/in/jordanjacobs1",
+      "substack": ""
+    },
+    {
+      "name": "Rob Toews",
+      "role": "Partner; AI columnist at Forbes",
+      "x": "https://x.com/_RobToews",
+      "linkedin": "https://www.linkedin.com/in/robtoews/",
+      "substack": "https://www.forbes.com/sites/robtoews/"
+    },
+    {
+      "name": "Tomi Poutanen",
+      "role": "Co-Founder & Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/tomipoutanen/",
+      "substack": ""
+    }
+  ]
 }

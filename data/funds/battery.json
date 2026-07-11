@@ -71,33 +71,41 @@
   "meta": null,
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "INTERVIEW - ElevenEs targets H2 2027 launch for battery mega factory - SeeNews",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOFdxaFpJRWh1UjFhYjVKTzdTV0I2VE8tTV9zbkd3OENucGZLZjE1UUZkb1M3NzYtZzF3aXllOEpoNUhrU2dYbGQ4WHJ2dm5MbjhzdHo4b254cVd6NFB2ZG8wd01iQ3ptaS1nYmRJUzVlV2xTVktyWDBUcm9sUmVseHZqdzR6cVA0eDIxTk1fRW5KWUlkamFvUVNIWGN2X25I?oc=5",
-      "date": "2026-07-09"
+      "person": "Chelsea Stoner",
+      "show": "Goldman Sachs Exchanges",
+      "title": "The power of being 'stage agnostic' in tech investing",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/battery-ventures-chelsea-stoner",
+      "date": "2024-10"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Battery Interview - Oil, Gas & Electricity - United Kingdom - Mondaq",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1VRTRBM2tYR0pxM2dQb3I3eU1XNFNYWDE2MmtQUFNKUXl3WGctNjVCYS16U2tVX01nLU5lY2FIVUduQm0yZTNTZXVTSWhaNmdGVHJnZ25fb0xNMHBmWjdmSmFyRHpaR0hjQzdmLVprbnh3eGpmQW5WMmZkUQ?oc=5",
-      "date": "2026-07-09"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "FULL INTERVIEW: Children's Hospital Colorado doctor talks button battery awareness - KKTV",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQXlJRmNjd0hGWF9hQWZnT1FOM2FTb0MxVURjckxXY0JjRUVIeEdvTTFtQW9ZOEtHVDBZMmtUYXliS1FFY3Z5alhKUWptbXduV3hjVUtHbDRDYktoR1dUQzN3d1ZNR1F0UlNmRi1qTF91MHZ2SE9wME1GRzM3SF9IQjZqWHZYdkJwX0lXM2laVUV3SnlQZmptcTA5SURYNm51ZlcybnV3YkJmejlTbWgwOFd4U042SGRwdHNr?oc=5",
-      "date": "2026-06-19"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Atlanta Braves News: Chris Sale interview, Braves shut out, more - Battery Power",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXliUWFQYnBZSUpFd3loUkt3QURFRnZmNk5MeUwwb1VYdElDWXJPZzZfQ1J3RkE4Sy1Vb1BRZ2xocnZKODIzbURpRXh2MGN2ZmRROGNLOHJBdnlJODBXOVZudjYwcEhaTDN4elNrZmN0NUx4VXkxUmdCY3JsZDctN281bWI3d1NLd3lFOWROX0Nxb2p5d1RHaDRhMk1yaEtPWFBYVXlQRHVhQ3Rnc2hQZE8xM3k5di1F?oc=5",
-      "date": "2026-05-23"
+      "person": "Battery (firm)",
+      "show": "Powered by Battery",
+      "title": "Battery's own podcast with company builders",
+      "url": "https://podcasts.apple.com/us/podcast/powered-by-battery/id1475548918",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Neeraj Agrawal",
+      "role": "General Partner",
+      "x": "https://x.com/NeerajVC",
+      "linkedin": "https://www.linkedin.com/in/neerajagrawal2000",
+      "substack": ""
+    },
+    {
+      "name": "Dharmesh Thakker",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Chelsea Stoner",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

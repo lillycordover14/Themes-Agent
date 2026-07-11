@@ -40,12 +40,41 @@
   },
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Law & Order SVU episode 2409 \"And A Trauma In A Pear Tree\". - IMDb",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DUWc4a2lWZ2x1RU54WElLQVVaMDJIaEotVnBNeHFiQlZ3czZsT2hsalliTzFuU1ZycHRvYVowMjBQUE9nQmF2RE9EX1FhRnRFc2dFeVM3b0VJZw?oc=5",
-      "date": "2026-06-09"
+      "person": "Mar Hershenson",
+      "show": "20VC",
+      "title": "Biggest Indicators of Success in Founding Teams",
+      "url": "https://www.thetwentyminutevc.com/marhershenson",
+      "date": ""
+    },
+    {
+      "person": "Pejman Nozad",
+      "show": "Newcomer Podcast",
+      "title": "Rug Salesman Turned Valley Insider Raises a $432M Seed Fund",
+      "url": "https://www.newcomer.co/p/rug-salesman-turned-valley-insider",
+      "date": "2023"
+    },
+    {
+      "person": "Pejman Nozad",
+      "show": "Venture Unlocked",
+      "title": "Pejman Nozad of Pear on Building a Seed Franchise",
+      "url": "https://ventureunlocked.substack.com/p/pejman-nozad-of-pear-on-building",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Pejman Nozad",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://x.com/pejmannozad",
+      "linkedin": "https://www.linkedin.com/in/pejman",
+      "substack": ""
+    },
+    {
+      "name": "Mar Hershenson",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://x.com/marhershenson",
+      "linkedin": "https://www.linkedin.com/in/mar-hershenson-b21395/",
+      "substack": ""
+    }
+  ]
 }

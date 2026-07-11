@@ -33,6 +33,43 @@
       "summary": "S. 'Soma' Somasegar, longtime Seattle tech leader and VC, dies at 59&nbsp;&nbsp;The Business Journals"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Madrona",
+      "show": "Founded & Funded (Madrona)",
+      "title": "How Founders Win in the AI Era",
+      "url": "https://podcasts.apple.com/us/podcast/founded-funded/id1474740843",
+      "date": "2025"
+    },
+    {
+      "person": "Matt McIlwain",
+      "show": "Shift AI Podcast",
+      "title": "AI Front and Center",
+      "url": "https://creators.spotify.com/pod/profile/shift-ai/episodes/AI-Front-and-Center-with-Matt-McIlwain-e28f75j",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Matt McIlwain",
+      "role": "Managing Director",
+      "x": "https://x.com/mattmcilwain",
+      "linkedin": "https://www.linkedin.com/in/matt-mcilwain",
+      "substack": ""
+    },
+    {
+      "name": "S. Somasegar",
+      "role": "Managing Director",
+      "x": "https://x.com/SSomasegar",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Jon Turow",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

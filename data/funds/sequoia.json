@@ -83,33 +83,55 @@
   "pbid": "11295-73",
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Simulating Humans at Scale: Simile’s Joon Sung Park - Sequoia Capital",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQajc1TFpBb0lVRm5FdnRhYmpOdjNXaWVnZkRZVmZ5Ykhja0VLY1JuTGhXY3lEbDRMWW5OMFZlempOcVJxWFFvaFE4N3lMQ1Rnbm9rT1RTUmtLT1VTYlhNZUtsM1VqTU9mMDc5eU80LXNtN2NkVmFDRmdsd0RsT1dwZHlFWFlVaGxi?oc=5",
-      "date": "2026-07-11"
+      "person": "Sonya Huang & Pat Grady",
+      "show": "Training Data (Sequoia)",
+      "title": "Sequoia's podcast with leading AI builders",
+      "url": "https://podcasts.apple.com/us/podcast/training-data/id1750736528",
+      "date": "2024"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Watch CNBC's full interview with Sequoia Capital's Shaun Maguire - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWkx3a3pVWWZOd1VsazZNTWIwQ2NtTF9QczJ0d1hQSExhTnZSRmV0SjJCeGl6VlFlV2RhOHdkcFkyZ1djMTRiSUF1N3pzaVZXMERzUkxKNWRXZURPcTRzbWI5OEhDT25mVUxxUk1KaGd5UDRTVHcyWGYxWlJROUk5OUQ1R0lDc0pCMm53X1MxbEJ5ZW1HdUdjTHZlc0pXWHVYSTBQdjVVRGo?oc=5",
-      "date": "2026-06-12"
+      "person": "Roelof Botha",
+      "show": "Crucible Moments (Sequoia)",
+      "title": "The inflection points that shaped iconic companies",
+      "url": "https://sequoiacap.com/series/crucible-moments/",
+      "date": "2023"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Memory and Continual Learning: Engram’s Dan Biderman and Jessy Lin - Sequoia Capital",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbzdwNjViMzd0RW1wSWRQM0FFR0V4Z2RfUEM0S1ZuQ1BRc3ZwazJUSjhOYTR0TTBCaGpBdS1vaUhzMHVtSmdtZWlSSXd4cXc4RVY0cXR2M0VDLWxHaHVqd1V1clhNMjN0eUlQTzBzcGE4RC1JR0NZUUc1YTVweUU0Z1hJZzhaSEFXQnJVUHJqUEx3UXpLZ2FKTXZCeVc?oc=5",
-      "date": "2026-07-02"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Sequoia Holmes on Black Alternative Culture, Paramore and The Emo Era - Okayplayer",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc21iY2ctV0VzcnNxUmpKLTY1bTVtOTR3VUxBOW1DalF2bmlZeklOdnZFTDNTR3hwd2JHcUdMcGtGMnE3OXZaWXp3N3hlQS1rTzliaGRRdnRDYnI0SnFrNHFBeWEwdUZuQlNWcS03d3d1eGd6bXpfQzBhMUNQU3FTQ3VqZ3NQRmtZdGZqZ1l4WWEtSXRvSU03Z2xkZXFBRjRUdi1XamF3?oc=5",
-      "date": "2026-05-29"
+      "person": "Pat Grady & Sonya Huang",
+      "show": "NVIDIA AI Podcast",
+      "title": "Sequoia on Generative AI (Ep. 187)",
+      "url": "https://blogs.nvidia.com/blog/sequoia-capital-generative-ai/",
+      "date": "2023-01"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Roelof Botha",
+      "role": "Partner (former Senior Steward)",
+      "x": "https://x.com/roelofbotha",
+      "linkedin": "https://www.linkedin.com/in/roelofbotha/",
+      "substack": ""
+    },
+    {
+      "name": "Pat Grady",
+      "role": "Partner & Co-Steward, Head of Growth",
+      "x": "https://x.com/gradypb",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Alfred Lin",
+      "role": "Partner & Co-Steward",
+      "x": "https://x.com/Alfred_Lin",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Sonya Huang",
+      "role": "Partner (AI/Growth)",
+      "x": "https://x.com/sonyatweetybird",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

@@ -37,6 +37,36 @@
       "summary": "Adaptive Innovations Emerges with $50M Series A to Build Healthcare Abundance with AI Native Homecare Agency&nbsp;&nbsp;The AI Journal"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "David Tisch",
+      "show": "Invest Like the Best",
+      "title": "Tech Investing Outside of Silicon Valley (EP.55)",
+      "url": "https://open.spotify.com/episode/25F1jk279yTmb2Xecf5mYn",
+      "date": "2017-09"
+    },
+    {
+      "person": "David Tisch",
+      "show": "The Full Ratchet",
+      "title": "Why Optimizing for Ownership is a Trap",
+      "url": "https://fullratchet.net/382-why-optimizing-for-ownership-is-a-trap/",
+      "date": "2023"
+    }
+  ],
+  "people": [
+    {
+      "name": "David Tisch",
+      "role": "Founder & Managing Partner",
+      "x": "https://x.com/davidtisch",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Greg Rosen",
+      "role": "Partner",
+      "x": "https://x.com/grosen",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

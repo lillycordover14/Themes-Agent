@@ -54,19 +54,55 @@
   "pbid": "11281-06",
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Redpoint Ventures’ Scott Raney: The IPO Market Is Cracking Open But Still A Few Years Away From Wave Spacex Starship Rocket Launch (OUAxoYscBU) - Mshale",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JZ1hONWVhWUJTZHdVakYxcF9pRXNkOWFnX09fWjl2OFdEclVmNDd3OGRwelYxUTBKYjMyQjRGd29Wcl8xU0V2cEpnLWZ1MDB6OFlWeGpkUmc2eW1KNkNhZA?oc=5",
-      "date": "2026-07-03"
+      "person": "Logan Bartlett",
+      "show": "The Logan Bartlett Show",
+      "title": "Redpoint's own show (weekly interviews with tech leaders)",
+      "url": "https://theloganbartlettshow.simplecast.com/",
+      "date": ""
     },
     {
-      "person": "",
-      "show": "",
-      "title": "OpenAI and Anthropic are racing to hit public markets first, says Redpoint Ventures' Logan Bartlett - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaWhCNTFjR2VHaXBLcGpHWnhiTVpncHV1Sk1TZHZLWjBhVUlER0FDTklKSzE1WGtDSzRWUWFzUWd1bjBzLXpxYWNrQ3N4VnR0ZVJnejVWRnZ6b2VHNFZBX1JvczJ5M01ya3hBTHVoVUFhYkpFZldrMjl3M1RmX00yeWFrMHk5MDZicWFDaHEyS3daU3R2NTY1SUxfSDFYMXh1eGdJRDFaZmlvZnZ0R0JNSFlWdExYT2NPWmY2dnFHa3J5bkJpY0toSlBSaW9VS0lrTXlDbTJtYw?oc=5",
-      "date": "2026-06-09"
+      "person": "Jacob Effron",
+      "show": "Unsupervised Learning",
+      "title": "Redpoint's AI podcast (guests incl. Yann LeCun)",
+      "url": "https://www.redpoint.com/content-hub/unsupervised-learning/",
+      "date": ""
+    },
+    {
+      "person": "Scott Raney & Satish Dharmaraj",
+      "show": "The Logan Bartlett Show",
+      "title": "EP 60: Why AI Will Be Bigger Than Mobile",
+      "url": "https://theloganbartlettshow.simplecast.com/episodes/ep-60-rkLgAsaf",
+      "date": "2023"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Logan Bartlett",
+      "role": "Managing Director; host of The Logan Bartlett Show",
+      "x": "https://x.com/loganbartlett",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Satish Dharmaraj",
+      "role": "Managing Director",
+      "x": "https://x.com/satishd",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Scott Raney",
+      "role": "Managing Director",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Jacob Effron",
+      "role": "Managing Director; host of Unsupervised Learning",
+      "x": "https://x.com/jacobeffron",
+      "linkedin": "",
+      "substack": "https://unsupervisedlearning.substack.com"
+    }
+  ]
 }

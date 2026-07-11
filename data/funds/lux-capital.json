@@ -90,27 +90,48 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Lux Capital cofounder Josh Wolfe’s limited-odds, high-stakes 2027 predictions - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONmpwdENWVERSQ0h6NFZHdXBzQWtJRDQ2QXg5Z19mNHA4RVV0Ry1hdS1KakxNSzg2dWVHSXVadFd5YlFWQ00zWVBSYU5kblFkMVozcUxVdVgtTk9FMHA5UzA4NG9PVnZhNVVWcFQydnhKMjFJQnB1UHRNVHZPZXh4RXNjbU9XdFZSMG91RU0xUFdFbmdsSUJYaVcwekQ?oc=5",
-      "date": "2026-06-25"
+      "person": "Josh Wolfe",
+      "show": "Invest Like the Best",
+      "title": "Factories of the Future (EP.281)",
+      "url": "https://open.spotify.com/episode/1t8BXRMvH6siGiQO9bGe21",
+      "date": "2022-06"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "1001 raises $30m Series A led by Lux Capital, eight months after its seed, with PIF's Sanabil joining - FWDStart",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPenJTenJGY0UwTmc5SGE2b3NqcmxZWVdWNnQxaXV4VWVDbnhPWTdfelloSTBhSDNYbkQyZG5iVUdlYVJIRmhtdDIyUHEtSEVwMVhQUTBra2pYNlFTTWZQTGFiOEdnUUxMOWpTaEI0N01qMVZfZWhBZjZpaWhlVENNUjFwT2NlcmxiWmZnM0VIZTc4UTJPaFQ3cVVVeXlOOGRKZU5STFBLVGFnSWVxNzcyVFlSY1JrMEhFMzhFZ2NvOGFIUQ?oc=5",
-      "date": "2026-06-30"
+      "person": "Josh Wolfe",
+      "show": "The Knowledge Project",
+      "title": "Inventing the Future",
+      "url": "https://fs.blog/knowledge-project-podcast/josh-wolfe/",
+      "date": ""
     }
   ],
   "people": [
     {
-      "name": "Danny Crichton",
-      "role": "",
+      "name": "Josh Wolfe",
+      "role": "Co-founder & Managing Partner",
+      "x": "https://x.com/wolfejosh",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Peter Hebert",
+      "role": "Co-founder & Managing Partner",
+      "x": "https://x.com/peterhebert",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Deena Shakir",
+      "role": "General Partner",
+      "x": "https://x.com/deenashakir",
+      "linkedin": "",
+      "substack": "https://deenashakir.com"
+    },
+    {
+      "name": "Grace Isford",
+      "role": "Partner",
       "x": "",
       "linkedin": "",
-      "substack": "https://substack.com/@dannycrichton"
+      "substack": ""
     }
   ]
 }

@@ -72,12 +72,48 @@
   "meta": null,
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "An Interview with Alan Goble, Author of the International Film Index - Yorkshire Magazine",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORHJRQUZzTTRiWVlkUTdGbXplRzl5TFJkam9paHlndWRybHhKQzkwYlFwNFRlOWpCck9Zdm1RLTMxRW9rWnJtMHlONjNQbDBGdnFXQS1PUHpSVU55QjJTUVliLXdidGx6X3FObEdwRkl3M281eEZHZ1FjLWhwQVF3dnZLaFpaOUNlak9hWG9tQ3M?oc=5",
-      "date": "2026-06-27"
+      "person": "Shardul Shah",
+      "show": "20VC",
+      "title": "Why Market Size is a Trap | Lessons from Wiz & Datadog",
+      "url": "https://podcasts.apple.com/us/podcast/20vc-indexs-shardul-shah/id958230465?i=1000669667822",
+      "date": "2024-09"
+    },
+    {
+      "person": "Mike Volpi",
+      "show": "Turpentine VC",
+      "title": "On AI, Open Source, and Evolution of VC",
+      "url": "https://www.youtube.com/watch?v=D7VuYJBsgcg",
+      "date": "2024-07"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Danny Rimer",
+      "role": "Partner",
+      "x": "https://x.com/dannyrimer",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Nina Achadjian",
+      "role": "Partner",
+      "x": "https://x.com/ninaachadjian",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Shardul Shah",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Martin Mignot",
+      "role": "Partner",
+      "x": "https://x.com/martinmignot",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

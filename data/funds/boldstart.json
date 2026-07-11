@@ -48,14 +48,43 @@
       "url": "https://www.whatshotit.vc"
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "Ed Sim",
+      "show": "Driving Alpha",
+      "title": "Inception Investing in Technical Enterprise Founders",
+      "url": "https://podcasts.apple.com/us/podcast/ed-sim-of-boldstart-ventures/id1739450552?i=1000666082794",
+      "date": "2024"
+    },
+    {
+      "person": "Shomik Ghosh",
+      "show": "Software Snack Bites",
+      "title": "Host — enterprise software interviews",
+      "url": "https://shomik.substack.com/",
+      "date": ""
+    }
+  ],
   "people": [
     {
       "name": "Ed Sim",
-      "role": "",
-      "x": "",
+      "role": "Founder & Managing Partner",
+      "x": "https://x.com/edsim",
+      "linkedin": "https://www.linkedin.com/in/edsim/",
+      "substack": "https://www.whatshotit.vc/"
+    },
+    {
+      "name": "Eliot Durbin",
+      "role": "General Partner",
+      "x": "https://x.com/tedurbin",
       "linkedin": "",
-      "substack": "https://www.whatshotit.vc"
+      "substack": ""
+    },
+    {
+      "name": "Shomik Ghosh",
+      "role": "Partner",
+      "x": "https://x.com/shomikghosh21",
+      "linkedin": "",
+      "substack": "https://shomik.substack.com/"
     }
   ]
 }

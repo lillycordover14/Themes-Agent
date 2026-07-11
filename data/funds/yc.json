@@ -71,41 +71,48 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Y Combinator Partners on Building Superintelligence - StartupHub.ai",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUM5V3FQaTdxU2dLNkxWZHRXd0x1WFYwT2k1NDZSQ0c5M1o3ZzNwMVRYNDZUMGVFRWc5akF1OHJwWlJWZXN2MnZwc25xLWh0TV9Uc2dDM20yRjRtQ2FLd0tTMzFHWC0wQldudHdjSFcza2swRXZtQTgtQWpwR0FBTWtPR3NUSVB1RmJ5V0hpX2RReS1QTERQY19razVUQTlpclAyUlNaN1Y3enB5U2hBWWJ0SDU?oc=5",
-      "date": "2026-05-28"
+      "person": "YC Partners",
+      "show": "Lightcone Podcast (YC)",
+      "title": "The Truth About Building AI Startups Today",
+      "url": "https://podcasts.apple.com/us/podcast/lightcone-podcast/id1743860177",
+      "date": "2024"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "4 Irish founders join Y Combinator’s Summer 2026 Cohort - Think Business",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVzJfajdYU2c0WjRkVk5lSmVHTkZwSzhTZGRYak9XUnF2eXA1bjZmUVZ1S1hDdzRCRGxON3FnYUp4U3E1cmNzeUtSUXFBcjFNN2lueG9rUE9fQVR0UW82S1JIR1JSai1yZkt0Rkx1TlJrdEpxLWJjdUEza1F3MnhUdVlPYjhnRkZETmdta3l4N2xZNHc2UFBjNENkR1RaS3pLNVg4?oc=5",
-      "date": "2026-06-23"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Two Irish startups land places on coveted Y Combinator accelerator - Business Post",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONmw2aDRNM2dobGpWMzBnWTJ5WFVNTGdSR3JoLUo2VjVIeHNYUGRDN1NYTTFEM2pHWDVaYm93eVZUTVpuaVJQSUt1b2xpLXplQmIyVnM1RS0tb0dZdkVEU3BDcTluakd0SEprXzBHeFNOd0dlT3VIcWxFS25hWWlfSjIxRm5JRkZjbVdwVG83eVpsNFlwZEJsbjRpV2NUWGsydGc?oc=5",
-      "date": "2026-06-23"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Interview with Prox AI startup co‑founder Dmytro Yanovskyi - en.ain.ua",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUxnVjJrcDFhZVhsMVlFbDRMUmZPMDE2U2hfZnYyekdOX2lzMkVpZ3pTMF9vdGRXR3pNVnhYTUd3Q01kMWdrMWFkMHpDY0dJMFJIM0NONFZ5YmJ1cXdhcmsyVWVCWUkzMHd4UUVaZ0ZwYkhoYWNuS1ZrX3BoZDhMQkRRcE9wYVljbVlWcERaWXdENm1sd1puaUJRdDk?oc=5",
-      "date": "2026-05-26"
+      "person": "Garry Tan",
+      "show": "The Knowledge Project",
+      "title": "Inside Y Combinator's Startup Formula",
+      "url": "https://fs.blog/knowledge-project-podcast/garry-tan/",
+      "date": "2025-04"
     }
   ],
   "people": [
     {
-      "name": "Paul Graham",
-      "role": "",
-      "x": "",
+      "name": "Garry Tan",
+      "role": "President & CEO",
+      "x": "https://x.com/garrytan",
+      "linkedin": "https://www.linkedin.com/in/garrytan",
+      "substack": "https://www.garrytan.com"
+    },
+    {
+      "name": "Jared Friedman",
+      "role": "Group Partner & MD, Software",
+      "x": "https://x.com/snowmaker",
       "linkedin": "",
-      "substack": "https://paulgraham.com"
+      "substack": ""
+    },
+    {
+      "name": "Harj Taggar",
+      "role": "Group Partner & Managing Partner",
+      "x": "https://x.com/harjtaggar",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Diana Hu",
+      "role": "Group Partner",
+      "x": "https://x.com/sdianahu",
+      "linkedin": "",
+      "substack": ""
     }
   ]
 }

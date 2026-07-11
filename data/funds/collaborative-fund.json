@@ -83,12 +83,34 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Charities that will receive share of £15m collaborative fund revealed - Third Sector",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVElMYXlXRFRfNUZoeUUzRDViTTBKbkZMZmNpNnNGNFNWbDFMZDFtZktveFRRTmxOeS1VeEhTOExobUFkNlZ5bW9kcXROcWUzcjFTQjVuNTR5ZW5Xd252YWFhbjlId2xfdE95cXJYRTJUX04wZmgwUlIxUEFIMk5Wa29ERzA0OVNIcDZNZThZS1M1ZGJjWC04UEVNdGU5dHRqVV81WkEyQWNZWmRNdGNJS3JSX0NvVDVHTGc?oc=5",
-      "date": "2026-05-26"
+      "person": "Morgan Housel",
+      "show": "The Tim Ferriss Show",
+      "title": "The Psychology of Money",
+      "url": "https://tim.blog/2022/03/01/morgan-housel-the-psychology-of-money/",
+      "date": "2022-03"
+    },
+    {
+      "person": "Morgan Housel",
+      "show": "The Knowledge Project",
+      "title": "Get Rich, Stay Rich",
+      "url": "https://fs.blog/knowledge-project-podcast/morgan-housel-2/",
+      "date": "2024-05"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Craig Shapiro",
+      "role": "Founder & Managing Partner",
+      "x": "https://x.com/cshapiro",
+      "linkedin": "https://www.linkedin.com/in/craigjshapiro",
+      "substack": ""
+    },
+    {
+      "name": "Morgan Housel",
+      "role": "Partner",
+      "x": "https://x.com/morganhousel",
+      "linkedin": "https://www.linkedin.com/in/morganhousel",
+      "substack": "https://collabfund.com/blog/"
+    }
+  ]
 }

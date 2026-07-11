@@ -93,27 +93,48 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Venture capital pivots to apps to escape the AI infra bubble - Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9UMkozVXJob3N4dTVrVWVUX0J0d3cyNmdGdml1SXdlMGIyUnc2dUpSWm9vQmNjeXJCT0tvZ0xRQkl1R09vbDF1b2VfUTVKajAwdERvWEY1M0xZT00?oc=5",
-      "date": "2026-07-07"
+      "person": "Albert Wenger",
+      "show": "20VC",
+      "title": "On Automation, UBI & The Deployment Phase",
+      "url": "https://www.thetwentyminutevc.com/albertwenger",
+      "date": ""
+    },
+    {
+      "person": "Rebecca Kaden",
+      "show": "Venture Unlocked",
+      "title": "USV's theme-based investing approach",
+      "url": "https://ventureunlocked.substack.com/p/union-square-ventures-rebecca-kaden",
+      "date": "2021"
     }
   ],
   "people": [
     {
       "name": "Fred Wilson",
-      "role": "",
-      "x": "",
+      "role": "Co-founder & Managing Partner",
+      "x": "https://x.com/fredwilson",
       "linkedin": "",
-      "substack": "https://avc.com/"
+      "substack": "https://avc.com"
     },
     {
       "name": "Albert Wenger",
-      "role": "",
+      "role": "Managing Partner",
+      "x": "https://x.com/albertwenger",
+      "linkedin": "",
+      "substack": "https://continuations.com"
+    },
+    {
+      "name": "Rebecca Kaden",
+      "role": "General Partner",
       "x": "",
       "linkedin": "",
-      "substack": "https://continuations.com/"
+      "substack": ""
+    },
+    {
+      "name": "Nick Grossman",
+      "role": "Partner",
+      "x": "https://x.com/nickgrossman",
+      "linkedin": "",
+      "substack": "https://www.theslowhunch.net"
     }
   ]
 }

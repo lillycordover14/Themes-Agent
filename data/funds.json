@@ -85,8 +85,38 @@
           "summary": "Relay Secures $50 Million in Financing to Build the Small Business Financial Command Center&nbsp;&nbsp;PR Newswire"
         }
       ],
-      "podcasts": [],
-      "people": []
+      "podcasts": [
+        {
+          "person": "Hemant Taneja",
+          "show": "20VC",
+          "title": "The Future of VC: Chanel vs Walmart | Scaling GC to $40BN",
+          "url": "https://podcasts.apple.com/ge/podcast/20vc-general-catalyst-ceo-hemant-taneja/id958230465?i=1000727829613",
+          "date": "2025-09"
+        },
+        {
+          "person": "Hemant Taneja",
+          "show": "The Generalist Podcast",
+          "title": "Inside GC's $1B+ Bet on Fixing Healthcare",
+          "url": "https://www.generalist.com/p/inside-general-catalyst-hemant-taneja",
+          "date": "2025-08"
+        }
+      ],
+      "people": [
+        {
+          "name": "Hemant Taneja",
+          "role": "CEO & Managing Partner",
+          "x": "https://x.com/htaneja",
+          "linkedin": "https://www.linkedin.com/in/hemanttaneja",
+          "substack": ""
+        },
+        {
+          "name": "Ken Chenault",
+          "role": "Chairman & Managing Director",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Sequoia",
@@ -173,35 +203,57 @@
       "pbid": "11295-73",
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Simulating Humans at Scale: Simile’s Joon Sung Park - Sequoia Capital",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQajc1TFpBb0lVRm5FdnRhYmpOdjNXaWVnZkRZVmZ5Ykhja0VLY1JuTGhXY3lEbDRMWW5OMFZlempOcVJxWFFvaFE4N3lMQ1Rnbm9rT1RTUmtLT1VTYlhNZUtsM1VqTU9mMDc5eU80LXNtN2NkVmFDRmdsd0RsT1dwZHlFWFlVaGxi?oc=5",
-          "date": "2026-07-11"
+          "person": "Sonya Huang & Pat Grady",
+          "show": "Training Data (Sequoia)",
+          "title": "Sequoia's podcast with leading AI builders",
+          "url": "https://podcasts.apple.com/us/podcast/training-data/id1750736528",
+          "date": "2024"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Watch CNBC's full interview with Sequoia Capital's Shaun Maguire - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWkx3a3pVWWZOd1VsazZNTWIwQ2NtTF9QczJ0d1hQSExhTnZSRmV0SjJCeGl6VlFlV2RhOHdkcFkyZ1djMTRiSUF1N3pzaVZXMERzUkxKNWRXZURPcTRzbWI5OEhDT25mVUxxUk1KaGd5UDRTVHcyWGYxWlJROUk5OUQ1R0lDc0pCMm53X1MxbEJ5ZW1HdUdjTHZlc0pXWHVYSTBQdjVVRGo?oc=5",
-          "date": "2026-06-12"
+          "person": "Roelof Botha",
+          "show": "Crucible Moments (Sequoia)",
+          "title": "The inflection points that shaped iconic companies",
+          "url": "https://sequoiacap.com/series/crucible-moments/",
+          "date": "2023"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Memory and Continual Learning: Engram’s Dan Biderman and Jessy Lin - Sequoia Capital",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbzdwNjViMzd0RW1wSWRQM0FFR0V4Z2RfUEM0S1ZuQ1BRc3ZwazJUSjhOYTR0TTBCaGpBdS1vaUhzMHVtSmdtZWlSSXd4cXc4RVY0cXR2M0VDLWxHaHVqd1V1clhNMjN0eUlQTzBzcGE4RC1JR0NZUUc1YTVweUU0Z1hJZzhaSEFXQnJVUHJqUEx3UXpLZ2FKTXZCeVc?oc=5",
-          "date": "2026-07-02"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Sequoia Holmes on Black Alternative Culture, Paramore and The Emo Era - Okayplayer",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc21iY2ctV0VzcnNxUmpKLTY1bTVtOTR3VUxBOW1DalF2bmlZeklOdnZFTDNTR3hwd2JHcUdMcGtGMnE3OXZaWXp3N3hlQS1rTzliaGRRdnRDYnI0SnFrNHFBeWEwdUZuQlNWcS03d3d1eGd6bXpfQzBhMUNQU3FTQ3VqZ3NQRmtZdGZqZ1l4WWEtSXRvSU03Z2xkZXFBRjRUdi1XamF3?oc=5",
-          "date": "2026-05-29"
+          "person": "Pat Grady & Sonya Huang",
+          "show": "NVIDIA AI Podcast",
+          "title": "Sequoia on Generative AI (Ep. 187)",
+          "url": "https://blogs.nvidia.com/blog/sequoia-capital-generative-ai/",
+          "date": "2023-01"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Roelof Botha",
+          "role": "Partner (former Senior Steward)",
+          "x": "https://x.com/roelofbotha",
+          "linkedin": "https://www.linkedin.com/in/roelofbotha/",
+          "substack": ""
+        },
+        {
+          "name": "Pat Grady",
+          "role": "Partner & Co-Steward, Head of Growth",
+          "x": "https://x.com/gradypb",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Alfred Lin",
+          "role": "Partner & Co-Steward",
+          "x": "https://x.com/Alfred_Lin",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Sonya Huang",
+          "role": "Partner (AI/Growth)",
+          "x": "https://x.com/sonyatweetybird",
+          "linkedin": "",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Accel",
@@ -289,21 +341,43 @@
       "pbid": "10139-41",
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Why Did Accel, ElevenLabs' And Vercel’s CEO Just Back Polish Co-Founded Hardware Startup? - The Recursive",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGZaUmZ4ZWd4MjRPeENET2ZTbjc4dDN0MWhxMkd6WW1ZcGU3NGRBal93SVhURGlMMkI5SjJVckhpUFZZUWtIaWVaX1lwWUJDQWJNLWdOaDlKdUZ4WFZCSWtXN2FIWGtzSmZrdWZXOXpkSUhzTUpGSEtId1gzMjByZGM0Y2RQRkswN216Wnk2SUhWcS11czk4dEdrb1lwTDg5QkRkalFJWndhRWlwWjBldk5JNA?oc=5",
-          "date": "2026-06-29"
+          "person": "Accel (firm)",
+          "show": "Spotlight On",
+          "title": "Accel's podcast about how companies are built",
+          "url": "https://www.accel.com/spotlight-on",
+          "date": "2023"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Accel’s new India fund; AI to write Indian Government contracts; and India AI funding hits a growth wall - Moneycontrol.com",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOcXRQMVNmMmZVempRRDh3YzQ3LV9QY2V2UlFxNHlOTlpjcHNYVlBDUWdWXzlaMkFFaS1IRi0yaWNuOVRwV3pJNHM0d0ttZkZFaGxYay12NldaVzhIeV9KWlZwOW5MUnJCd24xSUMxWDhfR1dLdXZJRVZTQ0NHSDFPYlNBTTFWMzRFaXZBVlVLSmRCNDR4UHYyWGdLT0pBeC1vcmxHekNqcTdpTmVRdnl2cDhhNTk2NDlSTzdUc0I0MEdSelNIRS1fczBfUEJhc19MT0RiTnRYZ3dtalJ6YVRKbUUxdldMeXBNd2laYWZaRdIB9AFBVV95cUxNX2JCdVpsUDBxdERkaXYzVW55cm05bjBTelBQcFVGeWxPNDJQd0RSZTJ5QkdEMFRqZjNBd2dDWHF1b0dTSVMtZHdLZVd3SGVfRzNhdGZlV1p3YjdOR2FaemRZZkZSNWU1Uk9wcUlrYzJGLTFyOEhkcURDck9hWlB0MEtmTWlvdkxSWmgyM2tSWnJhTGNTLUNDd211bENmdmdlV2Ytakpaa193Y3JYR21HdXpOVzBWYzM2OE81cms1OGtZd2lZNllIXzZRZTJFTjFSQmZRQk9jeks4czZnblVJeE9tc0w1RW5DVURoVkpUbDVLZ2lt?oc=5",
-          "date": "2026-06-03"
+          "person": "Sonali De Rycker",
+          "show": "Equity (TechCrunch)",
+          "title": "Sonali De Rycker on AI, exits, and European tech",
+          "url": "https://podcasts.apple.com/us/podcast/accel-partner-sonali-de-rycker-on-ai-exits-and-european-tech/id1498270180?i=1000709187914",
+          "date": "2025-05"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Rich Wong",
+          "role": "General Partner",
+          "x": "https://x.com/rwong",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Sonali De Rycker",
+          "role": "General Partner (London)",
+          "x": "https://x.com/sderycker",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Andrew Braccia",
+          "role": "General Partner",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/andrewbraccia/",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Lightspeed",
@@ -389,21 +463,43 @@
       "pbid": "11333-26",
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Claire Zau - Lightspeed Venture Partners",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBMzA3NFVQZzloTEVLQVIzRDJDWVFIVnZPcWY0MXRsdU4zNHRoWXBuR0l0SEtoX282UUtKRWoxV2JMSU5FOUtoN2QzUU1QOTRMdUE?oc=5",
-          "date": "2026-05-14"
+          "person": "Michael Mignano",
+          "show": "Generative Now (Lightspeed)",
+          "title": "AI Builders on Creating the Future",
+          "url": "https://podcasts.apple.com/us/podcast/generative-now-ai-builders-on-creating-the-future/id1709773028",
+          "date": "2023"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "There's a new type of VC in Silicon Valley: the creator-investor - Business Insider",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWxRR1E5b0paVHRDRTRDVE1VVkZYMTdTQ19sWnNRQXJnQ2tfVlpZU1pqUF9ZTnBmYTBUUGZQNXh2QTRLUUZEM0Z2ZkhHUG1DQTVsWmNfbFQyYndudllHMnd3dnMzR0ZMSU9TMG0zQzA4Q2d4X1VtR2RpSWI4ZG51ZUwzbVlHbHZkYTNYenVuSFVCN0RlYTBNWUZHWlh4bWQ3VU83Rl9QUlhzaFE?oc=5",
-          "date": "2026-05-23"
+          "person": "Ravi Mhatre",
+          "show": "Lightwork (Lightspeed)",
+          "title": "Lightspeed Co-Founder on AI's Exponential Speed",
+          "url": "https://www.youtube.com/watch?v=M2NHdPYA8z0",
+          "date": ""
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Ravi Mhatre",
+          "role": "Co-Founder & Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Guru Chahal",
+          "role": "Partner (Enterprise, Infra & Security)",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/guruchahal",
+          "substack": "https://guruchahal.medium.com/"
+        },
+        {
+          "name": "Michael Mignano",
+          "role": "Partner; host of Generative Now",
+          "x": "https://x.com/mignano",
+          "linkedin": "https://www.linkedin.com/in/mignano/",
+          "substack": "https://migna.no/"
+        }
+      ]
     },
     {
       "name": "Khosla Ventures",
@@ -490,21 +586,43 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Tech Billionaire Vinod Khosla Wants to Pay More Taxes. He Explained to Us Why. - WSJ",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcEIyVzYtSTF4MGxrQ2lJZUpBRWJuTC10MVF1U24tdFhsX0VFUklkbkEyLUpXb0FJaEw1blVBUDhuTjJmZTM2cmdTX0JlRjdFdnBxemoxUVdMVV9kNWNDQ0x0UnZVTEcyYnh6V3lxR0I2QzJMZmJqZFlTSUtkSXQ2UTdLVUlWY1FCaG54enBRYVYxMDg?oc=5",
-          "date": "2026-07-05"
+          "person": "Vinod Khosla & Keith Rabois",
+          "show": "Uncapped with Jack Altman",
+          "title": "Vinod Khosla and Keith Rabois from Khosla Ventures",
+          "url": "https://pod.wave.co/podcast/uncapped-with-jack-altman/uncapped-40-vinod-khosla-and-keith-rabois",
+          "date": "2026-01"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "What Vinod Khosla Looks for in Founders ‘Above Everything Else’ - Entrepreneur",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObm45Y2hPc2hkTWRCYWlkRjc2dERXYXJZS05qRmxLNndnSWw2MEFWemgyV3dsaG85UzZZV3J3cER2X1doc2JnRmNSdjh6NFRMZ083Uk94end5MVFoOUtjZzJ0bWJlbC1pTkRXTVRlRmZVVnU5aGQxXzhxdnVTMG1UdHI2VUZOTFRHNmx1MFdMQS1OV1pwNkx1SUZqcm5vc01HbEVVZW03VWxNQjRHa3BBcXBQUnZxcjRBc0x5dkhrcUROQzA?oc=5",
-          "date": "2026-05-12"
+          "person": "Vinod Khosla",
+          "show": "More or Less",
+          "title": "What to Build in AI",
+          "url": "https://open.spotify.com/episode/1EsJkv2RubpJTs9vVsJpJL",
+          "date": ""
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Vinod Khosla",
+          "role": "Founder & Managing Partner",
+          "x": "https://x.com/vkhosla",
+          "linkedin": "",
+          "substack": "https://medium.com/@vkhosla"
+        },
+        {
+          "name": "Keith Rabois",
+          "role": "Managing Director",
+          "x": "https://x.com/rabois",
+          "linkedin": "https://www.linkedin.com/in/keith/",
+          "substack": ""
+        },
+        {
+          "name": "Samir Kaul",
+          "role": "Founding Partner & MD",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "8VC",
@@ -570,28 +688,36 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Joe Lonsdale, Co-Founder Of Palantir & Founding Partner Of 8vc Miley Cyrus (vrD6dk0j71) - Fathom Journal",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ubE4zcTFVM3dIOVpHRmJJWTE3Xy0wZzdSLWdzOEtZeEhpNG5yR1ppY0NUaDRHcG1wWEtjblZDeEJSeG5vVWRrNkZMeGtxWmhRMkNJaUlKQWVJV0lSdnpEVV96ckg?oc=5",
-          "date": "2026-06-27"
+          "person": "Joe Lonsdale",
+          "show": "American Optimist (8VC)",
+          "title": "Joe Lonsdale's own interview podcast",
+          "url": "https://podcasts.apple.com/us/podcast/joe-lonsdale-american-optimist/id1573141757",
+          "date": ""
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Watch CNBC's full interview with 8VC founding partner and Palantir co-founder Joe Lonsdale - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeEt4ZlAxamNvTG5jbnc5V0oteUc5XzFoWkJPbElraVhtSFE2ZEFPc1NMNEJHZ3NRT3d0WkpucXZQbEc5UDJNUEZPaWtlWU53WGpVZkFCUjNreTU3alJia01jSnRNY0xYUERncEl4bmlkVWNOM3RGcWo3SV83dnY1WTUtSGlTMDIzbVN3djJ0MktTdWEwOHNZSlFmS2VSZWlCd0htNG5QVTRXQlVYRHhlSmxBQlNRMUlaUTRxTURCTTZObHZyU3UyblE5bVo?oc=5",
-          "date": "2026-06-09"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "US, Philippines to reach deal on economic security zone 'sooner rather than later', US official says - Interaksyon",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNbHVWMG1taXB0ZjJZbjdmWjRsU3p1Q0ZEM1dfTFEwTjgycWwtaGFkSW9sZWVxdkJxZTczUUl6WFpGYlN0SW9RSWsweF9lS05SUDZqSWhoaktOaDFqdndpV1NMRmRmR2p5R1FZREZpSWdrMDdZaXYxbG1rdnlQZkViWjdsdEl4cVRKN2lsSHJoTEhkYlQ5Q0s2cFNZOEw2OVM5MjNRM2YxbktfVTlDNXpUNEdZaU9DdXFwZ09xVzctSkIycFNMZ2hWTm1URmFFelRCdWFoeEJOVmNxX2xQZ1J2WXdwa1pwRjIwZTRxbEhCdURQTkpFeDVV?oc=5",
-          "date": "2026-05-21"
+          "person": "Joe Lonsdale",
+          "show": "Masters in Business (Bloomberg)",
+          "title": "AI Innovations with Joe Lonsdale",
+          "url": "https://www.bloomberg.com/news/audio/2024-10-11/masters-in-business-ai-innovations-with-joe-lonsdale-podcast",
+          "date": "2024-10"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Joe Lonsdale",
+          "role": "Founder & Managing Partner",
+          "x": "https://x.com/JTLonsdale",
+          "linkedin": "https://www.linkedin.com/in/jtlonsdale/",
+          "substack": "https://blog.joelonsdale.com"
+        },
+        {
+          "name": "Drew Oetting",
+          "role": "Founding Partner & President",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/drew-oetting-52463337",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Menlo",
@@ -676,8 +802,52 @@
       },
       "region": "Americas",
       "pbid": "11242-54",
-      "podcasts": [],
-      "people": []
+      "podcasts": [
+        {
+          "person": "Tim Tully",
+          "show": "Tech Disruptors (Bloomberg)",
+          "title": "Menlo Ventures on Developer Technology, M&A, AI",
+          "url": "https://www.bloomberg.com/news/audio/2025-02-10/menlo-ventures-on-developer-technology-m-a-ai-tech-disruptors",
+          "date": "2025-02"
+        },
+        {
+          "person": "Deedy Das",
+          "show": "Sourcery",
+          "title": "Inside Anthropic's $100M Anthology Fund w/ Menlo",
+          "url": "https://www.sourcery.vc/p/breaking-inside-anthropics-100m-anthology",
+          "date": ""
+        }
+      ],
+      "people": [
+        {
+          "name": "Matt Murphy",
+          "role": "Partner (AI-native software; led Anthropic)",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/matt-murphy-0415543",
+          "substack": ""
+        },
+        {
+          "name": "Venky Ganesan",
+          "role": "Partner (cybersecurity & AI infra)",
+          "x": "https://x.com/venkyganesan",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Tim Tully",
+          "role": "Partner (AI infra; former Splunk CTO)",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Deedy Das",
+          "role": "Partner (AI infrastructure)",
+          "x": "https://x.com/deedydas",
+          "linkedin": "https://www.linkedin.com/in/debarghyadas",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Lux Capital",
@@ -771,27 +941,48 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Lux Capital cofounder Josh Wolfe’s limited-odds, high-stakes 2027 predictions - Fortune",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONmpwdENWVERSQ0h6NFZHdXBzQWtJRDQ2QXg5Z19mNHA4RVV0Ry1hdS1KakxNSzg2dWVHSXVadFd5YlFWQ00zWVBSYU5kblFkMVozcUxVdVgtTk9FMHA5UzA4NG9PVnZhNVVWcFQydnhKMjFJQnB1UHRNVHZPZXh4RXNjbU9XdFZSMG91RU0xUFdFbmdsSUJYaVcwekQ?oc=5",
-          "date": "2026-06-25"
+          "person": "Josh Wolfe",
+          "show": "Invest Like the Best",
+          "title": "Factories of the Future (EP.281)",
+          "url": "https://open.spotify.com/episode/1t8BXRMvH6siGiQO9bGe21",
+          "date": "2022-06"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "1001 raises $30m Series A led by Lux Capital, eight months after its seed, with PIF's Sanabil joining - FWDStart",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPenJTenJGY0UwTmc5SGE2b3NqcmxZWVdWNnQxaXV4VWVDbnhPWTdfelloSTBhSDNYbkQyZG5iVUdlYVJIRmhtdDIyUHEtSEVwMVhQUTBra2pYNlFTTWZQTGFiOEdnUUxMOWpTaEI0N01qMVZfZWhBZjZpaWhlVENNUjFwT2NlcmxiWmZnM0VIZTc4UTJPaFQ3cVVVeXlOOGRKZU5STFBLVGFnSWVxNzcyVFlSY1JrMEhFMzhFZ2NvOGFIUQ?oc=5",
-          "date": "2026-06-30"
+          "person": "Josh Wolfe",
+          "show": "The Knowledge Project",
+          "title": "Inventing the Future",
+          "url": "https://fs.blog/knowledge-project-podcast/josh-wolfe/",
+          "date": ""
         }
       ],
       "people": [
         {
-          "name": "Danny Crichton",
-          "role": "",
+          "name": "Josh Wolfe",
+          "role": "Co-founder & Managing Partner",
+          "x": "https://x.com/wolfejosh",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Peter Hebert",
+          "role": "Co-founder & Managing Partner",
+          "x": "https://x.com/peterhebert",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Deena Shakir",
+          "role": "General Partner",
+          "x": "https://x.com/deenashakir",
+          "linkedin": "",
+          "substack": "https://deenashakir.com"
+        },
+        {
+          "name": "Grace Isford",
+          "role": "Partner",
           "x": "",
           "linkedin": "",
-          "substack": "https://substack.com/@dannycrichton"
+          "substack": ""
         }
       ]
     },
@@ -834,8 +1025,38 @@
           "summary": "Adaptive Innovations Emerges with $50M Series A to Build Healthcare Abundance with AI Native Homecare Agency&nbsp;&nbsp;The AI Journal"
         }
       ],
-      "podcasts": [],
-      "people": []
+      "podcasts": [
+        {
+          "person": "David Tisch",
+          "show": "Invest Like the Best",
+          "title": "Tech Investing Outside of Silicon Valley (EP.55)",
+          "url": "https://open.spotify.com/episode/25F1jk279yTmb2Xecf5mYn",
+          "date": "2017-09"
+        },
+        {
+          "person": "David Tisch",
+          "show": "The Full Ratchet",
+          "title": "Why Optimizing for Ownership is a Trap",
+          "url": "https://fullratchet.net/382-why-optimizing-for-ownership-is-a-trap/",
+          "date": "2023"
+        }
+      ],
+      "people": [
+        {
+          "name": "David Tisch",
+          "role": "Founder & Managing Partner",
+          "x": "https://x.com/davidtisch",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Greg Rosen",
+          "role": "Partner",
+          "x": "https://x.com/grosen",
+          "linkedin": "",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Bain Capital Ventures",
@@ -1053,14 +1274,43 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "From GE’s hot seat to Substack: Jeff Immelt reflects on a new chapter and why now is the time to get candid - Fortune",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE40Sk9CTGV6dUtaR0o3U2Y2TnRrdU9LZ0ZxcFhhcEZhaC1fWkpwR1lQaThGRzBDbzVYaS1KTEh2Q1EtNV9BY1A1RG5kSmVhSFJOZVBtVEtkSTh6aGJwWkZ6LVNpTEo1a1hLVmhqak1jVi16bk9VaXV5WHFn?oc=5",
-          "date": "2026-06-01"
+          "person": "Mohamad Makhzoumi",
+          "show": "The Heart of Healthcare",
+          "title": "NEA Co-CEO Mohamad Makhzoumi",
+          "url": "https://podcasts.apple.com/us/podcast/healthcares-eras-tour-nea-co-ceo-mohamad-makhzoumi/id1575404727?i=1000701537530",
+          "date": "2025-03"
+        },
+        {
+          "person": "Tony Florence",
+          "show": "StrictlyVC Download",
+          "title": "On Building Breakthrough Brands",
+          "url": "https://podcasts.apple.com/us/podcast/neas-tony-florence/id1498270180?i=1000508878292",
+          "date": "2021"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Scott Sandell",
+          "role": "Executive Chairman & CIO",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Tony Florence",
+          "role": "Co-CEO",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Ann Bordetsky",
+          "role": "Partner, early-stage consumer & AI",
+          "x": "https://x.com/annbordetsky",
+          "linkedin": "https://www.linkedin.com/in/annbordetsky",
+          "substack": "https://annbordetsky.com/"
+        }
+      ]
     },
     {
       "name": "Spark Capital",
@@ -1354,14 +1604,43 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Anduril raises $5B, doubles valuation to $61B - TechCrunch",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaklJbi1NOGt0aTJjR05LaTNreTlqcDR0a21YaUJlMUVEOVR4Ump2bHU1MFJMcHUyTHJlUUhfYWRlX1ZMZVE3YU9acEJpOUpsWG9kVHplMWU4bnFnTDM2RDlkOUhoQ0NjWDQtdHphSFFpc0ZldEVoVW9iUGtLNWpMekEwWQ?oc=5",
-          "date": "2026-05-13"
+          "person": "Josh Kushner",
+          "show": "Invest Like the Best",
+          "title": "Concentration and Conviction (EP.459)",
+          "url": "https://open.spotify.com/episode/7nRM1Ea84xM64kt7IJhwTm",
+          "date": "2025"
+        },
+        {
+          "person": "Kareem Zaki",
+          "show": "Invest Like the Best",
+          "title": "Small Ideas Attract Competition (EP.392)",
+          "url": "https://open.spotify.com/episode/1ukPPORcvh09JF49i39Y4C",
+          "date": "2024-10"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Josh Kushner",
+          "role": "Founder & CEO",
+          "x": "https://x.com/joshkushner",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Kareem Zaki",
+          "role": "General Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Miles Grimshaw",
+          "role": "General Partner",
+          "x": "https://x.com/milesgrimshaw",
+          "linkedin": "https://www.linkedin.com/in/milesgrimshaw",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Redpoint",
@@ -1419,21 +1698,57 @@
       "pbid": "11281-06",
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Redpoint Ventures’ Scott Raney: The IPO Market Is Cracking Open But Still A Few Years Away From Wave Spacex Starship Rocket Launch (OUAxoYscBU) - Mshale",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JZ1hONWVhWUJTZHdVakYxcF9pRXNkOWFnX09fWjl2OFdEclVmNDd3OGRwelYxUTBKYjMyQjRGd29Wcl8xU0V2cEpnLWZ1MDB6OFlWeGpkUmc2eW1KNkNhZA?oc=5",
-          "date": "2026-07-03"
+          "person": "Logan Bartlett",
+          "show": "The Logan Bartlett Show",
+          "title": "Redpoint's own show (weekly interviews with tech leaders)",
+          "url": "https://theloganbartlettshow.simplecast.com/",
+          "date": ""
         },
         {
-          "person": "",
-          "show": "",
-          "title": "OpenAI and Anthropic are racing to hit public markets first, says Redpoint Ventures' Logan Bartlett - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaWhCNTFjR2VHaXBLcGpHWnhiTVpncHV1Sk1TZHZLWjBhVUlER0FDTklKSzE1WGtDSzRWUWFzUWd1bjBzLXpxYWNrQ3N4VnR0ZVJnejVWRnZ6b2VHNFZBX1JvczJ5M01ya3hBTHVoVUFhYkpFZldrMjl3M1RmX00yeWFrMHk5MDZicWFDaHEyS3daU3R2NTY1SUxfSDFYMXh1eGdJRDFaZmlvZnZ0R0JNSFlWdExYT2NPWmY2dnFHa3J5bkJpY0toSlBSaW9VS0lrTXlDbTJtYw?oc=5",
-          "date": "2026-06-09"
+          "person": "Jacob Effron",
+          "show": "Unsupervised Learning",
+          "title": "Redpoint's AI podcast (guests incl. Yann LeCun)",
+          "url": "https://www.redpoint.com/content-hub/unsupervised-learning/",
+          "date": ""
+        },
+        {
+          "person": "Scott Raney & Satish Dharmaraj",
+          "show": "The Logan Bartlett Show",
+          "title": "EP 60: Why AI Will Be Bigger Than Mobile",
+          "url": "https://theloganbartlettshow.simplecast.com/episodes/ep-60-rkLgAsaf",
+          "date": "2023"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Logan Bartlett",
+          "role": "Managing Director; host of The Logan Bartlett Show",
+          "x": "https://x.com/loganbartlett",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Satish Dharmaraj",
+          "role": "Managing Director",
+          "x": "https://x.com/satishd",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Scott Raney",
+          "role": "Managing Director",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Jacob Effron",
+          "role": "Managing Director; host of Unsupervised Learning",
+          "x": "https://x.com/jacobeffron",
+          "linkedin": "",
+          "substack": "https://unsupervisedlearning.substack.com"
+        }
+      ]
     },
     {
       "name": "NFX",
@@ -1476,8 +1791,52 @@
           "summary": "The Case for Venture Capital in the Age of Superintelligence&nbsp;&nbsp;NFX"
         }
       ],
-      "podcasts": [],
-      "people": []
+      "podcasts": [
+        {
+          "person": "James Currier & Pete Flint",
+          "show": "The NFX Podcast",
+          "title": "Inside the Marketplace of Lyft",
+          "url": "https://podtail.com/en/podcast/the-nfx-podcast/",
+          "date": "2019"
+        },
+        {
+          "person": "Pete Flint",
+          "show": "The NFX Podcast",
+          "title": "The Four Major Defensibilities in the Digital World",
+          "url": "https://podcast.nfx.com/",
+          "date": ""
+        }
+      ],
+      "people": [
+        {
+          "name": "James Currier",
+          "role": "General Partner",
+          "x": "https://x.com/JamesCurrier",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Pete Flint",
+          "role": "General Partner",
+          "x": "https://x.com/peteflint",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Gigi Levy-Weiss",
+          "role": "General Partner",
+          "x": "https://x.com/gigilevy",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Morgan Beller",
+          "role": "General Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Craft Ventures",
@@ -1520,14 +1879,36 @@
           "url": "https://craftventures.substack.com"
         }
       ],
-      "podcasts": [],
+      "podcasts": [
+        {
+          "person": "David Sacks",
+          "show": "All-In Podcast",
+          "title": "Co-host of All-In (with Chamath, Calacanis, Friedberg)",
+          "url": "https://en.wikipedia.org/wiki/All-In_(podcast)",
+          "date": ""
+        },
+        {
+          "person": "David Sacks",
+          "show": "20VC",
+          "title": "How To Assess Founder Psychology & Evaluate CAC/Burn",
+          "url": "https://open.spotify.com/episode/3emgKr3GZmbUSNOZyS4rnS",
+          "date": ""
+        }
+      ],
       "people": [
         {
           "name": "David Sacks",
-          "role": "",
+          "role": "Co-Founder & General Partner",
+          "x": "https://x.com/DavidSacks",
+          "linkedin": "https://www.linkedin.com/in/davidoliversacks/",
+          "substack": "https://sacks.substack.com"
+        },
+        {
+          "name": "Jeff Fluhr",
+          "role": "General Partner",
           "x": "",
           "linkedin": "",
-          "substack": "https://craftventures.substack.com"
+          "substack": ""
         }
       ]
     },
@@ -1616,14 +1997,43 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Learn All Crypto Topics | Phemex Academy - Phemex",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03dWEzZ0VPcHI1Q3hhTjQxbVZuOGtHcGd3R2F2VEFKTUJxOE93bUU2TENTYnlySk1DekxPSlhJcXdUT1hyWFJaQ2hWUFEzNVMtYUZxOWVrSldvUEdq?oc=5",
-          "date": "2026-05-12"
+          "person": "Anna Khan",
+          "show": "20VC",
+          "title": "Why Few Firms Are Doing True Early Stage Investing",
+          "url": "https://www.thetwentyminutevc.com/annakhan",
+          "date": ""
+        },
+        {
+          "person": "Saar Gur",
+          "show": "NFX Podcast",
+          "title": "On Why Market is the Most Important Factor",
+          "url": "https://www.youtube.com/watch?v=g2VO29nBWMI",
+          "date": ""
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Saar Gur",
+          "role": "General Partner",
+          "x": "https://x.com/saarsaar",
+          "linkedin": "https://www.linkedin.com/in/saargur",
+          "substack": ""
+        },
+        {
+          "name": "Anna Khan",
+          "role": "General Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Murat Bicer",
+          "role": "General Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Collaborative Fund",
@@ -1710,14 +2120,36 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Charities that will receive share of £15m collaborative fund revealed - Third Sector",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVElMYXlXRFRfNUZoeUUzRDViTTBKbkZMZmNpNnNGNFNWbDFMZDFtZktveFRRTmxOeS1VeEhTOExobUFkNlZ5bW9kcXROcWUzcjFTQjVuNTR5ZW5Xd252YWFhbjlId2xfdE95cXJYRTJUX04wZmgwUlIxUEFIMk5Wa29ERzA0OVNIcDZNZThZS1M1ZGJjWC04UEVNdGU5dHRqVV81WkEyQWNZWmRNdGNJS3JSX0NvVDVHTGc?oc=5",
-          "date": "2026-05-26"
+          "person": "Morgan Housel",
+          "show": "The Tim Ferriss Show",
+          "title": "The Psychology of Money",
+          "url": "https://tim.blog/2022/03/01/morgan-housel-the-psychology-of-money/",
+          "date": "2022-03"
+        },
+        {
+          "person": "Morgan Housel",
+          "show": "The Knowledge Project",
+          "title": "Get Rich, Stay Rich",
+          "url": "https://fs.blog/knowledge-project-podcast/morgan-housel-2/",
+          "date": "2024-05"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Craig Shapiro",
+          "role": "Founder & Managing Partner",
+          "x": "https://x.com/cshapiro",
+          "linkedin": "https://www.linkedin.com/in/craigjshapiro",
+          "substack": ""
+        },
+        {
+          "name": "Morgan Housel",
+          "role": "Partner",
+          "x": "https://x.com/morganhousel",
+          "linkedin": "https://www.linkedin.com/in/morganhousel",
+          "substack": "https://collabfund.com/blog/"
+        }
+      ]
     },
     {
       "name": "Vivo Capital",
@@ -1968,27 +2400,48 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Venture capital pivots to apps to escape the AI infra bubble - Tech in Asia",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9UMkozVXJob3N4dTVrVWVUX0J0d3cyNmdGdml1SXdlMGIyUnc2dUpSWm9vQmNjeXJCT0tvZ0xRQkl1R09vbDF1b2VfUTVKajAwdERvWEY1M0xZT00?oc=5",
-          "date": "2026-07-07"
+          "person": "Albert Wenger",
+          "show": "20VC",
+          "title": "On Automation, UBI & The Deployment Phase",
+          "url": "https://www.thetwentyminutevc.com/albertwenger",
+          "date": ""
+        },
+        {
+          "person": "Rebecca Kaden",
+          "show": "Venture Unlocked",
+          "title": "USV's theme-based investing approach",
+          "url": "https://ventureunlocked.substack.com/p/union-square-ventures-rebecca-kaden",
+          "date": "2021"
         }
       ],
       "people": [
         {
           "name": "Fred Wilson",
-          "role": "",
-          "x": "",
+          "role": "Co-founder & Managing Partner",
+          "x": "https://x.com/fredwilson",
           "linkedin": "",
-          "substack": "https://avc.com/"
+          "substack": "https://avc.com"
         },
         {
           "name": "Albert Wenger",
-          "role": "",
+          "role": "Managing Partner",
+          "x": "https://x.com/albertwenger",
+          "linkedin": "",
+          "substack": "https://continuations.com"
+        },
+        {
+          "name": "Rebecca Kaden",
+          "role": "General Partner",
           "x": "",
           "linkedin": "",
-          "substack": "https://continuations.com/"
+          "substack": ""
+        },
+        {
+          "name": "Nick Grossman",
+          "role": "Partner",
+          "x": "https://x.com/nickgrossman",
+          "linkedin": "",
+          "substack": "https://www.theslowhunch.net"
         }
       ]
     },
@@ -2493,35 +2946,43 @@
       "updates": [],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "IVP President and Publisher Terumi Echols to Retire - Publishers Weekly",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVW1jczZSMGRrRkVqdFhGajFicTVTTThkWjYxNWd3dFpGcElIRjZ3RGpJU0x5UUNKRS1XeTZ0VjdtYXlnY05jMWhNblBkREJVWjBRTWxwcHFKYVp5MkJ3X1NHdUhvekxnYWhFQ2VlWnJXcnp5S1JsUUM4TXkxLWdobTFsTXNiaG44SVkxTGN1djg4RDBPM040SVdLT0E5UzNLVWFDNkdJaUtJUnNhVFZLVnJqVGNUV3RHVE80QXhQT1RLV0paaGpuVjU5c18wUFJTdkRKZ0NR?oc=5",
-          "date": "2026-06-25"
+          "person": "Tom Loverro",
+          "show": "20VC",
+          "title": "Why This Time Will Be Worse Than The GFC",
+          "url": "https://www.thetwentyminutevc.com/tom-loverro",
+          "date": "2023-02"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "'Saving America' Starts by Fixing the Elections Most Voters Never Get to Vote In - Independent Voter News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcEw3X2o1SlZfcktuUDJ6QjYxclRSanJQTVhQM2wzWFZKZ0JfTFc2TE0wR09OLTJXclZtTE9SN2ZYLUk2WlhFa1BXOElYa1Bvc29ZaGxUbmhkLXpfYnV1QkRCQU5aSkNscmktTE5CUW1EWFBORlY5eGxhZ1Jsb0NQb19QYTlUUklwYzNiOVI2OUVqakRMcW9ybVBzTmd5SGdReV9XMUxB?oc=5",
-          "date": "2026-07-06"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Suno raises over $400 million, pushing valuation to $5.4 billion - Music Business Worldwide",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTHdHOGpyWDYzRzZNekl2VGczdmFpRVFxOWt3b091a0luUVh0X0EteWJjdDBhTW5oQXdOQ0ctM1hyclBUVmZZZTZQR29Ha3NDcklaVzh4dDhkMkVMOUF6eXFjOFZ2aGNBNnFfNkYzZ2RXOVY0T1hSTGVodlFZWm1jdXRaWHZCTE1QbzBNMkdBVThnREpVeTkzTzJfeFk2bThNd200?oc=5",
-          "date": "2026-06-03"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "The Bipartisan Plot to Lock 6.2 Million California Voters Out of Elections - Independent Voter News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZlZ6eUdsUFhwT2tJeHVaSVFkeGJTbW1YZThPZkFiZmpNX0hkMXNBQW9DSmNfMVZyOWFWQjdhOXotRURLYjB4RVhpNG55c1FfYkdZWV9haGplUjdHb1FDSGRHckxsUnBELWpFVUpWWXl6OFRLRFFqLUxIeDNCZzFaOWlhSG9hSjAtdTYtWFRIcmttT2R5SG1aNGF2NnVlVzNs?oc=5",
-          "date": "2026-05-14"
+          "person": "IVP",
+          "show": "IVP Hypergrowth Podcast",
+          "title": "IVP investors interview CEOs of fast-growing companies",
+          "url": "https://www.listennotes.com/podcasts/ivps-hypergrowth-podcast-ivp-J-cxraZRig2/",
+          "date": "2019"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Tom Loverro",
+          "role": "General Partner",
+          "x": "https://x.com/tomloverro",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Eric Liaw",
+          "role": "General Partner",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/ericliaw",
+          "substack": ""
+        },
+        {
+          "name": "Somesh Dash",
+          "role": "General Partner",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/someshdash",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "ICONIQ Growth",
@@ -2549,8 +3010,38 @@
         "linkedin": "https://www.linkedin.com/showcase/iconiq-growth/"
       },
       "updates": [],
-      "podcasts": [],
-      "people": []
+      "podcasts": [
+        {
+          "person": "Doug Pepper",
+          "show": "SaaStr Podcast",
+          "title": "Where Venture is Going, Right Now",
+          "url": "https://www.saastr.com/where-venture-is-going-right-now-a-deep-dive-with-doug-pepper-iconiq-growth/",
+          "date": ""
+        }
+      ],
+      "people": [
+        {
+          "name": "Divesh Makan",
+          "role": "Co-Founder & CEO, ICONIQ",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/divesh-makan-237107",
+          "substack": ""
+        },
+        {
+          "name": "Will Griffith",
+          "role": "Founding Partner, ICONIQ Growth",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/will-griffith/",
+          "substack": ""
+        },
+        {
+          "name": "Doug Pepper",
+          "role": "General Partner, ICONIQ Growth",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/dougpepper",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Palm Drive Capital",
@@ -2674,21 +3165,43 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents - TechCrunch",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVWs0Y0htWE03N0JMbjZ2czFUUHozVm5pV0Fya3hJMEtjM3ZwRTJxNjJHN29XaDg2bG5rWmFVcHRuSjc3SGhJOGRLOU51aXBzYTdjVGhKVkZuT0dlakotaWMzQnl4c0dwVk1fQ1hKUjFiYXRvdTdpeFpmRkg3OHV3MFNPajJTUHA4eldKMG5JM3dTQWM1emlROUxTOUZMdDlqLXRmMEdod2wzQTlvazBhaTZNZjB6enE2?oc=5",
-          "date": "2026-07-08"
+          "person": "Rob Toews",
+          "show": "Radical Talks (Radical Ventures)",
+          "title": "On Overcoming AI's Catastrophic Forgetting",
+          "url": "https://creators.spotify.com/pod/profile/radicalventures/episodes/Rob-Toews-e37d1ae",
+          "date": "2025"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Exclusive: Orbital Industries, startup using AI to discover exotic new materials, raises $50 million Series B funding round - Fortune",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUXU4T1R3dWFtTF9KNUxBUzduWVR1UDR3LTBzdUtBRWlMWE9kTl9MZUgwMl94Skg5Yk52ZXNSUkppSllES0RhUl8zQk1PYkVMbHNHOW5EUFRRbnVMTldiQzdXY3JpYUtpWnFpWk1wUE9VOGJwT0JpclI0YkNTa2oyay1rNTdmLXVBX2xZZ1I1RklPN1o2ckZ3QmUxSGFLR3ctajNiRHBxWEpuZnBDZEhKMmtoODVSbHlMR3kyQjN6WUQxRV9jLXNFcl9BQjNwc2lFWUtv?oc=5",
-          "date": "2026-05-28"
+          "person": "Jordan Jacobs",
+          "show": "The Unlimited Podcast",
+          "title": "Revisiting the AI Revolution",
+          "url": "https://creators.spotify.com/pod/profile/ginslerwealth/episodes/E58-Revisiting-the-AI-Revolution-with-Jordan-Jacobs-e36t487",
+          "date": "2025-08"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Jordan Jacobs",
+          "role": "Co-Founder & Managing Partner",
+          "x": "",
+          "linkedin": "https://ca.linkedin.com/in/jordanjacobs1",
+          "substack": ""
+        },
+        {
+          "name": "Rob Toews",
+          "role": "Partner; AI columnist at Forbes",
+          "x": "https://x.com/_RobToews",
+          "linkedin": "https://www.linkedin.com/in/robtoews/",
+          "substack": "https://www.forbes.com/sites/robtoews/"
+        },
+        {
+          "name": "Tomi Poutanen",
+          "role": "Co-Founder & Partner",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/tomipoutanen/",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "TCG Crossover Management",
@@ -2914,8 +3427,45 @@
           "summary": "S. 'Soma' Somasegar, longtime Seattle tech leader and VC, dies at 59&nbsp;&nbsp;The Business Journals"
         }
       ],
-      "podcasts": [],
-      "people": []
+      "podcasts": [
+        {
+          "person": "Madrona",
+          "show": "Founded & Funded (Madrona)",
+          "title": "How Founders Win in the AI Era",
+          "url": "https://podcasts.apple.com/us/podcast/founded-funded/id1474740843",
+          "date": "2025"
+        },
+        {
+          "person": "Matt McIlwain",
+          "show": "Shift AI Podcast",
+          "title": "AI Front and Center",
+          "url": "https://creators.spotify.com/pod/profile/shift-ai/episodes/AI-Front-and-Center-with-Matt-McIlwain-e28f75j",
+          "date": ""
+        }
+      ],
+      "people": [
+        {
+          "name": "Matt McIlwain",
+          "role": "Managing Director",
+          "x": "https://x.com/mattmcilwain",
+          "linkedin": "https://www.linkedin.com/in/matt-mcilwain",
+          "substack": ""
+        },
+        {
+          "name": "S. Somasegar",
+          "role": "Managing Director",
+          "x": "https://x.com/SSomasegar",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Jon Turow",
+          "role": "Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "FirstMark Capital",
@@ -2951,20 +3501,41 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Watch CNBC's full interview with the 'Closing Bell' Panel - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ1FldVcxVzlvcTdZckYzb0dQRmJ2QjlEaFRaRlduWF80ek1NdTRPbktxanpVSk1SdlRFSGx4bmJqVzV1VF82RlRCYUQwdlJGOFFMODhfbVN2b19FY29UeFI2QWI1d2p2MGZza2p5Nmx0c3VaNzFGS0N4bUN0RnBOSEdENHNLMlFfN0N4MnF4aVNvTXBNaGMxZ1prQVhuZw?oc=5",
-          "date": "2026-06-12"
+          "person": "Matt Turck",
+          "show": "The MAD Podcast (FirstMark)",
+          "title": "Snowflake CEO on Winning the AI Arms Race",
+          "url": "https://creators.spotify.com/pod/profile/firstmark/episodes/Snowflake-CEO-e31cnnt",
+          "date": "2025"
+        },
+        {
+          "person": "Rick Heitzmann",
+          "show": "Capital Allocators",
+          "title": "New York Venture Investing at FirstMark (EP.350)",
+          "url": "https://open.spotify.com/episode/36zLLUFvjeujErXUHmfdIw",
+          "date": "2023"
         }
       ],
       "people": [
         {
-          "name": "Matt Turck",
-          "role": "",
+          "name": "Rick Heitzmann",
+          "role": "Founder & Partner",
           "x": "",
           "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Matt Turck",
+          "role": "Partner; host of The MAD Podcast",
+          "x": "https://x.com/mattturck",
+          "linkedin": "",
           "substack": "https://www.mattturck.com/"
+        },
+        {
+          "name": "Amish Jani",
+          "role": "Founder & Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
         }
       ]
     },
@@ -3134,14 +3705,43 @@
       "pbid": "48176-38",
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Gordon Ramsay’s favorite takeout and game day foods - MSN",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcndjUU5YMURlVEZFRmhCanozM2dScDh6NnJSRVhxLVczSDlwai00Q0pscktpQXVmNFQ4NUlfTXVRTC1Fb0YzV2k2MzNUU3dZSE9JWFB6OWxtcFA4UlpqZnpXRGZJd2ljNUNOWWZ6eEtxX2xiM0gzRXY2SzYtQ3BBSG4xQXI4czlVV1JQWHFXVHpOWmpHbm94XzRldTN4aVA3c1FNaG9DSWk2cjJiN3VBMg?oc=5",
-          "date": "2026-06-27"
+          "person": "Jeff Clavier",
+          "show": "Venture Unlocked",
+          "title": "Jeff Clavier on being one of the earliest seed VCs",
+          "url": "https://ventureunlocked.substack.com/p/jeffclavier",
+          "date": "2021-06"
+        },
+        {
+          "person": "Andy McLoughlin",
+          "show": "Venture with Grace",
+          "title": "Andy McLoughlin, Uncork Capital Managing Partner",
+          "url": "https://podcasts.apple.com/us/podcast/andy-mcloughlin-uncork-capital-managing-partner-on/id1729243199?i=1000752774620",
+          "date": "2025"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Jeff Clavier",
+          "role": "Founder & Managing Partner",
+          "x": "https://x.com/jeff",
+          "linkedin": "https://www.linkedin.com/in/jeffclavier/",
+          "substack": ""
+        },
+        {
+          "name": "Andy McLoughlin",
+          "role": "Managing Partner",
+          "x": "https://x.com/Bandrew",
+          "linkedin": "https://www.linkedin.com/in/andymcloughlin",
+          "substack": "https://www.andymcloughlin.co/"
+        },
+        {
+          "name": "Susan Liu",
+          "role": "Partner",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/susanwliu/",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "ARCH Venture Partners",
@@ -3774,14 +4374,43 @@
           "url": "https://bothsidesofthetable.com/"
         }
       ],
-      "podcasts": [],
+      "podcasts": [
+        {
+          "person": "Mark Suster",
+          "show": "20VC",
+          "title": "Why the Correction in Venture is Still to Come",
+          "url": "https://www.thetwentyminutevc.com/mark-suster",
+          "date": "2024-05"
+        },
+        {
+          "person": "Aditi Maliwal",
+          "show": "The Data Minute",
+          "title": "Seed Stage Dynamics",
+          "url": "https://upfront.com/thoughts/seed-stage-dynamics-with-aditi-maliwal-on-the-data-minute-podcast",
+          "date": ""
+        }
+      ],
       "people": [
         {
           "name": "Mark Suster",
-          "role": "",
+          "role": "Managing Partner",
+          "x": "https://x.com/msuster",
+          "linkedin": "https://www.linkedin.com/in/marksuster/",
+          "substack": "https://bothsidesofthetable.com"
+        },
+        {
+          "name": "Yves Sisteron",
+          "role": "Co-founder & Managing Partner",
           "x": "",
           "linkedin": "",
-          "substack": "https://bothsidesofthetable.com/"
+          "substack": ""
+        },
+        {
+          "name": "Aditi Maliwal",
+          "role": "Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
         }
       ]
     },
@@ -5003,21 +5632,43 @@
           "url": "https://www.sethlevine.com/"
         }
       ],
-      "podcasts": [],
+      "podcasts": [
+        {
+          "person": "Seth Levine",
+          "show": "The Dart Board",
+          "title": "On Building a $4B Platform",
+          "url": "https://podcasts.apple.com/us/podcast/seth-levine-foundry-group/id1785419533?i=1000739465777",
+          "date": "2025"
+        },
+        {
+          "person": "Jaclyn Freeman Hester",
+          "show": "Acquired",
+          "title": "VC Fundamentals Part 4: Portfolio Management",
+          "url": "https://www.acquired.fm/episodes/vc-fundamentals-part-4",
+          "date": ""
+        }
+      ],
       "people": [
         {
           "name": "Brad Feld",
-          "role": "",
-          "x": "",
+          "role": "Co-founder & Partner",
+          "x": "https://x.com/bfeld",
           "linkedin": "",
-          "substack": "https://feld.com/"
+          "substack": "https://feld.com"
         },
         {
           "name": "Seth Levine",
-          "role": "",
+          "role": "Co-founder & Partner",
+          "x": "https://x.com/sether",
+          "linkedin": "",
+          "substack": "https://sethlevine.com"
+        },
+        {
+          "name": "Jaclyn Freeman Hester",
+          "role": "Partner",
           "x": "",
           "linkedin": "",
-          "substack": "https://www.sethlevine.com/"
+          "substack": ""
         }
       ]
     },
@@ -9089,34 +9740,69 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Goldman Sachs Chairman on Risk, Crisis, Leadership, and AI | Lloyd Blankfein on The a16z Show with David Haber - Podcast Notes",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcDRFZS1ZYTF4bm9yLUR4UlNwaWZJYXlzX1g0UU14SHZfWGZJaklHT3pTbEVwbHRzZVAwXzBXVHlhb3FfQXl1NVFBUnRmekRwYU9yaldEMnlWbFNxTXQzYktKdWpGSEVzOE1TSkxoQngzaHFVT0xYM3RDZnlIXzlRUTFTN2xDd1E2ZGhGSTBWSGZHN01JZEFWNi1PSElHWVFKbVlvUER6QjlZbG4zSDR1YUVYUVJCRllLZDVYSTlEMFNieHA5TW80cDdkd0VnQ3RERnc?oc=5",
-          "date": "2026-07-03"
+          "person": "Ben Horowitz",
+          "show": "Invest Like the Best",
+          "title": "Ben Horowitz — Backing America's Future (EP.457)",
+          "url": "https://open.spotify.com/episode/21RS9YlTE9Arb7KfLHcxH8",
+          "date": "2026-02"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Ramp's Chief Economist: SaaS Makes a Comeback from a Business Data Perspective - 36Kr",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQeWlyZ1FVTW1henZDUUhfeW9hOGFlRlZPcUM0cjZmSXJ1MWpTdHFTXzBIWFVRcXlFTTg0Zkg2OVlHbnZrQnZrVjRpS29XekR4S0lv?oc=5",
-          "date": "2026-05-26"
+          "person": "Marc Andreessen",
+          "show": "Lenny's Podcast",
+          "title": "Marc Andreessen: The real AI boom hasn't even started yet",
+          "url": "https://podcasts.apple.com/us/podcast/marc-andreessen-the-real-ai-boom-hasnt-even-started-yet/id1627920305?i=1000747181251",
+          "date": "2025"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "‘We crossed that about 3 months ago': A16z's Marc Andreessen drops huge bombshell about AGI on Joe Rogan's podcast - TechRadar",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQU3ktVE5Vb0NLLUhqR1UtYVdzdHZKQW9JajBublVDN2c2dFFXRWx6Y29KR1hlbjZoOE42QXhrMjRJd1k1NlllenR1TVA2ZHZqWEM3RC1ac1ZJaEVsTERJS0RnYnBsSGZHS1dIQTUxWFQxSzB0TTNWWHJqbHFIa2tpakxwSWtPZ3gzcnRRMnk2TXhBTmFqVE5CbHBuWWpsMmREbGdlYU8zRmhSWnJMMzE3dGVyOFJWWnZmd2VhNG9LSFNZVHhBazVRZWdwZktuWlh1WEVUSXRn?oc=5",
-          "date": "2026-06-06"
+          "person": "Marc & Ben",
+          "show": "The Ben & Marc Show",
+          "title": "The State of AI with Marc & Ben",
+          "url": "https://a16z.com/podcast/the-state-of-ai-with-marc-ben/",
+          "date": ""
+        },
+        {
+          "person": "Marc Andreessen",
+          "show": "Lex Fridman Podcast",
+          "title": "Marc Andreessen: Future of the Internet, Technology, and AI",
+          "url": "https://lexfridman.com/marc-andreessen/",
+          "date": "2023-06"
         }
       ],
       "people": [
         {
-          "name": "Andrew Chen",
-          "role": "",
-          "x": "",
+          "name": "Marc Andreessen",
+          "role": "Co-Founder & General Partner",
+          "x": "https://x.com/pmarca",
           "linkedin": "",
-          "substack": "https://andrewchen.substack.com"
+          "substack": "https://pmarca.substack.com"
+        },
+        {
+          "name": "Ben Horowitz",
+          "role": "Co-Founder & General Partner",
+          "x": "https://x.com/bhorowitz",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Martin Casado",
+          "role": "General Partner (Infrastructure/AI)",
+          "x": "https://x.com/martin_casado",
+          "linkedin": "https://www.linkedin.com/in/martincasado/",
+          "substack": ""
+        },
+        {
+          "name": "Katherine Boyle",
+          "role": "General Partner (American Dynamism)",
+          "x": "https://x.com/KTmBoyle",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Erik Torenberg",
+          "role": "General Partner",
+          "x": "https://x.com/eriktorenberg",
+          "linkedin": "",
+          "substack": "https://eriktorenberg.substack.com"
         }
       ]
     },
@@ -9197,62 +9883,55 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Key takeaways from Giga US 2026: Interview with Benchmark CEO Andrew Miller - Benchmark Mineral Intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSUQtUE5lSWhacTRrc2JvY3MzTVFaZTZjOG5yRC1oWVNKOUhaOXZEZmlGWmQzaUt4MVh4NFZmTHphejJTbGZhTFdobUh0OTdXbFJXN3ZhUTRHZ3R5MkstZTQybnUxWkU3Y0dJNzJVUVpmdEpqQndvV0hiMFBXcmh0MFdXUk9mcGdFMjhkdGRqQnRwTURLWTQtS1ZpR09XZDYtV0JuRnF6c3ZzMW9feC1OcWxSLVNjcWlRZjd6N1hKLUg?oc=5",
-          "date": "2026-06-16"
+          "person": "Bill Gurley",
+          "show": "BG2 Pod",
+          "title": "BG2 — conversations on tech, markets & investing (w/ Brad Gerstner)",
+          "url": "https://www.bg2pod.com/",
+          "date": "2023"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Max Verstappen labelled 'PR dream' with 'benchmark' Red Bull status - racingnews365.com",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMzM4Q1M0dGxERi1PM2xudVlkRi1QampHUHZtcGpabm8zaDJ4Z1NfakxSdGdpMnpYbHo4VG5HYnRZc2dWWW5pQXlZalhtMTBzb3JCcG1TWU9QMW4yY2s0Um1HU195dXZtT201WXQ2dl9PajlyS0xoakljV092UWRKYm5oT0J5NE00V2pOaHZWaWJGTDQ?oc=5",
-          "date": "2026-07-08"
+          "person": "Chetan Puttagunta",
+          "show": "Invest Like the Best",
+          "title": "Capital, Compute & AI Scaling (EP.399)",
+          "url": "https://open.spotify.com/episode/16Yhm924vW37vzjr8tkqZ6",
+          "date": "2024-12"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Podcast: UK targets speedy clinical trial set-ups with 150-day benchmark - Clinical Trials Arena",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY1VaaXYxNWhoS2g0bXVFYWtLbGZVd0NYYkpEUHRZLUVVRU5hMzFTLUdIYUpUaUhMRWRzQzFUdDlnVHl3djhHU0NaWG5PQmdGMWNVckdEUjc4TS1MYnhCR0lEdUZFWXZLVEUtVksxbWtPOXhLUkt4Ukp0SmhjVjVIamhvSUJoS1RHRExNbDRNVTRRTlFvS1VZd3hhSS1waXVrNWprVF9uRUhBOGJ1V2RXbk1QRUtHM2N6?oc=5",
-          "date": "2026-05-14"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "US deep sea mining policy: Interview with The Metals Company’s Craig Shesky - Benchmark Mineral Intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWkdReENxMFM4UjBnQ01HNEU5V2FIVDJQMFVyVHotSGF2dmFra1l0a0JCWDRkUHVHTzdfa0xSRVh2Ylg0MGo5QmpqUmE3Y3ltYU5YSDlENkkwbGhsallwMnRXVjd5SUt0RVRraWVYN3pXMFRnOUFTaWR2bmIzZG5PNDVHdF9EN3BQODAwZHBmcVRiaWI0T1ROakxXeS1ZSVA0RHpiMW1pNDJDQURiWnlPWGp3ejloRVdLalhhbUUzV1M?oc=5",
-          "date": "2026-06-23"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "‘Off Campus’ Oral History: How the Book’s “Cornerstone” Sex Scene Became a Benchmark Episode on Consent and Intimacy - The Hollywood Reporter",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc2FaRFZpOXRzbmVXZkZCdzl6VnRPbm1LQmd3a1NBb2R2UVlIYnNvZHhLVWhLcWhlWGZRSWpQU3JKSlZrTDVteWhWdFB5TUc1d1RxR09pODRhS3c1TTlyajRBalVkcVNFM2VnMHFKOVktdGV3R3dMS2tmb3p0ZnlldWpHakVnbWh3SWdvWVdCVnZWYVZHVzJWdzhWUFlKb1ZoUG4wN1J4cTV1dld4RG5WeHlQU2h4cnlIeU15ZA?oc=5",
-          "date": "2026-07-01"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Tencent Cloud sees Korea as benchmark for AI, gaming - The Korea Herald",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KT2pBTlpVYzU0bGlVSlpmYTA1RjYtQ3lMRWF5cTRQMS1VUEotdUc0U1g4N1I5OFJxYzNnbWo4RDJGU3lIQk15TVIzNEY5LU54cWhuVEwwNA?oc=5",
-          "date": "2026-06-16"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "INTERVIEW: GM Tim Neil - Hann Reserve Golf... a new benchmark in luxury - Golf Industry Asia",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN3JmeFBHMVlsUDlPdklzN1hZMS10UTNDakxPbE9LV0d2cGE1NWJVWjFJamRjeWxFYkt3VUpLS2hsb2dmVkVyWEpqclhlYmRHWVJ4WWJ4M2NPV0xDRUxzcHd2ZmNoWUlZclFEOTdvel94d3VzM3VlMm9JeXVOdTUxc25IRlNQZnBvaGJleXp1eW5rN183YjZ1QUNyOW0?oc=5",
-          "date": "2026-05-21"
+          "person": "Sarah Tavel",
+          "show": "20VC",
+          "title": "The Future of AI is 'Selling the Work' Not the Tools",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-benchmarks-sarah-tavel",
+          "date": "2024-05"
         }
       ],
       "people": [
         {
-          "name": "Sarah Tavel",
-          "role": "",
-          "x": "",
+          "name": "Bill Gurley",
+          "role": "General Partner; co-host of BG2",
+          "x": "https://x.com/bgurley",
           "linkedin": "",
-          "substack": "https://www.sarahtavel.com"
+          "substack": "https://abovethecrowd.com/"
+        },
+        {
+          "name": "Peter Fenton",
+          "role": "General Partner",
+          "x": "https://x.com/peterfenton",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Sarah Tavel",
+          "role": "General Partner",
+          "x": "https://x.com/sarahtavel",
+          "linkedin": "https://www.linkedin.com/in/sarahtavel/",
+          "substack": "https://sarahtavel.substack.com/"
+        },
+        {
+          "name": "Chetan Puttagunta",
+          "role": "General Partner (enterprise software & AI)",
+          "x": "https://x.com/chetanp",
+          "linkedin": "",
+          "substack": ""
         }
       ]
     },
@@ -9299,8 +9978,52 @@
       ],
       "region": "Americas",
       "meta": null,
-      "podcasts": [],
-      "people": []
+      "podcasts": [
+        {
+          "person": "Reid Hoffman",
+          "show": "Possible",
+          "title": "Host of Possible (with Aria Finger)",
+          "url": "https://www.possible.fm/",
+          "date": ""
+        },
+        {
+          "person": "Saam Motamedi",
+          "show": "Uncapped with Jack Altman",
+          "title": "How Venture Firms Endure",
+          "url": "https://www.youtube.com/watch?v=hdk8UXqW2AE",
+          "date": "2025-12"
+        },
+        {
+          "person": "Reid Hoffman & Saam Motamedi",
+          "show": "Greymatter (Greylock)",
+          "title": "Conversations About the State of AI",
+          "url": "https://greylock.com/blog/greymatter/",
+          "date": "2023"
+        }
+      ],
+      "people": [
+        {
+          "name": "Reid Hoffman",
+          "role": "General Partner",
+          "x": "https://x.com/reidhoffman",
+          "linkedin": "https://www.linkedin.com/in/reidhoffman",
+          "substack": "https://www.reidhoffman.org"
+        },
+        {
+          "name": "Saam Motamedi",
+          "role": "General Partner",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/saammotamedi",
+          "substack": ""
+        },
+        {
+          "name": "Jerry Chen",
+          "role": "Partner",
+          "x": "https://x.com/jerrychen",
+          "linkedin": "https://www.linkedin.com/in/jerrychenprofile",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Bessemer",
@@ -9354,8 +10077,45 @@
       ],
       "region": "Americas",
       "meta": null,
-      "podcasts": [],
-      "people": []
+      "podcasts": [
+        {
+          "person": "Byron Deeter",
+          "show": "Cloud Giants",
+          "title": "Host of Cloud Giants (Bessemer's cloud podcast)",
+          "url": "https://www.bvp.com/atlas/cloud-giants",
+          "date": ""
+        },
+        {
+          "person": "Jeremy Levine & Kent Bennett",
+          "show": "Invest Like the Best",
+          "title": "Building a VC Firm that Lasts Centuries (EP.327)",
+          "url": "https://open.spotify.com/episode/6YJOd54jJEwVpRNe3IslxS",
+          "date": "2023"
+        }
+      ],
+      "people": [
+        {
+          "name": "Byron Deeter",
+          "role": "Partner",
+          "x": "https://x.com/bdeeter",
+          "linkedin": "https://www.linkedin.com/in/byrondeeter",
+          "substack": ""
+        },
+        {
+          "name": "Jeremy Levine",
+          "role": "Partner",
+          "x": "https://x.com/jeremyl",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Talia Goldberg",
+          "role": "Partner",
+          "x": "https://x.com/TaliaGold",
+          "linkedin": "",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Battery",
@@ -9430,35 +10190,43 @@
       "meta": null,
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "INTERVIEW - ElevenEs targets H2 2027 launch for battery mega factory - SeeNews",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOFdxaFpJRWh1UjFhYjVKTzdTV0I2VE8tTV9zbkd3OENucGZLZjE1UUZkb1M3NzYtZzF3aXllOEpoNUhrU2dYbGQ4WHJ2dm5MbjhzdHo4b254cVd6NFB2ZG8wd01iQ3ptaS1nYmRJUzVlV2xTVktyWDBUcm9sUmVseHZqdzR6cVA0eDIxTk1fRW5KWUlkamFvUVNIWGN2X25I?oc=5",
-          "date": "2026-07-09"
+          "person": "Chelsea Stoner",
+          "show": "Goldman Sachs Exchanges",
+          "title": "The power of being 'stage agnostic' in tech investing",
+          "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/battery-ventures-chelsea-stoner",
+          "date": "2024-10"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Battery Interview - Oil, Gas & Electricity - United Kingdom - Mondaq",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1VRTRBM2tYR0pxM2dQb3I3eU1XNFNYWDE2MmtQUFNKUXl3WGctNjVCYS16U2tVX01nLU5lY2FIVUduQm0yZTNTZXVTSWhaNmdGVHJnZ25fb0xNMHBmWjdmSmFyRHpaR0hjQzdmLVprbnh3eGpmQW5WMmZkUQ?oc=5",
-          "date": "2026-07-09"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "FULL INTERVIEW: Children's Hospital Colorado doctor talks button battery awareness - KKTV",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQXlJRmNjd0hGWF9hQWZnT1FOM2FTb0MxVURjckxXY0JjRUVIeEdvTTFtQW9ZOEtHVDBZMmtUYXliS1FFY3Z5alhKUWptbXduV3hjVUtHbDRDYktoR1dUQzN3d1ZNR1F0UlNmRi1qTF91MHZ2SE9wME1GRzM3SF9IQjZqWHZYdkJwX0lXM2laVUV3SnlQZmptcTA5SURYNm51ZlcybnV3YkJmejlTbWgwOFd4U042SGRwdHNr?oc=5",
-          "date": "2026-06-19"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Atlanta Braves News: Chris Sale interview, Braves shut out, more - Battery Power",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXliUWFQYnBZSUpFd3loUkt3QURFRnZmNk5MeUwwb1VYdElDWXJPZzZfQ1J3RkE4Sy1Vb1BRZ2xocnZKODIzbURpRXh2MGN2ZmRROGNLOHJBdnlJODBXOVZudjYwcEhaTDN4elNrZmN0NUx4VXkxUmdCY3JsZDctN281bWI3d1NLd3lFOWROX0Nxb2p5d1RHaDRhMk1yaEtPWFBYVXlQRHVhQ3Rnc2hQZE8xM3k5di1F?oc=5",
-          "date": "2026-05-23"
+          "person": "Battery (firm)",
+          "show": "Powered by Battery",
+          "title": "Battery's own podcast with company builders",
+          "url": "https://podcasts.apple.com/us/podcast/powered-by-battery/id1475548918",
+          "date": ""
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Neeraj Agrawal",
+          "role": "General Partner",
+          "x": "https://x.com/NeerajVC",
+          "linkedin": "https://www.linkedin.com/in/neerajagrawal2000",
+          "substack": ""
+        },
+        {
+          "name": "Dharmesh Thakker",
+          "role": "General Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Chelsea Stoner",
+          "role": "General Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Index",
@@ -9534,14 +10302,50 @@
       "meta": null,
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "An Interview with Alan Goble, Author of the International Film Index - Yorkshire Magazine",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORHJRQUZzTTRiWVlkUTdGbXplRzl5TFJkam9paHlndWRybHhKQzkwYlFwNFRlOWpCck9Zdm1RLTMxRW9rWnJtMHlONjNQbDBGdnFXQS1PUHpSVU55QjJTUVliLXdidGx6X3FObEdwRkl3M281eEZHZ1FjLWhwQVF3dnZLaFpaOUNlak9hWG9tQ3M?oc=5",
-          "date": "2026-06-27"
+          "person": "Shardul Shah",
+          "show": "20VC",
+          "title": "Why Market Size is a Trap | Lessons from Wiz & Datadog",
+          "url": "https://podcasts.apple.com/us/podcast/20vc-indexs-shardul-shah/id958230465?i=1000669667822",
+          "date": "2024-09"
+        },
+        {
+          "person": "Mike Volpi",
+          "show": "Turpentine VC",
+          "title": "On AI, Open Source, and Evolution of VC",
+          "url": "https://www.youtube.com/watch?v=D7VuYJBsgcg",
+          "date": "2024-07"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Danny Rimer",
+          "role": "Partner",
+          "x": "https://x.com/dannyrimer",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Nina Achadjian",
+          "role": "Partner",
+          "x": "https://x.com/ninaachadjian",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Shardul Shah",
+          "role": "Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Martin Mignot",
+          "role": "Partner",
+          "x": "https://x.com/martinmignot",
+          "linkedin": "",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Insight",
@@ -9617,63 +10421,43 @@
       "meta": null,
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Anoushka Warlow provides insight into the SFO's use of compulsory interview powers - BCL Solicitors",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcW1YenBZYnpaaE4zUFZTU1ZJNGJSaFplc1JJMGpQTUQ3R0NXWmw1MWpTTllSUXZMTy1EYTZnOWp3TExpYl9mQ1RNaTJTLXp3MDZIcm14SDlFUHR3SjRfRmlhT3hkbm5IbU1HSTJfa2Y1X2tUa20zWTN3N3ZNWjQwclVKZHVjTDdETDR0VzVuX2VMZEtlOTAyNnFtWmlybFJMYnhDMlp5N2NvUQ?oc=5",
-          "date": "2026-07-09"
+          "person": "Jeff Horing",
+          "show": "Invest Like the Best",
+          "title": "Building Insight Partners",
+          "url": "https://podcasts.apple.com/us/podcast/jeff-horing-building-insight-partners/id1154105909?i=1000727018650",
+          "date": "2025-09"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "The Frank & Lizzie Show Episode 033: From Image to Insight: The Future of Wound Documentation - HMP Global Learning Network",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOU2kwS3VleGs2aUJjMHI1STAyQ1RELVF0M212RlRpdzN6TUM2YUgxUHhsVzR5QktyU1J0RW5KaDdOZ3Z1X0I5X0o5MHFyaVJPOElDOXVzYUJ4LU9zOWxFUk1BZFRjTUZ5VjJaNHl0dHlsQldmVjkzdnlnVjhpYndWR21LTEtxRkJwXy1vVlFUWEFleXA5YkdLZklkWEJGM3N6dWh6dmZXV1BhOE5JdjQzS1RNdjYwRElFTWlLYVBoQ2JsMUlsQzJtWWpn?oc=5",
-          "date": "2026-06-30"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Hungary Wants a Bigger V4 – A CONVERSATION - Visegrad Insight",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0eGRPN2VxaU1SNVlWMXNnbTdGVGtyay1kU21idVdRclhBM1BwUTVJNjhZQmRFWDdfbkhyOV9aNXY5bjQ0b0VjZmotRHI2R01lal9SNVBqckk3M2lsU3BZSmpGYzlqZE1xRnYxRV93VGlnVmUxT0xV?oc=5",
-          "date": "2026-06-25"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Interview: Medicaid and More Founder Shares Personal Story, Insight on Qualifying for Medicaid - TAPinto",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOYVRjNzFVRl90cFFvZkw1VVBiVGdQTmlwTUJ5cVNOdW4wdHRSaUpURDdNRS1oblVud25TaC0zVjh1ZWxXQlhTdTNieXJDUl9OZEJUQXFaTXVFaktNVlZuNmpvNS0xQWdxaTljOVl6TUg4OUtoRWhnLWZxd3pZM0VjdEJhUENDeV9QbFZvYV9tMXViVnczWl8tclVpVWlsLWROczduYTUyR2FxMXFaaUlHU0hMM2VFVHhKTktQdGhiODYtRk5KWER3NUhrdkliUUxoS1hIaXV4djVyU2NTbDJOdnAwZ3pMWjY4djdDMXk4TGJUUERieG5hMVhGT2ZfM0NOWGdB?oc=5",
-          "date": "2026-06-22"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Morez Johnson Jr. Gives Insight Into ‘Interrogation’ Interview With Warriors - roundtable.io",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb2dsNjRpTW51ZGwwYnBuODZ0M0VNUjlLVjktWTlHN0plU3BFNmdqeEVUOVlBd3NZT3pQVjdQdEdLZnBzZFRRcmQtSENWN3pvak5wM3Q4b3lXZzl1TldoOV9YWmxTU0d4bjJaWjNxVHc2NHVWeGozQW9QVmFhZml3RmZ5eEttUmFSMlQ1X0NmMnlTckNweUd2bnhLTGpxY294WjkwUE5VQWJLUG42REpvTE9uSkNidHJ5TWZVSw?oc=5",
-          "date": "2026-06-15"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "The Global Insight interview: Robert Petit - International Bar Association | IBA",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jMW16aVFkUjR0cExyTk1ISUFsSDlBWmZ3ZGdJTlBIV0lzcjdJVUhiQlZQTkdRcFNsM1hHbXJ0V0tQMzR5eGFTN3dYNkNueFJIcjJDc1hhWFNEcFBnT0hIV05oc0NUUkRlZFhHcA?oc=5",
-          "date": "2026-05-21"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Sky Sports Golf Podcast: Laurie Canter's insight on Bryson DeChambeau's US Open plans - Sky Sports",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNUE4dFRjbGN2SjB4aXVCY081LWZoMW1KN01JNDZzU3MxaWl3bVpWT3FzcV9kTTgxbkx5WmN1dzNXc0Iwc3pweVBXcUZPdjR2cGtSZmxWUTkyUmhYWUZrOWw4dThCRXNzZC10M2pCd0xOWk9GNUZuNTFjRWo5MkdrVUlBUDEyTlR1bFJwMTdULXM2bmczTXVfM21BbHRZeHYwa2tfelpVLTlUQVpwazloNEY3ZHJXNzY1SlZJaUtfNVdhR1Z4WTlGT0p0TjByWnBYbGc?oc=5",
-          "date": "2026-06-16"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "White Lotus Recap with An Insight Into Every Season and Episode - Cinapse.co",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15NXlwS0RBb3pyeHJoRVlsQzBwNVMxMHFuLWJTUXNhMEFLRzhWUGRIVjZjeXhRLWhmZVJmZFNlNldrb3BjU3o0dzdtRm1WUQ?oc=5",
-          "date": "2026-06-15"
+          "person": "Deven Parekh",
+          "show": "Masters in Business (Bloomberg)",
+          "title": "Deven Parekh, Insight Partners on PE/VC",
+          "url": "https://ritholtz.com/2025/08/transcript-deven-parekh/",
+          "date": "2025-08"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Jeff Horing",
+          "role": "Co-Founder & Managing Director",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Deven Parekh",
+          "role": "Managing Director",
+          "x": "https://x.com/djparekh",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "George Mathew",
+          "role": "Managing Director",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Boldstart",
@@ -9725,14 +10509,43 @@
           "url": "https://www.whatshotit.vc"
         }
       ],
-      "podcasts": [],
+      "podcasts": [
+        {
+          "person": "Ed Sim",
+          "show": "Driving Alpha",
+          "title": "Inception Investing in Technical Enterprise Founders",
+          "url": "https://podcasts.apple.com/us/podcast/ed-sim-of-boldstart-ventures/id1739450552?i=1000666082794",
+          "date": "2024"
+        },
+        {
+          "person": "Shomik Ghosh",
+          "show": "Software Snack Bites",
+          "title": "Host — enterprise software interviews",
+          "url": "https://shomik.substack.com/",
+          "date": ""
+        }
+      ],
       "people": [
         {
           "name": "Ed Sim",
-          "role": "",
-          "x": "",
+          "role": "Founder & Managing Partner",
+          "x": "https://x.com/edsim",
+          "linkedin": "https://www.linkedin.com/in/edsim/",
+          "substack": "https://www.whatshotit.vc/"
+        },
+        {
+          "name": "Eliot Durbin",
+          "role": "General Partner",
+          "x": "https://x.com/tedurbin",
           "linkedin": "",
-          "substack": "https://www.whatshotit.vc"
+          "substack": ""
+        },
+        {
+          "name": "Shomik Ghosh",
+          "role": "Partner",
+          "x": "https://x.com/shomikghosh21",
+          "linkedin": "",
+          "substack": "https://shomik.substack.com/"
         }
       ]
     },
@@ -9809,35 +10622,50 @@
       "meta": null,
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Acclaimed podcast launches season two to amplify the voices of Black British writers - IMDb",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tc0dGSkZFZ1l0c2cteGxOTFZsb0ludXNJU3JxLWtGZWNUUV9hU1N5eFdjQWtfb2hHTUNWc1ZIaHlwODJrazZYcWxjRkladlF5N1RIQ3pNNGo3RGIwWTc1QzZKYW1waHprbnBrb2F6aw?oc=5",
-          "date": "2026-07-09"
+          "person": "Sunil Dhaliwal",
+          "show": "Open Source Ready (Heavybit)",
+          "title": "Technical Founders in the AI Era",
+          "url": "https://www.heavybit.com/library/podcasts/open-source-ready/ep-34-technical-founders-in-the-ai-era-with-sunil-dhaliwal",
+          "date": "2026-03"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Honoring America’s Veterans Launches New Podcast to Amplify Veterans Voices - The National Law Review",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTnMtd1F6emJrN1JYU0xZUWNzeUdXNC13SmNSUmxJbGxlcnMtdkwzOHZ4RW5TNTR5aUY5NW9BTGJwYWhCcEhPdm1STkUyZnFSX045NmdzV1pmTTFRc2lnMF9FVDdYNGFzSUFlN280V3pDQXBrSko0U0Vqdm9lS2tOeWY2bWkxckctellNZU9wRkxFU3JVZW9mek5BZ1JzZGlfbGh3WjdVUFF6M1pxR1IxUw?oc=5",
-          "date": "2026-07-01"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "FG launches podcast to amplify children’s voices - TheCable",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9DSzJwWGZUNGNQZmMwZlZ3Nm4wSml4TTdndVRXSHVsRHlsWVNQX1VaU2xnOU05TFNYeXJreVMtOVhmc3dRTHIzeVB5dm9CRUUxLV91aG00WWVocUpMTk9NbVl2MlFaNTZxRXZmbTFCcTdhM1VIWFlGZTRMSjM?oc=5",
-          "date": "2026-05-17"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Nigerian Government Unveils Podcast to Amplify Children’s Voices - Voice of Nigeria",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbnFMSDJrY3pqbXdkZFpLbExBU2RZSjhIOUQ0bGRvUjd6YlgxcGM1Yk5MRGM4S2dUbWYwQkk2akU0SFlvb3BxS1RBcWJEcFZ3V0VUMDlhX0w0V2NuZW9IM2QxZmRNcnVQNHdoUnczN3ppQ3BrYWFEUW9KOW9DbV9LNXJqdFlrLXkxLVdN?oc=5",
-          "date": "2026-05-16"
+          "person": "Sarah Catanzaro",
+          "show": "Gradient Dissent",
+          "title": "Remembering the Lessons of the Last AI Renaissance",
+          "url": "https://podcasts.apple.com/us/podcast/sarah-catanzaro/id1504567418?i=1000597742333",
+          "date": "2023-02"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Sunil Dhaliwal",
+          "role": "Founder & General Partner",
+          "x": "https://x.com/dhaliwas",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Mike Dauber",
+          "role": "General Partner",
+          "x": "https://x.com/dauber",
+          "linkedin": "https://www.linkedin.com/in/dauber/",
+          "substack": ""
+        },
+        {
+          "name": "Sarah Catanzaro",
+          "role": "General Partner",
+          "x": "https://x.com/sarahcat21",
+          "linkedin": "https://www.linkedin.com/in/sarah-catanzaro-9770b98/",
+          "substack": ""
+        },
+        {
+          "name": "Lenny Pruss",
+          "role": "General Partner",
+          "x": "https://x.com/lennypruss",
+          "linkedin": "https://www.linkedin.com/in/lennypruss",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Wing",
@@ -9913,63 +10741,43 @@
       "meta": null,
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Alex Clark’s Right-Wing Wellness Podcast Reaches New Lows - McGill University",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZ1JWcjFYazA3V0FuRXcyLVl3NW53WFhCVlVFUzRuSzFtTVM1NXhzUG5qWXVFUUJZQ3ZuaUFpZlhwZU5WeW5VaEctdG9tR01pX0czX1JSWGp6S19ROVdfM0xVNVRsZlA4NTRvMGU2ZUtFcGphNnJyajBna19CYkdrN3VHSHR6TGdwbW1VZFhiV2lfcG1QNnAwVnlmZ09vdDZ2S1JNRV9OZWRjUVFxUjMyQVVaMGJJc2daRFJab28xM21EY2p2WUltaEJWNk9jTnNlTzlReE52MzJVdGM?oc=5",
-          "date": "2026-05-14"
+          "person": "Zach DeWitt",
+          "show": "InnovAItors (Wing VC)",
+          "title": "AI leaders from Amazon, Uber, UiPath, Gong, Drift",
+          "url": "https://open.spotify.com/show/7zBWZzUvBd3XjDOrjmo0Py",
+          "date": ""
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Becky G Suggests a Taco Spin-Off & Says ‘You Can’t Even Enjoy That’ While Eating Spiciest Wing on ‘Hot Ones’ - Billboard",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOVhRamItX0twZW1TREppUE1sUkM4bmZVSGdNRHZOX2cyckZhczlDZ0Q4aDVPcXhwbGg2ZDFMcmhXMWRMLTcyRFJZVTZVYmtMekItM2JZZTZlLTlWcGYwT1dUQXZ1bjkzRVk2ZmtzSk5wY2RQT0NfbEdpVTlLOV9mY01lODVzek9ubmNXZmVQNW52SzFjcXItLWZSZw?oc=5",
-          "date": "2026-06-04"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Still struggling with pop culture, Trump whiffs on point of ‘West Wing’ clip - MS NOW",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcm9zbTRwX19LOG14c1YtZV9vdlVZVFVZVE5hWmhjZ2EzNFhCWEhBQVpoNllDWUQwbDduUV9LcWctOVNta2ZxbU0yOU56WklJekI3Q2IwMjE4UmZycV84dDl5Sm54cWVSbzFRNEp3clVxV1hBQWVyYXF4SU5tbVREbG9GaVAtVWVNRFBaR2VOYzZCWGFhMXlGUlhrUlMwQ0FrSk1fSkV1YkxTbFJIamczQzc0RUc1QmRhZDE0Y3VGLVVPQTVj?oc=5",
-          "date": "2026-06-11"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Jill Biden looks back in new book View From the East Wing - Nashville Banner",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU2FRUk4wYjZZOUVLSHBFOGFBRW40VWFFRERuaGE4MzBGNDRpNFBnQlJmNG9lQkRPM1VQS1FsMGpoa214cGNSRE5TMmo3cUEtclBTa2hMU3E5RjFsSTdCVG40ZUpMWGtPRUdwTEJveFNmczVoeXp1SFozVEl6V1dXcXh2dXB5NTl4SnVXc3ZiYzAwUnBf?oc=5",
-          "date": "2026-06-28"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "WATCH: Bill Maher says Vance interview critics wouldn’t be happy unless he ‘punched him in the nose’ - Fox News",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMUFYRUo0T1lsTUNSX3lqR2lPNmZwT1JGOEJibDhmcm1icG56Q0N0cnE3ZThuR0JrVTdKY05ZSlh5UHBCTEg4SjM1RlpoMlV3b1lzcjBFUllNT3RPZHVzTUtYNzdaa0FIRUhTcXVQLVMwVEFsMC1PNTE0RWhpSXk1Z3MtUVBVVThMdU5WZm5ERHY5dGtjbjhpNC1PQWY2TDF6SU9PSXZOM0lGakdNRG8wRjRwZFdGOUdacE1j0gHAAUFVX3lxTE5BNmRZV1FzVzg3MlpkTW5vN3lsSmktR01wb1Z3Ml9EMGxNNzh0Yk5Ebk9yLUhnOTdLZ2dubFFnZFlHamxGczJILTRtSkE4eWZSaXVJYzhqZ2pDbWZMdThuTG0tWGFtV1pMamZyakxWYjFrVHBQNnN3SjVNZWh1TG9OOXJRcXNmY0czUWNpYzNyekZHdkJxeDJLYko0MUE4bXp4bUh6d0xNYVlKT0tvLWFhQ2RjZ3NZS256bWFTVWVJbA?oc=5",
-          "date": "2026-06-29"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Trump shares ‘West Wing’ clip dismissing ‘proportional response’ after strikes on Iran - The Hill",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLUJUUEszTVFzV2czQWhOY2J3VV9oLTBjSFVPWFJGcTVObXNoTGx6SVQxdUcyd1NrZjI5eWVlbmd4NWMtcTJWU1FyYjhZb2hDM2lfb3FuUEI4eDZ4bWdqWkMtWnk3TVlSV0dseHI3SnRvM2NIVXJ0cW5DYVRYNTJxMFpOVGtodndJVnhMclUyNEp6YUJRYkt1eDhBMG50d9IBowFBVV95cUxNd05LVUZoeVFlR1JmWkt5bG1MSUR1WW9ZS1Q4aVhjZnc3TlBVNEtWRzBveXJqOHMyRGNlMURSbWRFaldSZ081RUtiZFVENlBoQXVpa05ReXZ2a3FRemVKUVpMNFVoMC0zNWFQU3loYjNuTW9sU2RsMHRDNkdiNGRnU0F1T2lhcmVDZ1Q2VVhWSVRLMURtbG1uakc5bVI0UmFVdjVR?oc=5",
-          "date": "2026-06-10"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Leaked Karl email exposes everything - News.com.au",
-          "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNZWRkLWdldXJNUG5rOUJoc2J2eHpaVHFqdWszeUpoZEtVZmFRN2liTDN5V2VpZ2FldnhfYURBU2N0c3Z3d0lDTnlnS0R2a20yWHBSWTN3VnFMaXQxWkU5Z2pXcTNVNnRBSUZXU2ZsZktwRFEtcm85WXNiWndMdTBMckg0WXpfTy1WNjZsU3pOQkVzVkVhcGpFOVdrUHZQNUJwNXpEWXVvWHBOWlBKV0ZIbTZ1Y2NnUDNkSGpjYTZhcDB6WFh0OUs2RWVhUG80TjNXQ1pSMl9Fd3pDYlFFdVlsZ2RIZmduVi1MeWlDU0FnWHo3UHdnaEY0Mjlyb0x2WW14dk5LV0hxWFVmQkNPNWFnWXRzRF9oNngtNXdyVHRlbnPSAaYCQVVfeXFMTUlDM3JGU0hOYXdoOUJGanRlWURmczcxVUpFWVByNDIzVXpWYjVfRXFwY2hFUHlhZnFibk4wWUZtazIzZ1pZQzdienRpbmxMVGp5NFFGdXE5VEF3Zng5X19pS0xlOGtOY1VsdF8yS25TZmtZNE9KcElna0M5T2drSjJSV0FFWWE0ZWNPZ0hEeGhvQXdaU1dnR3lfT0Z2MVFwWVkwVEpOcG9rT0p2OHFRVW04RFU2cnI3Uzh2X2xkMTVyWEEyakVSaGZLV3lWcnRKcldTVU1mOHkzS3BPUHRIOVE1aTlaODkzR1A2X1RFSXVkeUhPR3lLOGZYNFJoV3h6M09YaW1PMFJWMXI2UXJheXlhbFVMY1pvazFxeUU2YnFWcmFLVXpn?oc=5",
-          "date": "2026-06-26"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Trump counterterror plan: cartels, left-wing violence / San Diego and the far right : Sources & Methods - NPR",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSVlZY1VPU3JOS3gwOWw2dXFRS21PVnZveVRZYmtaajdETjlITmhWYzJzWGFlOU5DcU55a2hkcmRxNG9SLWduc19zSlU3MjhrVEZGLUVMQmc2Yk81S3BaT2dmX1B1cmlrR2ZQcXZzcjVKajhiVFUwRFZCWC11X1N3Q21ILXN4M2tFRENEMTZSaFRvMUlvQzdjeU1XTjZHaWpET00xb1dWVlRCMTJDZnlIaS1NWWZMS1FZQzg3MWV5blNvUQ?oc=5",
-          "date": "2026-05-21"
+          "person": "Jake Flomenberg",
+          "show": "Venture with Grace",
+          "title": "Investing in AI Product",
+          "url": "https://podcasts.apple.com/us/podcast/wing-partner-jake-flomenberg/id1729243199?i=1000683295114",
+          "date": "2025-01"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Peter Wagner",
+          "role": "Founding Partner",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/peterwagner414",
+          "substack": ""
+        },
+        {
+          "name": "Zach DeWitt",
+          "role": "Partner",
+          "x": "https://x.com/ZacharyDeWitt",
+          "linkedin": "https://www.linkedin.com/in/zachary-dewitt-a5a8b816/",
+          "substack": "https://www.notoriousplg.ai"
+        },
+        {
+          "name": "Jake Flomenberg",
+          "role": "Partner",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/jacobflomenberg",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Basis Set",
@@ -10008,14 +10816,36 @@
       "meta": null,
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Rupee undervalued on REER basis, set for rebound: Ashima Goyal - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQR3ZwWlUyT0RLTVNHQzdDdHBrbV9QTG5lckVaMVBQMlh3bWkzenZkSEM2VWczZ3RHVU1aTzhOUVIwM2VielJMZVBnUUk0VWk4ZlFSblA3cUwtYmhTYWtYQzVJLXVSTUJfVGpUUFVJZGc3MXlwcm9pTUZiazMxQzg2YV9EbW9lckdHa3hmeEsyTm5RUFQxNzhZbWpiSENSM25CS01MeXlTM0k0RzNEM1NUd3N2QzNTSjZYZ2pqRDU1dHlZUXRnMDZEV2NESmktUzliSmNGekpR0gHbAUFVX3lxTE01WlJ1RF94UXB6cnFmWF9yX1hLZFdna2wzMjlxbVhRWU1YanVjOFRlaTVKOFBpeHo3cm5zVjY3V1dNOFI5SjRkZnRCeUhVbmVhcEhxeG50NVNJbW4zdmQ2emZuV1pRV1ZJUkw1bEkxd0pidzV5VC1YaVR0MG9YZF9JczVpNnF0TThwTjZCeW80NGdNek1tSzV5RXhycUZNSWFpaTQwaDZxSWJnS2N0eThjdVVSQ2trOTAxZHNDWkhVcnNlS1d1bFJtQUZCbS1va2lxWGVDRzdpbk5OMA?oc=5",
-          "date": "2026-05-27"
+          "person": "Lan Xuezhao",
+          "show": "Venture Unlocked",
+          "title": "Using data science to guide investments",
+          "url": "https://ventureunlocked.substack.com/p/lanxuezhao",
+          "date": "2021-07"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Lan Xuezhao",
+          "role": "Founder & Managing Partner",
+          "x": "https://x.com/xuezhao",
+          "linkedin": "https://www.linkedin.com/in/lanxuezhao",
+          "substack": ""
+        },
+        {
+          "name": "John Mannes",
+          "role": "Partner",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/johnmannes",
+          "substack": ""
+        },
+        {
+          "name": "Chang Xu",
+          "role": "Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Conviction",
@@ -10096,69 +10926,34 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Texas judge in Karmelo Anthony trial defends decisions in high-profile murder conviction - WFAA",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPVEZCSzhBcVdERUlkcG15RXEyT2kwSHB2QmFNTlA0WHVHaDNieW1FZVhBbGJldGlrVUlsV1FwbmVrSVF5aldzMk1RSWFRbV9vZDk3ck9JNktoX3kxdzQ1dWczV09GcUZqMmJ4SXo3Q3pfaUVVMDhYSXpSZHh4Z0NVMHlSQTAxTlRmWEJIRzZBREF6cW82S2kzd2lZUjdoeUNqd2phd1lSRWR0bGpwc2tfUXZiUlBkVFkwd3VEYk5VZVhWYWI4dXRGZHZxc1hJOGtlcHZzYWE3OTlER29aZzllV1Y0TWJZamtjM2k2Uk5BTDlaTndLeE5haWZnYUI?oc=5",
-          "date": "2026-06-11"
+          "person": "Sarah Guo",
+          "show": "No Priors (Conviction's podcast)",
+          "title": "The Computing Platform Underlying AI with Jensen Huang",
+          "url": "https://podcasts.apple.com/us/podcast/the-computing-platform-underlying-ai-with-jensen/id1668002688?i=1000609786531",
+          "date": "2023-04"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "After Karmelo Anthony's murder conviction, his mom says her son \"didn't intend to hurt anyone\" - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZXpQaVFPUHBzNXhoMmZ2ai1kSmtLaXpKTXpGYUVKX3FtdWprZ0plYlFtU0JmbVdRM1ZDOGgwNHVfY0tHV05VWmNZUmJCLXBmeDJreVRPTExPV0V4eDVva1RuQ0FZbExZOTQwTVBqS1BZejFZR2dTay01SFlhR2VRSnJvZ0w5OTJjVVE?oc=5",
-          "date": "2026-06-11"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "New Netflix series starts with Murdaugh episode following overturned double murder conviction - Post and Courier",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQLVBscGQxZFF4aW9HOUJNR2hldE1sT05XMExQWWtEUHdWaFVvVTBzOGh5bjhlV0RfeU9HUjlGMVRlRFlLSm5OVzQyZlNrREJHZTNJTE81aHYxREdSZ290eVh1alJlZVdDdlRZcEFXRUlYVHZ0dzhFWXZldU1rdEQ2dVRsOFpxQ0V2ZENySnNXWU42anZucUk4bUctRENUTnV4SnBtaFZwRG0wd2wwS2Jmcmc5NDdVZFNCc203WkVLNVNoTnpoTVRWN1IxQUptam5aUlc2Zkh3X2M5YU5uT1NRS3NvakNCUTBJVWE0cDlxaTJDUlNtVU1N?oc=5",
-          "date": "2026-05-28"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Exploring Synod 2026, Episode 4: Communion, Cooperation, and Conviction—Synod on Church Relationships - The Banner",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSngyU2JoWTlmSEtuOGFMZ1pXRVJmMDdDUVBJS1NhN0dMNTA3cEc2MHhhdDZHRThUQ2pvMmJ2TFRyMDBGblhMVHdrcmRWUzFLd2RZWi1ZWFUybk5NWVJMbEFMd29TOTJaOUpSRjQ3X2wzU01MYzN1Q2FGa1VLOEc4c3hMRmVINVROdWdDUUc4TF9wT09BUHJMQU5tRi1nSW1vemhXRU9MNzJvazAyalVkR3Vpam9RZGJJQU5iaHVQeldWc2c?oc=5",
-          "date": "2026-07-07"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "KCCI exclusive: Ian Roberts speaks publicly for the first time since conviction - KCCI",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTTY5NzZCTGVrR1B3OXFNTkUyREdySjkyUmlwWUZFRDZwSERTOUlDS2RRYnpEVWJzbWM1NVVQbExoZTk5U3RybDlILTZCVXluZHlIcklHdWlMT05Ja25YdUxuQlloMlZvUkNrdWZHY2p5LVZvOWhwdldmTnBfdHMzWmdlWEJiLUFDZkloc3Z6allCck1uWmxmUENDS1hQWk1OVkZSMFhiMGhhX2MxbWtXeDdDdW1GeXRLcE5sN0sybGhLdm5J?oc=5",
-          "date": "2026-06-17"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Austin Metcalf’s father opens up about son’s murder, Karmelo Anthony conviction - Fox News",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VMjd6ZHdIVktXSmNWb1ZmbkRFdUo5UUFQWl9kbTF5SU5PZ3FvUjlrMExTWU0yZWlsVTFrdUZ4dkJJdmtDODdCRzBSOFpsRjBiQzI4a253?oc=5",
-          "date": "2026-06-22"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Marine Le Pen to run for French presidency and appeal conviction in top court - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvUFEyUkdpejRBSkg4Tjlac3AzeGlyYUk3MVE3MmJJRGM0alpEWGo1S3hMVGRwYzFYdUdzZkJiM2t1ZUk0ZThEUFJzUk9ycGl0dWMzRXRqVXJmTUE3?oc=5",
-          "date": "2026-07-07"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Jung Ho-yeon's Conviction: The Reason for Slowing Down After 'Squid Game' — \"Learning Matters More Than Leading Roles\" [Interview ③] - starnewskorea.com",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1reThvenZNbGJhcnE3U25rVm9zSzNkYmFmdVVDWDZQNzFJN252U2VRcjdSSXVEZHhYdGQyY3FLcHhBSlBpcVV5WFdodjJUeF84ZzFMLVZMaGZFOGRRRDM0SmtKaDRjdVF5eUVNM1J0dTJKMElpZjQ1aQ?oc=5",
-          "date": "2026-07-08"
+          "person": "Sarah Guo",
+          "show": "Invest Like the Best",
+          "title": "The Power of Conviction (EP.383)",
+          "url": "https://open.spotify.com/episode/6ucaCw0leozd9jkG5HcuKW",
+          "date": "2024-08"
         }
       ],
       "people": [
         {
           "name": "Sarah Guo",
-          "role": "",
-          "x": "",
-          "linkedin": "",
-          "substack": "https://sarahguo.com"
+          "role": "Founder & General Partner",
+          "x": "https://x.com/saranormous",
+          "linkedin": "https://www.linkedin.com/in/sarahxguo/",
+          "substack": "https://sarahguo.com/"
+        },
+        {
+          "name": "Mike Vernal",
+          "role": "General Partner",
+          "x": "https://x.com/mvernal",
+          "linkedin": "https://www.linkedin.com/in/vernal",
+          "substack": ""
         }
       ]
     },
@@ -10192,8 +10987,45 @@
       ],
       "region": "Americas",
       "meta": null,
-      "podcasts": [],
-      "people": []
+      "podcasts": [
+        {
+          "person": "Aydin Senkut",
+          "show": "20VC",
+          "title": "Scaling from a $4M Angel Fund to $900M",
+          "url": "https://podcasts.apple.com/us/podcast/20vc-scaling-from-a-4m-angel-fund-to-900m/id958230465?i=1000564161627",
+          "date": "2022-05"
+        },
+        {
+          "person": "Peter Deng",
+          "show": "Unsupervised Learning",
+          "title": "On AI Pricing Tactics & Why Voice is Underrated",
+          "url": "https://podcasts.apple.com/ng/podcast/ep-73-general-partner-of-felicis-peter-deng/id1672188924?i=1000723591920",
+          "date": "2025-08"
+        }
+      ],
+      "people": [
+        {
+          "name": "Aydin Senkut",
+          "role": "Founder & Managing Partner",
+          "x": "https://x.com/asenkut",
+          "linkedin": "https://www.linkedin.com/in/aydins/",
+          "substack": ""
+        },
+        {
+          "name": "Peter Deng",
+          "role": "General Partner",
+          "x": "https://x.com/pxd",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Viviana Faga",
+          "role": "General Partner",
+          "x": "https://x.com/vivfaga",
+          "linkedin": "https://www.linkedin.com/in/vivianafaga/",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Founders Fund",
@@ -10275,69 +11107,41 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Founders Fund unveils card game show featuring Sam Altman and Palmer Luckey - 디지털투데이",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONllqVFpoVWxINXdYQU5QeXFFbXFsZ3VlbjdncVkwRmZyX0x1MTAyWmxZSDU4dndOdUVLbWNzdzBXRWJNeTcydEplY2lJejZKeWlwT2FEV0RyM0M2OHFnUEF5STVtU3gtVmlxQlV2X0UxcTdRVU1HNnlnZzhhS3RzbEc4N2l2VU4wTUdTelBUYTBIeno1TmZiUkhySGJZNE1NekRob1VXMmlYb3NVNGY2aFNjZzltNEYzVXlrTw?oc=5",
-          "date": "2026-06-05"
+          "person": "Trae Stephens",
+          "show": "World of DaaS",
+          "title": "Founders Fund's Trae Stephens",
+          "url": "https://www.worldofdaas.com/p/foundersfund-trae-stephens",
+          "date": "2025-04"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Exclusive: Founders Fund partner Scott Nolan talks SpaceX - Axios",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtMEp0RFY3UG1KLXV3OVBEVmYyMmhVcDRuUEcwcHZDYUwtdVpxcHdCZEQ1YWtOdVhnX29OR2pPekRDM2RRZXlwMXk4djBYV3kzWHRsY0RKV3AxbW9HU09FZ1lnQmhVZHdQT0E?oc=5",
-          "date": "2026-05-28"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Brian Singerman: \"If SpaceX Didn't Work, Founders Fund Wouldn't Exist\" Kirk Cousins (srRoZWnLBM) - Fathom Journal",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZalNINld3R1dQNjBENW1BeWtqWUR6ZXFQZEhfaWdOVWZlcWFnT2Zna0dxd1ZORnR1ZnNnLVJIdnJsRWYtWm9vR0U4S1NrRXU5aFZsNWhjY1Ztc1B2blpFUmg5RzR2LXBCNnc?oc=5",
-          "date": "2026-06-22"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Brian Singerman on Founders Fund's Defining Bet: \"If SpaceX Didn't Work, Founders Fund Would Not Exist\" - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13X2FvSjVjWXNXZEJfTUNJcEoyc2ROamx2VGJRRmVZc1NsbzQ3Zm1oOE90bTBPZk5aTEk3ZEh5c2xDODlEZHFBYzU1Q0RXTEF0RXM3dDlVamZHVnc?oc=5",
-          "date": "2026-06-11"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Founders Fund Launches Show Featuring Tech Industry Stars - Zamin.uz",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTXdaYXFReGtQQXNYOVVvS2RBVlRDSWlsQlNKaldPSzRFRFJkaU1lVVpLSm1zUUV0UnA5LXRiVFFtYjNSc2JndmZoMC1zU0ZFSE5XZUJGTGtKSkh2SlJjNVJpR05SOF9IVHJEVHhJOHZkSUJmNU5LZl9nWVRTeElVTnh0Nnk2MXhaRHdmMUpGS290ZXQ1U0RfMHhlUTRtNDJZLXc?oc=5",
-          "date": "2026-06-05"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Founders Fund launches game show starring Sam Altman, Palmer Luckey, and other tech elites - TechCrunch",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM1k0MFBadWFlRW9rLThLTkJtMzFXeGFfbFZRM180YjR1TENlcGJYcWRBc0FGRXFLZHJwXzJlV1RhZm9tdURNUl9kdnBqSUVoUENwNDgwbGVPSFk4NWhWU2pzVGFjd1VNWE5iS0tNeWVpYUZXUTJaaEJEODlOS2V4UWxucE90NEozdDNCMWU0c3RnLW0wODFZTXgzZjNLM2FyME1vNkZQY3lpWlA1SFlJSS02U2pBRGt4cFJQd2E3Nk4?oc=5",
-          "date": "2026-06-04"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Founders Fund's New Media Play: Tech Celebrities Playing Mafia - Newcomer | Substack",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55MmU0RXJMSkNQNUxKcHY4M1pPT2YxejU0UE14YWhtRlU3RVRPNFd5VGwwUW1rMlFsdXhDOWJUdDN0REJwWlFibUFCUmdYemF5eWJ2T2VvWk9lWkUycFl0THB5MmJUQ2MzSDZ3dQ?oc=5",
-          "date": "2026-06-04"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Founders Fund launches ‘Mafia’ game show featuring tech leaders Sam Altman, Palmer Luckey - The American Bazaar",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYUFuR2Ewai1wNGtER0F2dV9PTW5GN3B2Um11YU5maFRkOEZ1UDBWdzE2OUdzcllqWG5McE16RlVtV2F0OVc5ZGQtbUZOOFViRjhJUU5yT1RwTmJNWWdWUVFBZzcwbW1fb29TamRjVmFuOWtScTM4OElzekpxalh2SjdiV1pLZEI0aWh2cGVZRjVFdjRy?oc=5",
-          "date": "2026-06-05"
+          "person": "Delian Asparouhov",
+          "show": "20VC",
+          "title": "Inside the Walls of Founders Fund (E1183)",
+          "url": "https://podcastnotes.org/20vc-with-harry-stebbings/delian-asparouhov-inside-the-walls-of-founders-fund/",
+          "date": ""
         }
       ],
       "people": [
         {
-          "name": "John Luttig",
-          "role": "",
+          "name": "Peter Thiel",
+          "role": "Founding Partner",
           "x": "",
           "linkedin": "",
-          "substack": "https://blog.johnluttig.com"
+          "substack": ""
+        },
+        {
+          "name": "Trae Stephens",
+          "role": "General Partner",
+          "x": "https://x.com/traestephens",
+          "linkedin": "https://www.linkedin.com/in/trae-stephens-485a811/",
+          "substack": ""
+        },
+        {
+          "name": "Delian Asparouhov",
+          "role": "Partner",
+          "x": "https://x.com/zebulgar",
+          "linkedin": "",
+          "substack": ""
         }
       ]
     },
@@ -10415,63 +11219,43 @@
       "meta": null,
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "BREAKING: Broncos trade Bradley Chubb to Dolphins for first-round pick - DNVR",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQc2R4TGotSE52ZVN5SWVMLUdVekpxdjNmSUw4R2I3Q18tMHF6M0lMRzB0blc1OGYtVUxHeXJWcUliSV9iLXpGYVV6eE5aZFBiX3dxaVQ4VmRFOUdKTXdJSlVnR3hTamU1WmxnLV9vSUMtMmtrbGhlNVA3eDBZTGpXeFJTOGFfbG9Tdjd2eUFDYmhDaGtYeFM4My1QeHp4aHM?oc=5",
-          "date": "2026-07-08"
+          "person": "Brett Berson",
+          "show": "In Depth (First Round)",
+          "title": "Host — founders and startup operators",
+          "url": "https://review.firstround.com/podcast/",
+          "date": ""
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Rory McIlroy fades at the US Open with 5 bogeys late after a three-hole run of birdies - Golf Channel",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTG9ZeHREZDR6NFNLcFR5S1o2LTRoajdydFZWYjgtWFJkNnh5NDN0V0hSbmw2WlRQcER6ZmoxdTJyNXhEcVE3QU9GaU1tcW05UjYtcFFDVXhWMkc5XzN5c0syYkc3b2hSZEw0Z3h3WlFDY2VFejFyNXpwelczLTN2SlRVV0ZSTGlJa2VkQWl3aVp6b010Mi1IdzBGckhsa3JPaUo5cWZBdzBTZmVCVHZSc1d0dWNqd0IxSnBvd2M0Uk5pQQ?oc=5",
-          "date": "2026-06-20"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Examining the Broncos’ options in the first round of the draft: Offense - DNVR",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3A3S1dJeVpOR1owTE41d0RIclZFaUVlcjA0cWRyZ1BjMWsyR3hTeEk3a2o1Z1FzOVZQTU5GdU1lOXBjN2kwMjNjXzNvdGZzSjZhQ0tnN0ZwOXNMNEQ2bUZPb2c4NFVHYUJxVklLMS1QYU5BM2oyMXJBMzB4TVhEckxrWTliR00zVzV2YkZfOXVROXgwYk9BZFc5SFJjamc?oc=5",
-          "date": "2026-07-07"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Five options for the Denver Broncos in the first round - DNVR",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcWkwZGVPWnJ1TWwteHZNSXhJUjdURmFsZjFKQ3p2VHBQT2xBcGdoS2Rxdjdrc29Hb0RiVUtvMmFIWFh0VW5ZXy1sTDdTZ3lCSE5ZVWtJbnM4bU1DM1NHaE5NZ19WUXMzZjVuZmhmYXVySzh2TUI0ODJsc3U1WURfRGwyemFnRlBudGtr?oc=5",
-          "date": "2026-07-06"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "The 2026 NBA playoffs’ 8 first-round losers, ranked by crisis - DNVR",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONFc5UndVTWZWYllGM3l5WXE4UzVqOXdSWEFiS0c4Y3NjMU03SzBPWU9oLXRYdDU4SURGeDRCbWx5RnpnNmxXa0k1TnMtR25CRGd0VURaMEN5clp2WTktaGNZMS02QkFJb2ZkekI0Tm8xX3V1UkpXM2tZOGdtbUNqa3kzT18wdjQ?oc=5",
-          "date": "2026-07-06"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Denver Broncos hopeful first round pick Shane Ray practices this week - DNVR",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcERqOUVfVDFzZmRidHZ4SGt2bkRBUmdMdWdnajVUSFJhZjE4ak1DMzNRdzJKY1pMYWxnZHpOMlBuSDJpUlpIaTJpampTU0FCZ2prUGEzN2xvbWdkb0VSUk5telZSRmJZZFplX2JQS1VHSjFrcWpiZ1ZLS3FWeU5jbS1iNld5TlF1Mjh2SnF1N2J0N1lycGJBVWlkb1BmYlU?oc=5",
-          "date": "2026-07-06"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "American Ninja Warrior Results: A Guide to Every Season 18 Episode - NBC TV Network",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRGJjOUxucmhseHFkNFZCY3ZSNDRhUDBodUJ0bFRJeGJUN1NLS3NNMWdOVDJ0dTFpYUVPSEdnTXhvOFFabHI0dGpOWlhHRWhrV2hWUjhBT0FaVlBEMkFIbHozbnJhUVA3RmY3TWRTbzN0MExvSm10aEVnOVl6X0lHMGZSTUFPbXlC?oc=5",
-          "date": "2026-07-07"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Tokito Oda | First Round Post-match Interview - Wimbledon",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbHk3ZERtdF9TZFg5ME9zMzR0RWFPYWZKd0hSS0hCaVZqb2MxWFZCSGNJZDRrdFNrMFNLcFFjdU00MkF3T3JldW9ZVzg0TUdXdGdGU21BaTVtZWpZTl9Hemd3dGtFTTF5WUhiSjJleWdDN3hITktjVGlEcUU4NU5CNGNqYmRzdFJp?oc=5",
-          "date": "2026-07-07"
+          "person": "Todd Jackson",
+          "show": "Lenny's Podcast",
+          "title": "A framework for finding product-market fit",
+          "url": "https://www.lennysnewsletter.com/p/a-framework-for-finding-product-market",
+          "date": "2024-04"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Josh Kopelman",
+          "role": "Co-Founder & Partner",
+          "x": "https://x.com/joshk",
+          "linkedin": "https://www.linkedin.com/in/jkopelman",
+          "substack": ""
+        },
+        {
+          "name": "Brett Berson",
+          "role": "Partner; host of In Depth",
+          "x": "https://x.com/brettberson",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Todd Jackson",
+          "role": "Partner",
+          "x": "https://x.com/tjack",
+          "linkedin": "",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Essence",
@@ -10545,63 +11329,29 @@
       "meta": null,
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "‘Truth Is Essence, Not Fact’: Ira Sachs on ‘Peter Hujar’s Day’ - Frieze",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fcUlHTG9yYTRSNGdJSS1jZHBUVTRHSjh6NHIwUkZtMDlHRmFBeTUtbGxsdDZ4Y2ZFSHg5RWNqTEpRRGUtbFpxWC1WZGJ4NXh0UFVhLUFLM285QnM4bUE5WUcwLURCRGlEQlF1R3pn?oc=5",
-          "date": "2026-05-22"
+          "person": "Timothy Chen",
+          "show": "Generationship (Heavybit)",
+          "title": "Do One Thing Well",
+          "url": "https://www.heavybit.com/library/podcasts/generationship/ep-23-do-one-thing-well-with-timothy-chen-of-essence-vc",
+          "date": "2024-11"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "Top Chef Power Rankings, Week 12: Moisture is the Essence of Wetness - Substack",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMEE1SHZQOEhKdW5YcjRpVms3eWxidml5M3lXcmw5dEFUUVFtMDlFNWszZHM5SWl3U2FKSmhLa3M1RDBVN2t4UDVJbW12ZHZkdlBQbWlaSF95RlRORUtsdjBxbklRejlULTBCVHE0WmR5SHNMenNnSGx0V3VZLUd1NjRfRQ?oc=5",
-          "date": "2026-05-26"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "'Truly transformative': ESSENCE Festival expanding with Michelle Obama's help - WWLTV.com",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQS3pkWDAxVGVCTVVlY1Z2cXZQWGtNWEpPYndHQWNCTW1udWFuNnRkUVhHNTBROWVSUGZEdUlwMEpkX1k3WEM4NHk1bUpWbWJUdnoySEd4eWRzd2JrczVnbV83aFJqY3U0Ty1rTnIzYjNNNXN3VGJEMWhOMUVSc2gyMjRaTDlZaWxMTy1UV0pjcXkwNk9TV0VPYzEzTnZuWDVDTHZzZVBLQV85bEFDT0YteDVmN1JhSjhubTg5bjVybjhjdkdXUVh4TWtneUNkMHRIblZNZDVOSjBfZVRNMmpZeGpRdmM?oc=5",
-          "date": "2026-05-12"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Essence Fest Heart Health Initiative - WDSU",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BQmRlclB5Rkk5azBFR1QxRVZsbWNUT3BKZ3hJMVp2R3c3bEJqckZIY0pIdnNUMXQwUzNPR1hvTWd6OC00enc2YXgzazJfblkxVDJheWw3Smt6TWYzM3hlaldOLVZHeFgxY3N0TjFhZkl4UzQ3RzR6TDAySWVPZ0k?oc=5",
-          "date": "2026-07-06"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "ESSENCE Fest debuts inaugural Creator and Podcast stage - WWLTV.com",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUi1LbHhuRE5reDlyR0RINTVvMDNFMEdYejBlVWdMZlFWTUlxdHBEVkU4QW5mcGF0NWl1bEt4eUN0V0tWMnNnRFQtSkx5YXQyOWt6UlBULXRPOUJueHRpTGFqbWFHeVdzX1g2bzY5ZW1sendMbWcxazBtQ0swTWVsRUFkVjUwdi1NNGNFTEVkYnAyeXdtNWZvQmpJOXZ6eU9YRE81YTJlNWxCdkFNRm5vOHJEVHRBenk2ZHpoX21rN25KNjZrWndFVWEwQWtuQ0FCRGwtZERLLWo0V0NtazJEZzR6ei1pV2tjbllfYlJR?oc=5",
-          "date": "2026-07-03"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "We bring light: Alessandra Ferri on the essence of ballet - Hube magazine",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LMDF5Zk8yb0s3VUJQRC13ajl5QWkycnJZRWFNQkoyWWUxa19icXBuS2QwNmtPcVM3UlRQeC1XZnlZLXhqZEV4M0hEWUYtamtFZUZ0cmN4Z2hEeGNiZHZVZzFFcFVnUFVjNnpDNWZxcWRBaERtZHpnWk1idw?oc=5",
-          "date": "2026-07-10"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Lee Myung-se Interview: Love is the Essence of Cinema - IMDb",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VZGJJQjlqU1pBV0dnQ1FlVE9BU2JSVEwycEJsR2cwVy10T21RVE5LRFMyTlRfNjV4R2pvNXJDb2U5S1Vob29ab1pEakZ3d0RtUWFadHNLbmh0cjBNWnphUjU1SWk?oc=5",
-          "date": "2026-07-06"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Michelle Obama Dazzles in an Edgy Black Gown With Eyelet Detailing and a Thigh-High Slit at Essence Fest - instyle.com",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY0NlM2REcmZQZ3NRbWlUSmwtTF9lcV9xZWxrOThIVUE0RkpIaFo5dlZ5cDNTWlhnUDRnbXJ4bXUyUHM5ODNSU1l5bHZtWXFnNF9HYnJacEgwNmREQ1RjV0NScFZTeFNHTFhncld2RkY5ZHBvTWdhclhXREt3THZHM1dUcDEwc0tIQlEyWmtESEtualN5QnNSN1p2Q1hqRzItQld6MlNESkJvVjZGWFE?oc=5",
-          "date": "2026-07-04"
+          "person": "Timothy Chen",
+          "show": "Software Engineering Daily",
+          "title": "Investing in Infrastructure and Dev Tools",
+          "url": "https://softwareengineeringdaily.com/2021/10/20/investing-in-infrastructure-and-dev-tools-with-timothy-chen/",
+          "date": "2021-10"
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Timothy Chen",
+          "role": "General Partner (Solo GP)",
+          "x": "https://x.com/tnachen",
+          "linkedin": "https://www.linkedin.com/in/timchen",
+          "substack": "https://substack.com/@flashintothefuture"
+        }
+      ]
     },
     {
       "name": "Pear",
@@ -10645,14 +11395,43 @@
       },
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Law & Order SVU episode 2409 \"And A Trauma In A Pear Tree\". - IMDb",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DUWc4a2lWZ2x1RU54WElLQVVaMDJIaEotVnBNeHFiQlZ3czZsT2hsalliTzFuU1ZycHRvYVowMjBQUE9nQmF2RE9EX1FhRnRFc2dFeVM3b0VJZw?oc=5",
-          "date": "2026-06-09"
+          "person": "Mar Hershenson",
+          "show": "20VC",
+          "title": "Biggest Indicators of Success in Founding Teams",
+          "url": "https://www.thetwentyminutevc.com/marhershenson",
+          "date": ""
+        },
+        {
+          "person": "Pejman Nozad",
+          "show": "Newcomer Podcast",
+          "title": "Rug Salesman Turned Valley Insider Raises a $432M Seed Fund",
+          "url": "https://www.newcomer.co/p/rug-salesman-turned-valley-insider",
+          "date": "2023"
+        },
+        {
+          "person": "Pejman Nozad",
+          "show": "Venture Unlocked",
+          "title": "Pejman Nozad of Pear on Building a Seed Franchise",
+          "url": "https://ventureunlocked.substack.com/p/pejman-nozad-of-pear-on-building",
+          "date": ""
         }
       ],
-      "people": []
+      "people": [
+        {
+          "name": "Pejman Nozad",
+          "role": "Co-Founder & Managing Partner",
+          "x": "https://x.com/pejmannozad",
+          "linkedin": "https://www.linkedin.com/in/pejman",
+          "substack": ""
+        },
+        {
+          "name": "Mar Hershenson",
+          "role": "Co-Founder & Managing Partner",
+          "x": "https://x.com/marhershenson",
+          "linkedin": "https://www.linkedin.com/in/mar-hershenson-b21395/",
+          "substack": ""
+        }
+      ]
     },
     {
       "name": "Y Combinator",
@@ -10727,41 +11506,48 @@
       ],
       "podcasts": [
         {
-          "person": "",
-          "show": "",
-          "title": "Y Combinator Partners on Building Superintelligence - StartupHub.ai",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUM5V3FQaTdxU2dLNkxWZHRXd0x1WFYwT2k1NDZSQ0c5M1o3ZzNwMVRYNDZUMGVFRWc5akF1OHJwWlJWZXN2MnZwc25xLWh0TV9Uc2dDM20yRjRtQ2FLd0tTMzFHWC0wQldudHdjSFcza2swRXZtQTgtQWpwR0FBTWtPR3NUSVB1RmJ5V0hpX2RReS1QTERQY19razVUQTlpclAyUlNaN1Y3enB5U2hBWWJ0SDU?oc=5",
-          "date": "2026-05-28"
+          "person": "YC Partners",
+          "show": "Lightcone Podcast (YC)",
+          "title": "The Truth About Building AI Startups Today",
+          "url": "https://podcasts.apple.com/us/podcast/lightcone-podcast/id1743860177",
+          "date": "2024"
         },
         {
-          "person": "",
-          "show": "",
-          "title": "4 Irish founders join Y Combinator’s Summer 2026 Cohort - Think Business",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVzJfajdYU2c0WjRkVk5lSmVHTkZwSzhTZGRYak9XUnF2eXA1bjZmUVZ1S1hDdzRCRGxON3FnYUp4U3E1cmNzeUtSUXFBcjFNN2lueG9rUE9fQVR0UW82S1JIR1JSai1yZkt0Rkx1TlJrdEpxLWJjdUEza1F3MnhUdVlPYjhnRkZETmdta3l4N2xZNHc2UFBjNENkR1RaS3pLNVg4?oc=5",
-          "date": "2026-06-23"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Two Irish startups land places on coveted Y Combinator accelerator - Business Post",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONmw2aDRNM2dobGpWMzBnWTJ5WFVNTGdSR3JoLUo2VjVIeHNYUGRDN1NYTTFEM2pHWDVaYm93eVZUTVpuaVJQSUt1b2xpLXplQmIyVnM1RS0tb0dZdkVEU3BDcTluakd0SEprXzBHeFNOd0dlT3VIcWxFS25hWWlfSjIxRm5JRkZjbVdwVG83eVpsNFlwZEJsbjRpV2NUWGsydGc?oc=5",
-          "date": "2026-06-23"
-        },
-        {
-          "person": "",
-          "show": "",
-          "title": "Interview with Prox AI startup co‑founder Dmytro Yanovskyi - en.ain.ua",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLUxnVjJrcDFhZVhsMVlFbDRMUmZPMDE2U2hfZnYyekdOX2lzMkVpZ3pTMF9vdGRXR3pNVnhYTUd3Q01kMWdrMWFkMHpDY0dJMFJIM0NONFZ5YmJ1cXdhcmsyVWVCWUkzMHd4UUVaZ0ZwYkhoYWNuS1ZrX3BoZDhMQkRRcE9wYVljbVlWcERaWXdENm1sd1puaUJRdDk?oc=5",
-          "date": "2026-05-26"
+          "person": "Garry Tan",
+          "show": "The Knowledge Project",
+          "title": "Inside Y Combinator's Startup Formula",
+          "url": "https://fs.blog/knowledge-project-podcast/garry-tan/",
+          "date": "2025-04"
         }
       ],
       "people": [
         {
-          "name": "Paul Graham",
-          "role": "",
-          "x": "",
+          "name": "Garry Tan",
+          "role": "President & CEO",
+          "x": "https://x.com/garrytan",
+          "linkedin": "https://www.linkedin.com/in/garrytan",
+          "substack": "https://www.garrytan.com"
+        },
+        {
+          "name": "Jared Friedman",
+          "role": "Group Partner & MD, Software",
+          "x": "https://x.com/snowmaker",
           "linkedin": "",
-          "substack": "https://paulgraham.com"
+          "substack": ""
+        },
+        {
+          "name": "Harj Taggar",
+          "role": "Group Partner & Managing Partner",
+          "x": "https://x.com/harjtaggar",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Diana Hu",
+          "role": "Group Partner",
+          "x": "https://x.com/sdianahu",
+          "linkedin": "",
+          "substack": ""
         }
       ]
     }

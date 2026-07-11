@@ -39,14 +39,36 @@
       "url": "https://craftventures.substack.com"
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "David Sacks",
+      "show": "All-In Podcast",
+      "title": "Co-host of All-In (with Chamath, Calacanis, Friedberg)",
+      "url": "https://en.wikipedia.org/wiki/All-In_(podcast)",
+      "date": ""
+    },
+    {
+      "person": "David Sacks",
+      "show": "20VC",
+      "title": "How To Assess Founder Psychology & Evaluate CAC/Burn",
+      "url": "https://open.spotify.com/episode/3emgKr3GZmbUSNOZyS4rnS",
+      "date": ""
+    }
+  ],
   "people": [
     {
       "name": "David Sacks",
-      "role": "",
+      "role": "Co-Founder & General Partner",
+      "x": "https://x.com/DavidSacks",
+      "linkedin": "https://www.linkedin.com/in/davidoliversacks/",
+      "substack": "https://sacks.substack.com"
+    },
+    {
+      "name": "Jeff Fluhr",
+      "role": "General Partner",
       "x": "",
       "linkedin": "",
-      "substack": "https://craftventures.substack.com"
+      "substack": ""
     }
   ]
 }

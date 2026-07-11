@@ -84,19 +84,41 @@
   "pbid": "10139-41",
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Why Did Accel, ElevenLabs' And Vercel’s CEO Just Back Polish Co-Founded Hardware Startup? - The Recursive",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGZaUmZ4ZWd4MjRPeENET2ZTbjc4dDN0MWhxMkd6WW1ZcGU3NGRBal93SVhURGlMMkI5SjJVckhpUFZZUWtIaWVaX1lwWUJDQWJNLWdOaDlKdUZ4WFZCSWtXN2FIWGtzSmZrdWZXOXpkSUhzTUpGSEtId1gzMjByZGM0Y2RQRkswN216Wnk2SUhWcS11czk4dEdrb1lwTDg5QkRkalFJWndhRWlwWjBldk5JNA?oc=5",
-      "date": "2026-06-29"
+      "person": "Accel (firm)",
+      "show": "Spotlight On",
+      "title": "Accel's podcast about how companies are built",
+      "url": "https://www.accel.com/spotlight-on",
+      "date": "2023"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Accel’s new India fund; AI to write Indian Government contracts; and India AI funding hits a growth wall - Moneycontrol.com",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOcXRQMVNmMmZVempRRDh3YzQ3LV9QY2V2UlFxNHlOTlpjcHNYVlBDUWdWXzlaMkFFaS1IRi0yaWNuOVRwV3pJNHM0d0ttZkZFaGxYay12NldaVzhIeV9KWlZwOW5MUnJCd24xSUMxWDhfR1dLdXZJRVZTQ0NHSDFPYlNBTTFWMzRFaXZBVlVLSmRCNDR4UHYyWGdLT0pBeC1vcmxHekNqcTdpTmVRdnl2cDhhNTk2NDlSTzdUc0I0MEdSelNIRS1fczBfUEJhc19MT0RiTnRYZ3dtalJ6YVRKbUUxdldMeXBNd2laYWZaRdIB9AFBVV95cUxNX2JCdVpsUDBxdERkaXYzVW55cm05bjBTelBQcFVGeWxPNDJQd0RSZTJ5QkdEMFRqZjNBd2dDWHF1b0dTSVMtZHdLZVd3SGVfRzNhdGZlV1p3YjdOR2FaemRZZkZSNWU1Uk9wcUlrYzJGLTFyOEhkcURDck9hWlB0MEtmTWlvdkxSWmgyM2tSWnJhTGNTLUNDd211bENmdmdlV2Ytakpaa193Y3JYR21HdXpOVzBWYzM2OE81cms1OGtZd2lZNllIXzZRZTJFTjFSQmZRQk9jeks4czZnblVJeE9tc0w1RW5DVURoVkpUbDVLZ2lt?oc=5",
-      "date": "2026-06-03"
+      "person": "Sonali De Rycker",
+      "show": "Equity (TechCrunch)",
+      "title": "Sonali De Rycker on AI, exits, and European tech",
+      "url": "https://podcasts.apple.com/us/podcast/accel-partner-sonali-de-rycker-on-ai-exits-and-european-tech/id1498270180?i=1000709187914",
+      "date": "2025-05"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Rich Wong",
+      "role": "General Partner",
+      "x": "https://x.com/rwong",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Sonali De Rycker",
+      "role": "General Partner (London)",
+      "x": "https://x.com/sderycker",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Andrew Braccia",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/andrewbraccia/",
+      "substack": ""
+    }
+  ]
 }

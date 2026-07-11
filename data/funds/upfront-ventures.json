@@ -87,14 +87,43 @@
       "url": "https://bothsidesofthetable.com/"
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "Mark Suster",
+      "show": "20VC",
+      "title": "Why the Correction in Venture is Still to Come",
+      "url": "https://www.thetwentyminutevc.com/mark-suster",
+      "date": "2024-05"
+    },
+    {
+      "person": "Aditi Maliwal",
+      "show": "The Data Minute",
+      "title": "Seed Stage Dynamics",
+      "url": "https://upfront.com/thoughts/seed-stage-dynamics-with-aditi-maliwal-on-the-data-minute-podcast",
+      "date": ""
+    }
+  ],
   "people": [
     {
       "name": "Mark Suster",
-      "role": "",
+      "role": "Managing Partner",
+      "x": "https://x.com/msuster",
+      "linkedin": "https://www.linkedin.com/in/marksuster/",
+      "substack": "https://bothsidesofthetable.com"
+    },
+    {
+      "name": "Yves Sisteron",
+      "role": "Co-founder & Managing Partner",
       "x": "",
       "linkedin": "",
-      "substack": "https://bothsidesofthetable.com/"
+      "substack": ""
+    },
+    {
+      "name": "Aditi Maliwal",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
     }
   ]
 }

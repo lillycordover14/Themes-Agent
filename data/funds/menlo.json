@@ -81,6 +81,50 @@
   },
   "region": "Americas",
   "pbid": "11242-54",
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Tim Tully",
+      "show": "Tech Disruptors (Bloomberg)",
+      "title": "Menlo Ventures on Developer Technology, M&A, AI",
+      "url": "https://www.bloomberg.com/news/audio/2025-02-10/menlo-ventures-on-developer-technology-m-a-ai-tech-disruptors",
+      "date": "2025-02"
+    },
+    {
+      "person": "Deedy Das",
+      "show": "Sourcery",
+      "title": "Inside Anthropic's $100M Anthology Fund w/ Menlo",
+      "url": "https://www.sourcery.vc/p/breaking-inside-anthropics-100m-anthology",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Matt Murphy",
+      "role": "Partner (AI-native software; led Anthropic)",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/matt-murphy-0415543",
+      "substack": ""
+    },
+    {
+      "name": "Venky Ganesan",
+      "role": "Partner (cybersecurity & AI infra)",
+      "x": "https://x.com/venkyganesan",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Tim Tully",
+      "role": "Partner (AI infra; former Splunk CTO)",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Deedy Das",
+      "role": "Partner (AI infrastructure)",
+      "x": "https://x.com/deedydas",
+      "linkedin": "https://www.linkedin.com/in/debarghyadas",
+      "substack": ""
+    }
+  ]
 }

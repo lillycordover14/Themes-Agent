@@ -82,12 +82,41 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Anduril raises $5B, doubles valuation to $61B - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaklJbi1NOGt0aTJjR05LaTNreTlqcDR0a21YaUJlMUVEOVR4Ump2bHU1MFJMcHUyTHJlUUhfYWRlX1ZMZVE3YU9acEJpOUpsWG9kVHplMWU4bnFnTDM2RDlkOUhoQ0NjWDQtdHphSFFpc0ZldEVoVW9iUGtLNWpMekEwWQ?oc=5",
-      "date": "2026-05-13"
+      "person": "Josh Kushner",
+      "show": "Invest Like the Best",
+      "title": "Concentration and Conviction (EP.459)",
+      "url": "https://open.spotify.com/episode/7nRM1Ea84xM64kt7IJhwTm",
+      "date": "2025"
+    },
+    {
+      "person": "Kareem Zaki",
+      "show": "Invest Like the Best",
+      "title": "Small Ideas Attract Competition (EP.392)",
+      "url": "https://open.spotify.com/episode/1ukPPORcvh09JF49i39Y4C",
+      "date": "2024-10"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Josh Kushner",
+      "role": "Founder & CEO",
+      "x": "https://x.com/joshkushner",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Kareem Zaki",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Miles Grimshaw",
+      "role": "General Partner",
+      "x": "https://x.com/milesgrimshaw",
+      "linkedin": "https://www.linkedin.com/in/milesgrimshaw",
+      "substack": ""
+    }
+  ]
 }

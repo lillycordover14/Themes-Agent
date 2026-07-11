@@ -90,34 +90,69 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Goldman Sachs Chairman on Risk, Crisis, Leadership, and AI | Lloyd Blankfein on The a16z Show with David Haber - Podcast Notes",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcDRFZS1ZYTF4bm9yLUR4UlNwaWZJYXlzX1g0UU14SHZfWGZJaklHT3pTbEVwbHRzZVAwXzBXVHlhb3FfQXl1NVFBUnRmekRwYU9yaldEMnlWbFNxTXQzYktKdWpGSEVzOE1TSkxoQngzaHFVT0xYM3RDZnlIXzlRUTFTN2xDd1E2ZGhGSTBWSGZHN01JZEFWNi1PSElHWVFKbVlvUER6QjlZbG4zSDR1YUVYUVJCRllLZDVYSTlEMFNieHA5TW80cDdkd0VnQ3RERnc?oc=5",
-      "date": "2026-07-03"
+      "person": "Ben Horowitz",
+      "show": "Invest Like the Best",
+      "title": "Ben Horowitz — Backing America's Future (EP.457)",
+      "url": "https://open.spotify.com/episode/21RS9YlTE9Arb7KfLHcxH8",
+      "date": "2026-02"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Ramp's Chief Economist: SaaS Makes a Comeback from a Business Data Perspective - 36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQeWlyZ1FVTW1henZDUUhfeW9hOGFlRlZPcUM0cjZmSXJ1MWpTdHFTXzBIWFVRcXlFTTg0Zkg2OVlHbnZrQnZrVjRpS29XekR4S0lv?oc=5",
-      "date": "2026-05-26"
+      "person": "Marc Andreessen",
+      "show": "Lenny's Podcast",
+      "title": "Marc Andreessen: The real AI boom hasn't even started yet",
+      "url": "https://podcasts.apple.com/us/podcast/marc-andreessen-the-real-ai-boom-hasnt-even-started-yet/id1627920305?i=1000747181251",
+      "date": "2025"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "‘We crossed that about 3 months ago': A16z's Marc Andreessen drops huge bombshell about AGI on Joe Rogan's podcast - TechRadar",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQU3ktVE5Vb0NLLUhqR1UtYVdzdHZKQW9JajBublVDN2c2dFFXRWx6Y29KR1hlbjZoOE42QXhrMjRJd1k1NlllenR1TVA2ZHZqWEM3RC1ac1ZJaEVsTERJS0RnYnBsSGZHS1dIQTUxWFQxSzB0TTNWWHJqbHFIa2tpakxwSWtPZ3gzcnRRMnk2TXhBTmFqVE5CbHBuWWpsMmREbGdlYU8zRmhSWnJMMzE3dGVyOFJWWnZmd2VhNG9LSFNZVHhBazVRZWdwZktuWlh1WEVUSXRn?oc=5",
-      "date": "2026-06-06"
+      "person": "Marc & Ben",
+      "show": "The Ben & Marc Show",
+      "title": "The State of AI with Marc & Ben",
+      "url": "https://a16z.com/podcast/the-state-of-ai-with-marc-ben/",
+      "date": ""
+    },
+    {
+      "person": "Marc Andreessen",
+      "show": "Lex Fridman Podcast",
+      "title": "Marc Andreessen: Future of the Internet, Technology, and AI",
+      "url": "https://lexfridman.com/marc-andreessen/",
+      "date": "2023-06"
     }
   ],
   "people": [
     {
-      "name": "Andrew Chen",
-      "role": "",
-      "x": "",
+      "name": "Marc Andreessen",
+      "role": "Co-Founder & General Partner",
+      "x": "https://x.com/pmarca",
       "linkedin": "",
-      "substack": "https://andrewchen.substack.com"
+      "substack": "https://pmarca.substack.com"
+    },
+    {
+      "name": "Ben Horowitz",
+      "role": "Co-Founder & General Partner",
+      "x": "https://x.com/bhorowitz",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Martin Casado",
+      "role": "General Partner (Infrastructure/AI)",
+      "x": "https://x.com/martin_casado",
+      "linkedin": "https://www.linkedin.com/in/martincasado/",
+      "substack": ""
+    },
+    {
+      "name": "Katherine Boyle",
+      "role": "General Partner (American Dynamism)",
+      "x": "https://x.com/KTmBoyle",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Erik Torenberg",
+      "role": "General Partner",
+      "x": "https://x.com/eriktorenberg",
+      "linkedin": "",
+      "substack": "https://eriktorenberg.substack.com"
     }
   ]
 }

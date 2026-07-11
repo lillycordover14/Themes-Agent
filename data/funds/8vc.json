@@ -62,26 +62,34 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Joe Lonsdale, Co-Founder Of Palantir & Founding Partner Of 8vc Miley Cyrus (vrD6dk0j71) - Fathom Journal",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ubE4zcTFVM3dIOVpHRmJJWTE3Xy0wZzdSLWdzOEtZeEhpNG5yR1ppY0NUaDRHcG1wWEtjblZDeEJSeG5vVWRrNkZMeGtxWmhRMkNJaUlKQWVJV0lSdnpEVV96ckg?oc=5",
-      "date": "2026-06-27"
+      "person": "Joe Lonsdale",
+      "show": "American Optimist (8VC)",
+      "title": "Joe Lonsdale's own interview podcast",
+      "url": "https://podcasts.apple.com/us/podcast/joe-lonsdale-american-optimist/id1573141757",
+      "date": ""
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Watch CNBC's full interview with 8VC founding partner and Palantir co-founder Joe Lonsdale - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeEt4ZlAxamNvTG5jbnc5V0oteUc5XzFoWkJPbElraVhtSFE2ZEFPc1NMNEJHZ3NRT3d0WkpucXZQbEc5UDJNUEZPaWtlWU53WGpVZkFCUjNreTU3alJia01jSnRNY0xYUERncEl4bmlkVWNOM3RGcWo3SV83dnY1WTUtSGlTMDIzbVN3djJ0MktTdWEwOHNZSlFmS2VSZWlCd0htNG5QVTRXQlVYRHhlSmxBQlNRMUlaUTRxTURCTTZObHZyU3UyblE5bVo?oc=5",
-      "date": "2026-06-09"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "US, Philippines to reach deal on economic security zone 'sooner rather than later', US official says - Interaksyon",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNbHVWMG1taXB0ZjJZbjdmWjRsU3p1Q0ZEM1dfTFEwTjgycWwtaGFkSW9sZWVxdkJxZTczUUl6WFpGYlN0SW9RSWsweF9lS05SUDZqSWhoaktOaDFqdndpV1NMRmRmR2p5R1FZREZpSWdrMDdZaXYxbG1rdnlQZkViWjdsdEl4cVRKN2lsSHJoTEhkYlQ5Q0s2cFNZOEw2OVM5MjNRM2YxbktfVTlDNXpUNEdZaU9DdXFwZ09xVzctSkIycFNMZ2hWTm1URmFFelRCdWFoeEJOVmNxX2xQZ1J2WXdwa1pwRjIwZTRxbEhCdURQTkpFeDVV?oc=5",
-      "date": "2026-05-21"
+      "person": "Joe Lonsdale",
+      "show": "Masters in Business (Bloomberg)",
+      "title": "AI Innovations with Joe Lonsdale",
+      "url": "https://www.bloomberg.com/news/audio/2024-10-11/masters-in-business-ai-innovations-with-joe-lonsdale-podcast",
+      "date": "2024-10"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Joe Lonsdale",
+      "role": "Founder & Managing Partner",
+      "x": "https://x.com/JTLonsdale",
+      "linkedin": "https://www.linkedin.com/in/jtlonsdale/",
+      "substack": "https://blog.joelonsdale.com"
+    },
+    {
+      "name": "Drew Oetting",
+      "role": "Founding Partner & President",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/drew-oetting-52463337",
+      "substack": ""
+    }
+  ]
 }
