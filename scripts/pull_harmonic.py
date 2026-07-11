@@ -1,74 +1,104 @@
 #!/usr/bin/env python3
-"""Pull fresh Harmonic data using an API key from GitHub Secrets (HARMONIC_API_KEY).
+"""Pull Harmonic saved-search companies using an API key from GitHub Secrets (HARMONIC_API_KEY).
 
-Runs inside the GitHub Action. Fully optional and fail-safe: if the key is missing or the
-endpoint errors, it logs and exits 0 without touching existing data. Writes
-data/harmonic_raises.json (light company records) which the dashboard build can fold in.
-
-Harmonic API: https://console.harmonic.ai/docs/api-reference/introduction
-Auth: header `apikey: <key>`. You can override the endpoint without editing code by setting
-the HARMONIC_ENDPOINT secret/variable to the exact URL from your API docs (e.g. a saved-search
-results URL). Default targets the keyword company search.
+Two-step: (1) fetch saved-search results (company IDs/URNs), (2) enrich those into full
+company records. Fail-safe: never breaks the build. Verbose logging so the run log reveals the
+exact response shape if anything needs adjusting.
+Harmonic API: https://console.harmonic.ai/docs/api-reference/introduction  (auth header: apikey)
 """
-import json, os, sys, urllib.request, urllib.parse, datetime
+import json, os, sys, datetime, urllib.request, urllib.error, urllib.parse
 
 KEY = os.environ.get("HARMONIC_API_KEY", "").strip()
 BASE = os.environ.get("HARMONIC_BASE", "https://api.harmonic.ai").rstrip("/")
-# Full override URL (preferred). If empty, we build a keyword-search URL from HARMONIC_QUERY.
-ENDPOINT = os.environ.get("HARMONIC_ENDPOINT", "").strip()
-QUERY = os.environ.get("HARMONIC_QUERY", "enterprise software OR AI infrastructure seed OR Series A")
+SSID = os.environ.get("HARMONIC_SAVED_SEARCH_ID", "163876").strip()
+RESULTS_URL = os.environ.get("HARMONIC_ENDPOINT", "").strip() or (BASE + "/saved_searches/%s/results?size=50" % SSID)
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "harmonic_raises.json")
 
 if not KEY:
-    print("HARMONIC_API_KEY not set — skipping Harmonic pull (web pipeline still runs).")
+    print("HARMONIC_API_KEY not set - skipping Harmonic pull.")
     sys.exit(0)
 
-url = ENDPOINT or (BASE + "/search/companies?" + urllib.parse.urlencode({"query": QUERY, "size": 50}))
-print("Harmonic GET", url)
+H = {"apikey": KEY, "accept": "application/json", "content-type": "application/json"}
+
+def req(method, url, body=None):
+    data = json.dumps(body).encode() if body is not None else None
+    r = urllib.request.Request(url, data=data, headers=H, method=method)
+    with urllib.request.urlopen(r, timeout=60) as resp:
+        return json.loads(resp.read())
+
+# Step 1 - saved search results
 try:
-    req = urllib.request.Request(url, headers={"apikey": KEY, "accept": "application/json"})
-    raw = urllib.request.urlopen(req, timeout=40).read()
-    data = json.loads(raw)
+    res = req("GET", RESULTS_URL)
 except Exception as e:
-    print("Harmonic pull failed (leaving existing data untouched):", e)
-    print("Tip: set the HARMONIC_ENDPOINT secret to the exact URL from your API docs, then re-run.")
+    print("saved-search fetch failed:", e)
     sys.exit(0)
+print("results type:", (list(res.keys()) if isinstance(res, dict) else type(res).__name__))
 
-# Generic, defensive parse: find a list of company-like dicts anywhere in the response.
-def find_list(obj):
+def collect_ids(obj):
+    lst = []
     if isinstance(obj, list):
-        return obj
-    if isinstance(obj, dict):
-        for k in ("results", "data", "companies", "entities", "items"):
+        lst = obj
+    elif isinstance(obj, dict):
+        for k in ("results", "data", "companies", "entities", "items", "entityUrns", "urns"):
             if isinstance(obj.get(k), list):
-                return obj[k]
-        for v in obj.values():
-            r = find_list(v)
-            if r:
-                return r
-    return []
+                lst = obj[k]; break
+    ids = []
+    for it in lst:
+        if isinstance(it, str):
+            ids.append(it)
+        elif isinstance(it, dict):
+            v = it.get("entity_urn") or it.get("urn") or it.get("id") or it.get("company_urn")
+            if v:
+                ids.append(str(v))
+    return ids
 
-rows = find_list(data)
-out = []
-for c in rows[:100]:
-    if not isinstance(c, dict):
-        continue
-    name = c.get("name") or c.get("company_name") or (c.get("legal_name"))
-    if not name:
-        continue
-    web = c.get("website") or {}
-    dom = web.get("domain") if isinstance(web, dict) else (web if isinstance(web, str) else "")
-    fund = c.get("funding") or {}
-    out.append({
-        "name": name,
-        "domain": dom or "",
-        "desc": (c.get("description") or "")[:200],
-        "stage": (fund.get("funding_stage") or c.get("stage") or ""),
-        "last_amount": fund.get("last_funding_total") or fund.get("last_round_size") or 0,
-        "total": fund.get("funding_total") or 0,
-    })
+ids = collect_ids(res)
+print("collected %d ids; sample %s" % (len(ids), ids[:2]))
+if not ids:
+    print("no ids parsed; raw head:", json.dumps(res)[:500])
 
-json.dump({"generated": datetime.date.today().isoformat(), "count": len(out), "companies": out},
+def enrich(urns):
+    for method, url, body in [
+        ("POST", BASE + "/companies", {"urns": urns}),
+        ("POST", BASE + "/companies:batchGet", {"urns": urns}),
+        ("POST", BASE + "/companies/batch", {"urns": urns}),
+    ]:
+        try:
+            d = req(method, url, body)
+            print("enrich %s %s -> ok" % (method, url))
+            return d
+        except Exception as e:
+            print("enrich %s %s -> %s" % (method, url, e))
+    return None
+
+companies = []
+if ids:
+    d = enrich(ids[:50])
+    if d is None:
+        d = []
+        for u in ids[:25]:
+            try:
+                d.append(req("GET", BASE + "/companies/" + urllib.parse.quote(u, safe="")))
+            except Exception:
+                pass
+    lst = d if isinstance(d, list) else (
+        (d.get("results") or d.get("data") or d.get("companies") or []) if isinstance(d, dict) else [])
+    for c in lst:
+        if not isinstance(c, dict):
+            continue
+        name = c.get("name") or c.get("legal_name")
+        if not name:
+            continue
+        web = c.get("website") or {}
+        dom = web.get("domain") if isinstance(web, dict) else (web if isinstance(web, str) else "")
+        f = c.get("funding") or {}
+        companies.append({"name": name, "domain": dom or "", "desc": (c.get("description") or "")[:200],
+                          "stage": f.get("funding_stage") or "",
+                          "last_amount": f.get("last_funding_total") or 0, "total": f.get("funding_total") or 0})
+
+json.dump({"generated": datetime.date.today().isoformat(), "count": len(companies), "companies": companies},
           open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-print("Wrote %d Harmonic companies to data/harmonic_raises.json" % len(out))
+print("Wrote %d Harmonic companies to data/harmonic_raises.json" % len(companies))
+if ids and not companies:
+    print("Got ids but enrichment returned no company objects - paste this log and I will map the enrich endpoint.")
