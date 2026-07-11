@@ -24,7 +24,15 @@
     "x": "https://x.com/MeritechCapital",
     "linkedin": "https://www.linkedin.com/company/meritech-capital-partners/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-30",
+      "type": "Post",
+      "title": "The 22 Largest US Funding Rounds of May 2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ma2FHZEhkNlplZnJRWGRSSDhOZENfOS15WFZzR0NkWWlVRTVRRUlNNUdWYnppT3pvQXBvMDNEa0hYbWlkbE5EbkJBbng0WFJENFhFR080cWdTME5qaDFuT29yaG9va3lSRVd0c0t4bmx1cjlPN21uX29mUTRCZGc?oc=5",
+      "summary": "The 22 Largest US Funding Rounds of May 2026&nbsp;&nbsp;AlleyWatch"
+    }
+  ],
   "podcasts": [],
   "people": []
 }

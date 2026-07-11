@@ -23,7 +23,22 @@
     "x": "https://x.com/scalevp",
     "linkedin": "https://www.linkedin.com/company/scale-venture-partners"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-30",
+      "type": "Post",
+      "title": "Forter - 2026 Funding Rounds & List of Investors - Tracxn",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMGhFbXA0LW5vQ1NOY1ZmY2tIaV9nWVBjOEpoQW1Db2swVXNBUDVfMWZpOHdJUlh5T0o0OWx6VlNfb1k3d29OUlE1RTM0NEJ0NU1WMUw1MVFiSTBYZV9RUS1OeVlFQ1JzUHFudWVuTE96S3pZaUtsV3FVWFpSVGlXVjNmdHltanQwbHVsY0MyVF9jdkJtN3ptU1JRa0ZiaTUtUTJJdU44NVo?oc=5",
+      "summary": "Forter - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
+    },
+    {
+      "date": "2026-06-18",
+      "type": "Investment",
+      "title": "The Week’s 10 Biggest Funding Rounds: World-Model Startup Odyssey Leads With $310M In Slower Week For Large Deals - Crunchbase News",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaWRoMXdkcDI2NXZYOFN1WUFIejZZbzBFNWN6MzVyVy10eFU3UEVtR1pSQTl6RHdYdXJFQTlqZlk5S3dRaXR3MHY3cGZhMXVFUkdCYl9RM3dmdzFSeFBSMkgxcVl0cFFlWDJPT1c0dE9mZWZLWXNsa0h4dVQwN1VuaGVBMFJ2Y1ZLRkVQNjJhdGtIbkRUTzJFRHlUZEhIWUVqbDNZd3ByU1lqUQ?oc=5",
+      "summary": "The Week’s 10 Biggest Funding Rounds: World-Model Startup Odyssey Leads With $310M In Slower Week For Large Deals&nbsp;&nbsp;Crunchbase News"
+    }
+  ],
   "podcasts": [],
   "people": []
 }
