@@ -22,7 +22,15 @@
     "x": "https://x.com/pelion_vp",
     "linkedin": "https://www.linkedin.com/company/pelion-venture-partners"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-24",
+      "type": "Investment",
+      "title": "Redo Raises $81M in Series B Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBiYmN3X1VIUHI1ZHlOa2hOVXlLc25vVUE4ZEFobVVWaWxTMUcyMmlHSVFZckFFTWYtVVpXSWZ3RmEzWDVrQm5ya0RFNW1NRHFlTnpNQmZ5MW1JWUZUODJqbTlndXczOC15T1dKZGMwRWlvUHV5dlpUSVFVZ3E?oc=5",
+      "summary": "Redo Raises $81M in Series B Funding&nbsp;&nbsp;FinSMEs"
+    }
+  ],
   "podcasts": [
     {
       "person": "",
