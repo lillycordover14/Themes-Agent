@@ -78,3 +78,35 @@ TEMPLATE = open(os.path.join(HERE, "dashboard_template.html"), encoding="utf-8")
 html = TEMPLATE.replace("__BLOB__", BLOB)
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
 print("built index.html (%d bytes) from %d funds" % (len(html), FUNDS.get("count", 0)))
+
+
+def write_digest():
+    import datetime as _dt
+    recs = D.get("recs", [])
+    tw = sorted(D.get("tailwinds", []), key=lambda t: t.get("count", 0), reverse=True)
+    top_raises = sorted([r for r in recs if (r.get("a") or 0) > 0], key=lambda r: r.get("a") or 0, reverse=True)[:8]
+    moves = []
+    for f in FUNDS.get("funds", []):
+        for u in (f.get("updates") or [])[:1]:
+            if u.get("type") in ("Investment", "New fund"):
+                moves.append((f.get("name"), u))
+    def money(n):
+        n = n or 0
+        return ("$%.1fB" % (n/1e9)) if n >= 1e9 else ("$%.0fM" % (n/1e6)) if n >= 1e6 else ("$%.0fK" % (n/1e3)) if n >= 1e3 else "-"
+    d = _dt.date.today().isoformat()
+    L = ["# Themes Radar digest - %s" % d, ""]
+    L.append("## Top tailwinds (early-stage this period)")
+    for t in tw[:4]:
+        L.append("- **%s** - %d raises, %s in" % (t.get("name"), t.get("count", 0), money(t.get("cap", 0))))
+    L.append(""); L.append("## Notable raises")
+    for r in top_raises:
+        L.append("- %s - %s %s _(%s)_" % (r.get("n"), r.get("s", ""), money(r.get("a")), r.get("tn", "")))
+    L.append(""); L.append("## Fund moves")
+    for name, u in moves[:10]:
+        L.append("- **%s**: %s _(%s)_" % (name, u.get("title", ""), u.get("type", "")))
+    import os as _os
+    dd = _os.path.join(ROOT, "digests"); _os.makedirs(dd, exist_ok=True)
+    open(_os.path.join(dd, "themes-%s.md" % d), "w", encoding="utf-8").write("\n".join(L) + "\n")
+    print("wrote digests/themes-%s.md" % d)
+
+write_digest()
