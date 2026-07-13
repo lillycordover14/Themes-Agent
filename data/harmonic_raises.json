@@ -1,5 +1,6 @@
 {
-  "generated": "2026-07-11",
+  "generated": "2026-07-13",
+  "mode": "full",
   "count": 50,
   "companies": [
     {
@@ -35,7 +36,7 @@
     {
       "name": "BespokeLabsAi",
       "domain": "bespokelabs.ai",
-      "desc": "The company specializes in data curation and reinforcement learning (RL) environment curation to develop comprehensive digital worlds for training AI agents, utilizing curated datasets like OpenThoughts. Key technologies",
+      "desc": "The company focuses on data curation and reinforcement learning (RL) environment curation to create comprehensive digital worlds for training AI agents, utilizing curated datasets such as OpenThoughts. Key technologies i",
       "stage": "SERIES_A",
       "last_amount": 40000000.0,
       "total": 47249998.0,
@@ -78,21 +79,6 @@
       "location": "San Francisco, CA"
     },
     {
-      "name": "Nurix",
-      "domain": "nurix.ai",
-      "desc": "The company develops conversational AI agents designed to automate workflows across various enterprise functions, including sales and customer support, by managing tasks end-to-end and integrating with existing systems. ",
-      "stage": "VENTURE_UNKNOWN",
-      "last_amount": 14131800.0,
-      "total": 44711800.0,
-      "investors": [
-        "Meraki Labs",
-        "Accel",
-        "General Catalyst",
-        "Prosus"
-      ],
-      "location": "Mountain View, CA"
-    },
-    {
       "name": "Auger",
       "domain": "auger.com",
       "desc": "Auger is developing an AI-powered supply chain operating system that integrates with existing infrastructures to unify data and automate complex operational tasks, enabling real-time insights for decision-making. The sys",
@@ -107,19 +93,19 @@
       "location": "Bellevue, WA"
     },
     {
-      "name": "Vendelux",
-      "domain": "vendelux.com",
-      "desc": "Vendelux offers an event intelligence platform that utilizes real-time attendee data and AI-driven workflows to optimize the management of in-person events, allowing companies to identify valuable events, engage targeted",
-      "stage": "SERIES_B",
-      "last_amount": 50000000.0,
-      "total": 67850000.0,
+      "name": "Nurix",
+      "domain": "nurix.ai",
+      "desc": "The company develops conversational AI agents that automate workflows across various enterprise functions, such as sales and customer support, by managing tasks end-to-end and integrating with existing systems. These age",
+      "stage": "VENTURE_UNKNOWN",
+      "last_amount": 14131800.0,
+      "total": 44711800.0,
       "investors": [
-        "Future Back Ventures by Bain & Company",
-        "Jonathan Weiner",
-        "Tribeca Venture Partners",
-        "Manifest"
+        "Meraki Labs",
+        "Accel",
+        "General Catalyst",
+        "Prosus"
       ],
-      "location": "New York, New York"
+      "location": "Mountain View, CA"
     },
     {
       "name": "Katalyze AI",
@@ -135,6 +121,21 @@
         "Ripple Ventures"
       ],
       "location": "Mountain View, California"
+    },
+    {
+      "name": "Vendelux",
+      "domain": "vendelux.com",
+      "desc": "Vendelux offers an event intelligence platform that utilizes real-time attendee data and AI-driven workflows to optimize the management of in-person events, allowing companies to identify valuable events, engage targeted",
+      "stage": "SERIES_B",
+      "last_amount": 50000000.0,
+      "total": 67850000.0,
+      "investors": [
+        "Future Back Ventures by Bain & Company",
+        "Jonathan Weiner",
+        "Tribeca Venture Partners",
+        "Manifest"
+      ],
+      "location": "New York, New York"
     },
     {
       "name": "Finto",
@@ -166,9 +167,24 @@
       "location": "Bear, Delaware"
     },
     {
+      "name": "EdVisorly",
+      "domain": "edvisorly.com",
+      "desc": "The company provides an AI-driven enrollment platform that automates transcript processing and transfer credit evaluations, enhancing the transfer experience for students. Key technologies include automated data extracti",
+      "stage": "SERIES_A",
+      "last_amount": 13300000.0,
+      "total": 36330000.0,
+      "investors": [
+        "Google for Startups",
+        "Strada Education Foundation",
+        "U.S. News & World Report",
+        "Potencia Ventures"
+      ],
+      "location": "Los Angeles, California"
+    },
+    {
       "name": "ARC Intelligence",
       "domain": "arc-intelligence.de",
-      "desc": "ARC Intelligence offers a data intelligence platform focused on financial performance management for small and medium-sized enterprises, enabling advanced analytics and informed decision-making. The platform utilizes AI ",
+      "desc": "ARC Intelligence provides a data intelligence platform designed for financial performance management in small and medium-sized enterprises, facilitating advanced analytics and decision-making. The platform employs AI for",
       "stage": "SEED",
       "last_amount": 4560328.0,
       "total": 5610313.0,
@@ -195,34 +211,18 @@
       "location": "New York, New York"
     },
     {
-      "name": "Skello",
-      "domain": "skello.io",
-      "desc": "The company provides a software-as-a-service platform for human resource management that focuses on team scheduling, time tracking, and payroll management, particularly tailored for sectors such as hospitality, retail, a",
-      "stage": "SERIES_B",
-      "last_amount": 228744000.0,
-      "total": 283372047.0,
+      "name": "Cableteque",
+      "domain": "cableteque.com",
+      "desc": "Cableteque provides a software platform specifically for wire harness manufacturing that automates the extraction of bill of materials (BOM) using artificial intelligence, which enhances the speed and accuracy of the quo",
+      "stage": "SEED",
+      "last_amount": 6000000.0,
+      "total": 10000000.0,
       "investors": [
-        "Bridgepoint Group",
-        "AGLAÉ VENTURES",
-        "Agoranov",
-        "Partech"
+        "Mudita Venture Partners",
+        "PHX Ventures",
+        "11 Tribes Ventures"
       ],
-      "location": "Paris, Île-de-France"
-    },
-    {
-      "name": "EdVisorly",
-      "domain": "edvisorly.com",
-      "desc": "The company provides an AI-driven enrollment platform that automates transcript processing and transfer credit evaluations, enhancing the transfer experience for students. Key technologies include automated data extracti",
-      "stage": "SERIES_A",
-      "last_amount": 13300000.0,
-      "total": 36330000.0,
-      "investors": [
-        "Google for Startups",
-        "Strada Education Foundation",
-        "U.S. News & World Report",
-        "Potencia Ventures"
-      ],
-      "location": "Los Angeles, California"
+      "location": "17771 Sampson Lane, Huntington Beach, CA 92647, United States"
     },
     {
       "name": "Aatmunn",
@@ -254,21 +254,6 @@
       "location": "Winnipeg, Manitoba"
     },
     {
-      "name": "Oxipital AI",
-      "domain": "oxipitalai.com",
-      "desc": "Oxipital AI provides a visual AI platform that enhances manufacturing processes through advanced machine vision technologies, focusing on product inspection and robotic process automation. The platform utilizes deep obje",
-      "stage": "SERIES_A",
-      "last_amount": 0,
-      "total": 89652124.0,
-      "investors": [
-        "ファナック（株）",
-        "Yamaha Motor Co., Ltd.",
-        "Material Impact",
-        "Johnsonville Ventures"
-      ],
-      "location": "Bedford, Massachusetts"
-    },
-    {
       "name": "WizCommerce",
       "domain": "wizcommerce.com",
       "desc": "WizCommerce offers a B2B sales automation platform that modernizes the order management process for wholesalers and distributors by integrating various sales channels and streamlining workflows. The platform employs AI t",
@@ -284,18 +269,34 @@
       "location": "Washington, DC"
     },
     {
-      "name": "Cableteque",
-      "domain": "cableteque.com",
-      "desc": "Cableteque provides a software platform specifically for wire harness manufacturing that automates the extraction of bill of materials (BOM) using artificial intelligence, which enhances the speed and accuracy of the quo",
-      "stage": "SEED",
-      "last_amount": 6000000.0,
-      "total": 10000000.0,
+      "name": "Oxipital AI",
+      "domain": "oxipitalai.com",
+      "desc": "Oxipital AI offers a visual AI platform designed to enhance manufacturing processes through advanced machine vision technologies, focusing on product inspection and robotic process automation. The platform employs deep o",
+      "stage": "SERIES_A",
+      "last_amount": 0,
+      "total": 89652124.0,
       "investors": [
-        "Mudita Venture Partners",
-        "PHX Ventures",
-        "11 Tribes Ventures"
+        "ファナック（株）",
+        "Yamaha Motor Co., Ltd.",
+        "Material Impact",
+        "Johnsonville Ventures"
       ],
-      "location": "17771 Sampson Lane, Huntington Beach, CA 92647, United States"
+      "location": "Bedford, Massachusetts"
+    },
+    {
+      "name": "Aria",
+      "domain": "helloaria.eu",
+      "desc": "Aria provides a flexible payments infrastructure through an embedded invoice financing API that enables instant payments to suppliers while allowing buyers to manage their payment terms. The technology emphasizes underwr",
+      "stage": "SERIES_A",
+      "last_amount": 274378800.0,
+      "total": 365065295.0,
+      "investors": [
+        "Otium Capital",
+        "Otium",
+        "Cnam incubateur",
+        "Ankaa Ventures"
+      ],
+      "location": "Paris, Île-de-France"
     },
     {
       "name": "Alta | AI GTM System of Actions",
@@ -328,33 +329,19 @@
       "location": "Paris, Île-de-France"
     },
     {
-      "name": "Aria",
-      "domain": "helloaria.eu",
-      "desc": "Aria provides a flexible payments infrastructure through an embedded invoice financing API that allows for instant payments to suppliers while enabling buyers to manage their payment terms. The technology emphasizes unde",
-      "stage": "SERIES_A",
-      "last_amount": 274378800.0,
-      "total": 365065295.0,
-      "investors": [
-        "Otium Capital",
-        "Otium",
-        "Cnam incubateur",
-        "Ankaa Ventures"
-      ],
-      "location": "Paris, Île-de-France"
-    },
-    {
-      "name": "Auxilius.ai",
-      "domain": "auxilius.ai",
-      "desc": "The primary product automates Governance, Risk, and Compliance (GRC) processes for financial services by leveraging advanced AI to create executable code, which improves compliance and operational efficiency. This system",
+      "name": "Immigify",
+      "domain": "immigify.com",
+      "desc": "Immigify provides an AI-powered immigration workflow platform that simplifies the U.S. immigration process by offering intelligent tools for visa applications and compliance. The platform utilizes advanced automation tec",
       "stage": "PRE_SEED",
-      "last_amount": 1482106.0,
-      "total": 1722106.0,
+      "last_amount": 0,
+      "total": 220000.0,
       "investors": [
-        "HTGF | High-Tech Gründerfonds",
         "Techstars",
-        "ABN AMRO Bank N.V."
+        "gener8tor",
+        "NMotion",
+        "NMotion"
       ],
-      "location": "Unterföhring"
+      "location": "Austin , TX"
     },
     {
       "name": "Bohr Energie",
@@ -372,6 +359,20 @@
       "location": "Toulouse"
     },
     {
+      "name": "Auxilius.ai",
+      "domain": "auxilius.ai",
+      "desc": "The primary product automates Governance, Risk, and Compliance (GRC) processes for financial services by leveraging advanced AI to create executable code, which improves compliance and operational efficiency. This system",
+      "stage": "PRE_SEED",
+      "last_amount": 1482106.0,
+      "total": 1722106.0,
+      "investors": [
+        "HTGF | High-Tech Gründerfonds",
+        "Techstars",
+        "ABN AMRO Bank N.V."
+      ],
+      "location": "Unterföhring"
+    },
+    {
       "name": "Appnigma AI",
       "domain": "appnigma.ai",
       "desc": "The main product is a no-code platform that enables users to create native Salesforce applications and managed packages quickly using natural language prompts, facilitating rapid deployment without coding expertise. This",
@@ -387,24 +388,9 @@
       "location": "Sacramento, CA"
     },
     {
-      "name": "Immigify",
-      "domain": "immigify.com",
-      "desc": "Immigify provides an AI-powered immigration workflow platform that simplifies the U.S. immigration process by offering intelligent tools for visa applications and compliance. The platform utilizes advanced automation tec",
-      "stage": "PRE_SEED",
-      "last_amount": 0,
-      "total": 220000.0,
-      "investors": [
-        "Techstars",
-        "gener8tor",
-        "NMotion",
-        "NMotion"
-      ],
-      "location": "Austin , TX"
-    },
-    {
       "name": "Tradevu",
       "domain": "tradevu.co",
-      "desc": "Tradevu provides a financial platform for global trade that integrates stablecoin-powered banking, on-chain financing, and investment opportunities in tokenized trade assets, facilitating connections between importers, e",
+      "desc": "Tradevu offers a financial platform for global trade that integrates stablecoin-powered banking, on-chain financing, and investment opportunities in tokenized trade assets, connecting importers, exporters, and financial ",
       "stage": "PRE_SEED",
       "last_amount": 250000.0,
       "total": 850000.0,
@@ -445,6 +431,20 @@
       "location": "Paris, Île-de-France"
     },
     {
+      "name": "Kord",
+      "domain": "kord.com",
+      "desc": "The company offers a software solution designed for AML compliance, focusing on client onboarding, payments, and secure management of client funds within a closed-loop infrastructure. Key technologies include identity ve",
+      "stage": "SERIES_A",
+      "last_amount": 8572768.0,
+      "total": 8572768.0,
+      "investors": [
+        "SFC Capital",
+        "Beringea",
+        "Guinness Ventures"
+      ],
+      "location": "London, England"
+    },
+    {
       "name": "WrxFlo",
       "domain": "wrxflo.com",
       "desc": "WrxFlo provides a software platform that digitizes and integrates supply chain operations for manufacturing and logistics, utilizing AI technologies for data integration, logistics planning, and manufacturing coordinatio",
@@ -474,6 +474,21 @@
       "location": ""
     },
     {
+      "name": "Boost Technology",
+      "domain": "withboost.co",
+      "desc": "The main product is a B2B commerce platform that facilitates transactions between distributors and retailers, utilizing technologies such as WhatsApp for ordering and lightweight applications for demand and operations ma",
+      "stage": "SEED",
+      "last_amount": 250000.0,
+      "total": 2093000.0,
+      "investors": [
+        "Renew Capital",
+        "Startup Istanbul",
+        "Unpopular Ventures",
+        "Ascension"
+      ],
+      "location": "128 City Road, London EC1V 2NX, England, United Kingdom"
+    },
+    {
       "name": "DPDzero",
       "domain": "dpdzero.com",
       "desc": "DPDzero provides a collections infrastructure as a service that leverages voice AI, data science models, and real-time analytics to improve debt recovery for financial institutions. The platform integrates multiple commu",
@@ -501,6 +516,20 @@
       "location": "Detroit Area, Michigan"
     },
     {
+      "name": "Birdsview.com",
+      "domain": "birdsview.com",
+      "desc": "The product is an AI-driven email marketing automation platform designed for eCommerce, enabling hyper-personalized email campaigns by utilizing customer data and product catalogs. It employs big data analytics for custo",
+      "stage": "SEED",
+      "last_amount": 2855480.0,
+      "total": 2855480.0,
+      "investors": [
+        "Newion",
+        "TGFS Technologiegründerfonds Sachsen",
+        "Fortino Ventures"
+      ],
+      "location": "Leipzig"
+    },
+    {
       "name": "Oze",
       "domain": "getoze.com",
       "desc": "Oze offers a business application tailored for small and medium enterprises (SMEs) and banks, providing tools for managing invoices, payments, and small business loans. The platform features a mobile app for business own",
@@ -514,21 +543,6 @@
         "Google for Startups"
       ],
       "location": "Accra"
-    },
-    {
-      "name": "Boost Technology",
-      "domain": "withboost.co",
-      "desc": "The main product is a B2B commerce platform that facilitates transactions between distributors and retailers, utilizing technologies such as WhatsApp for ordering and lightweight applications for demand and operations ma",
-      "stage": "SEED",
-      "last_amount": 250000.0,
-      "total": 2093000.0,
-      "investors": [
-        "Renew Capital",
-        "Startup Istanbul",
-        "Unpopular Ventures",
-        "Ascension"
-      ],
-      "location": "128 City Road, London EC1V 2NX, England, United Kingdom"
     },
     {
       "name": "Kandor",
@@ -558,40 +572,12 @@
       "location": "Warsaw, Mazowieckie"
     },
     {
-      "name": "Kord",
-      "domain": "kord.com",
-      "desc": "The gap between client identity and client money is where most regulated firms encounter fraud and money laundering risk. On top of the increasing regulatory scrutiny imposed on firms, this creates a serious burden that ",
-      "stage": "SERIES_A",
-      "last_amount": 8572768.0,
-      "total": 8572768.0,
-      "investors": [
-        "SFC Capital",
-        "Beringea",
-        "Guinness Ventures"
-      ],
-      "location": "London, England"
-    },
-    {
-      "name": "Birdsview.com",
-      "domain": "birdsview.com",
-      "desc": "The product is an AI-driven email marketing automation platform designed for eCommerce, enabling hyper-personalized email campaigns by utilizing customer data and product catalogs. It employs big data analytics for custo",
-      "stage": "SEED",
-      "last_amount": 2855480.0,
-      "total": 2855480.0,
-      "investors": [
-        "Newion",
-        "TGFS Technologiegründerfonds Sachsen",
-        "Fortino Ventures"
-      ],
-      "location": "Leipzig"
-    },
-    {
       "name": "LICENSEWARE",
       "domain": "licenseware.io",
       "desc": "Licenseware offers a modular SaaS solution for software license management that automates the assessment of licensing requirements and optimizes IT costs, particularly in Microsoft and Oracle environments. The platform e",
       "stage": "VENTURE_UNKNOWN",
       "last_amount": 917000.0,
-      "total": 2825712.0,
+      "total": 2822465.0,
       "investors": [
         "Cluj Startups",
         "Acequia Capital",
@@ -721,6 +707,16 @@
         "ShareInvest"
       ],
       "location": "Annecy, Auvergne-Rhône-Alpes"
+    },
+    {
+      "name": "Network Solutions",
+      "domain": "networksolutions.com",
+      "desc": "The company provides a suite of digital infrastructure solutions, including domain registration, web hosting, and an AI-driven website builder, along with email hosting and security features like SSL certificates and Sit",
+      "stage": "PRE_SEED",
+      "last_amount": 2000000.0,
+      "total": 2000000.0,
+      "investors": [],
+      "location": "Jacksonville, Florida"
     }
   ]
 }

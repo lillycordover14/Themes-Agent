@@ -15,6 +15,13 @@
   },
   "updates": [
     {
+      "date": "2026-07-08",
+      "type": "Post",
+      "title": "/U P D A T E -- Pearl Health/ - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxON2lFMXdtSmpac0h2WmNWd0paWFBxTE5EbEZqaXhCS3NiMWQ2aUpvY2QxOEdkWXlobE5SblU4bG9IcVRkSlQzSDdWZEkwdHRaOXJKYnQxX2xRNjZqazAyMUNzZXRzRXZneUFVeTFIVlgwbEF5a2gzaVdfVnRLdEZVM2lCcURTWWlYeXRTd2VjeWpXU2hGeWwxTlhQX0ZMUEg3OHFPTjBnai1tWU1RWVpnUlBwTE1rdWwwUWUyOE9yRDVtS0xOXzVVN2ZOcVY1cG1uMUtnc29KQ0xld3NKaUdyc0c5NWk4Z3hUZHNPUGphM0xSWnJxaGEtUVhULUp1UjhDeGlSTXlfUW9ibDhzb1JZMG1hTmNqRVNLUmFv?oc=5",
+      "summary": "/U P D A T E -- Pearl Health/&nbsp;&nbsp;PR Newswire"
+    },
+    {
       "date": "2026-07-06",
       "type": "Post",
       "title": "Netris Announces $15M From a16z to Automate AI Data Centre Networking for Neoclouds - AI Insider",
@@ -50,25 +57,18 @@
       "summary": "Netris raises $15M Series A from a16z to help AI neoclouds go live faster&nbsp;&nbsp;TechCrunch"
     },
     {
+      "date": "2026-06-12",
+      "type": "Investment",
+      "title": "Digital Asset lands $355m in a16z crypto-led funding round - FinTech Futures",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ0RjTkJqUW0xaGdPS2dGSnpFWDh3RXEyOGNfbXJRNmVLS2pwYUZUbVpOMGhnRVlxZWFrVzJ5dVhGT2RUa0RuYzVISzVuU1c0eGpVSk52MXBCMEpZa0pkdmEteHBQbVFrUlZxN2pfV2FjSmdtSDlmZnJmQ2dsLVRtcEtpcnhJSC1KTXlVcFVDNWc?oc=5",
+      "summary": "Digital Asset lands $355m in a16z crypto-led funding round&nbsp;&nbsp;FinTech Futures"
+    },
+    {
       "date": "2026-06-04",
       "type": "Investment",
       "title": "Lassie Raises $35 Million in Series A Round Led By a16z - orrick.com",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOUVTN1BqRmg2NDZZaHBsR1NKZ0pIcmJpb1NDak5FbGV4aTh1MjNBTVI2OElUQW9TY0p0NFR2WFBBZFk1VGFIZ1Q0Y2ZISEdheEdINU4yRGxBUERwdHB2T1U1WXlxRDZzS2hoSjBZbTZ0QXNqazNhLTdTN1NaTXAzeHk0YkFMcmFIUlBuQlVvaDI4VVZaaU0taQ?oc=5",
       "summary": "Lassie Raises $35 Million in Series A Round Led By a16z&nbsp;&nbsp;orrick.com"
-    },
-    {
-      "date": "2026",
-      "type": "Thesis",
-      "title": "Big Ideas 2026 — agent-native infrastructure",
-      "link": "https://a16z.com/newsletter/big-ideas-2026-part-1/",
-      "summary": "Re-architecting the control plane for agent-speed workloads."
-    },
-    {
-      "date": "2026",
-      "type": "Thesis",
-      "title": "Notes on AI Apps in 2026",
-      "link": "https://a16z.com/notes-on-ai-apps-in-2026/",
-      "summary": "Every team a software team; system of record loses primacy."
     }
   ],
   "region": "Americas",
@@ -89,6 +89,20 @@
     }
   ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "‘We crossed that about 3 months ago': A16z's Marc Andreessen drops huge bombshell about AGI on Joe Rogan's podcast - TechRadar",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQU3ktVE5Vb0NLLUhqR1UtYVdzdHZKQW9JajBublVDN2c2dFFXRWx6Y29KR1hlbjZoOE42QXhrMjRJd1k1NlllenR1TVA2ZHZqWEM3RC1ac1ZJaEVsTERJS0RnYnBsSGZHS1dIQTUxWFQxSzB0TTNWWHJqbHFIa2tpakxwSWtPZ3gzcnRRMnk2TXhBTmFqVE5CbHBuWWpsMmREbGdlYU8zRmhSWnJMMzE3dGVyOFJWWnZmd2VhNG9LSFNZVHhBazVRZWdwZktuWlh1WEVUSXRn?oc=5",
+      "date": "2026-06-06"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Ramp's Chief Economist: SaaS Makes a Comeback from a Business Data Perspective - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQeWlyZ1FVTW1henZDUUhfeW9hOGFlRlZPcUM0cjZmSXJ1MWpTdHFTXzBIWFVRcXlFTTg0Zkg2OVlHbnZrQnZrVjRpS29XekR4S0lv?oc=5",
+      "date": "2026-05-26"
+    },
     {
       "person": "Ben Horowitz",
       "show": "Invest Like the Best",

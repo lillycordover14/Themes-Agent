@@ -23,8 +23,23 @@
     "x": "https://x.com/GoodwaterCap",
     "linkedin": "https://www.linkedin.com/company/goodwater-capital"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-08",
+      "type": "Investment",
+      "title": "AI Start-Up Kaon AI Raises $60 Million in Funding Round in Quest to Build a ‘Personalized Story Engine’ for Users - Variety",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNjBmdUV6c3QydUsyZHlzaEZrZ3YxRVJOMUx0dkZBUXBaRzl2Qm1sTWoteWhGcDUzcUFjaVJmZU40UzdKM19JMDl3bk1FbTJtdmVKT3RxY2NVYkpKV0V0Y2NIc0VrY3drbng0d19KeTVaaGxIeVJJamlEZnN5dkpsVnBRX2FwdTJBV0ZnbTZvcTM0aGdzNy1PZXlqeXVPTi05bWc?oc=5",
+      "summary": "AI Start-Up Kaon AI Raises $60 Million in Funding Round in Quest to Build a ‘Personalized Story Engine’ for Users&nbsp;&nbsp;Variety"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "AI Start-Up Kaon AI Raises $60 Million in Funding Round in Quest to Build a ‘Personalized Story Engine’ for Users - Variety",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNjBmdUV6c3QydUsyZHlzaEZrZ3YxRVJOMUx0dkZBUXBaRzl2Qm1sTWoteWhGcDUzcUFjaVJmZU40UzdKM19JMDl3bk1FbTJtdmVKT3RxY2NVYkpKV0V0Y2NIc0VrY3drbng0d19KeTVaaGxIeVJJamlEZnN5dkpsVnBRX2FwdTJBV0ZnbTZvcTM0aGdzNy1PZXlqeXVPTi05bWc?oc=5",
+      "date": "2026-07-08"
+    },
     {
       "person": "",
       "show": "",

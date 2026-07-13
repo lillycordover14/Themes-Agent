@@ -83,6 +83,27 @@
   ],
   "podcasts": [
     {
+      "person": "",
+      "show": "",
+      "title": "Exclusive: Orbital Industries, startup using AI to discover exotic new materials, raises $50 million Series B funding round - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUXU4T1R3dWFtTF9KNUxBUzduWVR1UDR3LTBzdUtBRWlMWE9kTl9MZUgwMl94Skg5Yk52ZXNSUkppSllES0RhUl8zQk1PYkVMbHNHOW5EUFRRbnVMTldiQzdXY3JpYUtpWnFpWk1wUE9VOGJwT0JpclI0YkNTa2oyay1rNTdmLXVBX2xZZ1I1RklPN1o2ckZ3QmUxSGFLR3ctajNiRHBxWEpuZnBDZEhKMmtoODVSbHlMR3kyQjN6WUQxRV9jLXNFcl9BQjNwc2lFWUtv?oc=5",
+      "date": "2026-05-28"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Generalist AI raises $400M in funding round led by Radical Ventures, hitting $2B valuation - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5uTGJaRThJZjRPZGVNaG1oUHF0b1ZOdF9Sd3NKTFB0cGI2MUctYU11UWl4UTVMc1dNZ1RxeEUzMWJJdUU0ZXF6Ui1FTDBfUnNCcjkzQVVuTXlodGJtbzdDREp4ZUNqLV9EZWNKR2hseGMtcW11enNSRU93?oc=5",
+      "date": "2026-06-04"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVWs0Y0htWE03N0JMbjZ2czFUUHozVm5pV0Fya3hJMEtjM3ZwRTJxNjJHN29XaDg2bG5rWmFVcHRuSjc3SGhJOGRLOU51aXBzYTdjVGhKVkZuT0dlakotaWMzQnl4c0dwVk1fQ1hKUjFiYXRvdTdpeFpmRkg3OHV3MFNPajJTUHA4eldKMG5JM3dTQWM1emlROUxTOUZMdDlqLXRmMEdod2wzQTlvazBhaTZNZjB6enE2?oc=5",
+      "date": "2026-07-08"
+    },
+    {
       "person": "Rob Toews",
       "show": "Radical Talks (Radical Ventures)",
       "title": "On Overcoming AI's Catastrophic Forgetting",
