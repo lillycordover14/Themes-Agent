@@ -137,15 +137,33 @@ def compute_pov():
             if c:
                 tally[k] = c
         top_tw = [kname.get(k, k) for k, _ in tally.most_common(2)]
-        words = re.findall(r"[a-z][a-z\-]{3,}", blob)
-        fname = set(re.findall(r"[a-z]{3,}", (f.get("name", "")).lower()))
-        freq = collections.Counter(w for w in words if w not in STOP and w not in fname)
-        top_kw = [w for w, _ in freq.most_common(4)]
+        SECTORS = {
+            "AI agents": ["agent", "agentic", "copilot", "assistant"],
+            "AI infra": ["inference", "gpu", " llm", "mlops", "orchestrat", "vector", "fine-tun", "compute", "foundation model"],
+            "data": ["data ", "analytics", "warehouse", "pipeline", "observability"],
+            "dev tools": ["developer", "devops", " sdk", "open source", "coding", "engineering"],
+            "fintech": ["fintech", "payment", "banking", "lending", "insur", "underwrit", "treasury", "credit", "wealth", " tax"],
+            "cybersecurity": ["security", "cyber", "threat", "identity", "zero trust", "fraud"],
+            "defense/gov": ["defense", "national security", "govtech", " dod", "military", "autonom", "space"],
+            "robotics/physical": ["robot", "manufactur", "industrial", "warehouse", "drone", "machine vision", "supply chain", "hardware"],
+            "healthcare/bio": ["health", "clinical", "patient", "biotech", " drug", "diagnostic", "medical", "pharma"],
+            "climate/energy": ["climate", "energy", " grid", "solar", "battery", "carbon", "renewable"],
+            "crypto/web3": ["crypto", "blockchain", "web3", "token", "defi", "stablecoin"],
+            "consumer": ["consumer", "marketplace", "creator", "commerce"],
+            "vertical SaaS": ["vertical", "workflow", "legal", "construction", "logistics", "real estate", "procurement"],
+            "GTM/revenue": ["gtm", "go-to-market", " revenue", " crm", "sales team"],
+        }
+        sec = collections.Counter()
+        for label, words in SECTORS.items():
+            c = sum(blob.count(w) for w in words)
+            if c:
+                sec[label] = c
+        top_sec = [x for x, _ in sec.most_common(3)]
         parts = []
         if top_tw:
-            parts.append("leaning into " + " & ".join(top_tw))
-        if top_kw:
-            parts.append("recent themes: " + ", ".join(top_kw))
+            parts.append("Leaning into " + " & ".join(top_tw))
+        if top_sec:
+            parts.append("active in " + ", ".join(top_sec))
         if parts:
             pv = "; ".join(parts)
             f["pov"] = pv[0].upper() + pv[1:]
