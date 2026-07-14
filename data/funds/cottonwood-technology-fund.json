@@ -22,8 +22,44 @@
     "blog": "https://www.cottonwood.vc/news/",
     "linkedin": "https://www.linkedin.com/company/cottonwood-technology-fund"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-04-03",
+      "type": "Investment",
+      "title": "Dutch startup Brilliance raises €6 million to tackle AR hardware’s key bottleneck with RGB laser chip technology - EU-Startups",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONmcxWloxZlMtaGRBeTQ3LXJlOEVpSjdMS1h2OVk2RG5KeW1IZTh1bHRCbGZ3MHhWYmlqUm9fQVpFNVFfbGxLYVBGemtsVGEyX2pEQURwOUx0ekdzQk4zaTlMZldUWTJiOEdwQkloYm5scGN5UF9xbTVuSzFfVGk0UUNrRThOejBYb3RzLXBQWXZoOU42VkRia1ctaXdEYjh0R3BYa1pWYU52Q3lGeXRSQjJadUFzcFNjclZOZ21Pb1RZV1ZUU01ONWI5amNFSk1JU0hFZ0lLMDZ0aGJteXJvNnpn?oc=5",
+      "summary": "Dutch startup Brilliance raises €6 million to tackle AR hardware’s key bottleneck with RGB laser chip technology&nbsp;&nbsp;EU-Startups"
+    },
+    {
+      "date": "2026-02-04",
+      "type": "Investment",
+      "title": "QT Sense Raises €4 Million For Quantum Tech That Analyzes Living Cells in Real Time - The Quantum Insider",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSTBuSmFRTXBkTWZ6YUwwNHc3RHpMV21KVWpkS1ZSdkc5U3VqZndCRWRFc3BJRzNiT3d2dUp2WHdia3g4cEZld2p0V3Q3WDZ6MG5pYlloWWtCVVJnREFneUc0d3M1ajVhTkMtb0xDTjlCNlU4bTJWbUFtMjE5Y3RDRWVhazlGdlhkVFFrUEYwQWxOZ08xUnRIQ0REblJwUTJtS0pWU2RqM0Y4aWlUZ1NsSXhyRlYzd2xaWHF2NTZtN2ljckk?oc=5",
+      "summary": "QT Sense Raises €4 Million For Quantum Tech That Analyzes Living Cells in Real Time&nbsp;&nbsp;The Quantum Insider"
+    },
+    {
+      "date": "2026-02-04",
+      "type": "Post",
+      "title": "QT Sense closes €4M round to support real-time cell analysis - Tech.eu",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPM0RxcTNVWmU2cFhOTlhjX2Nvano3Z21OeWZhbHNqUk9XUm9qS3BnRkpwb0xNX3lHYWp6RWE2aTF0dzUtdE9FZUZvbnpxX09mMTdQWnRBd0pwclBFTnNYVjAxemJpbUJObWJ3SDk4OGdZTHJQVEE3QWRIbldZSGhrOHFJcjUxRlNtdVZERGxTbkR1dlpm?oc=5",
+      "summary": "QT Sense closes €4M round to support real-time cell analysis&nbsp;&nbsp;Tech.eu"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "QT Sense raises €4 million to develop quantum platform for cancer, sepsis and arthritis research - EU-Startups",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDFxcDNBVExoNUppY0hrM2xycjZDVjJFcEhfUjBpME1ReXhKeW5IbHQ5T2VxaVZqa0JuM3ZjSjR5WTVMREVoYjZHdmcwOVBRNXBEd25Yem1aUnp0Rk00Q0F2SVY1U2Z0eTdfTHNMWV84eGZiUlRsUmhJSVJqWUw3TU4wTDkxN0FNd2htbXcwZkJ0RExFNjY2UUVuYXpaMFFoZ1hRMlVETEMtWFJtRC1TTC1OTktFYmhWdUVTeXZBV0pZRUgzbjZwLWswLTA?oc=5",
+      "date": "2026-02-04"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Dutch startup Brilliance raises €6 million to tackle AR hardware’s key bottleneck with RGB laser chip technology - EU-Startups",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONmcxWloxZlMtaGRBeTQ3LXJlOEVpSjdMS1h2OVk2RG5KeW1IZTh1bHRCbGZ3MHhWYmlqUm9fQVpFNVFfbGxLYVBGemtsVGEyX2pEQURwOUx0ekdzQk4zaTlMZldUWTJiOEdwQkloYm5scGN5UF9xbTVuSzFfVGk0UUNrRThOejBYb3RzLXBQWXZoOU42VkRia1ctaXdEYjh0R3BYa1pWYU52Q3lGeXRSQjJadUFzcFNjclZOZ21Pb1RZV1ZUU01ONWI5amNFSk1JU0hFZ0lLMDZ0aGJteXJvNnpn?oc=5",
+      "date": "2026-04-03"
+    },
     {
       "person": "Dave Blivin",
       "show": "The Covert Code",

@@ -22,8 +22,44 @@
     "x": "https://x.com/ludlowventures",
     "linkedin": "https://www.linkedin.com/company/ludlow-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-03-23",
+      "type": "Investment",
+      "title": "Software Provider Artemis Raises $6 Million in Funding - Mercom Capital Group",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZW5ZZTJTakgtZ2pVY0xwaEVyTjZLX2hVLTYxZURacDJsREczeG5tME4yemlJOXhXcV9ob0JoTTF6dlR4czY4NEZzOUx6X1FCX0M5bGRvUVNtSTV6XzVLMTZ1RjdSSXAtakI0VzJhU0d3eWJHWFhuM3l3MzllSVNYZU5EcmhsZTQ?oc=5",
+      "summary": "Software Provider Artemis Raises $6 Million in Funding&nbsp;&nbsp;Mercom Capital Group"
+    },
+    {
+      "date": "2026-03-04",
+      "type": "Investment",
+      "title": "Monalee Rebrands as Artemis and Raises $6 Million to Launch the Operating System for Distributed Energy - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbF8xMVpWZlpDZ2Z1VWpYaFVIdHhhRnBuUnFDV0pXcjVSR2N3MjBJS21JMENtTVpjTzM2VmdFWEw2RjFMUEdnbGR2TDFUaThHWTJKeDhrdU9FbEhzU29UN0tfSDNZX2IxbGNxV1RtNG9mREtTWnJrS21CRTBvZ2VsQ3RMSC1ldjN3X0F6a3J4ZFlpT09QdGEyTGx6QjZETFJpWmtIT09DWWU5aTg1NGNXZFRyc1RWRkhldEtfTEEzd3htTlViRFNIZTFHVVM3ajMxTHlIWWdubk9UbGVxdlh6LXNWbnVZX2J4N1AxbUQxNA?oc=5",
+      "summary": "Monalee Rebrands as Artemis and Raises $6 Million to Launch the Operating System for Distributed Energy&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-03-04",
+      "type": "Investment",
+      "title": "Monalee Rebrands as Artemis; Raises $6M in Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQi1vb2FlWjczZHNSM0o0YXlweHFac3pOdUV3ZDg5RmdZanF0YWpzaWl6TkFMYnN0ZFlFb202dTljMjhzb21JTEhacGhNWjlhS0xDV3A2R3p3aVpoa1RmUG5rWHBIeWdmUDVmY3V0NEFUS2Jwdkd3bVgybmVPYVpPNTNNcDBvRDFyY0JmNXNB?oc=5",
+      "summary": "Monalee Rebrands as Artemis; Raises $6M in Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-02-15",
+      "type": "Investment",
+      "title": "The Compression Company: $3.4 Million Pre-Seed Funding Raised To Boost Satellite Data Transmission With AI-Based Compression - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ3ZscFdKekxlU0RZb1U2RFhEUzMxNEZNUHVJTDl4UHhEV282eXdDVmQtSWZsWTVRMXozc2YwN1k1S0g2YWtOMGp1TWl2UUlndFZLSy11dEQ5Z25Jakl6VkZCV2tFSFZGVm9FcElYSDRNVV9LNER2YUh1a0RBMFVTRFdiSUhZclZEUEJVcnppbHB6WHlTcGktTTVaV3czSGVMTlNkMTU3VzBTOUhodHJtYzQ5YnRITXNvOUVlY1pKVE56RVljWTBzQ3FlVHJseHNvTlhzc1dFQ2dld9IB3wFBVV95cUxQVGNRR1Q4eHRleDE5TDJyYlNfby1jQURuN1hadTN0WXpaSTQtV3NmMGU4Y3ladEd0YXJkcUl5M3Jad3h0aWxHM2lIZlAteC1uUzVxVk9yb0stenp4ckdGWDVyV2sxa0JmcjhNSWFFblNDbmhULTlfZVdtdHRmZnRRX1VyZ2puWlB2VnFqeHkxc29zTGVza0p2M1ZPR1BvOExjVUpHMGFnbzBLUmhjNU5TRUNzRTV2T2xxVEJfY1lnWkNjYlhCekxFV0RhVDByWUtMUEVVclhuZEx2bGxVNjk4?oc=5",
+      "summary": "The Compression Company: $3.4 Million Pre-Seed Funding Raised To Boost Satellite Data Transmission With AI-Based Compression&nbsp;&nbsp;Pulse 2.0"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Monalee Rebrands as Artemis and Raises $6 Million to Launch the Operating System for Distributed Energy - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbF8xMVpWZlpDZ2Z1VWpYaFVIdHhhRnBuUnFDV0pXcjVSR2N3MjBJS21JMENtTVpjTzM2VmdFWEw2RjFMUEdnbGR2TDFUaThHWTJKeDhrdU9FbEhzU29UN0tfSDNZX2IxbGNxV1RtNG9mREtTWnJrS21CRTBvZ2VsQ3RMSC1ldjN3X0F6a3J4ZFlpT09QdGEyTGx6QjZETFJpWmtIT09DWWU5aTg1NGNXZFRyc1RWRkhldEtfTEEzd3htTlViRFNIZTFHVVM3ajMxTHlIWWdubk9UbGVxdlh6LXNWbnVZX2J4N1AxbUQxNA?oc=5",
+      "date": "2026-03-04"
+    },
     {
       "person": "Jonathon Triest",
       "show": "The Twenty Minute VC (20VC)",

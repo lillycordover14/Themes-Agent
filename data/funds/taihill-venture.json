@@ -21,7 +21,36 @@
     "news": "https://news.google.com/search?q=Taihill%20Venture",
     "linkedin": "https://www.linkedin.com/company/taihill-venture"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-04-27",
+      "type": "Post",
+      "title": "The Weekly Notable Startup Funding Report: 4/27/26 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUF9lZGFrSkR4UGpsamkzRkY4bGx1RHkzRzZFd2MtU2haNUZhMFZfQWswMzF0RjRNRGhCWUUwQUdFTlZtWlp3WF9nVFk4UjFMNXpCazJmampIS0ZYVzM2QlNiTHJzYTFHTU9XNzk0eU5ockNsUHNEeHFoUHBNMHViZERoNUVPOHpxU05aVllB?oc=5",
+      "summary": "The Weekly Notable Startup Funding Report: 4/27/26&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-04-21",
+      "type": "Thesis",
+      "title": "Collov Labs Launches AI Lab Focused on Developing Visual AI Systems to Spur Consumer Adoption and Enable the Future of AI Devices - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNSnhjcjczYWVEZk1wVmRNUGZNTlN0TElNTDVOYU5sYUZiTlh4cVcya0dRN2s4N2poY3BBRXpLbDRZV21NaXpILXBtMk1VOEEyZVBXMEF5UngyUG14SV83c1dXZ0d2czNYYXg1YlZpUGR4M0ptOTJHUE1XM0VfRURDTldWWTJJRzJrZnRFWkxqN3lJaUdseGZ2T3RkOUIyeXBlQUxlbzNvZU1aOFVaUjZFbUZ4RGhPUUtlUGN4dUNYMTJsZnM5bjI5dTRhU0NQQ1B5NXdLdHIzV25zbVgzTDN6Y0R6a1dKc252NUlNSHlQcnlrNWw4VmJ4WVEtc1FCQnlER2N6eURmeWxVeVJFSXNSQmJ6S1U?oc=5",
+      "summary": "Collov Labs Launches AI Lab Focused on Developing Visual AI Systems to Spur Consumer Adoption and Enable the Future of AI Devices&nbsp;&nbsp;Business Wire"
+    },
+    {
+      "date": "2026-04-21",
+      "type": "Investment",
+      "title": "Collov Labs: $23 Million Series A Raised To Advance Visual AI Systems And Launch New Research Lab - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOTR3QlJUVVpSNExKTUNDZDJlYTBGRnU5M1VRRjBZUS1OdEdqc3QwQkppRl9OUWJCaC1Ybzh4YkNyTUhLejF5WTdLZkJJSHFnVHpGa00yQ1gtZGFaTEFBOFNGbGdZVlR4WmF4VU12U2FZckQ4UW8zd1hrR1kzQVpHbjU5eU1ib2ZrZnlRRGlLY0t3QmpqaTlmS29GTUZzN0dGT2tTVF9QUjFPckI5NnFyclNoYUJiZ9IBqAJBVV95cUxQQUhIUDkyeUdxV21fallEajdRUmVsZmVGRVpLa09sUmRxbWI3X0U0aWJ0eXJlb0VOZTkwalRkWWs2cDRhUUpDT0ZXNWpjaVFoQ3V2ak1mRzk3cERuWGFUcEE5YjBEb05INUY0NDVRdXNkSXg3RmI2Yzh1Qm1zUzdhTzNmRDZFVmdHUnpTZWRZRS1yZ0MwbWVJeXlIUkRMVDZKZjBMVmEwYzJQdGg3bVVmMVcwQ0dZMlhFOFFBeTF1dWh5TlJJbjdZRE1PQ1U2ODF5bHRoZHNMVTlFbktoWktUZFdleUJvZVR0X3BoYmlSR0dlSnhzS1pUZkNSeUJCaGE1RklkVmlsNVlQUFRQRkY3U1JsSWdxQnozRklxSzZhZXQ3LUhEQXlzaQ?oc=5",
+      "summary": "Collov Labs: $23 Million Series A Raised To Advance Visual AI Systems And Launch New Research Lab&nbsp;&nbsp;Pulse 2.0"
+    },
+    {
+      "date": "2026-01-26",
+      "type": "Post",
+      "title": "Fortitude Biomedicines Launches With $13 Million Seed Funding To Advance Immune Cell Targeting Biologics - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5zNjV5MXNWeV92TzI1UTNNSHEzWFVYNFY3YkZjQXR5UUpzSlplQUFtZkpTdnVZMktFM0xJZ19CV2JDLVR3dlBSOVY5RGF1OU9FNnVVSlRpcXliNkFKUld3YzV4UUxpMTBLUS1zWFRkUVJZZlY30gF6QVVfeXFMTkZDVUxseWt0LTdFX1Z5d0tvdWJ5eFFjUjhtVTNfakRnNHp6OFN0ZFZIQUVneFVmRDBPSmJNQVdHZXBvZVNXNWtnYlMxRDlPVXd0Zkp5bUZVLTgxYUQ4blBJOEZJclNmNXFuclpteDBMemF1LWZjSDk5RGc?oc=5",
+      "summary": "Fortitude Biomedicines Launches With $13 Million Seed Funding To Advance Immune Cell Targeting Biologics&nbsp;&nbsp;Pulse 2.0"
+    }
+  ],
   "podcasts": [
     {
       "person": "",

@@ -23,8 +23,37 @@
     "x": "https://x.com/arboretumvc",
     "linkedin": "https://www.linkedin.com/company/arboretum-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-04",
+      "type": "Investment",
+      "title": "Immune biotech grabs $165m, Thiel backs tidal-powered data centers, Aspen buys NJ solar projects - Axios",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORm5TWDN0aVM5RVJ1eVd3UUhBbWs1STJCbkEtZ2VVTkl4dDdOek9UcUpnZFIteWNhU2Q4UVhQUU1LejNMbUF4Sk9PcHY4Wm9PWGtQd2R1YmtpdjlYSGtNQnpWdEZORXU0cHJHeWtsdEZLYXVvTUQyWjdEbXVRTG94RHdiSGI4MFJRV0hDc1BwZjdmUFMzMVVPOS1TRQ?oc=5",
+      "summary": "Immune biotech grabs $165m, Thiel backs tidal-powered data centers, Aspen buys NJ solar projects&nbsp;&nbsp;Axios"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "New fund",
+      "title": "Endogenex Closes $50 Million Series C Extension to Fund Pivotal Clinical Study and Path to FDA Approval - GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPb0FGQzJSVktvSHZLRElEVzRsejhmYWZyQ05KWXBGaGRHandZRkZnSHZHR3NVY1pLY3RrZ2k2NktQbmk2RDgxQ1ZzZldfY1ZhQVRpNFBUSkM2akRuWnpjU1pJbHFsaGdQVFdycTlRMkIySWtqQlVDbWs3UHFWYjNGVUdQNVMxYnlGQWFWak5tVE9STEh3b3pYdEZoOFpFY2l3SXVaU2dlU2c1YUJEWHhJWmpMOXV0TzBtVElfeE9Sbk1Zd0VZYlJBOHI1NmlCM1ZObnlHZWpXVnRsYWZTN2lEeUNFQ0REVkhFZk1UZTdkbDhHQk9RNFp1SmhReklOcE9ZMjdTSg?oc=5",
+      "summary": "Endogenex Closes $50 Million Series C Extension to Fund Pivotal Clinical Study and Path to FDA Approval&nbsp;&nbsp;GlobeNewswire"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "Investment",
+      "title": "Endogenex raises $50M to study type 2 diabetes treatment - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWVlpRUxIRGhWekF0QUd5UTg5R1J0ZWtYVDZ3SmozeDF4U2RLSklCcDVyczVOYzRBelJ0T2dmQXhFRWhzVlJWSlNLQV84bDVESG9talV3M3dCdzFkMmcxMXh1Z29raDJicTZOVTA1RWQ1ZERVZDBhOWpzN2ZmbnhZZGowdExHbl92T0E?oc=5",
+      "summary": "Endogenex raises $50M to study type 2 diabetes treatment&nbsp;&nbsp;The Business Journals"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Endogenex closes $50M Series C extension to support endoscopic diabetes procedure - MassDevice",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00UXJBTDh2eVoxczdsV1VTRmp3am9uV0d3VVVHT25WNUpPMWFYR1pmcUFNZjVQbzZBN0VBZFpPMjByaS00TmZxQy1vSC1vb3R6YmplLU91SElCRm54eDF6RUdiQkVMcFVaUFR3NDVRRXBWNVphWUE?oc=5",
+      "date": "2026-03-25"
+    },
     {
       "person": "Jan Garfinkle",
       "show": "Capital Allocators with Ted Seides",

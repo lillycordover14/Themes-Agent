@@ -23,8 +23,23 @@
     "x": "https://x.com/palmdrivecap",
     "linkedin": "https://www.linkedin.com/company/palm-drive-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-02-13",
+      "type": "Investment",
+      "title": "ICYMI fintech funding round-up: Avenia, Levl, InvestSky, and more - FinTech Futures",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOajFOU1EtVEFaeEN0SjUtdkZERmRIMmdySWRIcXpuSUdtYXN0ZkgxWXBscUhmeVVnVmtDMkRmYmxRYy1hX1RubTdmcVhfZGhfQmRObFZnaEJVUkt2cmVNVzhzUkFfMGRtb3ZWbjBsWmFnSFNMQzlSaFVhc1l4dEVSSVFNdXVKNWF6d2pPV09vVU9lb1hZSUYtR0hjMWFNX2JCUm5ld0cyYU5oLWVPaXUwTUdDdHZ0R2s?oc=5",
+      "summary": "ICYMI fintech funding round-up: Avenia, Levl, InvestSky, and more&nbsp;&nbsp;FinTech Futures"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Dr. Henry Kang, Founder and CEO of Clipto – Interview Series - Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMmJvekd6Zzl1Vy1Gb1pfMEZUVWxQUkxXMk1RZnVUeEdwN1FjMFB4T3FLMlB1LTFBSzBkZDhuQ3VoWVJJa3JKT0JaR3lLcEotWXRGRWZsUjN3SHI0SXBfX21HUGtDLThsU3dRelFPYU9HTE5MVUlYbFpGMlZ0YlJtVFJVejE?oc=5",
+      "date": "2026-07-10"
+    },
     {
       "person": "Seamon Chan",
       "show": "AAAIM High ELI",

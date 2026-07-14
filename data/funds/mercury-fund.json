@@ -23,8 +23,51 @@
     "x": "https://x.com/mercuryfund",
     "linkedin": "https://www.linkedin.com/company/mercury-fund/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-06",
+      "type": "Investment",
+      "title": "OpenTrade raises $17 million to connect stablecoins to real-world assets - CoinDesk",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVkVDbXNyenR1dHQwOFRKeW43MHY2VEVOOXJudnR5SFdoTkxPeWRMTGFLb3E5ZmszNjQwZnpsN2g3STg0UW5lQXhaQ1lELWFvZE5aOEI1YWFIU19sdlpySjE0S2hqeV9KY2dPNnZUNk9YUy00TGE5Rm5NUXQ4a3dZMkdZTE4wQXYtWnZySV9xUHlhRmM0NWRjWlZsMk03UHBoMVlMOFFQRVZMd2dtSDhGY0JidGs3V2FV?oc=5",
+      "summary": "OpenTrade raises $17 million to connect stablecoins to real-world assets&nbsp;&nbsp;CoinDesk"
+    },
+    {
+      "date": "2026-05-06",
+      "type": "Investment",
+      "title": "OpenTrade raises $17M to expand stablecoin yield infrastructure after topping $200M TVL - The Block",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMUo3d1Q4a3Q1d0tJTmFJaE1WaHp2QlVhWUFrbW5xWTBlWjlWbU5UOXY5bTZPMEg5aTdLdm82ZDFpeTVsQ1FudjlHNUNjTXlzOE5xbEpWX1lsc0lqOE1RRFg1TDVTZTZrWXVFWmJTYkJ4TUVmSzhvYzdENEtOMnZkTnZnWTkxSHpsNFo4SXVIWWFNaF9uOGFESjIzYWszbkRHQm5kaG5oZ3p4SkVuenZ6REtySC1pVWdFMFVEQzJR?oc=5",
+      "summary": "OpenTrade raises $17M to expand stablecoin yield infrastructure after topping $200M TVL&nbsp;&nbsp;The Block"
+    },
+    {
+      "date": "2026-04-20",
+      "type": "Post",
+      "title": "Houston VC funding surged nearly 50% in Q1 2026, report says - InnovationMap",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOamo1bWNGV1lLX1lfSDNYRHc3WHNQUnN6RUdNUl9hdzR5Z1lEYmJ6YVNUd3o4NE1nTUR0S2did1lhSW04dGR6RHQ1c2hmRW43TTNQNlNSalNXc3Qya3R5aEJPZzU5dGRCY250VG9SWU1oODNBZUd1MmhFWnlPaUdPeFF3?oc=5",
+      "summary": "Houston VC funding surged nearly 50% in Q1 2026, report says&nbsp;&nbsp;InnovationMap"
+    },
+    {
+      "date": "2026-03-20",
+      "type": "Post",
+      "title": "ADRIAN FORTINO, 38 - Crain's Detroit",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUUNTS3F4UlNJbjVMdHpBTG1NOUJTaXpjOTAwQ1BGeTRKOHdXYWhPdnB2VnJBZDhRR3lhaXkwQWJVZ3VlZDQ1UFlDQ01DUFVGa21NaVhKT3hOcEJzb3J3WFRyYWpPSzhwTzF1b196TmpmdDBVeGZhLVhTMnhaUWFVSg?oc=5",
+      "summary": "ADRIAN FORTINO, 38&nbsp;&nbsp;Crain's Detroit"
+    },
+    {
+      "date": "2026-02-09",
+      "type": "Post",
+      "title": "Phoenix Suns, Mercury fund sports court at Girl Scouts camp near Payson - AZ Family",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcXVUTDhLTTJsOFBsaUkwRENnTmgtcEo1Z01VanRJM2FreGJGaW5vY3QzYVo2bXl2UjltMW1TdEpaMkZ6Y2NkX05mU2loVXlVXzR6VEhCV1hqX29UZ203N3YwM1pycDN5Wmo5MWhVTlRuVjRPLXdqbWQ0WHY2T0xzdE9YX0d6RVpjUVJxN0xyX1MyQ2FXVUFNS0l0TWp4VmpuOUFTYzRnWdIBuwFBVV95cUxNVmpEZ0w3ZU1FaHR5c2pTdFpfekEwUWZXZlMwRjVMRW1rZkNOTmZ5eHZ6YTltZU5pRUNDeXZvaTA4bXJ3MmE2VU0zWjJDZTgybjdYRmh2NEpuVFJqTHhoM0JLM0Zwc3BtM2luSFg2WnI1M0U3Rjg1RV93WUYzMnRITHlCeENfMEpHaFB3eDZHa1phWGFrQ0dSc3UzTDJZYnBwZnhGejZVenBLT2drMThhOU14eUFWYlU0czRv?oc=5",
+      "summary": "Phoenix Suns, Mercury fund sports court at Girl Scouts camp near Payson&nbsp;&nbsp;AZ Family"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Stablecoins Are Creating a New Financial System - The Block",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNUhucVF6N2JMSzVnaU4tNVpnWFBRVzV2bkFvclk1R1FKZE5Zc05ZMTB4ejdGNjBlMUJpZWxIZ0c1VmZmT3p6aUo5TWVpdjQtckFWSzFRYTBRS0NyZERaYTd5c0V6NGVVUjZSY0F0d1gtWjI3Z3JCLWRTRWJBVUJZa3A1bC1qcHJiYVhv?oc=5",
+      "date": "2026-05-28"
+    },
     {
       "person": "Aziz Gilani",
       "show": "Go Slow to Grow Fast (Mercury)",

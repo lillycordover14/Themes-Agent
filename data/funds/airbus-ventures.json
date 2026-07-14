@@ -23,8 +23,65 @@
     "x": "https://x.com/airbusventures",
     "linkedin": "https://www.linkedin.com/company/airbus-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-01",
+      "type": "Investment",
+      "title": "AMD, Airbus Ventures lead $20-million Series A funding for Featherless.ai - Manila Standard",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZTHAxU1BjZHBlVHBOZmYyQkh2eG9KUEg3a0R1TWZoMG1sX0Yyd1dNazZRQzFpb3BCTEtZWVRHX0NRM1VRRlI0bU82eThoZlVs?oc=5",
+      "summary": "AMD, Airbus Ventures lead $20-million Series A funding for Featherless.ai&nbsp;&nbsp;Manila Standard"
+    },
+    {
+      "date": "2026-05-01",
+      "type": "Investment",
+      "title": "AMD and Airbus back Featherless.ai’s $20M Series A to power open-source AI infrastructure - Tech Funding News",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaDhleVU4R1hCSmt6VDRwZWFOZHdpZ3ZhQzgxTVI2VnIyWDRBenZzV2tfamlSNEx4MjIycE1SVnBxc1d3UWk1S0loS2drLXZITmpUSXJNRGZIWDZYRTlIck5QODB0ZF9ya1VZTmY5UXdycVNSS29xekxuYzJvUDB6UHhtZjVsUzNxV0VGdWprcFRDWmJfQUU3dU9RTUp1UQ?oc=5",
+      "summary": "AMD and Airbus back Featherless.ai’s $20M Series A to power open-source AI infrastructure&nbsp;&nbsp;Tech Funding News"
+    },
+    {
+      "date": "2026-05-01",
+      "type": "Investment",
+      "title": "Singapore co-founded AI firm Featherless.ai raises $20M funding co-led by AMD Ventures, Airbus Ventures - TNGlobal",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYXFfbmFCUWg2enJDLS1oTFJ3OFRQZWo1amFRVkV6VTFsaUoyZzRXSXU0dDVnTE5nVFpVUm5JZmlVOGozRVR4MGV6SHlqcUFndU83blpzLVNMZVVmWktyTS15WDU4U2VnQ3RaZkxtcUVVQ1R4aEtfVzhvVU1uYVNQV2gxY1dUaE1uYlBtNHdMNng1YUd0N1lzSHBUUkdXQ0FJZTVqNDBqQzRDRTA?oc=5",
+      "summary": "Singapore co-founded AI firm Featherless.ai raises $20M funding co-led by AMD Ventures, Airbus Ventures&nbsp;&nbsp;TNGlobal"
+    },
+    {
+      "date": "2026-02-04",
+      "type": "Investment",
+      "title": "CesiumAstro raises $470 million to build out low Earth orbit satellites - Resilience Media",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWEk5T29IS052bjU5azBVeUlsSmRPdGozWHJtTkdhaHMzc04wbVg0RVlVb2NodVp2TW5qeWdPRlBBNWJ0TzdxWnZNSTNwU25iWlpvNWJ5LTBRMEQwX1pyMkpmaGJBTk9ZZ2lBYjJsMk1uX0k0ZW1GMjRFR1FWaWh0cjhIRVhuMGRsXzdZejdUTW00bzdDejN6eVpreHhEbWc?oc=5",
+      "summary": "CesiumAstro raises $470 million to build out low Earth orbit satellites&nbsp;&nbsp;Resilience Media"
+    },
+    {
+      "date": "2026-02-03",
+      "type": "Investment",
+      "title": "CesiumAstro Raises $270M Series C - Payload Space",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5waXYtTXNVdGlOTkF1UmFGSEhvMk5Wb3FiZEtEMUtBT1E3ZENtRExKcVJKV2tERG9SS0NFM0pPa0R2a0NfeXN6aVJILThWMG5XZWRUV3BxZ3AtY2EtR1R4WHZQcElfbV9KaGc?oc=5",
+      "summary": "CesiumAstro Raises $270M Series C&nbsp;&nbsp;Payload Space"
+    },
+    {
+      "date": "2026-02-02",
+      "type": "Investment",
+      "title": "Satellite maker CesiumAstro raises $470M to grow its manufacturing capacity - SiliconANGLE",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXNoWXM4eERzd1dRb0RwQWEtTDhNWmV3dnl6WjRhZldHX2FfbHR1ckVZNjdXdmxYOUpJZF8xYWZWMWpwMkFfTmhYMjctVGlFbzB1UVhiMFN1UWt0c3QzM2o5VGpJUW8zSUlTMng1c0w3YzY2MHdRbjFRSVFHdFo4aEdzQ1dGRlJlMXJPaHZOQngzSV9weUFNcTZsN1F4Zm51ODVDZFlWZw?oc=5",
+      "summary": "Satellite maker CesiumAstro raises $470M to grow its manufacturing capacity&nbsp;&nbsp;SiliconANGLE"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "CesiumAstro raises $470 million to build out low Earth orbit satellites - Resilience Media",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWEk5T29IS052bjU5azBVeUlsSmRPdGozWHJtTkdhaHMzc04wbVg0RVlVb2NodVp2TW5qeWdPRlBBNWJ0TzdxWnZNSTNwU25iWlpvNWJ5LTBRMEQwX1pyMkpmaGJBTk9ZZ2lBYjJsMk1uX0k0ZW1GMjRFR1FWaWh0cjhIRVhuMGRsXzdZejdUTW00bzdDejN6eVpreHhEbWc?oc=5",
+      "date": "2026-02-04"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "CesiumAstro bags $470M ahead of SpaceX satellite swarm - Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUFVsUldiTk5uV01KbVV4aHBCbldwZjFWVTk3MHZ0Tnk0WFM3UjVuSGRmdllVRVNWRUJYbGl6MTVoWHZPRlE1Q015eDEzc1QtbEtuaHA1SGVVVml6RlFRYmwyQzd6UnkxOWpNY0p6S3FCcHhfVDVrNTVyOV9TeklEdmlB?oc=5",
+      "date": "2026-02-02"
+    },
     {
       "person": "Thomas d'Halluin",
       "show": "Sand Hill Road",

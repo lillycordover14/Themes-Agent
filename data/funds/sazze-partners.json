@@ -21,8 +21,52 @@
     "news": "https://news.google.com/search?q=Sazze%20Partners",
     "linkedin": "https://www.linkedin.com/company/primer-sazze-partners/"
   },
-  "updates": [],
-  "podcasts": [],
+  "updates": [
+    {
+      "date": "2026-04-15",
+      "type": "Investment",
+      "title": "Korea's First Generative AI Unicorn Emerges... Upstage Secures 180 Billion Won Investment - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YU0o2cWRyY2J2NmFXaU9mMTlDUy1ZbmtSZEdEcm1GQ3BPdEJUcTVvbGFDU2k1OURrWGJkSHJzcUl0SThxOG13V3hxOUR6UTgxbE1vTm1ONkZmbXZ3eXdKdDhWbkI?oc=5",
+      "summary": "Korea's First Generative AI Unicorn Emerges... Upstage Secures 180 Billion Won Investment&nbsp;&nbsp;아시아경제"
+    },
+    {
+      "date": "2026-04-01",
+      "type": "Post",
+      "title": "Blank Street pours a deal, Intel buys out Apollo, and Franklin Templeton's crypto buy - Axios",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU3JXVGZnMnpVM1J6MGUwd1BzSFhzTjYyeEczQXFQalQtZDJTbVFubGJpU2xidTNSbGw2NFFKNlFmYURELVI4eXJCY1FNOUxFaV9pbWszeFdDemhtYl9oU2lDaFN1R2NnQTQtSWg4SHdtWHdMZHFDUDFyTkNyaXRUa3YwU0R1Nm9EcnpNS25EdEdQM0NuOWZZVGxn?oc=5",
+      "summary": "Blank Street pours a deal, Intel buys out Apollo, and Franklin Templeton's crypto buy&nbsp;&nbsp;Axios"
+    },
+    {
+      "date": "2026-03-10",
+      "type": "Post",
+      "title": "Rhoda AI's $1.7b, SumUp's $10b IPO, and a Google buy carveout - Axios",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vaDFMbzJXeHBnZm1OcTdYUmJZaHhESXpYLXR0cjVuc1lRTWJjZDFqbGlPbUZhOTMzcXZGR1N1VUZKMXc5TFJJY3RvTktUaV90VkR4OGw5X2Y5dGxPRy0tQkhybG16Unp1UHlhdWNQcjNlcWZWOW9iTXIycmRUZHM?oc=5",
+      "summary": "Rhoda AI's $1.7b, SumUp's $10b IPO, and a Google buy carveout&nbsp;&nbsp;Axios"
+    },
+    {
+      "date": "2026-03-10",
+      "type": "Investment",
+      "title": "Nitra Raises $187 Million as AI-Native Platform for Healthcare Practices Surpasses $1 Billion in Processing Volume - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPaUdzem1jWWc5UHFrbmtyQUhMbUdDZFE0REcyNmt4ZkdJUFV4UXZQV2tZUGFZN0tsYzQ3TUFQdWdpMU1BdHR3Z3l3RERicDhnUDVFMzEtaXhaVFM3Q3ZXRWJyMGVQb2RMMERxalI3aGlueWo0WEpocWM1MUQ1U2dHeFZNcVZmVDFfRHp5X2xXOWM3b3JVRzNKT3FNT2F5dzlOd3BTb3BBNllnYV9UcGxuWWM4aE0zWEZFMDRDRVBkaEQ3SXdZdTRjV2xYX2MwNHh3LUk0dWg2VWpzVEFtcmgzZjg0eGlkRHdfQ09SV1U3eHZCcVcyVDE1dTMwT1k?oc=5",
+      "summary": "Nitra Raises $187 Million as AI-Native Platform for Healthcare Practices Surpasses $1 Billion in Processing Volume&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-03-10",
+      "type": "Investment",
+      "title": "Nitra Raises $187 Million to Scale AI Operating System for Healthcare Practices - Ventureburn",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fbXhUclVQekVaRF9MSDhvRnE1YUJPeDRiZ0F2b1BWd3JHWDc3TXBhWmpvY0FJN0VQN3lydk5CWDVsOVVQaEdENWJxcHh5V3pFcm12Z2tyQUVvYXRuVTh3UHdzSnlmMVJoZkZqS2Q4aDTSAXBBVV95cUxPX214VHJVUHpFWkRfTEg4b0ZxNWFCT3g0YmdBdm9QVndyR1g3N01wYVpqb2NBSTdFUDd5cnZOQlg1bDlVUGhHRDVicXB4eVd6RXJtdmdrckFFb2F0blU4d1B3c0p5ZjFSaGZGaktkOGg0?oc=5",
+      "summary": "Nitra Raises $187 Million to Scale AI Operating System for Healthcare Practices&nbsp;&nbsp;Ventureburn"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Nitra Raises $187 Million as AI-Native Platform for Healthcare Practices Surpasses $1 Billion in Processing Volume - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPaUdzem1jWWc5UHFrbmtyQUhMbUdDZFE0REcyNmt4ZkdJUFV4UXZQV2tZUGFZN0tsYzQ3TUFQdWdpMU1BdHR3Z3l3RERicDhnUDVFMzEtaXhaVFM3Q3ZXRWJyMGVQb2RMMERxalI3aGlueWo0WEpocWM1MUQ1U2dHeFZNcVZmVDFfRHp5X2xXOWM3b3JVRzNKT3FNT2F5dzlOd3BTb3BBNllnYV9UcGxuWWM4aE0zWEZFMDRDRVBkaEQ3SXdZdTRjV2xYX2MwNHh3LUk0dWg2VWpzVEFtcmgzZjg0eGlkRHdfQ09SV1U3eHZCcVcyVDE1dTMwT1k?oc=5",
+      "date": "2026-03-10"
+    }
+  ],
   "people": [
     {
       "name": "Kiha Lee",

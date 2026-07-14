@@ -12,11 +12,25 @@
   },
   "updates": [
     {
-      "date": "2025-06",
-      "type": "New fund",
-      "title": "FV X — $900M, largest fund yet",
-      "link": "https://en.wikipedia.org/wiki/Felicis",
-      "summary": "Deploying early into AI infra before valuations reset."
+      "date": "2026-04-29",
+      "type": "Post",
+      "title": "Exclusive: Supabase Execs Were So Impressed With Dreambase, They Became Investors In Its $3.7M Round - Crunchbase News",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeERrMFMzTXhsM1NhZUVPazVBUjc0eEgzN010UlhRMDhXZGZNMEpONlRNSU9QZGJVcHJ1ZE95SXJnVFpnZVc2UHRZTm4wbHhtRHRkVnpyZkRKNng1QzRydUwxRUowc09kcXp1bXdUaEU4OWdUakswMlI0TW9VUTZnQl8zai1nTWVJNUFIVkJ3?oc=5",
+      "summary": "Exclusive: Supabase Execs Were So Impressed With Dreambase, They Became Investors In Its $3.7M Round&nbsp;&nbsp;Crunchbase News"
+    },
+    {
+      "date": "2026-04-15",
+      "type": "Investment",
+      "title": "Exclusive: Artemis raises $70M to help fight AI-powered attacks with AI - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRV9IX3B1RkdmN09WbTl6Mm1TbzBkcFFrTjU0NmRHdk14QzVpclR1QjI1cWFEbkk0NzFjY2Z6R21paGNzMHJRdkZxN3U4anhUVW1TOGg4cnhrWUVZbjR3N0h4ZXZCeWZ4QzhLNDNWeFZXQTBVdVBxTFhyd3B0ZklYTUJ3TXkxbmtjTzAtdHdTXzJmanRZZ2ZvTkVINUd5S1UwNUxv?oc=5",
+      "summary": "Exclusive: Artemis raises $70M to help fight AI-powered attacks with AI&nbsp;&nbsp;Fortune"
+    },
+    {
+      "date": "2026-02-10",
+      "type": "Investment",
+      "title": "Former GitHub CEO raises record $60M dev tool seed round at $300M valuation - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObXU1Rk9pVXA0WUN2YWt1VTNnRm5RNFZtUkdhY1VHYVNWeE9UVFdldUhPX01HQlRmdTVETG9yVDdjTXVobGxnTVdFakxVQzJNMm5nbE8yMEpuUTZtT19Ja0UxdUUtWU96WlY4NkpVY096Ukw0WWdyWE8tb0Y2V01jS2lLcVFLa01iZGJWUkRtTVhPeUxXOEJIRXdsbXdFb2xSUVNVVEFWOE5jMzVC?oc=5",
+      "summary": "Former GitHub CEO raises record $60M dev tool seed round at $300M valuation&nbsp;&nbsp;TechCrunch"
     },
     {
       "date": "2026",
@@ -24,11 +38,32 @@
       "title": "Armada, Fractile",
       "link": "https://www.felicis.com/news",
       "summary": "Moving early on AI infrastructure."
+    },
+    {
+      "date": "2025-06",
+      "type": "New fund",
+      "title": "FV X — $900M, largest fund yet",
+      "link": "https://en.wikipedia.org/wiki/Felicis",
+      "summary": "Deploying early into AI infra before valuations reset."
     }
   ],
   "region": "Americas",
   "meta": null,
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "The Godmother of Silicon Valley and her former student want to fix how healthcare gets built - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNXzMtTjBaOHFGakk1SmlOQkE1T0lycDl1T1hxdmNGZkMteTZmNkt0RkdTdTNFS2xmemRDR1JKdFZ2c2pNbllEX2s1TnlfMnRMVVBKYkhrc2NzTzZTcER4dGpMT0RoZE9YcUIwbmYtektyVEFlSGFQaXR1S0d1ZkJFanduQVlCbndRR2ZHczA3MlY2THJNVkd5MUpjUzNwYXJXZHUtS1lqSW5wRHFl?oc=5",
+      "date": "2026-04-22"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Felix Felicis - LEGO Harry Potter: Years 5-7 Guide - IGN",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NMUM2VnpSU2NaQVM1RTNjblB1UjFjZkxOcFAxR245M2FPVm5XYTVJX3E5SU80QUdLY3cxTW1pLUMzRTVidjB1VGxjZmwtRGZLcFRBYlB1YzZpMGxfYVlCV05Ea0dDQjByVk5nTGNTQjZNQkN4dFE?oc=5",
+      "date": "2026-02-23"
+    },
     {
       "person": "Aydin Senkut",
       "show": "20VC",

@@ -23,7 +23,15 @@
     "x": "https://x.com/FoundryVC",
     "linkedin": "https://www.linkedin.com/company/foundry-vc/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-04-24",
+      "type": "Post",
+      "title": "The 16 Largest Global Startup Funding Rounds of March 2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUmRfRUdsZXhqQlpxOVFvR2tMWVd6Y1pFSFlidDljOFBPV3pseWtNa01NZ293aXp1aFVnejhkeDRFc1lTN0lvcG5pUldWX29LMEtZYlIybXBST3JIQzQ3b0pndC1QUlhmdkVlVUxsSzdyQ1luenVGbXc1SnN4dzZMWEZMT0FldEp6SVdtZw?oc=5",
+      "summary": "The 16 Largest Global Startup Funding Rounds of March 2026&nbsp;&nbsp;AlleyWatch"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Brad Feld",
@@ -35,6 +43,13 @@
     }
   ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "New York Butcher Shoppe and The Foundry Group Announce Strategic Investment Partnership - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPejlNYnFKUXpvekRwTHd0cDFyVDVXQnZvaHVQdDdnWFljeGxNM2o5U2JCcVJic2RHU2p1MjZ0SmRwYjZURER2QUZPMXAyOHJYbnUyZjdmcWtwSXl6ZXd1Z2lsWlE4eHRGX0Vsb0RpemZxdzdKb2xzb1RHdG9jY2RQTEpxOFc5eXU3RmowNy05dFBRVDBJYWNKb0pKak1yTHprZ29pVEVBUzhsX1YxMjBBeVhUeWxfNHY1SzJRNEdheVBqYmhwNTcxU2xJZDFXRnd1d3c5UERZWHg5bVk?oc=5",
+      "date": "2026-04-07"
+    },
     {
       "person": "Seth Levine",
       "show": "The Dart Board",

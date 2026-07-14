@@ -23,7 +23,29 @@
     "x": "https://twitter.com/ACME",
     "linkedin": "https://www.linkedin.com/company/acme-vc/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-04-28",
+      "type": "Investment",
+      "title": "Defense Space Startup True Anomaly Raises $650 Million - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ0N0bVptU01ibkQ4RUw5cldZM2RsSUNHQllaN1FDM1ZpX2prdk1FcDNNRlBvM3dqUW83cWozQjQtVjB0Sjd3Q0RkWEhWS1N0dmxNQWhnQk5NWFJzVzhQR1NtRk81Wjk3djF1cm9XVHVGU3lCLWFTN2M0UVlHMG9fUnpBRElweER0RVpMOWktTTcxVXVKUTRHREZjbGJxRXdkMjM5RmNPNA?oc=5",
+      "summary": "Defense Space Startup True Anomaly Raises $650 Million&nbsp;&nbsp;Bloomberg.com"
+    },
+    {
+      "date": "2026-04-08",
+      "type": "Investment",
+      "title": "Treon Secures €6.8 Million Investment Led by ACME Capital to Accelerate Industrial AI Innovation - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTzlNeno5eHYxMWJkazdXbVRvLTNqVkNrRklrYnZLeDdwUnZZemxxd2UxVlhEZi1RVDFuUGNQU1liSjVZRnVuUFdzbnhpc2xSQmx0aFFmazhDa0pwMUxabk94M2Z2Y3VQeElVRFZwb3BCRzVKWVp5SEg2SmxLLThkMmdPMXlkYmFPejZyTERlbFV1NXNQdHNHLVlBNUE1aEIzVDdqNHR4NXh2LVFPdnZLSUF1TUpxWUMzQ0hfdUxFREJZNXRQbW9WQWFwOUVyNm9hVFZ1UDhwbzhoeFlKbXFTM1ZFMThsZw?oc=5",
+      "summary": "Treon Secures €6.8 Million Investment Led by ACME Capital to Accelerate Industrial AI Innovation&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-04-08",
+      "type": "Investment",
+      "title": "Treon: €6.8 Million Raised To Advance Industrial AI Maintenance Platform - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT2NTTXM5UU93UkViT3QzUmltblpGMmN1WHBjYk56UHpLcEFpS2JIM1FidW1BdzRXcHF2YUdvUFdqQU5uY3J1Y1JCLWxSUGZPSE5uVllra0xBeXZWUFc3UDVxbjhFM0ZyOWh0Yi1BcGNjbDZKTm5nenVHMk1HcXM3NHlPYTF4c1RIZkZDS1Vib1Z4aW4zbWfSAZsBQVVfeXFMUE1kdzhUaTM3NUhqOFFHS0hNU2p3UkxuX0llOGZUN0JkeDFlMlRISjh6SUFMNjNhM2NIa1NqeV8zR2VtQmJxRmt0bXdwZ1VuT1FZLWlsUHN6ak1UcUNDbjBfTzdXc2twdmhmOGt1RXZlaU5ZSnduWFR0cHhfb2haemJoTjBNTEU4ejFsM1p4T0ZCdUNrd1BlWWUwYW8?oc=5",
+      "summary": "Treon: €6.8 Million Raised To Advance Industrial AI Maintenance Platform&nbsp;&nbsp;Pulse 2.0"
+    }
+  ],
   "podcasts": [
     {
       "person": "Scott Stanford",

@@ -23,7 +23,15 @@
     "x": "https://x.com/ICONIQGrowth",
     "linkedin": "https://www.linkedin.com/showcase/iconiq-growth/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-02-22",
+      "type": "Post",
+      "title": "The 11 Largest NYC Tech Startup Funding Rounds of February 2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPa3RHMkRDNjhERXN3UVU1XzdaaGsyLWN3QmNaTmlKTVotWWhkOWxsRkNhRjQ0UXh6UFFEMUhscERsb1ZmblpHS3JUVVZaMkQ3TUsyclVPM2RIZ2pQRFd0OGctRnltaVl0RnA0VHNqRTBxaUx2TmI1Q1NFTHBxQlRyM0REMXY0UTJjTGl4T05NZ2k5U3pZdThkRWRlMA?oc=5",
+      "summary": "The 11 Largest NYC Tech Startup Funding Rounds of February 2026&nbsp;&nbsp;AlleyWatch"
+    }
+  ],
   "podcasts": [
     {
       "person": "Doug Pepper",

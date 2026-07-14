@@ -22,14 +22,37 @@
     "x": "https://x.com/greycroftvc",
     "linkedin": "https://www.linkedin.com/company/greycroft-partners"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-07",
+      "type": "Investment",
+      "title": "Jesse & Ben's Closes $10M Series A Led by Greycroft - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdm52b0l5WEFmV2J5M1E1eWF4NkVwNGszN0g2TF9XNDBNQW1xcTluY2ZuZU5MYnhPYzc1clN5dnZJZWZ4RTBGUm9nMkhBNl9hNnkxOVNnXzc0bVhrNEpfLWthRm9wSVR3SnZGX05VelBWdXV0eVJBT1g1ME01UjAtVjVZdU9PXzB3bm1vNUhxdl9fRUJrcHc1VjFKbWJXVVNTelJicDNuaw?oc=5",
+      "summary": "Jesse & Ben's Closes $10M Series A Led by Greycroft&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-05-07",
+      "type": "Investment",
+      "title": "Jesse & Ben’s Raises $10M Series A Led by Greycroft to Scale Frozen Fry Brand Nationally - citybiz",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVmxuekFXc1RhUkRjLXRXdVNZQnZXZU5FY2s1NEw3R0ZYVWZKTGg0UFpzSmpmZ01ZUEM1ZlltZVdOdkhZTFJQSF9kODJEZlR5NlF1Y2ZESHI1TlNTcE5WR1hKakpaOGgyU2ozYk1YRkV3VmVWbVFFNXlEalppcEpyek5HS2NGaFdxRWx2NHF4LUY2cURmS1pYUk5jZ0hGZE5pakEzY3N1NHdSOGNKYVBHeTNQQnRSWmFLMm8tdE1McVA?oc=5",
+      "summary": "Jesse & Ben’s Raises $10M Series A Led by Greycroft to Scale Frozen Fry Brand Nationally&nbsp;&nbsp;citybiz"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Ian Sigalow",
       "url": "https://www.sigalow.com/"
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Qatar's fund-of-funds backs five new global VC firms - FWDStart",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQV2ROWTNlX3Z0WThFa052MXdOUXV3bkVvbDlzeHJLOUE2TnYzaDBKY2ltc1l1dUtVNFd3LUhuN280N1RQMjZsOTdCbUVhZzN3dWxnNE5PaXAyZ1BlaWhvaDg5ZFdYdFlPemU2WC1sY1Ezd1dyUm93UmxMdF9pWXk0Yml3?oc=5",
+      "date": "2026-02-02"
+    }
+  ],
   "people": [
     {
       "name": "Ian Sigalow",

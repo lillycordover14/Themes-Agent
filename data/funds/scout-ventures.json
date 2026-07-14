@@ -23,8 +23,65 @@
     "x": "https://x.com/ScoutVentures",
     "linkedin": "https://www.linkedin.com/company/scout-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-03-14",
+      "type": "New fund",
+      "title": "Scout Ventures: $125 Million Raised For Dual-Use Technology Fund V - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd0N3RzRnUDFacHNFelhHMF9JR3huWFNwaFhyTEU4bDBBSWtMOThNeElJYzNjdTBSel9kRUd4YVpjbk90NHdBWXRCZnp4cTl6R05zN2czbm1pNUNlUE1KaWZldGcycFVpZzYtdHFNNUgyeURvdTJEaEVxMC1obDhKLTVieWNLT0Q2TnBnT9IBkgFBVV95cUxONk40T19pTjMta0VaXzlnQktOb2VQR29xV2l5VEF4YjFiN1J6UEtSY3l5ZG5HV1Q5UU05Y29TbE9wcVZlMS1xUnBiSkkyc2VNeE45SVVCUnBQQy1ESHRENWo5UGZmbTQwN0xaODJ1cUZFYk1DV1pWNTF5dzRGME1rZkMxU0hxbF9nQllHOFNmdFNYZw?oc=5",
+      "summary": "Scout Ventures: $125 Million Raised For Dual-Use Technology Fund V&nbsp;&nbsp;Pulse 2.0"
+    },
+    {
+      "date": "2026-03-11",
+      "type": "Investment",
+      "title": "Scout Ventures raises $125 million to expand investment in defence and dual-use tech - Resilience Media",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWDJUWDFtZ3oyYzFGU09KcklTeEQtYzlEa1NNemhyNzYzRThiRmhheXNaNTBkazNNdVlvYURyanBhZEc2Q1lLQl9pSDdqbDN6dkF1R0RqRTYzZWpaN2JzTXRXZnc2LTBSb1JtY2pMU19KcUg4elkwWjhDN25iVkh5aDlCSWRaMUxKZWpZeXF2ZGRWdXRlMFdGYzhkYTVGbEJjVi16Y3IweHZfeUFqLWJmNg?oc=5",
+      "summary": "Scout Ventures raises $125 million to expand investment in defence and dual-use tech&nbsp;&nbsp;Resilience Media"
+    },
+    {
+      "date": "2026-03-10",
+      "type": "New fund",
+      "title": "Scout Ventures Announces Oversubscribed $125 Million Fund V - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY0dkYUw2S2JBNUlIaGVYeGxoZUN6RTZYTHVzcWdXOUFlTS02bzN0bFlGZXFzS1NhbzBJUjFZQ292Nl90ZFFrWDM0bkstbVg2a3h3STQ1U2Vjb09Pc2o0Wno2bDRrMlJfWnRmQWdZRlVGVXk2bFVNdXdGOGRwLVVfZ0Z6VnhrYUZjOG11TnhIbXdRc3U2Z2NHVzc3VlJWYVgzbjk3Y1RRYUJ3MzBtdGppS0wxbkdDc1hMVVE?oc=5",
+      "summary": "Scout Ventures Announces Oversubscribed $125 Million Fund V&nbsp;&nbsp;Business Wire"
+    },
+    {
+      "date": "2026-03-10",
+      "type": "New fund",
+      "title": "Scout Ventures Raises $125M Fund V - Tectonic Defense",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA3RE9oR2FzcFpHUXVVODNvV3ZUZVlYMVA5MGt1NFR1OE9iZ2JTSUI5NVpaQlFvWmhPaGQ3NmhnV2tvTmFxTWR0Tmw4c2JDSXBGdnJPTlluaXUwS1Rham9IX0ZySU5URGUzNU01SVdaX09DVUNr?oc=5",
+      "summary": "Scout Ventures Raises $125M Fund V&nbsp;&nbsp;Tectonic Defense"
+    },
+    {
+      "date": "2026-03-03",
+      "type": "Investment",
+      "title": "Worldscape.ai Raises Seed Funding to Accelerate AI-Native Geospatial Intelligence for Defense and Enterprise - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNkFSc2MtQTJHRkhZd04zNzRobFhvYWstc2hmZmxfaS1TR0FEWUN0VG5nc3Qtc3d4b0RFZGQ5UFJ4dUd6ck1NTmUxVHpyOVROTUVNbWNmWmFneUhyT2NvWXVoSlhoY2JJeWRHbVlDNG5rc003TVNoWXlGOVBSUVBBdl9HYU0ybHBtN3k3UUJ3M2dDX0p4Q1pBSy13aFQtY2ZGQ19yai1PdzZQN0xjLVRWMDlDemllbWNKRHY4Y0lxZ3Z3eC1XYWNLaG5PY29LZGtPbE54cVdldHZtVHdKX09VdFo3QS02UW05ZWhhZ1FUaWFFdmloRVE?oc=5",
+      "summary": "Worldscape.ai Raises Seed Funding to Accelerate AI-Native Geospatial Intelligence for Defense and Enterprise&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-01-29",
+      "type": "Investment",
+      "title": "Innovative Houston-area hardtech startup closes $5M seed round - InnovationMap",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV20xZl9GdGphRk9tclhBWEdERVhMbGlJMVZKb0ZWdnhkYkEwNERQcFlMVVJ0NmItZjRxd2VsakJZazdSZ0VzTEJEam5GTWhQLThJOXBfUXVObVZsZUktX1NBRjBMM3lBQ3QtMWpBTEdwVDRVNVptYWdtRmdoTm5DcVJsQUdlZEVxMFJHbDZn?oc=5",
+      "summary": "Innovative Houston-area hardtech startup closes $5M seed round&nbsp;&nbsp;InnovationMap"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Scout Ventures raises $125 million to expand investment in defence and dual-use tech - Resilience Media",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWDJUWDFtZ3oyYzFGU09KcklTeEQtYzlEa1NNemhyNzYzRThiRmhheXNaNTBkazNNdVlvYURyanBhZEc2Q1lLQl9pSDdqbDN6dkF1R0RqRTYzZWpaN2JzTXRXZnc2LTBSb1JtY2pMU19KcUg4elkwWjhDN25iVkh5aDlCSWRaMUxKZWpZeXF2ZGRWdXRlMFdGYzhkYTVGbEJjVi16Y3IweHZfeUFqLWJmNg?oc=5",
+      "date": "2026-03-11"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "VCs Leaning Into Defense Tech Plays - sdbj.com",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14alo5d3lOcFVCeGdVM3Vuc3o5OUc5VTBiLVFsanlDclR1YS1KMmpiVGxrSk9ZSXhIcVdyMGtZRG5EUTBYNXZCaWpQUGhDOG9uNnJTMExiNXlfdGtRcnlzUDJldlNhcWgtcnFRNHRFY2NsT0Y4bktIY2owbw?oc=5",
+      "date": "2026-06-22"
+    },
     {
       "person": "Brad Harrison",
       "show": "On Point (West Point AOG)",

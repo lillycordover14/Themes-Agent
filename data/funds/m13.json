@@ -23,8 +23,65 @@
     "x": "https://twitter.com/m13company",
     "linkedin": "https://www.linkedin.com/company/m13-company"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-04",
+      "type": "Post",
+      "title": "The Weekly Notable Startup Funding Report: 5/4/26 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZ0ZESFZ1ZlhQbHp6aFNneko1TGc2YTk0cHhCTHNVSHZDZjItX1ctdkJCZml4NzN0cGhSLXBkcGNlb0ZYMTZ4ZEdjbGZNZGJXRG5xSUpmNXg1M3prcnR3NnZRbDI0VWtOeGtuMTZZTm9URGhTVm1pMlpnWFJEMWFOcTFheVRRc29tNjFmSQ?oc=5",
+      "summary": "The Weekly Notable Startup Funding Report: 5/4/26&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-04-02",
+      "type": "Investment",
+      "title": "Jimini Health Raises $17M Seed Round - The SaaS News",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9mV0VGMlJMRThsYXVOdEN2SUp5VlJWX1lycXpSVndxOG5fN0tSZ0xsZGNtbWp1X01MaWJKMmNPdTE0U3ZjMGNLM2ZFNFYwRkFJOV92WXF4QTJyYjlGX19wXy04OU1tUG5zc041OVF6YTNveGtEbDQ2Vg?oc=5",
+      "summary": "Jimini Health Raises $17M Seed Round&nbsp;&nbsp;The SaaS News"
+    },
+    {
+      "date": "2026-04-01",
+      "type": "Investment",
+      "title": "Jimini Health Raises $13M from M13, Town Hall Ventures, Others - citybiz",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmxMencxdTBtMFI3ckNPN2dPU2dFMm1reW1MT24wMzktbDRYcnNJM3FCbGt6NTdRcEEtOEFGYWpUNFZwNzZYMmJENFlvejNxRjdWTkp1TnZJNGI1bFJQUHRSWi04VE9OT3JmVFpjOWNxV0RsNDFiMzFtNXlPODBuY0ZTYjFsVTVrZm5OOEFYcENoZHVKdmZOTWVBRlduTzQ?oc=5",
+      "summary": "Jimini Health Raises $13M from M13, Town Hall Ventures, Others&nbsp;&nbsp;citybiz"
+    },
+    {
+      "date": "2026-03-31",
+      "type": "Post",
+      "title": "Jimini Health secures $17M from M13, Zetta to scale safe AI in behavioural health — TFN - Tech Funding News",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObFRQSTEta0ZJdGpXMWphUVh4ejIyNUhVam1zUnFxMTZwMUE0ekt1ZDZxZkRIa3hBejBNZHB1MU1jQ2lLTzRaczRmN1FOd0NHTjFKMmZITk1WWWZPUWw5YTZNZUlqTnNHSnhfbzdIWVJ0YTZVZkJiZmNRbmhIWmRzb1ZZTGJyU2EtWTRvU1kwWm1fYUxaVHd1Y0tkZnF4Vm95MlExRkNfUnd1RTFY?oc=5",
+      "summary": "Jimini Health secures $17M from M13, Zetta to scale safe AI in behavioural health — TFN&nbsp;&nbsp;Tech Funding News"
+    },
+    {
+      "date": "2026-03-31",
+      "type": "Investment",
+      "title": "OpenFX Raises $94M in Series A Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NYVBlZ05aZTc5aTdwRkJNLVhzdnJILWVpeERacDdfLUxVVUU1NmpQRmpYcnQ2aktsdHZTQXVkTmxZT3poY2w4NDBCZTNobnhYbUlUOER3ajJDUklVZzZDbjhDbzIzN3B2RjUxcEdZMklobEFBQmFMY1R1emhId3M?oc=5",
+      "summary": "OpenFX Raises $94M in Series A Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-03-31",
+      "type": "Investment",
+      "title": "Jimini Health raises funding for AI chatbot targeting complex mental health care - STAT",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNmpPQWVrTWtJdzUxZmJiVmlVQzZPZU52am9YQm9vSzc4T2UwRzhoVm1QUGdFSGtQaVFmaElXc28xTzNvdjczX1VBWU5aR2tMQ3ZrMFhzUUxYQzFYOWtTOC1aa2hhM011X0hHVVQzNlRhUkpKbjdjbE0wVVBrSVNOWEVJQnhGcldwMTQ0MUtoNzZuTXh4V050UGh2aw?oc=5",
+      "summary": "Jimini Health raises funding for AI chatbot targeting complex mental health care&nbsp;&nbsp;STAT"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "IPL 2026 M13: RR vs MI - Tilak Varma Interview - IPL",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaHlPdF9XVkJpcEswWlVlc1FaUERoNlJCNEZFNFpaMXV0RFhpZlRnSWxoR1djZEtBWk9rU05fNHQyU1dhV1o0aUpDNi1ZRHQ3cUJraWRkRHNYR3N6ODg0QmZNZXJKc182SjJpSmN4WkNwTDQ2VVFWeHJqR01CVV90UmpFWGM?oc=5",
+      "date": "2026-04-07"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Senator opens inquiry into Binance over Iran allegations - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaXlfQVgyeUNfZE9qR29kMjBiMkRXRGVnckpIMmpJSWJGOGFQQWwwb1k0Y1A4V28wbmtYVlZIZExRYldpTWd1VnMwcEhJV0h4LXFiM2E0cmlvaXJ6SkhaVTdEYnJLM1ZtREVONUFhRmw3ZlpvOE8weWdVZDlfdFRKeE9JZ1IwV2VPRmxIc2FzZk9iZVN5aHc?oc=5",
+      "date": "2026-02-26"
+    },
     {
       "person": "Karl Alomar",
       "show": "Global Tech Leaders'",

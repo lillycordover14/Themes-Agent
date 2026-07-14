@@ -23,8 +23,72 @@
     "x": "https://x.com/emergent_vc",
     "linkedin": "https://www.linkedin.com/company/emergent-vc"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-03-17",
+      "type": "Investment",
+      "title": "Peak XV leads $6.6 Mn funding round in BambooBox - Entrackr",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdHp2YWQ2RHB2RTd6aDJKbWt3SEdra2ZBSGFQcVpmdlJPcDVxZW95ZF9YVU9tZl9EN01KMHF2Z1pVVDUwZUhJaVlDcGJmejFlZnQ4M1pnNWZQMUNhbjlHRERQN21HbjlVaHpmaktSLTlYMC1MT1ZFRU9haHk1Nmc3U1JpVkctMkRGeXdIbFVn0gGOAUFVX3lxTE90enZhZDZEcHZFN3poMkpta3dIR2trZkFIYVBxWmZ2Uk9wNXFlb3lkX1hVT21mX0Q3TUowcXZnWlVUNTBlSElpWUNwYmZ6MWVmdDgzWmc1ZlAxQ2FuOUdERFA3bUduOVVoemZqS1ItOVgwLUxPVkVFT2FoeTU2ZzdTUmlWRy0yREZ5d0hsVWc?oc=5",
+      "summary": "Peak XV leads $6.6 Mn funding round in BambooBox&nbsp;&nbsp;Entrackr"
+    },
+    {
+      "date": "2026-03-17",
+      "type": "Post",
+      "title": "BambooBox, Velmenni, DrinkPrime, others net early-stage funding - VCCircle",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQWM4d0thN1k5VjBRSUxkY3E1b3o0Z2JEX3Zhdmw1Q1FrVTBYbmxfb1drX1luWS1MN1VfcTNOWGNxZnEwUVBDR3JDdVAtSzhEcjFuLXVGel9OVVo0UkhjNzhOdXQwbUh0NC1mbmZscHQzelFUUkpLaEtscGFub2Y1TVRJTVpSVHFHVmpkdA?oc=5",
+      "summary": "BambooBox, Velmenni, DrinkPrime, others net early-stage funding&nbsp;&nbsp;VCCircle"
+    },
+    {
+      "date": "2026-03-02",
+      "type": "Post",
+      "title": "The Weekly Notable Startup Funding Report: 3/2/26 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRlRMNnBKN2NuRWJ3LVhueC1zR052YVlNQWhVdkN3SWc5Z2FreUt6RXFFTVRsLW0yYkdzYi1NZVVuNnk1cDRYYVFzUW5VM0NZaERtdHAzUDFDYTRNUjRQaUNUWmxoTy14M0dRdnBWSDVzNll3ZnRtdTVoTGtQcXJIX1ppb1hzWVNkUnZEZA?oc=5",
+      "summary": "The Weekly Notable Startup Funding Report: 3/2/26&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-02-23",
+      "type": "Investment",
+      "title": "Potpie AI raises $2.2 million to make AI agents usable inside real-world engineering systems - GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQXlrUllSTFpKa2VrSGtNWWxsLUljTHdrUzFBbmh1bzBOS3RpZWVHUWxwV1Bxd0pIZUdyVHVUWXBhOHl4Qkw5QlJzcDRxU1dpZHZFV0duWVBHNU54X2VfWXNqQ2lTOUdBdVM4UHRBMWxqOHBJRllwcEp0anBsNndUcEIxTDE5RDRpS3hrenpiQ01kRVp3N09oYWIyUU1RM1dVaUdNd1hCM21HR3FVUUVlb2ZMbHczcVhORlRDUVQxX2hfTnl4YVRpdy1peU82V2xub3VnSGF4VkhCTUlYejR6OE9Gb1FZOTFpT09Jd1VoZ1BKazRvaFE?oc=5",
+      "summary": "Potpie AI raises $2.2 million to make AI agents usable inside real-world engineering systems&nbsp;&nbsp;GlobeNewswire"
+    },
+    {
+      "date": "2026-02-23",
+      "type": "Investment",
+      "title": "Potpie AI Raises $2.2M in Pre-Seed Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVzYxbm1nUnZBR29QRG5nWGEzWmJmM3JKY2pkem9LRmlnNzgzUWlhNmZHclJEeXpzdnBPMkdzS3p1d09ZZ2J3OHBQNm5pR0ZJQko5NHFtZUx2UjU5enFVc2JjR2ktcVRGbXVSZE0zNzhaVzBGU1hzRzJkZTJHekthOXdEaG4?oc=5",
+      "summary": "Potpie AI Raises $2.2M in Pre-Seed Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-02-11",
+      "type": "Post",
+      "title": "Norway and US-based Trener Robotics secures €26 million to expand industrial AI automation - EU-Startups",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdEVQNkk4Y0VwekdjWXc5LXNTVUczX2FQTHNtU1lzLS1NWEdnSlBaNkxVcEpuYW1odDRBWTktZUk3SFdjaVNERmdpT1dLS25rQ1JmYk43Z1hyNmhqZXBMYi1KdERfNkRnb2w3RHVCS0ViMkpya01DTEtxcmh3Z2d6Um5NSjdKaHhwTWZhTDRHai10YzVGbDVUWDRTczA2WUd3WmRpNkVMQmY5RnJVdFZnb28ya1BORWRscXYwdm5VSHNoSDZsNkE?oc=5",
+      "summary": "Norway and US-based Trener Robotics secures €26 million to expand industrial AI automation&nbsp;&nbsp;EU-Startups"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Tripura researchers Shatadru and Srijib receive prestigious international emergent ventures grant - Tripura Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQeWQ2XzVwY21xY3pHRE9FajdlUWQyb3kydEhvTmZrM3VtS3lYcXhsUnBRVG9Vd0djRDBielRuZGYzdDdWY042alEyZWtNV244eVFETDRRSHJTYnVNNVJiOWJrOUVJeVJ2MDdhMUd2OG1RR3dIN29mQ0MyMFBBSjlOekQzU25sUWxGYVhtWjVtM2dETFlyVVBKQjBwOFZ5N0txLVJXemFBTHY3Y1lkY2E2WXF6b0NUeTFJbGxaVS1mYmdzMXYxU2g1RC1LdnF1Y1RsWWdv?oc=5",
+      "date": "2026-06-20"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Tyler Cowen - Berkman Klein Center",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1ZVpXX3hubUx3X29MR3FYcjNReGlPMlpESHhhM0VWZXlGcFl5V04wSXp2WFRPYXJ5a1JpeDVIREd3STh6Z1pxbWJCTWRpSlZjRDlMb0VZNA?oc=5",
+      "date": "2026-03-31"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Norway and US-based Trener Robotics secures €26 million to expand industrial AI automation - EU-Startups",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdEVQNkk4Y0VwekdjWXc5LXNTVUczX2FQTHNtU1lzLS1NWEdnSlBaNkxVcEpuYW1odDRBWTktZUk3SFdjaVNERmdpT1dLS25rQ1JmYk43Z1hyNmhqZXBMYi1KdERfNkRnb2w3RHVCS0ViMkpya01DTEtxcmh3Z2d6Um5NSjdKaHhwTWZhTDRHai10YzVGbDVUWDRTczA2WUd3WmRpNkVMQmY5RnJVdFZnb28ya1BORWRscXYwdm5VSHNoSDZsNkE?oc=5",
+      "date": "2026-02-11"
+    },
     {
       "person": "Anupam Rastogi",
       "show": "1Mby1M Entrepreneurship Podcast",

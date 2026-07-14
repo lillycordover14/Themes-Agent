@@ -1,8 +1,23 @@
 {
-  "generated": "2026-07-13",
+  "generated": "2026-07-14",
   "mode": "full",
   "count": 50,
   "companies": [
+    {
+      "name": "Zingage",
+      "domain": "zingage.com",
+      "desc": "Zingage offers an automation platform designed for home care agencies, utilizing AI-driven agents to manage scheduling, engagement, and operational workflows to improve care coordination. The technology integrates with e",
+      "stage": "SEED",
+      "last_amount": 0,
+      "total": 12500000.0,
+      "investors": [
+        "South Park Commons",
+        "TQ Ventures",
+        "WndrCo",
+        "Bessemer Venture Partners"
+      ],
+      "location": "New York, NY"
+    },
     {
       "name": "Agave",
       "domain": "useagave.com",
@@ -34,34 +49,18 @@
       "location": "Jersey City, New Jersey"
     },
     {
-      "name": "BespokeLabsAi",
-      "domain": "bespokelabs.ai",
-      "desc": "The company focuses on data curation and reinforcement learning (RL) environment curation to create comprehensive digital worlds for training AI agents, utilizing curated datasets such as OpenThoughts. Key technologies i",
-      "stage": "SERIES_A",
-      "last_amount": 40000000.0,
-      "total": 47249998.0,
+      "name": "Auger",
+      "domain": "auger.com",
+      "desc": "Auger is developing an AI-powered supply chain operating system that integrates with existing infrastructures to unify data and automate complex operational tasks, enabling real-time insights for decision-making. The sys",
+      "stage": "SERIES_B",
+      "last_amount": 50000000.0,
+      "total": 350000000.0,
       "investors": [
-        "OpenAI",
-        "Mayfield",
-        "8VC",
-        "Meta"
-      ],
-      "location": "Mountain View, California"
-    },
-    {
-      "name": "Rocketlane",
-      "domain": "rocketlane.com",
-      "desc": "Rocketlane offers a platform that integrates project management, resource allocation, and financial oversight specifically designed for customer onboarding and professional services, leveraging AI to automate workflows a",
-      "stage": "SERIES_C",
-      "last_amount": 0,
-      "total": 105000000.0,
-      "investors": [
-        "Carya Ventures",
         "Insight Partners",
-        "Atlassian Ventures",
-        "Speciale Invest"
+        "Eclipse",
+        "Oak HC/FT"
       ],
-      "location": "San Francisco, California"
+      "location": "Bellevue, WA"
     },
     {
       "name": "Hostie",
@@ -79,18 +78,19 @@
       "location": "San Francisco, CA"
     },
     {
-      "name": "Auger",
-      "domain": "auger.com",
-      "desc": "Auger is developing an AI-powered supply chain operating system that integrates with existing infrastructures to unify data and automate complex operational tasks, enabling real-time insights for decision-making. The sys",
-      "stage": "SERIES_B",
-      "last_amount": 50000000.0,
-      "total": 350000000.0,
+      "name": "Rocketlane",
+      "domain": "rocketlane.com",
+      "desc": "Rocketlane provides a platform focused on project management, resource allocation, and financial oversight tailored for customer onboarding and professional services. The technology utilizes AI to automate workflows and ",
+      "stage": "SERIES_C",
+      "last_amount": 0,
+      "total": 105000000.0,
       "investors": [
+        "Carya Ventures",
         "Insight Partners",
-        "Eclipse",
-        "Oak HC/FT"
+        "Atlassian Ventures",
+        "Speciale Invest"
       ],
-      "location": "Bellevue, WA"
+      "location": "San Francisco, California"
     },
     {
       "name": "Nurix",
@@ -108,19 +108,19 @@
       "location": "Mountain View, CA"
     },
     {
-      "name": "Katalyze AI",
-      "domain": "katalyzeai.com",
-      "desc": "The company provides an AI-driven platform designed to optimize biomanufacturing processes, featuring over 40 built-in connectors for seamless integration with existing infrastructures. It employs real-time alerts for mo",
+      "name": "Finto",
+      "domain": "gofinto.com",
+      "desc": "Finto provides an AI-driven platform that automates the invoice processing workflow, employing self-learning AI agents for tasks such as data extraction, validation, and approval management. This technology integrates wi",
       "stage": "SEED",
-      "last_amount": 10500000.0,
-      "total": 10500000.0,
+      "last_amount": 3400000.0,
+      "total": 3900000.0,
       "investors": [
-        "Inovia Capital",
-        "Alumni Ventures",
-        "Bonfire Ventures",
-        "Ripple Ventures"
+        "Y Combinator",
+        "Lightspeed Venture Partners",
+        "Gradient",
+        "Alphabet Inc."
       ],
-      "location": "Mountain View, California"
+      "location": "München"
     },
     {
       "name": "Vendelux",
@@ -138,21 +138,6 @@
       "location": "New York, New York"
     },
     {
-      "name": "Finto",
-      "domain": "gofinto.com",
-      "desc": "Finto provides an AI-driven platform that automates the invoice processing workflow, employing self-learning AI agents for tasks such as data extraction, validation, and approval management. This technology integrates wi",
-      "stage": "SEED",
-      "last_amount": 4544936.0,
-      "total": 5044936.0,
-      "investors": [
-        "Y Combinator",
-        "Lightspeed Venture Partners",
-        "Gradient",
-        "Lightspeed"
-      ],
-      "location": "München"
-    },
-    {
       "name": "TJM Labs",
       "domain": "tjmlabs.com",
       "desc": "TJM Labs offers AI-driven automation solutions specifically designed for pharmacies, focusing on automating repetitive tasks such as prescription intake, data entry, and refill management. Their technology seamlessly int",
@@ -165,6 +150,20 @@
         "Arthur Ventures"
       ],
       "location": "Bear, Delaware"
+    },
+    {
+      "name": "ARC Intelligence",
+      "domain": "arc-intelligence.de",
+      "desc": "ARC Intelligence provides a data intelligence platform designed for financial performance management in small and medium-sized enterprises, facilitating advanced analytics and informed decision-making. The platform emplo",
+      "stage": "SEED",
+      "last_amount": 4560328.0,
+      "total": 5610313.0,
+      "investors": [
+        "42CAP",
+        "IBB Ventures",
+        "468 Capital"
+      ],
+      "location": "Berlin, Berlin"
     },
     {
       "name": "EdVisorly",
@@ -182,33 +181,19 @@
       "location": "Los Angeles, California"
     },
     {
-      "name": "ARC Intelligence",
-      "domain": "arc-intelligence.de",
-      "desc": "ARC Intelligence provides a data intelligence platform designed for financial performance management in small and medium-sized enterprises, facilitating advanced analytics and decision-making. The platform employs AI for",
-      "stage": "SEED",
-      "last_amount": 4560328.0,
-      "total": 5610313.0,
+      "name": "Oxipital AI",
+      "domain": "oxipitalai.com",
+      "desc": "Oxipital AI offers a visual AI platform designed to enhance manufacturing processes through advanced machine vision technologies, focusing on product inspection and robotic process automation. The platform employs deep o",
+      "stage": "SERIES_A",
+      "last_amount": 0,
+      "total": 89652124.0,
       "investors": [
-        "42CAP",
-        "IBB Ventures",
-        "468 Capital"
+        "ファナック（株）",
+        "Yamaha Motor Co., Ltd.",
+        "Material Impact",
+        "Johnsonville Ventures"
       ],
-      "location": "Berlin, Berlin"
-    },
-    {
-      "name": "Aline",
-      "domain": "aline.co",
-      "desc": "Aline provides a digital contracting platform that automates the entire contract lifecycle, enabling users to draft, negotiate, and sign contracts through AI-driven functionalities. The platform utilizes advanced data ex",
-      "stage": "SEED",
-      "last_amount": 3300000.0,
-      "total": 11054964.0,
-      "investors": [
-        "New York Angels",
-        "Techstars",
-        "Okapi Venture Capital",
-        "Keiretsu Forum"
-      ],
-      "location": "New York, New York"
+      "location": "Bedford, Massachusetts"
     },
     {
       "name": "Cableteque",
@@ -223,35 +208,6 @@
         "11 Tribes Ventures"
       ],
       "location": "17771 Sampson Lane, Huntington Beach, CA 92647, United States"
-    },
-    {
-      "name": "Aatmunn",
-      "domain": "aatmunn.com",
-      "desc": "Aatmunn offers an AI-driven safety management platform that integrates real-time gas detection, collision avoidance, and predictive risk forecasting to enhance safety and compliance in industrial environments. The platfo",
-      "stage": "SERIES_B",
-      "last_amount": 0,
-      "total": 46500000.0,
-      "investors": [
-        "Detroit Venture Partners",
-        "Silicon Valley Bank",
-        "Sallyport",
-        "Annox Capital – Annox Capital Investments"
-      ],
-      "location": "Detroit, Michigan"
-    },
-    {
-      "name": "ConstructionClock App",
-      "domain": "constructionclock.com",
-      "desc": "The main product is an automated time-tracking application tailored for construction teams, utilizing GPS technology for automatic clocking in and out of employees at job sites. It also features real-time labor hour trac",
-      "stage": "SEED",
-      "last_amount": 800000.0,
-      "total": 2230000.0,
-      "investors": [
-        "M25",
-        "Prairies Economic Development Canada",
-        "Trillick Ventures"
-      ],
-      "location": "Winnipeg, Manitoba"
     },
     {
       "name": "WizCommerce",
@@ -269,34 +225,34 @@
       "location": "Washington, DC"
     },
     {
-      "name": "Oxipital AI",
-      "domain": "oxipitalai.com",
-      "desc": "Oxipital AI offers a visual AI platform designed to enhance manufacturing processes through advanced machine vision technologies, focusing on product inspection and robotic process automation. The platform employs deep o",
-      "stage": "SERIES_A",
-      "last_amount": 0,
-      "total": 89652124.0,
+      "name": "Aline",
+      "domain": "aline.co",
+      "desc": "Aline provides a digital contracting platform that automates the entire contract lifecycle, enabling users to draft, negotiate, and sign contracts through AI-driven functionalities. The platform utilizes advanced data ex",
+      "stage": "SEED",
+      "last_amount": 3300000.0,
+      "total": 11054964.0,
       "investors": [
-        "ファナック（株）",
-        "Yamaha Motor Co., Ltd.",
-        "Material Impact",
-        "Johnsonville Ventures"
+        "New York Angels",
+        "Techstars",
+        "Okapi Venture Capital",
+        "Keiretsu Forum"
       ],
-      "location": "Bedford, Massachusetts"
+      "location": "New York, New York"
     },
     {
-      "name": "Aria",
-      "domain": "helloaria.eu",
-      "desc": "Aria provides a flexible payments infrastructure through an embedded invoice financing API that enables instant payments to suppliers while allowing buyers to manage their payment terms. The technology emphasizes underwr",
+      "name": "PreciTaste",
+      "domain": "precitaste.com",
+      "desc": "PreciTaste offers an AI-driven platform that automates kitchen operations, employing machine learning and computer vision technologies to optimize food preparation processes in restaurants. Key functionalities include de",
       "stage": "SERIES_A",
-      "last_amount": 274378800.0,
-      "total": 365065295.0,
+      "last_amount": 0,
+      "total": 30355999.0,
       "investors": [
-        "Otium Capital",
-        "Otium",
-        "Cnam incubateur",
-        "Ankaa Ventures"
+        "Enlightened Hospitality Investments",
+        "Melitas Ventures",
+        "Cleveland Avenue",
+        "Monogram Capital Partners"
       ],
-      "location": "Paris, Île-de-France"
+      "location": "New York City, New York"
     },
     {
       "name": "Alta | AI GTM System of Actions",
@@ -314,19 +270,73 @@
       "location": "Tel Aviv"
     },
     {
-      "name": "Panora",
-      "domain": "panora.co",
-      "desc": "The main product is an AI-driven platform for insurance brokers that automates processes such as document collection, offer comparison, and compliance management, while integrating with existing systems to enhance data s",
+      "name": "ConstructionClock App",
+      "domain": "constructionclock.com",
+      "desc": "The main product is an automated time-tracking application tailored for construction teams, utilizing GPS technology for automatic clocking in and out of employees at job sites. It also features real-time labor hour trac",
       "stage": "SEED",
-      "last_amount": 5000000.0,
-      "total": 5586259.0,
+      "last_amount": 800000.0,
+      "total": 2230000.0,
       "investors": [
-        "ISAI",
-        "Kima Ventures",
-        "Hexa",
-        "199 Ventures"
+        "M25",
+        "Prairies Economic Development Canada",
+        "Trillick Ventures"
+      ],
+      "location": "Winnipeg, Manitoba"
+    },
+    {
+      "name": "Guthrie AI",
+      "domain": "guthrieai.com",
+      "desc": "Guthrie AI provides an automated preconstruction assistant that leverages AI-powered virtual bid assistants to streamline the bidding process by organizing project documentation, managing RFPs, and generating proposals. ",
+      "stage": "SEED",
+      "last_amount": 4000000.0,
+      "total": 4530000.0,
+      "investors": [
+        "Chicago Ventures"
+      ],
+      "location": "Philadelphia, PA"
+    },
+    {
+      "name": "Aria",
+      "domain": "helloaria.eu",
+      "desc": "Aria provides a flexible payments infrastructure through an embedded invoice financing API that enables instant payments to suppliers while allowing buyers to manage their payment terms. The technology emphasizes underwr",
+      "stage": "SERIES_A",
+      "last_amount": 274378800.0,
+      "total": 365065295.0,
+      "investors": [
+        "Otium Capital",
+        "Otium",
+        "Cnam incubateur",
+        "Ankaa Ventures"
       ],
       "location": "Paris, Île-de-France"
+    },
+    {
+      "name": "Legible",
+      "domain": "legiblepolicy.com",
+      "desc": "The main product is an AI-native policy intelligence tool designed to streamline legislative workflows by providing real-time access to relevant bills, amendments, and deadlines, effectively replacing traditional methods",
+      "stage": "SEED",
+      "last_amount": 3400000.0,
+      "total": 4978000.0,
+      "investors": [
+        "InnoVenture Iowa",
+        "Acadian Software",
+        "Iowa Economic Development Authority"
+      ],
+      "location": "3901 Wakonda Drive, Des Moines, IA 50321, United States"
+    },
+    {
+      "name": "Auxilius.ai",
+      "domain": "auxilius.ai",
+      "desc": "The primary product automates Governance, Risk, and Compliance (GRC) processes for financial services by leveraging advanced AI to create executable code, which improves compliance and operational efficiency. This system",
+      "stage": "PRE_SEED",
+      "last_amount": 1482106.0,
+      "total": 1722106.0,
+      "investors": [
+        "HTGF | High-Tech Gründerfonds",
+        "Techstars",
+        "ABN AMRO Bank N.V."
+      ],
+      "location": "Unterföhring"
     },
     {
       "name": "Immigify",
@@ -344,6 +354,36 @@
       "location": "Austin , TX"
     },
     {
+      "name": "Panora",
+      "domain": "panora.co",
+      "desc": "The main product is an AI-driven platform for insurance brokers that automates processes such as document collection, offer comparison, and compliance management, while integrating with existing systems to enhance data s",
+      "stage": "SEED",
+      "last_amount": 5000000.0,
+      "total": 5586259.0,
+      "investors": [
+        "ISAI",
+        "Kima Ventures",
+        "Hexa",
+        "199 Ventures"
+      ],
+      "location": "Paris, Île-de-France"
+    },
+    {
+      "name": "Aria Systems",
+      "domain": "ariasystems.com",
+      "desc": "Aria Systems offers a SaaS Billing Cloud platform that automates billing processes for complex usage and subscription models, leveraging AI technologies for real-time rating and charging. The platform is designed for sea",
+      "stage": "SERIES_A",
+      "last_amount": 7992656.0,
+      "total": 616676576.0,
+      "investors": [
+        "Venrock",
+        "TUGBOAT VENTURE MANAGEMENT, LLC",
+        "Madison Bay Capital Partners",
+        "13books Capital"
+      ],
+      "location": "San Francisco, California"
+    },
+    {
       "name": "Bohr Energie",
       "domain": "bohr-energie.fr",
       "desc": "Bohr Energie provides a software platform for independent energy producers that facilitates the management of electricity sales, featuring real-time production tracking, market analysis, and customized reporting. The pla",
@@ -357,20 +397,6 @@
         "IRDI Capital Investissement"
       ],
       "location": "Toulouse"
-    },
-    {
-      "name": "Auxilius.ai",
-      "domain": "auxilius.ai",
-      "desc": "The primary product automates Governance, Risk, and Compliance (GRC) processes for financial services by leveraging advanced AI to create executable code, which improves compliance and operational efficiency. This system",
-      "stage": "PRE_SEED",
-      "last_amount": 1482106.0,
-      "total": 1722106.0,
-      "investors": [
-        "HTGF | High-Tech Gründerfonds",
-        "Techstars",
-        "ABN AMRO Bank N.V."
-      ],
-      "location": "Unterföhring"
     },
     {
       "name": "Appnigma AI",
@@ -402,6 +428,20 @@
       "location": "Dover, Delaware"
     },
     {
+      "name": "WrxFlo",
+      "domain": "wrxflo.com",
+      "desc": "WrxFlo offers a software platform that digitizes and integrates supply chain operations for manufacturing and logistics, employing AI technologies for data integration, logistics planning, and manufacturing coordination.",
+      "stage": "PRE_SEED",
+      "last_amount": 3420246.0,
+      "total": 3420246.0,
+      "investors": [
+        "Elkstone",
+        "Enterprise Ireland",
+        "DBIC Ventures"
+      ],
+      "location": "Ireland"
+    },
+    {
       "name": "AltaML",
       "domain": "altaml.com",
       "desc": "AltaML provides vertical AI solutions designed to enhance operational efficiency and decision-making through artificial intelligence and machine learning. Their development platform, AltaForge, facilitates the entire mac",
@@ -416,24 +456,9 @@
       "location": "Edmonton, Alberta"
     },
     {
-      "name": "Rivage",
-      "domain": "rivage.immo",
-      "desc": "The main product is a rental management and accounting software that automates various accounting tasks and integrates with other tools via an open API. It employs technologies such as customizable rule engines for accou",
-      "stage": "SEED",
-      "last_amount": 1716268.0,
-      "total": 1716268.0,
-      "investors": [
-        "Kima Ventures",
-        "Quentin de Metz",
-        "Nicolas Goyet",
-        "Gerard Deray"
-      ],
-      "location": "Paris, Île-de-France"
-    },
-    {
       "name": "Kord",
       "domain": "kord.com",
-      "desc": "The company offers a software solution designed for AML compliance, focusing on client onboarding, payments, and secure management of client funds within a closed-loop infrastructure. Key technologies include identity ve",
+      "desc": "The company offers a software solution for AML compliance that facilitates client onboarding, payment processing, and secure management of client funds through a closed-loop infrastructure. It employs technologies such a",
       "stage": "SERIES_A",
       "last_amount": 8572768.0,
       "total": 8572768.0,
@@ -443,35 +468,6 @@
         "Guinness Ventures"
       ],
       "location": "London, England"
-    },
-    {
-      "name": "WrxFlo",
-      "domain": "wrxflo.com",
-      "desc": "WrxFlo provides a software platform that digitizes and integrates supply chain operations for manufacturing and logistics, utilizing AI technologies for data integration, logistics planning, and manufacturing coordinatio",
-      "stage": "PRE_SEED",
-      "last_amount": 3420246.0,
-      "total": 3420246.0,
-      "investors": [
-        "Elkstone",
-        "Enterprise Ireland",
-        "DBIC Ventures"
-      ],
-      "location": "Ireland"
-    },
-    {
-      "name": "sherpa",
-      "domain": "sherpahq.ai",
-      "desc": "AI Operating System for External Workforce Management",
-      "stage": "PRE_SEED",
-      "last_amount": 2200000.0,
-      "total": 2200000.0,
-      "investors": [
-        "DN Capital",
-        "Brighteye Ventures",
-        "Activant Capital",
-        "Seedcamp"
-      ],
-      "location": ""
     },
     {
       "name": "Boost Technology",
@@ -489,6 +485,33 @@
       "location": "128 City Road, London EC1V 2NX, England, United Kingdom"
     },
     {
+      "name": "Verge.io",
+      "domain": "verge.io",
+      "desc": "The main product is a Private Cloud Operating System that integrates virtualization, storage, and networking into a single platform, allowing for efficient management of workloads on existing hardware. It utilizes Ultrac",
+      "stage": "SEED",
+      "last_amount": 0,
+      "total": 12080000.0,
+      "investors": [
+        "Zia Yusuf"
+      ],
+      "location": "Detroit Area, Michigan"
+    },
+    {
+      "name": "sherpa",
+      "domain": "sherpahq.ai",
+      "desc": "AI Operating System for External Workforce Management",
+      "stage": "PRE_SEED",
+      "last_amount": 2200000.0,
+      "total": 2200000.0,
+      "investors": [
+        "DN Capital",
+        "Brighteye Ventures",
+        "Activant Capital",
+        "Seedcamp"
+      ],
+      "location": ""
+    },
+    {
       "name": "DPDzero",
       "domain": "dpdzero.com",
       "desc": "DPDzero provides a collections infrastructure as a service that leverages voice AI, data science models, and real-time analytics to improve debt recovery for financial institutions. The platform integrates multiple commu",
@@ -502,18 +525,6 @@
         "IndiaQuotient"
       ],
       "location": "Bangalore, Karnataka"
-    },
-    {
-      "name": "Verge.io",
-      "domain": "verge.io",
-      "desc": "VergeOS is a data center operating system that combines virtualization, storage, and networking into a single platform, enabling efficient management of workloads on existing hardware. It employs Ultraconverged Infrastru",
-      "stage": "SEED",
-      "last_amount": 0,
-      "total": 12080000.0,
-      "investors": [
-        "Zia Yusuf"
-      ],
-      "location": "Detroit Area, Michigan"
     },
     {
       "name": "Birdsview.com",
@@ -557,26 +568,11 @@
       "location": "Bellevue, Washington, United States"
     },
     {
-      "name": "CTHINGS.CO",
-      "domain": "cthings.co",
-      "desc": "CTHINGS.CO provides Edge IoT solutions that encompass industrial-grade gateways, connectivity cards, and data collection kits, aimed at improving real-time data monitoring and operational efficiency. These products lever",
-      "stage": "SEED",
-      "last_amount": 2059522.0,
-      "total": 9214817.0,
-      "investors": [
-        "Navivo Capital",
-        "Freya Capital",
-        "SATUS Starter VC",
-        "Level2 Ventures"
-      ],
-      "location": "Warsaw, Mazowieckie"
-    },
-    {
       "name": "LICENSEWARE",
       "domain": "licenseware.io",
       "desc": "Licenseware offers a modular SaaS solution for software license management that automates the assessment of licensing requirements and optimizes IT costs, particularly in Microsoft and Oracle environments. The platform e",
-      "stage": "VENTURE_UNKNOWN",
-      "last_amount": 917000.0,
+      "stage": "SEED",
+      "last_amount": 913753.0,
       "total": 2822465.0,
       "investors": [
         "Cluj Startups",
@@ -587,32 +583,18 @@
       "location": "Bucharest"
     },
     {
-      "name": "klaro",
-      "domain": "klaroapp.com",
-      "desc": "Klaro is a numerical workspace that simplifies calculations and forecasting through an interactive visual interface, utilizing intuitive blocks and variables to enhance accessibility for users without a finance backgroun",
+      "name": "ESGAgent.ai - AI Agents for ESG Compliance",
+      "domain": "kleantech.com.au",
+      "desc": "Klean Technologies offers a B2B SaaS platform that enables retailers to integrate sustainability initiatives into their operations, featuring tools for carbon footprint measurement, impact tracking, and customer engageme",
       "stage": "SEED",
-      "last_amount": 3432537.0,
-      "total": 5982537.0,
+      "last_amount": 1700000.0,
+      "total": 2567791.0,
       "investors": [
-        "Side Stage Ventures",
-        "OIF Ventures",
-        "360 Capital",
-        "Blackbird Ventures"
+        "DNX Ventures - US",
+        "Prtnr",
+        "Greg Steele"
       ],
-      "location": "Sydney"
-    },
-    {
-      "name": "paraito",
-      "domain": "paraito.ca",
-      "desc": "Juri is revolutionizing the work of notaries in Quebec. We automate title searches and analysis of Land Registry documents through intelligent orchestration, combining automation, structured data and AI.",
-      "stage": "PRE_SEED",
-      "last_amount": 1865048.0,
-      "total": 1865048.0,
-      "investors": [
-        "Boreal Ventures",
-        "Inovia Capital"
-      ],
-      "location": ""
+      "location": "Brisbane, Queensland"
     },
     {
       "name": "display.dev",
@@ -684,39 +666,55 @@
       "location": "WeWork, 21 Floor, Shiroyama Trust Tower, 4-3-1 Toranomon, Tokyo, Minato-ku, Japan"
     },
     {
-      "name": "Amorphic Labs",
-      "domain": "amorphiclabs.com",
-      "desc": "",
-      "stage": "PRE_SEED",
-      "last_amount": 500000.0,
-      "total": 500000.0,
+      "name": "苏州博纳讯动软件有限公司",
+      "domain": "beyondcent.com",
+      "desc": "Suzhou Bona Xundong Software Co., Ltd. is a computer software company based out of South of 4th Floor, Fuhua Building, No. 199 Chongwen Road, Suzhou Industrial Park, Suzhou City, Jiangsu Province, China.",
+      "stage": "SERIES_E",
+      "last_amount": 0,
+      "total": 38484509.0,
       "investors": [
-        "Y Combinator"
+        "Harvest Capital",
+        "JDT",
+        "Oriental Fortune Capital",
+        "Hone Capital"
       ],
-      "location": ""
+      "location": "苏州市, 江苏省"
     },
     {
-      "name": "Ekip",
-      "domain": "ekip.app",
-      "desc": "Ekip offers a digital restaurant voucher solution that promotes eco-friendly dining through a payment card made from 100% recycled materials, which is accepted at a wide range of merchants. The service includes a customi",
-      "stage": "SEED",
-      "last_amount": 1716268.0,
-      "total": 3335609.0,
+      "name": "mode40",
+      "domain": "mode40.com",
+      "desc": "mode40 provides technology solutions aimed at improving manufacturing processes through the integration of systems such as PLC, SCADA, MES, and ERP, alongside IoT and industrial wireless infrastructure. Their offerings i",
+      "stage": "",
+      "last_amount": 800000.0,
+      "total": 800000.0,
       "investors": [
-        "Share Invest",
-        "ShareInvest"
+        "Prairies Economic Development Canada"
       ],
-      "location": "Annecy, Auvergne-Rhône-Alpes"
+      "location": "Steinbach, Manitoba"
     },
     {
-      "name": "Network Solutions",
-      "domain": "networksolutions.com",
-      "desc": "The company provides a suite of digital infrastructure solutions, including domain registration, web hosting, and an AI-driven website builder, along with email hosting and security features like SSL certificates and Sit",
+      "name": "Marakisoft Technologies",
+      "domain": "marakisoft.com",
+      "desc": "Marakisoft is a trusted Ethiopian software solution provider and consulting company delivering ERP and POS solutions designed to simplify and scale business operations. With over 17 years of experience and more than 5,00",
       "stage": "PRE_SEED",
-      "last_amount": 2000000.0,
-      "total": 2000000.0,
-      "investors": [],
-      "location": "Jacksonville, Florida"
+      "last_amount": 250000.0,
+      "total": 250000.0,
+      "investors": [
+        "Renew Capital"
+      ],
+      "location": "Addis Ababa, Addis Ababa"
+    },
+    {
+      "name": "Zendawa",
+      "domain": "zendawa.africa",
+      "desc": "The main product is a digital platform designed to enhance the operational management and online sales capabilities of neighborhood pharmacies, integrating telepharmacy and financial services. It utilizes machine learnin",
+      "stage": "PRE_SEED",
+      "last_amount": 250000.0,
+      "total": 250000.0,
+      "investors": [
+        "Renew Capital"
+      ],
+      "location": "Nakuru, Headquarters"
     }
   ]
 }

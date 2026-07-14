@@ -23,8 +23,51 @@
     "x": "https://x.com/Initialized",
     "linkedin": "https://www.linkedin.com/company/initialized-capital"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-04-22",
+      "type": "Investment",
+      "title": "Crewline AI Raises $7.1M in Seed Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQODZIbnFhUW5aX0xzMFptOTVuUmRLcW1vNU9EdXdubHFJMzhDTk41Tk1FWEo0cEV1NGUxOXNMR2FzWE1uUXFONUgwNzk2eEtxak9wNnN3WHY3Wm83ZUt2X3R0ZV83Rk5KVEIxSjlVMDdtc1FpT3QwUFhyWFpZM3IxN3Zn?oc=5",
+      "summary": "Crewline AI Raises $7.1M in Seed Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-04-14",
+      "type": "Investment",
+      "title": "Sygaldry Raises $139 Million to Build Quantum Computers For AI - The Quantum Insider",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWlhDc21qbUxkbjFweGJUQS1zOEg1TzBoSFBXTEZWNW9uR2tDajMtY0lydDk0U3FZOXN2YkZSZHpXMkNkelBzR1pQeW1jZV9Hd1VtTlpBR1plcnZzQTlHdHVfRGw1VHF2YUZNOFcwMExrYlN0UEFiX2hjcHRXWGs1Sk9VeXdmUTdIcmk1V05FaFl1cERxdVNRTFpEaEdMSTB3VDVGdFJR?oc=5",
+      "summary": "Sygaldry Raises $139 Million to Build Quantum Computers For AI&nbsp;&nbsp;The Quantum Insider"
+    },
+    {
+      "date": "2026-04-14",
+      "type": "Investment",
+      "title": "Exclusive: Chad Rigetti’s Sygaldry raises $139 million to bring quantum hardware to AI data centers - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObk5zY1RhdUFCMHVoQllyX0JOTlliZmpCVXdhQk03UHY3QTA0TzdYR2Q3WDlRZjAtSE5NVmlpUE9oN1p0TU4xcUxXaHJjUlJRc2FBcktjRVpwYm9JSEhPMzVFalByT1EyOEZhMGVCS2NSN0dsWk92b1NvMmdBa2pEb0Voczc4NFM4QWNZQmlDQzBqSUZxVnFvUkF1VFZQRHJ3LU12VEFVb2F3WkJud002dUZWc1RCUzg?oc=5",
+      "summary": "Exclusive: Chad Rigetti’s Sygaldry raises $139 million to bring quantum hardware to AI data centers&nbsp;&nbsp;Fortune"
+    },
+    {
+      "date": "2026-04-03",
+      "type": "Investment",
+      "title": "Alien Raises $7.1M in Pre-Seed Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sbXdaX3VEQldGNVJjUElBY010QThQNmN1Q0VRRzZvVHJqZDVTT3diVm9Gb2NtNUI3dUZxeVlnMVJoWm1RaU5uNldQUWx5ZUo4NTFYNk1FUnV2MXdiUDNIWUVLakcxZU5xWmg4TlVoZU80TW1aOHNsX1c2UHdPYmc?oc=5",
+      "summary": "Alien Raises $7.1M in Pre-Seed Funding&nbsp;&nbsp;FinSMEs"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Alien raises $7.1M to build identity infrastructure for humans and AI agents - SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb3JhRDhPQzM0V0doQjQ4aF9xZ05VTm1SZktvb2VpRVFVRWNFVEtWZ19HSFpRaTVJSWZuZnB6R1BPSlpkZHMwYTdqYjRtSm8tVHNJUmxtZXpNbS0xdnhzQkZ2VmRZRTJwa3h4V2hzMVd1TEJGTGZIWml2UHpsUmQ0SFp6emRtWkZnYnJVd2NmaFJ1LVR0MWhTWTBYNU9DUUxrWHZB?oc=5",
+      "date": "2026-04-01"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Can quantum computing help solve the load growth problem? - Latitude Media",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRkczLTRGVExDb09DbzJsREhKSnNmVlBqYWtKdDROT3RNVXRlaVl3dk1rbnJ4LTZ0NzBsUGQzZTlOUGxKc2FYTHlpNjFjMGNQUnFzN3J0REprelJjc1NJbEU0bHJydkxpZGdlZV9fd2xMc1R0RmQyVGowbmZRUm5VdldiTnZfZXYyNm1WSE1FNFdQd3NYS0Nr?oc=5",
+      "date": "2026-05-11"
+    },
     {
       "person": "Brett Gibson",
       "show": "High Bit (Initialized)",

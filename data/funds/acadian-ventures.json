@@ -24,7 +24,22 @@
     "x": "https://x.com/acadianventures",
     "linkedin": "https://www.linkedin.com/company/acadianventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-03-25",
+      "type": "Investment",
+      "title": "Origin raises $30M Series A+ to improve global benefits efficiency - Tech.eu",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdjdmQlhrLTJGam9vYzNZZUlmeFliaU5sOTNCTlhXN0d2SjNQMHlXM0dJeGxORTFwdGs3ZUhvckIyOFo4WlM4b3dmakI2dEpLeGVsT3VDSHRDRk9GU2dZY2JGVWlIQ0V4YWh4aHhOdzRFUk1STU44VEI0YkVYLWx5RjVwVGhxaGpqSnlCSnpHY3VwRWJZUkpn?oc=5",
+      "summary": "Origin raises $30M Series A+ to improve global benefits efficiency&nbsp;&nbsp;Tech.eu"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "Investment",
+      "title": "Exclusive: AI-powered benefits management platform Origin raises $30 million in new funding - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQeWFHXzNSTjJvVjE1dnFYbWY1YWlkY2ZKYVFJdGxOMmx4UDdya3BQTlpxWlplWU5tak5vQnNmUXdZQV9sYVBxLXEwSFlzeGJDUGluV2tVR0l5VFh6QWo4SlROVW1wMGpYMWltNTd0Um5NRkdLcTFwN2toc1NaYnV6Ym1ybFpYLXRiLVJyMElJUVZLRW5vcDJaSGtWdnd5djZJajdCdmJvbE8yTWU0UDBQNjNZMXZnc01hM2lXVVYzR3dPUS1mdmNsOVZucTQ1YV8xVS14NGZlMi1PMUN6SnRmQkZDV3I4eGV1YnZZaXlHcnVPOEQwUHpvNUVaUTM?oc=5",
+      "summary": "Exclusive: AI-powered benefits management platform Origin raises $30 million in new funding&nbsp;&nbsp;Fortune"
+    }
+  ],
   "partner_substacks": [
     {
       "name": "Thomas Otter",

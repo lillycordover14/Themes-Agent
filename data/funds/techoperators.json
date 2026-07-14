@@ -23,7 +23,29 @@
     "x": "https://x.com/techoperators",
     "linkedin": "https://www.linkedin.com/company/techoperators-llc"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-04-24",
+      "type": "Investment",
+      "title": "Spectrum Security Raises $19M for AI Detection - Ventureburn",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4yYWoyLTktQ2s0aUxYYV9PbmdQVWx0WHpHWDQzbWpKUFpwTER1YldObzVjeXd2TFNKY0dHRG9zNDV3N1hvTXA1UXUzUTRxS2t3a0V6eW5uR0VIOVJxYmJyeGZ4bG1NSU0ySEZHVHdyV3l6eHBBX0VVR0dB0gF6QVVfeXFMTjJhajItOS1DazRpTFhhX09uZ1BVbHRYekdYNDNtakpQWnBMRHViV05vNWN5d3ZMU0pjR0dEb3M0NXc3WG9NcDVRdTNRNHFLa3drRXp5bm5HRUg5UnFiYnJ4ZnhsbU1JTTJIRkdUd3JXeXp4cEFfRVVHR0E?oc=5",
+      "summary": "Spectrum Security Raises $19M for AI Detection&nbsp;&nbsp;Ventureburn"
+    },
+    {
+      "date": "2026-04-23",
+      "type": "Investment",
+      "title": "Spectrum Security raises $19m in seed funding round - FinTech Global",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcEM5Y25lWnJiQ1A1N3loa2MtQTFzdnJ6MjR1SUN4OC01dHBuUmhGaWxHckppc0ZjcTM3RWxYV3lBZUFKLWlwOU8tZ1VVdWNFSTd6eTVCbWNMUkU3b1VCN1ljVkhCV0FZQU1OeGlNTDN0VlJfWk5JRE9venlZVU9LR09fRk1NSGpPNmR2MS1n?oc=5",
+      "summary": "Spectrum Security raises $19m in seed funding round&nbsp;&nbsp;FinTech Global"
+    },
+    {
+      "date": "2026-04-22",
+      "type": "Post",
+      "title": "Spectrum Emerges from Stealth with $19M to Reinvent Detection for the AI Era - USA Today",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMHY0bTd4cHBldmNuLUw2MUxUSUl3QWIyTFNOT1NNN1FCYi1XOHlqM1NPUXBVTDFYWkFSMXFMR0JvdDF1emF4S0FPOUtqMmZ3LTV3eXhiNnotLWZERkRXVlU4Z3FuOGRrbnFlTGtHWkxYV1dLTkFpak9rekhjcHREVUNTMFhJRzhydTJoM3JxdkFQZzExckktcGdrZVptaEdxWnJqLXpKeTZyQ1lKaUE2SWgwUjN6REl3V0VscHpQQ0JMeGVlOVE?oc=5",
+      "summary": "Spectrum Emerges from Stealth with $19M to Reinvent Detection for the AI Era&nbsp;&nbsp;USA Today"
+    }
+  ],
   "podcasts": [
     {
       "person": "Tom Noonan",

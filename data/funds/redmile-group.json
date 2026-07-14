@@ -21,7 +21,15 @@
     "news": "https://news.google.com/search?q=Redmile%20Group",
     "linkedin": "https://www.linkedin.com/company/redmile-group"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-04-12",
+      "type": "Post",
+      "title": "List of Investments by Redmile Group (Apr, 2026) - Tracxn",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONUZjakU5S2NqcWRuMGpSLXI2WWl0dzZ6SkdWYkZlMV9qTnM3WWpOYTRHeEJtWHdNTlE4ZW84TzFNQzhzYVRCeVZjZ2szTk9UN2RmTTc0eXVIZDg3M1prWUhqVm1XV2Y1WER6RWp6d18zazhFLVV4U0tibWlZVUQyMG1SQnV4MEJzcU9UakVkNzhmZ1p6a0VrckJyWENMdEhYMmZKRzExenRGc1dLamFGaUs2R3pUVnZz?oc=5",
+      "summary": "List of Investments by Redmile Group (Apr, 2026)&nbsp;&nbsp;Tracxn"
+    }
+  ],
   "podcasts": [],
   "people": [
     {

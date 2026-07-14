@@ -23,7 +23,15 @@
     "x": "https://x.com/5amventures",
     "linkedin": "https://www.linkedin.com/company/5amventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-01-23",
+      "type": "Investment",
+      "title": "Mendra raises $82m Series A for rare disease drugs - BioXconomy",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVTl5YVNMR3hfQU1oWm1OaUhiT1J2SThjeUI1YnBuU2t2Q0dTUFRONmc3VnM5WkYybGVDUE1tb2RaMHNGTHdKTzZlTGo2emNVbEdyTHRwX3lPNXJFbW9INGxQTFNocVlySzRqNUh5aUFSMi03a3ZLcmViVHRPRjRXUW1MZmZ0U2NDY1BsN0ZRQ3Q?oc=5",
+      "summary": "Mendra raises $82m Series A for rare disease drugs&nbsp;&nbsp;BioXconomy"
+    }
+  ],
   "podcasts": [
     {
       "person": "Andy Schwab",

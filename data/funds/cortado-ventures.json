@@ -23,8 +23,37 @@
     "x": "https://x.com/cortadoventures",
     "linkedin": "https://www.linkedin.com/company/cortadoventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-02-25",
+      "type": "Investment",
+      "title": "OKC firm invests $10 million in Oklahoma-based businesses as Devon and Expand make its exit - News 9",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMGtBMHhhOXVaVVlUTkoycVh5aDdQQ2I0QlFCWnN5Q3lZbVkwV0pmMGU1UnVJZFhia05tUWg0d1RWNGlxZ20wc0VBZWRUNURIODJoaUsxdzNPRjgtSzU5SUlmZTd1d1ZvMHk5MnVfc2JGckRIdEh0Y0hHbWN4LTliY0ZHUDhuQmZHNFY4M0k0ZTFyU0RzRG01OGNRemRNV0lObnV3UHNrY19NSm9JaU9RSFZudHpBaWlndUFfb3FMa1l6U0NSQlQ2bw?oc=5",
+      "summary": "OKC firm invests $10 million in Oklahoma-based businesses as Devon and Expand make its exit&nbsp;&nbsp;News 9"
+    },
+    {
+      "date": "2026-02-17",
+      "type": "Investment",
+      "title": "Cortado Ventures launches $10 million fund to back Oklahoma tech startups - The Journal Record",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM2RoakpEc1hHWEpFX0pCczZmeS1Yb0xjWDVJcjB1U29kdE5saTQ5cVdHRmlFUEZ5WTg5bjJVSEtmT2dacU4ycGtxTGxjeVR6Zm1ReVpFMnpXUjBKQ3BnS3I5aWxhRExMVHdVNjgyTjlPMm1QVHg1WEI1M1FCUDVrU3RMSURGSnYxNHc?oc=5",
+      "summary": "Cortado Ventures launches $10 million fund to back Oklahoma tech startups&nbsp;&nbsp;The Journal Record"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Cortado Ventures launches $10 million fund to back Oklahoma tech startups - The Journal Record",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM2RoakpEc1hHWEpFX0pCczZmeS1Yb0xjWDVJcjB1U29kdE5saTQ5cVdHRmlFUEZ5WTg5bjJVSEtmT2dacU4ycGtxTGxjeVR6Zm1ReVpFMnpXUjBKQ3BnS3I5aWxhRExMVHdVNjgyTjlPMm1QVHg1WEI1M1FCUDVrU3RMSURGSnYxNHc?oc=5",
+      "date": "2026-02-17"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Agile Space Industries Oversubscribed $17M Series A Accelerates Growth of In-Space Propulsion Capabilities - SpaceNews",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbDRUVEYwQzg5LVlQTjJOcVhyR1JQRFBmX1k5TjlHMTBfcFVIQXFMSHB2RWRIWUZhbmRHdnVZRk9na2hHM1FyVWVHOHNlQXV1eGxpd0wzd3d0dmxybC02RDI0RVhMWWF1X0NScFV6Tk5fSHVuVHNKOGZYNEYtLVJHb2JISTZDcnV6UXJBcVphak1Kc1ZqbGdadGItYVZIU01EOFF1ZGduNFdSUHRTeUNaQ0N1OHZ6RTMwNUNqVU1TRTNOVVcySGVV?oc=5",
+      "date": "2026-02-19"
+    },
     {
       "person": "Nathaniel Harding",
       "show": "MidCon Markup (Cortado Ventures)",

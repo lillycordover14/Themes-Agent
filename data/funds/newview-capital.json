@@ -23,7 +23,15 @@
     "x": "https://x.com/newviewcap",
     "linkedin": "https://www.linkedin.com/company/newviewcap"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-04-28",
+      "type": "New fund",
+      "title": "Kline Hill and Cendana raise $400m for second VC secondaries fund - Secondaries Investor",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxON1VaaUF5VFVpVXRHTzQ5Y3JRaERhd1phTEpJRDJrSXpScGRJbzZuMXlnNzJsWWJsbEZEc3VNVjY2ekV3TW9QblZfYTRzR2JFa0dZRkVZMXZCall0S0QwY2prSlZHS3lvZkdadVd0QXZIN214YjJzdllKdzZBbHJscDY2c0RXM0J3MFVLb1dnQ25EQXkwemFMYjdUYVFHR3B5OE9N?oc=5",
+      "summary": "Kline Hill and Cendana raise $400m for second VC secondaries fund&nbsp;&nbsp;Secondaries Investor"
+    }
+  ],
   "podcasts": [
     {
       "person": "Ravi Viswanathan",

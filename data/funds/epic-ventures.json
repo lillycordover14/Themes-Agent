@@ -23,8 +23,58 @@
     "x": "https://x.com/epic_ventures",
     "linkedin": "https://www.linkedin.com/company/epicventures/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-04-27",
+      "type": "Post",
+      "title": "Boise customer insights startup lands $5.2M in funding, customers include Intel, Verizon - BoiseDev",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9BUElmZ1lRandmQmljRjNBTjI3REZCNWhLRVVUaVlDelROTDRMWW04Y20tdmhyNkVpY0NscW9PV3pLUmdGT1RuckRhaWJMZFU4anNvTkdVckRqU0x3TGxrbg?oc=5",
+      "summary": "Boise customer insights startup lands $5.2M in funding, customers include Intel, Verizon&nbsp;&nbsp;BoiseDev"
+    },
+    {
+      "date": "2026-04-20",
+      "type": "Post",
+      "title": "The Weekly Notable Startup Funding Report: 4/20/26 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU2tna0Y3TTJtVTc1Z0lleWlUbzBXbVR4ekR6UTloZ24weDZ6azdiSE5OdnlhVmU4UEVHNkxnVXFiQ1UwdXJJanc0SnZzT2Q3cEZrS2NnMkhBVXdEbFhmUks1SzBVdGUteko3Sm5sUDc4ekY0a19pWGdDUjBZMkFJY1g1aWxmLU15NXZxdkNR?oc=5",
+      "summary": "The Weekly Notable Startup Funding Report: 4/20/26&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "Investment",
+      "title": "Exclusive: GetWhys Raises $5.2M To Help Companies Like Intel And Verizon Better Understand Their Customers - Crunchbase News",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcGJ6SDhVLUR1MERmMV9pUEs5R3FHNXBqcFpFdnV2ak1Qdm42Vk1iX1NrQlBrRV90VnR3QUQxODYyU3M2N1Blc1BZbUhxS2ZqelZTN2N0WTFkZ3JiRmxfSU02dlg2NHNTNDJySmFfM1F0ekNwcC16ZVpoNXN0a1pMNEJSajJMN1gyVDlYTHlnRlc2WUtMWVFiUW9R?oc=5",
+      "summary": "Exclusive: GetWhys Raises $5.2M To Help Companies Like Intel And Verizon Better Understand Their Customers&nbsp;&nbsp;Crunchbase News"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "Investment",
+      "title": "GetWhys: $5.2 Million Raised To Advance AI-Powered GTM Platform - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOVl5OWcwUGxnSzZZN1NGaHBFTjdLNVprd2ZsWHk1alB5QnFpcUdxOUQwMHBoQk5HQmRyUmdDUURpNDE0eEM3TjRXODktTlR2ekpUNmlyZHZaRkNZdGtUeWxHWXRBRGtoWEdUMkdFY0Y0MS1GQ1RJMWNOVmlZWWRxVHRBUHAzel9h0gGOAUFVX3lxTE42NmpYS2hVZjVrRDRiMHVrb3lvUUllbHBIdTZQR2x4R1pzdk9BTGlqUkNEbk1Wc1JvQUVZZ1Z5Q0ctMno2bmxXSjNYZFpHM3l6U2l1elFJaEFON3dDTlFsbFVYOFlYQzhnV2RnUDA2Y3JQQ0YxRnJ4enlvcW9ZR3Z0Umo2QnV2T1dNRjF3NFE?oc=5",
+      "summary": "GetWhys: $5.2 Million Raised To Advance AI-Powered GTM Platform&nbsp;&nbsp;Pulse 2.0"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "Investment",
+      "title": "GetWhys Raises $5.2M Round to Close the Research-to-Outcome Gap for B2B GTM Teams - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS0FlMHp1UHRnbnBLckdpV0lGUW9wY01LWUNUWnVoVDF5QmhJSmwxUmlJR1dLTDdZTUdoX1ZXQzRDZkxOak8yTU5CUi1QUUZGYkJLQ0stMzRNVVJSSmdVZVB3bTlIRWVieDB4ZGloN3d2VUVHR05UZWpsYVo0X0d0SkFtRmY2MEtMQTBRWWJVTWttNzdtOUZYRUFCZ09ZczgxMEF2UGpjaEZOaW9FbmVHSXByaGpIaEloam1YbldZSUFuMG52ZHpCRFVHeWkyTEFyclE?oc=5",
+      "summary": "GetWhys Raises $5.2M Round to Close the Research-to-Outcome Gap for B2B GTM Teams&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-02-13",
+      "type": "Investment",
+      "title": "Uptiq Raises $25 Million Series B to Scale Industry-Ready AI Solutions and Launch Qore for Builders - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNkIzeG01X3k1YWYtejhXd0p4UUo5WHFhOWZLa0xVdDJaRTBuam41Y2YyOUNsaGJDSjBZRGMta1FEdGtrOVpFWTM0TG9NRVlCXzk4VE03MGEwd1RFU2gweS1JOWtTbFNVbkhhMUVkcnMzdDdEMlNCOVNtdkhOTjhWLTdUT3RxaFVqT18yV0poSGxxTExJYjFUOVVVYTJBV2NWOE1UUFlFdkFvVHJQZzFVR1lqNFhNcExBeUpPNmtBUHJEQjVxMzVVbVppaUN4TFo0OE9EX1czZE9ERjFZcHhqbnNQa1A2QXhHNnZncDZfMA?oc=5",
+      "summary": "Uptiq Raises $25 Million Series B to Scale Industry-Ready AI Solutions and Launch Qore for Builders&nbsp;&nbsp;Business Wire"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "SewerAI Raises $15M Series B for AI Sewer Inspection Tech - Causeartist",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeHV3S1ZuT2ZJeHBVcEIxX1BaU3N0eXlXdWZoVDNsR01NdHB4ejVWWmFheDlYZ0VZNGxfVF9PV0VjaUpPTjNFNVNYWG9YOTROOUdrbjR5Nlp3OTZVYV9mQ19GTzJjREY1TEtPSEdHZmhBOUFXSUVXcnY3bUdWQnlBRQ?oc=5",
+      "date": "2026-06-03"
+    },
     {
       "person": "Jack Boren",
       "show": "Product in Healthtech",

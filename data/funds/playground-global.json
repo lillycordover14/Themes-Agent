@@ -47,6 +47,13 @@
     },
     {
       "date": "2026-06-08",
+      "type": "Investment",
+      "title": "A decisive shift to power British AI: new £1.1 billion plan to back chip firms, boost computing power and skills for the AI revolution - GOV.UK",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNODVodzk5M205SXd5WVFpM1FtUWhWX3UyUnM0ZDRUM2NnXzFCMktNUDNwVUhLd0FOV3NwVW1mMFNzVWxYV2Ytb29GVFdjSnpGbFFUeTVabGphbHlmNm5Yb3JmTy16UHJvMWE5bFBZS2hHcXVkUGV6bzBkR3VrVEVVZlpCbmdnRXAtekhTYUJDWDBQQjRDdGczNV9kTndTbmZKdmkyVlJMTGw0SWxSM3ZKY0hZTE5QY2ZIOW92cUVvX3FfMDh0REttU3VucnBBSW5RWGtlc243V2l5WWVMX0N3VUtSRGMwb0N2S09wblBwNGNzb2ZZQTlTaA?oc=5",
+      "summary": "A decisive shift to power British AI: new £1.1 billion plan to back chip firms, boost computing power and skills for the AI revolution&nbsp;&nbsp;GOV.UK"
+    },
+    {
+      "date": "2026-06-08",
       "type": "Post",
       "title": "UK sets out $1.5 billion AI hardware plan with supercomputer, chip funding - Reuters",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVpmcjByVl93d2lKdkoyTEVYdWo3Q1h2ZlRHQjROSEJMcExiTTlVRFozdTdBaFVfOGZUUGxZWC1xQVNjN3Y0WUo4SC05N3F0MzJ4OVZaQjdnOUszdjZsM2QtVWU5WlpSLWY4TG5IYm5SbUxUckJoWm5Ub01XOE10eW8zTnRaWTVKQnZtZ2JSSlptRV9DM0xGYWRqWE14SF95NnFYU2hTSzd1bk9Bbk9EWmNmbVkxV2M?oc=5",
@@ -79,9 +86,58 @@
       "title": "GlobalFoundries invests in Playground Global Fund IV By Investing.com - Investing.com Canada",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNUpDQzd5em5mQWo5RV9ublU3dmhHSFFMUVdXa3A3a2xDN29VUTgzOThsNHlNV242V3RFT0Jtc1k1TF9HUU4xVEtDRmJkbVVpRDY4UEVOQjhRQnBLaC1mSmFiWkJ0c3czUno5M2tfWEZ4Vl9yelNRWTdlRGh0cEpvdVVSTEZFQ3ZVQVNuRmRKSGNTbHRSVy04TC1KWV82elRQbXNKVXFoZG5hempsNjlnZDB3bw?oc=5",
       "summary": "GlobalFoundries invests in Playground Global Fund IV By Investing.com&nbsp;&nbsp;Investing.com Canada"
+    },
+    {
+      "date": "2026-05-18",
+      "type": "New fund",
+      "title": "Exclusive: Playground Global raises $475 million VC fund - Axios",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1WTRfVmI0QWZsUDV1MFdsWWU3RHZpU1daMGhkVzFMVFl0eTFIdHp1UXotS0taZHdOMDFnNWhsUHhIOU0yWFlSdlg1UWREYXJkcnJRWVQ1RncybFd0ejROOGJMeWJsQQ?oc=5",
+      "summary": "Exclusive: Playground Global raises $475 million VC fund&nbsp;&nbsp;Axios"
+    },
+    {
+      "date": "2026-05-13",
+      "type": "Investment",
+      "title": "NVision Raises $55M in Series B Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVThsRnRwMTJ1YU1DUllpT1ZmQ3FhQllRY2k0S3k4NF9aZU16ZTJJVFN4Z0preXg1a2J1Z3I0akRaSWNqMEMtTllzbkppcjVEZHpkbUtKRGlLd01sTVhZem1zWW45amliYU1OSmxnSGgwZk1hdTNUMTcwWUNTQ0l6eg?oc=5",
+      "summary": "NVision Raises $55M in Series B Funding&nbsp;&nbsp;FinSMEs"
+    },
+    {
+      "date": "2026-04-22",
+      "type": "Investment",
+      "title": "Australian chip packaging statup Syenta raises $26m to improve chip-to-chip connectivity - Data Center Dynamics",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOEhBbmtUWkZLU3pXbDFIZkJ2Q25KZHZQZXdDREFfU1BLV1U0dS1fdWo1bmNSS0M0YUM4VENfSjFWQUl4VjFmajJvWDZPVGZXNmJYSW5QQ3o2QXNUZE5HSHA4aG5IdEk2aTBVRktMS3poRTE1RldJSF9SSlBLWHVvNjhzWkpQOFl6cElyc1JydFRYZ1NTa2cwU0N0ekpVeFVuUWxtXzJVVFRZQ1NyN3Z4WUFVMmFLdVMtSmtBM2FEemFFNEJ6eWNTZ25PWQ?oc=5",
+      "summary": "Australian chip packaging statup Syenta raises $26m to improve chip-to-chip connectivity&nbsp;&nbsp;Data Center Dynamics"
     }
   ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Silicon Is Back: Playground Global’s Decade-Long Bet On Hardware, Energy And Deep Tech Looks Prescient - Crunchbase News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX1dOZTNfaUZ1NWJHWFlkdldZWVlKQnF6aHFlS3A4a09rTXhhN2tMTUhPZk9hMS1aUDk4aGdZVkVURHJPaFQ0R283b08tUVlTUVVOYllZLThsRUlERDl2S090aFJVVmVja0ZCUmVROE9xMDNSd2gyNWN4d0FvQVFCMmwyTm5jbGdMNmtGZmhSNFRUUzVIWGpVTW5XZEV0T3Zu?oc=5",
+      "date": "2026-06-16"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "An Interview with Pat Gelsinger (2026) - by Dr. Ian Cutress - More Than Moore",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hZkFGdzR1ZloybFIyeEp0bGs0UzNvNnVxZ1VsME5mUm1JM0xMeFlNZ3Z2RE9fQlNXTjl2NHZTTUd5a0sxc3pleGRWVHRfSHpmTHgtTHN2dnBYbjBsX3dCQUdzX3NhRmVzWDk5UUp2cHZWeUVjSUJ2YUpFUm1JZw?oc=5",
+      "date": "2026-04-09"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "How do you announce a live service game in 2026? Plus, Nex Playground's global expansion - The Game Business",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PZjlxalo2TUtITmlZMVJWbTdBVGV4WFFhaW5CVkhNLXVBTklpajlxSl91d1FaNURreWF2ZTNZY1F6T2RFOFpkaEg0UkdnVzVjNURKWno5WEhkTTBXV3A2YnZyWWlQY2VZcEpCYTRfZ1hFNTFVb000?oc=5",
+      "date": "2026-05-21"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Leading tech-industry pioneer, investor to headline upcoming Presidential Lecture on April 30 - Purdue University",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVUM0c1lCZXJxU0VMcmlCRVVaM0tGdlVGUE9NRVNscmYtdTNpZVNRbkVfaDhnNWRxLXF4RlFpSE1lMzgtSFp3aEVjOE1WdldEWk01eWJ1T0xyR0l4bXE0clpYZjRjMWotNlFmQ3ZSTDdCTTQ5YjVMejJfbnpmTFVfSVprNk1qX1phSHFIenc0TjlLZHJBZWh2VlpmYTNsZWI4aWZlOFhoaHROYmhwQTdiLUdaX0NOcVNpN212TlJDSW11eVNtU0RuRFhVdEM?oc=5",
+      "date": "2026-04-13"
+    },
     {
       "person": "Peter Barrett",
       "show": "Core Memory (Ashlee Vance)",

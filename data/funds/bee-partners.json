@@ -23,8 +23,37 @@
     "x": "https://twitter.com/BeePartners",
     "linkedin": "https://www.linkedin.com/company/beepartnersvc"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-04-27",
+      "type": "Post",
+      "title": "The Weekly Notable Startup Funding Report: 4/27/26 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUF9lZGFrSkR4UGpsamkzRkY4bGx1RHkzRzZFd2MtU2haNUZhMFZfQWswMzF0RjRNRGhCWUUwQUdFTlZtWlp3WF9nVFk4UjFMNXpCazJmampIS0ZYVzM2QlNiTHJzYTFHTU9XNzk0eU5ockNsUHNEeHFoUHBNMHViZERoNUVPOHpxU05aVllB?oc=5",
+      "summary": "The Weekly Notable Startup Funding Report: 4/27/26&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-04-22",
+      "type": "Investment",
+      "title": "C-Infinity Raises $16 Million Led by Canaan Partners to Automate Manufacturing Process Planning - citybiz",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWXJSRlU3bVIyS2hiOEI3RjhUd3phQUs4UjJ0X20tblM5Q1JmaFJGZmxDaXBLc2toV0Z6NjA2TEVpYlBpX0FNcWJKZjRvS3prTjk2ek8zMGlIZl8xemlSWmFJWVdTenp0S2tENTZscnUwTFg1SmRYbm1tcHZMSWwzREZiZ3FZbkxVa1c0U0hXdGdUT1hiS0p0aG9XV0JIVHJlOE5SM25QZWRlLVF5aV9Ib3l6WjBvLTJzVFRFTWpHMG9rX2puMW80REhvbTFLZw?oc=5",
+      "summary": "C-Infinity Raises $16 Million Led by Canaan Partners to Automate Manufacturing Process Planning&nbsp;&nbsp;citybiz"
+    },
+    {
+      "date": "2026-04-22",
+      "type": "Investment",
+      "title": "C-Infinity: $16 Million Funding Raised For AI-Driven Manufacturing Process Automation - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR25WbjhobHZqUXFWVEJYSUdfUEpYcURYTU40STYtRERDUndIelJfampIR29kOXNGTHBaTGRpbXlzUnJVNC1EeXAyWkNVWlp3UHdOOGk0TG93UndZejQ1d3Z2NW1QOEF2bVFxMGpfZXczdWtUNnJhNnhWaFZBZWwzT2JOb2FqX2paRWhRaUJoSF9NNWJRSmlsZzQyRGprcVhpcWNqNF8wb1Q5Z9IBrwFBVV95cUxNVmdDQWd3QzF1YVl1RUNpWmxub1VCTUNpU1dUVlRSZkdIamZZcmY4ZlJTRXFEY3h0djdObENQcEdYQmhYWkpMYXBEc08wODYwLWp0U0lNbmVVdHZDZlc3eUdJdVhBcGRma3V6RlhzcnBXUnVUZHFRUXhmSDh0RkdnS1ZiSXVqaHRkY3lFR0pDbm9mSS1GMFZ1WE9rSWtudnh6cU1oVmZRTXFUaWhwbjBV?oc=5",
+      "summary": "C-Infinity: $16 Million Funding Raised For AI-Driven Manufacturing Process Automation&nbsp;&nbsp;Pulse 2.0"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Robert Gumede defends Vision Group amid Tongaat Hulett liquidation move - IOL",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOb2dra29ud09KQVp5ZEJnTUd3NmpTTFVpM0ZMMTNIMjRSQXRiY2tnQ1lFQXowSHFKVTBvYTY3bnFRUEVNeDk5RmxWTnFadHE2Mi1XUkRqUFpiTHpiaFRXV1pYWHY0bzZ3c1A5akpYakFfMzRSZ2ZvRnRRaDVNQ0dncTlpWndnaDRBRncxZHI3WENzTXNNMUVWNW80aHNEaE5yWWdkcXFLSzFJcEVIcWtmZFVyZnY?oc=5",
+      "date": "2026-02-26"
+    },
     {
       "person": "Michael Berolzheimer",
       "show": "Sandhill Studio (Sandhill Report)",

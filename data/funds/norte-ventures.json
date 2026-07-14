@@ -22,7 +22,22 @@
     "blog": "https://www.norte.ventures/content",
     "linkedin": "https://www.linkedin.com/company/norteventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-03-24",
+      "type": "Investment",
+      "title": "BackChannel raises $4.8M seed round led by Sunna Ventures - LatamList",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcmdVMWpHc3FPQmxVTmpBLW1tSEZtY0lhX3BjNW9WdzBCODlRZFNMWllQR2JqTVlTOGc3NWJ1VnBSUWFTYW5TOVh6b0Y5OUZRZ1pBN2hNZHNzMzVkZ0VQV1ZwU1dwRlNHWVZBLWJRY3NaRkd4QUlUeHZfOVljQWlQV0VhRFVDUdIBiwFBVV95cUxNZER5QzMwVnctckJKZVAyQ2dOS3VJQnVYTjgyNWYzUTVnRjhJc04wN2p6VUVjdzVGRVZwbWYyZ19uajFLVjR4TE00OEs0VzRkMzM1RXZWLUpfelh6NTF3UUtfYjRkUTZjUWJnZzU5QVM5NF9wRlhEUnNlMkxNaVE2bnF3UWhMUE1QUHg0?oc=5",
+      "summary": "BackChannel raises $4.8M seed round led by Sunna Ventures&nbsp;&nbsp;LatamList"
+    },
+    {
+      "date": "2026-01-29",
+      "type": "Investment",
+      "title": "Lerian raises $5.7M seed round - LatamList",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAyNnU0VGx0NlFNQWxIZkI5VWFEazFic3pwWk8yMFd6Wjg0YVFvdUpHNDlucmxiZ190ZkNYZWVjR0YwU3lnOGp6VTkxZ3NkTmdYUjNpNzdOSVRBQk9faVd6YnJB0gFnQVVfeXFMT0Q1NURfem9xMmRJZ3dpUmRtdmJTbVZnVTRWUm82WDk0SE4yNTBDWGljQU1ReUczZGo4X1daWXVOTlFJcG9rTXc2WDI2YUpiM0hvTGM5WVBqQlEzUGxxR2JVeWtkb0NFWQ?oc=5",
+      "summary": "Lerian raises $5.7M seed round&nbsp;&nbsp;LatamList"
+    }
+  ],
   "podcasts": [
     {
       "person": "Gabriel Benarrós & Gustavo Ahrends",

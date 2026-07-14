@@ -21,14 +21,127 @@
     "news": "https://news.google.com/search?q=Imaginary%20Ventures",
     "linkedin": "https://www.linkedin.com/company/imaginary"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-11",
+      "type": "Investment",
+      "title": "Bathhouse Raises $35M as Social Sauna Sector Heats Up - The Fashion Law",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQ2FsejdLTkhSQ2VqVDdVT0dES2NnNHA3WlRIdUp4QXcwZGV5SDZMOUNfNXEwZXJ0Q2xsV0Q2ejQ4QksxSjJLSkxZTlFGY1l2YXYzWWZMemJUS3lBUEFEaXRjeE5LYndLV21vMUUycS0tWGJyRjh3MVB4Wk51dGgwR2VfZ2N4TmIyYzQ4?oc=5",
+      "summary": "Bathhouse Raises $35M as Social Sauna Sector Heats Up&nbsp;&nbsp;The Fashion Law"
+    },
+    {
+      "date": "2026-05-05",
+      "type": "Investment",
+      "title": "Bathhouse Raises $35M From Imaginary Ventures And Others As “Sauna Wars” Intensify - Beauty Independent",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPalF2N2pBSk02OF9RVjNwSUFTSWphOTkzUDRLbGlRQ1h6eEI3SXgxRldmR3NCR3VrNk9FcVBNMjEtejJ6UkNoaWVQSDVfQlRhUXpIWnIyeGhGT0gySURZQTBoM1JMcDZIRy1JSDc5Zk9oNjlJMnNsU1ltWC1uTDdhQU84bi1IU19teHJKNWlfbERHdkdNMENF?oc=5",
+      "summary": "Bathhouse Raises $35M From Imaginary Ventures And Others As “Sauna Wars” Intensify&nbsp;&nbsp;Beauty Independent"
+    },
+    {
+      "date": "2026-04-20",
+      "type": "Post",
+      "title": "Westman Atelier Secures $15M From Prelude Growth Partners And Imaginary Ventures - Beauty Independent",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaDZQcDFXYnFtNnZVeXdpNGxTWHBqaVFDWExVWkhQQkhxTjNHNE5IOVR0RXM2SE5zVEdaN3B2OVlaX0FfU1IwSlJjODBNd1Z4eTdreHZCbm9xV1FCbFBkSUNMbWZwUmZ3VVhKZnhJdVpPaU4xRVhXRnJqU3UwMzRwNUNvVDBsNkpDRU5fTGJmLUtfYWJnUTE4SA?oc=5",
+      "summary": "Westman Atelier Secures $15M From Prelude Growth Partners And Imaginary Ventures&nbsp;&nbsp;Beauty Independent"
+    },
+    {
+      "date": "2026-03-27",
+      "type": "Investment",
+      "title": "Swedish rug brand Nordic Knots valued at €1.9 billion after new €86 million investment - EU-Startups",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeGJwaG9leU0zUTE5RjNReXJyYXJDUTU1TWNHQ1l5V0w3dktzbTdLSVRUQTc5X08xZTE2Sm9TNTJQcTBPVnJ3eEpJa3J2a216WDZUWVlPTDN2blVTRmp6X0JLa1g2eWxTby1CX3lVVnpBNGlTX1cyamh6anoyOVRtbXV1V0dPLUlBdHpnX2FVbXZDMTRxMGVXYnRZR2ZtOGV3OVZ6d19IbVh0Sjh5UmhfT2JSTDJMWS01LUxENHVXc24?oc=5",
+      "summary": "Swedish rug brand Nordic Knots valued at €1.9 billion after new €86 million investment&nbsp;&nbsp;EU-Startups"
+    },
+    {
+      "date": "2026-03-26",
+      "type": "Investment",
+      "title": "EXCLUSIVE: Nordic Knots’ Fresh Investment Proves Rugs Are a Hot Bet - WWD",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxON0lYaEg5QzlkSXFPRDFWZ3RpbG9VOGNFSW1VVDNadWhOQW5CWENEajAycEtveHRadGRsSVhyX1dmVVVMbjgxUGN2RTJMZTZTOGhhd0xzSVE4dDRURWdpaDk3enpHc0NwYUdkQUtYLWh4OHU1bFRURUxUNV9WU1pJQlhOOEJaanlWdWE3dnpMYklsaXM4Y0M1SUJHaVNaZw?oc=5",
+      "summary": "EXCLUSIVE: Nordic Knots’ Fresh Investment Proves Rugs Are a Hot Bet&nbsp;&nbsp;WWD"
+    },
+    {
+      "date": "2026-02-18",
+      "type": "Investment",
+      "title": "Hook Announces $10M Series A Funding Round - Billboard",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0UnlfMnNXQ19zdVVtRHIzZXJVbzFKOHVyX0gyVlI0MEVxV1ZURU5uLTRFWHd4VFVERzRsUW5PcGtxZW5Bdm9aTktZX3pWTkhaSVZNTDdWaEZTeWQzbEpSTGlGb0tPWXpNRlpGMUp3Tk5La2pudjJKaThRQQ?oc=5",
+      "summary": "Hook Announces $10M Series A Funding Round&nbsp;&nbsp;Billboard"
+    },
+    {
+      "date": "2026-02-18",
+      "type": "Investment",
+      "title": "Social music platform Hook raises £10m in funding - Music Wee",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUHhySnNNQklWMm5LN19rT2hQVVIxM04yMDVIMVlScnNZSW04eHVoOE9kamwtVGFtcU1KU2psNmd0LUgxd0lCaE8tZXNkMGtKR2ZaeHlIZHNmNmV0b29uYjNNZ0VadTBtajdWeW84QWQwblJma3JhWHIyNkhyTzlwWFRCSU1hcEtqc1NJdFY0VEdwMkZjSnZhUVF3?oc=5",
+      "summary": "Social music platform Hook raises £10m in funding&nbsp;&nbsp;Music Wee"
+    },
+    {
+      "date": "2026-02-18",
+      "type": "Investment",
+      "title": "AI remix startup Hook secures $10m in Series A led by Khosla Ventures - Music Business Worldwide",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPb1lnSm9oYUpscE90UjZZLVN4aDR0U2FpaUpxMTdtbkdURDhCX2hrLWRidS1NWTVaa3dST2s0c0M4RXhhRFVRMlB1Q04zNHYxVG1oWmhBeVlVUGRuTVpNNzFGZ05IdzFiQm93YV9KWkxlTFREaTUzQmpsVDVkN2w1VVR3eGpYQmRudlBUcGlFcEZtMGdwdG1jb05GYlQ3V0tVYmZSdmVuTkxpZUZs?oc=5",
+      "summary": "AI remix startup Hook secures $10m in Series A led by Khosla Ventures&nbsp;&nbsp;Music Business Worldwide"
+    },
+    {
+      "date": "2026-01-20",
+      "type": "Thesis",
+      "title": "How Tom Holland's NA Beer Company, Bero, Plans to 3x Revenue During a 'Difficult Time' for Beer - inc.com",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUFMydVR3WVJsTU0tazZ2bWk1ZEtFMXlMLWJhSWd2REZsQWF5UTEwbVp1ZTRqS3BDZmhtcHNUVi1ORmZWcVNUTm5YWU5wWmxycGJuM2hjcWNPa1Zpa3prRUlXdVJBYjlZZ01MZTNTMlNVUnJ5ZFh1dzVDMzhOdGFEN19KWHRSN2txclNfaDV6ZzlCbHhKLXFORm1odnB1ZXl5Y25BZlhhMTlKNTdPMXVMV3FocFYtdXFLV1VBOFZvVGVwQQ?oc=5",
+      "summary": "How Tom Holland's NA Beer Company, Bero, Plans to 3x Revenue During a 'Difficult Time' for Beer&nbsp;&nbsp;inc.com"
+    }
+  ],
   "podcasts": [
     {
-      "person": "Nick Brown",
-      "show": "The Glossy Podcast",
-      "title": "Seeking founders with something to prove",
-      "url": "https://www.glossy.co/podcasts/imaginary-ventures-nick-brown-investing/",
-      "date": "2022-07"
+      "person": "",
+      "show": "",
+      "title": "Joe Rogan - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lMzFsN2hGc0szei1tRG5JWFJqZFp5SXlsMlpodEhkZW41U0tSRTFoNU1lWGZFMkdWUEdGWjNzQ3p4UzBwY1FIX1hOSGNkczVjbHJFcHMtQmhJUFhVdnFDdzl3cXVVREQ5WjhUbQ?oc=5",
+      "date": "2026-07-14"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Alix Earle Has Plenty More to Share - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UNmNkWm1ERjk5b21vWDQ5QnVjUGVhX0dWSkdkajh6QnBhS1NpWEpJMmZtaE53aE96NmhJRzh5NWxqMlo0emdSNUgza1lyZW1oSFJuc3JOSDVZUzRwX3NjSjh5ZzY5MmxJMDU1SXN3?oc=5",
+      "date": "2026-07-14"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "EXCLUSIVE: Nordic Knots’ Fresh Investment Proves Rugs Are a Hot Bet - WWD",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxON0lYaEg5QzlkSXFPRDFWZ3RpbG9VOGNFSW1VVDNadWhOQW5CWENEajAycEtveHRadGRsSVhyX1dmVVVMbjgxUGN2RTJMZTZTOGhhd0xzSVE4dDRURWdpaDk3enpHc0NwYUdkQUtYLWh4OHU1bFRURUxUNV9WU1pJQlhOOEJaanlWdWE3dnpMYklsaXM4Y0M1SUJHaVNaZw?oc=5",
+      "date": "2026-03-26"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Hook Announces $10M Series A Funding Round - Billboard",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0UnlfMnNXQ19zdVVtRHIzZXJVbzFKOHVyX0gyVlI0MEVxV1ZURU5uLTRFWHd4VFVERzRsUW5PcGtxZW5Bdm9aTktZX3pWTkhaSVZNTDdWaEZTeWQzbEpSTGlGb0tPWXpNRlpGMUp3Tk5La2pudjJKaThRQQ?oc=5",
+      "date": "2026-02-18"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Swedish rug brand Nordic Knots valued at €1.9 billion after new €86 million investment - EU-Startups",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeGJwaG9leU0zUTE5RjNReXJyYXJDUTU1TWNHQ1l5V0w3dktzbTdLSVRUQTc5X08xZTE2Sm9TNTJQcTBPVnJ3eEpJa3J2a216WDZUWVlPTDN2blVTRmp6X0JLa1g2eWxTby1CX3lVVnpBNGlTX1cyamh6anoyOVRtbXV1V0dPLUlBdHpnX2FVbXZDMTRxMGVXYnRZR2ZtOGV3OVZ6d19IbVh0Sjh5UmhfT2JSTDJMWS01LUxENHVXc24?oc=5",
+      "date": "2026-03-27"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "How Alix Earle turned viral fame into a business - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTnVDQUhIbjZHVWVXa1VHb2hsUHBJT2g3TjRoSl9XcXo2d0diaEdFa2M0UkppbWpNbHNYWThGWDY0NkxlcUtQZlZFVXhYLWR1RlBRSFJOYlBfOHBTTnRpY2NmTDdFMHBDaDlMcjVhZWdfc2JUMUpkbkEwT3cyRlZzZWJkYzFuNmlELVFia0FLM1FadXBvZzB5M1ZwUTVDM21NOFVTVjJoZ1AtYWhuSGxrYWhKS0pZMTNWZUlicWZfcw?oc=5",
+      "date": "2026-03-26"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "How Tom Holland's NA Beer Company, Bero, Plans to 3x Revenue During a 'Difficult Time' for Beer - inc.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUFMydVR3WVJsTU0tazZ2bWk1ZEtFMXlMLWJhSWd2REZsQWF5UTEwbVp1ZTRqS3BDZmhtcHNUVi1ORmZWcVNUTm5YWU5wWmxycGJuM2hjcWNPa1Zpa3prRUlXdVJBYjlZZ01MZTNTMlNVUnJ5ZFh1dzVDMzhOdGFEN19KWHRSN2txclNfaDV6ZzlCbHhKLXFORm1odnB1ZXl5Y25BZlhhMTlKNTdPMXVMV3FocFYtdXFLV1VBOFZvVGVwQQ?oc=5",
+      "date": "2026-01-20"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "EXCLUSIVE: Alix Earle Talks Acne Journey and Creating Reale Actives, Her New Skin Care Brand - WWD",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYUQ2c3VBWFN3RHV5MEwwMkJCOGRPcHVDNzE2c00yTXBDWlVKb2pvTHQxdUc3Tm1xdldRM0YyOU1ZLUNZa1hqOHBaWHF6RkdYalJBQm5WMTBjOXo5bG1BYkhLX2FuTFF3aUVYa2dRTHBGSXJtdXhndWtnb2VXVXBTUzNLd05KbE5qQWNpZ3NTbVdfekJRSm5SUm9fbVpLMlk?oc=5",
+      "date": "2026-03-24"
     }
   ],
   "people": [

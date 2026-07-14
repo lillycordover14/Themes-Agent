@@ -23,8 +23,86 @@
     "x": "https://x.com/moderneventures",
     "linkedin": "https://www.linkedin.com/company/moderne-ventures"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-04-28",
+      "type": "Post",
+      "title": "Moderne Ventures announces eight new companies selected to join its exclusive Moderne Passport industry immersion program - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPSHFlNm1HSXk1QjBEaEdRZVZCbUNFLTg1VE5nV01oS1VKZ0cwNkhCWC1LT2J6T0JvNU9ndUpneVFPTVBsX3A4YVRGN3lNYVZqbU80UTAwZzRhVkVTdFBLLVZaUDIzbFdLVGQyWTlmOEEtVEdnSTBnUDlnYmlhb3FLRC14T2pHVUFjZl9iaEtDSk9WWFhEZ0tsd01POWYtVk9xNmlwOXcyc3hVeGppN3ZMS2R4RC1BanJyZGZNZHdybEhyOEFhTERBUTR2R1JCNU5IclNvNFNIcG9lbFA4Sl9FOG1TUklqd01qelduVnh6OUl0ejRZMk9XMlF5cDRpTVVtUUhIdklUWU4?oc=5",
+      "summary": "Moderne Ventures announces eight new companies selected to join its exclusive Moderne Passport industry immersion program&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-01-27",
+      "type": "Investment",
+      "title": "Mesh payments network raises $75 million, acquires unicorn status - CoinDesk",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeWhlT2RueXN6bUJybjljd1V2b0pVSW4yUFgyMkMzS2ZWTlJPOWtIUXVoRnowWk5uemdoTlVrcFp1ZG9KQzhneVpXXzBfREl5Q3ZsZ0I3VkdLaXNCVi1Nb25SNG96ZTdZVFJZUWlDWFoxQ0ZzWG05d0d0dFFibS1qX0o1TnNLMnpsWE9KdzFkZ0xOaWwxejZpYTFNeEhJS1ozamVRRHJoSEp0Y3BCMnZKb0U3QUJEcmR5VzBuYUxR?oc=5",
+      "summary": "Mesh payments network raises $75 million, acquires unicorn status&nbsp;&nbsp;CoinDesk"
+    },
+    {
+      "date": "2026-01-27",
+      "type": "Investment",
+      "title": "Mesh Secures $75M Series C, Reaches $1B Valuation to Build the Universal Crypto Payments Network - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVk1yckd6MFhjOGpqX3hOcEp2VnhLMlpINm5Ddm5VLVp5bV9vek5RWXA0WWtOTGZTWS1fRERwUm1UcV9zTVF6QUFLc1ZJenU2dUZmQUtDSDBITmVqTnFRUEo2dDllbGRsaXdfc1dVTFFxQjh5QWpnRnFBSEVxUDFoRFU5YTRoRkdURldZczRkNTdMaDdEdXMwTGtYZXYzS0JZZkh2U1d5M0h5WERZQmpPS1hzM2U3RlMyN1pCcDdyOVBiczBrTHAxRWlCYmpsd1ljdEVuMHpzcXVGanJ6dF9NcFZ3UQ?oc=5",
+      "summary": "Mesh Secures $75M Series C, Reaches $1B Valuation to Build the Universal Crypto Payments Network&nbsp;&nbsp;PR Newswire"
+    },
+    {
+      "date": "2026-01-27",
+      "type": "Investment",
+      "title": "Crypto payments startup Mesh raises $75M at $1B valuation - SiliconANGLE",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObmdSTEdxV1h0VFhLMXBadUJ4d1hTUFBtUzRCRVhHRjBWbVpLRHhlV1N5VmdlaTd4cXV1MG1VNjZUNmxqc0FKQjBLOFFfSDFQOTFPeGIxb2FReFBWaFVKN1p5WGhxZnFEQUplazZmUWVqdS04LVRTVEx0Wk9UT213TWpVTV96cVlsMEZ0WHlyTFhkblk?oc=5",
+      "summary": "Crypto payments startup Mesh raises $75M at $1B valuation&nbsp;&nbsp;SiliconANGLE"
+    },
+    {
+      "date": "2026-01-26",
+      "type": "Investment",
+      "title": "Orbital raises $60M Series B to automate real estate law with AI - Tech.eu",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQXzZXWDVVUXZ6UXpiYnlvaVFpbklDcThGRThqQkwxMFUwTGM4TTRSQ2NqQXpoczFXOVU0MXR6Mmp6bzFGN3FqRERJOW5TbDREV08wXzB3aEh5d3ROdzNyRVMzdmZ4emxxMi1PTWc3a1BTNW0wd3ZITWRSaVJfc2hrLXlSd3dxMXl6aUVVbDR5TGZQTnJYLVE?oc=5",
+      "summary": "Orbital raises $60M Series B to automate real estate law with AI&nbsp;&nbsp;Tech.eu"
+    },
+    {
+      "date": "2026-01-26",
+      "type": "Investment",
+      "title": "London's LegalTech Orbital raises €50 million Series B to expand AI platform for real estate law - EU-Startups",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSjBiYUhTajdBMmZDTGViaTVaR3YwWEdfWlNaY0hySldDRHZraHJDX2FYNmJsV1FuNjRFR0xPeXdRV1hBN25waHdqVFBUeW84dlpDVTJiVjlzWW84VkVsakN6aHIyVTJDT3NFYTdSZVowcXcyZW16LWpHalpTOFpZUjZ0cWh6QkdwRDQwR2xOdTJfZ0J2VlBHb1pXSVpabkRoWGxuTnY3ZEVPa01HX0E0ZDl2OFduMVNTODluSUM2aFdTbXpDU3BZTENwRmI?oc=5",
+      "summary": "London's LegalTech Orbital raises €50 million Series B to expand AI platform for real estate law&nbsp;&nbsp;EU-Startups"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Moderne Ventures announces eight new companies selected to join its exclusive Moderne Passport industry immersion program - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPSHFlNm1HSXk1QjBEaEdRZVZCbUNFLTg1VE5nV01oS1VKZ0cwNkhCWC1LT2J6T0JvNU9ndUpneVFPTVBsX3A4YVRGN3lNYVZqbU80UTAwZzRhVkVTdFBLLVZaUDIzbFdLVGQyWTlmOEEtVEdnSTBnUDlnYmlhb3FLRC14T2pHVUFjZl9iaEtDSk9WWFhEZ0tsd01POWYtVk9xNmlwOXcyc3hVeGppN3ZMS2R4RC1BanJyZGZNZHdybEhyOEFhTERBUTR2R1JCNU5IclNvNFNIcG9lbFA4Sl9FOG1TUklqd01qelduVnh6OUl0ejRZMk9XMlF5cDRpTVVtUUhIdklUWU4?oc=5",
+      "date": "2026-04-28"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Orbital Raises $60m, LexisNexis-Connected Fund Invests - Artificial Lawyer",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb0JPcmt2a0sxWjJWQVZxYld1WHJTZjZ0Zl81Z0pJbktESTRrSzlaczFBTnZBbUdoNGhxanBNSzlISXhvY3M0TUpGMHJCazNqcVVXcGdtb2VjeVBZNVl6cjJ0MS1ycGwteFNMTXRRNUVpb1BLSXVRTWlLT1BaTy1xLWZHS3I1Yk15Z3ViTXlJWW9ZTU51cjRIQVFLVkh0Zw?oc=5",
+      "date": "2026-01-26"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "London's LegalTech Orbital raises €50 million Series B to expand AI platform for real estate law - EU-Startups",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSjBiYUhTajdBMmZDTGViaTVaR3YwWEdfWlNaY0hySldDRHZraHJDX2FYNmJsV1FuNjRFR0xPeXdRV1hBN25waHdqVFBUeW84dlpDVTJiVjlzWW84VkVsakN6aHIyVTJDT3NFYTdSZVowcXcyZW16LWpHalpTOFpZUjZ0cWh6QkdwRDQwR2xOdTJfZ0J2VlBHb1pXSVpabkRoWGxuTnY3ZEVPa01HX0E0ZDl2OFduMVNTODluSUM2aFdTbXpDU3BZTENwRmI?oc=5",
+      "date": "2026-01-26"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Sigma360 Secures $17MM Series B to Scale AI-Powered Financial Crime Prevention and Compliance - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYkJnckVSYU1lTkEwa3lxcGdLZjF0SUlJT21zU29QUVRJUlJGcnc0R0pZUllSWllKU296OXAxUTQ3aGZzNkZiOGJ0bk4ySmVON250aGRlczdwTFZRU0RYdFVXWnliYnVBaDlXYThrUFJhbTFfUUd3OWp4cXM4ZHl6cUNaTldnZjZUZWl1Y3dRTDZVaVY1ZmUyVW5jRWNtMEhwUUl1bmFfVWFFbFJVN3o3UWswazV5ZktGWlVObHhZVG45QmhZRWxBWEhpbXVUUWttRGhCLTRISDVtU2JyUmJ1YW5B?oc=5",
+      "date": "2026-03-10"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Mesh Secures $75M Series C, Reaches $1B Valuation to Build the Universal Crypto Payments Network - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVk1yckd6MFhjOGpqX3hOcEp2VnhLMlpINm5Ddm5VLVp5bV9vek5RWXA0WWtOTGZTWS1fRERwUm1UcV9zTVF6QUFLc1ZJenU2dUZmQUtDSDBITmVqTnFRUEo2dDllbGRsaXdfc1dVTFFxQjh5QWpnRnFBSEVxUDFoRFU5YTRoRkdURldZczRkNTdMaDdEdXMwTGtYZXYzS0JZZkh2U1d5M0h5WERZQmpPS1hzM2U3RlMyN1pCcDdyOVBiczBrTHAxRWlCYmpsd1ljdEVuMHpzcXVGanJ6dF9NcFZ3UQ?oc=5",
+      "date": "2026-01-27"
+    },
     {
       "person": "Constance Freedman",
       "show": "Fiftyfaces Podcast",

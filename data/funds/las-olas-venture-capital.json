@@ -23,8 +23,37 @@
     "x": "https://x.com/lasolasvc",
     "linkedin": "https://www.linkedin.com/company/lasolasvc/"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-04-01",
+      "type": "Post",
+      "title": "The AlleyWatch Startup Daily Funding Report: 4/1/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOejJfdkpyUHE4b0ppVlFteU9VZVNRdGxma2tlS2tLZ2xDTEFJZEFfaWx4WHRtWndmVm1heTFBSk9tOHJmLWlxMk5udldKRGRHMW14SEhyQUVQVU9HbkRfX19PTEN5czlzVzl1WHZYQTdKRTZieVZLWFFKTTFhVTJtZ0kxUlNKd2ZtdGphV21URDVIQQ?oc=5",
+      "summary": "The AlleyWatch Startup Daily Funding Report: 4/1/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-03-06",
+      "type": "Investment",
+      "title": "City Detect, which uses AI to help cities stay safe and clean, raises $13M Series A - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTXdHMUpUczlkWkwxcHZfbHpHRWhqclplSG5VRFpPQmlKYWtPX2gxUDZEYVA0RzY1Tm5mUTB4aWEzWUxhUzN3WDd4MHlkYXVaZ0RTYTk2amswelVpSWdoY2djby1QaWRjY0Z6U2EtM0VpWVh3amRsRUdvSmt6XzBVTXZ6ZXdkeWpSRGtYMXJ5cFYzZkE?oc=5",
+      "summary": "City Detect, which uses AI to help cities stay safe and clean, raises $13M Series A&nbsp;&nbsp;TechCrunch"
+    }
+  ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Qualified Health Raises $125M Series B | Avo Raises $10 Million Series A - Healthcare IT Today",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTXZ6WEJ2UGlyY2Z3cXhGd3NXVE1oWnBVdW1sM0ZuUlZhb2lHdW5GVjJhMmpvbW1vSlQ3cENDOFdDdEIzNjVWeFJwam5RYlZyd3VQTExqZ0JJb1dPVmxrNjJFanFDbmlKLU1tUEUxcGpEN1hpTzR6UExEa041T3YtQ3kzQ1IwWm05UWVqakZBMXhLeGdvQkQ3RlFCcnNpQWFvZExwRHNmT0pYVFhQODNydEQ4UDg?oc=5",
+      "date": "2026-04-09"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "City Detect, which uses AI to help cities stay safe and clean, raises $13M Series A - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTXdHMUpUczlkWkwxcHZfbHpHRWhqclplSG5VRFpPQmlKYWtPX2gxUDZEYVA0RzY1Tm5mUTB4aWEzWUxhUzN3WDd4MHlkYXVaZ0RTYTk2amswelVpSWdoY2djby1QaWRjY0Z6U2EtM0VpWVh3amRsRUdvSmt6XzBVTXZ6ZXdkeWpSRGtYMXJ5cFYzZkE?oc=5",
+      "date": "2026-03-06"
+    },
     {
       "person": "Mark Volchek",
       "show": "Funded with Alex Wittenberg",

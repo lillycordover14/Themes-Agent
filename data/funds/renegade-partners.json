@@ -23,7 +23,36 @@
     "x": "https://x.com/RenegadePtnrs",
     "linkedin": "https://www.linkedin.com/company/renegade-partners"
   },
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-04-07",
+      "type": "Investment",
+      "title": "Renegade Partners backs Natter in $23M raise to replace enterprise surveys with AI-moderated conversations — TFN - Tech Funding News",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MSENBalgxczhnUk9YaGVWcmNDa0ZOZFRtZ2ZNMFk0bFVrTGRFS0ZUNmxMSVBUYlBTM19VaER4VmYtdEgxNFF1a2VfelBheVhwa2pzN0lLLUlWQ0IxSnhfb0lJV3RBWDZ4MlZOMHM4cG5fSlUzRWJFcU9B?oc=5",
+      "summary": "Renegade Partners backs Natter in $23M raise to replace enterprise surveys with AI-moderated conversations — TFN&nbsp;&nbsp;Tech Funding News"
+    },
+    {
+      "date": "2026-04-07",
+      "type": "Investment",
+      "title": "Exclusive: AI conversation intel startup Natter raises $23M - Axios",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOXRHZkM4N1MtZ2lJcTFVZk5sc2NQdHVoUFdWQW1ZQTEzTGRSd1QxczhUUkxkQk5TNUt5cHlaekJ1TDU3aFNMZ0Y4a2pqVkFVckdQZnVDbWxhQ2xDemNyeGtpai13VkhNdlRod0djSHdpT1Q1c2ZxdUVpMHNVSEY4eVd2QlI3TDQtc1FyWlN2bVlhbUp2bWhjS0VGdXFKa2JoMGZzYzBDcw?oc=5",
+      "summary": "Exclusive: AI conversation intel startup Natter raises $23M&nbsp;&nbsp;Axios"
+    },
+    {
+      "date": "2026-04-07",
+      "type": "Investment",
+      "title": "Natter Raises $23M to Scale AI Conversation Platform for Enterprise Insights - Ventureburn",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QUG9YTnM2Mm9YNzJJcjgwUGpjOTViU1FfVDVUaFlzLWpwQ3pDMUhjMmlTYlBmdGFhSFhfeER4aUFlV3FwQS1tWDdUYmYxVzhaMXI5V9IBVEFVX3lxTE9QUG9YTnM2Mm9YNzJJcjgwUGpjOTViU1FfVDVUaFlzLWpwQ3pDMUhjMmlTYlBmdGFhSFhfeER4aUFlV3FwQS1tWDdUYmYxVzhaMXI5Vw?oc=5",
+      "summary": "Natter Raises $23M to Scale AI Conversation Platform for Enterprise Insights&nbsp;&nbsp;Ventureburn"
+    },
+    {
+      "date": "2026-04-07",
+      "type": "Investment",
+      "title": "Natter Raises $23M to Scale Enterprise AI Conversation Intelligence - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRGN4dHJpVE9JQUxVbDNzY29WZjhTdXhDejF1MmMwUmx3cC1lbkdrby05bk5WdjBwYm13MnNFb3VPa2FydndIcVBCenJyaGRGaGo0X1JHWXF0OE9OYkVCY2xtSEdBOUZHRjFwSmpySkF0MU9heUkzR19iZDBXN0VzMGtRd1dmX05lVjVXU2NrUVBRRnFZNzFUSzcwU3FHaWRubUgwX01CX1VNZFozSlpkNzJPM1dDdTZTdWpDUS1xaw?oc=5",
+      "summary": "Natter Raises $23M to Scale Enterprise AI Conversation Intelligence&nbsp;&nbsp;PR Newswire"
+    }
+  ],
   "podcasts": [
     {
       "person": "Renata Quintini & Roseanne Wincek",

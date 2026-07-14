@@ -80,9 +80,51 @@
       "title": "Sand to Superintelligence: A Beginner’s Guide to the Silicon Stack",
       "link": "https://blog.canonical.cc/p/sand-to-superintelligence-a-beginners",
       "summary": "How a chip actually gets made, why two companies can stop the entire AI industry, and why AI is both the cause of the bottleneck and the best hope of fixing it."
+    },
+    {
+      "date": "2026-06-05",
+      "type": "Thesis",
+      "title": "The Simulator Is the Substrate",
+      "link": "https://blog.canonical.cc/p/the-simulator-is-the-substrate",
+      "summary": "Real-world data is no longer the bottleneck."
+    },
+    {
+      "date": "2026-05-29",
+      "type": "Thesis",
+      "title": "Eyes Are a Tax",
+      "link": "https://blog.canonical.cc/p/eyes-are-a-tax",
+      "summary": "The browser lost. The terminal won. Here's what that means for software."
+    },
+    {
+      "date": "2026-05-22",
+      "type": "Thesis",
+      "title": "Agents Can't Transact",
+      "link": "https://blog.canonical.cc/p/agents-cant-transact",
+      "summary": "The infrastructure gap keeping autonomous agents out of the real economy"
+    },
+    {
+      "date": "2026-05-20",
+      "type": "Thesis",
+      "title": "Power Law Lab - Venture Fund Simulator",
+      "link": "https://blog.canonical.cc/p/power-law-lab-venture-fund-simulator",
+      "summary": "What 10,000 simulated versions of our fund taught me about venture math &#8212; and the questions every GP should be able to answer."
     }
   ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "OpenGradient Announces $9.5 Million in Total Funding to Build the Compute Layer for Verifiable AI - AiThority",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaWV3TlNYNFhVUGdsQUg1MFhfQzA1M3hpdTRpeHpLNlMzMXpXRWFCa3BrSk1hODV4bUNsTnExV25QUVhRcnd5UlJjRUFRV0djMnFIUHVzZnZqSDVTZlJhMm51b3NqTDR1Z0VfMjNUNTd0RlBXSUlfVEdXOFFZaWlyRGh1NmlqaWM5QkJWV2FTRTJBMFF4dUFyT0FDeGRMYkpFd05JTDRTZHliSHlORFlJMFdKS0lFbUVBQnhFNXRRdWh4VWRaUktKdHFJU1duMWlIOGc?oc=5",
+      "date": "2026-04-15"
+    },
+    {
+      "person": "",
+      "show": "",
+      "title": "Decentralized AI is in a trough but real opportunities are emerging, crypto VCs say - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSWJaM2g4TW1NbC03ZHhEYXI2NTNJY3R6RlVKWkJZQ1JMSnVBSWRwYVpsQVBJTVg5b0kzTjd2M1BpQjU1ckY5WS1tb1c2WXdSVzZ1Q3BRb2RZUUkyWmFTTV8zUzRCQ1U3MGdaMkdGY0tUbk9UQlN3RWl4NEhfQTRtZnhUQnlFU2NYS200bk0tU3ZhbEd5c3p1N3NnYnkwc0ctQjdYalRmc3V4SEhLR0JBRF9wZm1zWTUzMEdRSHY3UDRNWE43T1E?oc=5",
+      "date": "2026-02-11"
+    },
     {
       "person": "Anand Iyer",
       "show": "Talking Tokens",
