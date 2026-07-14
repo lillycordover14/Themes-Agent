@@ -55,10 +55,11 @@
       "name": "Bretton",
       "domain": "bretton.com",
       "score": 10,
-      "stage": "Venture Unknown",
-      "months_since": null,
-      "headcount": 108,
+      "stage": "Series B",
+      "months_since": 5,
+      "headcount": 92,
       "signals": [
+        "Last round 5 mo ago (Series B)",
         "Momentum/PR: “Bretton AI Launches AI-Native Managed Services, Appoints Financial Crimes Veteran Rick Shooman ”"
       ],
       "url": "https://bretton.com",

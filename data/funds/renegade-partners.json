@@ -25,6 +25,13 @@
   },
   "updates": [
     {
+      "date": "2025-12-02",
+      "type": "New fund",
+      "title": "SEC Form D — Renegade Partners III, L.P.  (CIK 0002098680)",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Renegade%20Partners&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-04-07",
       "type": "Investment",
       "title": "Renegade Partners backs Natter in $23M raise to replace enterprise surveys with AI-moderated conversations — TFN - Tech Funding News",
