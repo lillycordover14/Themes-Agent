@@ -572,6 +572,18 @@
       "location": "London, England"
     },
     {
+      "name": "Verge.io",
+      "domain": "verge.io",
+      "desc": "The main product is a Private Cloud Operating System that integrates virtualization, storage, and networking into a single platform, allowing for efficient management of workloads on existing hardware. It utilizes Ultrac",
+      "stage": "SEED",
+      "last_amount": 0,
+      "total": 12080000.0,
+      "investors": [
+        "Zia Yusuf"
+      ],
+      "location": "Detroit Area, Michigan"
+    },
+    {
       "name": "Boost Technology",
       "domain": "withboost.co",
       "desc": "The main product is a B2B commerce platform that facilitates transactions between distributors and retailers, utilizing technologies such as WhatsApp for ordering and lightweight applications for demand and operations ma",
@@ -585,18 +597,6 @@
         "Ascension"
       ],
       "location": "128 City Road, London EC1V 2NX, England, United Kingdom"
-    },
-    {
-      "name": "Verge.io",
-      "domain": "verge.io",
-      "desc": "The main product is a Private Cloud Operating System that integrates virtualization, storage, and networking into a single platform, allowing for efficient management of workloads on existing hardware. It utilizes Ultrac",
-      "stage": "SEED",
-      "last_amount": 0,
-      "total": 12080000.0,
-      "investors": [
-        "Zia Yusuf"
-      ],
-      "location": "Detroit Area, Michigan"
     },
     {
       "name": "sherpa",
