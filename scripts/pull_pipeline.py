@@ -27,34 +27,45 @@ def hcall(url, method="GET", body=None):
 
 
 def enrich(name, domain):
+    """Resolve the company via typeahead, then fetch its full record (funding, headcount)."""
     if not KEY:
         return {}
-    tries = []
-    if domain:
-        tries += [("POST", BASE + "/companies", {"website_domain": domain}),
-                  ("POST", BASE + "/companies", {"website_url": "https://" + domain})]
-    tries += [("GET", BASE + "/search/typeahead?" + urllib.parse.urlencode({"query": name}), None)]
-    for m, u, b in tries:
+    q = domain or name
+    try:
+        d = hcall(BASE + "/search/typeahead?" + urllib.parse.urlencode({"query": q}))
+    except Exception as e:
+        print("  typeahead failed:", e); return {}
+    cand = None
+    if isinstance(d, dict):
+        for k in ("results", "companies", "hits", "data", "entities"):
+            v = d.get(k)
+            if isinstance(v, list) and v:
+                cand = v; break
+        if cand is None and (d.get("name") or d.get("entity_urn") or d.get("id")):
+            cand = [d]
+    elif isinstance(d, list):
+        cand = d
+    if not cand:
+        print("  typeahead: no candidates (keys=%s)" % (list(d.keys()) if isinstance(d, dict) else type(d).__name__)); return {}
+    it = cand[0] if isinstance(cand[0], dict) else {}
+    ident = str(it.get("id") or it.get("company_id") or it.get("entity_urn") or it.get("urn") or "")
+    m = re.search(r"(\d+)\s*$", ident)
+    cid = m.group(1) if m else ident
+    for u in [BASE + "/companies/" + urllib.parse.quote(cid, safe=""), BASE + "/companies/" + urllib.parse.quote(ident, safe="")]:
+        if not cid:
+            break
         try:
-            d = hcall(u, m, b)
-            c = d if isinstance(d, dict) and (d.get("name") or d.get("legal_name")) else None
-            if not c and isinstance(d, (dict, list)):
-                lst = (d.get("results") or d.get("companies") or d.get("hits") or []) if isinstance(d, dict) else d
-                for it in (lst or [])[:1]:
-                    if isinstance(it, dict) and (it.get("name") or it.get("legal_name")):
-                        c = it
-                    cid = (it.get("id") or it.get("entity_urn") or it.get("urn")) if isinstance(it, dict) else None
-                    if cid:
-                        try:
-                            c = hcall(BASE + "/companies/" + urllib.parse.quote(str(cid), safe=""))
-                        except Exception:
-                            pass
-            if c and (c.get("name") or c.get("legal_name")):
-                print("  harmonic ok via", m, u.split("?")[0])
-                return c
+            full = hcall(u)
+            if isinstance(full, dict) and (full.get("name") or full.get("legal_name")):
+                print("  enriched via %s | funding=%s headcount=%s" % (
+                    u.split("/")[-1],
+                    bool((full.get("funding") or {}).get("last_funding_at")),
+                    full.get("corrected_headcount") or full.get("headcount")))
+                return full
         except Exception as e:
-            print("  harmonic try failed:", m, e)
-    return {}
+            print("  companies/{id} failed:", e)
+    print("  falling back to shallow typeahead item (keys=%s)" % list(it.keys()))
+    return it
 
 
 def gnews(q, days=120):
