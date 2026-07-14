@@ -2,7 +2,8 @@
 """Build index.html from data/tailwinds.json + data/funds.json using scripts/dashboard_template.html.
 Also folds in Harmonic saved-search companies (data/harmonic_raises.json) if present, since the
 Harmonic pull runs before this build. Pure, no network."""
-import json, os
+import json, os, base64
+PW_HASH = "1d5aaaa4c93515f767b7fe618476505c1bfefdb92db1625648f46e3c431a16a8"
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -115,7 +116,9 @@ print("dashboard shows %d firms with activity (of %d tracked)" % (len(_active), 
 BLOB = json.dumps({"D": D, "F": F_DISPLAY}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
 TEMPLATE = open(os.path.join(HERE, "dashboard_template.html"), encoding="utf-8").read()
 html = TEMPLATE.replace("__BLOB__", BLOB)
-open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
+_gate = open(os.path.join(HERE, "gate.html"), encoding="utf-8").read()
+_gate = _gate.replace("__PAYLOAD__", base64.b64encode(html.encode("utf-8")).decode("ascii")).replace("__HASH__", PW_HASH)
+open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(_gate)
 print("built index.html (%d bytes) from %d funds" % (len(html), FUNDS.get("count", 0)))
 
 
