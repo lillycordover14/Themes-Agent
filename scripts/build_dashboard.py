@@ -9,6 +9,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = json.load(open(os.path.join(ROOT, "data", "tailwinds.json"), encoding="utf-8"))
 FUNDS = json.load(open(os.path.join(ROOT, "data", "funds.json"), encoding="utf-8"))
+if os.environ.get("OPENAI_API_KEY") or os.environ.get("ANTHROPIC_API_KEY"):
+    try:
+        import subprocess, sys as _sys
+        subprocess.run([_sys.executable, os.path.join(HERE, "synthesize_pov.py")])
+        FUNDS = json.load(open(os.path.join(ROOT, "data", "funds.json"), encoding="utf-8"))
+    except Exception as _e:
+        print("POV synthesis skipped:", _e)
+
 
 
 def merge_harmonic():
@@ -126,6 +134,8 @@ def compute_pov():
                 "podcast interview episode show host ai co founder ceo their your you our this that how why what its it is are "
                 "management llc lp inc first second why-now list latest update").split())
     for f in FUNDS.get("funds", []):
+        if f.get("pov_source") == "llm":
+            continue
         items = [(u.get("title") or "") for u in (f.get("updates") or [])] + \
                 [((p.get("title") or "") + " " + (p.get("show") or "")) for p in (f.get("podcasts") or [])]
         blob = " ".join(items).lower()
