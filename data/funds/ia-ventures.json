@@ -24,11 +24,25 @@
   },
   "updates": [
     {
+      "date": "2026-07-04",
+      "type": "Post",
+      "title": "#NYCtech Week in Review: 6/28/26 – 7/4/26 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE55MFI2SlpkNVB5Wk1Hd1JGcnBYRFpLbU9XMC1iR2E5S3l4YXI2a1FJQll2SmNUUjRxUklnVFVwSml0VVp0am5pVVBKRFAtOFBZdWxZUzRyNm9uNVAtTnJPQnA0WHctRl9fSnlQYVdOSmk4WDVScERzNg?oc=5",
+      "summary": "#NYCtech Week in Review: 6/28/26 – 7/4/26&nbsp;&nbsp;AlleyWatch"
+    },
+    {
       "date": "2026-07-03",
       "type": "Post",
       "title": "Vectra AI - 2026 Funding Rounds & List of Investors - Tracxn",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRDNJbmpNb1RPNDU5WkpRUllWUlBCNDZJVmRUWmgzaFRpQ3Z0aXRkbFJkaGU0N0hCWGk0VU5QclJKTGhFWXlobk94Z3Rxd3poYmxuLWxjSDNJNjR3YkdHNlhSaVhOa3BIZEZXZFFKNUJjVk5Wbml1d0I4Y0htaWhjQ1d2ZjNMdzVjUDJaWG9adnRidTZvWU5KMFV1SktFQnJvUHdCUkktbm8tVmpo?oc=5",
       "summary": "Vectra AI - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
+    },
+    {
+      "date": "2026-06-30",
+      "type": "Post",
+      "title": "Signifyd - 2026 Funding Rounds & List of Investors - Tracxn",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ3VEcGhQS0swTmJ5T3ItRjdreUZXNTcyQzdIemQ3ZXRyaDNWQ3ZYbTFkOGZVSk9zZW1SQTVCUWgzdEtpaGZCRXd5dTJySG9wdi01SGxWOXJ0SXBodTd3M2Y0U29DNmIwV185d2FqaEFWX2JMR1B4Z2htdUxSSE5RYXEtVlVJY1ZvbWJYdjFQa29lUUxPTDl4Qk80ZzFBNG4xWjctcXdaYTNGems?oc=5",
+      "summary": "Signifyd - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
     },
     {
       "date": "2026-06-29",
@@ -40,9 +54,23 @@
     {
       "date": "2026-06-26",
       "type": "Investment",
+      "title": "Hera Raises $27 Million Series A Led By Bain Capital Ventures - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOX3V0UkRIVDlaTVVROTNIcUdBS3g4OVlRZUV5N2tzNDluYlo2Q21leGRleElHbjRVYWpXbUNfYWZtUVJKM0RGUm5lTFZTRFQwN3pVeWVBSmlBRjRwYUY2YkhicWZNbklMWnpIbjVqREFsX09MOWo5YXpKNWZpZFppaWx3RnNLcWvSAYwBQVVfeXFMTXI5dGVuNVF6NTNCWmNFb2VQNWpaNWVDYnV1N0k1MThvM2k1TGc2TURRSlhmZzRiNm1rODJJWkZrMHNmblRBRFZqMmZlQ3pvYzlqeUxHQjRKRWFFRHhKckhzVEF4VFpaSENMdDl2UXIxUlN2V2prUFlKSHdZTnNsOXBOVndKaTktZUJmaEU?oc=5",
+      "summary": "Hera Raises $27 Million Series A Led By Bain Capital Ventures&nbsp;&nbsp;Pulse 2.0"
+    },
+    {
+      "date": "2026-06-26",
+      "type": "Investment",
       "title": "Hera Raises $27M To Bring its Senior Care ‘Coordination Layer’ To 25+ States - Home Health Care News",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY0V4XzVxbzJJeE8zN1lDeXlWQ0tPQW1JN0t5cHZPeFlIajNPR3BOMC02d2ZKYnIxMHVhdXZnRS0zdzV1UzRvV255QUxBSTV2b1lpR2ZoOVlPSVZYb3B5bGc5eHJVcDhLN0dNeUh4cU1RcjZnck1uX3pjZ05JbUxCUUdablRNWjN4N2NFQU5TcHFNWEM3cWlrNTZHQjlEd2IwNml6UU5GMlZnUWJyRDZzN0Nn?oc=5",
       "summary": "Hera Raises $27M To Bring its Senior Care ‘Coordination Layer’ To 25+ States&nbsp;&nbsp;Home Health Care News"
+    },
+    {
+      "date": "2026-06-19",
+      "type": "Investment",
+      "title": "Portal Biotechnologies Raises $9M in Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdjN0Q3BNeHZvMDEtb1ZyZml3OHhjc3Racm1aODNwcW00Z0FFb2ZhekpONGVUR2tWU1RKNTNrd2M2N043NXI5RS1vaUpNVTNnM0JuQmwxU0sycEdFZnNKWnRDRkNLREo2WE9jUjlNMzEwbFA0eHJ4Mlg5cjh3MXRELW53M2p5NDA?oc=5",
+      "summary": "Portal Biotechnologies Raises $9M in Funding&nbsp;&nbsp;FinSMEs"
     },
     {
       "date": "2026-04-27",
@@ -50,6 +78,20 @@
       "title": "Qualitate Raises $7M to Deliver Expert Intelligence in Days Instead of Weeks at One-Third the Cost - AlleyWatch",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUHVsTmxXT2ZmUFg0aEtwVURZa2lCSEk1aFRBZUdFa3VNXzlpTjJaYUVPR1NIemp1MUFnbFQ1djJGLThKNkNiSk1ZS1hwaG9YVWFqbl9kNWpYa0tEb2l2Y1BxcGFxN0RMbmplZ3c4SHh3ZTFpUk8xRXl3VTk0aUZXMTZrQmZ5OTBoYlRVdXA1WTg3WS1nNXZPVlBOOFN3WWcxc3Z4OVJGanc0a3I5bncyenVmZnBNU3NiWWRSRm50TTBfNk9NaEJZd3c0SXRzSjQ5SXZoWVB0VlE?oc=5",
       "summary": "Qualitate Raises $7M to Deliver Expert Intelligence in Days Instead of Weeks at One-Third the Cost&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-04-25",
+      "type": "Post",
+      "title": "#NYCtech Week in Review: 4/19/26 – 4/25/26 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hbkJKaDhtNlRZN01BdHp2VFNkOFZJQ1BubThXV2VJVFI2OGRTYnJBdFNraVktaENvLV9PdzV4UkgtSGJVUTNuYXJHVFlLd3NmNkNYaFFaM2NtYXdFTXFBYl9DWjZJa3R0QVJfTE1oamRzMjQ2ajBWazhGdjVGMWM?oc=5",
+      "summary": "#NYCtech Week in Review: 4/19/26 – 4/25/26&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-02-19",
+      "type": "Post",
+      "title": "Rapidata.ai is Has Eliminated the Biggest Bottleneck in AI Development – Human Feedback - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd215WDBvVDgyaGFJa3otNlJQLXJQaWpib3NGajBBcWhEWDE5czZsZHZwajhnQlpQQVdoLUltQWxCN2Fnck9YVFhhRVE4aGNfbGlqTVNkZ2tnQjdVTkFTdk1BNU51b05jajBDazUtYU5zbXFYUWdsSFd3TEJhcmxrdFE0MVpzTDl2UnEyUE1OMmVjeEJGaU9FanRtOXdlb3JpR0l0UENaMnpKQUlDX3llbVF3SFBnMzIwSFJiWHpxS3p3UU5TNTFyMVNjM0thajhYTFRiS2pQWGFuQQ?oc=5",
+      "summary": "Rapidata.ai is Has Eliminated the Biggest Bottleneck in AI Development – Human Feedback&nbsp;&nbsp;Business Wire"
     }
   ],
   "partner_substacks": [
@@ -59,6 +101,13 @@
     }
   ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Qualitate Raises $7M in Seed Funding - FinSMEs",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtMnRnLU5wMzZ6ejQ2SXYwXzRBUFMwOWY4amkzNjdSR1JOYl9rOHNfVzF4R2JlN0QzandnUVhEa1pVWHkwQXZCeXMtZmpZZ2dJX2J6R0VoSG1sMjJ4VmE5a3lZMUJDZlh1d3ZTM0lKMVZIRTg2cmlLdmh6Vmk?oc=5",
+      "date": "2026-04-21"
+    },
     {
       "person": "",
       "show": "",

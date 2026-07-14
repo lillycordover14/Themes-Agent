@@ -25,6 +25,13 @@
   },
   "updates": [
     {
+      "date": "2026-07-13",
+      "type": "Post",
+      "title": "The AlleyWatch Startup Daily Funding Report: 7/13/2026 - AlleyWatch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkhueGViYXltWC12Szg1WldfZE5JekR4MW84SUdtMkthZ1p1bUNndGJfM2FwbFpZSEtyRjBDSWhibW9aYTkyODVxN0o3bFRMU1RBajItdmVqcnpwaEsxS3VnMzFnUnJZQWFka2ttcEJmZWFmN3RQUVRpS04xUWJNVzhQOG5nSERYWm12M1dR?oc=5",
+      "summary": "The AlleyWatch Startup Daily Funding Report: 7/13/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
       "date": "2026-07-10",
       "type": "Investment",
       "title": "Vendelux raises $50M for AI events management platform — plus 5 more NYC VC deals to know - The Business Journals",
@@ -48,9 +55,37 @@
     {
       "date": "2026-06-26",
       "type": "Investment",
+      "title": "Redo Raises $81 Million Series B At $1.25 Billion Valuation - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTEczNFFjemxvVy1kcWpmcTBhY1EzMkQ2dUNqdWMxcmgtRXdONkxwdXBDLVBIMU9lNU1oZFJ2RmhLRzBoS1BBSHlUT1Ntam53Z21kc1VsRXAzRFkwOEpVZTdDc05FTWt0MVZTSkRFWHM4a2JPY0NmdlVmY0cxMVVlZk5FONIBiAFBVV95cUxNbVZ4eEV2RHBUaW1OUHVsbktESkwwMFpmeDFWUzBYSFFReUtMbkQwYVJyNkozWjgxRG9abmNBcWROY1EtZ3k3bVY4OWpCRFRuY0hObU5XU2F3S3ZlLWdFMUJjS1RrWEs4NHgtYkdQNWVYWWVLYlVfdm5MY3dHd2JEUmtSVTBUUG5a?oc=5",
+      "summary": "Redo Raises $81 Million Series B At $1.25 Billion Valuation&nbsp;&nbsp;Pulse 2.0"
+    },
+    {
+      "date": "2026-06-26",
+      "type": "Investment",
       "title": "Draper, Utah-based Redo Raises $81 Million in a Series B Round of Funding at a $1.25 Billion Valuation - Utah Money Watch",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMkNiYkhYZmFwSC03ZHdIdXVJWFFIaDRaTHNfRHNBLUk5NFA1aGY0V054WmduUVdFbm1nUHZUcnJwTERmVlVYUWJ6NFNkelc0RTJabXVoeUJ5cjNFSzc2NWtqZ3c0c21oVUVJSy1CU0pGRnNsOS1QRDNzREpncWNaWHhMaUJ0OVJjWm1TVFJPUDZackJBWHlfbUJMY1pzOGE1LU5LQWQ2TUVRS1pHNlBKdk5sd1F3Z0x4MUlQNW1VdVpZSmp0X1VLUE5wSQ?oc=5",
       "summary": "Draper, Utah-based Redo Raises $81 Million in a Series B Round of Funding at a $1.25 Billion Valuation&nbsp;&nbsp;Utah Money Watch"
+    },
+    {
+      "date": "2026-06-25",
+      "type": "Investment",
+      "title": "Redo Closes $81 Million Series B at $1.25 Billion Valuation, Eyes Global Commerce Platform - TechBuzz News",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DQ0luMmhLQTRrOUJVUENQSkJuX283UTcwQ1psVjZVS1RmZjZFemtjYjFSNVhkWDBPUXFxY3Q5VjFDUkZqUHpIVEQ0NF9PMW9wemVxTnRUbVN0VjZ4NzgwbGMwMnNLUQ?oc=5",
+      "summary": "Redo Closes $81 Million Series B at $1.25 Billion Valuation, Eyes Global Commerce Platform&nbsp;&nbsp;TechBuzz News"
+    },
+    {
+      "date": "2026-06-24",
+      "type": "Investment",
+      "title": "Thoma Bravo invests in padoa, Taktile raises $110M, Stegra raises €1.4B - Axios",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZDNPLWZRTG5JdGsxYkZoUVE3V1NkellNMHkzQlV2SkZ4WW9BMHFfbkkzME1xeEYwekpiWURSbWF5R1h1WEE3RlVUNmhDeTQ0V2Vzb1BfNGt5NWVMbzlyblB0aWdURTY4X1Y1VzU1WEMwWWFyYVo4eDhrS0lBRE9UZE5JVC14a2N6MFl3bXowejNRR1BmSUZoVDRSVXZudUIwdEVR?oc=5",
+      "summary": "Thoma Bravo invests in padoa, Taktile raises $110M, Stegra raises €1.4B&nbsp;&nbsp;Axios"
+    },
+    {
+      "date": "2026-06-24",
+      "type": "Investment",
+      "title": "Redo Raises $81M in Series B Funding - FinSMEs",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBiYmN3X1VIUHI1ZHlOa2hOVXlLc25vVUE4ZEFobVVWaWxTMUcyMmlHSVFZckFFTWYtVVpXSWZ3RmEzWDVrQm5ya0RFNW1NRHFlTnpNQmZ5MW1JWUZUODJqbTlndXczOC15T1dKZGMwRWlvUHV5dlpUSVFVZ3E?oc=5",
+      "summary": "Redo Raises $81M in Series B Funding&nbsp;&nbsp;FinSMEs"
     },
     {
       "date": "2026-06-24",
@@ -74,6 +109,20 @@
       "summary": "Ratio raises $15.8m to fuel development of AI agents&nbsp;&nbsp;FinTech Futures"
     },
     {
+      "date": "2026-04-14",
+      "type": "Post",
+      "title": "Glydways drives to $1b valuation and a billionaire's credit card - Axios",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hZ0d4YXNIR1NOUTZaZmZWNjFVZ0lzb2NoSVZBM3FVbnBpQnZ6N29mMHVQNkZnV3BERmFpeFM1MlFVLXlVQ21FMFJSX0tjdzFpMnVHOUlQZVpZMndkcm1VTjZSQ3hZcEtydGFRWWNXSzZ1Rm51RGgzYjFRa1ZTa2c?oc=5",
+      "summary": "Glydways drives to $1b valuation and a billionaire's credit card&nbsp;&nbsp;Axios"
+    },
+    {
+      "date": "2026-03-12",
+      "type": "Investment",
+      "title": "Qurrent: $15 Million Series A Raised For Autonomous Digital Workforce Platform - Pulse 2.0",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYlFRMGVEZDFYc0x4LURvZ2VJVkVtZS1WbkwwMF9LMGdXZ1ZEQ1RLRW9rY2tzS1hwVGZRaWFyTVd0Y1ZEcW0zdTMyb1gzdTRfYklXVkc0UEtoeWFmY1FIWUJqdko5UlQxOW5kb25lYndfZXhyRUpHMy14ZXBlcG9RcXRfRXlsQklrelJRd3ZKM0lsblBxSW0wUTJFdDbSAaIBQVVfeXFMUGZPOUN6aGR3OVVWa093SF9sRE8tQ21KMlpuRUpkWFZJSjYxcGNtZ05VaG81WEVOT2ltYnk4cXY1aWZNYnVJeUZTRTZYUHMtT0lvT3dicUVCUzBOV1JVa09yV1J2QnN3R0xTVjVsTWlZc1EtbWE2Ym5yRXJ2RWNRWDNDY2otbmN6Znc0ZGNvbTlGQWpnM09icVBjUm95eHdQZmtn?oc=5",
+      "summary": "Qurrent: $15 Million Series A Raised For Autonomous Digital Workforce Platform&nbsp;&nbsp;Pulse 2.0"
+    },
+    {
       "date": "2026-03-12",
       "type": "Investment",
       "title": "Exclusive: Digital workforce builder Qurrent raises $15M - Axios",
@@ -93,6 +142,13 @@
       "title": "The Weekly Notable Startup Funding Report: 3/9/26 - AlleyWatch",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDRIYk5QT2gyUGdVZzVuQmYyZ05aZGpNT3lZOERURjlfaVQ4bFp5SDFmRWlXcTNfVmtFTkp1LU9iMF9OUk56V3ZhbXJueEVPdHVSdkdKSVFTNEExOENRdDR5YTMzVVUxbkotc0pYY2g5aGN5RW03c2xmc0t6a3hWVjRXNThOT2FFR3JZVQ?oc=5",
       "summary": "The Weekly Notable Startup Funding Report: 3/9/26&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-02-03",
+      "type": "Investment",
+      "title": "RADICL Raises $31 Million for vSOC - SecurityWeek",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zOVZGZUc2VUJSUXBxbUNJNmkyWjJlaEJuaEtfZVhKNzdNeDlVNHFFaUprNnlqVjFYVklYVTVCM2JmV3YxVWxjWk5Ydi1WUGU1Z0N2Wk9mTHFIYWlmTVJNbEh4enFwU1lRTGpXRWZnZXTSAXZBVV95cUxPZFlpOVNHc0xiNFpPYmVlYlZSYUM4dlVuSVNUU1ZEU0kwLU1JQ0F2UXJkZVYyMHVqeVQ5aGJGa3NuQWZtMGpGOTN0QWNoTktDV0JURXJTZGR3ejBXaVBKMmtJVlBvdXFsUzE0UGNqaUk1X2c1dXF3?oc=5",
+      "summary": "RADICL Raises $31 Million for vSOC&nbsp;&nbsp;SecurityWeek"
     }
   ],
   "podcasts": [

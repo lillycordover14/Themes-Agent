@@ -34,6 +34,21 @@
       "location": "San Francisco, CA"
     },
     {
+      "name": "Adaptive",
+      "domain": "adaptive.build",
+      "desc": "The company offers an AI-driven financial management platform specifically designed for the construction industry, automating processes such as job costing, billing, and compliance documentation. It employs AI agents to ",
+      "stage": "SERIES_A",
+      "last_amount": 6500000.0,
+      "total": 32775000.0,
+      "investors": [
+        "Andreessen Horowitz",
+        "Exponent",
+        "Third Kind Venture Capital",
+        "Definition"
+      ],
+      "location": "New York, NY"
+    },
+    {
       "name": "Lyzr AI",
       "domain": "lyzr.ai",
       "desc": "Lyzr offers a platform for developing and managing autonomous AI agents that enhance enterprise workflows through secure and scalable solutions. The technology utilizes Reinforcement Learning, RAG summarization, and inte",
@@ -49,6 +64,20 @@
       "location": "Jersey City, New Jersey"
     },
     {
+      "name": "MeltPlan",
+      "domain": "meltplan.com",
+      "desc": "MeltPlan offers an AI-driven platform for pre-construction activities, focusing on building code compliance research and quantity takeoffs to improve construction workflow efficiency. The technology utilizes construction",
+      "stage": "SEED",
+      "last_amount": 14000000.0,
+      "total": 31409999.0,
+      "investors": [
+        "noa",
+        "Bessemer Venture Partners",
+        "DPR Construction"
+      ],
+      "location": "Berkeley, California"
+    },
+    {
       "name": "Auger",
       "domain": "auger.com",
       "desc": "Auger is developing an AI-powered supply chain operating system that integrates with existing infrastructures to unify data and automate complex operational tasks, enabling real-time insights for decision-making. The sys",
@@ -61,6 +90,21 @@
         "Oak HC/FT"
       ],
       "location": "Bellevue, WA"
+    },
+    {
+      "name": "Parspec",
+      "domain": "parspec.io",
+      "desc": "The company offers an AI-driven platform designed to streamline the discovery, quoting, and procurement processes in the construction materials industry, addressing inefficiencies from fragmented systems. It employs arti",
+      "stage": "SERIES_A",
+      "last_amount": 20000000.0,
+      "total": 51500000.0,
+      "investors": [
+        "Great Wave Ventures",
+        "Threshold Ventures",
+        "Building Ventures",
+        "Heartland Ventures"
+      ],
+      "location": "San Francisco , CA"
     },
     {
       "name": "Hostie",
@@ -138,6 +182,21 @@
       "location": "New York, New York"
     },
     {
+      "name": "Valarian",
+      "domain": "valarian.com",
+      "desc": "Valarian's main product is a secure software platform built on ACRA, designed to enable controlled data movement and enforce trust through compartmentalized data storage and access. The platform employs advanced encrypti",
+      "stage": "SERIES_A",
+      "last_amount": 50000000.0,
+      "total": 68554000.0,
+      "investors": [
+        "Founders Factory",
+        "Playfair",
+        "IQ Capital",
+        "XTX Markets"
+      ],
+      "location": "London"
+    },
+    {
       "name": "TJM Labs",
       "domain": "tjmlabs.com",
       "desc": "TJM Labs offers AI-driven automation solutions specifically designed for pharmacies, focusing on automating repetitive tasks such as prescription intake, data entry, and refill management. Their technology seamlessly int",
@@ -150,6 +209,34 @@
         "Arthur Ventures"
       ],
       "location": "Bear, Delaware"
+    },
+    {
+      "name": "Prolo",
+      "domain": "prolo.io",
+      "desc": "Prolo offers an AI-driven procurement platform specifically designed for the construction industry, which automates the material ordering process to improve project management efficiency. The platform utilizes technologi",
+      "stage": "SEED",
+      "last_amount": 5617113.0,
+      "total": 5617113.0,
+      "investors": [
+        "Andreessen Horowitz",
+        "Triple Point",
+        "Concrete Ventures",
+        "Explorer"
+      ],
+      "location": "London"
+    },
+    {
+      "name": "DSALTA",
+      "domain": "dsalta.com",
+      "desc": "The company offers a compliance management platform that integrates access reviews, risk management, and asset management to streamline compliance processes. It employs AI-driven automation for auditing and real-time ris",
+      "stage": "PRE_SEED",
+      "last_amount": 0,
+      "total": 100000.0,
+      "investors": [
+        "AI Startup Factory",
+        "Ismail Sebe"
+      ],
+      "location": "San Francisco, CA"
     },
     {
       "name": "ARC Intelligence",
@@ -179,6 +266,21 @@
         "Potencia Ventures"
       ],
       "location": "Los Angeles, California"
+    },
+    {
+      "name": "Project Q",
+      "domain": "projectqai.github.io",
+      "desc": "The main product is a software platform designed for API-first coordination of sensors, assets, and mission systems, enabling integration and interoperability across diverse environments without vendor lock-in. It utiliz",
+      "stage": "SERIES_A",
+      "last_amount": 17090325.0,
+      "total": 25944270.0,
+      "investors": [
+        "HENSOLDT",
+        "Heliad",
+        "SuperAngel.Fund",
+        "Project A"
+      ],
+      "location": "Berlin, Berlin"
     },
     {
       "name": "Oxipital AI",
@@ -583,12 +685,27 @@
       "location": "Bucharest"
     },
     {
+      "name": "Neocad",
+      "domain": "neocadsrl.com",
+      "desc": "The primary product leverages Generative AI to optimize the 3D CAD design process, allowing users to handle intricate design tasks with greater efficiency. This technology is designed to enhance productivity and support ",
+      "stage": "PRE_SEED",
+      "last_amount": 659377.0,
+      "total": 637467.0,
+      "investors": [
+        "40Jemz Ventures",
+        "HabiSmart",
+        "COIMA",
+        "Zest Group"
+      ],
+      "location": "Milan, Lombardy"
+    },
+    {
       "name": "ESGAgent.ai - AI Agents for ESG Compliance",
       "domain": "kleantech.com.au",
       "desc": "Klean Technologies offers a B2B SaaS platform that enables retailers to integrate sustainability initiatives into their operations, featuring tools for carbon footprint measurement, impact tracking, and customer engageme",
       "stage": "SEED",
-      "last_amount": 1700000.0,
-      "total": 2567791.0,
+      "last_amount": 725000.0,
+      "total": 1592791.0,
       "investors": [
         "DNX Ventures - US",
         "Prtnr",
@@ -610,111 +727,6 @@
         "Henrik Bohman"
       ],
       "location": "Estonia"
-    },
-    {
-      "name": "Shiprazor",
-      "domain": "shiprazor.com",
-      "desc": "Shiprazor is an eCommerce shipping aggregator that simplifies the shipping process by enabling users to compare rates from various logistics providers while offering real-time shipment tracking. The platform utilizes tec",
-      "stage": "SEED",
-      "last_amount": 250000.0,
-      "total": 3550000.0,
-      "investors": [
-        "Renew Capital",
-        "e4e",
-        "Norrsken22",
-        "Tremis Capital"
-      ],
-      "location": "Cape Town, Western Province"
-    },
-    {
-      "name": "ASGN Incorporated",
-      "domain": "everforth.com",
-      "desc": "ASGN Incorporated provides IT services and solutions that support digital innovation and transformation for commercial and government sectors, utilizing AI-powered Agile project management and integration with ServiceNow",
-      "stage": "",
-      "last_amount": 700000000.0,
-      "total": 700000000.0,
-      "investors": [
-        "JPMorganChase",
-        "Wells Fargo",
-        "Truist Securities",
-        "BofA Securities"
-      ],
-      "location": "Glen Allen, Virginia"
-    },
-    {
-      "name": "Aryval",
-      "domain": "aryval.io",
-      "desc": "Aryval distinguishes itself through its holistic strategy, encompassing the tracking of inquiries, automation of communication, facilitation of the check-in process, organization of data, and identification of yield retu",
-      "stage": "",
-      "last_amount": 800000.0,
-      "total": 800000.0,
-      "investors": [
-        "Prairies Economic Development Canada"
-      ],
-      "location": "Winnipeg, MB, Canada"
-    },
-    {
-      "name": "Mozu (Business/Productivity Software)",
-      "domain": "about.mozu-inc.jp",
-      "desc": "MOZU Inc. offers a digital transformation platform that tailors IT infrastructure to the unique operational requirements of various industries, aimed at improving productivity and creating new business opportunities. Add",
-      "stage": "SERIES_B",
-      "last_amount": 8070000.0,
-      "total": 12520000.0,
-      "investors": [
-        "Spiral Capital"
-      ],
-      "location": "WeWork, 21 Floor, Shiroyama Trust Tower, 4-3-1 Toranomon, Tokyo, Minato-ku, Japan"
-    },
-    {
-      "name": "苏州博纳讯动软件有限公司",
-      "domain": "beyondcent.com",
-      "desc": "Suzhou Bona Xundong Software Co., Ltd. is a computer software company based out of South of 4th Floor, Fuhua Building, No. 199 Chongwen Road, Suzhou Industrial Park, Suzhou City, Jiangsu Province, China.",
-      "stage": "SERIES_E",
-      "last_amount": 0,
-      "total": 38484509.0,
-      "investors": [
-        "Harvest Capital",
-        "JDT",
-        "Oriental Fortune Capital",
-        "Hone Capital"
-      ],
-      "location": "苏州市, 江苏省"
-    },
-    {
-      "name": "mode40",
-      "domain": "mode40.com",
-      "desc": "mode40 provides technology solutions aimed at improving manufacturing processes through the integration of systems such as PLC, SCADA, MES, and ERP, alongside IoT and industrial wireless infrastructure. Their offerings i",
-      "stage": "",
-      "last_amount": 800000.0,
-      "total": 800000.0,
-      "investors": [
-        "Prairies Economic Development Canada"
-      ],
-      "location": "Steinbach, Manitoba"
-    },
-    {
-      "name": "Marakisoft Technologies",
-      "domain": "marakisoft.com",
-      "desc": "Marakisoft is a trusted Ethiopian software solution provider and consulting company delivering ERP and POS solutions designed to simplify and scale business operations. With over 17 years of experience and more than 5,00",
-      "stage": "PRE_SEED",
-      "last_amount": 250000.0,
-      "total": 250000.0,
-      "investors": [
-        "Renew Capital"
-      ],
-      "location": "Addis Ababa, Addis Ababa"
-    },
-    {
-      "name": "Zendawa",
-      "domain": "zendawa.africa",
-      "desc": "The main product is a digital platform designed to enhance the operational management and online sales capabilities of neighborhood pharmacies, integrating telepharmacy and financial services. It utilizes machine learnin",
-      "stage": "PRE_SEED",
-      "last_amount": 250000.0,
-      "total": 250000.0,
-      "investors": [
-        "Renew Capital"
-      ],
-      "location": "Nakuru, Headquarters"
     }
   ]
 }

@@ -108,6 +108,62 @@
       "title": "Power Law Lab - Venture Fund Simulator",
       "link": "https://blog.canonical.cc/p/power-law-lab-venture-fund-simulator",
       "summary": "What 10,000 simulated versions of our fund taught me about venture math &#8212; and the questions every GP should be able to answer."
+    },
+    {
+      "date": "2026-05-18",
+      "type": "Thesis",
+      "title": "The Gap Is Hands: Why We Invested in Robo and the Future of Physical AI",
+      "link": "https://blog.canonical.cc/p/the-gap-is-hands-why-we-invested-in-robo-robotics",
+      "summary": "AI can manage a business, but it can&#8217;t stock a shelf. Inside the unpretentious startup building the $2,500 hardware layer for the global labor market."
+    },
+    {
+      "date": "2026-05-15",
+      "type": "Thesis",
+      "title": "Vibe coding SAFEs",
+      "link": "https://blog.canonical.cc/p/vibe-coding-safes",
+      "summary": "Every founder should be able to see, in dollars, exactly what they walk away with at a $1B exit."
+    },
+    {
+      "date": "2026-05-08",
+      "type": "Thesis",
+      "title": "The Agentic Economy",
+      "link": "https://blog.canonical.cc/p/the-agentic-economy",
+      "summary": "Why we think the fintech crowd is building on the wrong substrate"
+    },
+    {
+      "date": "2026-05-07",
+      "type": "Thesis",
+      "title": "The Memory Wall: Where AI’s Second-Order Effects Hit Silicon",
+      "link": "https://blog.canonical.cc/p/the-memory-wall-where-ais-second",
+      "summary": "In modern AI workloads, about 60% of energy is consumed by data movement between memory and compute."
+    },
+    {
+      "date": "2026-05-01",
+      "type": "Thesis",
+      "title": "The Loop Is The Moat",
+      "link": "https://blog.canonical.cc/p/the-loop-is-the-moat",
+      "summary": "Why we're underwriting closed-loop robotics"
+    },
+    {
+      "date": "2026-04-24",
+      "type": "Thesis",
+      "title": "The Inference Economy",
+      "link": "https://blog.canonical.cc/p/the-inference-economy",
+      "summary": "Five venture opportunities in the inference economy"
+    },
+    {
+      "date": "2026-04-21",
+      "type": "Thesis",
+      "title": "Blockchains as the substrate for physical AI",
+      "link": "https://blog.canonical.cc/p/blockchains-as-the-substrate-for",
+      "summary": "Minghui Xu published a paper in February 2026 proposing that blockchains are the natural infrastructure layer for physical AI."
+    },
+    {
+      "date": "2026-04-17",
+      "type": "Thesis",
+      "title": "The Bottleneck Is Never What You Think",
+      "link": "https://blog.canonical.cc/p/the-bottleneck-is-never-what-you",
+      "summary": "Multi-agent orchestration, robotics reliability, agentic payments, stablecoin distribution, and the grid's anchor tenant problem"
     }
   ],
   "podcasts": [

@@ -62,6 +62,13 @@
     {
       "date": "2026-05-14",
       "type": "Investment",
+      "title": "Fractile raises £160m+ for UK AI chip ‘moonshot’ - businesscloud.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWFUxVXFuV24tMFR5SFFMMXkwSnd3dzE4M29Jb1FmaUxtU21mWGVRMlBLZFZkWHJfVnktdWFpYnBSSGUxLWZ2WHB1SHVDR0hXRWNzOVl6QzBoTnhvUGlfZUQwdXhOOUlvZWdDVkltN2xQMklEVjBoaXlfTmV6VVBkalBtaW8?oc=5",
+      "summary": "Fractile raises £160m+ for UK AI chip ‘moonshot’&nbsp;&nbsp;businesscloud.co.uk"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "Investment",
       "title": "Ranger AI Raises $8.4M in Seed Funding - FinSMEs",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Sa0wta05oODhrMk92b1I2UEVNQ1lVOFdvRFRBUlpQN2M5Y08tSG9jdEZIMFRUMVNaVUhmVVJrX0VvbG5sYXcyMkNjcG4tRGN3a28tTFFKSXNhMElnSV9hWlUxNk5EVjBCZnBESUdaRWtwODU2Y2tUZTQ3TGp0OGM?oc=5",
       "summary": "Ranger AI Raises $8.4M in Seed Funding&nbsp;&nbsp;FinSMEs"
@@ -103,13 +110,55 @@
     },
     {
       "date": "2026-02-04",
+      "type": "Post",
+      "title": "Building with AI is now the “price of admission” for software startups, Inovia report says - BetaKit",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQThhTFhxQ0dWR3hzQUFNeUhSc05HdE16UHNpaHYyYTFscDdpcllUTkRsdXlYQ181RC1qaWUyeXRIT1Vsd3ZtN0VLWkRuQVp6cUhEY01UbUFVQjhpQ0w3QWIyeTctckIwTlFfT09iVFNwTjBvckZmMnJUZEF6SDZYZklrcnQ1RDRxVW9CMmR4amh2UHpvZ1FWNWlKdHR4b3hONVJDZHFMYzNmemRE?oc=5",
+      "summary": "Building with AI is now the “price of admission” for software startups, Inovia report says&nbsp;&nbsp;BetaKit"
+    },
+    {
+      "date": "2026-02-04",
       "type": "Investment",
       "title": "New data shows how AI is eating software investment - The Logic",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HWHJZVkFjTmxuRG5Jb05IODNBTHVkY1J3a3VCRDZtNWd1ejhsMUhGdnRxdVNOVEZtVzVhMzFpQ3RoSkFmNlpkU1RtM0lNSjVoUjZUb3h0THozb2tObHZSRVBidUo0MTMybEY3aEpVYw?oc=5",
       "summary": "New data shows how AI is eating software investment&nbsp;&nbsp;The Logic"
+    },
+    {
+      "date": "2026-01-21",
+      "type": "Post",
+      "title": "Mila and Inovia Capital are Partnering to Launch the Venture Scientist Fund, Propelling Canada's AI Research Excellence into Global Tech Champions - Yahoo Finan",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVmdZWC1RQUhXdk5IZmdwQmY0MnA1RFlQVFEwcFlyd1c2cnVnU0ZLZzUzRUtCZHhjMzlKU1dGYV9rRmYzVGVGSkgwT0VLZTh4Ymx1QXlTUUFFRWE4OHNkMUI1aW1sZWc4RFJYYmJKWmZ1anAxUmVPYjdua2s1OHNQblE5TTlWbXNtZmR3?oc=5",
+      "summary": "Mila and Inovia Capital are Partnering to Launch the Venture Scientist Fund, Propelling Canada's AI Research Excellence into Global Tech Champions&nbsp;&nbsp;Yahoo Finance"
+    },
+    {
+      "date": "2026-01-21",
+      "type": "Post",
+      "title": "Mila and Inovia launch venture fund to turn AI research “diamonds” into startups - BetaKit",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNemV1YjROZldPQndvdW5BUzFGeHBURGxKaEhPckZIYmxHaHhxV09LMTgtZkM0SDFxcWNPclc4cFVvT0lCcklzeGZKaGx2dGM0NDBReVJYNjNDZVdnVEJCRE0wRjhncmZPakxjbVk4WWlTRi14b204NGRxNm44WjRSek5vN3pGeVB4MVVzRExNMHprNzFWX2lzNmF1LURmbEQ1?oc=5",
+      "summary": "Mila and Inovia launch venture fund to turn AI research “diamonds” into startups&nbsp;&nbsp;BetaKit"
+    },
+    {
+      "date": "2026-01-21",
+      "type": "Post",
+      "title": "Mila and Inovia Capital announce $100M fund to boost Canadian AI - The Logic",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9QQjlwYmJ2bXRRc3pXcHdxX3NrcHE4dE5Yclc5dUR0LXZrbzJDSFFnYWJ3S09FMjE3Q0QyTUx5NXpIdktWZXE4RG1LRlBqWWlvWVBVNllKNG1yUTBtNFJBQXJGYmdIVE9QWlktS1RLNF8zLUh6enQ4?oc=5",
+      "summary": "Mila and Inovia Capital announce $100M fund to boost Canadian AI&nbsp;&nbsp;The Logic"
+    },
+    {
+      "date": "2026-01-21",
+      "type": "Post",
+      "title": "Quebec’s Mila institute raising $100-million fund for AI startups - The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNXFoRGNtYXYweHlzQWFPM1V2MlNvREFrSkM0RmZuZkRuUmQ0OWI5V3AxOS14R0hZbjN3Uno3T2xfWkFDQndVUUtNNGZhNkhPUWhMMkh1cXZodFE1bFdXb0FMY092bzE2NnQ1LWJjMENheVhhaEdwb1RtLW9EUmFiOGNGZzlwSUw3R2c2aHJYMG1MYmxaMHVqQWNIMXUzMzhVdWVqaWJXSGtrdXRJLWoxeWIzanc2NmZOOTNEd0VlX1BUNGU0TDBJNkRR?oc=5",
+      "summary": "Quebec’s Mila institute raising $100-million fund for AI startups&nbsp;&nbsp;The Globe and Mail"
     }
   ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Modem closes $4.4-million USD pre-seed round to help developers ship faster - BetaKit",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQm1HWXpNVFhDOXU2eXlfa1RmU1oydkl6VGZHUHUzX1NnSkVJVFlmWUhqN0FpMlV0NmtlWnY4VjVzWkI5b0NZWnZjNGZKd05KMmktQWhwYnlQc3ZoVHVzdy1LQlpuc1gtZnVvZ1JLVmRlQWctTlpZaGhBR1RHRU1OdkhOaTRTVTZPS0d6M2ItS3FvNFoxbm0tYmViYw?oc=5",
+      "date": "2026-02-10"
+    },
     {
       "person": "",
       "show": "",
