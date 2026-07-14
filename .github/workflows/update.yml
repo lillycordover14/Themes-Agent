@@ -3,7 +3,7 @@ name: Update Themes Agent dashboard
 # Runs autonomously on GitHub's servers — no local machine needed.
 on:
   schedule:
-    - cron: "0 12 * * 1"      # every Monday 12:00 UTC
+    - cron: "0 12 * * *"      # every day 12:00 UTC (~7-8am ET)
   workflow_dispatch: {}         # manual "Run workflow" button
 
 permissions:
