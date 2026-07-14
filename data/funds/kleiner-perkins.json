@@ -1,0 +1,69 @@
+{
+  "name": "Kleiner Perkins",
+  "slug": "kleiner-perkins",
+  "url": "https://www.kleinerperkins.com",
+  "focus": "Seed → growth; enterprise, consumer, AI, hard tech",
+  "tier": "VC",
+  "region": "Americas",
+  "meta": null,
+  "sources": {
+    "blog": "https://www.kleinerperkins.com/perspectives/",
+    "x": "https://x.com/kleinerperkins",
+    "linkedin": "https://www.linkedin.com/company/kleiner-perkins",
+    "news": "https://news.google.com/search?q=%22Kleiner%20Perkins%22"
+  },
+  "people": [
+    {
+      "name": "Mamoon Hamid",
+      "role": "Partner",
+      "x": "https://x.com/mamoonha",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Ilya Fushman",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "John Doerr",
+      "role": "Chairman",
+      "x": "https://x.com/johndoerr",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Annie Case",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Joubin Mirzadegan",
+      "role": "Operating Partner, GTM; host of Grit",
+      "x": "https://x.com/Joubinmir",
+      "linkedin": "https://www.linkedin.com/in/joubin-mirzadegan-66186854",
+      "substack": ""
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "Joubin Mirzadegan",
+      "show": "Grit (Kleiner Perkins)",
+      "title": "Host — weekly interviews with tech leaders",
+      "url": "https://podcasts.apple.com/us/podcast/grit/id1510985491",
+      "date": ""
+    },
+    {
+      "person": "Mamoon Hamid",
+      "show": "20VC",
+      "title": "Investing Lessons from Figma, Slack and Rippling",
+      "url": "https://podcasts.apple.com/us/podcast/20vc-kleiner-perkins-mamoon-hamid/id958230465?i=1000673812269",
+      "date": "2024-10"
+    }
+  ],
+  "updates": []
+}

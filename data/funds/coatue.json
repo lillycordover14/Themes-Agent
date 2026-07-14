@@ -1,0 +1,55 @@
+{
+  "name": "Coatue",
+  "slug": "coatue",
+  "url": "https://www.coatue.com",
+  "focus": "Crossover / growth; AI, enterprise, public + private",
+  "tier": "VC",
+  "region": "Americas",
+  "meta": null,
+  "sources": {
+    "blog": "https://www.coatue.com/insights",
+    "x": "https://x.com/coatuemgmt",
+    "linkedin": "https://www.linkedin.com/company/coatue",
+    "news": "https://news.google.com/search?q=Coatue"
+  },
+  "people": [
+    {
+      "name": "Philippe Laffont",
+      "role": "Founder & PM",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/philippe-laffont-9516b55/",
+      "substack": ""
+    },
+    {
+      "name": "Thomas Laffont",
+      "role": "Co-Founder & CIO Private Investments",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Kris Fredrickson",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "Philippe & Thomas Laffont",
+      "show": "BG2 Pod",
+      "title": "AI, IPOs, public & private markets",
+      "url": "https://www.coatue.com/blog/podcast/bg2-podcast",
+      "date": "2024"
+    },
+    {
+      "person": "Thomas Laffont",
+      "show": "Uncapped with Jack Altman",
+      "title": "Thomas Laffont from Coatue",
+      "url": "https://open.spotify.com/episode/5Oni8vWxMuhdOpsdKP6bdH",
+      "date": "2025-10"
+    }
+  ],
+  "updates": []
+}

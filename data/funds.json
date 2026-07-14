@@ -1,6 +1,6 @@
 {
   "generated": "2026-07-14",
-  "count": 182,
+  "count": 184,
   "funds": [
     {
       "name": "General Catalyst",
@@ -38218,6 +38218,130 @@
           "title": "Munich-based TWAICE secures €24 million EIB loan to scale predictive battery analytics for Europe’s energy transition - EU-Startups",
           "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTkNjOGZ3eHpFNWw5NGwwRnIzNGowaWN6RWUyMFNFSDhndUdBXzNOSUtZWG1xLUVZZHBRWERNMk9jTFZZNnp1N1FSa0kzQ2tobGYwZ3owT245VTZhZzhmWmgtUFRDN3JSTy1RUElJY1NDWkc4R0lJM0c3THhDMHJPMWY4UVBPNjM4bkhKTFN5VmJaeW92bWdXbHpBSS1vVE11RWZ6UC1FV3J5V3hkcXJJRjBYazVreFdwZWxhSXJnS09zZE5qckFOam9vLW1uOWZoUWJEa3hpNFE5TFAweENtdWIwS0lCc0pV?oc=5",
           "date": "2026-02-06"
+        }
+      ],
+      "updates": []
+    },
+    {
+      "name": "Kleiner Perkins",
+      "slug": "kleiner-perkins",
+      "url": "https://www.kleinerperkins.com",
+      "focus": "Seed → growth; enterprise, consumer, AI, hard tech",
+      "tier": "VC",
+      "region": "Americas",
+      "meta": null,
+      "sources": {
+        "blog": "https://www.kleinerperkins.com/perspectives/",
+        "x": "https://x.com/kleinerperkins",
+        "linkedin": "https://www.linkedin.com/company/kleiner-perkins",
+        "news": "https://news.google.com/search?q=%22Kleiner%20Perkins%22"
+      },
+      "people": [
+        {
+          "name": "Mamoon Hamid",
+          "role": "Partner",
+          "x": "https://x.com/mamoonha",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Ilya Fushman",
+          "role": "Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "John Doerr",
+          "role": "Chairman",
+          "x": "https://x.com/johndoerr",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Annie Case",
+          "role": "Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Joubin Mirzadegan",
+          "role": "Operating Partner, GTM; host of Grit",
+          "x": "https://x.com/Joubinmir",
+          "linkedin": "https://www.linkedin.com/in/joubin-mirzadegan-66186854",
+          "substack": ""
+        }
+      ],
+      "podcasts": [
+        {
+          "person": "Joubin Mirzadegan",
+          "show": "Grit (Kleiner Perkins)",
+          "title": "Host — weekly interviews with tech leaders",
+          "url": "https://podcasts.apple.com/us/podcast/grit/id1510985491",
+          "date": ""
+        },
+        {
+          "person": "Mamoon Hamid",
+          "show": "20VC",
+          "title": "Investing Lessons from Figma, Slack and Rippling",
+          "url": "https://podcasts.apple.com/us/podcast/20vc-kleiner-perkins-mamoon-hamid/id958230465?i=1000673812269",
+          "date": "2024-10"
+        }
+      ],
+      "updates": []
+    },
+    {
+      "name": "Coatue",
+      "slug": "coatue",
+      "url": "https://www.coatue.com",
+      "focus": "Crossover / growth; AI, enterprise, public + private",
+      "tier": "VC",
+      "region": "Americas",
+      "meta": null,
+      "sources": {
+        "blog": "https://www.coatue.com/insights",
+        "x": "https://x.com/coatuemgmt",
+        "linkedin": "https://www.linkedin.com/company/coatue",
+        "news": "https://news.google.com/search?q=Coatue"
+      },
+      "people": [
+        {
+          "name": "Philippe Laffont",
+          "role": "Founder & PM",
+          "x": "",
+          "linkedin": "https://www.linkedin.com/in/philippe-laffont-9516b55/",
+          "substack": ""
+        },
+        {
+          "name": "Thomas Laffont",
+          "role": "Co-Founder & CIO Private Investments",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        },
+        {
+          "name": "Kris Fredrickson",
+          "role": "Managing Partner",
+          "x": "",
+          "linkedin": "",
+          "substack": ""
+        }
+      ],
+      "podcasts": [
+        {
+          "person": "Philippe & Thomas Laffont",
+          "show": "BG2 Pod",
+          "title": "AI, IPOs, public & private markets",
+          "url": "https://www.coatue.com/blog/podcast/bg2-podcast",
+          "date": "2024"
+        },
+        {
+          "person": "Thomas Laffont",
+          "show": "Uncapped with Jack Altman",
+          "title": "Thomas Laffont from Coatue",
+          "url": "https://open.spotify.com/episode/5Oni8vWxMuhdOpsdKP6bdH",
+          "date": "2025-10"
         }
       ],
       "updates": []
