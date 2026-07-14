@@ -13,6 +13,14 @@
     "news": "https://news.google.com/search?q=Energize%20Ventures"
   },
   "people": [],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Munich-based TWAICE secures €24 million EIB loan to scale predictive battery analytics for Europe’s energy transition - EU-Startups",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTkNjOGZ3eHpFNWw5NGwwRnIzNGowaWN6RWUyMFNFSDhndUdBXzNOSUtZWG1xLUVZZHBRWERNMk9jTFZZNnp1N1FSa0kzQ2tobGYwZ3owT245VTZhZzhmWmgtUFRDN3JSTy1RUElJY1NDWkc4R0lJM0c3THhDMHJPMWY4UVBPNjM4bkhKTFN5VmJaeW92bWdXbHpBSS1vVE11RWZ6UC1FV3J5V3hkcXJJRjBYazVreFdwZWxhSXJnS09zZE5qckFOam9vLW1uOWZoUWJEa3hpNFE5TFAweENtdWIwS0lCc0pV?oc=5",
+      "date": "2026-02-06"
+    }
+  ],
   "updates": []
 }
