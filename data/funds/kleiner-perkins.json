@@ -88,6 +88,20 @@
   ],
   "updates": [
     {
+      "date": "2026-04-30",
+      "type": "New fund",
+      "title": "SEC Form D — Kleiner Perkins XXII Friends, LLC  (CIK 0002114662)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Kleiner%20Perkins&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
+      "date": "2026-04-07",
+      "type": "New fund",
+      "title": "SEC Form D — Kleiner Perkins Select Fund IV, LLC  (CIK 0002114651)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Kleiner%20Perkins&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-07-14",
       "type": "Investment",
       "title": "TerraFirma Raises $115M to Accelerate Construction on Earth and Beyond - Business Wire",

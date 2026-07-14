@@ -25,6 +25,13 @@
   },
   "updates": [
     {
+      "date": "2025-08-22",
+      "type": "New fund",
+      "title": "SEC Form D — Radical Ventures Growth Fund I, L.P.  (CIK 0002024166)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Radical%20Ventures&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-07-08",
       "type": "Investment",
       "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents - TechCrunch",

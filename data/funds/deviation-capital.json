@@ -25,6 +25,20 @@
   },
   "updates": [
     {
+      "date": "2026-07-13",
+      "type": "New fund",
+      "title": "SEC Form D — Deviation Co-Invest LLC - Deviate I  (CIK 0002144214)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Deviation%20Capital&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
+      "date": "2026-05-01",
+      "type": "New fund",
+      "title": "SEC Form D — Deviation Capital V LP  (CIK 0002131535)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Deviation%20Capital&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-06-01",
       "type": "Post",
       "title": "The Big Apple Is No Longer Big Enough for New York Venture Firms - WSJ",

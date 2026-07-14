@@ -24,6 +24,13 @@
   },
   "updates": [
     {
+      "date": "2026-05-15",
+      "type": "New fund",
+      "title": "SEC Form D — Norte NG.Cash SPV LLC  (CIK 0002118864)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Norte%20Ventures&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-03-24",
       "type": "Investment",
       "title": "BackChannel raises $4.8M seed round led by Sunna Ventures - LatamList",

@@ -24,11 +24,39 @@
   },
   "updates": [
     {
+      "date": "2025-11-28",
+      "type": "New fund",
+      "title": "SEC Form D — MVP Ventures Select Fund I AI LP  (CIK 0002098545)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=MVP%20Ventures&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
+      "date": "2025-11-28",
+      "type": "New fund",
+      "title": "SEC Form D — MVP Ventures Select Fund I QP LP  (CIK 0002096785)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=MVP%20Ventures&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
+      "date": "2025-10-27",
+      "type": "New fund",
+      "title": "SEC Form D — MVP Ventures II-QP LP  (CIK 0002009824)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=MVP%20Ventures&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-07-13",
       "type": "Investment",
       "title": "Manufacturing among focus areas as NSW backs 22 startups with innovation funding - Australian Manufacturing",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQT1ViSDVXNW9jX3RFOVJPS1E1V0RmOWpOaDc0dUtlZ2FkRWt0UVJ6TmxJbzM1MHgtWHNEYWV1cnlDcHlvcE9iUmlMTHFwRk5SejE4eS1PY0x2NHNtajNROGEzZWdDXzhpNVJteW5feFJOSXJHdlNialBpQXhnSV9hYWM2QVh5bmZLeFd2WWdOUDBEUEVVei1Zb1ozRlFjcTN0OER2U0RpaDVWUTQ2TnViUWhvbkRMUW85UlFTR09JcHB4Zw?oc=5",
       "summary": "Manufacturing among focus areas as NSW backs 22 startups with innovation funding&nbsp;&nbsp;Australian Manufacturing"
+    },
+    {
+      "date": "2026-06-02",
+      "type": "Investment",
+      "title": "Sekai Raises $26M in Seed and Series A as Users Create, Play, and Remix 15 Million Mini-Apps - The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPcnIzVWRWaDhscEFOVDIzYVJjRW1fU1BWRjdKR0NpQ244eFNDSld5bnZQOWltUEtubzRxS1VtRENDUDBRRVViWWY2Y0w2d0lMeTFlT0s0TzFhYlEwclkwVzl5WXpLbDVMOHplbXRVUHU1VnU1bjF3ZndhdlV6Zm5QYkVlTTRMZS1mckZMRTA5bUZNeG82NWIxQlZKS0dwUy1Nb2liMnBuQV9nMlBaWjFEMm5BN0ZDRnVBazQ3Z3NTbldkZjZ5YVcxVGlMd2lBQURHNW5HM3Z2cTdkUC0xXzFtRzNLcDBoYzVNNFB0VmM3cU5mODdKOXJtdA?oc=5",
+      "summary": "Sekai Raises $26M in Seed and Series A as Users Create, Play, and Remix 15 Million Mini-Apps&nbsp;&nbsp;The Globe and Mail"
     },
     {
       "date": "2026-06-02",
@@ -43,6 +71,13 @@
       "title": "Backswing Ventures Announces Fund II Surpasses 1.0x DPI in Under Three Years - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWm92Z0FKb2xkTDFUWFEzdWdTbjFLa0s1b1BodjBIaVIxVVRyWFNZSnJUMjg5NHJYOVY4QUJsbTN3MmJRdFVwVVBHRmo3S2t3aXNzY3A2TFBzbm0wT0NIYWpoczc4eHhhNXZiZGMtNWJjRUpITlFFVGFXczNrSzFIbk5yTUcycXRLUjJnMVBRWFotbDV3S2RiTWVaRXpHa2JBM2dZ?oc=5",
       "summary": "Backswing Ventures Announces Fund II Surpasses 1.0x DPI in Under Three Years&nbsp;&nbsp;Yahoo Finance"
+    },
+    {
+      "date": "2026-06-01",
+      "type": "Investment",
+      "title": "Exclusive: Sekai raises $20M for AI app creation - Axios",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RM05jb0RkbkRTZHM2TUItQ0JRQlM0UGZZQWNwQzdlWExmcWpydFc0dU5PWkVENFl0cDg5MlpmNkh3XzlYc3NycDhLdlR2VUtHNW11R2F1T3NBYTJrWlMyUUdZTzlwcW95cUxhcmZDa00?oc=5",
+      "summary": "Exclusive: Sekai raises $20M for AI app creation&nbsp;&nbsp;Axios"
     },
     {
       "date": "2026-06-01",

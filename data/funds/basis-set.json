@@ -10,6 +10,13 @@
   },
   "updates": [
     {
+      "date": "2025-12-12",
+      "type": "New fund",
+      "title": "SEC Form D — Basis Set Ventures IV, L.P.  (CIK 0002099637)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Basis%20Set&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-06-26",
       "type": "Investment",
       "title": "Tomo Raises $5 Million Seed Round Led By Bain Capital Ventures - Pulse 2.0",

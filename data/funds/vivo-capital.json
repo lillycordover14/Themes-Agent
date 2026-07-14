@@ -24,6 +24,13 @@
   },
   "updates": [
     {
+      "date": "2026-01-20",
+      "type": "New fund",
+      "title": "SEC Form D — Vivo Capital Fund X, L.P.  (CIK 0001938049)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Vivo%20Capital&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-06-12",
       "type": "Investment",
       "title": "SonoThera Raises $125M to Develop Ultrasound-Mediated Genetic Medicines - Genetic Engineering and Biotechnology News",

@@ -25,6 +25,13 @@
   },
   "updates": [
     {
+      "date": "2026-05-29",
+      "type": "New fund",
+      "title": "SEC Form D — DCVC Energy & Climate II, L.P.  (CIK 0002129288)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=DCVC&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-06-28",
       "type": "Post",
       "title": "Halter - 2026 Funding Rounds & List of Investors - Tracxn",

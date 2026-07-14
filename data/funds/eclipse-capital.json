@@ -25,6 +25,13 @@
   },
   "updates": [
     {
+      "date": "2026-05-13",
+      "type": "New fund",
+      "title": "SEC Form D — Eclipse Capital Long Short Fund, LP  (CIK 0002018132)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Eclipse%20Capital&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-07-06",
       "type": "New fund",
       "title": "Omni Ventures Closes Oversubscribed Fund I to Advance Digitization of Manufacturing Technology - 01net",

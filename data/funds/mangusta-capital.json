@@ -23,6 +23,13 @@
   },
   "updates": [
     {
+      "date": "2025-10-21",
+      "type": "New fund",
+      "title": "SEC Form D — Mangusta Capital Fund I, L.P.  (CIK 0002070429)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Mangusta%20Capital&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-06-11",
       "type": "Investment",
       "title": "Turnout Raises $35 Million Series A to Put an AI Advocate in Every American's Corner - PR Newswire",
@@ -45,6 +52,13 @@
     }
   ],
   "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Turnout Raises $35M Series A for AI Consumer Advocacy - Causeartist",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd21KcVZLNjlXelNycEEyaWZPMnBBeTMzaTVOYlNxYWdZdGhpaW14MHJvZGFlQTh0UHhIYzNBYXF6TGZJd3NfV0pHWHo2bGRPdV9tNnVIOEp2TWJ5QW9HeklaYmxqLUJBZjllOXVmWURMbWlNUUNNZmtJb3ZjLUtFLUQ0MkpVQzBvRE9tTmVhV1d2T01iSElMMkVB?oc=5",
+      "date": "2026-06-12"
+    },
     {
       "person": "",
       "show": "",

@@ -25,6 +25,20 @@
   },
   "updates": [
     {
+      "date": "2026-03-03",
+      "type": "New fund",
+      "title": "SEC Form D — NFX SL Advantage I, L.P.  (CIK 0002109603)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=NFX&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
+      "date": "2026-02-27",
+      "type": "New fund",
+      "title": "SEC Form D — NFX SST Advantage Feb 2026 a Series of NFX SPV Master LLC  (CIK 000211",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=NFX&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-07-13",
       "type": "Post",
       "title": "NFX UK’s $650,000 boost signals a new era for novel foods regulation - Food and Drink Technology",

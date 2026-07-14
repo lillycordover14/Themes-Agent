@@ -25,6 +25,13 @@
   },
   "updates": [
     {
+      "date": "2026-04-02",
+      "type": "New fund",
+      "title": "SEC Form D — Spark Capital Growth Fund VI, L.P.  (CIK 0002123891)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Spark%20Capital&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-07-10",
       "type": "Investment",
       "title": "xCures Closes $46 Million Series B Financing | Cadence Raises $100M Series C Led by Spark Capital - Healthcare IT Today",

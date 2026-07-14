@@ -6,7 +6,7 @@
     {
       "name": "Zingage",
       "domain": "zingage.com",
-      "desc": "Zingage offers an automation platform designed for home care agencies, utilizing AI-driven agents to manage scheduling, engagement, and operational workflows to improve care coordination. The technology integrates with e",
+      "desc": "Zingage provides an automation platform for home care agencies that utilizes AI-driven agents to manage scheduling, engagement, and operational workflows, enhancing care coordination. The technology integrates with elect",
       "stage": "SEED",
       "last_amount": 0,
       "total": 12500000.0,
@@ -49,6 +49,21 @@
       "location": "New York, NY"
     },
     {
+      "name": "Feathery",
+      "domain": "feathery.io",
+      "desc": "The company provides an AI-powered platform that automates processes such as client onboarding, underwriting, and proposal generation for the financial services industry. It utilizes advanced document analysis, a no-code",
+      "stage": "SERIES_A",
+      "last_amount": 0,
+      "total": 4050000.0,
+      "investors": [
+        "Index Ventures",
+        "Clocktower Ventures",
+        "Allstate Strategic Ventures",
+        "BrokerTech Ventures"
+      ],
+      "location": "San Francisco, California"
+    },
+    {
       "name": "Lyzr AI",
       "domain": "lyzr.ai",
       "desc": "Lyzr offers a platform for developing and managing autonomous AI agents that enhance enterprise workflows through secure and scalable solutions. The technology utilizes Reinforcement Learning, RAG summarization, and inte",
@@ -66,7 +81,7 @@
     {
       "name": "MeltPlan",
       "domain": "meltplan.com",
-      "desc": "MeltPlan offers an AI-driven platform for pre-construction activities, focusing on building code compliance research and quantity takeoffs to improve construction workflow efficiency. The technology utilizes construction",
+      "desc": "MeltPlan provides an AI-driven platform designed for pre-construction activities, focusing on building code compliance research and quantity takeoffs to enhance construction workflow efficiency. The technology employs co",
       "stage": "SEED",
       "last_amount": 14000000.0,
       "total": 31409999.0,
@@ -94,7 +109,7 @@
     {
       "name": "Parspec",
       "domain": "parspec.io",
-      "desc": "The company offers an AI-driven platform designed to streamline the discovery, quoting, and procurement processes in the construction materials industry, addressing inefficiencies from fragmented systems. It employs arti",
+      "desc": "The company provides an AI-driven platform that enhances the discovery, quoting, and procurement processes within the construction materials industry, aiming to reduce inefficiencies caused by fragmented systems. It util",
       "stage": "SERIES_A",
       "last_amount": 20000000.0,
       "total": 51500000.0,
@@ -182,6 +197,21 @@
       "location": "New York, New York"
     },
     {
+      "name": "Linker Finance",
+      "domain": "linkerfinance.com",
+      "desc": "Linker Finance offers a fintech platform that enhances digital banking experiences for community financial institutions, featuring capabilities such as digital account opening, business onboarding, and commercial banking",
+      "stage": "SEED",
+      "last_amount": 5000000.0,
+      "total": 8820000.0,
+      "investors": [
+        "TenOneTen Ventures",
+        "Techstars",
+        "Audaz Capital",
+        "Commerce Ventures"
+      ],
+      "location": "Pasadena, California"
+    },
+    {
       "name": "Valarian",
       "domain": "valarian.com",
       "desc": "Valarian's main product is a secure software platform built on ACRA, designed to enable controlled data movement and enforce trust through compartmentalized data storage and access. The platform employs advanced encrypti",
@@ -255,7 +285,7 @@
     {
       "name": "EdVisorly",
       "domain": "edvisorly.com",
-      "desc": "The company provides an AI-driven enrollment platform that automates transcript processing and transfer credit evaluations, enhancing the transfer experience for students. Key technologies include automated data extracti",
+      "desc": "The company offers an AI-driven enrollment platform that automates transcript processing and transfer credit evaluations, aimed at enhancing the transfer experience for students. Key technologies include automated data e",
       "stage": "SERIES_A",
       "last_amount": 13300000.0,
       "total": 36330000.0,
@@ -698,35 +728,6 @@
         "Zest Group"
       ],
       "location": "Milan, Lombardy"
-    },
-    {
-      "name": "ESGAgent.ai - AI Agents for ESG Compliance",
-      "domain": "kleantech.com.au",
-      "desc": "Klean Technologies offers a B2B SaaS platform that enables retailers to integrate sustainability initiatives into their operations, featuring tools for carbon footprint measurement, impact tracking, and customer engageme",
-      "stage": "SEED",
-      "last_amount": 725000.0,
-      "total": 1592791.0,
-      "investors": [
-        "DNX Ventures - US",
-        "Prtnr",
-        "Greg Steele"
-      ],
-      "location": "Brisbane, Queensland"
-    },
-    {
-      "name": "display.dev",
-      "domain": "display.dev",
-      "desc": "Your AI agents create lots of files – how do you share them with teammates? •⁠ ⁠Your employees use agents. •⁠ ⁠Agents generate lots of docs – plans, reports, specs, dashboards. •⁠ ⁠Most of that output is sensitive and in",
-      "stage": "PRE_SEED",
-      "last_amount": 535838.0,
-      "total": 535838.0,
-      "investors": [
-        "Curiosity VC",
-        "FIRSTPICK",
-        "Outlast Fund",
-        "Henrik Bohman"
-      ],
-      "location": "Estonia"
     }
   ]
 }

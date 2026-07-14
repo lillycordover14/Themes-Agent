@@ -23,6 +23,27 @@
   },
   "updates": [
     {
+      "date": "2026-04-14",
+      "type": "New fund",
+      "title": "SEC Form D — Tamarack Global Opportunities III, LP  (CIK 0002124361)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Tamarack%20Global&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
+      "date": "2026-04-14",
+      "type": "New fund",
+      "title": "SEC Form D — Tamarack Global Impulse Space IV, LP  (CIK 0002124372)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Tamarack%20Global&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
+      "date": "2026-06-09",
+      "type": "New fund",
+      "title": "SEC Form D — Tamarack Global Opportunities II, LP  (CIK 0002011826)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Tamarack%20Global&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-05-21",
       "type": "Investment",
       "title": "Hark Raises $700M Series A at $6B Valuation to Build Secretive ‘Universal’ AI Interface - BBN Times",
