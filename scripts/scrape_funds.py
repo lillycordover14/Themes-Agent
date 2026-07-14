@@ -63,7 +63,7 @@ def entries_from(feed, from_blog, cutoff):
     out = []
     if not feed or not getattr(feed, "entries", None):
         return out
-    for e in feed.entries[:15]:
+    for e in feed.entries[:100]:
         title = (e.get("title") or "").strip()
         link = (e.get("link") or "").strip()
         if not title or not link:
@@ -125,11 +125,13 @@ def main():
             if key in seen or c["link"] in seen:
                 continue
             seen.add(key); seen.add(c["link"]); fresh.append(c)
+        allu = fresh + existing
+        cut = (datetime.date.today() - datetime.timedelta(days=DAYS)).isoformat()
+        allu = [u for u in allu if (not u.get("date")) or u.get("date") >= cut]
+        f["updates"] = sorted(allu, key=lambda x: x.get("date", ""), reverse=True)
+        total_new += len(fresh)
         if fresh:
-            merged = sorted(fresh + existing, key=lambda x: x.get("date", ""), reverse=True)[:MAX_ITEMS]
-            f["updates"] = merged
-            total_new += len(fresh)
-            print("  + %d new" % len(fresh))
+            print("  + %d new (total %d in window)" % (len(fresh), len(f["updates"])))
         # podcasts: discover partner/firm appearances from the web
         pods = entries_from(fetch(podcast_news_url(name)), False, cutoff)
         if pods:
