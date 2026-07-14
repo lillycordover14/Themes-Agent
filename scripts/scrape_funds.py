@@ -17,7 +17,7 @@ FUNDS_PATH = os.path.join(ROOT, "data", "funds.json")
 PER_FUND_DIR = os.path.join(ROOT, "data", "funds")
 DAYS = 180  # 6-month activity window            # look-back window
 MAX_ITEMS = 12        # keep newest N per fund
-INVEST_NEWS = __import__('re').compile(r"\\b(raises?|raised|series\\s?[a-e]\\b|seed|pre-?seed|funding|invests?|investment|backs?|leads?|led by|acquires?|closes?\\s+\\$|\\$\\d|new fund|fund [ivx]+|debut fund)\\b", __import__('re').I)
+INVEST_NEWS = re.compile(r"\b(raises?|raised|series\s?[a-e]\b|seed|pre-?seed|funding|invests?|investment|backs?|leads?|led by|acquires?|acquisition|closes?\s+\$|\$\d|new fund|debut fund|fund\s+[ivx]+)\b", re.I)
 UA = "Mozilla/5.0 (compatible; ThemesAgent/1.0; +https://github.com)"
 
 # Native RSS/Atom feeds where a fund publishes one (best-effort; extend freely).
