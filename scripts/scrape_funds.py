@@ -15,8 +15,8 @@ except ImportError:
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FUNDS_PATH = os.path.join(ROOT, "data", "funds.json")
 PER_FUND_DIR = os.path.join(ROOT, "data", "funds")
-DAYS = 60            # look-back window
-MAX_ITEMS = 8        # keep newest N per fund
+DAYS = 180  # 6-month activity window            # look-back window
+MAX_ITEMS = 12        # keep newest N per fund
 UA = "Mozilla/5.0 (compatible; ThemesAgent/1.0; +https://github.com)"
 
 # Native RSS/Atom feeds where a fund publishes one (best-effort; extend freely).
