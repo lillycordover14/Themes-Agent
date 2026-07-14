@@ -38717,18 +38717,18 @@
       "pin": true
     },
     {
-      "name": "Energize Ventures",
+      "name": "Energize Capital",
       "slug": "energize-ventures",
-      "url": "https://www.energize.vc",
-      "focus": "Climate/energy + industrial software & AI (early → growth)",
+      "url": "https://energizecap.com",
+      "focus": "Climate/energy transition + industrial software & AI (early → growth)",
       "tier": "VC",
       "region": "Americas",
       "meta": null,
       "sources": {
-        "site": "https://www.energize.vc",
-        "insights": "https://www.energize.vc/insights",
+        "site": "https://energizecap.com",
+        "insights": "https://energizecap.com/insights/",
         "linkedin": "https://www.linkedin.com/company/energize-capital",
-        "news": "https://news.google.com/search?q=Energize%20Ventures"
+        "x": "https://x.com/energizecap"
       },
       "people": [],
       "podcasts": [
