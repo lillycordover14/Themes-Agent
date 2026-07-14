@@ -87,7 +87,7 @@ a{color:#33517f;text-decoration:none}a:hover{text-decoration:underline}
   <div class="kpi"><div class="n" id="k-top"></div><div class="l">Strongest tailwind</div></div>
  </div>
  <h2 class="sec">Emerging tailwinds</h2><div class="tw" id="tw"></div>
- <h2 class="sec">Momentum <span style="font-weight:400;text-transform:none;letter-spacing:0;color:#9aa3b3;font-size:11px">· change vs ~1 week ago</span></h2><div id="momentum" style="margin-bottom:4px"></div>
+ <h2 class="sec">Momentum <span style="font-weight:400;text-transform:none;letter-spacing:0;color:#9aa3b3;font-size:11px">· month over month (vs ~30 days ago)</span></h2><div id="momentum" style="margin-bottom:4px"></div>
  <h2 class="sec">Investor signal <span style="font-weight:400;text-transform:none;letter-spacing:0;color:#9aa3b3;font-size:11px">· what the top funds are backing early</span></h2><div class="inv" id="inv"></div><div style="font-size:11px;color:#8a94a6;margin-top:11px" id="tracked"></div>
  <h2 class="sec">Where money &amp; attention are flowing <span style="font-weight:400;text-transform:none;letter-spacing:0;color:#9aa3b3;font-size:11px">· PitchBook · a16z · Sequoia</span></h2><div class="mkt" id="mkt"></div>
  <h2 class="sec">What engineers are building</h2><div class="eng" id="eng"></div>
@@ -119,7 +119,7 @@ let topTw=D.tailwinds[0];D.tailwinds.forEach(t=>{if(t.count>topTw.count)topTw=t;
 document.getElementById('k-top').textContent=topTw.name.replace('Agent-native infrastructure & AgentOps','Agent-native infra').replace('Physical World AI','Physical AI').split(' ').slice(0,2).join(' ');
 document.getElementById('tw').innerHTML=D.tailwinds.map(t=>'<div class="twc" style="--c:'+t.color+'"><div class="hd"><h3>'+t.name+'</h3><span class="cnt">'+t.count+' raises · '+money(t.cap)+'</span></div><span class="sigbadge" style="--c:'+t.color+'">'+t.signal+'</span><div class="why">'+t.why+'</div><div class="ex"><b>Early movers:</b> '+t.examples.join(' · ')+'</div><div class="watch"><b>Watch as it nears Series B:</b> '+t.watch+'</div></div>').join('');
 (function(){var m=D.momentum,el=document.getElementById('momentum');if(!el)return;
- if(!m||!m.since){el.innerHTML='<div style="font-size:12px;color:#9aa3b3">Baseline captured — week-over-week momentum appears after the next daily runs.</div>';return;}
+ if(!m||!m.since){el.innerHTML='<div style="font-size:12px;color:#9aa3b3">Baseline captured — month-over-month momentum builds as daily history accumulates.</div>';return;}
  var tw=(m.tw||[]).map(function(t){var d=t.delta,a=d>0?'\u25B2':d<0?'\u25BC':'\u2013',c=d>0?'#3a7d44':d<0?'#b23b3b':'#8a94a6';return '<span style="display:inline-block;background:#fff;border:1px solid #e6e9f0;border-radius:20px;padding:3px 11px;margin:0 6px 6px 0;font-size:11.5px">'+t.name.split(' ')[0]+' <b style="color:'+c+'">'+a+' '+(d>0?'+':'')+d+'</b></span>';}).join('');
  var rise=(m.rising||[]).map(function(r){return '<span style="font-size:11.5px;color:#33517f;margin-right:12px">'+r.name+' <b>+'+r.delta+'</b></span>';}).join('');
  el.innerHTML='<div style="font-size:11px;color:#8a94a6;margin-bottom:8px">since '+m.since+'</div><div>'+tw+'</div>'+(rise?'<div style="margin-top:8px;font-size:11px;color:#5b6b7c"><b>Firms ramping:</b> '+rise+'</div>':'');})();

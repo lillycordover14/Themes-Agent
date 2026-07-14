@@ -89,7 +89,7 @@ def compute_momentum():
     hist = [h for h in hist if h.get("date") != today] + [snap]
     hist = hist[-120:]
     json.dump(hist, open(hp, "w", encoding="utf-8"), ensure_ascii=False)
-    cutoff = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
+    cutoff = (datetime.date.today() - datetime.timedelta(days=30)).isoformat()
     older = [h for h in hist[:-1] if h.get("date") <= cutoff]
     base = older[-1] if older else (hist[0] if len(hist) > 1 else None)
     if not base:
