@@ -39,6 +39,57 @@
       "summary": "Syntax Bio Announces Expanded Series A and Leadership Appointments&nbsp;&nbsp;BioSpace"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Matt Ocko",
+      "show": "The Twenty Minute VC (20VC)",
+      "title": "Data Collective's Matt Ocko on Why 'All Fund Size Models Are Wrong' and The Lifecycle of Current Venture Funds Is Inefficient",
+      "url": "https://www.thetwentyminutevc.com/mattocko",
+      "date": "2016-08"
+    },
+    {
+      "person": "Dr. Kiersten Stead",
+      "show": "The AI Health Podcast",
+      "title": "DCVC's Dr. Kiersten Stead on Venture for Deep Tech in Life Sciences",
+      "url": "https://creators.spotify.com/pod/profile/the-ai-health-podcast/episodes/DCVCs-Dr--Kiersten-Stead-on-Venture-for-Deep-Tech-in-Life-Sciences-e1v1d3o",
+      "date": ""
+    },
+    {
+      "person": "Matt Ocko",
+      "show": "The Twenty Minute VC (20VC)",
+      "title": "Data Collective's Matt Ocko on The Dark Side Of AI & What Happens When 3-4m People Become Unemployed Overnight",
+      "url": "https://thetwentyminutevc.libsyn.com/20vc-data-collectives-matt-ocko-on-the-dark-side-of-ai-what-happens-when-3-4m-people-become-unemployed-overnight",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Dr. John Hamer",
+      "role": "Managing Partner, DCVC Bio",
+      "x": "https://x.com/hamerinsf",
+      "linkedin": "https://www.linkedin.com/in/johnhamer/",
+      "substack": ""
+    },
+    {
+      "name": "Dr. Kiersten Stead",
+      "role": "Managing Partner, DCVC Bio",
+      "x": "https://x.com/2kstead",
+      "linkedin": "https://www.linkedin.com/in/kstead/",
+      "substack": ""
+    },
+    {
+      "name": "Matthew Ocko",
+      "role": "Co-Founder and Managing Partner",
+      "x": "https://x.com/mattocko",
+      "linkedin": "https://www.linkedin.com/in/mattocko",
+      "substack": ""
+    },
+    {
+      "name": "Zachary Bogue",
+      "role": "Co-Founder and Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/zackbogue",
+      "substack": ""
+    }
+  ]
 }

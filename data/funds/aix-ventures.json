@@ -62,12 +62,41 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Chromie Health Emerges with Backing from AIX Ventures to Solve Nursing Staffing Headaches with AI - The AI Journal",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSjJmc1hGVnFVRXhqc3BDeTliOUVBWVhpSXpPR1c0bUV6bDlhQl9HTkFyNTIwaHZLUkdXSEFsaUJPTzd1dUJkZVJaUVFQUGVadkMtelpKTTF0UTV6U3VSX1hyc0NkRkdvYjBfZlBVcjhvZE5CT25SQ3RkYXhjbEVnajdOZGdqTHpOVUQ2U2JKY09OUW9tRnp0S2s5dDJsV3BaWm5jb1U2RnZJbERzUXhQTUVTQlgtdEw1ZXc?oc=5",
-      "date": "2026-05-14"
+      "person": "Shaun Johnson",
+      "show": "SuperDataScience",
+      "title": "The Future of Enterprise AI",
+      "url": "https://www.superdatascience.com/podcast/sds-895",
+      "date": "2025"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Richard Socher",
+      "role": "Founder & Managing Partner (CEO, You.com)",
+      "x": "https://x.com/RichardSocher",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Shaun Johnson",
+      "role": "Co-Founder & GP",
+      "x": "https://x.com/shaunbjohnson",
+      "linkedin": "https://www.linkedin.com/in/shaunbjohnson",
+      "substack": ""
+    },
+    {
+      "name": "Christopher Manning",
+      "role": "GP; Stanford CS Professor",
+      "x": "https://x.com/chrmanning",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Anthony Goldbloom",
+      "role": "Investing Partner; Kaggle co-founder",
+      "x": "https://x.com/antgoldbloom",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

@@ -25,12 +25,48 @@
   "updates": [],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Candace Owens Escalates Criticism Of Ivanka Trump Over Albania Resort Project - foreignpolicyjournal.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZHlvWjlyeldYbjkxdUlmU0tIWVF1bjlaMTlQNm1zMHFRRGlrbXZ0ZThUaG1ycHlBeEpZUGExUjFQWnRsSUoxQ3hrLUw0LXNfdUZKU2J2dTVvZEdDcWVxQzlfVVNrd29zcHVNLVk2R2RUM2dPR1hSa3NMYlQ3djhGeFRoRFJlWFNJMXZZZ2JnY2g2QTBtQkRTZGtYSy15TUg3ZWZwR0lONWNOaVgydUtYS0wwVEpzeFJFSm9nbjlHX1BhXy1u?oc=5",
-      "date": "2026-06-14"
+      "person": "Ben Dahl",
+      "show": "Unlimited Partners",
+      "title": "Ben Dahl, Co Founder of Unspam and Managing Director of Signal Peak | Cloudflare and the People Who Made the Internet a Better Place",
+      "url": "https://podcasts.apple.com/us/podcast/unlimited-partners/id1625166477?i=1000584951830",
+      "date": "2022-11-03"
+    },
+    {
+      "person": "Porntepp Ungvichian",
+      "show": "OpenView BUILD Podcast",
+      "title": "Behind the Scenes of Pluralsight's Pricing Rebuild",
+      "url": "https://openviewpartners.com/blog/behind-the-scenes-of-pluralsights-pricing-rebuild-podcast/",
+      "date": "2019-07-10"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Ben Dahl",
+      "role": "General Partner & Co-Founder",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/bendahl1/",
+      "substack": ""
+    },
+    {
+      "name": "Brandon Tidwell",
+      "role": "General Partner & Co-Founder",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/brandon-tidwell-35a9aa/",
+      "substack": ""
+    },
+    {
+      "name": "Phil Williams",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/philwilliams2/",
+      "substack": ""
+    },
+    {
+      "name": "Porntepp Ungvichian",
+      "role": "Partner",
+      "x": "https://x.com/P_Ungvichian",
+      "linkedin": "https://www.linkedin.com/in/porntepp-u-b58551b/",
+      "substack": ""
+    }
+  ]
 }

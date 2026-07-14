@@ -40,12 +40,27 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Star Catcher Raises $65M Series A to Fuel In-Orbit Power Grid - Via Satellite",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaXN5NGh2RjZRRVpPemlucHpBbDc0bkl0RFYwMDVmTFBGaTUzM29yQ3BMbHZxMVI2RGFJVlQzengyNndXNFMyTWhra0d1eGw0cWU5ajVIYWp0NTBkNllFNHVRREFxVkEybm9rLWtNOXo5dXp5VkxOc2s1R3Fra0E3MWtXNUR3Uk04LVQ3Slp3VmZlckdsR1NSYTNoWTJ0TnV6UUIxNno5TWw2NWthVGpteA?oc=5",
-      "date": "2026-05-12"
+      "person": "Weston Moyer",
+      "show": "The Drone Ultimatum",
+      "title": "Defense Investing in the Age of AI",
+      "url": "https://www.thedroneultimatum.com/defense-investing-in-the-age-of-ai/",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Andre de Baubigny",
+      "role": "Co-Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/andre-de-baubigny/",
+      "substack": ""
+    },
+    {
+      "name": "Weston Moyer",
+      "role": "Co-Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/westonmoyer/",
+      "substack": ""
+    }
+  ]
 }

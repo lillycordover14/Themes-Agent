@@ -40,12 +40,41 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Penske buying what's left of Vox Media - Axios",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QS0tqci05dUJWLXJUY0Y1ZDctcE92NzdoVGVvZ2VlMFJZd2F2ZEx3TlIzZkxHZ18ybjVNemNXSFVMS2RqYlJJNmtuVVVCNnNjZko1VzZ0bjdnY2gyRXc?oc=5",
-      "date": "2026-06-22"
+      "person": "David Glynn",
+      "show": "Joys of Compounding (Colossus)",
+      "title": "Celebrating the Life of John Glynn",
+      "url": "https://colossus.com/episode/glynn-like-father-like-son/",
+      "date": "2023-12-25"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "John Glynn",
+      "role": "Founding Partner (in memoriam, founded firm, passed away July 2023)",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/pub/john-w-glynn/2a/233/b2a",
+      "substack": ""
+    },
+    {
+      "name": "David Glynn",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/pub/david-glynn/6/448/516",
+      "substack": ""
+    },
+    {
+      "name": "Sarah Rogers",
+      "role": "Partner — COO, CCO",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/pub/sarah-rogers/0/71a/64a",
+      "substack": ""
+    },
+    {
+      "name": "Scott Jordon",
+      "role": "Partner — Private Investments",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/pub/scott-jordon/0/527/361",
+      "substack": ""
+    }
+  ]
 }

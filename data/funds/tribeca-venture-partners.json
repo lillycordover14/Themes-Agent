@@ -53,6 +53,57 @@
       "summary": "ACV Auctions - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Brian Hirsch",
+      "show": "The Full Ratchet",
+      "title": "265. Maintaining a Disciplined Fund Size and Strategy, The Rise of NYC Tech, and Changes in the Exit Environment",
+      "url": "https://fullratchet.net/265-maintaining-a-disciplined-fund-size-and-strategy-the-rise-of-nyc-tech-and-changes-in-the-exit-environment-brian-hirsch/",
+      "date": "2021-01-18"
+    },
+    {
+      "person": "Brian Hirsch",
+      "show": "Flyover Labs Podcast",
+      "title": "E128: Brian Hirsch, Founder & Managing Partner of Tribeca Venture Partners – Interview",
+      "url": "https://www.flyoverlabs.io/podcasts/e128-brian-hirsch-founder-managing-partner-of-tribeca-venture-partners-interview/",
+      "date": ""
+    },
+    {
+      "person": "Brian Hirsch",
+      "show": "Bank On It",
+      "title": "Episode 223: Brian Hirsch from Tribeca Venture Partners",
+      "url": "https://bankonitpodcast.com/episode-223-brian-hirsch-from-tribeca-venture-partners",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Brian Hirsch",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://x.com/hirschb",
+      "linkedin": "https://www.linkedin.com/in/brianhirsch/",
+      "substack": ""
+    },
+    {
+      "name": "Chip Meakem",
+      "role": "Co-Founder & Partner (Managing Partner)",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/chip-meakem-892ab91",
+      "substack": ""
+    },
+    {
+      "name": "Leo de Luna",
+      "role": "Partner",
+      "x": "https://x.com/LeooftheMoon",
+      "linkedin": "https://www.linkedin.com/in/leo-de-luna-313226",
+      "substack": ""
+    },
+    {
+      "name": "Brian Wei",
+      "role": "Partner/Investor",
+      "x": "https://twitter.com/b_wei__",
+      "linkedin": "https://www.linkedin.com/in/brian-wei-b363b982/",
+      "substack": ""
+    }
+  ]
 }

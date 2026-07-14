@@ -67,6 +67,29 @@
       "summary": "Redo Announces $81 Million Series B to Support Commerce Technology Expansion&nbsp;&nbsp;GlobeNewswire"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Preetish Nijhawan",
+      "show": "ExecTalk",
+      "title": "Co-founder of Cervin Ventures",
+      "url": "https://www.youtube.com/watch?v=w1W43Mju3Fo",
+      "date": "2023-10"
+    }
+  ],
+  "people": [
+    {
+      "name": "Preetish Nijhawan",
+      "role": "Co-Founder & GP",
+      "x": "https://twitter.com/pnijhawan",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Neeraj Gupta",
+      "role": "Co-Founder & Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/neerajgupta123/",
+      "substack": ""
+    }
+  ]
 }

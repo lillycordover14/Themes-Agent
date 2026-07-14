@@ -26,12 +26,55 @@
   "updates": [],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "HavocAI Raises $100M to Accelerate Multi-Domain Push - Tectonic Defense",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYndrUmk0Qzc2R2k1TFM2OWRUTmJRUHB3dllrb182cWMtc2otMXQ0Mkp2YnF3Z0NGVGl4TWVSdUs3X29ORVRNVi00ZHRHbnJEODZuc0Y5MU1SVzU1RVU5d2pNVUkxd3pWME9CR2tkdVBRdC1PMm9CRFRCNWNDTnVqaFRUVzJqel9CTzlUWg?oc=5",
-      "date": "2026-05-13"
+      "person": "Paige Craig",
+      "show": "LA Venture (TenOneTen)",
+      "title": "Paige Craig — Outlander VC",
+      "url": "https://www.tenoneten.com/podcast/paige-craig-outlander-vc",
+      "date": "2022-06-22"
+    },
+    {
+      "person": "Paige Craig",
+      "show": "The Innovation Imperative (Holland & Knight)",
+      "title": "Outlander VC: What Founder-First Investing Really Means",
+      "url": "https://www.hklaw.com/en/insights/media-entities/2026/02/podcast-outlander-vc-what-founder-first-investing-really-means",
+      "date": "2026-03-12"
+    },
+    {
+      "person": "Paige Craig",
+      "show": "Conviction Before Consensus (Samson Rose)",
+      "title": "Outlander VC with Paige Craig",
+      "url": "https://www.samsonrose.com/podcasts/conviction-before-consensus-outlander-vc-with-paige-craig",
+      "date": "2026-05"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Paige Craig",
+      "role": "Founder & Managing Partner",
+      "x": "https://x.com/paigecraig",
+      "linkedin": "https://www.linkedin.com/in/paigecraig/",
+      "substack": ""
+    },
+    {
+      "name": "Leura Craig",
+      "role": "Managing Partner",
+      "x": "https://x.com/LeuraCraig",
+      "linkedin": "https://www.linkedin.com/in/leura-craig-19424327/",
+      "substack": ""
+    },
+    {
+      "name": "Jordan Kretchmer",
+      "role": "Senior Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jordankretchmer/",
+      "substack": ""
+    },
+    {
+      "name": "AJ Smith",
+      "role": "Junior Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/ajsmithinvests",
+      "substack": ""
+    }
+  ]
 }

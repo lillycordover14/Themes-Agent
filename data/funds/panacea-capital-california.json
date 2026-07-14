@@ -23,6 +23,29 @@
     "linkedin": "https://www.linkedin.com/company/panacea-venture/"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "James Huang",
+      "show": "BioCentury This Week",
+      "title": "JPM Momentum and Asia's Hotbeds of Innovation (Ep. 344)",
+      "url": "https://www.biocentury.com/article/658081/jpm-momentum-and-asia-s-hotbeds-of-innovation-a-biocentury-podcast",
+      "date": "2026-01-15"
+    }
+  ],
+  "people": [
+    {
+      "name": "James Huang",
+      "role": "Founder and Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/james-huang-4874a8",
+      "substack": ""
+    },
+    {
+      "name": "Andrew Aherrera",
+      "role": "Partner, Public Markets Strategy",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/andrewaherrera/",
+      "substack": ""
+    }
+  ]
 }

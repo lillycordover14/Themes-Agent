@@ -24,6 +24,29 @@
     "linkedin": "https://www.linkedin.com/company/reach-capital"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Shauntel Garvey",
+      "show": "Venture Unlocked",
+      "title": "On EdTech and being an active seed investor",
+      "url": "https://ventureunlocked.substack.com/p/shauntelgarvey",
+      "date": "2021-06"
+    }
+  ],
+  "people": [
+    {
+      "name": "Jennifer Carolan",
+      "role": "Co-Founder & GP",
+      "x": "https://x.com/jencarolan",
+      "linkedin": "https://www.linkedin.com/in/jcarolan/",
+      "substack": ""
+    },
+    {
+      "name": "Shauntel Garvey",
+      "role": "Co-Founder & GP",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/shauntelpoulson/",
+      "substack": ""
+    }
+  ]
 }

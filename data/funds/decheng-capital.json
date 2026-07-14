@@ -25,12 +25,41 @@
   "updates": [],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Remix to take Nasdaq spot of Passage Bio in reverse merger for mRNA degrader - Endpoints News",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSE9PMk1oZnBPZ3hKaGFsVHBtVDN6Uk14TkdiNmdfeUNZWFRKdTI5VEhxN2I5aER4dFMtMGtFT1pnTFVVM1pOZHZLTTQ4bVBrWVVCNUdaWXlWRTg5TTdfY0RFbWo3cVRpeFZTd3ZkYnVfWUR6UlgzZUplUzgzUUpRb2xJVGZTdXNGNkkzQg?oc=5",
-      "date": "2026-06-25"
+      "person": "Victor Tong, Jr.",
+      "show": "Bloomberg Originals",
+      "title": "Chinese Biotech vs. U.S. Biotech",
+      "url": "https://www.youtube.com/watch?v=nn4ZBPWx4Ko",
+      "date": "2019-01-15"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Min Cui, Ph.D.",
+      "role": "Founder and Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/min-cui-64bb178/",
+      "substack": ""
+    },
+    {
+      "name": "Victor Tong, Jr.",
+      "role": "Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/victortong/",
+      "substack": ""
+    },
+    {
+      "name": "Peter Colabuono",
+      "role": "Managing Director",
+      "x": "https://twitter.com/petercolabuono",
+      "linkedin": "https://www.linkedin.com/in/peter-colabuono-83985a56",
+      "substack": ""
+    },
+    {
+      "name": "Dayton Misfeldt",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/dayton-misfeldt-0905a847/",
+      "substack": ""
+    }
+  ]
 }

@@ -34,12 +34,55 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Former spy-chief-turned-arms-firm-adviser says military AI can be moral in shock to nobody - thecanary.co",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83ZE5DXzlOeVF3ZlRSd0t3UFBQenJwVWR4dENoS1ExYlZBTVBOWDZrOU94VTZvaWtCV2MzLXBmVzJvcGFWSXdLNkdSdUlGUTVpYTgyRFVjWV9zeWRhdGpzaHZac1hpUEdqdEk4NFBfWDFlX2tr?oc=5",
-      "date": "2026-06-04"
+      "person": "Michael Steed",
+      "show": "The Clockwork CIO",
+      "title": "In conversation with Michael Steed, Founder and Managing Partner, Paladin Capital Group",
+      "url": "https://open.spotify.com/episode/57lRqHJUhw3nVFYIwnQq0h",
+      "date": ""
+    },
+    {
+      "person": "Kemba Walden",
+      "show": "The Lawfare Podcast",
+      "title": "Kemba Walden",
+      "url": "https://shows.acast.com/lawfare/episodes/kemba-walden",
+      "date": "2023-03-10"
+    },
+    {
+      "person": "Kemba Walden and Devin Lynch",
+      "show": "The Truth of the Matter (CSIS Podcasts)",
+      "title": "AI Competition and Security: A discussion with Kemba Walden and Devin Lynch",
+      "url": "https://www.csis.org/podcasts/truth-matter/ai-competition-and-security-discussion-kemba-walden-and-devin-lynch",
+      "date": "2025-07-10"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Michael Steed",
+      "role": "Founder and Managing Partner",
+      "x": "https://x.com/michaelrsteed",
+      "linkedin": "https://www.linkedin.com/in/mike-steed-68810b15/",
+      "substack": ""
+    },
+    {
+      "name": "Mark Maloney",
+      "role": "Co-Founder, Managing Director and Chief Compliance Officer",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/mark-maloney-17819612/",
+      "substack": ""
+    },
+    {
+      "name": "Christopher Steed",
+      "role": "Chief Investment Officer and Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/christophersteed/",
+      "substack": ""
+    },
+    {
+      "name": "Kemba Walden",
+      "role": "President, Paladin Global Institute",
+      "x": "https://twitter.com/kembawalden",
+      "linkedin": "https://www.linkedin.com/in/kembawalden",
+      "substack": ""
+    }
+  ]
 }

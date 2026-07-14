@@ -83,12 +83,48 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Israel AI Company Dream Triples Value to $3 Billion in Funding Round - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONUF4aDhBUDQyUXNQYzkyMW1zNUFjYThtWWJLLTVBQ2I4S2RnSWpRM19RRm8ycHowLU5LUFFZdUpzUWt4U19TaDBSX0x5Z1VqQ3JaTk5BME1mazVwam0tVXg1YVRyenFVVzJtczAta2JsTFpMbmxxZ25EbkF0THRieUNOeVdweHdCaG4teHRyeVZUM3JLT2s4U1diQzRoNjl6ZDBUZXpQZWhPek9Dd3N6RA?oc=5",
-      "date": "2026-06-18"
+      "person": "Matt Harris",
+      "show": "Fintech Leaders",
+      "title": "Lessons From Three Decades of Fintech Investing",
+      "url": "https://fintechleaders.substack.com/p/matt-harris-partner-at-bain-capital",
+      "date": ""
+    },
+    {
+      "person": "Ajay Agarwal",
+      "show": "The Full Ratchet",
+      "title": "The $1T+ Opportunity Investing in the Physical World",
+      "url": "https://fullratchet.net/390-the-1t-opportunity-investing-in-the-physical-world/",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Matt Harris",
+      "role": "Partner (Fintech)",
+      "x": "https://x.com/mattcharris",
+      "linkedin": "https://www.linkedin.com/in/mattcharris/",
+      "substack": ""
+    },
+    {
+      "name": "Ajay Agarwal",
+      "role": "Partner (SaaS)",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/ajay1agarwal",
+      "substack": ""
+    },
+    {
+      "name": "Merritt Hummer",
+      "role": "Partner (Growth)",
+      "x": "https://x.com/merritthummer",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Enrique Salem",
+      "role": "Partner (Cybersecurity)",
+      "x": "https://x.com/EnriqueSalem",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

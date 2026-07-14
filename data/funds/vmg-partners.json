@@ -83,33 +83,27 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Brami Protein Pasta Closes $33 Million Series B Round, Set To Expand Retail Presence And Strengthen Lupini Bean Supply Chain - Forbes",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOOTlGUElYcXkyWDdNWmw4Y0lIaVUxQ1ZjTHlPMy1aZ0ptNTB4LXBrTHJ3TnNpOWp6SE5peHpWcWdqQjhIUlVDdFhhUEtvUEtvbXVvZHRYTEFRcGlucHY2dkx1S0UyZ2ZacHhfOG5tVkhmcF9uemM5QWMzUjQwS1FHRUlWcm1adXNFYWtQekQzTURVbnhhcGZHZ1JSaEZFRUlpWUpXQVl3MmtJNjVQYmpUZTA0bmwyc1dxZkhIc1FiT3ZoVXN3aklxMUl5WmFzaEpsZFNvV3B5UEdqRXh6aF9hbHhpUW5ac1p5aUtGbVhBMWFVeEJBb0dwM1V3WWZWaUM5WVVVX0F3cw?oc=5",
-      "date": "2026-05-18"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Collagen Protein Bar Brand Stars + Honey Raises $24M - Athletech News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWWRnY0NyNGFVV082WW51M1RtU2owN2tza1FDRXFOU2gxaHNPTURGSXJPYnFPUkV6TXo3MGhEU3BsZVA4MVVsVTZhWG1BcjFRRWFKZWFQdE92akV5YnBncm1aRWJUT1dxY0E5Z0dDT1NaT3pKN3UwU3NTOXhzQ0syN2ZVVmtSSjd0ZDlvWEl3QWRYbTJL?oc=5",
-      "date": "2026-06-10"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "BRAMI Raises $33 Million Series B Led by VMG Partners to Scale Italian Protein Pasta - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQT3hYajg2ZEVYcjhleGd2aFVGNXRCYmpQc00ySDV4UmRUUm53UE5OTGdRb19WVlFZakxsYUFZMU5QbjJYQU9HOV9tU1pCQmtFRWRUeUVoZHloZ0dkX05HNFVhVWladHFrbHdpakJObXdWc0QtN01zYVNlXzAyOVVidEYyU095UUltSVdyUllaTzdWeWZrVGNWTVZMRTBBWVlQZHh5ZWVNUVRfZDhsclVCcmdQMFR1bjdObWIxWU9jTGVoUzhobTlXODY0OUw5REYzYkU0U093?oc=5",
-      "date": "2026-05-19"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "VMG Partners Backs Stars + Honey with $24M Growth Investment - Nosh.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNFZzcmltZDBXTzNxNkx3OWhsc3p5TVR4Y1YweXZtYmJoWjUwQWVkd2NEZFN6LVhNanVmQTB4WFJ6cjEzVVUyR20wTTh6TmRZaWtKM0U0SVdXVnZQSzI2MDNzZVltUGJCOWpQZUxtZmZoS0xQX1V5V3poSkRQY0ZnQ003dHFVQUFLbDF1WTd0QUdRclU?oc=5",
-      "date": "2026-06-09"
+      "person": "Mike Mauzé",
+      "show": "Capital Allocators (First Meeting)",
+      "title": "Escape Velocity for CPG Brands",
+      "url": "https://podcasts.apple.com/us/podcast/mike-mauze-vmg-partners/id1223764016?i=1000467197860",
+      "date": "2020-03"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Mike Mauzé",
+      "role": "Co-Founder & Managing Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Wayne Wu",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

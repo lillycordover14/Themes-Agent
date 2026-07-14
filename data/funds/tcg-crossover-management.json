@@ -31,6 +31,29 @@
       "summary": "Tyra Biosciences Inc (TYRA) Shareholder Structure: Major Shareholders & Institutional Holdings&nbsp;&nbsp;TradingKey"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Chen Yu",
+      "show": "Prime Talks",
+      "title": "Challenges & Opportunities in Life Sciences Investing",
+      "url": "https://creators.spotify.com/pod/show/prime-quadrant/episodes/Ep--39-Dr--Chen-Yu-e23i91j",
+      "date": "2023-05"
+    }
+  ],
+  "people": [
+    {
+      "name": "Chen Yu",
+      "role": "Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/chen-yu-270375",
+      "substack": ""
+    },
+    {
+      "name": "Cariad Chester",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

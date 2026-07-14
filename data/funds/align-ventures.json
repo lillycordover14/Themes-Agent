@@ -109,5 +109,34 @@
       "date": "2026-05-21"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Ben Bryce",
+      "role": "Founder & Managing Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Grant Hosking",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/granthosking/",
+      "substack": ""
+    },
+    {
+      "name": "Neel Chary",
+      "role": "Partner, Growth Capital",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/neelchary/",
+      "substack": ""
+    },
+    {
+      "name": "Chris Gardner",
+      "role": "Venture Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

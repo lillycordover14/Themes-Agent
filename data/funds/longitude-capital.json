@@ -24,6 +24,57 @@
     "linkedin": "https://www.linkedin.com/company/longitude-capital"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Juliet Tammenoms Bakker",
+      "show": "YouTube (event/interview series)",
+      "title": "Juliet Bakker on Founding a Firm and Finding Success on the Fundraising Trail",
+      "url": "https://www.youtube.com/watch?v=og6RHvOqCq0",
+      "date": "2021-01-28"
+    },
+    {
+      "person": "Juliet Tammenoms Bakker",
+      "show": "YouTube (event/interview series)",
+      "title": "Juliet Bakker on Investment Strategy during the COVID Pandemic",
+      "url": "https://www.youtube.com/watch?v=UnALAdRh1Kc",
+      "date": ""
+    },
+    {
+      "person": "Juliet Tammenoms Bakker",
+      "show": "Fairview Capital Insights (panel)",
+      "title": "The Healthcare Investment Landscape",
+      "url": "https://www.fairviewcapital.com/insights/the-healthcare-investment-landscape",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Patrick Enright",
+      "role": "Co-Founder and Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/patrick-enright-0a936821/",
+      "substack": ""
+    },
+    {
+      "name": "David Hirsch",
+      "role": "Co-Founder and Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/david-hirsch-a4449825",
+      "substack": ""
+    },
+    {
+      "name": "Juliet Tammenoms Bakker",
+      "role": "Co-Founder and Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/juliet-tammenoms-bakker-2a8a6240/",
+      "substack": ""
+    },
+    {
+      "name": "Marc-Henri Galletti",
+      "role": "Co-Founder and Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/marc-galletti-1315b45/",
+      "substack": ""
+    }
+  ]
 }

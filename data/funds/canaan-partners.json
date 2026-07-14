@@ -41,12 +41,41 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "“The Israeli startups that will win are the ones building focused AI” - CTech",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9yV0duTERrREY1V0Z4UHAwSXp0YlZCT0pOX3pjZ05vdzlpVFV1TXFhUHpSV09NN3E5eDQ2LUZaNmc3X2RUVUFKSXY2bUMyd200RDQyRG9WY1VCTkw2TVlSaHE2U3Exa2s?oc=5",
-      "date": "2026-05-18"
+      "person": "Maha Ibrahim",
+      "show": "Something Ventured",
+      "title": "Canaan Partner, The RealReal Investor",
+      "url": "https://somethingventured.us/113-maha-ibrahim-canaan-partner/",
+      "date": ""
+    },
+    {
+      "person": "Nina Kjellson",
+      "show": "WoVen (Canaan)",
+      "title": "Women Who Venture — Canaan's own podcast",
+      "url": "https://www.canaan.com/woven/podcasts",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Maha Ibrahim",
+      "role": "General Partner",
+      "x": "https://x.com/mahaibrahim",
+      "linkedin": "https://www.linkedin.com/in/mahai",
+      "substack": ""
+    },
+    {
+      "name": "Hrach Simonian",
+      "role": "General Partner",
+      "x": "https://twitter.com/hrachs",
+      "linkedin": "https://www.linkedin.com/in/hrachsimonian/",
+      "substack": ""
+    },
+    {
+      "name": "Nina Kjellson",
+      "role": "General Partner (Healthcare)",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

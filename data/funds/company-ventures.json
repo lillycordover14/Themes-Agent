@@ -67,6 +67,57 @@
       "summary": "The AlleyWatch Startup Daily Funding Report: 5/28/2026&nbsp;&nbsp;AlleyWatch"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Matt Harrigan",
+      "show": "Tech:NYC Blog (VC Spotlight)",
+      "title": "VC Spotlight: Matt Harrigan, Managing Partner & CEO, Company Ventures",
+      "url": "https://www.blog.technyc.org/news/vc-spotlight-matt-harrigan",
+      "date": ""
+    },
+    {
+      "person": "Matt Harrigan",
+      "show": "Family Office Insights (Q&A)",
+      "title": "Q&A with Matt Harrigan",
+      "url": "https://familyofficeinsights.com/pir-qa/matt-harrigan/",
+      "date": "2018-03-13"
+    },
+    {
+      "person": "Hunter Hillenmeyer",
+      "show": "VEC (venture event, YouTube)",
+      "title": "Wanna be a VC?",
+      "url": "https://www.youtube.com/watch?v=tYt2gRohJaY",
+      "date": "2022-08-25"
+    }
+  ],
+  "people": [
+    {
+      "name": "Matt Harrigan",
+      "role": "Co-founder & Managing Partner (CEO)",
+      "x": "https://x.com/mattharrigan",
+      "linkedin": "https://www.linkedin.com/in/matthew-harrigan-1935975",
+      "substack": ""
+    },
+    {
+      "name": "Nelson Schubart",
+      "role": "Managing Partner",
+      "x": "https://twitter.com/NelsonSchubart",
+      "linkedin": "https://www.linkedin.com/in/nelsonboone/",
+      "substack": ""
+    },
+    {
+      "name": "Michael Milstein",
+      "role": "Co-founder & Executive Chair",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Hunter Hillenmeyer",
+      "role": "General Partner",
+      "x": "https://x.com/hthill",
+      "linkedin": "https://www.linkedin.com/in/hunterhillenmeyer/",
+      "substack": ""
+    }
+  ]
 }

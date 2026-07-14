@@ -48,12 +48,27 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Maneva raises $27-million USD Series A to expand AI vision in manufacturing - BetaKit",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeWE5MU9VSmlUanpjd1ZSM012OERFak9xcDNSMkhycEo3TG9XS1VGMG9ZcE9zX3lvWDhINmlYTmtGemZkTXpKUnhsX2JoYk8zdzI2ejVRWnlnQmNLbEZGN3VqUU5fZHA1SHdNdUJPVmp6LXpvQWIzSkM5UTVKc3loQm16dzg2bTl3ck8yVk4yR2R2VjZCUW1waXZVSQ?oc=5",
-      "date": "2026-06-12"
+      "person": "Dafina Toncheva",
+      "show": "Pfeffer on Power",
+      "title": "General Partner, USVP",
+      "url": "https://podcasts.apple.com/za/podcast/ep-22-dafina-toncheva-usvp/id1644174653?i=1000615838786",
+      "date": "2023-06"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Dafina Toncheva",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/dafinat/",
+      "substack": ""
+    },
+    {
+      "name": "Jacques Benkoski",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jacques-benkoski-ab9133/",
+      "substack": ""
+    }
+  ]
 }

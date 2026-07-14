@@ -33,6 +33,29 @@
       "summary": "The 22 Largest US Funding Rounds of May 2026&nbsp;&nbsp;AlleyWatch"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Alex Clayton",
+      "show": "Run the Numbers",
+      "title": "A SaaS Metrics DEEP Dive",
+      "url": "https://www.podpage.com/run-the-numbers/e22-a-saas-metrics-deep-dive-with-alex-clayton/",
+      "date": "2024-01"
+    }
+  ],
+  "people": [
+    {
+      "name": "Alex Clayton",
+      "role": "General Partner",
+      "x": "https://x.com/afc",
+      "linkedin": "https://www.linkedin.com/in/aclayton",
+      "substack": ""
+    },
+    {
+      "name": "Paul Madera",
+      "role": "Co-Founder & GP",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/paulmadera/",
+      "substack": ""
+    }
+  ]
 }

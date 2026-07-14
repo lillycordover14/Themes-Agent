@@ -33,12 +33,27 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Primitive launches AI agent operating system for financial services - FinTech Futures",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT0tCSkJWNzNDVHdJcU9uSWpJbGxtQmRvV2JFWTRSOFQ2bDZ3ODlIQUhGVEx3OHJnemxIX0l3bzVING5Ndk5HXzBKR1NrN3p6TEd5dnFXd1ZMemVwY1g2WXhVTnlvVmlRbkVfTEdCR2tUQlVRTjlmMVVVU2F4dVBfUGs1N2I4ckxFQXJMOE5HTnJnYTBEMnhBaGlINGh5c0VoeEdmNkpIXzd2ZzJCV1BTczZR?oc=5",
-      "date": "2026-05-25"
+      "person": "Blake Modersitzki",
+      "show": "CASE STUDIES",
+      "title": "What the co-founders learned raising a $500M fund",
+      "url": "https://podcasts.apple.com/us/podcast/pelion/id1718854510?i=1000686607434",
+      "date": "2025-01"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Blake Modersitzki",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/blakemodersitzki/",
+      "substack": ""
+    },
+    {
+      "name": "Jeff Kearl",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jeffkearl/",
+      "substack": ""
+    }
+  ]
 }

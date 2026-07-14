@@ -82,26 +82,34 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Bezos' AI startup Prometheus raises $12B at $41B valuation, and the CEOs explain what they're doing - GeekWire",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOWMwQjJid1RxTUlKenZPejkyc3B5dnpvNklUWWVRQVBLelNVZnlMa2E0RjJmNEFXR0ZaWlZZZjlJN0c5UjNrbkNLNlk4WEdpdzhSTjJDT0VTeERjdzREMVF1TFg3NVplb1FPZU9TekxsRWo3NklVU2VXNXhWZDNVMkZ6b2VUampSbU5vSjg2eDRaYTdoQlRsVFlQU1ZCQm1FRnhOSk93TzgtWDVYVlJyTmJOT0QtRmlVU0RVV2Q4bjNZaDA?oc=5",
-      "date": "2026-06-11"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Jeff Bezos raises $12B for AI that builds things - Semafor",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM3hJOFMyNFdYU0J1bzUtaUlSZFFUWEF1Zzc0TFA0ZklRQmJtYjRyQTJ1Z3k5anE2eG54LVRudUk0N2FRclVER1RKT0FCMjNpNTR2MDNXTlVBYVBtTUxFYm95c0kxTG14S3lYTkNyWTVGWUNYbDJFSV9faktUalAxeGhLN0hnR1N5RHFvU25neUtuMjd0?oc=5",
-      "date": "2026-06-11"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Jeff Bezos’s Prometheus Just Raised $12 Billion to Create an 'Artificial General Engineer.' Here's What That Would Do - inc.com",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZFNfQ0ZveGRkeUZ4MERWeWRORWtIclNfcVZ3R1lvNnJ4TkpCYUJsUEtQNGRWWFN5NEhpWnU1RmhuTkpyMmY5MDM1QTVROVJmblRPOFJYSTJZMzV4TmFfc3laSEpONXJiTXd2dXBrTmhCOThXZ3d3d3h2Uy1SM1dPT0JGT01IaVF2Z0w3YXItYmgxY0xKV1dsX2xZT0JKYU5GbTZVQ3YwbFBlTWU4aF9EemlzOVhtV3FLT0RrZThtR0NSeUc2QnF1OHdENDF5bVVBTk1mem5pdUpRNDVKLVdRUHlFNHh6aXM?oc=5",
-      "date": "2026-06-11"
+      "person": "Robert Nelsen",
+      "show": "The Long Run",
+      "title": "Investing in Manufacturing, Mental Health & More",
+      "url": "https://timmermanreport.com/2021/03/bob-nelsen-on-the-long-run/",
+      "date": "2021-03"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Robert Nelsen",
+      "role": "Co-Founder & Managing Director",
+      "x": "https://x.com/rtnarch",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Keith Crandell",
+      "role": "Co-Founder & Managing Director",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Kristina Burow",
+      "role": "Managing Director",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

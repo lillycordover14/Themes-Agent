@@ -30,6 +30,43 @@
       "summary": "Campground Raises Over $2.2 Million to Reinvent How Social Impact Programs Operate&nbsp;&nbsp;The Malaysian Reserve"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Howard Love",
+      "show": "VB Engage (VentureBeat)",
+      "title": "Howard Love, Twitter TV, and how A.I. might make you redundant",
+      "url": "https://podcasts.apple.com/us/podcast/howard-love-twitter-tv-and-how-a-i-might-make-you-redundant/id1119279774?i=1000381210719",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "David Hehman",
+      "role": "Co-Founder & General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/davidhehman/",
+      "substack": ""
+    },
+    {
+      "name": "Alex Chang",
+      "role": "Co-Founder & General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/alexchangsf/",
+      "substack": ""
+    },
+    {
+      "name": "Howard Love",
+      "role": "Team / LP (Love Family Office)",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Matthew Larson",
+      "role": "Advisor (Love Family Office)",
+      "x": "https://x.com/mattlarson23",
+      "linkedin": "https://www.linkedin.com/in/matthewjlarson/",
+      "substack": ""
+    }
+  ]
 }

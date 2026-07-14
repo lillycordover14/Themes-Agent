@@ -26,12 +26,27 @@
   "updates": [],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "SewerAI Raises $15M Series B for AI Sewer Inspection Tech - Causeartist",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeHV3S1ZuT2ZJeHBVcEIxX1BaU3N0eXlXdWZoVDNsR01NdHB4ejVWWmFheDlYZ0VZNGxfVF9PV0VjaUpPTjNFNVNYWG9YOTROOUdrbjR5Nlp3OTZVYV9mQ19GTzJjREY1TEtPSEdHZmhBOUFXSUVXcnY3bUdWQnlBRQ?oc=5",
-      "date": "2026-06-03"
+      "person": "Jack Boren",
+      "show": "Product in Healthtech",
+      "title": "Jack Boren of EPIC Ventures",
+      "url": "https://vynyl.com/podcast/jack-boren-of-epic-ventures",
+      "date": "2022-05"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Nick Efstratis",
+      "role": "Co-founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/nefstratis/",
+      "substack": ""
+    },
+    {
+      "name": "Jack Boren",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jackboren",
+      "substack": ""
+    }
+  ]
 }

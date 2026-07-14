@@ -32,6 +32,57 @@
       "summary": "Meridian Ventures launched a $35M fund with a focus on MBA-deferred founders&nbsp;&nbsp;Yahoo Finance"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Miriam Rivera",
+      "show": "Venture Unlocked",
+      "title": "Miriam Rivera on going from angel to running a firm, driving real change in diversity in tech, and how traditional heuristics should be challenged in VC",
+      "url": "https://ventureunlocked.substack.com/p/miriam-rivera-on-going-from-angel",
+      "date": "2021-07-27"
+    },
+    {
+      "person": "Clint Korver",
+      "show": "Investor Connect",
+      "title": "Investor Connect – Episode 85 - Clint Korver of Ulu Ventures",
+      "url": "https://investorconnect.org/clint-korver-of-ulu-ventures/",
+      "date": "2025-10-29"
+    },
+    {
+      "person": "Maria Salamanca",
+      "show": "Ulu Ventures (interview series)",
+      "title": "A Partner's Path to Venture Capital: Maria Salamanca",
+      "url": "https://uluventures.com/a-partners-path-to-venture-capital-maria-salamanca/",
+      "date": "2025"
+    }
+  ],
+  "people": [
+    {
+      "name": "Miriam Rivera",
+      "role": "Co-Founder, CEO & Managing Director",
+      "x": "https://twitter.com/miriamulu1",
+      "linkedin": "https://www.linkedin.com/in/miriamrivera/",
+      "substack": ""
+    },
+    {
+      "name": "Clint Korver",
+      "role": "Co-Founder, CIO & Managing Director",
+      "x": "https://x.com/ckorver",
+      "linkedin": "https://www.linkedin.com/in/clintkorver",
+      "substack": ""
+    },
+    {
+      "name": "Steve Reale",
+      "role": "General Partner & CFO",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/steve-reale-8454651/",
+      "substack": ""
+    },
+    {
+      "name": "Maria Salamanca",
+      "role": "General Partner",
+      "x": "https://x.com/MariaSalamanca",
+      "linkedin": "https://www.linkedin.com/in/mariasalamanca1/",
+      "substack": ""
+    }
+  ]
 }

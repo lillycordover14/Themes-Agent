@@ -34,12 +34,55 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Capital Ideas: How Wall Street Lost the Small IPO and Why Relationships Still Drive Capital Formation - Crowdfund Insider",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUjNWZ3loamlBZFM1SkRDTkRqNGxKYThUY0FzVkFBQ3hfbkpZNVRGUEVISEFLZFRCV2xUZkZnZThOUlFQeUFYcHFNa0ZUWDJnRlZqYnRLd1hkajFKbUtwTi1qZVUzbTJ2anV1dDc5TFZyUWRRS0pGYXJoeGRnNkFnTU9EdncwVHFmRklKMzJiczJkVlB6b01COEVpRVppVmZpV29wa2lNUXVjZVE4MFA5d2V4OVh2eWpXZlZ4VTFaNHZDbHFtRFU4RUF6VTBqR1oxYjRxVTkwaERZNTVPT0NDSnNVaw?oc=5",
-      "date": "2026-06-08"
+      "person": "Chris Olsen",
+      "show": "The Dart Board with Daniel Dart",
+      "title": "Chris Olsen | Drive Capital - On building a $2B firm outside of Silicon Valley, always accepting responsibility, and giving founders more than just money",
+      "url": "https://podcasts.apple.com/us/podcast/chris-olsen-drive-capital-on-building-a-%242b-firm/id1785419533?i=1000719765693",
+      "date": "2025-07-30"
+    },
+    {
+      "person": "Molly Bonakdarpour",
+      "show": "614Startups",
+      "title": "Investing in Companies that Change Lives with Molly Bonakdarpour, Drive Capital",
+      "url": "https://614startups.com/2020-11-11-s7e2-molly-bonakdarpour-drive-capital/",
+      "date": "2020-11-11"
+    },
+    {
+      "person": "Chris Olsen",
+      "show": "Inside Outside Innovation",
+      "title": "Ep. 133 - Chris Olsen of Drive Capital on Investment Innovation in the Midwest",
+      "url": "https://insideoutside.io/podcast/ep-133-drive-capitals-chris-olsen-on-investment-innovation-in-the-midwest/",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Chris Olsen",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://x.com/chrisolsencmh",
+      "linkedin": "https://www.linkedin.com/in/cholsen",
+      "substack": ""
+    },
+    {
+      "name": "Mark Kvamme",
+      "role": "Co-Founder / Partner Emeritus",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/markkvamme/",
+      "substack": ""
+    },
+    {
+      "name": "Molly Bonakdarpour",
+      "role": "General Partner, Healthcare",
+      "x": "https://twitter.com/mollybonak",
+      "linkedin": "https://www.linkedin.com/in/molly-bonakdarpour-90402814",
+      "substack": ""
+    },
+    {
+      "name": "Nick Solaro",
+      "role": "General Partner",
+      "x": "https://x.com/nsolaro",
+      "linkedin": "https://www.linkedin.com/in/solaro/",
+      "substack": ""
+    }
+  ]
 }

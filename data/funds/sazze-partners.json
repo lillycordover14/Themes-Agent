@@ -23,5 +23,34 @@
   },
   "updates": [],
   "podcasts": [],
-  "people": []
+  "people": [
+    {
+      "name": "Kiha Lee",
+      "role": "Founding Partner",
+      "x": "https://x.com/kihalee",
+      "linkedin": "https://www.linkedin.com/in/kiha-lee/",
+      "substack": "https://82startup.substack.com/"
+    },
+    {
+      "name": "Greg Kwangrog Kim",
+      "role": "Co-Founder & Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/gregkim/",
+      "substack": ""
+    },
+    {
+      "name": "Sukhyun Kim",
+      "role": "Venture Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/sukhyun/",
+      "substack": ""
+    },
+    {
+      "name": "Do Gyun Guen",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/douglasguen/",
+      "substack": ""
+    }
+  ]
 }

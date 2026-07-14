@@ -25,5 +25,34 @@
   },
   "updates": [],
   "podcasts": [],
-  "people": []
+  "people": [
+    {
+      "name": "Siva Kolappa",
+      "role": "General Partner, Data Engineering",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/sivakolappa/",
+      "substack": ""
+    },
+    {
+      "name": "Stephan Goupille",
+      "role": "General Partner, Data Science",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/stephan-goupille/",
+      "substack": ""
+    },
+    {
+      "name": "Ravi Grover",
+      "role": "General Partner, Data Tools",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/ravig/",
+      "substack": ""
+    },
+    {
+      "name": "Andreas Quandt",
+      "role": "General Partner, Analytics and Product",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/quandtandreas/",
+      "substack": ""
+    }
+  ]
 }

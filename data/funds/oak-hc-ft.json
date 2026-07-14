@@ -39,6 +39,29 @@
       "summary": "Stepful banks $55M to scale AI-powered medical training to boost the workforce pipeline&nbsp;&nbsp;Fierce Healthcare"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Annie Lamont",
+      "show": "Masters in Business (Bloomberg)",
+      "title": "Managing Partner of Oak HC/FT",
+      "url": "https://ritholtz.com/2024/11/mib-annie-lamont/",
+      "date": "2024-11"
+    }
+  ],
+  "people": [
+    {
+      "name": "Annie Lamont",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://x.com/annielamont",
+      "linkedin": "https://www.linkedin.com/in/annielamont",
+      "substack": ""
+    },
+    {
+      "name": "Andrew Adams",
+      "role": "Co-Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/awadams/",
+      "substack": ""
+    }
+  ]
 }

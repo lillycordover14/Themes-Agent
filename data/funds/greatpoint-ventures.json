@@ -39,6 +39,29 @@
       "summary": "Star Catcher Industries Raises $65M in Series A Funding&nbsp;&nbsp;FinSMEs"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "DJ Patil",
+      "show": "Summation (Auren Hoffman)",
+      "title": "Data Science Pioneer on AI, Healthcare, Defense",
+      "url": "https://podcasts.apple.com/us/podcast/dj-patil/id1570644971?i=1000678269323",
+      "date": "2024-11"
+    }
+  ],
+  "people": [
+    {
+      "name": "Andrew Perlman",
+      "role": "Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/andrew-perlman-372316b9/",
+      "substack": ""
+    },
+    {
+      "name": "DJ Patil",
+      "role": "General Partner",
+      "x": "https://twitter.com/dpatil",
+      "linkedin": "https://www.linkedin.com/in/dpatil/",
+      "substack": ""
+    }
+  ]
 }

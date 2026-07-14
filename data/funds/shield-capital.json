@@ -62,19 +62,27 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Raj Shah: AI and autonomy are changing military power - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUm9nN0hlUmN1azRscnMzMzUtaDY1Tmw2Wi1jeGYzSWl6ZHBiYjVJZVVDNWptMm9HMV9xTWNRTUVLcjIxQjlFdGVrc2czWHh5R1BaR29teXYzclBKTzZSeHN3UFpTOXkwY2xPNktYd3ptUjlJNzRrNFRwMDdSVXo0N0h0X0xjMFpqeFB1cjlhSVNXN2tEZFFSNWJuQQ?oc=5",
-      "date": "2026-06-05"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Investing in Star Catcher - Shield Capital",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82RDZmVmZ3b3dXbHZXdGxhN1F6OXhXN0xJUTdPTkJjVjFiQUxpOUgtT05NeUhUOTNzcFZBam1uUHFLNkNOVm5zQVdhRjJLT0g1VVFaQU1JZGhRd2NrbnpkMkZVNUtmb1ozWmRJbA?oc=5",
-      "date": "2026-05-12"
+      "person": "Raj Shah",
+      "show": "The President's Inbox (CFR)",
+      "title": "Silicon Valley and the Future of Warfare",
+      "url": "https://www.cfr.org/podcasts/tpi/silicon-valley-and-the-future-of-warfare",
+      "date": "2024"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Raj Shah",
+      "role": "Co-Founder & Managing Partner; former DIUx head",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/rajshah3",
+      "substack": ""
+    },
+    {
+      "name": "Philip Bilden",
+      "role": "Co-Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/philip-m-bilden-38918320a/",
+      "substack": ""
+    }
+  ]
 }

@@ -45,6 +45,29 @@
       "summary": "Endurance Energy Raises $54M in Series A Funding&nbsp;&nbsp;FinSMEs"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Will Coffield",
+      "show": "Pathfinder (Payload)",
+      "title": "Into a Riot, with Will Coffield",
+      "url": "https://payloadspace.com/podcast/into-a-riot-with-will-coffield-riot-ventures/",
+      "date": "2023"
+    }
+  ],
+  "people": [
+    {
+      "name": "Stephen Marcus",
+      "role": "Co-Founder & GP",
+      "x": "https://x.com/smarcus",
+      "linkedin": "https://www.linkedin.com/in/smarcus",
+      "substack": ""
+    },
+    {
+      "name": "Will Coffield",
+      "role": "Co-Founder & GP",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/will-coffield-130b1426/",
+      "substack": ""
+    }
+  ]
 }

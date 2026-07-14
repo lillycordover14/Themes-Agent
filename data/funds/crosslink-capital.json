@@ -32,6 +32,29 @@
       "summary": "Chime - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Phil Boyer",
+      "show": "Tank Talks",
+      "title": "What does 'Series A' even mean anymore?",
+      "url": "https://tanktalks.substack.com/p/crosslink-capitals-phil-boyer-on",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Eric Chin",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/ericchin1/",
+      "substack": ""
+    },
+    {
+      "name": "Matt Bigge",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/bigge",
+      "substack": ""
+    }
+  ]
 }

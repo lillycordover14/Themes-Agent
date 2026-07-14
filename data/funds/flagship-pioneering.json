@@ -62,19 +62,55 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Flagship Pioneering Announces Formation of Terion, a Company Delivering the Digital Infrastructure to Power Modern Agriculture - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQaE5DNVdDa3gtU21VOW1HN0hHNkRteUZCQWZPaUZlcGt5d2Q2cWhQRjUtTjQ5ZVU5T2x5SE1DX2JIX1NnS21GNzlrM1h4YWVVOVJMVHZ3MXZhdm1KUktKVXhPQW1jRW5PeHN6SVk0TTVEUWpMV3JOT1hLSTh1aW9oYVVYX1p4RXB1cFA3Uk5uQ1AwSE45M2VMb21yXzZPUFlQWFNSM3dvOS1LQkxBRURSSW9jX1hKX3p5c1dMV0hCXzJRWEtTM25LRmMySjBOMklKZzI3ckMyR3ZZRjBlY2REMFVfTXBwZ2pwMHpTb3ZTOG1WUTNYclRDX2NxVkM5bUNSUWxVLXpfZFpUVWYybnc?oc=5",
-      "date": "2026-06-18"
+      "person": "Noubar Afeyan",
+      "show": "The Founder Hour",
+      "title": "Noubar Afeyan: Moderna & Flagship Pioneering",
+      "url": "https://www.thefounderhour.com/episodes/noubar-afeyan-moderna-flagship-pioneering",
+      "date": "2024-08"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Boston, China and the future of biotech - Fierce Biotech",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5RXzA4czlnS0UtM3kwOXJUWDE4QTNJNHlGT0hBM3A0UkhqcmtCQUhoVDVUbEJFTFo0cURubGwyN1p4TTRJZkZOQTJzT3hBVlg0OWdaY3ZhYlkzTm16T2ZwQURRY3FEbEF0TWR5a3dXYmJVU1NWYUZFXw?oc=5",
-      "date": "2026-05-29"
+      "person": "Noubar Afeyan",
+      "show": "Conversations with Tyler",
+      "title": "Noubar Afeyan on the Permission to Leap (Ep. 113)",
+      "url": "https://conversationswithtyler.com/episodes/noubar-afeyan/",
+      "date": "2021-01-13"
+    },
+    {
+      "person": "Michelle Werner",
+      "show": "Biotech2050 Podcast",
+      "title": "Pioneering tRNA Therapeutics: Michelle Werner, CEO, Alltrna & CEO-Partner, Flagship Pioneering",
+      "url": "https://www.biotech2050.com/episodes/pioneering-trna-therapeutics-michelle-werner-ceo-alltrna-amp-ceopartner-flagship-pioneering",
+      "date": "2026-02-18"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Noubar Afeyan",
+      "role": "Founder & CEO",
+      "x": "https://x.com/NoubarAfeyan",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Michael Severino",
+      "role": "CEO-Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/michael-e-severino",
+      "substack": ""
+    },
+    {
+      "name": "Lovisa Afzelius",
+      "role": "General Partner / Origination Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/lovisa-afzelius-9823628/",
+      "substack": ""
+    },
+    {
+      "name": "Michelle Werner",
+      "role": "CEO-Partner (and CEO of Alltrna)",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/michelle-werner-7b30511/",
+      "substack": ""
+    }
+  ]
 }

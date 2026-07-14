@@ -95,5 +95,13 @@
       "date": "2026-06-22"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Jim Fleming",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

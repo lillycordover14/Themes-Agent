@@ -32,6 +32,57 @@
       "summary": "Six-month-old Anchorbase closes $2 million USD pre-seed round&nbsp;&nbsp;BetaKit"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Sean Banks",
+      "show": "The People of Private Capital",
+      "title": "From Naval Academy to Georgia FinTech Hall of Fame: Sean Banks' Journey",
+      "url": "https://www.assetclass.ai/podcast/from-naval-academy-to-georgia-fintech-hall-of-fame-sean-banks-journey",
+      "date": "2025-09-30"
+    },
+    {
+      "person": "Gardiner Garrard",
+      "show": "Proof VC Podcast",
+      "title": "TTV Capital",
+      "url": "https://www.proof.vc/podcast/ttv-capital",
+      "date": "2021-01-29"
+    },
+    {
+      "person": "Lizzie Hartley",
+      "show": "VC Uncovered",
+      "title": "Lizzie Hartley - TTV Capital",
+      "url": "https://www.vcuncovered.com/p/lizzie-hartley-ttv-capital",
+      "date": "2025-03"
+    }
+  ],
+  "people": [
+    {
+      "name": "Gardiner Garrard",
+      "role": "Co-Founder and Managing Partner",
+      "x": "https://x.com/gardinergarrard",
+      "linkedin": "https://www.linkedin.com/in/gardinergarrard/",
+      "substack": ""
+    },
+    {
+      "name": "Sean Banks",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/sean-banks-93b3471/",
+      "substack": ""
+    },
+    {
+      "name": "Lizzie Hartley",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/lizzie-hartley/",
+      "substack": ""
+    },
+    {
+      "name": "Neil Kapur",
+      "role": "Partner",
+      "x": "https://x.com/neilkapur",
+      "linkedin": "https://www.linkedin.com/in/neilkapur/",
+      "substack": ""
+    }
+  ]
 }

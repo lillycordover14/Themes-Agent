@@ -83,33 +83,27 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX3FjbE45Sjc1bXdFQS1XaW9ucnpTb2lVRFRha0sxSTNhU2dNQTJIU295eVlkVEJ5eWQ4UUctV1hBOEZsVWFXRXJVVEt0Rll2clVoaXhsZk9pUElVT2RXN3B5cmtpMXBPbnpXdWR2Q240eVpIWC1HeE9TU0I0QWJtNlN6R1J3bkU2MGxrWWcyQzEyRzVRbzIwYTVXQVNLRzZySGhNWFdnSnh2SU8tXzhhbjlCOGlLT3psdjVEUGJ1X2w?oc=5",
-      "date": "2026-07-01"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Squid Raises $6M to Expand Consumer Product Offering on Cross-Chain Infrastructure - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeWxtQ2lXUUkwUzV6NEIta1EtajFUSi1GUDlCQ2RqVVNPMnRkbS15YzA1c2xqS2VhX0pmQnpDZkowVTNJMTFZel9UVlR2UG80ejF3ejIyRXJqajdSeWxRMlZDVEFYQkhEODg5bUZScEtsYW1jazV3LThSa3Bjb21FcUJrVjlndEd2MzRhamI3SHRJQTk3MllMMGZuTGNDLVhDeHFQaU9uN1FSS3htQldMV25LUUlSWktlemxxVzBma2Z0QWZDN0c4MG1TT2N4TGt4LUNF?oc=5",
-      "date": "2026-05-22"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Venice AI Hits Unicorn Status With $65M Series A Led by Dragonfly - finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96Y25KRFhYbjNUOWp0LV9CeXFVUnFNd2lFTENNM0p4bFNETnQ2dEhuZzFvVjBKb2hWanNEX2REQjN2UTVzWWJkaV9ETjR2VG15WE50QjFBTkkyYjdUQ01DdW04enlBekJIUUJJcm8zLW5JTTVjWXc?oc=5",
-      "date": "2026-07-01"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Ripple backs Squid’s $6M round to expand cross-chain consumer platform - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNl9VQTJpb3FmTWhiSjFoMl9JNEt0WjJoQ0l0TnBpV0hqeU9DM0FWRmJBRDBWc0MzdFZURXlLREVjUC1Wb002dlVxTWY0d3dEVmJIVk91ckZBdHdfQldEUXN3bDRfck9tY2t0cXdMQTRPbUZaVjItb1hqYW50LXQwcjBXeWlPTjV3ZGtSMHZMVHdrQ09IYUI5NFB1Ymk?oc=5",
-      "date": "2026-05-22"
+      "person": "Travis Scher",
+      "show": "Scenius Studio",
+      "title": "North Island Ventures",
+      "url": "https://podcasts.apple.com/us/podcast/north-island-ventures-travis-scher/id1663011413?i=1000663668840",
+      "date": "2024-07"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Travis Scher",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://x.com/TravisScher",
+      "linkedin": "https://www.linkedin.com/in/travis-scher-74799420/",
+      "substack": ""
+    },
+    {
+      "name": "Glenn Hutchins",
+      "role": "Co-Founder & Chairman",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

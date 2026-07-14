@@ -55,12 +55,27 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "a16z's first GCC bet, Breadfast layoffs - FWDStart",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yTmdlc1ZSaDhDam9kcmpvV05aTnp5eG1xc0hoRC05ZFl0T2N2UGJLY1lWMHgxSWM2MUhMbDFQRkRkNkNOdF9FczBGRlpUSkNldndaR3VEOEY1ZTRXcEVUUnVKUVpTS0Y5VXh5V3JVbzNQZw?oc=5",
-      "date": "2026-05-15"
+      "person": "Dave Lambert",
+      "show": "Practical Founders",
+      "title": "Practical VC Advice From Over 2,000 Investments",
+      "url": "https://practicalfounders.com/podcast/102-practical-vc-shares-advice-for-saas-founders/",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Dave Lambert",
+      "role": "Co-Founder & Managing Director",
+      "x": "https://x.com/realdavelambert",
+      "linkedin": "https://www.linkedin.com/in/davidlambert55",
+      "substack": ""
+    },
+    {
+      "name": "Jeff Pomeranz",
+      "role": "Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jeff-pomeranz8/",
+      "substack": ""
+    }
+  ]
 }

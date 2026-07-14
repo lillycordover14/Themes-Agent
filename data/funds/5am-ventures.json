@@ -24,6 +24,43 @@
     "linkedin": "https://www.linkedin.com/company/5amventures"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Andy Schwab",
+      "show": "Pathfinders in Biopharma (RBC Capital Markets)",
+      "title": "5AM Ventures: Fueling the Next Generation of Innovators",
+      "url": "https://podcasts.apple.com/us/podcast/5am-ventures-fueling-the-next-generation-of-innovators/id1545972720?i=1000503247683",
+      "date": "2020-12-21"
+    }
+  ],
+  "people": [
+    {
+      "name": "Kush M. Parmar",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/kush-parmar-m-d-ph-d-5165582/",
+      "substack": ""
+    },
+    {
+      "name": "Andy J. Schwab",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://x.com/Schwab5AM",
+      "linkedin": "https://www.linkedin.com/in/anschwab/",
+      "substack": ""
+    },
+    {
+      "name": "Anna Yaeger",
+      "role": "Chief Investment Officer & Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/anna-cosslett-yaeger-533b7917a/",
+      "substack": ""
+    },
+    {
+      "name": "Scott M. Rocklage",
+      "role": "Founding Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/scott-rocklage-66aa7a12a/",
+      "substack": ""
+    }
+  ]
 }

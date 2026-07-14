@@ -24,6 +24,22 @@
     "linkedin": "https://www.linkedin.com/company/newviewcap"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Ravi Viswanathan",
+      "show": "Capital Allocators",
+      "title": "Venture Secondaries and Growth Capital",
+      "url": "https://www.capitalallocators.com/podcast/venture-secondaries-and-growth-capital-at-newview/",
+      "date": "2023-07"
+    }
+  ],
+  "people": [
+    {
+      "name": "Ravi Viswanathan",
+      "role": "Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/raviswanathan",
+      "substack": ""
+    }
+  ]
 }

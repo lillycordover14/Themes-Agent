@@ -33,12 +33,55 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "GT Medical Technologies Completes Oversubscribed $100 Million Series E Equity Financing to Advance Commercial Treatment for Patients with Operable Brain Tumors ",
-      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPWHItRkNQdTZpNmxneEQ2a0ltLVVoR3FodURZNndfaVhTR3FTMHAteldJakw5ZkhtandtNVFhcEZ4VU55bHhPcDdlTnlGbnB6SkNQVnktb1lzd3BjYTRrbDVjTjhWeW0tOURpYUdwMlJuNzc3M2hlVDlWdFVFbkE3MlRHRGtUdkYtUVZoU25PdktNN2NXN0d0VW44T0F1OFJKcnRuZUJaRUZRT2oyQXpnM2VfdzZpVVgwdGdkZHVxdUdfazJ0MnUzY253UUN3bHdlOGo0dzZNd3RxLTBEN1ZFUkVJbFNmc0Zja2RHaWItb0lMUVhwUUxpWHhTeGdpTVBUeHdLWlBTRGw1UjFWMEdWVERZWVRXSmg4Nm1OY2hBdjI4QVFpNFdFLWx1OHlpTTFSRWNqc1ZmLVM3UQ?oc=5",
-      "date": "2026-06-09"
+      "person": "Maneesha Ghiya",
+      "show": "Fifty Faces Podcast",
+      "title": "Maneesha Ghiya of FemHealth Ventures: Amplifying Women in Healthcare and Beyond",
+      "url": "https://www.fiftyfaceshub.com/3401-2/",
+      "date": "2024-04-07"
+    },
+    {
+      "person": "Maneesha Ghiya",
+      "show": "HealthyWomen",
+      "title": "15 Minutes With: Maneesha Ghiya Talks Femtech and the Future of Women's Healthcare",
+      "url": "https://www.healthywomen.org/your-care/maneesha-ghiya-talks-femtech-and-the-future-of-womens-healthcare",
+      "date": "2025-11"
+    },
+    {
+      "person": "Maneesha Ghiya",
+      "show": "CNBC Women & Wealth",
+      "title": "Maneesha interviewed for CNBC's Women & Wealth",
+      "url": "https://www.femhealthventures.com/news/cnbc-maneesha-interviewed-for-cnbcs-women-amp-wealth",
+      "date": "2024-03"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Maneesha Ghiya",
+      "role": "Managing Partner & Founder",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/maneesha-ghiya-ba05994/",
+      "substack": ""
+    },
+    {
+      "name": "Sara Crown Star",
+      "role": "Venture Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/saracrownstar/",
+      "substack": ""
+    },
+    {
+      "name": "Stephanie Wang",
+      "role": "Investor",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/stephanie-wang-2021/",
+      "substack": ""
+    },
+    {
+      "name": "Susanne Seripiero",
+      "role": "Executive Administrator",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/susanne-seripiero-81a03b70/",
+      "substack": ""
+    }
+  ]
 }

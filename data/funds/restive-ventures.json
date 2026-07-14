@@ -48,26 +48,48 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Eisen raises $18.5 million to help Americans recover over $70 billion in forgotten funds held by state governments - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObld1NTNvajJYYkRpQ3ZRb1ptMEJiQm13bTRuX0VJMEd3bVU1NnN3a19QMENBQXUyOEVYYUlGdl85VXdWQVJNM2thN0VaSmd6alBBaU1YUWpxSTFGUm9zZnN2MnhqOVo1ejU2QzhuXzJEZ2hnRm1UVGYxQ3BOanRvZFZ0MElNbjQ?oc=5",
-      "date": "2026-05-19"
+      "person": "Cameron Peake",
+      "show": "The Restive Perspective (Restive Ventures)",
+      "title": "Episode 6 with Naré Vardanyan of Ntropy",
+      "url": "https://www.youtube.com/watch?v=dEvPSBZD-vs",
+      "date": ""
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Regtech Eisen Raises $18.5 Million to Streamline Escheatment - Finovate",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeS1hSF9tUVQybmpGSFZzb3FnZDFNZ0NNTWhMZDJzNTlsRk0xQUhhSmI2Zm5EYnhOT1Z2a2xUQ1RuUldRRTdlQzhoWnlhQ2lISWVBa1NVbEpsWG1rSlFaV3ltbFdtT1ROLWdpcUpYM0hYdU5nSjRMS3NDbkExcHRKclVFZDh3RXFv?oc=5",
-      "date": "2026-05-19"
+      "person": "Ryan Falvey",
+      "show": "Tearsheet Podcast",
+      "title": "Venture capital and fintech are changing",
+      "url": "https://tearsheet.co/podcasts/venture-capital-changing-ryan-falvey/",
+      "date": ""
     },
     {
-      "person": "",
-      "show": "",
-      "title": "220 unicorn startups have lost their billion-dollar status. Here’s why - The News International",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkVSd0hsOE05cHJNWkJuMWZFZmtLOWpBa2dDWU0yY0hXLWZ5Nm4yTUFjQmh5ZFdWOVlnTV9fUTAyVHc3SjQ5UzdOVmdZb1k1WkJYajZvQjdaTDI1YU4wZWZ2NUNVNnpmWnNubkM5TXBNN2Fpa2NCRlZQSnFqRXppZmpCMlNQMjZmT0FCNHdWSFBLQTJKX2ZrNGRhSWI2WGNFX3o5Q0hNRG5hQkh0N0p3?oc=5",
-      "date": "2026-06-01"
+      "person": "Cameron Peake",
+      "show": "Payments on Fire",
+      "title": "Episode 182 - Steering the Fintech through Regulatory Waters",
+      "url": "https://podcasts.apple.com/gh/podcast/episode-182-steering-the-fintech-through-regulatory/id919547845?i=1000583960751",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Ryan Falvey",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://twitter.com/ryan_falvey",
+      "linkedin": "https://www.linkedin.com/in/ryan-falvey/",
+      "substack": ""
+    },
+    {
+      "name": "J. Tyler Griffin",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://x.com/JTylerGriffin",
+      "linkedin": "https://www.linkedin.com/in/jtylergriffin/",
+      "substack": ""
+    },
+    {
+      "name": "Cameron Peake",
+      "role": "Partner",
+      "x": "https://x.com/cameronpeake",
+      "linkedin": "https://www.linkedin.com/in/cameronpeake/",
+      "substack": ""
+    }
+  ]
 }

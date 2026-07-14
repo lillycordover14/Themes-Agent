@@ -23,6 +23,43 @@
     "linkedin": "https://www.linkedin.com/company/cottonwood-technology-fund"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Dave Blivin",
+      "show": "The Covert Code",
+      "title": "David Blivin: Why Great Ideas Don't Need Silicon Valley to Succeed | EP 103",
+      "url": "https://podcasts.apple.com/us/podcast/david-blivin-why-great-ideas-dont-need-silicon-valley/id1733326615?i=1000749631923",
+      "date": "2026-02-13"
+    },
+    {
+      "person": "Dave Blivin",
+      "show": "The Authority Company Podcast",
+      "title": "David C. Blivin: Growing Innovation Beyond Silicon Valley",
+      "url": "https://advantagebooks.com/author-podcasts/the-authority-company-podcast/david-c-blivin-crossing-the-cactus-innovation-outside-silicon-valley/",
+      "date": "2025"
+    },
+    {
+      "person": "Alain le Loux",
+      "show": "SeedBlink Blog",
+      "title": "Inside the Mind of a VC: a conversation with Alain le Loux, General Partner at Cottonwood Technology Fund",
+      "url": "https://seedblink.com/blog/2023-08-15-inside-the-mind-of-a-vc-a-conversation-with-alain-le-loux-general-partner-at-cottonwood-technology-fund",
+      "date": "2023-08-15"
+    }
+  ],
+  "people": [
+    {
+      "name": "Dave Blivin",
+      "role": "Founder & Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/dblivin/",
+      "substack": ""
+    },
+    {
+      "name": "Alain le Loux",
+      "role": "General Partner",
+      "x": "https://x.com/alainleloux",
+      "linkedin": "https://www.linkedin.com/in/alainleloux",
+      "substack": ""
+    }
+  ]
 }

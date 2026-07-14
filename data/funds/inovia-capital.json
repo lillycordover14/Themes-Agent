@@ -69,19 +69,27 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Steve Woods of Inovia Capital On How to Build a Purpose-Driven Culture That Attracts Top Talent - Medium",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcXBYVnBSa2tTX240WGtCdGM2Q1hqVU1HOElDYXhkdFFZRl9Mb3ZJWVJIYXI3cDg4Q3pzNklpZUJZWGd4SWVSbGc0UUFjS3pvT3JGSWVCclM2bEs0WmhsOVA2RTRjeS1tYUZqdUd0NmppRlNVZGIwNHd3dU9NMTZCUmJZcVBvZGJZY24tV3VLdzRCaEhuUWg5Q0FNN2RNYTF3SWhlZlR0WjczaWJ0dUpMdk9udW9wdHA5Z0hWMUMxS3d0clFwUXpUQWRvLW1fejdlZER0dkZYQkt4dHZwZ21F?oc=5",
-      "date": "2026-05-21"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Inovia promotes Mia Morisset to partner on growth team - BetaKit",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOajFfYXB6Vm9aTUtJMWtyVjl5N3ZyQ0tsZnNkVjZHOFZfTnNrYzFRNWF2dU5HY3FvRGZhUlJkSXlnYzFJWDJqaW5pTG83Y0tmV2VRVTlMVlROV1RDYTRXdDhoS1JNT1A5OU5vMThWc01oSmw5NW91aENxWTMxMTJuLQ?oc=5",
-      "date": "2026-06-05"
+      "person": "Chris Arsenault",
+      "show": "The BetaKit Podcast",
+      "title": "On the state of Canadian software",
+      "url": "https://betakit.libsyn.com/inovias-chris-arsenault-on-the-state-of-canadian-software",
+      "date": "2024"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Chris Arsenault",
+      "role": "Co-Founding Partner & CEO",
+      "x": "https://x.com/chrisarsenault",
+      "linkedin": "https://ca.linkedin.com/in/chrisarsenault",
+      "substack": ""
+    },
+    {
+      "name": "Patrick Pichette",
+      "role": "Partner (Growth); former Google CFO",
+      "x": "",
+      "linkedin": "https://uk.linkedin.com/in/patrick-pichette-22067a26b",
+      "substack": ""
+    }
+  ]
 }

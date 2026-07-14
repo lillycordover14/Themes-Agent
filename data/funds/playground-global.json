@@ -83,19 +83,55 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Silicon Is Back: Playground Global’s Decade-Long Bet On Hardware, Energy And Deep Tech Looks Prescient - Crunchbase News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX1dOZTNfaUZ1NWJHWFlkdldZWVlKQnF6aHFlS3A4a09rTXhhN2tMTUhPZk9hMS1aUDk4aGdZVkVURHJPaFQ0R283b08tUVlTUVVOYllZLThsRUlERDl2S090aFJVVmVja0ZCUmVROE9xMDNSd2gyNWN4d0FvQVFCMmwyTm5jbGdMNmtGZmhSNFRUUzVIWGpVTW5XZEV0T3Zu?oc=5",
-      "date": "2026-06-16"
+      "person": "Peter Barrett",
+      "show": "Core Memory (Ashlee Vance)",
+      "title": "What's Real And What's Fake In Tech - EP 56 Peter Barrett",
+      "url": "https://www.corememory.com/p/whats-real-and-whats-fake-in-tech-peter-barrett",
+      "date": "2026-02-11"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "How do you announce a live service game in 2026? Plus, Nex Playground's global expansion - The Game Business",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PZjlxalo2TUtITmlZMVJWbTdBVGV4WFFhaW5CVkhNLXVBTklpajlxSl91d1FaNURreWF2ZTNZY1F6T2RFOFpkaEg0UkdnVzVjNURKWno5WEhkTTBXV3A2YnZyWWlQY2VZcEpCYTRfZ1hFNTFVb000?oc=5",
-      "date": "2026-05-21"
+      "person": "Pat Gelsinger",
+      "show": "Axios",
+      "title": "Ex-Intel CEO Pat Gelsinger discusses his new VC job",
+      "url": "https://www.axios.com/2025/03/27/intel-pat-gelsinger-venture-capital-playground-global",
+      "date": "2025-03-27"
+    },
+    {
+      "person": "Peter Barrett",
+      "show": "CNBC",
+      "title": "Playground Global's Peter Barrett on quantum computing and tech's potential",
+      "url": "https://www.cnbc.com/video/2025/02/25/playground-globals-peter-barrett-on-quantum-computing-and-techs-potential.html",
+      "date": "2025-02-25"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Peter Barrett",
+      "role": "General Partner (Co-Founder)",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/peter-barrett-1b4b6439/",
+      "substack": ""
+    },
+    {
+      "name": "Andy Rubin",
+      "role": "Co-Founder (departed 2019)",
+      "x": "https://x.com/andyrubin",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Bruce Leak",
+      "role": "General Partner (Co-Founder)",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/bruce-leak-99ab1919a/",
+      "substack": ""
+    },
+    {
+      "name": "Pat Gelsinger",
+      "role": "General Partner (joined March 2025; former Intel/VMware CEO)",
+      "x": "https://x.com/PGelsinger",
+      "linkedin": "https://www.linkedin.com/in/patgelsinger/",
+      "substack": ""
+    }
+  ]
 }

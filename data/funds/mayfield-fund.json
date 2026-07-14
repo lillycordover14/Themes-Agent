@@ -32,6 +32,36 @@
       "summary": "Navin Chaddha&nbsp;&nbsp;Forbes"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Navin Chaddha",
+      "show": "DealMakers",
+      "title": "Building A $3B Business, Now Managing A $3B VC Firm",
+      "url": "https://alejandrocremades.com/navin-chaddha/",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Navin Chaddha",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/navinchaddha",
+      "substack": ""
+    },
+    {
+      "name": "Rishi Garg",
+      "role": "Partner (Consumer)",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/gargrishi/",
+      "substack": ""
+    },
+    {
+      "name": "Vijay Reddy",
+      "role": "Partner, AI",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/vijayreddy/",
+      "substack": ""
+    }
+  ]
 }

@@ -76,12 +76,48 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Active Surfaces Raises $5.6M for Flexible Solar Panels - Causeartist",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYVJKMGR3V2lkZDM5T3Q5aE1Yb1hOOFEzY1RFRkZZUDVPWUZVQUFTUjhyejJfU2tob2lVV1kyZElEWnJwZ2xCcDdtUFVneUhZNDFqTTItVkg3eDNmV193a0RiNW9aeG0zTUpTRkdRdjBCQnozNXl6UmRJNVoyZ2ZZNklYLTgzeWc?oc=5",
-      "date": "2026-06-03"
+      "person": "Kid Parchariyanon",
+      "show": "Pulse 2.0",
+      "title": "SeaX: Interview With Founder & CEO Kid Parchariyanon About The Early-Stage Investment Firm",
+      "url": "https://pulse2.com/seax-profile-kid-parchariyanon-interview/",
+      "date": ""
+    },
+    {
+      "person": "Kid Parchariyanon",
+      "show": "Financial Freestyle with Ross Mac (iHeart)",
+      "title": "How to pick the best long-term investment for your future",
+      "url": "https://www.iheart.com/podcast/1319-financial-freestyle-with-193433064/episode/how-to-pick-the-best-long-term-289662039/",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Kid Parchariyanon (Supachai Parchariyanon)",
+      "role": "Founder and Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/supachai/",
+      "substack": ""
+    },
+    {
+      "name": "Jo Wongcharoenyai",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jo-vc/",
+      "substack": ""
+    },
+    {
+      "name": "Desney Tan",
+      "role": "Venture Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/desney",
+      "substack": ""
+    },
+    {
+      "name": "Stacey Chang",
+      "role": "Venture Partner",
+      "x": "",
+      "linkedin": "http://linkedin.com/in/staceychang",
+      "substack": ""
+    }
+  ]
 }

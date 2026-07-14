@@ -30,6 +30,22 @@
       "summary": "Petal Surgical adds more funding for incisionless surgical robot&nbsp;&nbsp;The Robot Report"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Ryan Bloomer",
+      "show": "Latitud Podcast",
+      "title": "Building a better future for the 99%",
+      "url": "https://latitud.com/podcast/125-ryan-bloomer-k50",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Ryan Bloomer",
+      "role": "Founder & Managing Partner (fka K50)",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/ryan-bloomer-b3925a4",
+      "substack": ""
+    }
+  ]
 }

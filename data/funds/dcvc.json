@@ -39,6 +39,36 @@
       "summary": "Palo Alto venture firm files for $500M energy vehicle&nbsp;&nbsp;The Business Journals"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Matt Ocko",
+      "show": "We The Builders",
+      "title": "Lessons from 30+ Years in DeepTech VC",
+      "url": "https://wethebuilders.us/p/e26-matt-ocko-cofounder-dcvc",
+      "date": "2026-04"
+    },
+    {
+      "person": "Zachary Bogue",
+      "show": "Inevitable (MCJ)",
+      "title": "How a $4B Deep-Tech Fund Tackles Emissions",
+      "url": "https://mcj.vc/inevitable-podcast/zachary-bogue-dcvc",
+      "date": "2025-04"
+    }
+  ],
+  "people": [
+    {
+      "name": "Matt Ocko",
+      "role": "Co-Founder & Co-Managing Partner",
+      "x": "https://x.com/mattocko",
+      "linkedin": "https://www.linkedin.com/in/mattocko",
+      "substack": ""
+    },
+    {
+      "name": "Zachary Bogue",
+      "role": "Co-Founder & Co-Managing Partner",
+      "x": "https://twitter.com/zackbogue",
+      "linkedin": "https://www.linkedin.com/in/zackbogue",
+      "substack": ""
+    }
+  ]
 }

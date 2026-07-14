@@ -23,6 +23,29 @@
     "linkedin": "https://www.linkedin.com/company/fintop-capital"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Joe Maxwell",
+      "show": "Bank On It",
+      "title": "Joe Maxwell from FINTOP Capital",
+      "url": "https://open.spotify.com/episode/6RoQywyjEJi4xEFqnxxLdD",
+      "date": "2019-02"
+    }
+  ],
+  "people": [
+    {
+      "name": "Joe Maxwell",
+      "role": "Co-Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/josephemaxwell/",
+      "substack": ""
+    },
+    {
+      "name": "John Philpott",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/philpottjohn/",
+      "substack": ""
+    }
+  ]
 }

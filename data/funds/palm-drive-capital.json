@@ -26,12 +26,27 @@
   "updates": [],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Dr. Henry Kang, Founder and CEO of Clipto – Interview Series - Unite.AI",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMmJvekd6Zzl1Vy1Gb1pfMEZUVWxQUkxXMk1RZnVUeEdwN1FjMFB4T3FLMlB1LTFBSzBkZDhuQ3VoWVJJa3JKT0JaR3lLcEotWXRGRWZsUjN3SHI0SXBfX21HUGtDLThsU3dRelFPYU9HTE5MVUlYbFpGMlZ0YlJtVFJVejE?oc=5",
-      "date": "2026-07-10"
+      "person": "Seamon Chan",
+      "show": "AAAIM High ELI",
+      "title": "Why we started our VC in our 20's",
+      "url": "https://podcasts.apple.com/us/podcast/seamon-chan-palm/id1547706749?i=1000555803794",
+      "date": "2022-03"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Seamon Chan",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://twitter.com/seamonchan",
+      "linkedin": "https://www.linkedin.com/in/seamonchan/",
+      "substack": ""
+    },
+    {
+      "name": "Hendrick Lee",
+      "role": "Co-Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/leehendrick/",
+      "substack": ""
+    }
+  ]
 }

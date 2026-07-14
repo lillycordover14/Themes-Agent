@@ -24,6 +24,29 @@
     "linkedin": "https://www.linkedin.com/company/moderne-ventures"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Constance Freedman",
+      "show": "Fiftyfaces Podcast",
+      "title": "Innovation through Networking",
+      "url": "https://www.fiftyfaceshub.com/constance-freedman-of-moderne-ventures/",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Constance Freedman",
+      "role": "Founder & Managing Partner",
+      "x": "https://twitter.com/cofreedman",
+      "linkedin": "https://www.linkedin.com/in/cfreedman/",
+      "substack": ""
+    },
+    {
+      "name": "Liza Benson",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/liza-benson-a8091828/",
+      "substack": ""
+    }
+  ]
 }

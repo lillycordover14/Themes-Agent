@@ -44,6 +44,29 @@
       "summary": "Rapid Micro Biosystems Announces Pricing of Up to Approximately $32 Million Underwritten Offering&nbsp;&nbsp;GlobeNewswire"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Adam Koppel",
+      "show": "The BioCentury Show",
+      "title": "Why Private Equity Is Moving Deeper Into Biotech",
+      "url": "https://www.youtube.com/watch?v=qEl5Xy4UWK0",
+      "date": "2026-01"
+    }
+  ],
+  "people": [
+    {
+      "name": "Adam Koppel",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/adam-koppel-1534596",
+      "substack": ""
+    },
+    {
+      "name": "Andrew Hack",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/andrew-hack-md-phd-079226a/",
+      "substack": ""
+    }
+  ]
 }

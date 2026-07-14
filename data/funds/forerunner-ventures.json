@@ -39,6 +39,29 @@
       "summary": "Town’s AI assistants learn your life—Andreessen Horowitz and Forerunner just backed the vision with $55 million&nbsp;&nbsp;Fortune"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Brian O'Malley",
+      "show": "Acquired",
+      "title": "Consumer Investing in 2022",
+      "url": "https://www.acquired.fm/episodes/consumer-investing-in-2022-with-brian-omalley-of-forerunner-ventures",
+      "date": "2022"
+    }
+  ],
+  "people": [
+    {
+      "name": "Kirsten Green",
+      "role": "Founder & Managing Partner",
+      "x": "https://x.com/kirstenagreen",
+      "linkedin": "https://www.linkedin.com/in/kirstengreen/",
+      "substack": ""
+    },
+    {
+      "name": "Eurie Kim",
+      "role": "Managing Partner",
+      "x": "https://x.com/eurie_kim",
+      "linkedin": "https://www.linkedin.com/in/euriekim",
+      "substack": ""
+    }
+  ]
 }

@@ -42,19 +42,55 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Filing: College app Fizz accuses VC of sharing confidential startup information with rival Sidechat - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbEJnNTFVZHlTalJ4TkpCd0dFNE0xdm9MQnNLRjMtVm9hWFdJUWRhTWZIZnpCS1RoU0xXZlR1U0dXNzZVM3hnd1ozUzdBWWJlZWVDVkFOTVhFTW5ndUw2ZC1EcXB4SzZDekpvOFJ3blltQjVXTzMxMWJXWjFFdElIME53eDJlODBmUGdFa19jZ09Ja3lfaXBpQmpIaUo1V19QXzEtNTU5cUlxWm9fcjNSVzJWY2ZYQzF4MGgyTEJvd2tFdVVkanp4WlJpNU5Edw?oc=5",
-      "date": "2026-07-10"
+      "person": "Dan Levitan",
+      "show": "What Fuels You",
+      "title": "The Impact of Venture Capital with Dan Levitan, Co-Founder & Partner of Maveron",
+      "url": "https://omny.fm/shows/what-fuels-you/the-impact-of-venture-capital-with-dan-levitan-co",
+      "date": "2019-06"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Everlane’s sale to Shein shows the limits of sustainability-led fashion brands - glossy.co",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSTZrTVFEQ1pNaGR1Mm1xaEtuOTh2eFFtenRjNGhyWm1ZUEx5UFZoSldFTmhiWWpkdHlMci1TTFJzRy1KWkVOUXkxQ01mZndBTGZzT1NuNkpTXzIzRjA3V3U1MHVZOUZWYkktYVBwYkpZQmtqbWRwdDB6RXlENzFUZVN3ZWZOdWdGVjg0LUFTT01RSHFZcVlpeXFnSlFxUTVNWmNnVTI5MXo1N0pk?oc=5",
-      "date": "2026-05-18"
+      "person": "Anarghya Vardhana",
+      "show": "Kauffman Fellows Podcast",
+      "title": "Be Unimpeachable - Anarghya Vardhana, Maveron",
+      "url": "https://creators.spotify.com/pod/show/kauffman-fellows/episodes/Be-Unimpeachable---Anarghya-Vardhana--Maveron-e3ma1q",
+      "date": "2019-05"
+    },
+    {
+      "person": "Dan Levitan",
+      "show": "Diversity Riders",
+      "title": "Dan Levitan, Co-Founder & Managing Partner, Maveron",
+      "url": "https://creators.spotify.com/pod/show/diversityriders/episodes/5-Dan-Levitan--Co-Founder--Managing-Partner--Maveron-e14ntfe",
+      "date": "2021"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Dan Levitan",
+      "role": "Co-Founder & Partner",
+      "x": "https://x.com/Levitan",
+      "linkedin": "https://www.linkedin.com/in/dlevitan",
+      "substack": ""
+    },
+    {
+      "name": "Nathan Apsel",
+      "role": "Partner, COO & CFO",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/nathan-apsel-87540733/",
+      "substack": ""
+    },
+    {
+      "name": "Anarghya Vardhana",
+      "role": "Venture Partner",
+      "x": "https://twitter.com/anarghya503",
+      "linkedin": "https://www.linkedin.com/in/anarghya-vardhana-b8540a27/",
+      "substack": ""
+    },
+    {
+      "name": "Simran Suri",
+      "role": "Investor",
+      "x": "https://x.com/simrangsuri",
+      "linkedin": "https://www.linkedin.com/in/simran-suri-540745147/",
+      "substack": ""
+    }
+  ]
 }

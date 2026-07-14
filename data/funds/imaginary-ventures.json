@@ -22,6 +22,29 @@
     "linkedin": "https://www.linkedin.com/company/imaginary"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Nick Brown",
+      "show": "The Glossy Podcast",
+      "title": "Seeking founders with something to prove",
+      "url": "https://www.glossy.co/podcasts/imaginary-ventures-nick-brown-investing/",
+      "date": "2022-07"
+    }
+  ],
+  "people": [
+    {
+      "name": "Natalie Massenet",
+      "role": "Co-Founder & GP",
+      "x": "https://x.com/nataliemassenet",
+      "linkedin": "https://www.linkedin.com/in/natalie-massenet-77a732157/",
+      "substack": ""
+    },
+    {
+      "name": "Nick Brown",
+      "role": "Co-Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/nickbrownimaginary/",
+      "substack": ""
+    }
+  ]
 }

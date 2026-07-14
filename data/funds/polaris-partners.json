@@ -32,6 +32,57 @@
       "summary": "Polaris partners with public land foundation to support OHV access&nbsp;&nbsp;Powersports Business"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Amy Schulman",
+      "show": "BioVenture VoiCes with Chris Garabedian",
+      "title": "BioVenture VoiCes Episode 31: Polaris Partners' Amy Schulman",
+      "url": "https://www.biotechtv.com/post/bioventure-voices-polaris-partners-amy-schulman",
+      "date": "2025-12-29"
+    },
+    {
+      "person": "Terry McGuire",
+      "show": "Hercules Capital Podcast",
+      "title": "The Evolution of Biotech – Lessons From 35 Years of Early Stage Investing featuring Terry McGuire",
+      "url": "https://www.htgc.com/27-the-evolution-of-biotech-lessons-from-35-years-of-early-stage-investing-featuring-terry-mcguire/",
+      "date": "2023"
+    },
+    {
+      "person": "Terry McGuire",
+      "show": "YouTube (Tech Investing Mastermind)",
+      "title": "Tech Investing Mastermind: Terry McGuire - Co-founder of Polaris Partners & Chairman Emeritus of NVCA",
+      "url": "https://www.youtube.com/watch?v=GMoluXQtcz0",
+      "date": "2023"
+    }
+  ],
+  "people": [
+    {
+      "name": "Terry McGuire",
+      "role": "Founding Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/terry-mcguire-87b39414/",
+      "substack": ""
+    },
+    {
+      "name": "Amy Schulman",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Brian Chee",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/brian-chee-1a274128/",
+      "substack": ""
+    },
+    {
+      "name": "Ellie McGuire",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

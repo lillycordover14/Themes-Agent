@@ -61,6 +61,57 @@
       "summary": "The EMC community has become one of my proudest accomplishments as a professional."
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Rick Zullo",
+      "show": "MCJ (My Climate Journey) — Capital Series",
+      "title": "Capital Series: Rick Zullo, Equal Ventures",
+      "url": "https://mcj.vc/inevitable-podcast/rick-zullo",
+      "date": "2023-12"
+    },
+    {
+      "person": "Rick Zullo",
+      "show": "The Peel (Turner Novak)",
+      "title": "Rick Zullo on Building Equal Ventures, Why Traction is Overrated, Advice for Emerging Managers",
+      "url": "https://podcasts.apple.com/us/podcast/rick-zullo-on-building-equal-ventures-why-traction/id1694440669?i=1000691814875",
+      "date": "2025-02-13"
+    },
+    {
+      "person": "Rick Zullo",
+      "show": "Heavy Hitters: The Digital Industrial Podcast",
+      "title": "68. Rick Zullo, Equal Ventures - Having a Prepared Mind",
+      "url": "https://creators.spotify.com/pod/profile/heavyhittersindustrial/episodes/68--Rick-Zullo--Equal-Ventures---Having-a-Prepared-Mind-e27i21i",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Rick Zullo",
+      "role": "Managing Partner",
+      "x": "https://twitter.com/Rick_Zullo/",
+      "linkedin": "https://www.linkedin.com/in/rickzullo/",
+      "substack": "https://newsletter.equal.vc/"
+    },
+    {
+      "name": "Chelsea Zhang",
+      "role": "Partner",
+      "x": "https://twitter.com/ZchelseaZ",
+      "linkedin": "https://www.linkedin.com/in/zhangchelsea/",
+      "substack": ""
+    },
+    {
+      "name": "Ali Afridi",
+      "role": "Partner",
+      "x": "https://twitter.com/alikafridi",
+      "linkedin": "https://www.linkedin.com/in/alikafridi",
+      "substack": ""
+    },
+    {
+      "name": "Adam Chadroff",
+      "role": "Investor",
+      "x": "https://twitter.com/achadroff",
+      "linkedin": "https://www.linkedin.com/in/adam-chadroff/",
+      "substack": ""
+    }
+  ]
 }

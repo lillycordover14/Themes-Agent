@@ -41,12 +41,34 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "RRE Ventures Acquisition Ord Shs Class A - TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84Q0NvUEczQ0RDMm9TSnQ0MUoyZlB3b3N2ampCT0htbXpLZjRtdW43WF9rZkRrTXdYU1BlbzZ4dXRnLXI5bTh1VmpDVklmbVd5REpBeHVkWHVabDRnYUp6SlFSSkl1NHdnM2xvZkZn?oc=5",
-      "date": "2026-06-23"
+      "person": "RRE",
+      "show": "RRE POV (firm podcast)",
+      "title": "Satellite tech, digital health, AI & venture",
+      "url": "https://podcasts.apple.com/us/podcast/rre-pov/id1719689131",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Jim Robinson",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://x.com/jdrive",
+      "linkedin": "https://www.linkedin.com/in/jdrive",
+      "substack": ""
+    },
+    {
+      "name": "Will Porteous",
+      "role": "General Partner & COO",
+      "x": "https://x.com/porteous",
+      "linkedin": "https://www.linkedin.com/in/wporteous",
+      "substack": ""
+    },
+    {
+      "name": "Raju Rishi",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/rajurishi",
+      "substack": ""
+    }
+  ]
 }

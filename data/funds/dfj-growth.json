@@ -34,19 +34,27 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Why 2 SpaceX alumni are betting on solar and batteries to power the AI craze - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTHNubmhHZHVqQ0g0RUFnY1E5aE9Ta1hrOVZnZm1Ea1NZcFpDR0V4Y2xtNWJmN2hRUF9QYzdzSGpna0lMSEV5X2pGRXhVVmNaeW1pckZLdURmTDV1S3hJdjZkWTVJeV95ak9tZ2ltWmtZY0hlbFJXOWJEYVpfV1owSTFZaTVZU3pFbXNqcGlxY2trV25vdnlERXBtbkY3MUVjLTd2WmgtTXd6Mk5jS0s4WkY3Yw?oc=5",
-      "date": "2026-06-10"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "The Hollywood power players set to make billions in Elon Musk’s SpaceX IPO - Page Six",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSXNUTlZmR3FmRmJsTFl6dS05NnJwaGNlTkZlUHJQZDUtQmFOd3hVdkVnZkhhbEZfbDJDSnV3LTFyN3o1Wk9RX0NjTC1sRnVVSXBYMDQ3Szl6XzFJR2FtY3BhblFqdkI5ckJvM0piZ0t1VGg0bkJsaFAyaF8zSVNMS2xCRVEzZEVQLUpIX2F3dXY2bFl4ZlZwbUxiUmpaMVNjMG5vdUt5Z0FVREZESzlKaE9JclVnZw?oc=5",
-      "date": "2026-06-10"
+      "person": "Barry Schuler",
+      "show": "The Full Ratchet",
+      "title": "What It Takes to Build Trillion-Dollar Companies",
+      "url": "https://fullratchet.net/467-barry-schuler/",
+      "date": "2025-01"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Randy Glein",
+      "role": "Co-Founder & Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/randyglein",
+      "substack": ""
+    },
+    {
+      "name": "Barry Schuler",
+      "role": "Co-Founder & Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/barry-schuler-9440225/",
+      "substack": ""
+    }
+  ]
 }

@@ -41,12 +41,34 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Alphabet’s GV backs fintech firm Nebex that aims to serve as space industry broker - The Business Times",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZ3AyRExoV3l5NlRoVlp3aHNxLWpZWmpEY0t6Y211dEllV0dETFhvMTZtQWpYazNEYUlUeUlaNWY5eFdvXzd0TVJfVUJYM1p3bnFUbmJGZ1JOR0NVcHc2dDJ6OE1UN3huZWFoOEhSMkt3cHFhd2V4cDV0Q0V0SklzR1pwMU40d0tsQV9MM2FFY19MMDhTTHRMQXd6LW0wcXFVRzY5YTRLbjZRcE9TaUVQZEhkMjh4VnFhYlRhR1pB?oc=5",
-      "date": "2026-06-30"
+      "person": "Hadley Harris",
+      "show": "Venture Unlocked",
+      "title": "Portfolio construction & the shifting seed market",
+      "url": "https://ventureunlocked.substack.com/p/eniac-ventures-hadley-harris-on-portfolio",
+      "date": "2021-10"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Hadley Harris",
+      "role": "Co-Founder & GP",
+      "x": "https://x.com/hadley",
+      "linkedin": "https://www.linkedin.com/in/hadleyharris/",
+      "substack": "https://www.hadleyharris.xyz/"
+    },
+    {
+      "name": "Nihal Mehta",
+      "role": "Co-Founder & GP",
+      "x": "https://twitter.com/nihalmehta",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Tim Young",
+      "role": "Co-Founder & GP",
+      "x": "https://x.com/timy0ung",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

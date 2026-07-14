@@ -69,19 +69,55 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Blockchain Capital’s Spencer Bogart outlines contrarian crypto thesis for next decade - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVWc1VnNaSDJDR0thOEdQS2c3VGlnUGdyc2s5N1FKaW1DNWctX1MwSmw0TFBaWUxPdHNiOExpaFg4RUxwSkNlNlpBWW1nc1dpRnJ3elhYUGRBcF9FOFZlU0RiQnREU2hxeHJncWFXcnE4bGhxeDJWRWJnaFpNcXFEN3dMY3M?oc=5",
-      "date": "2026-06-11"
+      "person": "Spencer Bogart & Aleks Larsen",
+      "show": "Empire (Blockworks)",
+      "title": "Blockchain Capital's $580M Dollar Bet on Crypto",
+      "url": "https://podcasts.apple.com/us/podcast/blockchain-capitals-%24580m-dollar-bet-on-crypto-spencer/id1554930038?i=1000630027335",
+      "date": "2023-10-03"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Traders no longer fully price in Federal Reserve rate hike this year - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lUXBuNUlObVh2OGR3dlFBZlp6eW9IaHdxU3A2UUJDc2NOYWxaSHBEWGlReXo3Vm04aXo1Zld5dkZWN2V6U2lzNjJwZkdPQkpLckdmYUVta0diWWZURkNjNzRFUXZtT3pXUHR6WXY3YkFvNnF0cS1z?oc=5",
-      "date": "2026-06-11"
+      "person": "Kinjal Shah",
+      "show": "The Inquisitive VC",
+      "title": "Kinjal Shah - Blockchain Capital",
+      "url": "https://theinquisitivevc.substack.com/p/kinjal-shah-blockchain-capital",
+      "date": "2021-07-19"
+    },
+    {
+      "person": "Spencer Bogart",
+      "show": "On The Brink with Castle Island",
+      "title": "Spencer Bogart (Blockchain Capital) - Ep. 02",
+      "url": "https://podcasts.apple.com/us/podcast/spencer-bogart-blockchain-capital-ep-02/id1480586463?i=1000451008571",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Bart Stephens",
+      "role": "Founder & Managing Partner",
+      "x": "https://x.com/pbartstephens",
+      "linkedin": "https://www.linkedin.com/in/pbartstephens/",
+      "substack": ""
+    },
+    {
+      "name": "Brad Stephens",
+      "role": "Founder & Managing Partner",
+      "x": "https://x.com/wbrads",
+      "linkedin": "https://www.linkedin.com/in/wbradfordstephens/",
+      "substack": ""
+    },
+    {
+      "name": "Kinjal Shah",
+      "role": "General Partner",
+      "x": "https://x.com/_kinjalbshah",
+      "linkedin": "https://www.linkedin.com/in/kinjalshah15/",
+      "substack": ""
+    },
+    {
+      "name": "Spencer Bogart",
+      "role": "General Partner",
+      "x": "https://x.com/CremeDeLaCrypto",
+      "linkedin": "https://www.linkedin.com/in/spencer-bogart-cfa-bba645a/",
+      "substack": ""
+    }
+  ]
 }

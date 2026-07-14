@@ -69,26 +69,55 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "EDGE Markets Raises $29.2 Million Series A Funding Round - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOblh1LWJCMVE1TGZ0WU5oSGhHdmloMFZHTmtTSjNxRkt4YjFqclpXdllHb3k0WHRUQWJmZDdvNUN4N0J6VEdIUFRIYm1CM0NsajRwWXNIZnA0QmM4VWtqYUh1akJvYTNHRG5RLTJKS251TGVCMjdMZGo4V2xlLWg0enVfZVpPOXh0aGR3T1l3OWlfQmd2dkJjb1hOVkxfczEwb0V3cHJUOVQxRVVmXzJJbQ?oc=5",
-      "date": "2026-06-08"
+      "person": "Paul Martino",
+      "show": "Venture Unlocked",
+      "title": "Paul Martino from Bullpen Capital on being an early pioneer in post-seed, conviction to back non-consensus startups + another way to think about the SPAC movement",
+      "url": "https://ventureunlocked.substack.com/p/paulmartino",
+      "date": "2021-04-20"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "SpaceX comes down to data centers in space, says Bullpen Capital's Duncan Davidson - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMVhNTFNaVjBsM1dyUHp5UkxIeUFnYnRPZk5wY2ZvbEwyVnRWb3FoSjVXbTREemhEdTYxanNaeHNtZ1R3TDl5bnc3S0lFWGFEVWZ2b2dXajQ1RE9PQ2xRbjhDWDJyLWtIZ05yRy1sTnlKN2lSQ0duRVI3eHJ3X0pxSElsWXdoYlA0bFhHS2lTNW5iS3BOLXhlZDdrVTdGYkpJQk9ybGxxM1QyZmV0a1A1eEJVMTkwS2EybFE1XzAyYmE?oc=5",
-      "date": "2026-06-04"
+      "person": "Paul Martino",
+      "show": "The Consumer VC",
+      "title": "Paul Martino (Bullpen Capital) - What it Means to be a Contrarian Investor, The Arbitrage Opportunity at Post Seed, and Founders That Have Chips On Their Shoulders",
+      "url": "https://podcasts.apple.com/us/podcast/paul-martino-bullpen-capital-what-it-means-to-be-a/id1484646914?i=1000462712539",
+      "date": "2020-01-16"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "SpeedLabs Launches with $6.5M to Bring Momentum Markets to Sports - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNDhYdjF5NDhCNmIyUTVEaTlmbnRiNElnRHRZdTFsdUV0d2xHaGtnbHVFeGRxVXRkRDhtZVNNdmdZYTM5SU1VTnh3SzdlYkFqRktvQjZUZUxVQTAydEdNMkwyZnhGcU83N24xNl9zQjRrWmwzV1VHWGFMeWU4ZDdjclJFWGphSi1iZ29wNl8xMm83Zm4tUVBWMmZZcS1vcFN0ZjE1Y0NodF9fNVM0RE9SXzVQYWdOZzZXeHlMMA?oc=5",
-      "date": "2026-06-01"
+      "person": "Duncan Davidson",
+      "show": "Kauffman Fellows Podcast",
+      "title": "The Human Side of Venture: Duncan Davidson, Bullpen Capital General Partner on Managing People and Personalities When Investing",
+      "url": "https://podcasts.apple.com/us/podcast/the-human-side-of-venture-duncan-davidson/id1460387747?i=1000543606488",
+      "date": "2021-12-01"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Duncan Davidson",
+      "role": "Co-founder & General Partner",
+      "x": "https://x.com/duncandavi",
+      "linkedin": "https://www.linkedin.com/in/duncandavi/",
+      "substack": ""
+    },
+    {
+      "name": "Paul Martino",
+      "role": "Co-founder & Managing Partner",
+      "x": "https://x.com/ahpah",
+      "linkedin": "https://www.linkedin.com/in/pauljmartino",
+      "substack": ""
+    },
+    {
+      "name": "Eric Wiesen",
+      "role": "General Partner",
+      "x": "https://x.com/ewiesen",
+      "linkedin": "https://www.linkedin.com/in/ewiesen",
+      "substack": ""
+    },
+    {
+      "name": "Alexandra Fowler Loomes",
+      "role": "Principal",
+      "x": "https://x.com/AlexmFowler",
+      "linkedin": "https://www.linkedin.com/in/alexandra-fowler-loomes-2975a9101/",
+      "substack": ""
+    }
+  ]
 }

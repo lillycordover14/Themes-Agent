@@ -58,6 +58,29 @@
       "summary": "Findigs Raises $32M Series C Funding to Redefine Leasing Decisioning&nbsp;&nbsp;GlobeNewswire"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Maurice Werdegar",
+      "show": "StrictlyVC Download",
+      "title": "Venture Debt in an Upside Down World",
+      "url": "https://www.listennotes.com/podcasts/strictlyvc-download/venture-debt-JsZrwVAjK7x/",
+      "date": "2020-03"
+    }
+  ],
+  "people": [
+    {
+      "name": "Maurice Werdegar",
+      "role": "Partner & Chairman",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "David Wanek",
+      "role": "Partner & CEO",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

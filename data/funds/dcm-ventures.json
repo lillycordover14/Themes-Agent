@@ -41,12 +41,27 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "APTSell Secures Millions in Funding from DCM Ventures, Aims to Be AI - Powered Chief Sales Officer | Emerging New Project - 36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01bGhwZGs1N1puOWJfTmNDWElRaTVfd0xYdDRqODdkVVNPVzJVVlptS25BNDA3WmF5bnk4SzNXQU9BUUNVSlBiV3hzTkxBSWV5Q2lWUjQyeDVWUy1CdTdCM0ZjelI3OXpuOGZPdmp3?oc=5",
-      "date": "2026-07-06"
+      "person": "David Chao",
+      "show": "Silicon Dragon",
+      "title": "Blockchain Believer",
+      "url": "https://podcasts.apple.com/us/podcast/dcm-ventures-david-chao/id1380884036?i=1000412237270",
+      "date": "2018-05"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "David Chao",
+      "role": "Co-Founder & GP",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/david-k-chao-691482159/",
+      "substack": ""
+    },
+    {
+      "name": "Jason Krikorian",
+      "role": "General Partner (US)",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

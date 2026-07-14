@@ -54,6 +54,43 @@
       "summary": "Bugcrowd - 2026 Funding Rounds & List of Investors&nbsp;&nbsp;Tracxn"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Justin Kaufenberg",
+      "show": "Execution is King (Great North Ventures)",
+      "title": "Justin Kaufenberg, Rally Ventures: Execution is King Episode 1",
+      "url": "https://greatnorthventures.com/justin-kaufenberg-rally-ventures-execution-is-king-episode-1/",
+      "date": "2021-10-05"
+    }
+  ],
+  "people": [
+    {
+      "name": "Jeff Hinck",
+      "role": "Co-Founder & Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jeffhinck/",
+      "substack": ""
+    },
+    {
+      "name": "Justin Kaufenberg",
+      "role": "Managing Director",
+      "x": "https://x.com/jmkaufenberg",
+      "linkedin": "https://www.linkedin.com/in/justin-kaufenberg-938737164/",
+      "substack": ""
+    },
+    {
+      "name": "Zenas Hutcheson",
+      "role": "Venture Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Tom Peterson",
+      "role": "Venture Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

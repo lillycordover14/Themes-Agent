@@ -24,6 +24,57 @@
     "linkedin": "https://www.linkedin.com/company/acme-vc/"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Scott Stanford",
+      "show": "LA Venture (TenOneTen)",
+      "title": "Scott Stanford — ACME",
+      "url": "https://www.tenoneten.com/podcast/scott-stanford-acme",
+      "date": "2020-12-16"
+    },
+    {
+      "person": "Hany Nada",
+      "show": "CNBC Squawk Box",
+      "title": "Robotics will be the 'gigantic benefactor' of AI, says ACME Capital's Hany Nada",
+      "url": "https://www.cnbc.com/video/2026/01/02/robotics-will-be-the-agigantic-benefactora-of-ai-says-acme-capitalas-hany-nada.html",
+      "date": "2026-01-02"
+    },
+    {
+      "person": "Hany Nada",
+      "show": "Hello Tomorrow",
+      "title": "Discover ACME | With Hany Nada, Co-founder & Partner",
+      "url": "https://hello-tomorrow.org/discover-acme-with-hany-nada-co-founder-partner/",
+      "date": "2022-10-18"
+    }
+  ],
+  "people": [
+    {
+      "name": "Scott Stanford",
+      "role": "Co-Founder and Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/scstanford",
+      "substack": ""
+    },
+    {
+      "name": "Hany Nada",
+      "role": "Co-Founder and Partner",
+      "x": "https://x.com/hnada",
+      "linkedin": "https://www.linkedin.com/in/hanynada",
+      "substack": ""
+    },
+    {
+      "name": "Aike Ho",
+      "role": "Partner",
+      "x": "https://x.com/aikeho",
+      "linkedin": "https://www.linkedin.com/in/aike/",
+      "substack": ""
+    },
+    {
+      "name": "Alex Fayette",
+      "role": "Partner",
+      "x": "https://x.com/alexfayette",
+      "linkedin": "https://www.linkedin.com/in/alexfayette/",
+      "substack": ""
+    }
+  ]
 }

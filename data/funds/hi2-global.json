@@ -51,6 +51,22 @@
       "summary": "Revora, formerly MyAlice, raises $2 million seed round&nbsp;&nbsp;The Daily Star"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Jerry Wang",
+      "show": "Fintech One-on-One",
+      "title": "Podcast 279: Jerry Wang of Haitou Global",
+      "url": "https://www.audible.com/pd/Podcast-279-Jerry-Wang-of-Haitou-Global-Podcast/B08RMLSTHK",
+      "date": "2020-12"
+    }
+  ],
+  "people": [
+    {
+      "name": "Jerry Wang",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jwang6/",
+      "substack": ""
+    }
+  ]
 }

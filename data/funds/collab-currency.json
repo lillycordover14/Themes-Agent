@@ -25,6 +25,29 @@
     "linkedin": "https://www.linkedin.com/company/collab-currency/"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Stephen McKeon",
+      "show": "Capital Allocators",
+      "title": "NFTs and the Consumer in Web3",
+      "url": "https://www.capitalallocators.com/podcast/nfts-and-the-consumer-in-web3/",
+      "date": "2022-06"
+    }
+  ],
+  "people": [
+    {
+      "name": "Stephen McKeon",
+      "role": "Co-founder & Managing Partner",
+      "x": "https://x.com/sbmckeon",
+      "linkedin": "https://www.linkedin.com/in/smckeon",
+      "substack": ""
+    },
+    {
+      "name": "Derek Edward Schloss",
+      "role": "Co-founder & Managing Partner",
+      "x": "https://twitter.com/derekedws",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

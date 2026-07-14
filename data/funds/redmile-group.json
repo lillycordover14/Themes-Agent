@@ -23,5 +23,20 @@
   },
   "updates": [],
   "podcasts": [],
-  "people": []
+  "people": [
+    {
+      "name": "Jeremy Green",
+      "role": "Founder, Managing Partner & PM",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Rob Faulkner",
+      "role": "Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/robfaulkner/",
+      "substack": ""
+    }
+  ]
 }

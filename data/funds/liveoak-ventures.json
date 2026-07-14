@@ -55,12 +55,55 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Receipts Depositary Corporation Raises $7 Million to Modernize Depositary Receipts for Digital and Alternative Assets - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOeWgwMXFUUm9VbXFGb1FnOVlmT1JsUUl4LUVzS2RxdVBvSThlZEd3dFVWeUdiTHZ5dng0MTFKSzF1Rml6Wklqb1hndGNLdGRYM2pWSU0xdzVrcS1BZkQwRWhJWHNhRHNpVS1QMTA4WU9rQXRFTkxUVXJmR015Z1lGZlctNno5VzVqb2hsTEF5enJSazRvRDVFLXVUSkFoZVVfdlBkMVJ2aVRvbmotTFltTnA5UzVtVVh1LVNycldVUF9ZdXhhVE5zZHUyWWNrUmtfcnQxY1FHc2pUeE02UWZZb1d2ZFVkMDlHMFJ1aHhteGRvOW9RdThCNWZxcTAzY1E1NlE?oc=5",
-      "date": "2026-06-16"
+      "person": "Krishna Srinivasan",
+      "show": "Investor Connect",
+      "title": "Investor Connect: Krishna Srinivasan of LiveOak Venture Partners",
+      "url": "https://investorconnect.org/investor-connect-krishna-srinivasan-of-liveoak-venture-partners/",
+      "date": ""
+    },
+    {
+      "person": "Krishna Srinivasan",
+      "show": "Ideas to Invoices",
+      "title": "LiveOak Venture Partners: Krishna Srinivasan and TeleStax's Co-founder and CEO Ivelin Ivanov",
+      "url": "https://ideastoinvoices.libsyn.com/liveoak-venture-partners-krishan-srinivasan-and-telestaxs-co-founder-and-ceo-ivelin-ivanov",
+      "date": ""
+    },
+    {
+      "person": "Venu Shamapant",
+      "show": "Between Two Palms",
+      "title": "Between Two Palms: Interview with Venu Shamapant",
+      "url": "https://www.youtube.com/watch?v=FVVIEypXK_s",
+      "date": "2018"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Venu Shamapant",
+      "role": "Founding Partner",
+      "x": "https://x.com/vshamapant",
+      "linkedin": "https://www.linkedin.com/in/venu-shamapant-7987007",
+      "substack": ""
+    },
+    {
+      "name": "Krishna Srinivasan",
+      "role": "Founding Partner",
+      "x": "https://x.com/krishnasrini",
+      "linkedin": "https://www.linkedin.com/in/krishnasrinivasan1",
+      "substack": ""
+    },
+    {
+      "name": "Creighton Hicks",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/creightonhicks/",
+      "substack": ""
+    },
+    {
+      "name": "Mike Marcantonio",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/mmarcantonio9/",
+      "substack": ""
+    }
+  ]
 }

@@ -39,6 +39,57 @@
       "summary": "Venice AI hits $1b valuation, Plaid eyes IPO, and Qualcomm's security buy&nbsp;&nbsp;Axios"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Jason Lemkin",
+      "show": "The SaaS Revolution Show",
+      "title": "Jason Lemkin, Managing Director Storm Ventures",
+      "url": "https://podcasts.apple.com/nz/podcast/jason-lemkin-managing-director-storm-ventures/id985731540?i=1000386232263",
+      "date": "2015-07-27"
+    },
+    {
+      "person": "Arun Penmetsa",
+      "show": "Learn Educate Discover",
+      "title": "Ep 51: Venture Capital, Arun Penmetsa, Principal @Storm Ventures",
+      "url": "https://soundcloud.com/learneducatediscover/ep-51-venture-capital-arun-penmetsa-principal-storm-ventures",
+      "date": "2016-09-20"
+    },
+    {
+      "person": "Minjoo Kim",
+      "show": "Silicon Valley Weekly",
+      "title": "Storm Principal Minjoo Kim on the B2B software landscape",
+      "url": "https://x.com/stormventures/status/1864444741607133257",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Ryan Floyd",
+      "role": "Founding Managing Director",
+      "x": "https://twitter.com/RyanFloyd",
+      "linkedin": "https://www.linkedin.com/in/ryanfloyd1/",
+      "substack": ""
+    },
+    {
+      "name": "Tae Hea Nahm",
+      "role": "Co-Founding Managing Director",
+      "x": "https://twitter.com/taeheanahm",
+      "linkedin": "https://www.linkedin.com/in/tnahm/",
+      "substack": ""
+    },
+    {
+      "name": "Arun Penmetsa",
+      "role": "Partner",
+      "x": "https://twitter.com/arun_penmetsa",
+      "linkedin": "https://www.linkedin.com/in/arunpenmetsa/",
+      "substack": ""
+    },
+    {
+      "name": "Minjoo Kim",
+      "role": "Partner",
+      "x": "https://x.com/mjkim_0731",
+      "linkedin": "https://www.linkedin.com/in/minjoo-kim-777494107/",
+      "substack": ""
+    }
+  ]
 }

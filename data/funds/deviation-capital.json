@@ -32,6 +32,36 @@
       "summary": "The Big Apple Is No Longer Big Enough for New York Venture Firms&nbsp;&nbsp;WSJ"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Jonathan Golden",
+      "show": "Powered by Battery",
+      "title": "Scaling Airbnb 100x",
+      "url": "https://soundcloud.com/user-744332833/scaling-airbnb-100x-jonathan-golden-nea",
+      "date": "2019"
+    }
+  ],
+  "people": [
+    {
+      "name": "Colin Beirne",
+      "role": "Founding Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/colin-beirne-526577",
+      "substack": ""
+    },
+    {
+      "name": "Jonathan Golden",
+      "role": "Founding Partner",
+      "x": "https://x.com/jpgg",
+      "linkedin": "https://www.linkedin.com/in/jgolden",
+      "substack": ""
+    },
+    {
+      "name": "Dusan Perovic",
+      "role": "Founding Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/dusan-perovic-7a012a4/",
+      "substack": ""
+    }
+  ]
 }

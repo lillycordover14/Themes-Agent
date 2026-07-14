@@ -24,6 +24,57 @@
     "linkedin": "https://www.linkedin.com/company/arboretum-ventures"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Jan Garfinkle",
+      "show": "Capital Allocators with Ted Seides",
+      "title": "Arboretum Ventures (Manager Meetings, Ep. 09)",
+      "url": "https://www.capitalallocators.com/podcast/arboretum-ventures/",
+      "date": "2021-09-01"
+    },
+    {
+      "person": "Tom Shehab",
+      "show": "Gut Talk (Healio)",
+      "title": "A Gastroenterologist's Journey to Innovation and Entrepreneurship with Tom Shehab, MD",
+      "url": "https://www.healio.com/news/gastroenterology/podcasts/gut-talk/episode-27",
+      "date": "2024-04-24"
+    },
+    {
+      "person": "Jan Garfinkle",
+      "show": "Ann Arbor SPARK — CEO Podcasts: Conversations on Economic Opportunity",
+      "title": "Jan Garfinkle, Arboretum Ventures",
+      "url": "https://www.washtenawglass.com/succeed-here/ceo-podcasts/jan-garfinkle-arboretum-ventures",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Jan Garfinkle",
+      "role": "Founder & Managing Partner",
+      "x": "https://x.com/jgarfinkle",
+      "linkedin": "https://www.linkedin.com/in/jan-garfinkle-827330/",
+      "substack": ""
+    },
+    {
+      "name": "Tom Shehab, MD",
+      "role": "Managing Partner",
+      "x": "https://x.com/tomshehabmd",
+      "linkedin": "https://www.linkedin.com/in/thomasshehab/",
+      "substack": ""
+    },
+    {
+      "name": "Dan Kidle",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/dankidle/",
+      "substack": ""
+    },
+    {
+      "name": "Tim Petersen",
+      "role": "Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/tim-petersen-12594814/",
+      "substack": ""
+    }
+  ]
 }

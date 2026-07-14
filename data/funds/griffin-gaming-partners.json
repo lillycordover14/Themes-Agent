@@ -55,26 +55,55 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Could AI bring investors back to video games? - The Game Business",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WbWhDRm5vWlA0T0gzWmE0TmtfYzdPMFd6T252NlRsSldTX1poX0ZTb1ZQWjd6NTl3WHV6ZnlOS2NXR3BSWmpNcjNWNUJtaTNVRUZJM2k1bTRWNFBoQ2VEX2JFMm5kZDhETkwzM3hFNXR2cnAy?oc=5",
-      "date": "2026-05-14"
+      "person": "Peter Levin",
+      "show": "Strictly Business (iHeart)",
+      "title": "Griffin Gaming Partners' Peter Levin Talks AI, Market Trends, Emerging Markets & Hollywood Interest Amid GDC",
+      "url": "https://www.iheart.com/podcast/1119-strictly-business-30950719/episode/griffin-gaming-partners-peter-levin-talks-270519537/",
+      "date": ""
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Scott Coker creates international MMA league with $60M in funding | exclusive interview - GamesBeat",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWnluZXhJdEx3amRzOTBLTjh4TnFLY2s3ejVaN25ZS0tiUXNBVDBlZUZrWHFtWGg2cHRPaVYtYmFpcmEwWGozLVNKcUEwYWVuMHczOXEtVHVQWG1yMGJNQkZXY2pCRjB1c05MNXVMRWRraVFBTG9TMjFYZktrM0VUeXZNMVUyQ2dyMlJYVGptNHVzVUFRTlJnTmtyUGFCeGp4S3RNdE92RGJza1k?oc=5",
-      "date": "2026-05-21"
+      "person": "Phil Sanderson",
+      "show": "LA Venture Podcast",
+      "title": "Phil Sanderson Thinks Gaming Is In Its Golden Age",
+      "url": "https://dot.la/griffin-gaming-partners-2651401801.html",
+      "date": ""
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Griffin Gaming Partners acquired a stake in tinyBuild - Game World Observer",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZzIxajEwRDhOQjRfQ3lPOTh4bUNtMm52dUw2NktfYWVTbF85LWdFeEpJeVU0OTE4Wk9lS1JmdnJFVzBKTnRnVmFVMFEta1lFSW8xX1U4NjdDYkVpcWV0Y2JWdHBkVl9DaDJlSkt4bUttUkRGUXprT1BmSDdoYkxoNXR4cGZQY2c0MlFFYVViOS1XMklUQzg2d0dn?oc=5",
-      "date": "2026-06-30"
+      "person": "Phil Sanderson",
+      "show": "Elite Game Developers Podcast",
+      "title": "EGD 080: Phil Sanderson, Griffin Gaming Partners",
+      "url": "https://podcasters.spotify.com/pod/show/egd/episodes/EGD-080-Phil-Sanderson--Griffin-Gaming-Partners-e1tq2v9",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Peter Levin",
+      "role": "Managing Director & Co-Founder",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/peter-y-levin-8109a811/",
+      "substack": ""
+    },
+    {
+      "name": "Nick Tuosto",
+      "role": "Managing Director & Co-Founder",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/nicholas-tuosto-12b696/",
+      "substack": ""
+    },
+    {
+      "name": "Phil Sanderson",
+      "role": "Senior Partner & Co-Founder",
+      "x": "https://twitter.com/sanfranciscovc",
+      "linkedin": "https://www.linkedin.com/in/sfvc1/",
+      "substack": ""
+    },
+    {
+      "name": "Pierre Planche",
+      "role": "Partner",
+      "x": "https://twitter.com/PlanchePierre",
+      "linkedin": "https://www.linkedin.com/in/pierreplanche/",
+      "substack": ""
+    }
+  ]
 }

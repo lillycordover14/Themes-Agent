@@ -39,6 +39,57 @@
       "summary": "Canyon Code Raises $5M in Pre-Seed Funding&nbsp;&nbsp;FinSMEs"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Melissa Cheong",
+      "show": "My Climate Journey (MCJ Capital Series)",
+      "title": "Melissa Cheong, Blackhorn Ventures",
+      "url": "https://mcj.vc/inevitable-podcast/melissa-cheong",
+      "date": "2023-06-05"
+    },
+    {
+      "person": "Melissa Cheong",
+      "show": "Better Money Better World",
+      "title": "#56 Unveiling Blackhorn Ventures: Transforming Industries Through Digitization and Technology",
+      "url": "https://podcasts.apple.com/gb/podcast/56-unveiling-blackhorn-ventures-transforming-industries/id1562892467?i=1000651776631",
+      "date": ""
+    },
+    {
+      "person": "Ray Levitt",
+      "show": "Investor Connect",
+      "title": "Ray Levitt of Blackhorn Ventures LP",
+      "url": "https://investorconnect.org/wp-content/uploads/2021/10/Transcript-Ray-Levitt-of-Blackhorn-Ventures-LP.pdf",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Philip O'Connor",
+      "role": "Co-Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/philip-o-connor-a0a48635/",
+      "substack": ""
+    },
+    {
+      "name": "Melissa Cheong",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/melissa-cheong-813a5bb/",
+      "substack": ""
+    },
+    {
+      "name": "Micah Kotch",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/micahjason/",
+      "substack": ""
+    },
+    {
+      "name": "Stephan Cizmar",
+      "role": "Operating Partner",
+      "x": "https://twitter.com/SJCizmar",
+      "linkedin": "https://www.linkedin.com/in/stephancizmar/",
+      "substack": ""
+    }
+  ]
 }

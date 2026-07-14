@@ -82,6 +82,43 @@
       "summary": "How a chip actually gets made, why two companies can stop the entire AI industry, and why AI is both the cause of the bottleneck and the best hope of fixing it."
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Anand Iyer",
+      "show": "Talking Tokens",
+      "title": "Investors Outlook on Crypto and AI",
+      "url": "https://open.spotify.com/episode/0nBIa40TGjFoKFeP27l9b8",
+      "date": ""
+    },
+    {
+      "person": "Anand Iyer",
+      "show": "Scenius Studio",
+      "title": "Canonical Crypto - Anand Iyer (Episode #27)",
+      "url": "https://creators.spotify.com/pod/profile/scenius/episodes/Canonical-Crypto---Anand-Iyer-Episode-27-e28mgp6",
+      "date": ""
+    },
+    {
+      "person": "Anand Iyer",
+      "show": "More Equity",
+      "title": "Crypto Convos — Anand Iyer of Pear VC",
+      "url": "https://podcasts.apple.com/us/podcast/40-more-equity-crypto-convos-anand-iyer-of-pear-vc/id1523705329?i=1000552208706",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Anand Iyer",
+      "role": "Founder & Managing General Partner",
+      "x": "https://x.com/ai",
+      "linkedin": "https://www.linkedin.com/in/anandiyer",
+      "substack": ""
+    },
+    {
+      "name": "Anthony Avedissian",
+      "role": "Partner",
+      "x": "https://x.com/antavedissian",
+      "linkedin": "https://www.linkedin.com/in/anthonyavedissian/",
+      "substack": ""
+    }
+  ]
 }

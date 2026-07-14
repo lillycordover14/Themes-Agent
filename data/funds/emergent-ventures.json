@@ -26,19 +26,48 @@
   "updates": [],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Ep 442: A Masterclass On Regulation (and Deregulation) James Bond (elm2iTVNlS) - Mshale",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UUnNSY0tlYWFqMFMzTVlmOENLdGVITXBmMnJ5ZXB5OEUzSHVtakUweVpuNGhLOFJkMUJSSGhzaVFJdExPMWpaa04zMk02cDhDRTBiYXhvckZhZ1k?oc=5",
-      "date": "2026-06-29"
+      "person": "Anupam Rastogi",
+      "show": "1Mby1M Entrepreneurship Podcast",
+      "title": "674th 1Mby1M Entrepreneurship Podcast with Anupam Rastogi, Emergent Ventures",
+      "url": "https://www.sramanamitra.com/2025/03/03/674th-1mby1m-entrepreneurship-podcast-with-anupam-rastogi-emergent-ventures/",
+      "date": "2025-03-03"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Tripura researchers Shatadru and Srijib receive prestigious international emergent ventures grant - Tripura Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQeWQ2XzVwY21xY3pHRE9FajdlUWQyb3kydEhvTmZrM3VtS3lYcXhsUnBRVG9Vd0djRDBielRuZGYzdDdWY042alEyZWtNV244eVFETDRRSHJTYnVNNVJiOWJrOUVJeVJ2MDdhMUd2OG1RR3dIN29mQ0MyMFBBSjlOekQzU25sUWxGYVhtWjVtM2dETFlyVVBKQjBwOFZ5N0txLVJXemFBTHY3Y1lkY2E2WXF6b0NUeTFJbGxaVS1mYmdzMXYxU2g1RC1LdnF1Y1RsWWdv?oc=5",
-      "date": "2026-06-20"
+      "person": "Anupam Rastogi",
+      "show": "Life Self Mastery",
+      "title": "Ep 307: Building Go-to-Market Teams in Enterprise SaaS with Anupam Rastogi from Emergent Ventures",
+      "url": "https://lifeselfmastery.com/2023/08/17/ep-307-building-go-to-market-teams-in-enterprise-saas-with-anupam-rastogi-from-emergent-ventures/",
+      "date": "2023-08-17"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Ankur Jain",
+      "role": "Managing Partner",
+      "x": "https://x.com/Ankur_Jain_VC",
+      "linkedin": "https://www.linkedin.com/in/ankur-jain-vc/",
+      "substack": ""
+    },
+    {
+      "name": "Anupam Rastogi",
+      "role": "Managing Partner",
+      "x": "https://x.com/anupamr",
+      "linkedin": "https://www.linkedin.com/in/anupamr/",
+      "substack": ""
+    },
+    {
+      "name": "Niha Gottiparthy",
+      "role": "Investor",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/nihagottiparthy/",
+      "substack": ""
+    },
+    {
+      "name": "Indra Singhal",
+      "role": "Operating Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/isinghal/",
+      "substack": ""
+    }
+  ]
 }

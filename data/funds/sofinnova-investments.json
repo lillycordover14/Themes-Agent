@@ -33,26 +33,55 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Biotech Investor Pumps the Brakes on AI Drug Discovery - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeGVwYXlSb1hkR2NTYlg1VDJ2SXRmaVVYaEZUX3ozblZjOS1wdWdXeU40bFJlUGRTUXlKUW5Vb19tMGN2TnNQaUd1SjRKV0RXODZnZ2IzaXg2bkdQb3Jvc1owYzVnTjFrWTRNcmx6c3IwTDk1Y2dZdURpcl9ncXdJeUVvUnJsY3JmQ3hxd0x3MElzcXpxbThDbkRyWjQySVlfZnJXenFR?oc=5",
-      "date": "2026-06-29"
+      "person": "Jim Healy",
+      "show": "BioVenture VoiCes with Chris Garabedian",
+      "title": "Episode 36: Sofinnova Investments' Jim Healy",
+      "url": "https://podcasts.apple.com/us/podcast/episode-36-sofinnova-invetments-jim-healy/id1796781773?i=1000754004946",
+      "date": "2026-03-09"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "‘The window’s open’: At BIO, investors take stock of a growing class of biotech IPOs - Pharma Voice",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNX0hQRkZiZ282YkRRNGJiSUdqZmlkNWlHVGMtUE9kWmUwY2tLb1dsMzhhbTluNXkwMFhqZ2ZYVWtULVdRbWVaOTFxQW15U0UxQ2dIeGhsTVF5WGJUVmNnRXU1eWFXbFpaU1BpU1ZLVS04amZZNkk3MHp3MkhQY09xZkhoemtyWXNsb0I4czdn?oc=5",
-      "date": "2026-06-23"
+      "person": "Maha Katabi",
+      "show": "BioSpace (Denatured)",
+      "title": "From Nuclear Winter to Renewal: Biotech Investing for 2026",
+      "url": "https://open.spotify.com/episode/5lGInsXnonK2ZF3lGYvCc6",
+      "date": "2026-01-08"
     },
     {
-      "person": "",
-      "show": "",
-      "title": "City Therapeutics gets $99M to gather data on three RNAi medicines - Endpoints News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRkx5azFSM3cyTkIwaC05a2E5bVpubG1KV0FIdDByOUg3VE5NMUZmLUtwMzItbDhzNkhyaVNJeXlfYm9sSUdVVlMybHVBbWJrYllZeE9xTHNWekVIYXY2Ym9XWUJ5WC1BMTB6YXBMMW1vckpLWVI3aDJCTUFGaV8xeDZSOUpoWXlMcGZJbU9QMmxoTVk?oc=5",
-      "date": "2026-06-09"
+      "person": "Jim Healy",
+      "show": "Endpoints News (interview)",
+      "title": "Sofinnova's Jim Healy on 'more rational market' as four biotechs near IPO",
+      "url": "https://www.sofinnova.com/wp-content/uploads/2024/09/Jim-Healy-Speaks-with-Endpoints-on-More-Rational-Market-_09122024-002.pdf",
+      "date": "2024-09-12"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Jim Healy",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Maha Katabi",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://ca.linkedin.com/in/maha-katabi-phd-cfa-629b327",
+      "substack": ""
+    },
+    {
+      "name": "David Kabakoff",
+      "role": "Executive Partner, Private Equity",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/david-kabakoff-3b9ba71/",
+      "substack": ""
+    },
+    {
+      "name": "Jonathan Leff",
+      "role": "Executive Partner, Private Equity",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jonathanaleff/",
+      "substack": ""
+    }
+  ]
 }

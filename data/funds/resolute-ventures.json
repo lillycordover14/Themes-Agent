@@ -38,6 +38,57 @@
       "summary": "6/16/2026&nbsp;&nbsp;AlleyWatch"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Mike Hirshland",
+      "show": "The Twenty Minute VC (20VC)",
+      "title": "The Acceptable vs Unacceptable Risks To Take When Seed Investing, Why Loss Ratio Is Not A Consideration & Why Series A Is The Right Time To Establish A Board",
+      "url": "https://20vc.substack.com/p/20vc-the-acceptable-vs-unacceptable-e5a",
+      "date": "2019-03-18"
+    },
+    {
+      "person": "Mike Hirshland",
+      "show": "The Consumer VC",
+      "title": "The state of pre-seed & seed investing",
+      "url": "https://www.theconsumervc.com/p/the-state-of-pre-seed-and-seed-investing",
+      "date": "2022-10-05"
+    },
+    {
+      "person": "Mike Hirshland",
+      "show": "TechCrunch Ask a VC",
+      "title": "Resolute Ventures' Mike Hirshland On Why He Hates Party Rounds",
+      "url": "https://www.youtube.com/watch?v=bhU6qVvNOn4",
+      "date": "2013-07-02"
+    }
+  ],
+  "people": [
+    {
+      "name": "Mike Hirshland",
+      "role": "Co-Founder and Partner",
+      "x": "https://x.com/VCMike",
+      "linkedin": "https://www.linkedin.com/in/mikehirshland/",
+      "substack": ""
+    },
+    {
+      "name": "Raanan Bar-Cohen",
+      "role": "Co-Founder and General Partner",
+      "x": "https://x.com/raanan",
+      "linkedin": "https://www.linkedin.com/in/raananbarcohen/",
+      "substack": ""
+    },
+    {
+      "name": "Rodi Guse",
+      "role": "VP of Finance & Operations",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/rodi-guse-61439557/",
+      "substack": ""
+    },
+    {
+      "name": "Monica Black",
+      "role": "Former Partner (departed for LL3 Ventures, Oct 2025)",
+      "x": "https://x.com/monicasblack",
+      "linkedin": "https://www.linkedin.com/in/monicasblack/",
+      "substack": ""
+    }
+  ]
 }

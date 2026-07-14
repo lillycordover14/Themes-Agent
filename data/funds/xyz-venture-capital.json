@@ -53,12 +53,34 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Defense tech is flooded with money, but who’s built to last? - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWWlMWlZmalhNZ0lyeUYxbGR5el9RT0tVT3FyVDNMU0lHaDgybXFmaUVQYXpwWkZ0clI0RWZMVWgxMVdDdWIyem5MY1F0ckRacm5VT3NEQnlHa1pFZ29sWG1NamI0RGZMa1AxR05aZURxZEM2S29DTHBJYU04d3QtLVhsREtqNUNLNy1XMVRZTVo?oc=5",
-      "date": "2026-06-03"
+      "person": "Ross Fubini",
+      "show": "Emerging Managers Podcast",
+      "title": "Winning In Early-Stage VC",
+      "url": "https://emergingmanagerspodcast.com/winning-in-early-stage-vc-with-ross-fubini/",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Ross Fubini",
+      "role": "Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/fubini",
+      "substack": ""
+    },
+    {
+      "name": "Chauncey Kerr Hamilton",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/chaunceykerr",
+      "substack": ""
+    },
+    {
+      "name": "Camille Ricketts",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

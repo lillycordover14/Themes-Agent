@@ -82,19 +82,55 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Tombot Lands New Funding Round - Los Angeles Business Journal",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3OGMxYlIzRGdLMkUxRnVjaUV5NXRwTmlPY253N2RVdkNXMndIV1AwYXJCTm5DV3hvSWd0enNKdUwxMGphV1JyM0QxZUZ1RkVEUGpqZXZTM3RFNTRTMy1jbTRUZXBVN280emtHbTliaEpJTHA2bUdGdEE2Wl8?oc=5",
-      "date": "2026-07-13"
+      "person": "Dave Vreeland",
+      "show": "Capital Club",
+      "title": "Opportunities in Healthcare Investing with Dave Vreeland",
+      "url": "https://music.amazon.com/es-co/podcasts/37183e3d-776c-47ab-9ce9-9a3d31763679/episodes/6cafb0f5-238c-45e2-82e1-479f81cdae5e/capital-club-opportunities-in-healthcare-investing-with-dave-vreeland",
+      "date": ""
     },
     {
-      "person": "",
-      "show": "",
-      "title": "Not Every Robot Wants Your Job - dot.LA",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GUEVjeTN3OTM3dElrZFpfRGlaOTh6R1ZRMmpMV0pBaDF2V3JFdHlvYklOcU9KbmFGV3FfY0QwVTlYS2FHd05mY015NUphVktlZHFMTUs0NG9aWEM0QkVvNU5HRUJMSl9VeXlyX1JCMWpOZw?oc=5",
-      "date": "2026-06-26"
+      "person": "Scott Kolesar",
+      "show": "Caduceus Capital Partners (site feature)",
+      "title": "Five Questions: Caduceus Capital Partners' Scott Kolesar",
+      "url": "https://caduceus.vc/media/five-questions-caduceus-capital-partners-scott-kolesar/",
+      "date": ""
+    },
+    {
+      "person": "Ryan McKindles",
+      "show": "Revenue cycle podcast series",
+      "title": "Live in Denver: David Bittner and Ryan McKindles",
+      "url": "https://podcasts.apple.com/us/podcast/live-in-denver-david-bittner-and-ryan-mckindles/id1474984069?i=1000576910347",
+      "date": "2022-08-22"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Dave Vreeland",
+      "role": "Senior Managing Partner (Co-Founder)",
+      "x": "https://x.com/vreedave",
+      "linkedin": "https://www.linkedin.com/in/dave-vreeland/",
+      "substack": ""
+    },
+    {
+      "name": "Scott Kolesar",
+      "role": "Co-Founder and Chairman",
+      "x": "https://x.com/scottkolesar",
+      "linkedin": "https://www.linkedin.com/in/scottkolesar/",
+      "substack": ""
+    },
+    {
+      "name": "Ryan McKindles",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/ryan-mckindles/",
+      "substack": ""
+    },
+    {
+      "name": "Russ Rudish",
+      "role": "Managing Partner / Executive Venture Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/russrudish/",
+      "substack": ""
+    }
+  ]
 }

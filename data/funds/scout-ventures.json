@@ -26,12 +26,20 @@
   "updates": [],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "VCs Leaning Into Defense Tech Plays - sdbj.com",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14alo5d3lOcFVCeGdVM3Vuc3o5OUc5VTBiLVFsanlDclR1YS1KMmpiVGxrSk9ZSXhIcVdyMGtZRG5EUTBYNXZCaWpQUGhDOG9uNnJTMExiNXlfdGtRcnlzUDJldlNhcWgtcnFRNHRFY2NsT0Y4bktIY2owbw?oc=5",
-      "date": "2026-06-22"
+      "person": "Brad Harrison",
+      "show": "On Point (West Point AOG)",
+      "title": "The Importance of Empathy in Venture Capital",
+      "url": "https://on-point-09d5baab.simplecast.com/episodes/brad-harrison-94-scout-ventures",
+      "date": "2022-06"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Brad Harrison",
+      "role": "Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/bradharrison",
+      "substack": ""
+    }
+  ]
 }

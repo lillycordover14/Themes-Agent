@@ -46,6 +46,29 @@
       "summary": "The Week’s 10 Biggest Funding Rounds: World-Model Startup Odyssey Leads With $310M In Slower Week For Large Deals&nbsp;&nbsp;Crunchbase News"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Rory O'Driscoll",
+      "show": "AI and the Future of Work",
+      "title": "Success modes for AI companies",
+      "url": "https://podcasts.apple.com/us/podcast/rory-odriscoll-scale/id1476885647?i=1000513009512",
+      "date": "2021-03"
+    }
+  ],
+  "people": [
+    {
+      "name": "Rory O'Driscoll",
+      "role": "Partner & Co-founder",
+      "x": "https://x.com/rodriscoll",
+      "linkedin": "https://www.linkedin.com/in/roryodriscoll/",
+      "substack": ""
+    },
+    {
+      "name": "Eric Anderson",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

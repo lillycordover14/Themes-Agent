@@ -31,5 +31,27 @@
       "date": "2026-05-27"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Tianyi Yu",
+      "role": "Founding General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/tianyi-yu-6a1b89132/",
+      "substack": ""
+    },
+    {
+      "name": "Hongkai He",
+      "role": "Founding Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/hongkaihe/",
+      "substack": ""
+    },
+    {
+      "name": "Jingjing Chai",
+      "role": "Founding General Partner / Venture Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jingjingchai/",
+      "substack": ""
+    }
+  ]
 }

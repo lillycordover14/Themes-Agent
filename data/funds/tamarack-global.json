@@ -37,6 +37,57 @@
       "summary": "The 17 Largest Global Startup Funding Rounds of April 2026&nbsp;&nbsp;AlleyWatch"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Jamie Lee",
+      "show": "How I Invest with David Weisburd",
+      "title": "E264: The Asymmetric Edge: Generating Alpha in Venture",
+      "url": "https://howiinvestpodcast.com/episodes/l9bYYKC0FXt",
+      "date": "2025-12"
+    },
+    {
+      "person": "Jamie Lee",
+      "show": "The Robot Report Podcast",
+      "title": "Team and TAM: the keys to investing in robotics",
+      "url": "https://www.therobotreport.com/team-and-tam-the-keys-to-investing-in-robotics/",
+      "date": "2024"
+    },
+    {
+      "person": "John McCormick and Jamie Lee",
+      "show": "LEADERS Magazine",
+      "title": "LEADERS Interview with John McCormick, Founder, and Jamie Lee, Managing Partner, Tamarack Global",
+      "url": "https://www.leadersmag.com/issues/2024.2_Apr/STF/LEADERS_John_McCormich_Lee_Tamarack_Global.html",
+      "date": "2024-04"
+    }
+  ],
+  "people": [
+    {
+      "name": "John McCormick",
+      "role": "Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/john-mccormick-6a00726/",
+      "substack": ""
+    },
+    {
+      "name": "Jamie Lee",
+      "role": "Co-Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jamie-lee-77430382/",
+      "substack": ""
+    },
+    {
+      "name": "Shuo Cheng",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/chengshuo/",
+      "substack": ""
+    },
+    {
+      "name": "Rob Eloff",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/rob-eloff-54991b72/",
+      "substack": ""
+    }
+  ]
 }

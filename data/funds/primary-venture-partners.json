@@ -41,12 +41,34 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Ben Sun - Forbes",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE00LU1MbmFTZk03LUdVV1Nfc0taUElJVWZ2c196Q21jRmhaTU1wLUt4c2o4SDJhQmp5d1J3UFBFUUNJWEo5bWFNLTNNRmlCRmlV?oc=5",
-      "date": "2026-05-27"
+      "person": "Jason Shuman",
+      "show": "Private Market Talks",
+      "title": "Venture Capital Investing with Primary VC",
+      "url": "https://www.proskauer.com/podcast/private-market-talks-episode-6",
+      "date": "2023-05"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Ben Sun",
+      "role": "Co-Founder & GP",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/benjaminsun",
+      "substack": ""
+    },
+    {
+      "name": "Brad Svrluga",
+      "role": "Co-Founder & GP",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/bradsvrluga",
+      "substack": ""
+    },
+    {
+      "name": "Jason Shuman",
+      "role": "General Partner",
+      "x": "https://twitter.com/boatshuman",
+      "linkedin": "https://www.linkedin.com/in/jasonshuman",
+      "substack": ""
+    }
+  ]
 }

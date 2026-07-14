@@ -31,6 +31,29 @@
       "summary": "New platform for healthcare startup growth&nbsp;&nbsp;The Straits Times"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Dennis McWilliams",
+      "show": "State of Medtech",
+      "title": "Venture: Dennis McWilliams of Santé Ventures",
+      "url": "https://open.spotify.com/episode/5dcOuZKaIzMEg9u03YAHOZ",
+      "date": "2026-04"
+    }
+  ],
+  "people": [
+    {
+      "name": "Kevin Lalande",
+      "role": "Co-Founder, MD & CIO",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/kevin-lalande-4336b6b/",
+      "substack": ""
+    },
+    {
+      "name": "Joe Cunningham",
+      "role": "Co-Founder & Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/joe-cunningham-4168527/",
+      "substack": ""
+    }
+  ]
 }

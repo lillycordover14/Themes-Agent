@@ -37,6 +37,50 @@
       "summary": "Base announces special holiday operating hours for Memorial Day&nbsp;&nbsp;wpafb.af.mil"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Will Weisman",
+      "show": "LA Venture",
+      "title": "Will Weisman — KittyHawk Ventures",
+      "url": "https://www.tenoneten.com/podcast/will-weisman-kittyhawk-ventures",
+      "date": "2023-11-29"
+    },
+    {
+      "person": "Will Weisman",
+      "show": "The Pitch",
+      "title": "Will Weisman — KittyHawk",
+      "url": "https://www.thepitch.show/investors/will-weisman-kittyhawk",
+      "date": ""
+    },
+    {
+      "person": "Will Weisman",
+      "show": "Essentia Arc",
+      "title": "Will Weisman on Mindset & Balance",
+      "url": "https://essentiaarc.com/will-weisman/",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Will Weisman",
+      "role": "Founder & Managing Partner",
+      "x": "https://twitter.com/wweisman",
+      "linkedin": "https://www.linkedin.com/in/willweisman/",
+      "substack": ""
+    },
+    {
+      "name": "Paul Burgon",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/paulburgon/",
+      "substack": ""
+    },
+    {
+      "name": "Alexandra Peterson",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/alexandrabpeterson/",
+      "substack": ""
+    }
+  ]
 }

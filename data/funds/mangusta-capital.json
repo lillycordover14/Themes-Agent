@@ -30,6 +30,57 @@
       "summary": "Turnout Raises $35 Million Series A to Put an AI Advocate in Every American's Corner&nbsp;&nbsp;PR Newswire"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Kevin Jiang",
+      "show": "the talktank",
+      "title": "Spun off from SoftBank: Meet Kevin Jiang and his newly started VC fund, Mangusta",
+      "url": "https://creators.spotify.com/pod/profile/thetalktank/episodes/Spun-off-from-SoftBank-Meet-Kevin-Jiang-and-his-newly-started-VC-fund--Mangusta-e2unre6",
+      "date": "2025"
+    },
+    {
+      "person": "Kevin Jiang",
+      "show": "The Investor With Joel Palathinkal",
+      "title": "Kevin Jiang: Mangusta Capital",
+      "url": "https://open.spotify.com/episode/2DI4B68rHGO9XEmrvQHA9a",
+      "date": "2025-04"
+    },
+    {
+      "person": "Kevin Jiang",
+      "show": "Capitalist Culture",
+      "title": "AI, Ambition, and the American Dream with Kevin Jiang",
+      "url": "https://www.capitalistculture.com/ai-ambition-and-the-american-dream-with-kevin-jiang/",
+      "date": "2025-05"
+    }
+  ],
+  "people": [
+    {
+      "name": "Kevin Jiang",
+      "role": "Co-Founder and CEO",
+      "x": "https://x.com/kjiangvc",
+      "linkedin": "https://www.linkedin.com/in/jiangkevin/",
+      "substack": ""
+    },
+    {
+      "name": "Tommaso Chiabra",
+      "role": "Co-Founder",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/tommaso-chiabra-6a525958/",
+      "substack": ""
+    },
+    {
+      "name": "Leonardo Maria Del Vecchio",
+      "role": "Co-Founder",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/leonardo-maria-del-vecchio-00853018a/",
+      "substack": ""
+    },
+    {
+      "name": "Natoli Farber",
+      "role": "Investment Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/natoli-farber-b913908a/",
+      "substack": ""
+    }
+  ]
 }

@@ -25,6 +25,43 @@
     "linkedin": "https://www.linkedin.com/company/emergence-capital-partners"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Jake Saper",
+      "show": "ACQ2 (Acquired)",
+      "title": "Generative AI Moats in B2B",
+      "url": "https://www.acquired.fm/acq2-episodes/generative-ai-moats-in-b2b-with-emergence-capitals-jake-saper",
+      "date": "2023-05"
+    },
+    {
+      "person": "Santi Subotovsky",
+      "show": "Acquired",
+      "title": "The Zoom IPO",
+      "url": "https://www.acquired.fm/episodes/the-zoom-ipo-with-santi-subotovsky",
+      "date": "2019"
+    }
+  ],
+  "people": [
+    {
+      "name": "Jason Green",
+      "role": "Founder & GP (Emeritus)",
+      "x": "https://x.com/jasonegreen",
+      "linkedin": "https://www.linkedin.com/in/jasonericgreen/",
+      "substack": ""
+    },
+    {
+      "name": "Santi Subotovsky",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/santisubotovsky/",
+      "substack": ""
+    },
+    {
+      "name": "Jake Saper",
+      "role": "General Partner",
+      "x": "https://x.com/jakesaper",
+      "linkedin": "https://www.linkedin.com/in/jakesaper",
+      "substack": ""
+    }
+  ]
 }

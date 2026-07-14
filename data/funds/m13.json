@@ -24,6 +24,36 @@
     "linkedin": "https://www.linkedin.com/company/m13-company"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Karl Alomar",
+      "show": "Global Tech Leaders'",
+      "title": "How the individual creates the opportunity for luck",
+      "url": "https://podcasts.apple.com/ie/podcast/karl-alomar-m13/id1511065723?i=1000531440876",
+      "date": "2021"
+    }
+  ],
+  "people": [
+    {
+      "name": "Carter Reum",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://x.com/CarterReum",
+      "linkedin": "https://www.linkedin.com/in/carterreum/",
+      "substack": ""
+    },
+    {
+      "name": "Karl Alomar",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/karl-alomar-0516a219/",
+      "substack": ""
+    },
+    {
+      "name": "Latif Peracha",
+      "role": "General Partner",
+      "x": "https://x.com/latifperacha",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

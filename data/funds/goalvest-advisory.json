@@ -23,6 +23,43 @@
     "linkedin": "https://www.linkedin.com/company/goalvest-advisory"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Sevasti Balafas",
+      "show": "Smart Money Circle",
+      "title": "Breaking Glass Ceilings, From Wharton to Wall St, How Sevasti Balafas Built a Female-Led RIA",
+      "url": "https://creators.spotify.com/pod/show/smartmoneycircle/episodes/Breaking-Glass-Ceilings--From-Wharton-to-Wall-St--How-Sevasti-Balafas-Built-a-Female-Led-RIA-e2vff97",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Sevasti Balafas",
+      "role": "Founder & CEO",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/sevasti-balafas-cfa-cpwa/",
+      "substack": ""
+    },
+    {
+      "name": "Blair Cohen",
+      "role": "Managing Partner / Head of Private Investments, GoalVest Venture Capital",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/blaircohen1/",
+      "substack": ""
+    },
+    {
+      "name": "David Abella",
+      "role": "Director of Investments",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Ashwini Patil",
+      "role": "Head of Trading",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

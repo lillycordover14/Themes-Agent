@@ -48,12 +48,41 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Versework, Asia's Largest Roblox Studio, Enters Official Roblox Incubator and Raises $2.7M from Altos Ventures - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMG5yelE5NUNTdS1lUm56VFZ2dFpQV1V1bGZyZzBhdVBKX21IYzh4UW1Hc2pyVldPeEtDaFdvSGNVTVpvSlNMT01VY2wxTFRvM25ILWlUc1p5OXFhQ1VNQldBVnZBTF84MFU1Vkt2eXNZNTJoVmdIdGNMZ0RKU21aMGNQWmlwVU11NnlPNUJBcEZ6SWVSQ2J1N19YeWhmUzhHcVZ2NXZNWmZneE94VzdtUzFKRmJkUUVSbVpqTzV5QzZKRlphVHRZRG9DSjlsV0l0akxSQjJZc0tCVkpvTlpXX2VGRlFTZWtwbFR1UjVQT3ZKVnlq?oc=5",
-      "date": "2026-06-23"
+      "person": "Ho Nam",
+      "show": "Acquired",
+      "title": "A Different Approach to VC",
+      "url": "https://www.acquired.fm/episodes/special-ho-nam-from-altos-ventures-a-different-approach-to-vc",
+      "date": "2021-06"
+    },
+    {
+      "person": "Ho Nam",
+      "show": "The Generalist",
+      "title": "Letters to a Young Investor: Ho Nam",
+      "url": "https://www.generalist.com/p/ho-nam-1",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Ho Nam",
+      "role": "Co-Founder & Managing Director",
+      "x": "https://x.com/honam",
+      "linkedin": "https://www.linkedin.com/in/honam",
+      "substack": ""
+    },
+    {
+      "name": "Han Kim",
+      "role": "Co-Founder & Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/han-kim-8a16/",
+      "substack": ""
+    },
+    {
+      "name": "Anthony Lee",
+      "role": "Co-Founder & Managing Director",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/anthonyplee",
+      "substack": ""
+    }
+  ]
 }

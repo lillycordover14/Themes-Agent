@@ -42,19 +42,20 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Besty AI closes $3.75M seed round - PhocusWire",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBqdGZLQjlJQmRENU55YTNVN2pqbGxvRDNZOTNiMDRXczRWYjl6aTIyRkJuSEhxUFFVMXF3XzFGTks0aGpVeEUyREwycm1ZcVJubl9BbUJtOURyZGU1UUs4U0theXlva2dQejdtMl9kVmt0VFJQ?oc=5",
-      "date": "2026-06-16"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Steno Names Its Current COO Prabhdeep Singh as New CEO to Lead Next Phase of Growth - LawSites",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUmZTUHNHRXZhUlNFM0FlSGNKYU5QT0taZ1RrSm5vWHZfdnZKWVU3TEJzcVpCTW1SNWNQMDBlSkdHQnJHd1ZTdVZDeTBCd0V4Yl9NLWVSTVNPazBPdmJfRnVIQmxGUHlWM2NmN2tDdHR1aS1iWW1DeC1HSlNHVUhOUm8zNVhoT0VTSHpZSkI5NjhJZ21jUkxVSWticTFwbDNJVUpqdG1OTDlaM3JsVWFGdVhmdGR2T0F2NE8zMg?oc=5",
-      "date": "2026-06-09"
+      "person": "Somak Chattopadhyay",
+      "show": "Code Story",
+      "title": "Armory Square Ventures",
+      "url": "https://codestory.co/podcast/bonus-somak-chattopadhyay-armory-square-ventures/",
+      "date": "2023-10"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Somak Chattopadhyay",
+      "role": "Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/somak-chattopadhyay-7662a",
+      "substack": "https://armorysv.substack.com"
+    }
+  ]
 }

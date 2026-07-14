@@ -34,26 +34,27 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "AI Start-Up Kaon AI Raises $60 Million in Funding Round in Quest to Build a ‘Personalized Story Engine’ for Users - Variety",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNjBmdUV6c3QydUsyZHlzaEZrZ3YxRVJOMUx0dkZBUXBaRzl2Qm1sTWoteWhGcDUzcUFjaVJmZU40UzdKM19JMDl3bk1FbTJtdmVKT3RxY2NVYkpKV0V0Y2NIc0VrY3drbng0d19KeTVaaGxIeVJJamlEZnN5dkpsVnBRX2FwdTJBV0ZnbTZvcTM0aGdzNy1PZXlqeXVPTi05bWc?oc=5",
-      "date": "2026-07-08"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Chi-Hua Chien saw Facebook coming — now he says the real AI winners won’t be selling AI - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRkVfT1lVNWdrelFaUGhhVUUtSjRaWGtQNWhBdWZhM1dKREdKaUVBS2lXdjAwdmlKaWUyRDROb2d0NHkzZTlndnlNYVBNMVZYdDlHMGpFenBZSFNJWFpyQkw2a0xTcjQtVjFrZDJab1VxcHZWQW1BZTRZdWpKNm4yVkFKZ1piYm41a1V2N1BjT2ZldGw0Q2VMa2pseWU4dG16cG44QzJNZnNQRDlScldVMDlXWTJOaHFYXzdF?oc=5",
-      "date": "2026-06-17"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "Goodwater Capital Releases 2026 U.S. Consumer Survey That Tracks AI’s Growing Role in Everyday Life - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV1BHVnY0WXB5WkRCajZ3aGdJa1BWWWUzMGdnVnFXU2U2TFpvSGVHbTN2VUd6a3hVYnM4bEpTZjRpSTd6c1Y4TEJLMWs1Y05kWGdZV00zMFpXektMOW5VMW03S2ZsbTBid2dWdXFxYmMyUlpjdWNOZXVmcGJhbXhESDhZVQ?oc=5",
-      "date": "2026-06-08"
+      "person": "Chi-Hua Chien",
+      "show": "Equity (TechCrunch)",
+      "title": "The real AI winners won't be selling AI",
+      "url": "https://techcrunch.com/2026/06/17/chi-hua-chien-saw-facebook-coming/",
+      "date": "2026-06"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Chi-Hua Chien",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://x.com/chchien",
+      "linkedin": "https://www.linkedin.com/in/chchien",
+      "substack": ""
+    },
+    {
+      "name": "Eric Kim",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://x.com/erickimsf",
+      "linkedin": "https://www.linkedin.com/in/erickim37",
+      "substack": ""
+    }
+  ]
 }

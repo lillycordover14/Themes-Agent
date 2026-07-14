@@ -24,6 +24,50 @@
     "linkedin": "https://www.linkedin.com/company/techoperators-llc"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Tom Noonan",
+      "show": "Business Executives for National Security (BENS) — Five Questions with the CEO",
+      "title": "Episode 18: Tom Noonan",
+      "url": "https://bens.org/episode-18-tom-noonan/",
+      "date": ""
+    },
+    {
+      "person": "Glenn McGonnigle",
+      "show": "Hypepotamus (interview)",
+      "title": "McGonnigle of TechOperators VC: \"We Need Another Billion-Dollar Security Company\"",
+      "url": "https://hypepotamus.com/people/techoperators-mcgonnigle/",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Tom Noonan",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/tonoonan/",
+      "substack": ""
+    },
+    {
+      "name": "Said Mohammadioun",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/said-mohammadioun-11763811/",
+      "substack": ""
+    },
+    {
+      "name": "Daniel Ingevaldson",
+      "role": "General Partner",
+      "x": "https://x.com/DanIngevaldson",
+      "linkedin": "https://www.linkedin.com/in/danielingevaldson/",
+      "substack": ""
+    },
+    {
+      "name": "Glenn McGonnigle",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/gmcgonnigle/",
+      "substack": ""
+    }
+  ]
 }

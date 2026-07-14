@@ -31,6 +31,50 @@
       "summary": "The Structural Friction of Overlapping US and China Sanctions on African Enterprise&nbsp;&nbsp;Lavender Hotel"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Jane Ge",
+      "show": "YouTube interview",
+      "title": "Jane Ge, Vectors Capital on the road to net-zero, DeepTech and ESG",
+      "url": "https://www.youtube.com/watch?v=ZSGZpMHEP3Q",
+      "date": "2023"
+    },
+    {
+      "person": "Jane Ge",
+      "show": "BR Venture Fund (BRV)",
+      "title": "Climate-Centric VC World: Insights from an Environmental Visionary, Jane Ge, Managing Partner at Vectors Capital",
+      "url": "https://www.brventurefund.com/4438-2",
+      "date": "2023"
+    }
+  ],
+  "people": [
+    {
+      "name": "Jing (Jane) Ge",
+      "role": "Managing Partner & Founder",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jing-jane-ge-137b221a/",
+      "substack": ""
+    },
+    {
+      "name": "Connie Koh",
+      "role": "Chief of Staff",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/connie-koh/",
+      "substack": ""
+    },
+    {
+      "name": "Pin Pin Tea-makorn",
+      "role": "Vice President",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/pin-pin-tea-makorn/",
+      "substack": ""
+    },
+    {
+      "name": "Wanwipa Siriwatwetchakul",
+      "role": "Venture Partner",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

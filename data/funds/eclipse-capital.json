@@ -32,6 +32,43 @@
       "summary": "Cerebras IPO Winners Include Foundation, Benchmark—and OpenAI&nbsp;&nbsp;The Information"
     }
   ],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Aidan Madigan-Curtis",
+      "show": "Tank Talks",
+      "title": "The Brutal Truth About Hardware Startups and Physical AI",
+      "url": "https://tanktalks.substack.com/p/the-brutal-truth-about-hardware-startups",
+      "date": ""
+    },
+    {
+      "person": "Lior Susan",
+      "show": "Venture Unlocked",
+      "title": "Betting on Founders Who Build the Real World",
+      "url": "https://ventureunlocked.substack.com/p/betting-on-founders-who-build-the",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Lior Susan",
+      "role": "Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/liorsusan",
+      "substack": ""
+    },
+    {
+      "name": "Seth Winterroth",
+      "role": "Partner",
+      "x": "https://x.com/sethwinterroth",
+      "linkedin": "https://www.linkedin.com/in/sethwinterroth/",
+      "substack": ""
+    },
+    {
+      "name": "Aidan Madigan-Curtis",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/aidan-madigan-curtis",
+      "substack": ""
+    }
+  ]
 }

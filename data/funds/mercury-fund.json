@@ -26,12 +26,34 @@
   "updates": [],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "Stablecoins Are Creating a New Financial System - The Block",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNUhucVF6N2JMSzVnaU4tNVpnWFBRVzV2bkFvclk1R1FKZE5Zc05ZMTB4ejdGNjBlMUJpZWxIZ0c1VmZmT3p6aUo5TWVpdjQtckFWSzFRYTBRS0NyZERaYTd5c0V6NGVVUjZSY0F0d1gtWjI3Z3JCLWRTRWJBVUJZa3A1bC1qcHJiYVhv?oc=5",
-      "date": "2026-05-28"
+      "person": "Aziz Gilani",
+      "show": "Go Slow to Grow Fast (Mercury)",
+      "title": "Raising Capital in an Uncertain Economy",
+      "url": "https://open.spotify.com/episode/1IBotI8o1eMRkSKENesXYX",
+      "date": ""
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Blair Garrou",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://twitter.com/bgarrou",
+      "linkedin": "https://www.linkedin.com/in/bgarrou/",
+      "substack": ""
+    },
+    {
+      "name": "Aziz Gilani",
+      "role": "General Partner",
+      "x": "https://twitter.com/TexasVC",
+      "linkedin": "https://www.linkedin.com/in/texasvc/",
+      "substack": ""
+    },
+    {
+      "name": "Samantha Lewis",
+      "role": "Partner",
+      "x": "https://twitter.com/sjolewis",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
 }

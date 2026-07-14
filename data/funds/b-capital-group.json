@@ -41,19 +41,34 @@
   ],
   "podcasts": [
     {
-      "person": "",
-      "show": "",
-      "title": "B Capital-Led Group Buys Russell Investments for $2.8B - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOM0RzXzJGUXljZ2tQeGs0bFlwcGNPUUJ6cHJBbE1KNjNiYTBoYThVNkx2YjJGcHEyUlpDWnBYRHViR3JvamFEeFQ3TlB2YkVTQlFIbkJpd2gtYXU4NWc3U1dIZE1HVkRwcEwwc2E5M3VUZG1pc0pzZlpqbml5UFQ0YjNtdFktVVpMN1ZjRGpvc0wxTHc?oc=5",
-      "date": "2026-07-09"
-    },
-    {
-      "person": "",
-      "show": "",
-      "title": "B Capital-led group buys Russell Investments for $2.8 billion - Bloomberg By Investing.com - Investing.com UK",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNV05GWTN0dFYyemJoY2QtajRrRTctdm5uWHdzUHBleHh1SmhuTmFtMWY1V3FWeVp6Mzc5VjFsX3MyMlpMR2wzeVNzN2tfdFdRb016TzFqUXdaamc2N3BfRzFGSkdJdS1DZkR5UmJrMzJQSjl5OFlkWlFQV2FPMXNSQ3FhNzVLcjEydk5XVTEwNlVWa2NmUXg2cXhQWGliTlkyOGRFR0R4WkFlb3ZxTXNsMXoyRXBfbU84OHVWQmtjMFZmb2RhSVNXMnhrSnRDUHJoX2xxZkdib2RQdw?oc=5",
-      "date": "2026-07-09"
+      "person": "Raj Ganguly",
+      "show": "CNBC Beyond the Valley",
+      "title": "We're in an AI 'super cycle' — could last 20 years",
+      "url": "https://www.cnbc.com/2025/09/26/were-in-an-ai-super-cycle-top-investor-says.html",
+      "date": "2025-09"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "name": "Eduardo Saverin",
+      "role": "Co-Founder & Co-CEO",
+      "x": "https://twitter.com/esaverin",
+      "linkedin": "https://sg.linkedin.com/in/saverin",
+      "substack": ""
+    },
+    {
+      "name": "Raj Ganguly",
+      "role": "Co-Founder & Co-CEO",
+      "x": "https://x.com/rajganguly_",
+      "linkedin": "https://www.linkedin.com/in/rajganguly/",
+      "substack": ""
+    },
+    {
+      "name": "Rashmi Gopinath",
+      "role": "GP, Head of Enterprise",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/rashmigopinath",
+      "substack": ""
+    }
+  ]
 }

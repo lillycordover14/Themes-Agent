@@ -24,6 +24,57 @@
     "linkedin": "https://www.linkedin.com/company/lasolasvc/"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Mark Volchek",
+      "show": "Funded with Alex Wittenberg",
+      "title": "Founder Mistakes, Market Sizing, and Pitch Tips",
+      "url": "https://open.spotify.com/episode/3rf1VF9bgoDZsKkY2JnuTf",
+      "date": "2026-01"
+    },
+    {
+      "person": "Mark Volchek",
+      "show": "The Shrimp Tank Podcast",
+      "title": "#239 - The Best Way to Approach a Venture Capitalist with Mark Volchek",
+      "url": "https://www.shrimptankpodcast.com/239-the-best-way-to-approach-a-venture-capitalist-with-mark-volchek",
+      "date": ""
+    },
+    {
+      "person": "Mark Volchek",
+      "show": "Ivy Podcast",
+      "title": "How to Successfully Transition from Founder to Venture Capital",
+      "url": "https://ivypodcast.com/episode/how-to-successfully-transition-from-founder-to-venture-capital-with-the-founder-of-las-olas-venture-capital-mark-volchek/",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Dean Hatton",
+      "role": "Founding Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/deanhatton/",
+      "substack": ""
+    },
+    {
+      "name": "Mark Volchek",
+      "role": "Founding Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/mvolchek/",
+      "substack": ""
+    },
+    {
+      "name": "Nate Vasel",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/nathanielvasel/",
+      "substack": ""
+    },
+    {
+      "name": "Scotty Lefkowitz",
+      "role": "Principal",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/slefkowitz1/",
+      "substack": ""
+    }
+  ]
 }

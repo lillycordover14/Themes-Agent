@@ -24,6 +24,57 @@
     "linkedin": "https://www.linkedin.com/company/cortadoventures"
   },
   "updates": [],
-  "podcasts": [],
-  "people": []
+  "podcasts": [
+    {
+      "person": "Nathaniel Harding",
+      "show": "MidCon Markup (Cortado Ventures)",
+      "title": "MidCon Markup Ep. 1: Raising a VC Fund in the Midcontinent with Nathaniel Harding",
+      "url": "https://cortado.ventures/midcon-markup-ep-1-raising-a-vc-fund-in-the-midcontinent-with-nathaniel-harding/",
+      "date": "2023-09-18"
+    },
+    {
+      "person": "Nathaniel Harding",
+      "show": "The Daily Grind",
+      "title": "S5 Episode 26: Nathaniel Harding | CEO + Managing Partner | Cortado Ventures",
+      "url": "https://podcasters.spotify.com/pod/show/dailygrindpod/episodes/S5-Episode-26-Nathaniel-Harding--CEO--Managing-Partner--Cortado-Ventures-e2a9oo2",
+      "date": ""
+    },
+    {
+      "person": "Nathaniel Harding",
+      "show": "Funding & Disrupting",
+      "title": "Nathaniel Harding of Cortado Ventures and the Funding of Recuro Health",
+      "url": "https://goodpods.com/podcasts/funding-and-disrupting-414223/nathaniel-harding-of-cortado-ventures-and-the-funding-of-recuro-health-57612544",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Nathaniel Harding",
+      "role": "Managing Partner",
+      "x": "https://x.com/nat_harding",
+      "linkedin": "https://www.linkedin.com/in/nathanielharding/",
+      "substack": ""
+    },
+    {
+      "name": "Mike Moradi",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/mikemoradi/",
+      "substack": ""
+    },
+    {
+      "name": "David Woods",
+      "role": "Co-Founder and Strategic Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/david-woods-9b31114/",
+      "substack": ""
+    },
+    {
+      "name": "Susan Moring",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/susanmoring/",
+      "substack": ""
+    }
+  ]
 }

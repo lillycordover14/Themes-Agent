@@ -46,5 +46,13 @@
     }
   ],
   "podcasts": [],
-  "people": []
+  "people": [
+    {
+      "name": "Ilya Golubovich",
+      "role": "Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/ilya-golubovich-7967353/",
+      "substack": ""
+    }
+  ]
 }
