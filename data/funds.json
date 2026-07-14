@@ -1,6 +1,6 @@
 {
   "generated": "2026-07-14",
-  "count": 181,
+  "count": 182,
   "funds": [
     {
       "name": "General Catalyst",
@@ -32506,7 +32506,7 @@
       ]
     },
     {
-      "name": "Insight",
+      "name": "Insight Partners",
       "slug": "insight",
       "url": "https://www.insightpartners.com",
       "focus": "Growth + scaleup; software",
@@ -38195,6 +38195,24 @@
           "substack": ""
         }
       ]
+    },
+    {
+      "name": "Energize Ventures",
+      "slug": "energize-ventures",
+      "url": "https://www.energize.vc",
+      "focus": "Climate/energy + industrial software & AI (early → growth)",
+      "tier": "VC",
+      "region": "Americas",
+      "meta": null,
+      "sources": {
+        "site": "https://www.energize.vc",
+        "insights": "https://www.energize.vc/insights",
+        "linkedin": "https://www.linkedin.com/company/energize-capital",
+        "news": "https://news.google.com/search?q=Energize%20Ventures"
+      },
+      "people": [],
+      "podcasts": [],
+      "updates": []
     }
   ]
 }

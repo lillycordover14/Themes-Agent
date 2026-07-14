@@ -17,6 +17,7 @@ FUNDS_PATH = os.path.join(ROOT, "data", "funds.json")
 PER_FUND_DIR = os.path.join(ROOT, "data", "funds")
 DAYS = 180  # 6-month activity window            # look-back window
 MAX_ITEMS = 12        # keep newest N per fund
+INVEST_NEWS = __import__('re').compile(r"\\b(raises?|raised|series\\s?[a-e]\\b|seed|pre-?seed|funding|invests?|investment|backs?|leads?|led by|acquires?|closes?\\s+\\$|\\$\\d|new fund|fund [ivx]+|debut fund)\\b", __import__('re').I)
 UA = "Mozilla/5.0 (compatible; ThemesAgent/1.0; +https://github.com)"
 
 # Native RSS/Atom feeds where a fund publishes one (best-effort; extend freely).
@@ -59,7 +60,7 @@ def fetch(url):
         return None
 
 
-def entries_from(feed, from_blog, cutoff):
+def entries_from(feed, from_blog, cutoff, require_invest=False):
     out = []
     if not feed or not getattr(feed, "entries", None):
         return out
@@ -67,6 +68,8 @@ def entries_from(feed, from_blog, cutoff):
         title = (e.get("title") or "").strip()
         link = (e.get("link") or "").strip()
         if not title or not link:
+            continue
+        if require_invest and not INVEST_NEWS.search(title):
             continue
         dt = None
         for k in ("published_parsed", "updated_parsed"):
@@ -116,7 +119,7 @@ def main():
                 feeds.append(p["url"].rstrip("/") + "/feed")
         for u in feeds:
             cand += entries_from(fetch(u), True, cutoff)
-        cand += entries_from(fetch(google_news_url(name)), False, cutoff)
+        cand += entries_from(fetch(google_news_url(name)), False, cutoff, require_invest=True)
         existing = f.get("updates", [])
         seen = {norm(u["title"]) for u in existing} | {u["link"] for u in existing}
         fresh = []

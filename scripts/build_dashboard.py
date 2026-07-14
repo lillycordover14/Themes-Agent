@@ -73,6 +73,42 @@ def merge_harmonic():
 
 
 merge_harmonic()
+
+
+def compute_momentum():
+    import datetime, os as _os
+    hp = _os.path.join(ROOT, "data", "history.json")
+    try:
+        hist = json.load(open(hp, encoding="utf-8"))
+    except Exception:
+        hist = []
+    today = datetime.date.today().isoformat()
+    snap = {"date": today,
+            "tw": {t["k"]: t.get("count", 0) for t in D.get("tailwinds", []) if "k" in t},
+            "funds": {f["slug"]: len(f.get("updates", [])) for f in FUNDS.get("funds", [])}}
+    hist = [h for h in hist if h.get("date") != today] + [snap]
+    hist = hist[-120:]
+    json.dump(hist, open(hp, "w", encoding="utf-8"), ensure_ascii=False)
+    cutoff = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
+    older = [h for h in hist[:-1] if h.get("date") <= cutoff]
+    base = older[-1] if older else (hist[0] if len(hist) > 1 else None)
+    if not base:
+        D["momentum"] = {"since": None}; return
+    twd = []
+    for t in D.get("tailwinds", []):
+        k = t.get("k"); now = t.get("count", 0); then = base["tw"].get(k, 0)
+        twd.append({"name": t.get("name"), "now": now, "delta": now - then})
+    rising = []
+    for f in FUNDS.get("funds", []):
+        now = len(f.get("updates", [])); then = base["funds"].get(f["slug"], 0)
+        if now - then > 0:
+            rising.append({"name": f["name"], "delta": now - then})
+    rising = sorted(rising, key=lambda x: -x["delta"])[:8]
+    D["momentum"] = {"since": base["date"], "tw": twd, "rising": rising}
+
+
+compute_momentum()
+
 BLOB = json.dumps({"D": D, "F": FUNDS}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
 TEMPLATE = open(os.path.join(HERE, "dashboard_template.html"), encoding="utf-8").read()
 html = TEMPLATE.replace("__BLOB__", BLOB)
