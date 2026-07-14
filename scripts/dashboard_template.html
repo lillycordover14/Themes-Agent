@@ -74,11 +74,18 @@ a{color:#33517f;text-decoration:none}a:hover{text-decoration:underline}
 .pod{padding:7px 0;border-top:1px solid #f2f3f6}.pod:first-child{border-top:none}.pod .pt{font-size:12.5px;color:#14213d;font-weight:600;line-height:1.35}.pod .pm{font-size:10.5px;color:#8a94a6;margin-top:2px}
 .mplace{font-size:11.5px;color:#b0b7c3;font-style:italic}
 @media(max-width:900px){.kpis,.bench,.eng,.lensgrid,.mkt{grid-template-columns:repeat(2,1fr)}.tw,.grid2,.inv,.fgrid{grid-template-columns:1fr}}
+.rgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.rc{background:#fff;border:1px solid #e6e9f0;border-radius:12px;padding:15px 17px}
+.rc .rch{display:flex;justify-content:space-between;align-items:center;gap:8px}.rc h3{margin:0;font-size:15px}.rc h3 a{color:#14213d}
+.rscore{color:#fff;font-weight:700;font-size:14px;border-radius:20px;padding:3px 12px;min-width:40px;text-align:center}
+.rmeta{font-size:11px;color:#8a94a6;margin:5px 0 6px}
+.rsig div:first-child{border-top:none}
+@media(max-width:900px){.rgrid{grid-template-columns:1fr}}
 </style></head><body><div class="wrap">
 <header class="top"><div class="brand"><div class="mark">SP</div>
 <div><h1>Themes &amp; Tailwind Radar</h1><div class="sub">Early-stage tailwinds + live fund intelligence · Smith Point Capital</div></div></div>
 <div class="meta"><span class="pill">LIVE · AUTO-UPDATED</span><br><span id="meta"></span></div></header>
-<div class="tabs"><button id="tb-radar" class="active" onclick="showTab('radar')">Tailwind Radar</button><button id="tb-funds" onclick="showTab('funds')">Funds</button></div>
+<div class="tabs"><button id="tb-radar" class="active" onclick="showTab('radar')">Tailwind Radar</button><button id="tb-funds" onclick="showTab('funds')">Funds</button><button id="tb-raising" onclick="showTab('raising')">Raising Soon</button></div>
 
 <div id="tab-radar" class="tab active">
  <div class="mandate"><b>Why this exists:</b> spot the <b>tailwind</b> before the category is obvious, and be ready when the category-definer reaches SPC's Series B–D window. Early-round signal across public funding news, PitchBook and the top funds' own bets, read against the 7 legendary-investor signals (bottom).</div>
@@ -107,6 +114,10 @@ a{color:#33517f;text-decoration:none}a:hover{text-decoration:underline}
  <div class="fgrid" id="fgrid"></div>
 </div>
 
+<div id="tab-raising" class="tab">
+ <div class="mandate"><b>Raising Soon:</b> pipeline companies scored on pre-raise signals — runway timing, finance/exec hires, momentum and raise chatter (Harmonic + Google News). Higher score = more likely to raise in the next 1–2 quarters. Add companies by editing <b>data/pipeline.json</b> on GitHub.</div>
+ <div class="rgrid" id="raisingList"></div>
+</div>
 <div class="footnote" id="foot"></div>
 </div>
 <div class="ov" id="ov" onclick="if(event.target===this)closeFirm()"><div class="modal" id="modalBody"></div></div>
@@ -114,7 +125,7 @@ a{color:#33517f;text-decoration:none}a:hover{text-decoration:underline}
 const BLOB=__BLOB__;const D=BLOB.D, FF=BLOB.F;
 function money(n){n=n||0;if(n>=1e9)return '$'+(n/1e9).toFixed(1)+'B';if(n>=1e6)return '$'+(n/1e6).toFixed(0)+'M';if(n>=1e3)return '$'+(n/1e3).toFixed(0)+'K';return n?'$'+n:'—';}
 function esc(s){return (s||'').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
-function showTab(t){document.getElementById('tab-radar').classList.toggle('active',t==='radar');document.getElementById('tab-funds').classList.toggle('active',t==='funds');document.getElementById('tb-radar').classList.toggle('active',t==='radar');document.getElementById('tb-funds').classList.toggle('active',t==='funds');}
+function showTab(t){['radar','funds','raising'].forEach(function(k){var a=document.getElementById('tab-'+k),b=document.getElementById('tb-'+k);if(a)a.classList.toggle('active',k===t);if(b)b.classList.toggle('active',k===t);});}
 document.getElementById('meta').textContent='Updated '+new Date(D.generated).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
 document.getElementById('k-early').textContent=D.nEarly;document.getElementById('k-cap').textContent=money(D.capEarly);document.getElementById('k-sa').textContent=D.seedA;
 let topTw=D.tailwinds[0];D.tailwinds.forEach(t=>{if(t.count>topTw.count)topTw=t;});
@@ -176,5 +187,6 @@ function openFirm(slug){const f=FBY[slug];if(!f)return;const m=f.meta||{};const 
 }
 function closeFirm(){document.getElementById('ov').classList.remove('on');}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeFirm();});
+(function(){var P=(BLOB.P&&BLOB.P.companies)||[];var el=document.getElementById("raisingList");if(!el)return;if(!P.length){el.innerHTML='<div style="color:#9aa3b3;font-size:12px">No pipeline companies scored yet \u2014 add them in data/pipeline.json and run the workflow.</div>';return;}el.innerHTML=P.map(function(c){var sc=c.score||0,col=sc>=60?"#3a7d44":sc>=30?"#c0562e":"#8a94a6";var sig=(c.signals||[]).map(function(s){return '<div style="font-size:11.5px;color:#5b6b7c;padding:4px 0;border-top:1px solid #f2f3f6">'+s+'</div>';}).join("");var meta=[];if(c.stage)meta.push(c.stage);if(typeof c.months_since==="number")meta.push(c.months_since+" mo since round");if(c.headcount)meta.push(c.headcount+" HC");return '<div class="rc"><div class="rch"><h3>'+(c.url?'<a href="'+c.url+'" target="_blank">'+c.name+'</a>':c.name)+'</h3><span class="rscore" style="background:'+col+'">'+sc+'</span></div>'+(meta.length?'<div class="rmeta">'+meta.join(" \u00b7 ")+'</div>':"")+'<div class="rsig">'+sig+'</div></div>';}).join("");})();
 document.getElementById('foot').innerHTML='A comprehensive, self-updating VC intelligence database. Firm activity, podcasts and news auto-pulled from the web weekly by a GitHub Action and saved to /data in your repo. Tailwind data from public VC funding news + Harmonic. LinkedIn/X captured as profile links (login-gated). Framework: Saurav Gopal, "12 Legendary Investors."';
 </script></body></html>

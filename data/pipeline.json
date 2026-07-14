@@ -1,0 +1,8 @@
+{
+  "companies": [
+    {"name": "Salient", "domain": ""},
+    {"name": "Taktile", "domain": "taktile.com"},
+    {"name": "NetBox Labs", "domain": "netboxlabs.com"},
+    {"name": "Bretton", "domain": "bretton.com"}
+  ]
+}

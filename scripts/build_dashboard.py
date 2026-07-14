@@ -157,7 +157,11 @@ compute_pov()
 _active = [f for f in FUNDS.get("funds", []) if f.get("updates") or f.get("pin")]
 F_DISPLAY = {"generated": FUNDS.get("generated"), "count": len(_active), "funds": _active}
 print("dashboard shows %d firms with activity (of %d tracked)" % (len(_active), len(FUNDS.get("funds", []))))
-BLOB = json.dumps({"D": D, "F": F_DISPLAY}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
+try:
+    PIPE = json.load(open(os.path.join(ROOT, "data", "pipeline_scored.json"), encoding="utf-8"))
+except Exception:
+    PIPE = {"companies": []}
+BLOB = json.dumps({"D": D, "F": F_DISPLAY, "P": PIPE}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
 TEMPLATE = open(os.path.join(HERE, "dashboard_template.html"), encoding="utf-8").read()
 html = TEMPLATE.replace("__BLOB__", BLOB)
 _gate = open(os.path.join(HERE, "gate.html"), encoding="utf-8").read()
