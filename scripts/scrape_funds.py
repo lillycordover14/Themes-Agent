@@ -99,6 +99,33 @@ def podcast_news_url(name):
     return "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en" % urllib.parse.quote(q)
 
 
+
+
+def edgar_formd(name, cutoff):
+    """SEC EDGAR full-text search for recent Form D (new fund / securities offering) filings."""
+    try:
+        q = urllib.parse.quote('"%s"' % name)
+        url = "https://efts.sec.gov/LATEST/search-index?q=%s&forms=D" % q
+        req = urllib.request.Request(url, headers={"User-Agent": "ThemesAgent research@smithpointcapital.com"})
+        d = json.loads(urllib.request.urlopen(req, timeout=25).read())
+    except Exception:
+        return []
+    tok = (name.lower().split() or [""])[0]
+    out = []
+    for h in (d.get("hits", {}) or {}).get("hits", [])[:6]:
+        src = h.get("_source", {}) or {}
+        disp = ", ".join(src.get("display_names", []) or [])
+        filed = src.get("file_date", "") or ""
+        if not filed or filed < cutoff:
+            continue
+        if tok and tok not in disp.lower():
+            continue
+        out.append({"date": filed, "type": "New fund", "title": "SEC Form D \u2014 " + disp[:70],
+                    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=" + urllib.parse.quote(name) + "&type=D&count=20",
+                    "summary": "New fund / securities offering filed with the SEC \u2014 fresh capital to deploy."})
+    return out
+
+
 def main():
     data = json.load(open(FUNDS_PATH, encoding="utf-8"))
     cutoff = datetime.date.today() - datetime.timedelta(days=DAYS)
@@ -148,6 +175,14 @@ def main():
                 add_p.append({"person": "", "show": "", "title": p["title"], "url": p["link"], "date": p["date"]})
             if add_p:
                 f["podcasts"] = (add_p + existing_p)[:8]
+        try:
+            fd_cut = (datetime.date.today() - datetime.timedelta(days=365)).isoformat()
+            seen_t = {u.get("title") for u in f.get("updates", [])}
+            for it in edgar_formd(name, fd_cut):
+                if it["title"] not in seen_t:
+                    f.setdefault("updates", []).insert(0, it); seen_t.add(it["title"])
+        except Exception:
+            pass
         # write per-fund file
         json.dump(f, open(os.path.join(PER_FUND_DIR, slug + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     data["generated"] = datetime.date.today().isoformat()
