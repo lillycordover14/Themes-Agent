@@ -93,5 +93,6 @@
       "date": "2026-05-01"
     }
   ],
-  "updates": []
+  "updates": [],
+  "pin": true
 }

@@ -109,7 +109,7 @@ def compute_momentum():
 
 compute_momentum()
 
-_active = [f for f in FUNDS.get("funds", []) if f.get("updates")]
+_active = [f for f in FUNDS.get("funds", []) if f.get("updates") or f.get("pin")]
 F_DISPLAY = {"generated": FUNDS.get("generated"), "count": len(_active), "funds": _active}
 print("dashboard shows %d firms with activity (of %d tracked)" % (len(_active), len(FUNDS.get("funds", []))))
 BLOB = json.dumps({"D": D, "F": F_DISPLAY}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")

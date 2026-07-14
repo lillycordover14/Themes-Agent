@@ -1310,7 +1310,8 @@
           "linkedin": "",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Accel",
@@ -1994,7 +1995,8 @@
           "linkedin": "https://www.linkedin.com/in/andrewbraccia/",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Lightspeed",
@@ -2613,7 +2615,8 @@
           "linkedin": "https://www.linkedin.com/in/mignano/",
           "substack": "https://migna.no/"
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Khosla Ventures",
@@ -3934,7 +3937,8 @@
           "linkedin": "https://www.linkedin.com/in/debarghyadas",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Lux Capital",
@@ -5393,7 +5397,8 @@
           "linkedin": "",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Energy Impact Partners",
@@ -7588,7 +7593,8 @@
           "linkedin": "",
           "substack": "https://unsupervisedlearning.substack.com"
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "NFX",
@@ -12529,7 +12535,8 @@
           "linkedin": "https://www.linkedin.com/in/susanwliu/",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "ARCH Venture Partners",
@@ -29209,7 +29216,8 @@
           "linkedin": "",
           "substack": "https://eriktorenberg.substack.com"
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Benchmark",
@@ -29961,7 +29969,8 @@
           "linkedin": "",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Greylock",
@@ -30121,7 +30130,8 @@
           "linkedin": "https://www.linkedin.com/in/jerrychenprofile",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Bessemer",
@@ -30752,7 +30762,8 @@
           "linkedin": "",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Battery",
@@ -31605,7 +31616,8 @@
           "linkedin": "",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Index",
@@ -32382,7 +32394,8 @@
           "linkedin": "",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Insight Partners",
@@ -32949,7 +32962,8 @@
           "linkedin": "",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Boldstart",
@@ -33081,7 +33095,8 @@
           "linkedin": "",
           "substack": "https://shomik.substack.com/"
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Amplify",
@@ -33521,7 +33536,8 @@
           "linkedin": "https://www.linkedin.com/in/lennypruss",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Wing",
@@ -34333,7 +34349,8 @@
           "linkedin": "https://www.linkedin.com/in/jacobflomenberg",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Basis Set",
@@ -34534,7 +34551,8 @@
           "linkedin": "",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Conviction",
@@ -35288,7 +35306,8 @@
           "linkedin": "https://www.linkedin.com/in/vernal",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Felicis",
@@ -35379,7 +35398,8 @@
           "linkedin": "https://www.linkedin.com/in/vivianafaga/",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Founders Fund",
@@ -36134,7 +36154,8 @@
           "linkedin": "",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "First Round",
@@ -36883,7 +36904,8 @@
           "linkedin": "",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Essence",
@@ -37252,7 +37274,8 @@
           "linkedin": "https://www.linkedin.com/in/timchen",
           "substack": "https://substack.com/@flashintothefuture"
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Pear",
@@ -37395,7 +37418,8 @@
           "linkedin": "https://www.linkedin.com/in/mar-hershenson-b21395/",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Y Combinator",
@@ -38073,7 +38097,8 @@
           "linkedin": "",
           "substack": ""
         }
-      ]
+      ],
+      "pin": true
     },
     {
       "name": "Energize Ventures",
@@ -38099,7 +38124,8 @@
           "date": "2026-02-06"
         }
       ],
-      "updates": []
+      "updates": [],
+      "pin": true
     },
     {
       "name": "Kleiner Perkins",
@@ -38189,7 +38215,8 @@
           "date": "2024-10"
         }
       ],
-      "updates": []
+      "updates": [],
+      "pin": true
     },
     {
       "name": "Coatue",
@@ -38286,7 +38313,8 @@
           "date": "2026-05-01"
         }
       ],
-      "updates": []
+      "updates": [],
+      "pin": true
     }
   ]
 }
