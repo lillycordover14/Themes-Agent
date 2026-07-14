@@ -164,9 +164,7 @@ except Exception:
 BLOB = json.dumps({"D": D, "F": F_DISPLAY, "P": PIPE}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
 TEMPLATE = open(os.path.join(HERE, "dashboard_template.html"), encoding="utf-8").read()
 html = TEMPLATE.replace("__BLOB__", BLOB)
-_gate = open(os.path.join(HERE, "gate.html"), encoding="utf-8").read()
-_gate = _gate.replace("__PAYLOAD__", base64.b64encode(html.encode("utf-8")).decode("ascii")).replace("__HASH__", PW_HASH)
-open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(_gate)
+open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
 print("built index.html (%d bytes) from %d funds" % (len(html), FUNDS.get("count", 0)))
 
 
