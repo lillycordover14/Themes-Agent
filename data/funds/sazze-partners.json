@@ -1,0 +1,56 @@
+{
+  "name": "Sazze Partners",
+  "slug": "sazze-partners",
+  "url": "https://www.sazze.vc/",
+  "focus": "Venture Capital · Founded in 2018, Sazze Partners is a venture capital investment firm based in San Jose, Ca",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "117927-73",
+  "meta": {
+    "aum": null,
+    "active": 117,
+    "d6": 4,
+    "d12": 12,
+    "hq": "San Jose, CA",
+    "quartile": 1,
+    "pbid": "117927-73",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/117927-73",
+    "news": "https://news.google.com/search?q=Sazze%20Partners",
+    "linkedin": "https://www.linkedin.com/company/primer-sazze-partners/"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Kiha Lee",
+      "role": "Founding Partner",
+      "x": "https://x.com/kihalee",
+      "linkedin": "https://www.linkedin.com/in/kiha-lee/",
+      "substack": "https://82startup.substack.com/"
+    },
+    {
+      "name": "Greg Kwangrog Kim",
+      "role": "Co-Founder & Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/gregkim/",
+      "substack": ""
+    },
+    {
+      "name": "Sukhyun Kim",
+      "role": "Venture Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/sukhyun/",
+      "substack": ""
+    },
+    {
+      "name": "Do Gyun Guen",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/douglasguen/",
+      "substack": ""
+    }
+  ]
+}

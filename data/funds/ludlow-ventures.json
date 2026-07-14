@@ -1,0 +1,72 @@
+{
+  "name": "Ludlow Ventures",
+  "slug": "ludlow-ventures",
+  "url": "https://www.ludlowventures.com/",
+  "focus": "Venture Capital · Founded in 2009, Ludlow Ventures is a venture capital firm based in Oak Park, Michigan. Th",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "51639-94",
+  "meta": {
+    "aum": "$215M",
+    "active": 102,
+    "d6": 4,
+    "d12": 15,
+    "hq": "Oak Park, MI",
+    "quartile": 1,
+    "pbid": "51639-94",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/51639-94",
+    "news": "https://news.google.com/search?q=Ludlow%20Ventures",
+    "x": "https://x.com/ludlowventures",
+    "linkedin": "https://www.linkedin.com/company/ludlow-ventures"
+  },
+  "updates": [],
+  "podcasts": [
+    {
+      "person": "Jonathon Triest",
+      "show": "The Twenty Minute VC (20VC)",
+      "title": "20 VC 055: VC Done Right with Jonathon Triest @ Ludlow Ventures",
+      "url": "https://www.thetwentyminutevc.com/jonathontriest",
+      "date": "2015-07-19"
+    },
+    {
+      "person": "Jonathon Triest, Brett deMarrais",
+      "show": "The Full Ratchet",
+      "title": "75. No Fun Allowed, Part 1 (Jonathon Triest & Brett DeMarrais)",
+      "url": "https://fullratchet.net/ep75-no-fun-allowed-part-1-jonathon-triest-brett-demarrais/",
+      "date": ""
+    },
+    {
+      "person": "Jonathon Triest",
+      "show": "33Voices",
+      "title": "Why Jonathon Triest is Following His Must with Ludlow Ventures",
+      "url": "https://33voices.com/interviews/blog/why-jonathon-triest-is-following-his-must-with-ludlow-ventures/",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Jonathon Triest",
+      "role": "Founder and Managing Partner",
+      "x": "https://twitter.com/jtriest",
+      "linkedin": "https://www.linkedin.com/in/jtriest/",
+      "substack": ""
+    },
+    {
+      "name": "Brett deMarrais",
+      "role": "Co-Founder and General Partner",
+      "x": "https://twitter.com/brettdem",
+      "linkedin": "https://www.linkedin.com/in/brettdemarrais/",
+      "substack": ""
+    },
+    {
+      "name": "Lindsay Daugherty",
+      "role": "Associate/Partner (NYC)",
+      "x": "https://x.com/Linds_Daugherty",
+      "linkedin": "https://www.linkedin.com/in/lindsay-daugherty-45a921158",
+      "substack": ""
+    }
+  ]
+}

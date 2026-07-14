@@ -1,0 +1,72 @@
+{
+  "name": "Boulder Ventures",
+  "slug": "boulder-ventures",
+  "url": "https://www.boulderventures.com/",
+  "focus": "Venture Capital · Founded in 1995, Boulder Ventures is a venture capital firm based in Boulder, Colorado. Th",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11128-06",
+  "meta": {
+    "aum": null,
+    "active": 21,
+    "d6": 4,
+    "d12": 7,
+    "hq": "Boulder, CO",
+    "quartile": 1,
+    "pbid": "11128-06",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11128-06",
+    "news": "https://news.google.com/search?q=Boulder%20Ventures",
+    "blog": "https://www.boulderventures.com/perspectives",
+    "linkedin": "https://www.linkedin.com/company/boulder-ventures/"
+  },
+  "updates": [],
+  "podcasts": [
+    {
+      "person": "Kyle Lefkoff",
+      "show": "Voice of the Mountains (Uphill Athlete)",
+      "title": "The Geography of Risk with Kyle Lefkoff",
+      "url": "https://www.boulderventures.com/news/voice-of-the-mountains-the-geography-of-risk-with-kyle-lefkoff",
+      "date": "2025-12-02"
+    },
+    {
+      "person": "Kishen Mangat",
+      "show": "Taking Care of Business with Mike Katz",
+      "title": "Episode 10: Kishen Mangat",
+      "url": "https://podcasts.apple.com/us/podcast/taking-care-of-business-with-mike-katz/id1531532986?i=1000498047280",
+      "date": "2020-11-10"
+    }
+  ],
+  "people": [
+    {
+      "name": "Kyle Lefkoff",
+      "role": "General Partner (Founder)",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/kyle-lefkoff-8975a857/",
+      "substack": ""
+    },
+    {
+      "name": "Peter Roshko",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/peter-roshko/",
+      "substack": ""
+    },
+    {
+      "name": "Kishen Mangat",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/kishenmangat",
+      "substack": ""
+    },
+    {
+      "name": "Jonathan Perl",
+      "role": "General Partner (Mid-Atlantic)",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jonathan-perl-1837916",
+      "substack": ""
+    }
+  ]
+}

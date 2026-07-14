@@ -1,0 +1,59 @@
+{
+  "name": "Mercury Fund",
+  "slug": "mercury-fund",
+  "url": "https://www.mercuryfund.com/",
+  "focus": "Venture Capital · Founded in 2005, Mercury Fund is a venture capital investment firm based in Houston, Texas",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11170-09",
+  "meta": {
+    "aum": "$750M",
+    "active": 56,
+    "d6": 8,
+    "d12": 11,
+    "hq": "Houston, TX",
+    "quartile": 1,
+    "pbid": "11170-09",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11170-09",
+    "news": "https://news.google.com/search?q=Mercury%20Fund",
+    "blog": "https://www.mercuryfund.com/resources",
+    "x": "https://x.com/mercuryfund",
+    "linkedin": "https://www.linkedin.com/company/mercury-fund/"
+  },
+  "updates": [],
+  "podcasts": [
+    {
+      "person": "Aziz Gilani",
+      "show": "Go Slow to Grow Fast (Mercury)",
+      "title": "Raising Capital in an Uncertain Economy",
+      "url": "https://open.spotify.com/episode/1IBotI8o1eMRkSKENesXYX",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Blair Garrou",
+      "role": "Co-Founder & Managing Partner",
+      "x": "https://twitter.com/bgarrou",
+      "linkedin": "https://www.linkedin.com/in/bgarrou/",
+      "substack": ""
+    },
+    {
+      "name": "Aziz Gilani",
+      "role": "General Partner",
+      "x": "https://twitter.com/TexasVC",
+      "linkedin": "https://www.linkedin.com/in/texasvc/",
+      "substack": ""
+    },
+    {
+      "name": "Samantha Lewis",
+      "role": "Partner",
+      "x": "https://twitter.com/sjolewis",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
+}

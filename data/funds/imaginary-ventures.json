@@ -1,0 +1,50 @@
+{
+  "name": "Imaginary Ventures",
+  "slug": "imaginary-ventures",
+  "url": "https://www.imaginary.co/",
+  "focus": "Venture Capital · Founded in 2017, Imaginary Ventures is a venture capital firm based in New York. The firm ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "173473-84",
+  "meta": {
+    "aum": "$1.0B",
+    "active": 53,
+    "d6": 8,
+    "d12": 10,
+    "hq": "New York, NY",
+    "quartile": 1,
+    "pbid": "173473-84",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/173473-84",
+    "news": "https://news.google.com/search?q=Imaginary%20Ventures",
+    "linkedin": "https://www.linkedin.com/company/imaginary"
+  },
+  "updates": [],
+  "podcasts": [
+    {
+      "person": "Nick Brown",
+      "show": "The Glossy Podcast",
+      "title": "Seeking founders with something to prove",
+      "url": "https://www.glossy.co/podcasts/imaginary-ventures-nick-brown-investing/",
+      "date": "2022-07"
+    }
+  ],
+  "people": [
+    {
+      "name": "Natalie Massenet",
+      "role": "Co-Founder & GP",
+      "x": "https://x.com/nataliemassenet",
+      "linkedin": "https://www.linkedin.com/in/natalie-massenet-77a732157/",
+      "substack": ""
+    },
+    {
+      "name": "Nick Brown",
+      "role": "Co-Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/nickbrownimaginary/",
+      "substack": ""
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Motivate Venture Capital",
+  "slug": "motivate-venture-capital",
+  "url": "https://motivate.vc/",
+  "focus": "Venture Capital · Founded in 2019, Motivate Venture Capital is a venture capital firm based in Chicago, Illi",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "277361-02",
+  "meta": {
+    "aum": "$185M",
+    "active": 70,
+    "d6": 3,
+    "d12": 6,
+    "hq": "Chicago, IL",
+    "quartile": 1,
+    "pbid": "277361-02",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/277361-02",
+    "news": "https://news.google.com/search?q=Motivate%20Venture%20Capital",
+    "x": "https://twitter.com/MotivateVC",
+    "linkedin": "https://www.linkedin.com/company/motivatevc"
+  },
+  "updates": [],
+  "podcasts": [
+    {
+      "person": "Jackson Bubala",
+      "show": "Chicago Capital",
+      "title": "Jackson Bubala @ Motivate Venture Capital on B2B Marketplaces, E-Commerce SaaS Investing, Food Delivery, & How the Chicago VC Ecosystem Can Continue To Improve",
+      "url": "https://www.chicagocapitalpodcast.com/blog/jackson-bubala-motivate-ventures-on-b2b-marketplaces-e-commerce-saas-investing-food-delivery-amp-how-the-chicago-vc-ecosystem-can-continue-to-improve",
+      "date": "2021-03-17"
+    }
+  ],
+  "people": [
+    {
+      "name": "David Wieland",
+      "role": "Founder & Managing Partner",
+      "x": "https://x.com/davidjwieland",
+      "linkedin": "https://www.linkedin.com/in/davidjwieland/",
+      "substack": ""
+    },
+    {
+      "name": "Lauren Deluca",
+      "role": "Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/delucalauren/",
+      "substack": ""
+    },
+    {
+      "name": "Andy Will",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/andy-will-9b76183a/",
+      "substack": ""
+    },
+    {
+      "name": "Jackson Bubala",
+      "role": "Partner",
+      "x": "https://x.com/bubjacks",
+      "linkedin": "https://www.linkedin.com/in/jackson-bubala/",
+      "substack": ""
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Reach Capital",
+  "slug": "reach-capital",
+  "url": "https://www.reachcapital.com/",
+  "focus": "Venture Capital · Founded in 2015, Reach Capital is a venture capital firm based in San Francisco, Californi",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "111506-59",
+  "meta": {
+    "aum": "$573M",
+    "active": 121,
+    "d6": 12,
+    "d12": 25,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "111506-59",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/111506-59",
+    "news": "https://news.google.com/search?q=Reach%20Capital",
+    "blog": "https://www.reachcapital.com/learn/",
+    "x": "https://x.com/reachcapital",
+    "linkedin": "https://www.linkedin.com/company/reach-capital"
+  },
+  "updates": [],
+  "podcasts": [
+    {
+      "person": "Shauntel Garvey",
+      "show": "Venture Unlocked",
+      "title": "On EdTech and being an active seed investor",
+      "url": "https://ventureunlocked.substack.com/p/shauntelgarvey",
+      "date": "2021-06"
+    }
+  ],
+  "people": [
+    {
+      "name": "Jennifer Carolan",
+      "role": "Co-Founder & GP",
+      "x": "https://x.com/jencarolan",
+      "linkedin": "https://www.linkedin.com/in/jcarolan/",
+      "substack": ""
+    },
+    {
+      "name": "Shauntel Garvey",
+      "role": "Co-Founder & GP",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/shauntelpoulson/",
+      "substack": ""
+    }
+  ]
+}

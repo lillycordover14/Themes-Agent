@@ -1,0 +1,51 @@
+{
+  "name": "Energy Transition Ventures",
+  "slug": "energy-transition-ventures",
+  "url": "https://energytransitionventures.com/",
+  "focus": "Venture Capital · Founded in 2020, Energy Transition Ventures is a venture capital firm based in Houston, Te",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "438738-31",
+  "meta": {
+    "aum": "$46M",
+    "active": 7,
+    "d6": 3,
+    "d12": 3,
+    "hq": "Houston, TX",
+    "quartile": 1,
+    "pbid": "438738-31",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/438738-31",
+    "news": "https://news.google.com/search?q=Energy%20Transition%20Ventures",
+    "blog": "https://energytransitionventures.com/news/",
+    "x": "https://x.com/EnergyVentures",
+    "linkedin": "https://www.linkedin.com/company/energy-transition-ventures"
+  },
+  "updates": [],
+  "partner_substacks": [
+    {
+      "name": "Neal Dikeman",
+      "url": "https://www.cleantechblog.com/"
+    }
+  ],
+  "podcasts": [
+    {
+      "person": "",
+      "show": "",
+      "title": "Hind Zinc eyes energy transition, ventures into critical minerals - BusinessLine",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWWdpeVZXUjhEODZfeFZ6ZzNxcEt4TnNRbjcwMWwwY29mRDktV0U1YmhCby1ubjlkNU1iNi0wRS15MTJGNlM3ZDMwYmRrLVl0eEExZEVhZk1HN1RpZDlCUTRDYTNFdHNnNV9JX2s4N0hLa0UxQlFwVzM2ZUlmczZMdWM5bmhweEdoVE1JMm9EMThRZXVBOXh4QUNPVHJQSUV0bXV0bWprT0ZLSkFtRnB3RnoxTkk0RnFqRFlBVjVNY0ZTV1lLSUlXbEQ4a9IB0gFBVV95cUxNcVh6VlhWVE42cy1MbVpaRzNQSVBHTm5lUzdDMVR1WkxjTnBRalV2UFBWVUZYckhSY3FYbmh1a21TSW1FV3NMY3F6ZnB2MjNnS0oxa0xiSjhEMnBBaWZFaVYyWkx6ZHlxemZ4bjFKbk50eUh2SVd3UDJnSkIxRU1LTnRSQ05fWngzcVAtbmJIakJCa19qbmZlLVpjR1ZhZEI0a2ZGaDhDMFNVZ18yazVQSEZpcUlOUTFRUTdkVWVlUEhDR2xDU3pPbUpweTV0am5Db1E?oc=5",
+      "date": "2026-06-29"
+    }
+  ],
+  "people": [
+    {
+      "name": "Neal Dikeman",
+      "role": "",
+      "x": "",
+      "linkedin": "",
+      "substack": "https://www.cleantechblog.com/"
+    }
+  ]
+}

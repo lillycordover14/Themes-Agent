@@ -1,0 +1,66 @@
+{
+  "name": "Renegade Partners",
+  "slug": "renegade-partners",
+  "url": "https://www.renegadepartners.com/",
+  "focus": "Venture Capital · Founded in 2018, Renegade Partners is a venture capital firm based in San Francisco, Calif",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "433149-58",
+  "meta": {
+    "aum": "$200M",
+    "active": 27,
+    "d6": 5,
+    "d12": 7,
+    "hq": "San Francisco, CA",
+    "quartile": 1,
+    "pbid": "433149-58",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/433149-58",
+    "news": "https://news.google.com/search?q=Renegade%20Partners",
+    "blog": "https://www.renegadepartners.com/news",
+    "x": "https://x.com/RenegadePtnrs",
+    "linkedin": "https://www.linkedin.com/company/renegade-partners"
+  },
+  "updates": [],
+  "podcasts": [
+    {
+      "person": "Renata Quintini & Roseanne Wincek",
+      "show": "Invest Like the Best",
+      "title": "Renata Quintini and Roseanne Wincek – Investing at the Supercritical Stage",
+      "url": "https://podcasts.apple.com/us/podcast/renata-quintini-and-roseanne-wincek-investing-at/id1154105909?i=1000532952334",
+      "date": "2021-08-24"
+    },
+    {
+      "person": "Renata Quintini & Roseanne Wincek",
+      "show": "Capital Allocators",
+      "title": "Renegade Spin-Out In Its Supercritical Stage",
+      "url": "https://www.capitalallocators.com/podcast/renegade-spin-out-in-its-supercritical-stage/",
+      "date": "2022-03-21"
+    },
+    {
+      "person": "Renata Quintini & Roseanne Wincek",
+      "show": "Venture Unlocked (Substack)",
+      "title": "Venture Unlocked #023 — Renata Quintini & Roseanne Wincek on the Supercritical Stage and running a fund like a startup",
+      "url": "https://ventureunlocked.substack.com/p/venture-unlocked-023-renata-quintini",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Renata Quintini",
+      "role": "Co-Founder & Managing Director",
+      "x": "https://x.com/rquintini",
+      "linkedin": "https://www.linkedin.com/in/rquintini/",
+      "substack": ""
+    },
+    {
+      "name": "Roseanne Wincek",
+      "role": "Co-Founder & Managing Director",
+      "x": "https://x.com/imthemusic",
+      "linkedin": "https://www.linkedin.com/in/roseannewincek/",
+      "substack": ""
+    }
+  ]
+}

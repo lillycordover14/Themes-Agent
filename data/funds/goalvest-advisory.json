@@ -1,0 +1,65 @@
+{
+  "name": "GoalVest Advisory",
+  "slug": "goalvest-advisory",
+  "url": "https://www.goalvestadvisory.com/",
+  "focus": "Venture Capital · Founded in 2016, GoalVest Advisory is a venture capital firm based in New York. This firm ",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "483235-66",
+  "meta": {
+    "aum": "$777M",
+    "active": 20,
+    "d6": 3,
+    "d12": 4,
+    "hq": "New York, NY",
+    "quartile": 2,
+    "pbid": "483235-66",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/483235-66",
+    "news": "https://news.google.com/search?q=GoalVest%20Advisory",
+    "blog": "https://www.goalvestadvisory.com/insights",
+    "linkedin": "https://www.linkedin.com/company/goalvest-advisory"
+  },
+  "updates": [],
+  "podcasts": [
+    {
+      "person": "Sevasti Balafas",
+      "show": "Smart Money Circle",
+      "title": "Breaking Glass Ceilings, From Wharton to Wall St, How Sevasti Balafas Built a Female-Led RIA",
+      "url": "https://creators.spotify.com/pod/show/smartmoneycircle/episodes/Breaking-Glass-Ceilings--From-Wharton-to-Wall-St--How-Sevasti-Balafas-Built-a-Female-Led-RIA-e2vff97",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Sevasti Balafas",
+      "role": "Founder & CEO",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/sevasti-balafas-cfa-cpwa/",
+      "substack": ""
+    },
+    {
+      "name": "Blair Cohen",
+      "role": "Managing Partner / Head of Private Investments, GoalVest Venture Capital",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/blaircohen1/",
+      "substack": ""
+    },
+    {
+      "name": "David Abella",
+      "role": "Director of Investments",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    },
+    {
+      "name": "Ashwini Patil",
+      "role": "Head of Trading",
+      "x": "",
+      "linkedin": "",
+      "substack": ""
+    }
+  ]
+}

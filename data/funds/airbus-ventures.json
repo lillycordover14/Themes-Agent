@@ -1,0 +1,73 @@
+{
+  "name": "Airbus Ventures",
+  "slug": "airbus-ventures",
+  "url": "https://www.airbusventures.vc/",
+  "focus": "Venture Capital · Founded in 2015, Airbus Ventures is a venture capital investment arm of Airbus Group based",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "151267-78",
+  "meta": {
+    "aum": "$465M",
+    "active": 41,
+    "d6": 5,
+    "d12": 8,
+    "hq": "Menlo Park, CA",
+    "quartile": 1,
+    "pbid": "151267-78",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/151267-78",
+    "news": "https://news.google.com/search?q=Airbus%20Ventures",
+    "blog": "https://www.airbusventures.vc/news",
+    "x": "https://x.com/airbusventures",
+    "linkedin": "https://www.linkedin.com/company/airbus-ventures"
+  },
+  "updates": [],
+  "podcasts": [
+    {
+      "person": "Thomas d'Halluin",
+      "show": "Sand Hill Road",
+      "title": "Airbus Ventures Looks to Space",
+      "url": "https://podcasts.apple.com/us/podcast/airbus-ventures-looks-to-space/id1448400925?i=1000496477153",
+      "date": "2020-10-29"
+    },
+    {
+      "person": "Lewis Pinault",
+      "show": "Geeks of the Valley Podcast",
+      "title": "#42: Investing Along the Z-Axis with Airbus Ventures' Lewis Pinault",
+      "url": "https://geeksofthevalley.com/42-investing-along-the-z-axis-with-airbus-ventures-lewis-pinault/",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Thomas d'Halluin",
+      "role": "Managing Partner",
+      "x": "https://twitter.com/dhalluinthomas",
+      "linkedin": "https://www.linkedin.com/in/thomas-d-halluin-081a3619/",
+      "substack": ""
+    },
+    {
+      "name": "Nicole Conner",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/nicole-conner-05004913/",
+      "substack": ""
+    },
+    {
+      "name": "Mathieu Costes",
+      "role": "Operating Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/mathieu-costes-8082244/",
+      "substack": ""
+    },
+    {
+      "name": "Lewis Pinault",
+      "role": "Chief Science Advisor / Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/lewispinault/",
+      "substack": ""
+    }
+  ]
+}

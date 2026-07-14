@@ -1,0 +1,73 @@
+{
+  "name": "Emergent Ventures",
+  "slug": "emergent-ventures",
+  "url": "https://www.emergent.vc/",
+  "focus": "Venture Capital · Founded in 2016, Emergent Ventures is a venture capital investment firm headquartered in S",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "180467-38",
+  "meta": {
+    "aum": "$200M",
+    "active": 48,
+    "d6": 3,
+    "d12": 8,
+    "hq": "San Mateo, CA",
+    "quartile": 1,
+    "pbid": "180467-38",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/180467-38",
+    "news": "https://news.google.com/search?q=Emergent%20Ventures",
+    "blog": "https://www.emergent.vc/blog",
+    "x": "https://x.com/emergent_vc",
+    "linkedin": "https://www.linkedin.com/company/emergent-vc"
+  },
+  "updates": [],
+  "podcasts": [
+    {
+      "person": "Anupam Rastogi",
+      "show": "1Mby1M Entrepreneurship Podcast",
+      "title": "674th 1Mby1M Entrepreneurship Podcast with Anupam Rastogi, Emergent Ventures",
+      "url": "https://www.sramanamitra.com/2025/03/03/674th-1mby1m-entrepreneurship-podcast-with-anupam-rastogi-emergent-ventures/",
+      "date": "2025-03-03"
+    },
+    {
+      "person": "Anupam Rastogi",
+      "show": "Life Self Mastery",
+      "title": "Ep 307: Building Go-to-Market Teams in Enterprise SaaS with Anupam Rastogi from Emergent Ventures",
+      "url": "https://lifeselfmastery.com/2023/08/17/ep-307-building-go-to-market-teams-in-enterprise-saas-with-anupam-rastogi-from-emergent-ventures/",
+      "date": "2023-08-17"
+    }
+  ],
+  "people": [
+    {
+      "name": "Ankur Jain",
+      "role": "Managing Partner",
+      "x": "https://x.com/Ankur_Jain_VC",
+      "linkedin": "https://www.linkedin.com/in/ankur-jain-vc/",
+      "substack": ""
+    },
+    {
+      "name": "Anupam Rastogi",
+      "role": "Managing Partner",
+      "x": "https://x.com/anupamr",
+      "linkedin": "https://www.linkedin.com/in/anupamr/",
+      "substack": ""
+    },
+    {
+      "name": "Niha Gottiparthy",
+      "role": "Investor",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/nihagottiparthy/",
+      "substack": ""
+    },
+    {
+      "name": "Indra Singhal",
+      "role": "Operating Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/isinghal/",
+      "substack": ""
+    }
+  ]
+}

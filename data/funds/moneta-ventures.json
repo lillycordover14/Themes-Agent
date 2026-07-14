@@ -1,0 +1,72 @@
+{
+  "name": "Moneta Ventures",
+  "slug": "moneta-ventures",
+  "url": "https://moneta.vc/",
+  "focus": "Venture Capital · Founded in 2014, Moneta Ventures is a venture capital firm based in Folsom, California. Th",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "63171-28",
+  "meta": {
+    "aum": "$360M",
+    "active": 47,
+    "d6": 4,
+    "d12": 13,
+    "hq": "Folsom, CA",
+    "quartile": 1,
+    "pbid": "63171-28",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/63171-28",
+    "news": "https://news.google.com/search?q=Moneta%20Ventures",
+    "blog": "https://moneta.vc/news/",
+    "linkedin": "https://www.linkedin.com/company/moneta-ventures/"
+  },
+  "updates": [],
+  "podcasts": [
+    {
+      "person": "Lokesh Sikaria",
+      "show": "Bite Sized Finance",
+      "title": "Episode 37: Tea Gardens to Technology; Lokesh Sikaria is Transforming Venture Capital in Sacramento",
+      "url": "https://podcasts.apple.com/us/podcast/episode-37-tea-gardens-to-technology-lokesh-sikaria/id1532748850?i=1000662720650",
+      "date": "2024-07-19"
+    },
+    {
+      "person": "Lokesh Sikaria",
+      "show": "Santa Clara Ventures",
+      "title": "Moneta Ventures Managing Partner - Lokesh Sikaria",
+      "url": "https://podcasters.spotify.com/pod/show/santa-clara-ventures/episodes/Moneta-Ventures-Managing-Partner---Lokesh-Sikaria-ekcl4i",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Lokesh Sikaria",
+      "role": "Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/lokeshsikaria/",
+      "substack": ""
+    },
+    {
+      "name": "Vaibhav Nadgauda",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/vaibhav-nadgauda-0655799",
+      "substack": ""
+    },
+    {
+      "name": "Aasim Hasan",
+      "role": "Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/aasimhasan",
+      "substack": ""
+    },
+    {
+      "name": "Jeff Olyniec",
+      "role": "Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/jeff-olyniec/",
+      "substack": ""
+    }
+  ]
+}

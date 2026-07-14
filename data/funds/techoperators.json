@@ -1,0 +1,73 @@
+{
+  "name": "TechOperators",
+  "slug": "techoperators",
+  "url": "https://www.techoperators.com/",
+  "focus": "Venture Capital · Founded in 2008, TechOperators is a venture capital firm based in Atlanta, Georgia. TechOp",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "25038-01",
+  "meta": {
+    "aum": "$185M",
+    "active": 13,
+    "d6": 3,
+    "d12": 4,
+    "hq": "Atlanta, GA",
+    "quartile": 1,
+    "pbid": "25038-01",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/25038-01",
+    "news": "https://news.google.com/search?q=TechOperators",
+    "blog": "https://www.techoperators.com/insights",
+    "x": "https://x.com/techoperators",
+    "linkedin": "https://www.linkedin.com/company/techoperators-llc"
+  },
+  "updates": [],
+  "podcasts": [
+    {
+      "person": "Tom Noonan",
+      "show": "Business Executives for National Security (BENS) — Five Questions with the CEO",
+      "title": "Episode 18: Tom Noonan",
+      "url": "https://bens.org/episode-18-tom-noonan/",
+      "date": ""
+    },
+    {
+      "person": "Glenn McGonnigle",
+      "show": "Hypepotamus (interview)",
+      "title": "McGonnigle of TechOperators VC: \"We Need Another Billion-Dollar Security Company\"",
+      "url": "https://hypepotamus.com/people/techoperators-mcgonnigle/",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Tom Noonan",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/tonoonan/",
+      "substack": ""
+    },
+    {
+      "name": "Said Mohammadioun",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/said-mohammadioun-11763811/",
+      "substack": ""
+    },
+    {
+      "name": "Daniel Ingevaldson",
+      "role": "General Partner",
+      "x": "https://x.com/DanIngevaldson",
+      "linkedin": "https://www.linkedin.com/in/danielingevaldson/",
+      "substack": ""
+    },
+    {
+      "name": "Glenn McGonnigle",
+      "role": "General Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/gmcgonnigle/",
+      "substack": ""
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Origin Ventures Group",
+  "slug": "origin-ventures-group",
+  "url": "https://www.originventures.com/",
+  "focus": "Venture Capital · Founded in 1999, Origin Ventures is a venture capital investment firm based in Chicago, Il",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "11263-96",
+  "meta": {
+    "aum": "$500M",
+    "active": 61,
+    "d6": 3,
+    "d12": 9,
+    "hq": "Chicago, IL",
+    "quartile": 4,
+    "pbid": "11263-96",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/11263-96",
+    "news": "https://news.google.com/search?q=Origin%20Ventures%20Group",
+    "blog": "https://www.originventures.com/blog",
+    "x": "https://twitter.com/originventures",
+    "linkedin": "https://www.linkedin.com/company/origin-ventures"
+  },
+  "updates": [],
+  "podcasts": [
+    {
+      "person": "Steve Miller & Bruce Barron",
+      "show": "Origin Ventures Podcast",
+      "title": "Origin Ventures Co-founders Steve Miller and Bruce Barron on 20 Years in Venture Capital",
+      "url": "https://creators.spotify.com/pod/profile/originventures/episodes/Origin-Ventures-Co-founders-Steve-Miller-and-Bruce-Barron-on-20-Years-in-Venture-Capital-e3tjc6",
+      "date": "2019-05-02"
+    },
+    {
+      "person": "Jason Heltzer",
+      "show": "Chicago Capital",
+      "title": "Jason Heltzer @ Origin Ventures on Breaking into VC, Mixing Disciplines as a VC, & Chicago's Diversified Economy",
+      "url": "https://www.chicagocapitalpodcast.com/blog/jason-heltzer-origin-ventures-on-breaking-into-vc-mixing-disciplines-as-a-vc-amp-chicagos-diversified-economy",
+      "date": ""
+    },
+    {
+      "person": "Jason Heltzer",
+      "show": "The Full Ratchet",
+      "title": "44. Negotiating a Term Sheet",
+      "url": "https://fullratchet.net/ep44-negotiating-a-term-sheet-jason-heltzer/",
+      "date": ""
+    }
+  ],
+  "people": [
+    {
+      "name": "Jason Heltzer",
+      "role": "Managing Partner",
+      "x": "https://x.com/jheltzer",
+      "linkedin": "https://www.linkedin.com/in/jasonheltzer/",
+      "substack": ""
+    },
+    {
+      "name": "Alex Meyer",
+      "role": "Managing Partner",
+      "x": "https://twitter.com/ameyer_chicago",
+      "linkedin": "https://www.linkedin.com/in/meyerchicago",
+      "substack": ""
+    },
+    {
+      "name": "Brent Hill",
+      "role": "Managing Partner",
+      "x": "https://twitter.com/brent_hill",
+      "linkedin": "https://www.linkedin.com/in/brentjhill/",
+      "substack": ""
+    },
+    {
+      "name": "Steve Miller",
+      "role": "Founding Partner",
+      "x": "https://twitter.com/stevennmiller",
+      "linkedin": "https://www.linkedin.com/in/steve-miller-220ab62/",
+      "substack": ""
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Kingfisher Investment Advisors",
+  "slug": "kingfisher-investment-advisors",
+  "url": "https://www.kingfisherinvestment.com/",
+  "focus": "Venture Capital · Founded in 2013, Kingfisher Investment Advisors is a venture growth firm based in Niwot, C",
+  "tier": "VC",
+  "region": "Americas",
+  "pbid": "118853-29",
+  "meta": {
+    "aum": "$425M",
+    "active": 25,
+    "d6": 6,
+    "d12": 10,
+    "hq": "Niwot, CO",
+    "quartile": 3,
+    "pbid": "118853-29",
+    "itype": "Venture Capital"
+  },
+  "sources": {
+    "pitchbook": "https://pitchbook.com/profiles/investor/118853-29",
+    "news": "https://news.google.com/search?q=Kingfisher%20Investment%20Advisors",
+    "linkedin": "https://www.linkedin.com/company/kingfisher-investment-advisors"
+  },
+  "updates": [],
+  "podcasts": [],
+  "people": [
+    {
+      "name": "Yariv Robinson",
+      "role": "Co-Founder & Managing Partner",
+      "x": "",
+      "linkedin": "https://www.linkedin.com/in/yarivrobinson/",
+      "substack": ""
+    }
+  ]
+}
