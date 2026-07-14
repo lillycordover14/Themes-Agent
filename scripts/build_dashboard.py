@@ -110,6 +110,50 @@ def compute_momentum():
 
 compute_momentum()
 
+
+
+def compute_pov():
+    """Derive each firm's 'current focus' (POV) from its recent activity + podcasts. Pure Python, no LLM."""
+    import re, collections
+    try:
+        ED = json.load(open(os.path.join(ROOT, "data", "editorial.json"), encoding="utf-8"))
+        kw = ED.get("keywords", {})
+    except Exception:
+        kw = {}
+    kname = {t["k"]: t["name"] for t in D.get("tailwinds", []) if "k" in t}
+    STOP = set(("the a an and or of to for in on with at from into over new raises raise raised series seed pre fund funds "
+                "capital ventures venture partners group round million billion backs leads led invests investment invest announces "
+                "podcast interview episode show host ai co founder ceo their your you our this that how why what its it is are "
+                "management llc lp inc first second why-now list latest update").split())
+    for f in FUNDS.get("funds", []):
+        items = [(u.get("title") or "") for u in (f.get("updates") or [])] + \
+                [((p.get("title") or "") + " " + (p.get("show") or "")) for p in (f.get("podcasts") or [])]
+        blob = " ".join(items).lower()
+        if len([i for i in items if i.strip()]) < 2:
+            continue
+        tally = collections.Counter()
+        for k, words in kw.items():
+            c = sum(blob.count(w) for w in words)
+            if c:
+                tally[k] = c
+        top_tw = [kname.get(k, k) for k, _ in tally.most_common(2)]
+        words = re.findall(r"[a-z][a-z\-]{3,}", blob)
+        fname = set(re.findall(r"[a-z]{3,}", (f.get("name", "")).lower()))
+        freq = collections.Counter(w for w in words if w not in STOP and w not in fname)
+        top_kw = [w for w, _ in freq.most_common(4)]
+        parts = []
+        if top_tw:
+            parts.append("leaning into " + " & ".join(top_tw))
+        if top_kw:
+            parts.append("recent themes: " + ", ".join(top_kw))
+        if parts:
+            pv = "; ".join(parts)
+            f["pov"] = pv[0].upper() + pv[1:]
+    print("computed POV for %d firms" % sum(1 for f in FUNDS.get("funds", []) if f.get("pov")))
+
+
+compute_pov()
+
 _active = [f for f in FUNDS.get("funds", []) if f.get("updates") or f.get("pin")]
 F_DISPLAY = {"generated": FUNDS.get("generated"), "count": len(_active), "funds": _active}
 print("dashboard shows %d firms with activity (of %d tracked)" % (len(_active), len(FUNDS.get("funds", []))))
