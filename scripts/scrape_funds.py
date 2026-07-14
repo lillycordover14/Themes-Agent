@@ -5,7 +5,7 @@ Sources (no auth, cloud-friendly): the fund's own blog/RSS feed (where one exist
 Google News RSS query for the fund name. Runs on GitHub Actions. Never hard-fails: any fund
 that errors keeps its existing data.
 """
-import json, os, re, sys, datetime, urllib.parse, urllib.request
+import json, os, re, sys, time, datetime, urllib.parse, urllib.request, urllib.error
 
 try:
     import feedparser
@@ -18,7 +18,7 @@ PER_FUND_DIR = os.path.join(ROOT, "data", "funds")
 DAYS = 180  # 6-month activity window            # look-back window
 MAX_ITEMS = 12        # keep newest N per fund
 INVEST_NEWS = re.compile(r"\b(raises?|raised|series\s?[a-e]\b|seed|pre-?seed|funding|invests?|investment|backs?|leads?|led by|acquires?|acquisition|closes?\s+\$|\$\d|new fund|debut fund|fund\s+[ivx]+)\b", re.I)
-UA = "Mozilla/5.0 (compatible; ThemesAgent/1.0; +https://github.com)"
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
 # Native RSS/Atom feeds where a fund publishes one (best-effort; extend freely).
 NATIVE_FEEDS = {
@@ -50,14 +50,52 @@ def norm(s):
     return re.sub(r"[^a-z0-9]+", "", (s or "").lower())[:80]
 
 
-def fetch(url):
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
-        raw = urllib.request.urlopen(req, timeout=25).read()
-        return feedparser.parse(raw)
-    except Exception as e:
-        print("  ! fetch failed:", url, e)
-        return None
+def fetch(url, tries=3):
+    for i in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA,
+                "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*"})
+            raw = urllib.request.urlopen(req, timeout=25).read()
+            return feedparser.parse(raw)
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 500, 502, 503) and i < tries - 1:
+                time.sleep(2 * (i + 1)); continue
+            print("  ! fetch failed:", url, e); return None
+        except Exception as e:
+            print("  ! fetch failed:", url, e); return None
+
+def gdelt(query, cutoff, maxrec=25):
+    """GDELT Doc API news search. Works from datacenter/CI IPs (unlike Google News). Free, no key."""
+    url = ("https://api.gdeltproject.org/api/v2/doc/doc?query=%s&mode=artlist&format=json"
+           "&maxrecords=%d&sort=datedesc&timespan=6months" % (urllib.parse.quote(query), maxrec))
+    for i in range(3):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            body = urllib.request.urlopen(req, timeout=25).read()
+            d = json.loads(body or b"{}")
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 500, 502, 503) and i < 2:
+                time.sleep(2 * (i + 1)); continue
+            print("  ! gdelt failed:", e); return []
+        except Exception as e:
+            print("  ! gdelt failed:", e); return []
+    out = []
+    for a in (d.get("articles") or []):
+        title = (a.get("title") or "").strip()
+        link = (a.get("url") or "").strip()
+        if not title or not link:
+            continue
+        sd = a.get("seendate", "") or ""
+        try:
+            dt = datetime.date(int(sd[0:4]), int(sd[4:6]), int(sd[6:8]))
+        except Exception:
+            dt = None
+        if dt and dt < cutoff:
+            continue
+        out.append({"date": (dt.isoformat() if dt else datetime.date.today().isoformat()),
+                    "title": title[:160], "link": link, "summary": (a.get("domain", "") or "")[:180]})
+    return out
 
 
 def entries_from(feed, from_blog, cutoff, require_invest=False):
@@ -146,6 +184,11 @@ def main():
                 feeds.append(p["url"].rstrip("/") + "/feed")
         for u in feeds:
             cand += entries_from(fetch(u), True, cutoff)
+        for it in gdelt('"%s" (funding OR raises OR invests OR acquires OR leads OR backs OR fund)' % name, cutoff):
+            if not INVEST_NEWS.search(it["title"]):
+                continue
+            cand.append({"date": it["date"], "type": classify(it["title"], False),
+                         "title": it["title"], "link": it["link"], "summary": it["summary"]})
         cand += entries_from(fetch(google_news_url(name)), False, cutoff, require_invest=True)
         existing = f.get("updates", [])
         seen = {norm(u.get("title", "")) for u in existing} | {u.get("link") or u.get("url", "") for u in existing}
@@ -163,7 +206,9 @@ def main():
         if fresh:
             print("  + %d new (total %d in window)" % (len(fresh), len(f["updates"])))
         # podcasts: discover partner/firm appearances from the web
-        pods = entries_from(fetch(podcast_news_url(name)), False, cutoff)
+        pods = [{"date": it["date"], "type": "Post", "title": it["title"], "link": it["link"], "summary": it["summary"]}
+                 for it in gdelt('"%s" (podcast OR interview OR episode OR fireside)' % name, cutoff)]
+        pods += entries_from(fetch(podcast_news_url(name)), False, cutoff)
         if pods:
             existing_p = f.get("podcasts", [])
             seen_p = {p.get("url") for p in existing_p} | {norm(p.get("title", "")) for p in existing_p}
