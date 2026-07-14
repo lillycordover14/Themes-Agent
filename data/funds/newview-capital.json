@@ -25,13 +25,6 @@
   },
   "updates": [
     {
-      "date": "2026-02-26",
-      "type": "New fund",
-      "title": "SEC Form D — NewView Capital Fund IV, L.P.  (CIK 0002094235)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=NewView%20Capital&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-06-28",
       "type": "Post",
       "title": "Halter - 2026 Funding Rounds & List of Investors - Tracxn",
@@ -58,6 +51,13 @@
       "title": "Kline Hill and Cendana raise $400m for second VC secondaries fund - Secondaries Investor",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxON1VaaUF5VFVpVXRHTzQ5Y3JRaERhd1phTEpJRDJrSXpScGRJbzZuMXlnNzJsWWJsbEZEc3VNVjY2ekV3TW9QblZfYTRzR2JFa0dZRkVZMXZCall0S0QwY2prSlZHS3lvZkdadVd0QXZIN214YjJzdllKdzZBbHJscDY2c0RXM0J3MFVLb1dnQ25EQXkwemFMYjdUYVFHR3B5OE9N?oc=5",
       "summary": "Kline Hill and Cendana raise $400m for second VC secondaries fund&nbsp;&nbsp;Secondaries Investor"
+    },
+    {
+      "date": "2026-02-26",
+      "type": "New fund",
+      "title": "SEC Form D — NewView Capital Fund IV, L.P.  (CIK 0002094235)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=NewView%20Capital&type=D&count=20"
     }
   ],
   "podcasts": [

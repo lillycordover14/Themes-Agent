@@ -24,18 +24,18 @@
   },
   "updates": [
     {
-      "date": "2026-05-08",
-      "type": "New fund",
-      "title": "SEC Form D — Sofinnova BioEquities, LP  (CIK 0001706472)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Sofinnova%20Investments&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-06-08",
       "type": "Investment",
       "title": "City Therapeutics Announces $99.5 Million Series B Financing to Advance Next-Generation RNAi Therapeutics - Business Wire",
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQaTFkSktqazNqS2tIUUtyZnhKOTNBaVpQZnZjZUpQZ1ExMkU5aGhsR3hMUEtVT1l1Y0NJT0Rfa0xqSFV6SHhORklaUXRCREkxd19WTHpxN1BzUkt4WG12N1NEcy0xNWljZ2phbTczZm5JMThyYVA5RXpUbmVRUThZamptbm5NWU5zQTZiQmVobzZGRXVhRlpIY2lkT0VKdGtaTTFqMmNIVjdEVHZNUjZDRWdHRE4xM1dTV1d0dmRzUFNjS0hyblhlVm84ei14bnZtSVBqQWs3dUw1MXA2Z09KZzBHVVNCdnhZVWFNcmE2bEl0cnNTWE5z?oc=5",
       "summary": "City Therapeutics Announces $99.5 Million Series B Financing to Advance Next-Generation RNAi Therapeutics&nbsp;&nbsp;Business Wire"
+    },
+    {
+      "date": "2026-05-08",
+      "type": "New fund",
+      "title": "SEC Form D — Sofinnova BioEquities, LP  (CIK 0001706472)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Sofinnova%20Investments&type=D&count=20"
     },
     {
       "date": "2026-04-28",

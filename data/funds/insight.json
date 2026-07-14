@@ -12,13 +12,6 @@
   },
   "updates": [
     {
-      "date": "2026-04-03",
-      "type": "New fund",
-      "title": "SEC Form D — Insight Partners Public Equities (US), L.P.  (CIK 0001851329)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Insight%20Partners&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-07-10",
       "type": "Post",
       "title": "NFO Insight: Can the NJ Momentum Fund help investors capture market momentum? - The Economic Times",
@@ -318,6 +311,13 @@
       "title": "U.S. ETF Monthly Summary: March 2026 - FactSet Insight",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WZXI5ZWw0R3NPUGNMT2lWREgzcDNPbDJkZXlZdzRLTjdRblBVcTdYTEZ5WTdKSWJZOGctQUFpdnpyM25hYmdUbGw0ZTI2VDNwWk0zWk5OeklHc25DNjNldVpGTEp5b0dGTExiQnl2cWvSAYABQVVfeXFMT3Jqd1E4VjRabGp2Yy1VMEVsWlRvX0FOVng0bXZiNzhrUWJBX2cwOFRiMGMtenhGbFN2RXVDbnFUVUhQWGJJTkYtckhaTVNrNXhsUzNoTklPNWtsdnc5RlJpVUZkclp6VXI5QmZlYjBxTUplR2FXOUZYWmJld18zb3o?oc=5",
       "summary": "U.S. ETF Monthly Summary: March 2026&nbsp;&nbsp;FactSet Insight"
+    },
+    {
+      "date": "2026-04-03",
+      "type": "New fund",
+      "title": "SEC Form D — Insight Partners Public Equities (US), L.P.  (CIK 0001851329)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Insight%20Partners&type=D&count=20"
     },
     {
       "date": "2026-04-03",

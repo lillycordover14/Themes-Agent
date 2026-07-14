@@ -23,25 +23,11 @@
   },
   "updates": [
     {
-      "date": "2026-04-14",
-      "type": "New fund",
-      "title": "SEC Form D — Tamarack Global Opportunities III, LP  (CIK 0002124361)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Tamarack%20Global&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
-      "date": "2026-04-14",
-      "type": "New fund",
-      "title": "SEC Form D — Tamarack Global Impulse Space IV, LP  (CIK 0002124372)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Tamarack%20Global&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-06-09",
       "type": "New fund",
       "title": "SEC Form D — Tamarack Global Opportunities II, LP  (CIK 0002011826)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Tamarack%20Global&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Tamarack%20Global&type=D&count=20"
     },
     {
       "date": "2026-05-21",
@@ -98,6 +84,20 @@
       "title": "Blue Energy Raises $380 Million to Build Nukes for Data Centers - Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY0JSdTlpSTI2Q1Vxa3pzMmFpUGVDYnVaWHFDOFpWN1JSUTFHbGU0TlJma3pCOXN0UXhqQlU2N3lnM0QyYWNWVFJrVDZXQTh5WjdQTmIySm92UUdzamtHcml3bEV4RlAweW1fN0pDS0ZIdG5vTW9lZTFsSEx0X1l5ZEtnT19WUVBPeVEtWm1pQl9DOGg2LWlNNDhieXlyeHhiZDQxSGR5NEg2aWktUDFBcjhHdw?oc=5",
       "summary": "Blue Energy Raises $380 Million to Build Nukes for Data Centers&nbsp;&nbsp;Bloomberg.com"
+    },
+    {
+      "date": "2026-04-14",
+      "type": "New fund",
+      "title": "SEC Form D — Tamarack Global Opportunities III, LP  (CIK 0002124361)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Tamarack%20Global&type=D&count=20"
+    },
+    {
+      "date": "2026-04-14",
+      "type": "New fund",
+      "title": "SEC Form D — Tamarack Global Impulse Space IV, LP  (CIK 0002124372)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Tamarack%20Global&type=D&count=20"
     },
     {
       "date": "2026-03-09",

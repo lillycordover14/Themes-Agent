@@ -23,13 +23,6 @@
   },
   "updates": [
     {
-      "date": "2026-02-17",
-      "type": "New fund",
-      "title": "SEC Form D — Fund III, a series of Underdog Labs Ventures, LP.  (CIK 0002075947)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Underdog%20Labs&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-06-09",
       "type": "Investment",
       "title": "Campground Raises Over $2.2 Million to Reinvent How Social Impact Programs Operate - The Malaysian Reserve",
@@ -49,6 +42,13 @@
       "title": "Keebler Health raises $16M for AI risk adjustment platform - MobiHealthNews",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYWY3Qk0wZFg2VzdNZ3Vyd3ZNTHJxV2RzWmdXU2VyakRnV2pRVGhlOXQ0Nk1EdVlUUUd2eHpJRjlYa2pWUmFlaklTdkRZd1BDS2NCN19WazhMWTF3bDBrSmxfb3B2YWZCTFhYcUZxdEQwMXUtdEpRaHQyaGlidkNyck42Z2ZrVDlzX0FBWUlNU2xDRVE?oc=5",
       "summary": "Keebler Health raises $16M for AI risk adjustment platform&nbsp;&nbsp;MobiHealthNews"
+    },
+    {
+      "date": "2026-02-17",
+      "type": "New fund",
+      "title": "SEC Form D — Fund III, a series of Underdog Labs Ventures, LP.  (CIK 0002075947)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Underdog%20Labs&type=D&count=20"
     }
   ],
   "podcasts": [

@@ -27,15 +27,8 @@
       "date": "2026-07-14",
       "type": "New fund",
       "title": "SEC Form D — Riot Ventures Select Fund I, L.P.  (CIK 0002138292)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Riot%20Ventures&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
-      "date": "2025-10-31",
-      "type": "New fund",
-      "title": "SEC Form D — Riot Ventures Fund III, L.P.  (CIK 0002042089)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Riot%20Ventures&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Riot%20Ventures&type=D&count=20"
     },
     {
       "date": "2026-07-01",

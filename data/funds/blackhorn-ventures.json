@@ -25,13 +25,6 @@
   },
   "updates": [
     {
-      "date": "2026-03-30",
-      "type": "New fund",
-      "title": "SEC Form D — Blackhorn Ventures Industrial Impact Fund III, LP  (CIK 0002115762), B",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Blackhorn%20Ventures&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-05-29",
       "type": "Investment",
       "title": "LightTable Raises $22M in Series A Funding - FinSMEs",
@@ -51,6 +44,13 @@
       "title": "Scoop: Blackhorn Ventures raising third industrial tech fund - Axios",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSVZpTlZfdVBoV3lma0FTX2hCcGJLamsxR1g2eVVqNjFzSW1keGRPTjl5bjQ2ZDdPU2xlLUlmalMzSlc1ZXJJZWpsTkdWc0RqekhQQ0lDLVFId1o5Uktpa0tkNnBzeEtjYnMwZEczbmk5R3dnVkVpMmo2VjRVdWNZVHVidV9nNHlnWlhHaVdzOEQxSEg0NzFn?oc=5",
       "summary": "Scoop: Blackhorn Ventures raising third industrial tech fund&nbsp;&nbsp;Axios"
+    },
+    {
+      "date": "2026-03-30",
+      "type": "New fund",
+      "title": "SEC Form D — Blackhorn Ventures Industrial Impact Fund III, LP  (CIK 0002115762), B",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Blackhorn%20Ventures&type=D&count=20"
     }
   ],
   "podcasts": [

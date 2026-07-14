@@ -12,20 +12,6 @@
   },
   "updates": [
     {
-      "date": "2026-05-15",
-      "type": "New fund",
-      "title": "SEC Form D — GCW Access - Y Combinator, L.P.  (CIK 0002131674)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Y%20Combinator&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
-      "date": "2026-04-27",
-      "type": "New fund",
-      "title": "SEC Form D — Y Combinator ES26, LLC  (CIK 0002131827)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Y%20Combinator&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-07-14",
       "type": "Investment",
       "title": "Sri Lankan-founded startup Logical accepted into Y Combinator, raises over Rs. 150 Mn - Adaderana Biz English",
@@ -173,6 +159,13 @@
       "summary": "Y Combinator startups offered $2M in OpenAI tokens for equity by Sam Altman&nbsp;&nbsp;eciks.org"
     },
     {
+      "date": "2026-05-15",
+      "type": "New fund",
+      "title": "SEC Form D — GCW Access - Y Combinator, L.P.  (CIK 0002131674)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Y%20Combinator&type=D&count=20"
+    },
+    {
       "date": "2026-05-12",
       "type": "Investment",
       "title": "Greenboard raises $15.5 million to keep compliance from slowing down business in the AI era - Fortune",
@@ -241,6 +234,13 @@
       "title": "Y Combinator Bet It All on AI. Now Founders Are Wondering If They Should Bet on YC - inc.com",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRlpYemNiUFllWUZWa2NOajJ1NkZhcU9GdE5PR29LcDFuY2MyeEVJaERxU1ZrLXI1OXRMWHB0X0JoOV9VS1dDX3p4bC0zSzJZNUdTSmRjYkRpR3JhUFhpZ1k1ZWFLQ3B1WF9XeE5SMjdxSzdxOS16N1NfN1dhd3BVR0h6bVlvUXhVUGwyVHZnM3piSmNpTDZnV3MwdDQtRXhWOXlhUDZlUThPUTg3RzNBN2VqaWc2ckR2MktGWV9R?oc=5",
       "summary": "Y Combinator Bet It All on AI. Now Founders Are Wondering If They Should Bet on YC&nbsp;&nbsp;inc.com"
+    },
+    {
+      "date": "2026-04-27",
+      "type": "New fund",
+      "title": "SEC Form D — Y Combinator ES26, LLC  (CIK 0002131827)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Y%20Combinator&type=D&count=20"
     },
     {
       "date": "2026-04-27",

@@ -88,20 +88,6 @@
   ],
   "updates": [
     {
-      "date": "2026-04-30",
-      "type": "New fund",
-      "title": "SEC Form D — Kleiner Perkins XXII Friends, LLC  (CIK 0002114662)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Kleiner%20Perkins&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
-      "date": "2026-04-07",
-      "type": "New fund",
-      "title": "SEC Form D — Kleiner Perkins Select Fund IV, LLC  (CIK 0002114651)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Kleiner%20Perkins&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-07-14",
       "type": "Investment",
       "title": "TerraFirma Raises $115M to Accelerate Construction on Earth and Beyond - Business Wire",
@@ -277,6 +263,13 @@
       "summary": "Kleiner Perkins and Peak XV back $50M round for voice AI startup Vapi&nbsp;&nbsp;Tech Funding News"
     },
     {
+      "date": "2026-04-30",
+      "type": "New fund",
+      "title": "SEC Form D — Kleiner Perkins XXII Friends, LLC  (CIK 0002114662)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Kleiner%20Perkins&type=D&count=20"
+    },
+    {
       "date": "2026-04-29",
       "type": "Investment",
       "title": "Rogo Raises $160M Series D to Scale the Agentic Platform for Finance - PR Newswire",
@@ -324,6 +317,13 @@
       "title": "Exclusive: ⁠a16z, Accel and Kleiner Perkins’ scout funds back sisters in $3M round for kid-safe messaging app after seeing this pitch deck - Tech Funding News",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Pcl9mTXlKTjFMTFZSbWwtdXZKWFAzR1BQYktHbkJSbkpkaVd1dlQyRnNzV3k0eGFEc2ZHOGpRTG11MVpwN2lfR3UzTk01OVFOdHFmOFdTcHhhNXJKQ1pMZWZkUHE5cGJvbkdWLURLbTRlNXpMN0RJVHl3?oc=5",
       "summary": "Exclusive: ⁠a16z, Accel and Kleiner Perkins’ scout funds back sisters in $3M round for kid-safe messaging app after seeing this pitch deck&nbsp;&nbsp;Tech Funding News"
+    },
+    {
+      "date": "2026-04-07",
+      "type": "New fund",
+      "title": "SEC Form D — Kleiner Perkins Select Fund IV, LLC  (CIK 0002114651)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Kleiner%20Perkins&type=D&count=20"
     },
     {
       "date": "2026-04-01",

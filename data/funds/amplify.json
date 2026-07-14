@@ -11,13 +11,6 @@
   },
   "updates": [
     {
-      "date": "2026-04-17",
-      "type": "New fund",
-      "title": "SEC Form D — Amplify Renewables Investments LP  (CIK 0002014062)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Amplify&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-07-10",
       "type": "Post",
       "title": "Fund Files: Hartford plots 2 ETFs; Amplify launches dividend fund - Citywire",
@@ -184,6 +177,13 @@
       "title": "Amplify Aotearoa Announces ‘Take It to the Bridge’ Date Change - Muzic.NZ",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX2xuQWxnb3BnU2Mya1hHWDNfanozaktuUklQRHM0MXRaN0pvMjNCWUpRakJhWFdsRHBxRGZoLUhWTGxNSnNBWGhkdk1CYm5CQkdLekJhYzFpSUY3WV9iMzZob3FMY0V4N196cGFBOFpSRnJRcUNxQU5KQl9zd0QzRU9iR0lTUGNHbFkyNC1FZDQ?oc=5",
       "summary": "Amplify Aotearoa Announces ‘Take It to the Bridge’ Date Change&nbsp;&nbsp;Muzic.NZ"
+    },
+    {
+      "date": "2026-04-17",
+      "type": "New fund",
+      "title": "SEC Form D — Amplify Renewables Investments LP  (CIK 0002014062)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Amplify&type=D&count=20"
     },
     {
       "date": "2026-04-16",

@@ -25,13 +25,6 @@
   },
   "updates": [
     {
-      "date": "2026-04-02",
-      "type": "New fund",
-      "title": "SEC Form D — Spark Capital Growth Fund VI, L.P.  (CIK 0002123891)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Spark%20Capital&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-07-10",
       "type": "Investment",
       "title": "xCures Closes $46 Million Series B Financing | Cadence Raises $100M Series C Led by Spark Capital - Healthcare IT Today",
@@ -261,6 +254,13 @@
       "title": "Latent Raises $80M to Close the Gap Between Diagnosis and Treatment - Business Wire",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRlZSMnhSRHlxOVNSUlh4Z2ZoU25KMFFUeHQ3cG8taThESUI5clNIdU0wOTUwZk53eXk3dGFRUDZPaEdKSFE1QktUVXRoWHpRWnhLVThPSFFrbm91aTVNNmV0ZUhlSGZGdUVldkg4cUQzWjVWLThFX1dQUXBYWXBoZ3RqYjJFajRrUVgwNF9OMU9fTG9TSl9YaVZzTTYyeHd3YlJHX2xRcXkwYzVidENvSmdQNXd5UWxOOTdHSjZXTGh1NHlw?oc=5",
       "summary": "Latent Raises $80M to Close the Gap Between Diagnosis and Treatment&nbsp;&nbsp;Business Wire"
+    },
+    {
+      "date": "2026-04-02",
+      "type": "New fund",
+      "title": "SEC Form D — Spark Capital Growth Fund VI, L.P.  (CIK 0002123891)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Spark%20Capital&type=D&count=20"
     },
     {
       "date": "2026-03-31",

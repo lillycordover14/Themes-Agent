@@ -24,13 +24,6 @@
   },
   "updates": [
     {
-      "date": "2026-01-20",
-      "type": "New fund",
-      "title": "SEC Form D — Vivo Capital Fund X, L.P.  (CIK 0001938049)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Vivo%20Capital&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-06-12",
       "type": "Investment",
       "title": "SonoThera Raises $125M to Develop Ultrasound-Mediated Genetic Medicines - Genetic Engineering and Biotechnology News",
@@ -113,6 +106,13 @@
       "title": "Fundraising for Vivo Capital’s 10th fund stretches into the fourth year - Buyouts",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcHpVYUpNYTR2WjdzSVFqMEhQM3lDSTJMTHFYVDJfWGx5azF3WHdPWEVJamxscnc3eVR0eGVpUXBvVUR0QnRVT2pNaldnczQ4OVJYelpyWk5ZcGgxWk9oSElFNmJqNHgxZWlkYVN0bmxDWG5lMHVyT2QtSHpkVkN5QlYyM2ttNE5EMm1PaEdwRHJkMnVVUVVrTS1uMk9HZEFDemtoLQ?oc=5",
       "summary": "Fundraising for Vivo Capital’s 10th fund stretches into the fourth year&nbsp;&nbsp;Buyouts"
+    },
+    {
+      "date": "2026-01-20",
+      "type": "New fund",
+      "title": "SEC Form D — Vivo Capital Fund X, L.P.  (CIK 0001938049)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Vivo%20Capital&type=D&count=20"
     },
     {
       "date": "2026-01-16",

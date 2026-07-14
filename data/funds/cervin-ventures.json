@@ -25,13 +25,6 @@
   },
   "updates": [
     {
-      "date": "2026-06-24",
-      "type": "New fund",
-      "title": "SEC Form D — CERVIN VENTURES OPPORTUNITIES FUND 2025, L.P.  (CIK 0002039981)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Cervin%20Ventures&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-07-13",
       "type": "Post",
       "title": "The AlleyWatch Startup Daily Funding Report: 7/13/2026 - AlleyWatch",
@@ -79,6 +72,13 @@
       "title": "Redo Closes $81 Million Series B at $1.25 Billion Valuation, Eyes Global Commerce Platform - TechBuzz News",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DQ0luMmhLQTRrOUJVUENQSkJuX283UTcwQ1psVjZVS1RmZjZFemtjYjFSNVhkWDBPUXFxY3Q5VjFDUkZqUHpIVEQ0NF9PMW9wemVxTnRUbVN0VjZ4NzgwbGMwMnNLUQ?oc=5",
       "summary": "Redo Closes $81 Million Series B at $1.25 Billion Valuation, Eyes Global Commerce Platform&nbsp;&nbsp;TechBuzz News"
+    },
+    {
+      "date": "2026-06-24",
+      "type": "New fund",
+      "title": "SEC Form D — CERVIN VENTURES OPPORTUNITIES FUND 2025, L.P.  (CIK 0002039981)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Cervin%20Ventures&type=D&count=20"
     },
     {
       "date": "2026-06-24",

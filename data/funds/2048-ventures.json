@@ -25,13 +25,6 @@
   },
   "updates": [
     {
-      "date": "2026-03-02",
-      "type": "New fund",
-      "title": "SEC Form D — 2048 Ventures III, LP  (CIK 0002056042)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=2048%20Ventures&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-06-29",
       "type": "Post",
       "title": "The AlleyWatch Startup Daily Funding Report: 6/29/2026 - AlleyWatch",
@@ -65,6 +58,13 @@
       "title": "The AlleyWatch Startup Daily Funding Report: 3/31/2026 - AlleyWatch",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLXczbUJ3cGM3cnNub2NtTnhWRUdTUGFRNFlVM3pnWUotR2JsTm9FOUtaeklHa2lmN180SEpRWWMzanJveTYtczJtVmJkRWpVbFh5S1JkUTl1Qi1nVVp4SjNGVVhvcjMwSmhLam5Nd09UMGgwNWRiWURpb0Q4bHU1V25hYTNVZEN4dXFpaTdiY3o3RUU?oc=5",
       "summary": "The AlleyWatch Startup Daily Funding Report: 3/31/2026&nbsp;&nbsp;AlleyWatch"
+    },
+    {
+      "date": "2026-03-02",
+      "type": "New fund",
+      "title": "SEC Form D — 2048 Ventures III, LP  (CIK 0002056042)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=2048%20Ventures&type=D&count=20"
     }
   ],
   "partner_substacks": [

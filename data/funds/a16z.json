@@ -15,18 +15,11 @@
   },
   "updates": [
     {
-      "date": "2025-12-18",
-      "type": "New fund",
-      "title": "SEC Form D — a16z Perennial Opportunities, L.P. - Series II  (CIK 0002101168)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=a16z&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-07-14",
       "type": "New fund",
       "title": "SEC Form D — a16z Perennial Venture Capital Fund, L.P.  (CIK 0001979404), a16z Pere",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=a16z&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=a16z&type=D&count=20"
     },
     {
       "date": "2026-07-08",

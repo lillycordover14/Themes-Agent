@@ -25,13 +25,6 @@
   },
   "updates": [
     {
-      "date": "2026-04-10",
-      "type": "New fund",
-      "title": "SEC Form D — Collaborative Fund I - Charlotte Square Income, LP  (CIK 0002127552)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Collaborative%20Fund&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-07-11",
       "type": "Post",
       "title": "Collaborative Fund Advisors LLC Takes Position in JPMorgan Chase & Co. $JPM - MarketBeat",
@@ -142,6 +135,13 @@
       "title": "This Investor Backed Lyft and Olipop. Now He’s Building a 'Long-Term Home' for Brands That Refuse to Sell - inc.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT2syQ2R2NVpTR1VlMm1JYlo3Z0ptMTVOX0R1U29tMjk3cTVDWHlyVnl0eXpwWlF0eUp2NWxMX3c0eExTVDNzWGVaTi16YjV4N2pGQkhEc21sV3VFVmtuSG1YQWdrb1NwSXdlUFdrcVluRmltOTJKTU9fa3lId1BzQkU4OTZ3VnIxTGtIcmVLUXJhME14WU10TGowUExFYVMxRW16bXh1aUtXQ1lzb0FocFpMRlFwdw?oc=5",
       "summary": "This Investor Backed Lyft and Olipop. Now He’s Building a 'Long-Term Home' for Brands That Refuse to Sell&nbsp;&nbsp;inc.com"
+    },
+    {
+      "date": "2026-04-10",
+      "type": "New fund",
+      "title": "SEC Form D — Collaborative Fund I - Charlotte Square Income, LP  (CIK 0002127552)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Collaborative%20Fund&type=D&count=20"
     },
     {
       "date": "2026-04-02",

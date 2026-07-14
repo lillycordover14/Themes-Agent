@@ -121,7 +121,7 @@ def edgar_formd(name, cutoff):
         if tok and tok not in disp.lower():
             continue
         out.append({"date": filed, "type": "New fund", "title": "SEC Form D \u2014 " + disp[:70],
-                    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=" + urllib.parse.quote(name) + "&type=D&count=20",
+                    "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=" + urllib.parse.quote(name) + "&type=D&count=20",
                     "summary": "New fund / securities offering filed with the SEC \u2014 fresh capital to deploy."})
     return out
 
@@ -148,7 +148,7 @@ def main():
             cand += entries_from(fetch(u), True, cutoff)
         cand += entries_from(fetch(google_news_url(name)), False, cutoff, require_invest=True)
         existing = f.get("updates", [])
-        seen = {norm(u["title"]) for u in existing} | {u["link"] for u in existing}
+        seen = {norm(u.get("title", "")) for u in existing} | {u.get("link") or u.get("url", "") for u in existing}
         fresh = []
         for c in cand:
             key = norm(c["title"])

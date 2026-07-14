@@ -10,20 +10,6 @@
   },
   "updates": [
     {
-      "date": "2026-03-06",
-      "type": "New fund",
-      "title": "SEC Form D — ESSENCE CO-INVEST FUND, LP  (CIK 0002102181)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Essence&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
-      "date": "2025-11-13",
-      "type": "New fund",
-      "title": "SEC Form D — ESSENCE VC III, LP  (CIK 0001944953), QP-ESSENCE VC III, LP  (CIK 0001",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Essence&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-07-13",
       "type": "Investment",
       "title": "Children’s Author Nadiyah 'Essence' Vance Raises Awareness of Childhood Grief Ahead of National Grief - EIN News",
@@ -239,6 +225,13 @@
       "title": "Essence Festival of Culture announces first group of performers for 2026 lineup - NOLA.com",
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNLXVKN1l0SVNYRmZYR0RCWGpDQm8zSEhNRDNMSVlhWFZnQ0tlNVJNLVdTSGpzMUdaaTFZQkhDc3g1bWh4cE50eUFrSE84MkMwTk1lOW0wTEZoSnJFU0JXTVlCSkVGbHhDT2pNdTk3ckEtNXdMX2x0RDU5QW03NHlRQUJRQldzVlZ3Y1h1SFFLMldpZzVZWXRiWUpFWElGU29hYUlxNHN4aUFnRkl5WWlMTmVOTFdqZVdnNC14UHV0Yi1QNmluZU1yR1JsdGkxaHVOV1ZGOVE4c29pd3BFamoxQXNkdXBPMFlaQU92bFIzM1A0TDhkZ3d3?oc=5",
       "summary": "Essence Festival of Culture announces first group of performers for 2026 lineup&nbsp;&nbsp;NOLA.com"
+    },
+    {
+      "date": "2026-03-06",
+      "type": "New fund",
+      "title": "SEC Form D — ESSENCE CO-INVEST FUND, LP  (CIK 0002102181)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Essence&type=D&count=20"
     },
     {
       "date": "2026-02-25",

@@ -24,13 +24,6 @@
   },
   "updates": [
     {
-      "date": "2026-01-27",
-      "type": "New fund",
-      "title": "SEC Form D — Ludlow Ventures Detroit V LP  (CIK 0002107366)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Ludlow%20Ventures&type=D&count=20",
-      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
-    },
-    {
       "date": "2026-03-23",
       "type": "Investment",
       "title": "Software Provider Artemis Raises $6 Million in Funding - Mercom Capital Group",
@@ -57,6 +50,13 @@
       "title": "The Compression Company: $3.4 Million Pre-Seed Funding Raised To Boost Satellite Data Transmission With AI-Based Compression - Pulse 2.0",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ3ZscFdKekxlU0RZb1U2RFhEUzMxNEZNUHVJTDl4UHhEV282eXdDVmQtSWZsWTVRMXozc2YwN1k1S0g2YWtOMGp1TWl2UUlndFZLSy11dEQ5Z25Jakl6VkZCV2tFSFZGVm9FcElYSDRNVV9LNER2YUh1a0RBMFVTRFdiSUhZclZEUEJVcnppbHB6WHlTcGktTTVaV3czSGVMTlNkMTU3VzBTOUhodHJtYzQ5YnRITXNvOUVlY1pKVE56RVljWTBzQ3FlVHJseHNvTlhzc1dFQ2dld9IB3wFBVV95cUxQVGNRR1Q4eHRleDE5TDJyYlNfby1jQURuN1hadTN0WXpaSTQtV3NmMGU4Y3ladEd0YXJkcUl5M3Jad3h0aWxHM2lIZlAteC1uUzVxVk9yb0stenp4ckdGWDVyV2sxa0JmcjhNSWFFblNDbmhULTlfZVdtdHRmZnRRX1VyZ2puWlB2VnFqeHkxc29zTGVza0p2M1ZPR1BvOExjVUpHMGFnbzBLUmhjNU5TRUNzRTV2T2xxVEJfY1lnWkNjYlhCekxFV0RhVDByWUtMUEVVclhuZEx2bGxVNjk4?oc=5",
       "summary": "The Compression Company: $3.4 Million Pre-Seed Funding Raised To Boost Satellite Data Transmission With AI-Based Compression&nbsp;&nbsp;Pulse 2.0"
+    },
+    {
+      "date": "2026-01-27",
+      "type": "New fund",
+      "title": "SEC Form D — Ludlow Ventures Detroit V LP  (CIK 0002107366)",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy.",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Ludlow%20Ventures&type=D&count=20"
     }
   ],
   "podcasts": [
