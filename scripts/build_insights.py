@@ -9,6 +9,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FUNDS = os.path.join(ROOT, "data", "funds.json")
 HARM = os.path.join(ROOT, "data", "harmonic_raises.json")
 OUT = os.path.join(ROOT, "data", "insights.json")
+LLM_CACHE = os.path.join(ROOT, "data", "insights_llm_cache.json")
+OPENAI = os.environ.get("OPENAI_API_KEY", "").strip()
 TODAY = datetime.date.today()
 WINDOW = 190
 
@@ -116,6 +118,71 @@ def company_of(title):
     return co
 
 
+THEME_LIST = list(THEME_KWS.keys()) + ["Enterprise SaaS", "Consumer/marketplace", "Unclassified"]
+
+
+def _llm_call(items):
+    """items: [{i,name,title}] -> {i:{company,theme}}. gpt-4o-mini, JSON. {} on any failure."""
+    import urllib.request as _u
+    sys_p = ("You are a VC analyst. For each company (name + funding headline) return the cleaned "
+             "company name (proper name only, drop words like 'startup'/'Exclusive:'/descriptions) and the "
+             "single best theme from this exact list: " + ", ".join(THEME_LIST) + ". Use 'Unclassified' only if truly unknown. "
+             "Reply ONLY with a JSON object: {\"items\":[{\"i\":<int>,\"company\":<str>,\"theme\":<str>}]}.")
+    body = json.dumps({"model": "gpt-4o-mini", "temperature": 0, "response_format": {"type": "json_object"},
+                       "messages": [{"role": "system", "content": sys_p},
+                                    {"role": "user", "content": json.dumps(items)}]}).encode()
+    try:
+        req = _u.Request("https://api.openai.com/v1/chat/completions", data=body,
+                         headers={"Authorization": "Bearer " + OPENAI, "content-type": "application/json"})
+        d = json.loads(_u.urlopen(req, timeout=45).read())
+        parsed = json.loads(d["choices"][0]["message"]["content"])
+        out = {}
+        for it in parsed.get("items", []):
+            if "i" in it:
+                out[int(it["i"])] = {"company": (it.get("company") or "").strip(), "theme": (it.get("theme") or "").strip()}
+        return out
+    except Exception as e:
+        print("  llm batch failed:", e); return {}
+
+
+def llm_enrich(rows):
+    """Clean company name + theme via LLM, cached by company key. No-op without OPENAI_API_KEY."""
+    if not OPENAI:
+        return
+    try:
+        cache = json.load(open(LLM_CACHE, encoding="utf-8"))
+    except Exception:
+        cache = {}
+    todo = []
+    for idx, r in enumerate(rows):
+        key = norm(r["company"])
+        c = cache.get(key)
+        if c:
+            r["company"] = c.get("company") or r["company"]
+            if c.get("theme"):
+                r["theme"] = c["theme"]
+        else:
+            todo.append((idx, key))
+    for chunk_start in range(0, len(todo), 40):
+        chunk = todo[chunk_start:chunk_start + 40]
+        items = [{"i": idx, "name": rows[idx]["company"], "title": ""} for idx, _k in chunk]
+        # include the strongest available context: company name only (headline already parsed into name+theme)
+        res = _llm_call(items)
+        for idx, key in chunk:
+            r = res.get(idx)
+            if r:
+                if r.get("theme") in THEME_LIST:
+                    rows[idx]["theme"] = r["theme"]
+                if r.get("company"):
+                    rows[idx]["company"] = r["company"]
+                cache[key] = {"company": rows[idx]["company"], "theme": rows[idx]["theme"]}
+    try:
+        json.dump(cache, open(LLM_CACHE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    except Exception:
+        pass
+    print("  LLM enriched %d new companies (cached %d total)" % (len(todo), len(cache)))
+
+
 def main():
     try:
         funds = json.load(open(FUNDS, encoding="utf-8")).get("funds", [])
@@ -195,6 +262,7 @@ def main():
         rows.append(r)
     rows.sort(key=lambda x: (x.get("date") or "", x.get("amount_m") or 0), reverse=True)
     rows = rows[:200]
+    llm_enrich(rows)
 
     tally = {}
     for r in rows:
@@ -231,8 +299,22 @@ def main():
             investor_signal.append({"fund": s, "picks": picks[:10],
                                     "early": sum(1 for p in picks if p.get("stage") in EARLY)})
 
+    emerging = []
+    for t in themes:
+        if t["theme"] in ("Unclassified",):
+            continue
+        comps = [r for r in rows if r["theme"] == t["theme"]]
+        cap = sum(r.get("amount_m") or 0 for r in comps)
+        stg = {}
+        for r in comps:
+            stg[r["stage"]] = stg.get(r["stage"], 0) + 1
+        top_stage = max(stg, key=stg.get) if stg else ""
+        emerging.append({"theme": t["theme"], "count": t["count"], "cap_m": cap,
+                         "examples": [r["company"] for r in comps][:6], "top_stage": top_stage})
+    emerging = emerging[:12]
+
     json.dump({"generated": TODAY.isoformat(), "count": len(rows), "summary": summary, "kpis": kpis,
-               "raises": rows, "themes": themes, "investor_signal": investor_signal},
+               "raises": rows, "themes": themes, "emerging": emerging, "investor_signal": investor_signal},
               open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print("Wrote insights.json — %d raises, %d themes, %d funds in investor signal" % (len(rows), len(themes), len(investor_signal)))
 

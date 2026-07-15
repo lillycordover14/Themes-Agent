@@ -2410,6 +2410,168 @@
       ]
     }
   ],
+  "emerging": [
+    {
+      "theme": "Enterprise SaaS",
+      "count": 34,
+      "cap_m": 1880,
+      "examples": [
+        "InstaLILY AI",
+        "Vendelux",
+        "Project Q",
+        "Kord",
+        "Aria Systems",
+        "Legible"
+      ],
+      "top_stage": "Series A"
+    },
+    {
+      "theme": "AI agents",
+      "count": 17,
+      "cap_m": 910,
+      "examples": [
+        "Lyzr AI",
+        "Alta | AI GTM System of Actions",
+        "Nurix",
+        "Adaptive",
+        "Guthrie AI",
+        "Finto"
+      ],
+      "top_stage": "Seed"
+    },
+    {
+      "theme": "Healthcare/bio",
+      "count": 16,
+      "cap_m": 700,
+      "examples": [
+        "TJM Labs",
+        "Corner Health",
+        "xCures",
+        "Healome Therapeutics",
+        "Hera",
+        "Health-tech start"
+      ],
+      "top_stage": "Venture"
+    },
+    {
+      "theme": "Crypto/web3",
+      "count": 14,
+      "cap_m": 1499,
+      "examples": [
+        "Tradevu",
+        "KorProtocol",
+        "Ornn",
+        "Allium",
+        "Crypto analytics startup Allium",
+        "Trading app Fomo"
+      ],
+      "top_stage": "Venture"
+    },
+    {
+      "theme": "Fintech",
+      "count": 8,
+      "cap_m": 487,
+      "examples": [
+        "Aria",
+        "Feathery",
+        "Linker Finance",
+        "SimpleAI",
+        "Oze",
+        "Canadian fintech Float"
+      ],
+      "top_stage": "Seed"
+    },
+    {
+      "theme": "Climate/energy",
+      "count": 8,
+      "cap_m": 666,
+      "examples": [
+        "Bohr Energie",
+        "Axle Energy",
+        "Vergennes battery project",
+        "SolarSquare",
+        "Endurance Energy",
+        "Solidion Technology"
+      ],
+      "top_stage": "Series A"
+    },
+    {
+      "theme": "Robotics/hardware",
+      "count": 7,
+      "cap_m": 57,
+      "examples": [
+        "Dutch Monumental",
+        "mode40",
+        "Oxipital AI",
+        "Verge.io",
+        "Dexterous Robotics Benchmark DexVerse",
+        "Humble Robotics"
+      ],
+      "top_stage": "Venture"
+    },
+    {
+      "theme": "Vertical SaaS",
+      "count": 6,
+      "cap_m": 103,
+      "examples": [
+        "Hostie",
+        "ConstructionClock App",
+        "Boost Technology",
+        "Construction tech startup Agave",
+        "Agave",
+        "Orbital"
+      ],
+      "top_stage": "Series A"
+    },
+    {
+      "theme": "Cybersecurity",
+      "count": 6,
+      "cap_m": 244,
+      "examples": [
+        "Cyber resilience startup Mitigata",
+        "Cybersecurity startup Mitigata",
+        "Social Crypto App Fomo",
+        "Twenty",
+        "Campground",
+        "A Security"
+      ],
+      "top_stage": "Series B"
+    },
+    {
+      "theme": "AI infra",
+      "count": 4,
+      "cap_m": 448,
+      "examples": [
+        "Valarian",
+        "PreciTaste",
+        "Oratomic",
+        "Engram"
+      ],
+      "top_stage": "Series A"
+    },
+    {
+      "theme": "Logistics/supply",
+      "count": 4,
+      "cap_m": 76,
+      "examples": [
+        "Auger",
+        "Parspec",
+        "Prolo",
+        "Shiprazor"
+      ],
+      "top_stage": "Seed"
+    },
+    {
+      "theme": "Education",
+      "count": 2,
+      "cap_m": 19,
+      "examples": [
+        "EdVisorly",
+        "AltaML"
+      ],
+      "top_stage": "Series A"
+    }
+  ],
   "investor_signal": [
     {
       "fund": "Accel",
