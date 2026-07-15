@@ -232,7 +232,16 @@ try:
     PACT = json.load(open(os.path.join(ROOT, "data", "pipeline_activity.json"), encoding="utf-8"))
 except Exception:
     PACT = {"companies": []}
-BLOB = json.dumps({"D": D, "F": F_DISPLAY, "P": PIPE, "PA": PACT}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
+try:
+    import subprocess as _sp2, sys as _sys2
+    _sp2.run([_sys2.executable, os.path.join(HERE, "build_insights.py")])
+except Exception as _e:
+    print("insights build skipped:", _e)
+try:
+    INS = json.load(open(os.path.join(ROOT, "data", "insights.json"), encoding="utf-8"))
+except Exception:
+    INS = {"raises": [], "themes": []}
+BLOB = json.dumps({"D": D, "F": F_DISPLAY, "P": PIPE, "PA": PACT, "INS": INS}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
 TEMPLATE = open(os.path.join(HERE, "dashboard_template.html"), encoding="utf-8").read()
 html = TEMPLATE.replace("__BLOB__", BLOB)
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)

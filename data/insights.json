@@ -1,0 +1,1016 @@
+{
+  "generated": "2026-07-15",
+  "count": 80,
+  "raises": [
+    {
+      "company": "Aria",
+      "amount_m": 274,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Fintech",
+      "stage": "Series A",
+      "desc": "Aria provides a flexible payments infrastructure through an embedded invoice financing API that enables instant payments to suppliers while allowing buyers to m"
+    },
+    {
+      "company": "Lyzr AI",
+      "amount_m": 100,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "AI agents",
+      "stage": "Series B",
+      "desc": "Lyzr provides a platform for developing and managing autonomous AI agents designed to enhance enterprise workflows through secure and scalable solutions. The te"
+    },
+    {
+      "company": "TJM Labs",
+      "amount_m": 75,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Data",
+      "stage": "Series B",
+      "desc": "TJM Labs offers AI-driven automation solutions specifically designed for pharmacies, focusing on automating repetitive tasks such as prescription intake, data e"
+    },
+    {
+      "company": "Flex",
+      "amount_m": 70,
+      "date": "2026-07-15",
+      "link": "https://itbrief.co.nz/story/flex-raises-usd-70-million-as-it-launches-uk-service",
+      "investors": [
+        "Accel"
+      ],
+      "theme": "Other",
+      "stage": "Series B",
+      "desc": "Flex provides a financial technology platform that integrates business and personal finance management, leveraging advanced AI technology for transaction tracki"
+    },
+    {
+      "company": "InstaLILY AI",
+      "amount_m": 60,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "AI agents",
+      "stage": "Series B",
+      "desc": "InstaLILY AI provides a platform that leverages specialized language models tailored to individual businesses, facilitating the deployment of autonomous AI agen"
+    },
+    {
+      "company": "Vendelux",
+      "amount_m": 50,
+      "date": "2026-07-15",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYkdXc2E4dHdMcVFhaktPUU5FSFpZeEN6czhsdFRaUlFIdnJ1d25fM19DX3gxX3Q2T0FkM1g2WXJ2TjBNcjBvbkltOHBFVE5JU2g3RWpEWjA3NkhpRXZfWmVkTGUxQU1QZDRPM1pDNGdMMkNrMEM3c0Y2bU1WRG9WOGxPT1lNN0VyM0dCc1V3MTJ5dldFRk9YWmNJWUF5OUNBeEY4MW90MA?oc=5",
+      "investors": [
+        "Cervin Ventures",
+        "Tribeca Venture Partners"
+      ],
+      "theme": "Other",
+      "stage": "Series B",
+      "desc": "Vendelux provides an event intelligence platform that leverages real-time attendee data and AI-driven workflows to enhance the management of in-person events, e"
+    },
+    {
+      "company": "Auger",
+      "amount_m": 50,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Data",
+      "stage": "Series B",
+      "desc": "Auger is developing an AI-powered supply chain operating system that integrates with existing infrastructures to unify data and automate complex operational tas"
+    },
+    {
+      "company": "Valarian",
+      "amount_m": 50,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Data",
+      "stage": "Series A",
+      "desc": "Valarian's primary offering is a secure software platform built on ACRA, which facilitates controlled data movement and enforces trust through compartmentalized"
+    },
+    {
+      "company": "Dutch Monumental",
+      "amount_m": 32,
+      "date": "2026-07-15",
+      "link": "https://thenextweb.com/news/monumental-32m-khosla-bricklaying-robots-uk-us",
+      "investors": [
+        "Khosla Ventures"
+      ],
+      "theme": "Robotics/physical",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "Feathery",
+      "amount_m": 30,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Fintech",
+      "stage": "Series A",
+      "desc": "The company provides an AI-powered platform that automates processes such as client onboarding, underwriting, and proposal generation for the financial services"
+    },
+    {
+      "company": "Alta | AI GTM System of Actions",
+      "amount_m": 25,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "AI agents",
+      "stage": "Series A",
+      "desc": "The main product is an AI-powered revenue platform that employs AI Revenue Agents to analyze data, prioritize sales opportunities, and automate repetitive tasks"
+    },
+    {
+      "company": "Parspec",
+      "amount_m": 20,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Vertical SaaS",
+      "stage": "Series A",
+      "desc": "The company provides an AI-driven platform that enhances the discovery, quoting, and procurement processes within the construction materials industry, aiming to"
+    },
+    {
+      "company": "Project Q",
+      "amount_m": 17,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": "The main product is a software platform designed for API-first coordination of sensors, assets, and mission systems, enabling integration and interoperability a"
+    },
+    {
+      "company": "MeltPlan",
+      "amount_m": 14,
+      "date": "2026-07-15",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RamxEV3NITXFKSm00X2Y3NDk3UVdWcFFGUkZRNTAyWVFlMEIwLVlFTkRDZTg2MFZVVEZpTW1qMHNnaDZNWVFuUm5pOHJ5UjdTQzZBZWFxelJJN1Ztd04xXzF2TGo0WTZFdTZoSjQ3UWVILWtjYnVRZnJXQXg?oc=5",
+      "investors": [
+        "Bessemer",
+        "Bessemer - Entrackr",
+        "Bessemer to bring AI into construction"
+      ],
+      "theme": "Other",
+      "stage": "Seed",
+      "desc": "MeltPlan provides an AI-driven platform designed for pre-construction activities, focusing on building code compliance research and quantity takeoffs to enhance"
+    },
+    {
+      "company": "Nurix",
+      "amount_m": 14,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "AI agents",
+      "stage": "Venture Unknown",
+      "desc": "The company develops conversational AI agents designed to automate workflows across various enterprise functions, including sales and customer support, by manag"
+    },
+    {
+      "company": "EdVisorly",
+      "amount_m": 13,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Data",
+      "stage": "Series A",
+      "desc": "The company offers an AI-driven enrollment platform that automates transcript processing and transfer credit evaluations, aimed at enhancing the transfer experi"
+    },
+    {
+      "company": "InsideDesk",
+      "amount_m": 13,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Fintech",
+      "stage": "Seed",
+      "desc": "InsideDesk offers a Revenue Cycle Management platform designed for dental support organizations, utilizing AI and RPA technologies to automate claims management"
+    },
+    {
+      "company": "Hostie",
+      "amount_m": 12,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": "The company offers an AI-driven platform for restaurants that automates communication through phone calls, texts, and emails, streamlining reservations and orde"
+    },
+    {
+      "company": "Open Vision Engineering",
+      "amount_m": 11,
+      "date": "2026-07-15",
+      "link": "https://www.itnewsonline.com/BusinessWire/Open-Vision-Engineering-Raises-No.3611-Million-to-Drive-Next-Phase-of-Pockets-Growth/37484",
+      "investors": [
+        "Accel"
+      ],
+      "theme": "Dev tools",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "Bohr Energie",
+      "amount_m": 11,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Climate/energy",
+      "stage": "Series A",
+      "desc": "Bohr Energie provides a software platform for independent energy producers that facilitates the management of electricity sales, featuring real-time production "
+    },
+    {
+      "company": "Kord",
+      "amount_m": 9,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Fintech",
+      "stage": "Series A",
+      "desc": "The company provides a software solution for AML compliance that streamlines client onboarding, payment processing, and secure management of client funds throug"
+    },
+    {
+      "company": "WizCommerce",
+      "amount_m": 8,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Vertical SaaS",
+      "stage": "Series A",
+      "desc": "WizCommerce provides a B2B sales automation platform designed to modernize the order management process for wholesalers and distributors by integrating various "
+    },
+    {
+      "company": "Aria Systems",
+      "amount_m": 8,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": "Aria Systems provides a SaaS Billing Cloud platform that automates billing processes for complex usage and subscription models, utilizing AI technologies for re"
+    },
+    {
+      "company": "Mozu (Business/Productivity Software)",
+      "amount_m": 8,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Other",
+      "stage": "Series B",
+      "desc": "MOZU Inc. offers a digital transformation platform that tailors IT infrastructure to the unique operational requirements of various industries, aimed at improvi"
+    },
+    {
+      "company": "Adaptive",
+      "amount_m": 6,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "AI agents",
+      "stage": "Series A",
+      "desc": "The company offers an AI-driven financial management platform specifically designed for the construction industry, automating processes such as job costing, bil"
+    },
+    {
+      "company": "Prolo",
+      "amount_m": 6,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Vertical SaaS",
+      "stage": "Seed",
+      "desc": "Prolo offers an AI-driven procurement platform specifically designed for the construction industry, which automates the material ordering process to improve pro"
+    },
+    {
+      "company": "AltaML",
+      "amount_m": 6,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Vertical SaaS",
+      "stage": "Series A",
+      "desc": "AltaML provides vertical AI solutions designed to enhance operational efficiency and decision-making through artificial intelligence and machine learning. Their"
+    },
+    {
+      "company": "Linker Finance",
+      "amount_m": 5,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Fintech",
+      "stage": "Seed",
+      "desc": "Linker Finance provides a fintech platform designed to enhance digital banking experiences for community financial institutions, offering features such as digit"
+    },
+    {
+      "company": "SimpleAI",
+      "amount_m": 5,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Data",
+      "stage": "Seed",
+      "desc": "The primary offering is an AI-driven accounting software that automates various tasks including data entry, invoice processing, and bank reconciliation, leverag"
+    },
+    {
+      "company": "Guthrie AI",
+      "amount_m": 4,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "AI agents",
+      "stage": "Seed",
+      "desc": "Guthrie AI provides an automated preconstruction assistant that leverages AI-powered virtual bid assistants to streamline the bidding process by organizing proj"
+    },
+    {
+      "company": "Finto",
+      "amount_m": 3,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "AI agents",
+      "stage": "Seed",
+      "desc": "Finto provides an AI-driven platform that automates the invoice processing workflow, employing self-learning AI agents for tasks such as data extraction, valida"
+    },
+    {
+      "company": "Legible",
+      "amount_m": 3,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Vertical SaaS",
+      "stage": "Seed",
+      "desc": "The main product is an AI-native policy intelligence tool that streamlines legislative workflows by providing real-time access to relevant bills, amendments, an"
+    },
+    {
+      "company": "Birdsview.com",
+      "amount_m": 3,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Data",
+      "stage": "Seed",
+      "desc": "The product is an AI-driven email marketing automation platform designed for eCommerce, enabling hyper-personalized email campaigns by utilizing customer data a"
+    },
+    {
+      "company": "Synthreo",
+      "amount_m": 2,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "AI agents",
+      "stage": "Seed",
+      "desc": "Synthreo offers a multi-tenant AI platform tailored for managed service providers, enabling the creation and deployment of AI agents without the need for coding"
+    },
+    {
+      "company": "sherpa",
+      "amount_m": 2,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Other",
+      "stage": "Pre Seed",
+      "desc": "AI Operating System for External Workforce Management"
+    },
+    {
+      "company": "ConstructionClock App",
+      "amount_m": 1,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Vertical SaaS",
+      "stage": "Seed",
+      "desc": "The main product is an automated time-tracking application tailored for construction teams, utilizing GPS technology for automatic clocking in and out of employ"
+    },
+    {
+      "company": "Neocad",
+      "amount_m": 1,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Other",
+      "stage": "Pre Seed",
+      "desc": "The primary product leverages Generative AI to optimize the 3D CAD design process, allowing users to handle intricate design tasks with greater efficiency. This"
+    },
+    {
+      "company": "LICENSEWARE",
+      "amount_m": 1,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Other",
+      "stage": "Seed",
+      "desc": "Licenseware offers a modular SaaS solution for software license management that automates the assessment of licensing requirements and optimizes IT costs, parti"
+    },
+    {
+      "company": "ESGAgent.ai - AI Agents for ESG Compliance",
+      "amount_m": 1,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "AI agents",
+      "stage": "Seed",
+      "desc": "Klean Technologies offers a B2B SaaS platform that enables retailers to integrate sustainability initiatives into their operations, featuring tools for carbon f"
+    },
+    {
+      "company": "Solving.AI",
+      "amount_m": 1,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Other",
+      "stage": "Pre Seed",
+      "desc": "The main product is an AI-driven platform that integrates into software applications to provide real-time, contextual guidance, enhancing user onboarding and fe"
+    },
+    {
+      "company": "Aryval",
+      "amount_m": 1,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Other",
+      "stage": "",
+      "desc": "Aryval distinguishes itself through its holistic strategy, encompassing the tracking of inquiries, automation of communication, facilitation of the check-in pro"
+    },
+    {
+      "company": "mode40",
+      "amount_m": 1,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Robotics/physical",
+      "stage": "",
+      "desc": "mode40 provides technology solutions aimed at improving manufacturing processes through the integration of systems such as PLC, SCADA, MES, and ERP, alongside I"
+    },
+    {
+      "company": "DSALTA",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Other",
+      "stage": "Pre Seed",
+      "desc": "The company provides a compliance management platform that consolidates access reviews, risk management, and asset management to enhance compliance processes. I"
+    },
+    {
+      "company": "Oxipital AI",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Robotics/physical",
+      "stage": "Series A",
+      "desc": "Oxipital AI offers a visual AI platform designed to enhance manufacturing processes through advanced machine vision technologies, focusing on product inspection"
+    },
+    {
+      "company": "PreciTaste",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "AI infra",
+      "stage": "Series A",
+      "desc": "PreciTaste provides an AI-driven platform that automates kitchen operations, utilizing machine learning and computer vision technologies to enhance food prepara"
+    },
+    {
+      "company": "Tradevu",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Fintech",
+      "stage": "Pre Seed",
+      "desc": "Tradevu provides a financial platform for global trade that integrates stablecoin-powered banking, on-chain financing, and investment opportunities in tokenized"
+    },
+    {
+      "company": "Verge.io",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Robotics/physical",
+      "stage": "Seed",
+      "desc": "The main product is a Private Cloud Operating System that consolidates virtualization, storage, and networking into a unified platform, enabling efficient workl"
+    },
+    {
+      "company": "Boost Technology",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Other",
+      "stage": "Seed",
+      "desc": "The main product is a B2B commerce platform that facilitates transactions between distributors and retailers, utilizing technologies such as WhatsApp for orderi"
+    },
+    {
+      "company": "Oze",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Fintech",
+      "stage": "Seed",
+      "desc": "Oze offers a business application tailored for small and medium enterprises (SMEs) and banks, providing tools for managing invoices, payments, and small busines"
+    },
+    {
+      "company": "Shiprazor",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "",
+      "investors": [],
+      "theme": "Vertical SaaS",
+      "stage": "Seed",
+      "desc": "Shiprazor is an eCommerce shipping aggregator that simplifies the shipping process by enabling users to compare rates from various logistics providers while off"
+    },
+    {
+      "company": "TerraFirma",
+      "amount_m": 115,
+      "date": "2026-07-14",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMXJhcXY4QzQ1T3prbGVoQ2JGZEJWSlZSeEVfekFTZ2IyQ0dHeWE2ZG1vUm9MU0xhRVU5YUJZQUwySDJzaGdPUjloNWNjaWMzUlpaU2gtWUFZeTJaR0lwMHVGaGxhdzd3QWRCRGlTX3M0eEl2Q3R6M0Fnc3NrTXhkOHAwX1kwdWIxNWJwM3A5V2NGRFJ3XzdLdkxVYmU2UjJYaHlCdDVzX1daMmFmUmplM0tNNUFTUzhWOElvTFN1QQ?oc=5",
+      "investors": [
+        "Bain Capital Ventures",
+        "Kleiner Perkins"
+      ],
+      "theme": "Defense/gov",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "Nous Research",
+      "amount_m": 75,
+      "date": "2026-07-14",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pRzFLTldZMjl4ZzB1ZjRIbXFwSEFnV3U2U1Y0TmNoZ21lRFo2c3pjMHp5UlBFSDlnV0dja05SbHRVWUYtaTRGRFg3b196WTUxa0RyT2ZMZDdYLWJkVFpXLTdKSXFNa1hrQ3p0WlZpQ3pJdzlkczZUc3lR?oc=5",
+      "investors": [
+        "North Island Ventures",
+        "Union Square Ventures"
+      ],
+      "theme": "AI agents",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "Corner Health",
+      "amount_m": 33,
+      "date": "2026-07-14",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM014Nk9POTFFb3p0SXhlOU5WaGoxaFFGdElQVkR3Z0ZkTkx4WnFjS2hKdVR5UHFtX1B5SGt3bWozTnYtc1NweE82eWlnYVdyNEg4NnNlWVQ5UjdOOHJlX1YtbmcyY3FZWlcxVllDckJkVjJSMzI5QTh0NTZBZUJaanp2QzEzMlkyaXplTE51b29ZUzBET0M3UEdaQ2xidW5KM1JKZXNOVkV6YThzN1M5andNajJ4bDdaaDMtSEdsOTc?oc=5",
+      "investors": [
+        "Oak HC/FT"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "Helsing",
+      "amount_m": 1800,
+      "date": "2026-07-13",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT0dDMFp1MUVnWmJfZjhTbW40MHlkckdyN0VYakxxVHJ5LTlfWnEtTktnQ01FQVJjakNhb2hQN0lFYlJ4UkNLWGFrOVRsYmZwcTFVbzA2RWotdHhNUG9NMVRtY1E5QVg2U3V1MDludGxlb3ZyN0pwaW5nNHhSbVJtRTNlSQ?oc=5",
+      "investors": [
+        "Goldman and Lightspeed - Sifted",
+        "Lightspeed"
+      ],
+      "theme": "Other",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "KorProtocol",
+      "amount_m": 8,
+      "date": "2026-07-13",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kQTA4aWJzbkwyTExpNVFZbHJNd2pZN0hlZV9kNWxCZFlhalAyZVRmSnAwWmxLX0w1TE8xRkZHZE42LUVHellBWFBXWjJHcnhrWTNyRXFLY2E3T2ZXcWpiRUR2cUI?oc=5",
+      "investors": [
+        "Blockchain Capital"
+      ],
+      "theme": "Crypto/web3",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Accel and Prosus backed QOSMIC",
+      "amount_m": 3,
+      "date": "2026-07-13",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWFoaUs5dGhPLXk3ZGNVdnVhRlV0V0xfRERNNFpjWncwODRQRmE4ejdQR1h5YVNCTHo1VUFBY25GZEZibUdWYXVyRWJtdnFZM0FKUFktOXhid1ZFTzBXZmtRTS1neVFwSVptVHVqcGtpNkNtR2p0T1NDRmZ3ZXVIZkZmdkxvU3VSOURyY0VVcHdFc1JFX01vdXk2aHhJZ285U0t4b3N2Y1NEUTRWNjJITnFuWUdfTVlCNDlDNFJRTk5MaFZMbkdXdktnTTdmN2hL?oc=5",
+      "investors": [
+        "Accel"
+      ],
+      "theme": "Data",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "Oratomic",
+      "amount_m": 300,
+      "date": "2026-07-11",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT3hjQ0ZIRWhHUV9HOUN5enFJM25Db3RIRnpQRXJwNGNtMFN4Rm5KSTNubjl6THI5c0VQNEl2SmJqV0RkXzZHOS1hc2U2ckNidEJQRU55SE5KbE15alFtRFkxY2g1ZXV0T3dlV2VnTTNsaG16THhiQVhjQ04wcVVTdHVaeF9nRTdxaVAya0FnUTljRHpRYjR6andOSk96dFNIWEJVbWZGTW9acWZKZ3c?oc=5",
+      "investors": [
+        "ARCH Venture Partners",
+        "Khosla Ventures",
+        "Spark Capital"
+      ],
+      "theme": "AI infra",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Norm AI",
+      "amount_m": 120,
+      "date": "2026-07-11",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa1V3Z0QxX2toZU5oeGpMTWVkTzBLLUM4V2cxd2stVF9feklCdGw1N1hZc1JaSGRvNlBPU1JmUzFjU2xnOU1IUjh3OW5QMURZanVoWEJfQmtKaFRhcTAwNlNEdE43X2xkaU9mNkRSbVpfTUZmQ09GWWdSOGRkQXhaT2hOZ2c0am5pM195MFNOeFNjR1FLX01DVl9kSGR0clliRnJvWHBXeFMxNGxfQndWb3NWMUdUa3d5X0hXYmN5ZFJfbFBabzRRSw?oc=5",
+      "investors": [
+        "Bain Capital Ventures",
+        "Craft Ventures",
+        "Khosla Ventures"
+      ],
+      "theme": "Other",
+      "stage": "Series C",
+      "desc": ""
+    },
+    {
+      "company": "xCures",
+      "amount_m": 46,
+      "date": "2026-07-10",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSU9pbC1paDZoX3Z1YWdlTFIyQklqQ0pBTW4yX1l4TGFpSVVqTFNNakRzQkxTdUNzcGUxeGdsSEE0SU5sa1h5UWlSRlZ4WHB2RkgybEtWb0dqMV9vb2kzb25yeXlONXpiUFBiUVVILUdmTE9Fd0RhNjJpc0twNm1JOTBhbTI5SEVRdUxiRXpjY09GYVpfM3BwSGxfUHJ4cFpzQmc3c3JPbE95a0RuTnN1aU4weGhfUkdtMGs5bjVQQldsMUh3U3BjQ3lXYnFUZGdCSk1IV2xR?oc=5",
+      "investors": [
+        "Spark Capital",
+        "Spark Capital - Healthcare IT Today"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Axle Energy",
+      "amount_m": 25,
+      "date": "2026-07-10",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY1J0emM5ZURSQUh0MU14U2tkNUVaZk1oZkptb2RXOE51MHpYVVptQXUwVU52TF9wMmV0M0lkZ2tTWTQ2OUEzd25mYndYbUhRODVWYURaV2c4dEozOXJBR2s5WGQ3MXQ3dVIzbDJ4dVN4TGFaUVhndVQxcGlSbVZHa0JFbW82dw?oc=5",
+      "investors": [
+        "Energize Capital"
+      ],
+      "theme": "Climate/energy",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Databento",
+      "amount_m": 97,
+      "date": "2026-07-09",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYi1BRndyakJydE9yUEdidHQ0NTc5OHdYbXpVcURGNG9nQzRDWExKMWFZSlcxWUNGNWdkQmM3ZzJaSDhhR0JxTXVTSklKNzc3LUNCQ1VudXEyeFRkZ1l0Q3BTdEU1dEJkU3VXSER2M3RUR0Rhb21IbUxiMHZjaUZsYXZMYkdPeG1SdXVKc25BVENPZXJSQnRIUkFaWXpuT2VWMUg4OGFB?oc=5",
+      "investors": [
+        "NEA - PR Newswire",
+        "New Enterprise Associates"
+      ],
+      "theme": "Other",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Supply chain startup Auger, led by ex",
+      "amount_m": 50,
+      "date": "2026-07-09",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeXRzU1UyUWRobl9TczBLSVJSbFZLQmpqd21MQjkwVjR0SS1qYU5XaXBfNEF2TjhveF9uWV9CVDJKcTZKUFFtcHFNbmJnbzRvb0c1UlVBcURQZkJPODZ3cGVhRWRvS001T2tsd0VzX0xNZjdzZ2NIa2N5NDR6Q0FiYkV2MUctNzEwR1QyZVF3cXhHYnBSNmczZTdKQTlZQzJiU1lfcjhyLWNzeGdhVEwyLWtQRWFCcDE4akd0SnNNaHBDRWJy?oc=5",
+      "investors": [
+        "Oak HC/FT",
+        "ex-Amazon operations chief"
+      ],
+      "theme": "Robotics/physical",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "Prime Intellect",
+      "amount_m": 130,
+      "date": "2026-07-08",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVWs0Y0htWE03N0JMbjZ2czFUUHozVm5pV0Fya3hJMEtjM3ZwRTJxNjJHN29XaDg2bG5rWmFVcHRuSjc3SGhJOGRLOU51aXBzYTdjVGhKVkZuT0dlakotaWMzQnl4c0dwVk1fQ1hKUjFiYXRvdTdpeFpmRkg3OHV3MFNPajJTUHA4eldKMG5JM3dTQWM1emlROUxTOUZMdDlqLXRmMEdod2wzQTlvazBhaTZNZjB6enE2?oc=5",
+      "investors": [
+        "Radical Ventures"
+      ],
+      "theme": "AI agents",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "AI Start",
+      "amount_m": 60,
+      "date": "2026-07-08",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNjBmdUV6c3QydUsyZHlzaEZrZ3YxRVJOMUx0dkZBUXBaRzl2Qm1sTWoteWhGcDUzcUFjaVJmZU40UzdKM19JMDl3bk1FbTJtdmVKT3RxY2NVYkpKV0V0Y2NIc0VrY3drbng0d19KeTVaaGxIeVJJamlEZnN5dkpsVnBRX2FwdTJBV0ZnbTZvcTM0aGdzNy1PZXlqeXVPTi05bWc?oc=5",
+      "investors": [
+        "Goodwater Capital"
+      ],
+      "theme": "Other",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "1001",
+      "amount_m": 30,
+      "date": "2026-07-08",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY2J5TUVnbmo3ZWRneWJfM2kwWlNsNlZEQS0tcnIycmZhYkdJX0hRVFFPWDFRNE16eXlOOFRNNWR5bUJRZXBSYW5faml5UHNQUmpURFpBRVNRZlIyeFhlcjAyYVhhN0tDZkJXeGhLbVVsaFRKeVNBdmVNS1NPdXZCYVRQSnVGSzNuY1pId2FXa2lTWU1iSHZjRFJaUkJ2X3ZVbXhjUklwdWNCdkcxR3J4ODk1YmpwWnJaLVZDT1dwX2JQaUdCdzc3SUR3aw?oc=5",
+      "investors": [
+        "Lux Capital"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Klinic",
+      "amount_m": 24,
+      "date": "2026-07-08",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQmFoVnlQUkpmUXduckphanVuY0F0dXA4WmdOSjdBYmMzSmEwRFFqUE11RkhuLVhMZ2JrYmV0enVCeUpYM3NzU3BBczNRS1IxZFlmMkpQTnhGeWZ1N3hJMEZ3UWI0d3FOZmowQ05lZ2lXcUMyTFl1Qkl4aXhlYnUxajE4RGFJSXkt?oc=5",
+      "investors": [
+        "I2BF Global Ventures"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Y Combinator",
+      "amount_m": 22,
+      "date": "2026-07-08",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHdwcF83VExYcktpNy1zN091YUpVNE1iT3dScW1JaEhpT1hmTDhsTDIxOUZzZE9aZk9Bek9XNDBySGU2TlU2V3dCdUlTU3hsekQtd0w1WUZaQkhxeFlfVmp4RUJDSXU5T0dkb09zMmZiRFlpcU5UblZLSjgwanY0TjY1Q280V0VJWFFMN2hMZ01JZWdpV05PNU5fRk1xdmhPaHc1dlBobXdfYTRrdnNGWG1MSQ?oc=5",
+      "investors": [
+        "Y Combinator"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "AI law startup Norm",
+      "amount_m": 120,
+      "date": "2026-07-07",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZkxSeG9MLUpVWEctU1ZhWlJJMFNYVTBuX2lqLThUNFM4b215TGEtN1hnOGZDTWZvekR6QnhUSUNmNTBzQnlQNW5HU0RSVnZkZW5abmpRVGRCU3BtY25zQjlEdS1IZFJMQnVPaUVsa280TjllZkJZeEF2cnNhRkpCZUNXaG5YdzJEN2JfWHlSbFI1SDg?oc=5",
+      "investors": [
+        "Khosla Ventures"
+      ],
+      "theme": "Other",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "Exclusive: Construction tech startup Agave",
+      "amount_m": 15,
+      "date": "2026-07-07",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaFY5WXdTcTZmcC03ZjQtd3U0ZkFudDRRanhuUjVRRi1qaDlfSmhrV2U3cFVCaTlRT3lnSlZYaDNSem9GbVI0MkRVS1lodml0SEpQdS0xN2NXSW54dzJoVGZZYW9xa2RUeGdTb3EwWnRuam04TlNsSFZDaEpKU1k3dVZZZXUwRVpJLWdvUzgzczR1OFlHUjdkR095THRHUnZucnlSS1VR?oc=5",
+      "investors": [
+        "Accel"
+      ],
+      "theme": "Vertical SaaS",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "Agave",
+      "amount_m": 15,
+      "date": "2026-07-07",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQVF1SDVITE9iam96LUNOS1g2VTRFVy12d2k1UTR0Tm1kZHhQNnFCb1FoSURLR2JwU1RLVVktMDlDSFRjZnNFWlB4b2tyT1pWclJhTkVXdEkwS1ZtT1FBSkFsc2dBWHFRTkdKWDNkTl9jeHUzV2FLWnR6cjFodHNtS1FjdXFqM0lWQUl5SnBreG8yakdTbFhhMDFUakVMNzZtcGZVZnc3Q3Q5dnBudUlUZ012N3RFTjM4eUY1c0dWRXpoUQ?oc=5",
+      "investors": [
+        "Accel"
+      ],
+      "theme": "Fintech",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Privacy",
+      "amount_m": 65,
+      "date": "2026-07-05",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX0xtaG94ZnhBT05aZHZNZ2pDQ0tITDFEcm1ENTdyY3FNcUgyZnRnQjE1eU80cEZmYnhibklPMGUtbXd1ZW95U3NtaTBuUmM3SnR1cmlQX3cyN1BhUHpUWktFcmxLb1duZ1pIVmlKM2xUdS1UbkNzSGUtVjd6U1hTN0FrckFyZFdKNjJZLU1pdExMem0wRkU5RFFYU1o3QQ?oc=5",
+      "investors": [
+        "North Island Ventures"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Generalist AI",
+      "amount_m": 400,
+      "date": "2026-07-03",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBTLTJuUnkyMnBLZ1A4ZlIwbmdIbHYzZkJGdWhtVGFodENvS2I2ZVdfZ18zT0lyV0FuZWZ4blAyZkNWbWF5cWRiT19RazBYbjN0anBRUE12SnRaTERBcHJYbW52YzI1djhmQ0lmMXpaN2RXd1k?oc=5",
+      "investors": [
+        "Nvidia - qz.com",
+        "Radical Ventures",
+        "Union Square Ventures"
+      ],
+      "theme": "Other",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "Rogo",
+      "amount_m": 160,
+      "date": "2026-07-03",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUk9ib0lycl9zeWFHUS1tcGdtcEYzMm91WlBfS0haSEd3UGl1OVlzV2JydDNLcS1IajM4Sks1YXZBeDNlMzVDSjhjSHE4ektwbklmV0lWdTVNc2ZMbm80cE51bjM3dmFPR1RVM2FJV05fN1IzeEVEQ3dDV3pKTGNlWGpETzI5XzU5WGpUb05jam1tMjQ5ZWZlczR2VG5rOXRScGVSRy1OcXJRZw?oc=5",
+      "investors": [
+        "Kleiner Perkins",
+        "Thrive Capital"
+      ],
+      "theme": "AI agents",
+      "stage": "Series D",
+      "desc": ""
+    },
+    {
+      "company": "Engram",
+      "amount_m": 98,
+      "date": "2026-07-03",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hdUNHWXNHblRpY09JVlA1VzlSdUNTYU9pYTZtQmkzdExvOU1WckJHS1NUMmpCUmpzSXBCVHFfUnN1SVY3UF9ZY0R6ZGwyUTBIaDZuV0hKNWtPX2k1RFpZd2MwSmhlc0FjczV6bFlFQ1liV28?oc=5",
+      "investors": [
+        "General Catalyst"
+      ],
+      "theme": "AI infra",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "TwelveLabs",
+      "amount_m": 100,
+      "date": "2026-07-02",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZDJ0SURnTTRXT2FpdGhYU2tmUk5LOVdTVl9hZ3Rod2g0NnlwZWRyOTJOMDR6aWZLaGU0ZE5HV01fdC1hY18wTmc5eHozNWJqUUd1UzBxZ1g2VURiS2NuVVVTU1RCTG9CVlNfaUJvQjlYMTEwMW16TEV3WEF3SEpwWU9MTHBGNF9XRDdSUFhZbVVZMFVxYTAwS0FmdzQ3UHFQcEE?oc=5",
+      "investors": [
+        "New Enterprise Associates",
+        "Radical Ventures"
+      ],
+      "theme": "Other",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Integral Privacy Technologies",
+      "amount_m": 25,
+      "date": "2026-07-02",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaE42Zmo3ZWpvS3Q2NFdpTWJrQlNtckVFQUZRWXRQeC03WjlEQXIzNGc5c183MkVYQTJnSTFpOU9Sb0NmOUo1ZXZlTlI3N0J4MUxqMWVHVnhpS0NwdUZLMERkNG1ta0tCT0swNVA2VlZacmRYTzltOFFZY05LUkVpeHJ1cURVTFNscjdFcC14Q0g3YnhqOXRDaFNn?oc=5",
+      "investors": [
+        "GreatPoint Ventures"
+      ],
+      "theme": "Other",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "Venice AI",
+      "amount_m": 65,
+      "date": "2026-07-01",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM3pZS2c2TmVvTEpRemJyR3g0R1V3eWMxdTZILTJqbEh1dmhaS3NCMTBHTVVoUVJfSEVQNThvdEsycGFpUllYQ1pDb1UtVWtiNW9NdnRTcmdvbzZFNlJLSzBmVFdDVl9EZjJHamRtYmhhSnhsSFVwdzN6Z0tSLU5MaGtfdmNIc0J3bGpBdUZ4bDVlUkM4bkk1SnBma01NdGpoMUEyejF2bzVEei1yenc?oc=5",
+      "investors": [
+        "Dragonfly - The Block",
+        "First Round",
+        "North Island Ventures"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Venice",
+      "amount_m": 65,
+      "date": "2026-07-01",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORTMzVlNyMVRpNEpFbVU0RFd2M1h0QUZVTVNfbHNudFNtcWdqa3VEVW1jbzhpbHNXQUNSWDRqY2lrTWpnS0FNUUIySDZRdkQ5VEhGcmFERi1HVXJ4RXhwcFg1YjBNdG1KN0w3ZkprdHRwemVUdVo2MTZtZXVyVm51N0h3Y2EwR2M4aVR3MHF0SXQ4d2c?oc=5",
+      "investors": [
+        "North Island Ventures"
+      ],
+      "theme": "Other",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "Humble Robotics",
+      "amount_m": 24,
+      "date": "2026-07-01",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWWZUMkR1eTFvWnNKSjF1TDdZZVJEYU13Qll6ZmZmbF9VRm5JNldEeTA1cy1BeGlfYTdUaEQxT2VOOWY1dG1STUZvSDZrYkNNeUNVQnJ5Z193UVVBaTVyZHA1TkMyX0ZvU1RGSjI5OFpaaEJ2VHRSbTJtOGhVbHZKcHBmckFIV0x4UW1LaHgtQ2VjbTh3MDZuX1VacW1talhkX2xQSlBiSURnRHpBMmR4ZURsaHNucWJrQVVJRUhoNzlZNnR6bURUc0JfMVBjd0RCQ2ZVZDdnbkpVTDJrT1N5VEhhQ2c2Zw?oc=5",
+      "investors": [
+        "Eclipse Capital"
+      ],
+      "theme": "Robotics/physical",
+      "stage": "",
+      "desc": ""
+    },
+    {
+      "company": "Queue",
+      "amount_m": 13,
+      "date": "2026-07-01",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVE9XYURIWi1rSGV5bkFKSkpHNE9kc2hVTDlITGpTNEtGMmhYeXJaLXVhejZuZUV1Z3NZbURsRm0tS09xY1FMZG9MdDRjTEUwQktfM05UNl9wWm1aVWV1OTBCU0tqR21TYklKaDB6RGdJVVJIRkpjdjJaRUxySXJHYTdkMFJXMXRYT0dF0gGQAUFVX3lxTFBzd09zMDNQZy1SSTlrMmhkWlVLV0IybFRrNk5ncHBlbGwzQlhLTTc4eU5NLTl3NnUzQThjenhpTzJxMUhlNGdXZUxFbGZpbVlPVkNJTFdzV3piUTZ1WGlrT2ZXbi1ROGwyM1dCMk5fcmZlM20wbHNnR0VfaW9Na3BVaVdYLXB3b0NPbHd5MlZCbQ?oc=5",
+      "investors": [
+        "Riot Ventures"
+      ],
+      "theme": "Defense/gov",
+      "stage": "",
+      "desc": ""
+    }
+  ],
+  "themes": [
+    {
+      "theme": "Other",
+      "count": 28,
+      "examples": [
+        "Flex",
+        "Vendelux",
+        "Project Q",
+        "MeltPlan",
+        "Hostie",
+        "Aria Systems"
+      ]
+    },
+    {
+      "theme": "AI agents",
+      "count": 12,
+      "examples": [
+        "Lyzr AI",
+        "InstaLILY AI",
+        "Alta | AI GTM System of Actions",
+        "Nurix",
+        "Adaptive",
+        "Guthrie AI"
+      ]
+    },
+    {
+      "theme": "Fintech",
+      "count": 8,
+      "examples": [
+        "Aria",
+        "Feathery",
+        "InsideDesk",
+        "Kord",
+        "Linker Finance",
+        "Tradevu"
+      ]
+    },
+    {
+      "theme": "Vertical SaaS",
+      "count": 8,
+      "examples": [
+        "Parspec",
+        "WizCommerce",
+        "Prolo",
+        "AltaML",
+        "Legible",
+        "ConstructionClock App"
+      ]
+    },
+    {
+      "theme": "Data",
+      "count": 7,
+      "examples": [
+        "TJM Labs",
+        "Auger",
+        "Valarian",
+        "EdVisorly",
+        "SimpleAI",
+        "Birdsview.com"
+      ]
+    },
+    {
+      "theme": "Robotics/physical",
+      "count": 6,
+      "examples": [
+        "Dutch Monumental",
+        "mode40",
+        "Oxipital AI",
+        "Verge.io",
+        "Supply chain startup Auger, led by ex",
+        "Humble Robotics"
+      ]
+    },
+    {
+      "theme": "AI infra",
+      "count": 3,
+      "examples": [
+        "PreciTaste",
+        "Oratomic",
+        "Engram"
+      ]
+    },
+    {
+      "theme": "Climate/energy",
+      "count": 2,
+      "examples": [
+        "Bohr Energie",
+        "Axle Energy"
+      ]
+    },
+    {
+      "theme": "Defense/gov",
+      "count": 2,
+      "examples": [
+        "TerraFirma",
+        "Queue"
+      ]
+    },
+    {
+      "theme": "Healthcare/bio",
+      "count": 2,
+      "examples": [
+        "Corner Health",
+        "xCures"
+      ]
+    },
+    {
+      "theme": "Dev tools",
+      "count": 1,
+      "examples": [
+        "Open Vision Engineering"
+      ]
+    },
+    {
+      "theme": "Crypto/web3",
+      "count": 1,
+      "examples": [
+        "KorProtocol"
+      ]
+    }
+  ]
+}
