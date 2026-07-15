@@ -204,13 +204,15 @@ EVENT_NAME = re.compile(r"([A-Z0-9][A-Za-z0-9&/.'\-]{1,24}(?:\s+[A-Z0-9][A-Za-z0
 
 def event_key(title):
     tl = (title or "").lower()
+    tln = re.sub(r"[^a-z0-9]", "", tl)
     for k in KNOWN_EVENTS:
-        if k in tl:
-            return k
+        kn = re.sub(r"[^a-z0-9]", "", k)
+        if kn and kn in tln:
+            return kn
     m = EVENT_NAME.search(title or "")
     if m:
-        return re.sub(r"\s+", " ", m.group(1).lower()).strip()
-    return re.sub(r"[^a-z0-9]+", "", tl)[:40]
+        return re.sub(r"[^a-z0-9]", "", m.group(1).lower())
+    return tln[:40]
 
 
 def dedup_events(confs):
