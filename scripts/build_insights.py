@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 """Insights aggregator — WEB/DATA-ONLY, free.
 
-Turns the funds' Investment activity (+ Harmonic just-raised feed) into:
-  - a deduped "where money is flowing" ledger of real VC-backed raises (last 6 months), each with
-    amount, the investor(s)/fund(s) seen behind it, a theme, and a source link;
-  - a theme rollup (which sectors are hot) using the curated sector vocabulary.
-
-Reads data/funds.json + data/harmonic_raises.json; writes data/insights.json. Fail-safe.
-Runs in the daily Action (no API key).
+Builds data/insights.json from the funds tab's tracked raises (Investment updates, last 6 months,
+ALL stages) plus the Harmonic just-raised feed. Every raise is deduped by company and tagged with:
+company, stage bucket (unknown -> "Venture"), amount, investors/funds seen behind it, theme, HQ, HC.
+Also emits a theme rollup, per-stage counts, KPI aggregates, and a plain-English concentration line.
+The dashboard filters everything client-side by stage. Fail-safe; runs in the daily Action.
 """
 import json, os, re, datetime
 
@@ -18,26 +16,27 @@ OUT = os.path.join(ROOT, "data", "insights.json")
 TODAY = datetime.date.today()
 WINDOW = 190  # ~6 months
 
-RAISE_V = re.compile(r"\b(raises?|raised|secures?|secured|lands?|landed|closes?|closed|nets?|snags?|bags?|banks?|pulls in|picks up)\b", re.I)
+RAISE_V = re.compile(r"\b(raises?|raised|secures?|secured|lands?|landed|closes?|closed|nets?|snags?|nabs?|bags?|banks?|scores?|pulls in|picks up)\b", re.I)
 AMT = re.compile(r"\$\s?(\d[\d.,]*)\s?(k|m|mn|million|b|bn|billion)\b", re.I)
 FROM_INV = re.compile(r"(?:led by|co-led by|from|backed by)\s+([A-Z][A-Za-z0-9&.\-' ]{2,45})", re.I)
 FUND_WORDS = re.compile(r"\b(capital|ventures|partners|fund|management|associates|equity|holdings)\b", re.I)
-STAGE_RE = re.compile(r"\bseries\s+([a-e])\b", re.I)
+SHELL = re.compile(r"(incorporated|corporation|\bcorp\b|\bplc\b|holdings|\binc\.?)$", re.I)
+STAGE_BUCKET = re.compile(r"\b(pre-?seed|angel|seed|series\s?([a-e])|growth round|late[- ]stage|mezzanine)\b", re.I)
 
 SECTORS = {
     "AI agents": ["agent", "agentic", "copilot", "assistant", "automation", "voice ai", "chatbot"],
-    "AI infra": ["inference", "gpu", " llm", "mlops", "orchestrat", "vector", "fine-tun", "compute", "foundation model", "token cost", "model training"],
-    "Data": ["data ", "analytics", "warehouse", "pipeline", "observability"],
-    "Dev tools": ["developer", "devops", " sdk", "open source", "coding", "engineering"],
-    "Fintech": ["fintech", "payment", "banking", "lending", "insur", "underwrit", "treasury", "credit", "wealth", " tax", "financial"],
-    "Cybersecurity": ["security", "cyber", "threat", "identity", "zero trust", "fraud"],
-    "Defense/gov": ["defense", "national security", "govtech", " dod", "military", "autonom", "space"],
-    "Robotics/physical": ["robot", "manufactur", "industrial", "warehouse", "drone", "machine vision", "supply chain", "hardware"],
-    "Healthcare/bio": ["health", "clinical", "patient", "biotech", " drug", "diagnostic", "medical", "pharma", "care"],
-    "Climate/energy": ["climate", "energy", " grid", "solar", "battery", "carbon", "renewable"],
+    "AI infra": ["inference", "gpu", " llm", "mlops", "orchestrat", "vector", "fine-tun", "compute", "foundation model", "token cost", "model training", "datacenter"],
+    "Data": ["data ", "analytics", "warehouse", "pipeline", "observability", "etl"],
+    "Dev tools": ["developer", "devops", " sdk", "open source", "coding", "software engineering", "code "],
+    "Fintech": ["fintech", "payment", "banking", "lending", "insur", "underwrit", "treasury", "credit", "wealth", " tax", "financial", "capital markets", "trading"],
+    "Cybersecurity": ["security", "cyber", "threat", "identity", "zero trust", "fraud", "soc "],
+    "Defense/gov": ["defense", "national security", "govtech", " dod", "military", "autonom", "space", "drone", "surveillance"],
+    "Robotics/physical": ["robot", "manufactur", "industrial", "warehouse", "machine vision", "supply chain", "hardware", "factory"],
+    "Healthcare/bio": ["health", "clinical", "patient", "biotech", " drug", "diagnostic", "medical", "pharma", "care", "therapeutic"],
+    "Climate/energy": ["climate", "energy", " grid", "solar", "battery", "carbon", "renewable", "nuclear", "fusion"],
     "Crypto/web3": ["crypto", "blockchain", "web3", "token ", "defi", "stablecoin"],
-    "Vertical SaaS": ["vertical", "workflow", "legal", "construction", "logistics", "procurement", "real estate", "hr ", "recruit", "marketing", "sales ", "gtm", "insurance", "supply"],
-    "Consumer/marketplace": ["consumer", "marketplace", "creator", "commerce", "social", "gaming", "shopping", "travel"],
+    "Vertical SaaS": ["vertical", "workflow", "legal", "construction", "logistics", "procurement", "real estate", "hr ", "recruit", "marketing", "sales ", "gtm", "insurance", "retail", "hospitality"],
+    "Consumer/marketplace": ["consumer", "marketplace", "creator", "commerce", "social", "gaming", "shopping", "travel", "media"],
 }
 
 
@@ -55,6 +54,22 @@ def theme_of(text):
     return best
 
 
+def stage_bucket(title):
+    m = STAGE_BUCKET.search(title or "")
+    if not m:
+        return "Venture"
+    g = m.group(0).lower()
+    if "pre" in g or "angel" in g:
+        return "Pre-seed"
+    if "seed" in g:
+        return "Seed"
+    if "growth" in g or "late" in g or "mezz" in g:
+        return "Growth/Late"
+    if m.group(2):
+        return "Series " + m.group(2).upper()
+    return "Venture"
+
+
 def amount_m(title):
     m = AMT.search(title)
     if not m:
@@ -66,7 +81,7 @@ def amount_m(title):
     u = m.group(2).lower()
     if u in ("b", "bn", "billion"):
         val *= 1000
-    elif u in ("k",):
+    elif u == "k":
         val /= 1000.0
     return round(val)
 
@@ -76,7 +91,7 @@ def company_of(title):
     if not m:
         return ""
     co = title[:m.start()].strip(" -–—:·|")
-    co = re.sub(r"\s*[|–—-]\s*[^-|–—]*$", "", co).strip()   # drop trailing "- Outlet"
+    co = re.sub(r"\s*[|–—-]\s*[^-|–—]*$", "", co).strip()
     return co
 
 
@@ -86,27 +101,31 @@ def main():
     except Exception as e:
         print("no funds.json:", e); funds = []
     cutoff = (TODAY - datetime.timedelta(days=WINDOW)).isoformat()
-    ledger = {}   # norm(company) -> record
+    ledger = {}
 
-    def add(company, amt, date, link, investors, theme, stage, desc):
+    def add(company, amt, date, link, investors, theme, stage, desc, hq="", hc=None):
         k = norm(company)
         if not k:
             return
         r = ledger.get(k)
         if not r:
-            r = {"company": company, "amount_m": amt, "date": date, "link": link,
-                 "investors": set(investors), "theme": theme, "stage": stage, "desc": desc}
-            ledger[k] = r
-        else:
-            r["investors"].update(investors)
-            if amt and (not r["amount_m"] or amt > r["amount_m"]):
-                r["amount_m"] = amt
-            if date > (r["date"] or ""):
-                r["date"] = date; r["link"] = link or r["link"]
-            if stage and not r["stage"]:
-                r["stage"] = stage
-            if desc and not r["desc"]:
-                r["desc"] = desc
+            ledger[k] = {"company": company, "amount_m": amt, "date": date, "link": link,
+                         "investors": set(investors), "theme": theme, "stage": stage,
+                         "desc": desc, "hq": hq, "hc": hc}
+            return
+        r["investors"].update(investors)
+        if amt and (not r["amount_m"] or amt > r["amount_m"]):
+            r["amount_m"] = amt
+        if date > (r["date"] or ""):
+            r["date"] = date; r["link"] = link or r["link"]
+        if stage and (r["stage"] in ("", "Venture")) and stage != "Venture":
+            r["stage"] = stage
+        if desc and not r["desc"]:
+            r["desc"] = desc
+        if hq and not r.get("hq"):
+            r["hq"] = hq
+        if hc and not r.get("hc"):
+            r["hc"] = hc
 
     for f in funds:
         fund_name = f.get("name", "")
@@ -118,62 +137,23 @@ def main():
                 continue
             title = u.get("title") or ""
             co = company_of(title)
-            if not co or len(co) > 48 or FUND_WORDS.search(co):
+            if not co or len(co) > 48 or FUND_WORDS.search(co) or SHELL.search(co):
                 continue
             amt = amount_m(title)
-            if not amt:
-                continue   # keep only real, sized VC raises
-            if re.search(r"(incorporated|corporation|\bcorp\b|\bplc\b|holdings|\binc\.?)$", co, re.I):
-                continue   # public-company / non-VC shells
             frominv = [x.strip(" .") for x in FROM_INV.findall(title) if 2 < len(x.strip()) < 45]
-            st = ("Series " + STAGE_RE.search(title).group(1).upper()) if STAGE_RE.search(title) else ""
-            if amt >= 500 and not st and not frominv:
-                continue   # very large, no stage, no named VC -> likely PE/debt/growth, not a VC round
+            st = stage_bucket(title)
+            if amt and amt >= 500 and st == "Venture" and not frominv:
+                continue   # very large, no stage, no named VC -> likely PE/debt/growth
             inv = set(frominv); inv.add(fund_name)
-            add(co, amt, date, u.get("link") or u.get("url", ""), inv, theme_of(co + " " + title), st, "")
+            add(co, amt, date, u.get("link") or u.get("url", ""), inv,
+                theme_of(co + " " + title), st, "")
 
-    # fold in Harmonic just-raised feed (VC-backed by construction)
     try:
         harm = json.load(open(HARM, encoding="utf-8")).get("companies", [])
     except Exception:
         harm = []
-    import re as _re
     for c in harm:
         name = c.get("name")
-        if not name or _re.search(r"(incorporated|corporation|\bcorp\b|\bplc\b|holdings|\binc\.?)$", name, _re.I):
+        if not name or SHELL.search(name):
             continue
-        st = (c.get("stage") or "").replace("SERIES_", "Series ").replace("_", " ").title().strip()
-        amt = round((c.get("last_amount") or 0) / 1e6) or None
-        add(name, amt, TODAY.isoformat(), "", set(), theme_of(name + " " + (c.get("desc") or "")), st, (c.get("desc") or "")[:160])
-
-    rows = []
-    for r in ledger.values():
-        r["investors"] = sorted(i for i in r["investors"] if i)[:6]
-        rows.append(r)
-    rows.sort(key=lambda x: (x.get("date") or "", x.get("amount_m") or 0), reverse=True)
-    rows = rows[:80]
-
-    # theme rollup
-    tally = {}
-    for r in rows:
-        tally.setdefault(r["theme"], []).append(r["company"])
-    themes = [{"theme": t, "count": len(v), "examples": v[:6]} for t, v in tally.items()]
-    themes.sort(key=lambda x: -x["count"])
-
-    top = [t for t in themes if t["theme"] != "Other"][:3]
-    summary = ""
-    if top:
-        summary = "Capital is concentrating in " + ", ".join("%s (%d raises)" % (t["theme"], t["count"]) for t in top) + "."
-        biggest = max(rows, key=lambda r: r.get("amount_m") or 0, default=None)
-        if biggest and biggest.get("amount_m"):
-            amt = biggest["amount_m"]
-            amt_s = ("$%.1fB" % (amt / 1000)) if amt >= 1000 else ("$%dM" % amt)
-            summary += " Largest recent round: %s (%s%s)." % (biggest["company"], biggest.get("stage") + ", " if biggest.get("stage") else "", amt_s)
-
-    json.dump({"generated": TODAY.isoformat(), "count": len(rows), "summary": summary, "raises": rows, "themes": themes},
-              open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    print("Wrote insights.json — %d deduped raises across %d themes" % (len(rows), len(themes)))
-
-
-if __name__ == "__main__":
-    main()
+        raw = (c.get("stage") or "").replace("SERIES_", "Series ")
