@@ -2,48 +2,76 @@
   "generated": "2026-07-15",
   "companies": [
     {
-      "name": "Salient",
-      "domain": "",
-      "score": 0,
-      "stage": "",
-      "months_since": 125,
-      "last_raise_date": "2016-02-17",
-      "finance_leadership_open": false,
-      "open_roles": 0,
-      "signals": [
-        "Last round ~125 mo ago"
-      ],
-      "url": "",
-      "links": []
-    },
-    {
       "name": "Taktile",
       "domain": "taktile.com",
-      "score": 0,
-      "stage": "",
-      "months_since": null,
-      "last_raise_date": "",
+      "stage": "Series C",
+      "months_since": 17,
+      "last_raise_date": "2025-02-27",
+      "last_raise_source": "Harmonic (by domain)",
+      "funding_total": 134850000.0,
+      "cycle": "mid-cycle",
+      "basis": "cadence",
+      "status": "Mid-cycle",
+      "likelihood": "Low",
+      "rank": 2,
+      "strong_signals": 0,
+      "supporting_signals": 0,
       "finance_leadership_open": false,
       "open_roles": 44,
       "signals": [
-        "No dated prior round found (Form D / news)",
-        "44 open roles right now (fin=0 sales=4 eng=32)"
+        "17 mo since last round (Series C) · typical Series C cadence ~27 mo · mid-cycle",
+        "Last round: 2025-02-27 (Harmonic (by domain))",
+        "Basis: cadence only (no live signals yet)"
       ],
       "url": "https://taktile.com",
       "links": []
     },
     {
+      "name": "Salient",
+      "domain": "trysalient.com",
+      "stage": "Series A",
+      "months_since": 12,
+      "last_raise_date": "2025-07-28",
+      "last_raise_source": "Harmonic (by domain)",
+      "funding_total": 64500000.0,
+      "cycle": "mid-cycle",
+      "basis": "cadence",
+      "status": "Mid-cycle",
+      "likelihood": "Low",
+      "rank": 2,
+      "strong_signals": 0,
+      "supporting_signals": 0,
+      "finance_leadership_open": false,
+      "open_roles": 8,
+      "signals": [
+        "12 mo since last round (Series A) · typical Series A cadence ~18 mo · mid-cycle",
+        "Last round: 2025-07-28 (Harmonic (by domain))",
+        "Basis: cadence only (no live signals yet)"
+      ],
+      "url": "https://trysalient.com",
+      "links": []
+    },
+    {
       "name": "NetBox Labs",
       "domain": "netboxlabs.com",
-      "score": 0,
-      "stage": "",
+      "stage": "Series B",
       "months_since": 12,
       "last_raise_date": "2025-07-14",
+      "last_raise_source": "Harmonic (by domain)",
+      "funding_total": 55000000.0,
+      "cycle": "mid-cycle",
+      "basis": "cadence",
+      "status": "Mid-cycle",
+      "likelihood": "Low",
+      "rank": 2,
+      "strong_signals": 0,
+      "supporting_signals": 0,
       "finance_leadership_open": false,
       "open_roles": 11,
       "signals": [
-        "Last round ~12 mo ago",
-        "11 open roles right now (fin=1 sales=8 eng=4)"
+        "12 mo since last round (Series B) · typical Series B cadence ~22 mo · mid-cycle",
+        "Last round: 2025-07-14 (Harmonic (by domain))",
+        "Basis: cadence only (no live signals yet)"
       ],
       "url": "https://netboxlabs.com",
       "links": []
@@ -51,15 +79,24 @@
     {
       "name": "Bretton",
       "domain": "bretton.com",
-      "score": 0,
-      "stage": "",
-      "months_since": null,
-      "last_raise_date": "",
+      "stage": "Series B",
+      "months_since": 5,
+      "last_raise_date": "2026-02-10",
+      "last_raise_source": "Harmonic (by domain)",
+      "funding_total": 95300000.0,
+      "cycle": "just raised",
+      "basis": "cadence",
+      "status": "Just raised — not soon",
+      "likelihood": "Very low",
+      "rank": 1,
+      "strong_signals": 0,
+      "supporting_signals": 0,
       "finance_leadership_open": false,
       "open_roles": 8,
       "signals": [
-        "No dated prior round found (Form D / news)",
-        "8 open roles right now (fin=0 sales=2 eng=5)"
+        "5 mo since last round (Series B) · typical Series B cadence ~22 mo · just raised",
+        "Last round: 2026-02-10 (Harmonic (by domain))",
+        "Basis: cadence only (no live signals yet)"
       ],
       "url": "https://bretton.com",
       "links": []

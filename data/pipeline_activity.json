@@ -1,0 +1,96 @@
+{
+  "generated": "2026-07-15",
+  "companies": [
+    {
+      "name": "Salient",
+      "domain": "trysalient.com",
+      "slug": "salient",
+      "updates": [],
+      "conferences": [],
+      "new_customers": [],
+      "url": "https://trysalient.com"
+    },
+    {
+      "name": "Taktile",
+      "domain": "taktile.com",
+      "slug": "taktile",
+      "updates": [],
+      "conferences": [],
+      "new_customers": [],
+      "url": "https://taktile.com"
+    },
+    {
+      "name": "NetBox Labs",
+      "domain": "netboxlabs.com",
+      "slug": "netbox-labs",
+      "updates": [
+        {
+          "date": "2026-07-07",
+          "category": "Blog",
+          "title": "Meet Chris Veith, the VP Building NetBox Labs’ Global Ecosystem",
+          "link": "https://netboxlabs.com/blog/meet-chris-veith-the-vp-building-netbox-labs-global-ecosystem/"
+        },
+        {
+          "date": "2026-07-01",
+          "category": "Blog",
+          "title": "New in NetBox Validation: A HIPAA Security Rule Compliance Pack",
+          "link": "https://netboxlabs.com/blog/netbox-validation-hipaa-security-rule-compliance-pack/"
+        },
+        {
+          "date": "2026-06-30",
+          "category": "Blog",
+          "title": "Your Infrastructure Lives in One System. Now Procurement Can, Too.",
+          "link": "https://netboxlabs.com/blog/netbox-asset-lifecycle-ga/"
+        },
+        {
+          "date": "2026-06-27",
+          "category": "Blog",
+          "title": "NetBox Evolve Call for Papers Is Open",
+          "link": "https://netboxlabs.com/blog/netbox-evolve-call-for-papers-is-open/"
+        },
+        {
+          "date": "2026-06-19",
+          "category": "Blog",
+          "title": "Meet Natalia Kepets, the Engineer Reshaping QA at NetBox Labs",
+          "link": "https://netboxlabs.com/blog/meet-natalia-kepets-the-engineer-reshaping-qa-at-netbox-labs/"
+        },
+        {
+          "date": "2026-06-11",
+          "category": "Blog",
+          "title": "Introducing the NetBox Data Exchange",
+          "link": "https://netboxlabs.com/blog/netbox-data-exchange-curated-infrastructure-dataset/"
+        },
+        {
+          "date": "2026-06-11",
+          "category": "Blog",
+          "title": "Public Preview: NetBox Validation Brings Continuous Compliance and Pre-Change Safety to the System of Record",
+          "link": "https://netboxlabs.com/blog/netbox-validation-compliance-public-preview/"
+        },
+        {
+          "date": "2026-06-11",
+          "category": "Blog",
+          "title": "Your Infrastructure Is Now Agent-Native",
+          "link": "https://netboxlabs.com/blog/your-infrastructure-is-now-agent-native/"
+        },
+        {
+          "date": "2026-06-11",
+          "category": "Blog",
+          "title": "Celebrating Ten Years of NetBox & Announcing our Infrastructure Intelligence Platform",
+          "link": "https://netboxlabs.com/blog/evolving-infrastructure-intelligence-platform/"
+        }
+      ],
+      "conferences": [],
+      "new_customers": [],
+      "url": "https://netboxlabs.com"
+    },
+    {
+      "name": "Bretton",
+      "domain": "bretton.com",
+      "slug": "bretton",
+      "updates": [],
+      "conferences": [],
+      "new_customers": [],
+      "url": "https://bretton.com"
+    }
+  ]
+}
