@@ -5,8 +5,9 @@
       "domain": "trysalient.com",
       "founders": [],
       "substack": "",
-      "linkedin": "",
-      "x": ""
+      "linkedin": "https://www.linkedin.com/company/trysalient",
+      "x": "",
+      "ats": "ashby:salient"
     },
     {
       "name": "Taktile",
@@ -18,15 +19,15 @@
         "Maximilian Eber"
       ],
       "substack": "",
-      "linkedin": "",
-      "x": ""
+      "linkedin": "https://www.linkedin.com/company/taktile1/",
+      "x": "https://x.com/taktile_org"
     },
     {
       "name": "NetBox Labs",
       "domain": "netboxlabs.com",
       "founders": [],
       "substack": "",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/company/netboxlabs",
       "x": ""
     },
     {
@@ -34,8 +35,8 @@
       "domain": "bretton.com",
       "founders": [],
       "substack": "",
-      "linkedin": "",
-      "x": ""
+      "linkedin": "https://www.linkedin.com/company/bretton-ai",
+      "x": "https://x.com/brettonai"
     }
   ]
 }
