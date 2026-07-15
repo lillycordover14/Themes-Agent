@@ -6,7 +6,7 @@
     {
       "name": "InstaLILY AI",
       "domain": "instalily.ai",
-      "desc": "InstaLILY AI provides a platform that leverages specialized language models tailored to individual businesses, facilitating the deployment of autonomous AI agents designed to enhance workflows in sales, service, and oper",
+      "desc": "InstaLILY AI offers a platform that utilizes specialized language models tailored to individual businesses, enabling the deployment of autonomous AI agents to enhance workflows in sales, service, and operations. The tech",
       "stage": "SERIES_B",
       "last_amount": 60000000.0,
       "total": 88000000.0,
@@ -95,7 +95,7 @@
     {
       "name": "Auger",
       "domain": "auger.com",
-      "desc": "Auger is developing an AI-powered supply chain operating system that integrates with existing infrastructures to unify data and automate complex operational tasks, enabling real-time insights for decision-making. The sys",
+      "desc": "Auger is developing an AI-powered supply chain operating system designed to unify data and automate complex operational tasks, facilitating real-time insights for decision-making. The system integrates with existing infr",
       "stage": "SERIES_B",
       "last_amount": 50000000.0,
       "total": 350000000.0,
@@ -343,7 +343,7 @@
     {
       "name": "Aria",
       "domain": "helloaria.eu",
-      "desc": "Aria provides a flexible payments infrastructure through an embedded invoice financing API that enables instant payments to suppliers while allowing buyers to manage their payment terms. The technology emphasizes underwr",
+      "desc": "Aria offers a flexible payments infrastructure through an embedded invoice financing API that enables instant payments to suppliers while allowing buyers to manage their payment terms. The technology focuses on underwrit",
       "stage": "SERIES_A",
       "last_amount": 274378800.0,
       "total": 365065295.0,
