@@ -256,8 +256,11 @@ def main():
 
 if __name__ == "__main__":
     main()
-    try:  # web-only point-in-time signal logger for Raising Soon (no API key)
-        import subprocess as _sp
-        _sp.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "snapshot_signals.py")])
-    except Exception as _e:
-        print("snapshot step skipped:", _e)
+    # web-only Raising Soon pipeline (no API key): snapshot signals, then score. Order matters —
+    # the scorer reads the day's snapshot.
+    for _s in ("snapshot_signals.py", "pull_pipeline.py"):
+        try:
+            import subprocess as _sp
+            _sp.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), _s)])
+        except Exception as _e:
+            print(_s, "skipped:", _e)

@@ -74,7 +74,5 @@ print("Wrote %d Harmonic companies (mode=%s)" % (len(companies), mode))
 
 # score the Raising-Soon pipeline in this same step (shares HARMONIC_API_KEY)
 try:
-    import subprocess as _sp, sys as _sys
-    _sp.run([_sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "pull_pipeline.py")])
 except Exception as _e:
     print("pipeline scoring skipped:", _e)
