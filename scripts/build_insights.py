@@ -2,10 +2,9 @@
 """Insights aggregator — WEB/DATA-ONLY, free.
 
 Builds data/insights.json from the funds tab's tracked raises (Investment updates, last 6 months,
-ALL stages) plus the Harmonic just-raised feed. Every raise is deduped by company and tagged with:
-company, stage bucket (unknown -> "Venture"), amount, investors/funds seen behind it, theme, HQ, HC.
-Also emits a theme rollup, per-stage counts, KPI aggregates, and a plain-English concentration line.
-The dashboard filters everything client-side by stage. Fail-safe; runs in the daily Action.
+ALL stages) plus the Harmonic just-raised feed. Deduped by company; each raise tagged with company,
+stage bucket (unknown -> "Venture"), amount, investors/funds seen, theme. Emits theme rollup,
+per-stage counts, KPI aggregates, concentration line. The dashboard filters by stage client-side.
 """
 import json, os, re, datetime
 
@@ -14,7 +13,7 @@ FUNDS = os.path.join(ROOT, "data", "funds.json")
 HARM = os.path.join(ROOT, "data", "harmonic_raises.json")
 OUT = os.path.join(ROOT, "data", "insights.json")
 TODAY = datetime.date.today()
-WINDOW = 190  # ~6 months
+WINDOW = 190
 
 RAISE_V = re.compile(r"\b(raises?|raised|secures?|secured|lands?|landed|closes?|closed|nets?|snags?|nabs?|bags?|banks?|scores?|pulls in|picks up)\b", re.I)
 AMT = re.compile(r"\$\s?(\d[\d.,]*)\s?(k|m|mn|million|b|bn|billion)\b", re.I)
@@ -103,29 +102,24 @@ def main():
     cutoff = (TODAY - datetime.timedelta(days=WINDOW)).isoformat()
     ledger = {}
 
-    def add(company, amt, date, link, investors, theme, stage, desc, hq="", hc=None):
+    def add(company, amt, date, link, investors, theme, stage, desc):
         k = norm(company)
         if not k:
             return
         r = ledger.get(k)
         if not r:
             ledger[k] = {"company": company, "amount_m": amt, "date": date, "link": link,
-                         "investors": set(investors), "theme": theme, "stage": stage,
-                         "desc": desc, "hq": hq, "hc": hc}
+                         "investors": set(investors), "theme": theme, "stage": stage, "desc": desc}
             return
         r["investors"].update(investors)
         if amt and (not r["amount_m"] or amt > r["amount_m"]):
             r["amount_m"] = amt
         if date > (r["date"] or ""):
             r["date"] = date; r["link"] = link or r["link"]
-        if stage and (r["stage"] in ("", "Venture")) and stage != "Venture":
+        if stage and r["stage"] in ("", "Venture") and stage != "Venture":
             r["stage"] = stage
         if desc and not r["desc"]:
             r["desc"] = desc
-        if hq and not r.get("hq"):
-            r["hq"] = hq
-        if hc and not r.get("hc"):
-            r["hc"] = hc
 
     for f in funds:
         fund_name = f.get("name", "")
@@ -143,10 +137,9 @@ def main():
             frominv = [x.strip(" .") for x in FROM_INV.findall(title) if 2 < len(x.strip()) < 45]
             st = stage_bucket(title)
             if amt and amt >= 500 and st == "Venture" and not frominv:
-                continue   # very large, no stage, no named VC -> likely PE/debt/growth
+                continue
             inv = set(frominv); inv.add(fund_name)
-            add(co, amt, date, u.get("link") or u.get("url", ""), inv,
-                theme_of(co + " " + title), st, "")
+            add(co, amt, date, u.get("link") or u.get("url", ""), inv, theme_of(co + " " + title), st, "")
 
     try:
         harm = json.load(open(HARM, encoding="utf-8")).get("companies", [])
@@ -156,4 +149,51 @@ def main():
         name = c.get("name")
         if not name or SHELL.search(name):
             continue
-        raw = (c.get("stage") or "").replace("SERIES_", "Series ")
+        raw = (c.get("stage") or "").replace("SERIES_", "Series ").replace("_", " ").title().strip()
+        st = raw or "Venture"
+        amt = round((c.get("last_amount") or 0) / 1e6) or None
+        add(name, amt, TODAY.isoformat(), ("https://" + c["domain"]) if c.get("domain") else "", set(),
+            theme_of(name + " " + (c.get("desc") or "")), st, (c.get("desc") or "")[:160])
+
+    rows = []
+    for r in ledger.values():
+        r["investors"] = sorted(i for i in r["investors"] if i)[:6]
+        rows.append(r)
+    rows.sort(key=lambda x: (x.get("date") or "", x.get("amount_m") or 0), reverse=True)
+    rows = rows[:200]
+
+    tally = {}
+    for r in rows:
+        tally.setdefault(r["theme"], []).append(r["company"])
+    themes = [{"theme": t, "count": len(v), "examples": v[:6]} for t, v in tally.items()]
+    themes.sort(key=lambda x: -x["count"])
+
+    EARLY = {"Pre-seed", "Seed", "Series A"}
+    total_cap = sum(r.get("amount_m") or 0 for r in rows)
+    early = [r for r in rows if r.get("stage") in EARLY]
+    order = ["Pre-seed", "Seed", "Series A", "Series B", "Series C", "Series D", "Growth/Late", "Venture"]
+    stage_counts = {s: sum(1 for r in rows if r.get("stage") == s) for s in order}
+    stage_counts = {k: v for k, v in stage_counts.items() if v}
+    named = [t for t in themes if t["theme"] != "Other"]
+    kpis = {"strongest_theme": (named[0]["theme"] if named else ""),
+            "total_raises": len(rows), "early_raises": len(early),
+            "total_cap_m": total_cap, "early_cap_m": sum(r.get("amount_m") or 0 for r in early),
+            "stage_counts": stage_counts}
+
+    summary = ""
+    if named:
+        summary = "Capital is concentrating in " + ", ".join("%s (%d)" % (t["theme"], t["count"]) for t in named[:3]) + "."
+        biggest = max((r for r in rows if r.get("amount_m")), key=lambda r: r["amount_m"], default=None)
+        if biggest:
+            amt = biggest["amount_m"]; amt_s = ("$%.1fB" % (amt / 1000)) if amt >= 1000 else ("$%dM" % amt)
+            stg = (biggest["stage"] + ", ") if biggest.get("stage") and biggest["stage"] != "Venture" else ""
+            summary += " Largest recent round: %s (%s%s)." % (biggest["company"], stg, amt_s)
+
+    json.dump({"generated": TODAY.isoformat(), "count": len(rows), "summary": summary,
+               "kpis": kpis, "raises": rows, "themes": themes},
+              open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    print("Wrote insights.json — %d raises, %d themes, %d early-stage" % (len(rows), len(themes), kpis["early_raises"]))
+
+
+if __name__ == "__main__":
+    main()

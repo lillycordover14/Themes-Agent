@@ -1,13 +1,29 @@
 {
   "generated": "2026-07-15",
-  "count": 80,
-  "summary": "Capital is concentrating in AI agents (13 raises), Vertical SaaS (11 raises), Fintech (8 raises). Largest recent round: Helsing ($1.8B).",
+  "count": 200,
+  "summary": "Capital is concentrating in Fintech (21), AI agents (17), Healthcare/bio (14). Largest recent round: Helsing ($1.8B).",
+  "kpis": {
+    "strongest_theme": "Fintech",
+    "total_raises": 200,
+    "early_raises": 78,
+    "total_cap_m": 10357,
+    "early_cap_m": 2659,
+    "stage_counts": {
+      "Pre-seed": 2,
+      "Seed": 31,
+      "Series A": 45,
+      "Series B": 22,
+      "Series C": 5,
+      "Series D": 2,
+      "Venture": 86
+    }
+  },
   "raises": [
     {
       "company": "Aria",
       "amount_m": 274,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://helloaria.eu",
       "investors": [],
       "theme": "Fintech",
       "stage": "Series A",
@@ -17,7 +33,7 @@
       "company": "Lyzr AI",
       "amount_m": 100,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://lyzr.ai",
       "investors": [],
       "theme": "AI agents",
       "stage": "Series B",
@@ -27,7 +43,7 @@
       "company": "TJM Labs",
       "amount_m": 75,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://tjmlabs.com",
       "investors": [],
       "theme": "AI agents",
       "stage": "Series B",
@@ -49,17 +65,32 @@
       "company": "InstaLILY AI",
       "amount_m": 60,
       "date": "2026-07-15",
-      "link": "",
-      "investors": [],
-      "theme": "AI agents",
+      "link": "https://instalily.ai",
+      "investors": [
+        "Energize Capital",
+        "Energize Capital - TradingView"
+      ],
+      "theme": "Fintech",
       "stage": "Series B",
       "desc": "InstaLILY AI provides a platform that leverages specialized language models tailored to individual businesses, facilitating the deployment of autonomous AI agen"
+    },
+    {
+      "company": "Valarian",
+      "amount_m": 50,
+      "date": "2026-07-15",
+      "link": "https://valarian.com",
+      "investors": [
+        "New Enterprise Associates"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": "Valarian's primary offering is a secure software platform built on ACRA, which facilitates controlled data movement and enforces trust through compartmentalized"
     },
     {
       "company": "Vendelux",
       "amount_m": 50,
       "date": "2026-07-15",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYkdXc2E4dHdMcVFhaktPUU5FSFpZeEN6czhsdFRaUlFIdnJ1d25fM19DX3gxX3Q2T0FkM1g2WXJ2TjBNcjBvbkltOHBFVE5JU2g3RWpEWjA3NkhpRXZfWmVkTGUxQU1QZDRPM1pDNGdMMkNrMEM3c0Y2bU1WRG9WOGxPT1lNN0VyM0dCc1V3MTJ5dldFRk9YWmNJWUF5OUNBeEY4MW90MA?oc=5",
+      "link": "https://vendelux.com",
       "investors": [
         "Cervin Ventures",
         "Tribeca Venture Partners"
@@ -72,21 +103,11 @@
       "company": "Auger",
       "amount_m": 50,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://auger.com",
       "investors": [],
       "theme": "Data",
       "stage": "Series B",
       "desc": "Auger is developing an AI-powered supply chain operating system that integrates with existing infrastructures to unify data and automate complex operational tas"
-    },
-    {
-      "company": "Valarian",
-      "amount_m": 50,
-      "date": "2026-07-15",
-      "link": "",
-      "investors": [],
-      "theme": "Data",
-      "stage": "Series A",
-      "desc": "Valarian's primary offering is a secure software platform built on ACRA, which facilitates controlled data movement and enforces trust through compartmentalized"
     },
     {
       "company": "Dutch Monumental",
@@ -97,14 +118,14 @@
         "Khosla Ventures"
       ],
       "theme": "Robotics/physical",
-      "stage": "",
+      "stage": "Venture",
       "desc": ""
     },
     {
       "company": "Feathery",
       "amount_m": 30,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://feathery.io",
       "investors": [],
       "theme": "Fintech",
       "stage": "Series A",
@@ -114,7 +135,7 @@
       "company": "Alta | AI GTM System of Actions",
       "amount_m": 25,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://altahq.com",
       "investors": [],
       "theme": "Vertical SaaS",
       "stage": "Series A",
@@ -124,7 +145,7 @@
       "company": "Parspec",
       "amount_m": 20,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://parspec.io",
       "investors": [],
       "theme": "Vertical SaaS",
       "stage": "Series A",
@@ -134,7 +155,7 @@
       "company": "Project Q",
       "amount_m": 17,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://projectqai.github.io",
       "investors": [],
       "theme": "Other",
       "stage": "Series A",
@@ -144,7 +165,7 @@
       "company": "MeltPlan",
       "amount_m": 14,
       "date": "2026-07-15",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RamxEV3NITXFKSm00X2Y3NDk3UVdWcFFGUkZRNTAyWVFlMEIwLVlFTkRDZTg2MFZVVEZpTW1qMHNnaDZNWVFuUm5pOHJ5UjdTQzZBZWFxelJJN1Ztd04xXzF2TGo0WTZFdTZoSjQ3UWVILWtjYnVRZnJXQXg?oc=5",
+      "link": "https://meltplan.com",
       "investors": [
         "Bessemer",
         "Bessemer - Entrackr",
@@ -158,7 +179,7 @@
       "company": "Nurix",
       "amount_m": 14,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://nurix.ai",
       "investors": [],
       "theme": "Vertical SaaS",
       "stage": "Venture Unknown",
@@ -168,7 +189,7 @@
       "company": "EdVisorly",
       "amount_m": 13,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://edvisorly.com",
       "investors": [],
       "theme": "Data",
       "stage": "Series A",
@@ -178,7 +199,7 @@
       "company": "InsideDesk",
       "amount_m": 13,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://insidedesk.com",
       "investors": [],
       "theme": "Fintech",
       "stage": "Seed",
@@ -188,7 +209,7 @@
       "company": "Hostie",
       "amount_m": 12,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://hostie.ai",
       "investors": [],
       "theme": "Other",
       "stage": "Series A",
@@ -202,15 +223,15 @@
       "investors": [
         "Accel"
       ],
-      "theme": "Dev tools",
-      "stage": "",
+      "theme": "Other",
+      "stage": "Venture",
       "desc": ""
     },
     {
       "company": "Bohr Energie",
       "amount_m": 11,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://bohr-energie.fr",
       "investors": [],
       "theme": "Vertical SaaS",
       "stage": "Series A",
@@ -220,7 +241,7 @@
       "company": "Kord",
       "amount_m": 9,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://kord.com",
       "investors": [],
       "theme": "Fintech",
       "stage": "Series A",
@@ -230,7 +251,7 @@
       "company": "WizCommerce",
       "amount_m": 8,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://wizcommerce.com",
       "investors": [],
       "theme": "Vertical SaaS",
       "stage": "Series A",
@@ -240,7 +261,7 @@
       "company": "Aria Systems",
       "amount_m": 8,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://ariasystems.com",
       "investors": [],
       "theme": "Other",
       "stage": "Series A",
@@ -250,7 +271,7 @@
       "company": "Mozu (Business/Productivity Software)",
       "amount_m": 8,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://about.mozu-inc.jp",
       "investors": [],
       "theme": "Other",
       "stage": "Series B",
@@ -260,7 +281,7 @@
       "company": "Adaptive",
       "amount_m": 6,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://adaptive.build",
       "investors": [],
       "theme": "AI agents",
       "stage": "Series A",
@@ -270,7 +291,7 @@
       "company": "Prolo",
       "amount_m": 6,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://prolo.io",
       "investors": [],
       "theme": "Vertical SaaS",
       "stage": "Seed",
@@ -280,7 +301,7 @@
       "company": "AltaML",
       "amount_m": 6,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://altaml.com",
       "investors": [],
       "theme": "Vertical SaaS",
       "stage": "Series A",
@@ -290,7 +311,7 @@
       "company": "Linker Finance",
       "amount_m": 5,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://linkerfinance.com",
       "investors": [],
       "theme": "Fintech",
       "stage": "Seed",
@@ -300,7 +321,7 @@
       "company": "SimpleAI",
       "amount_m": 5,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://simpleaiworks.com",
       "investors": [],
       "theme": "Data",
       "stage": "Seed",
@@ -310,7 +331,7 @@
       "company": "Guthrie AI",
       "amount_m": 4,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://guthrieai.com",
       "investors": [],
       "theme": "AI agents",
       "stage": "Seed",
@@ -320,7 +341,7 @@
       "company": "Finto",
       "amount_m": 3,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://gofinto.com",
       "investors": [],
       "theme": "AI agents",
       "stage": "Seed",
@@ -330,7 +351,7 @@
       "company": "Legible",
       "amount_m": 3,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://legiblepolicy.com",
       "investors": [],
       "theme": "Vertical SaaS",
       "stage": "Seed",
@@ -340,7 +361,7 @@
       "company": "Birdsview.com",
       "amount_m": 3,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://birdsview.com",
       "investors": [],
       "theme": "Data",
       "stage": "Seed",
@@ -350,7 +371,7 @@
       "company": "Synthreo",
       "amount_m": 2,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://synthreo.ai",
       "investors": [],
       "theme": "AI agents",
       "stage": "Seed",
@@ -360,7 +381,7 @@
       "company": "sherpa",
       "amount_m": 2,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://sherpahq.ai",
       "investors": [],
       "theme": "Other",
       "stage": "Pre Seed",
@@ -370,7 +391,7 @@
       "company": "ConstructionClock App",
       "amount_m": 1,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://constructionclock.com",
       "investors": [],
       "theme": "Vertical SaaS",
       "stage": "Seed",
@@ -380,7 +401,7 @@
       "company": "Neocad",
       "amount_m": 1,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://neocadsrl.com",
       "investors": [],
       "theme": "Other",
       "stage": "Pre Seed",
@@ -390,7 +411,7 @@
       "company": "LICENSEWARE",
       "amount_m": 1,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://licenseware.io",
       "investors": [],
       "theme": "Other",
       "stage": "Seed",
@@ -400,7 +421,7 @@
       "company": "ESGAgent.ai - AI Agents for ESG Compliance",
       "amount_m": 1,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://kleantech.com.au",
       "investors": [],
       "theme": "AI agents",
       "stage": "Seed",
@@ -410,7 +431,7 @@
       "company": "Solving.AI",
       "amount_m": 1,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://solving.ai",
       "investors": [],
       "theme": "Other",
       "stage": "Pre Seed",
@@ -420,27 +441,27 @@
       "company": "Aryval",
       "amount_m": 1,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://aryval.io",
       "investors": [],
       "theme": "AI agents",
-      "stage": "",
+      "stage": "Venture",
       "desc": "Aryval distinguishes itself through its holistic strategy, encompassing the tracking of inquiries, automation of communication, facilitation of the check-in pro"
     },
     {
       "company": "mode40",
       "amount_m": 1,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://mode40.com",
       "investors": [],
       "theme": "Robotics/physical",
-      "stage": "",
+      "stage": "Venture",
       "desc": "mode40 provides technology solutions aimed at improving manufacturing processes through the integration of systems such as PLC, SCADA, MES, and ERP, alongside I"
     },
     {
       "company": "DSALTA",
       "amount_m": null,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://dsalta.com",
       "investors": [],
       "theme": "AI agents",
       "stage": "Pre Seed",
@@ -450,7 +471,7 @@
       "company": "Oxipital AI",
       "amount_m": null,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://oxipitalai.com",
       "investors": [],
       "theme": "Robotics/physical",
       "stage": "Series A",
@@ -460,7 +481,7 @@
       "company": "PreciTaste",
       "amount_m": null,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://precitaste.com",
       "investors": [],
       "theme": "AI infra",
       "stage": "Series A",
@@ -470,7 +491,7 @@
       "company": "Tradevu",
       "amount_m": null,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://tradevu.co",
       "investors": [],
       "theme": "Fintech",
       "stage": "Pre Seed",
@@ -480,7 +501,7 @@
       "company": "Verge.io",
       "amount_m": null,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://verge.io",
       "investors": [],
       "theme": "Robotics/physical",
       "stage": "Seed",
@@ -490,9 +511,9 @@
       "company": "Boost Technology",
       "amount_m": null,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://withboost.co",
       "investors": [],
-      "theme": "Consumer/marketplace",
+      "theme": "Vertical SaaS",
       "stage": "Seed",
       "desc": "The main product is a B2B commerce platform that facilitates transactions between distributors and retailers, utilizing technologies such as WhatsApp for orderi"
     },
@@ -500,7 +521,7 @@
       "company": "Oze",
       "amount_m": null,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://getoze.com",
       "investors": [],
       "theme": "Fintech",
       "stage": "Seed",
@@ -510,11 +531,23 @@
       "company": "Shiprazor",
       "amount_m": null,
       "date": "2026-07-15",
-      "link": "",
+      "link": "https://shiprazor.com",
       "investors": [],
       "theme": "Vertical SaaS",
       "stage": "Seed",
       "desc": "Shiprazor is an eCommerce shipping aggregator that simplifies the shipping process by enabling users to compare rates from various logistics providers while off"
+    },
+    {
+      "company": "Benchmark",
+      "amount_m": 225,
+      "date": "2026-07-14",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYWxKX0s0UEFGS1lRRXQ1NzFTRlMyOXZnY2g3aHlhcUprbGU5dlFEcUhlSHRMMV8tUWpFcFhSQ2I4SWJMdTVYclFQb19Pb1V0OEU0eFFYaV9DYmtCYkp1T2hfSzk3bzVMRmhzeFFzeU9OclpkWXA4UFp1VEwxdVBpc01jUDZWYzl1RFN3bUM2R09hN3V2aXhmbGNVWGlSQkdMZ0lKYVlORktpYnVKODR3b2RYTUx5U3NNdkdMSmZQY3RsY1BmS2k2MWxPajRiM184N2xsTA?oc=5",
+      "investors": [
+        "Benchmark"
+      ],
+      "theme": "Data",
+      "stage": "Venture",
+      "desc": ""
     },
     {
       "company": "TerraFirma",
@@ -523,10 +556,11 @@
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMXJhcXY4QzQ1T3prbGVoQ2JGZEJWSlZSeEVfekFTZ2IyQ0dHeWE2ZG1vUm9MU0xhRVU5YUJZQUwySDJzaGdPUjloNWNjaWMzUlpaU2gtWUFZeTJaR0lwMHVGaGxhdzd3QWRCRGlTX3M0eEl2Q3R6M0Fnc3NrTXhkOHAwX1kwdWIxNWJwM3A5V2NGRFJ3XzdLdkxVYmU2UjJYaHlCdDVzX1daMmFmUmplM0tNNUFTUzhWOElvTFN1QQ?oc=5",
       "investors": [
         "Bain Capital Ventures",
-        "Kleiner Perkins"
+        "Kleiner Perkins",
+        "Kleiner Perkins - TradingView"
       ],
       "theme": "Defense/gov",
-      "stage": "",
+      "stage": "Series A",
       "desc": ""
     },
     {
@@ -539,7 +573,7 @@
         "Union Square Ventures"
       ],
       "theme": "AI agents",
-      "stage": "",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -551,7 +585,67 @@
         "Oak HC/FT"
       ],
       "theme": "Healthcare/bio",
-      "stage": "",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Sequoia Financial Advisors LLC",
+      "amount_m": null,
+      "date": "2026-07-14",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWXhqSk8zMGxrNEd5VW1qeDNhcHB3aV9xeTZ5bEFzTG5pbUU1SFlRTEdsdWQyT19EY201NktzMXZta2MySW1YN0FHdHpZU2c3cF9kQzhNbGRHZDVYRDhnYXNzci1xMk5MRmQwbHRuYldjWEpUa09Jb2hWWjY2b0RKc0ZMRW52RVNZYllISWtDM19JOUlSdGpxM054XzJFSS1JNnB2T2pSOGhYNEVsZEgwemxZWlVoNG5IX1I0cnZ6c01FcHJKMGpzWjFKUXFTZE5YaGVnNUxvNEotRzZfWHJJ?oc=5",
+      "investors": [
+        "Sequoia"
+      ],
+      "theme": "Fintech",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Bessemer’s data center non",
+      "amount_m": null,
+      "date": "2026-07-14",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQd1VEMFNQbGdJeW9mWlpmNV9LUk4zbjhMS2R3SnBVWmN5T1hhLUpVVGVGZlZISHhyTlRDWEd0SEV1bWlhNXg0VTh4MjRka01mX0Z3R1k0NmIzbHhMSVhGR05XWV9EcXdhWVVhVWw1alpGQldaTVh2b19EWmNWeHBHdzF1QU1SbFphaXJEcnlpNk1TbnRFNE5xYnpXck9tZWozM0Fvb21kX1dFTjBtdmNTZGRYZjlMNTF3ZDFnTW1xT2h6d2hVSktydUlWU20?oc=5",
+      "investors": [
+        "Bessemer"
+      ],
+      "theme": "Data",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Battery energy storage facility proposal",
+      "amount_m": null,
+      "date": "2026-07-14",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVXR1SGp0ejNmT05RTlI1UjR4SWZpUDdPdUJpampsaWpWNF9FcFJXSEs3NUZvc09kUkRUZlp4eWVhMU51MHl0V2tINnNPQmR4eVdXYUJ2MHhXX20yWEFfd3I0UUFFb294MmlVUDh0dG1Ca2dpM1RvT25lS2hGMlItU09lMFVRbnlUQlFZal9WUmRibE1yWGpvTzJ5SktmbVJ1X1hadWZHdlhDeHB0cm5DRGpKTHNUYU0?oc=5",
+      "investors": [
+        "Battery"
+      ],
+      "theme": "Climate/energy",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Illinois",
+      "amount_m": null,
+      "date": "2026-07-14",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9JWXR3MDRBM1VNTlNfd2pyXy1lMVM2ajFMaXFBNUkyd0JBVW1VTVNxTlBsSVNLUFNBVlhGYUpUQVdEemctemhzZTh6TWI1UkRmMUozSzZpWWE3VzNEUm1LVGo1TUtDWHN1X3BpeWZRSDI0RTVTRWJaMjZta2NNQQ?oc=5",
+      "investors": [
+        "Conviction"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Sri Lankan",
+      "amount_m": null,
+      "date": "2026-07-14",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaDk4VGVyNFhLbmtDa2UwRXFUNWdVZENZM0YwTjJIZlNFSjdPV2ZybnhQb3hBTU9wNmkwMTJHNGJubVdsTXhRR3ZBRHBnVmswZWdZeGVERjhQZ0h3bzlvQXZuM3g2ak5FcTlCNlJudFNsdE8wYndmVU9laG8xT01BdGlYeTJiR1dsNnBBY1pOZTF3blhvLTVtRGR5WERhS1c5WkQ0WlpOQ2JQSUxQSTI5d2NCTHpKUQ?oc=5",
+      "investors": [
+        "Y Combinator"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -564,7 +658,7 @@
         "Lightspeed"
       ],
       "theme": "Other",
-      "stage": "",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -580,6 +674,18 @@
       "desc": ""
     },
     {
+      "company": "Tombot",
+      "amount_m": 7,
+      "date": "2026-07-13",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3OGMxYlIzRGdLMkUxRnVjaUV5NXRwTmlPY253N2RVdkNXMndIV1AwYXJCTm5DV3hvSWd0enNKdUwxMGphV1JyM0QxZUZ1RkVEUGpqZXZTM3RFNTRTMy1jbTRUZXBVN280emtHbTliaEpJTHA2bUdGdEE2Wl8?oc=5",
+      "investors": [
+        "Caduceus Capital Partners"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
       "company": "Accel and Prosus backed QOSMIC",
       "amount_m": 3,
       "date": "2026-07-13",
@@ -588,7 +694,31 @@
         "Accel"
       ],
       "theme": "Data",
-      "stage": "",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Novel Foods Expert Network",
+      "amount_m": null,
+      "date": "2026-07-13",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVjZzZjhSOTliSTlHcEVVQjI4b2FxZlA4dnh5MjNsaFlRaFlOTVBJbm14alpiQ1NObWZFSEliM2owNzI5eC1sdFhxckZwTmhhR0JlbHdWeVJnaFpsbkE5S0xFWVJIb1oxdlBnSU5MMHJ3Zk0yT0NfdWdJN3ZrTXZFRWN1eTRkVGc4cEhrRVk2TlhqY0xzOGdkdTUyRmtrNVVkQ3Q3QS1IQ0tNSnV4?oc=5",
+      "investors": [
+        "NFX"
+      ],
+      "theme": "Consumer/marketplace",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Children’s Author Nadiyah 'Essence' Vance",
+      "amount_m": null,
+      "date": "2026-07-13",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVTJXZVVDVWJUUGZYSHVnNTNoOEU1T1RoR1B5X2QyMHMxV0VLZVV1aWNaRmZxdllhZHVpWDVOeGRPRTBBVVpQTHhVMUh1d2Y4Z3p6YXliaXpQNi1BZkxTSXJ3MmxESUZDQm9pQmMxajR2T0FxOGhJNGJMRy1IbG9pZVVON0xhbmxPSlcxeVlMNWY5ZEFaVm56N1VGV1RGdkczS29SOXB4Ul9zOXdIQ3NmdTljR1l4OEp5NnNlcm5yRHg1MkpfQzVQXy1sQUFwVUIzNlgyaENPU1NxZGJBNTlJYjBRcV9vZFNUQkJpbkJ3OHbSAfABQVVfeXFMTVUyV2VVQ1ViVFBmWEh1ZzUzaDhFNU9UaEdQeV9kMjBzMVdFS2VVdWljWkZmcXZZYWR1aVg1TnhkT0UwQVVaUEx4VTFIdXdmOGd6emF5Yml6UDYtQWZMU0lydzJsRElGQ0JvaUJjMWo0dk9BcThoSTRiTEctSGxvaWVVTjdMYW5sT0pXMXlZTDVmOWRBWlZuejdVRldURnZHM0tvUjlweFJfczl3SENzZnU5Y0dZeDhKeTZzZXJuckR4NTJKX0M1UF8tbEFBcFVCMzZYMmhDT1NTcWRiQTU5SWIwUXFfb2RTVEJCaW5Cdzh2?oc=5",
+      "investors": [
+        "Essence"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -620,6 +750,18 @@
       "desc": ""
     },
     {
+      "company": "Dexterous Robotics Benchmark DexVerse",
+      "amount_m": null,
+      "date": "2026-07-11",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNODlwRTdkc21iWGhlOUMwVXZKUmVqY3VsWUZGOF9jcU9KSGVLQzlXVjBNWTlYLXF5YU1UTkp5OHJhTlVaVUlIRGhkWVl2TzV5cDUyak1CWDl2SVJvYURDRXgtS2h2ejRtckNlSTdfQTQzUnZvRF9QRko4endHaG4ya0plZS1BM2dp?oc=5",
+      "investors": [
+        "Benchmark"
+      ],
+      "theme": "Robotics/physical",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
       "company": "xCures",
       "amount_m": 46,
       "date": "2026-07-10",
@@ -645,6 +787,30 @@
       "desc": ""
     },
     {
+      "company": "Healome Therapeutics",
+      "amount_m": null,
+      "date": "2026-07-10",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPU0c0Y1JoRzZ4eUtWXzVIamJwX2pac2RCNUZzWjdVMDZsdE5vWEpLbTY0SGJMckVwWHpjSmVLbE9xN3JhM0RyYWo5NEZ0VExGbjdlSTBXZlFlVkFLMWNaeml2SGpfY1BKYXlKSEZyUF9lU2ZIODFBcUp0WmdVRjZZTnVzanNFZDZLd3VhVGJUdmdUVEFlWVRSaUFsWjFqdzJhRjF5SVdRdXRiTUpXd1d6Ml8wQUpoeHBPR0txQnBqUFBacUZwTG51czlJbk5aSTjSAdQBQVVfeXFMT21yeUFfQ2VpOUlfck00eXhneW95SnQ0X21jRWUxY21fRkpWR2U1TXY0dUpxSURfWXR3Wk15aVJaSEdoT3RRSmJiVzZuTFRXdnNyQ0NmWGVQSWI2VHI1WXBxMWJtellQN0VSY0VPa3RoUUM0WUlwX2xXZm84VmZwTWNheWEwSVZQSEFDUF9OMkdPOWtNWGFTN3BWWC02VXhUVXlmb21fOXNOUTBxZEJpQ1RPeFhmaHZKbzJDOUEtZmdnQUdTZE5MdFV4bC12Yk4xcEtJQUw?oc=5",
+      "investors": [
+        "Matrix"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "“Panicking” CSU",
+      "amount_m": null,
+      "date": "2026-07-10",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdHdFbmdzOW82eFU2SnhHcDNxMnRTT1d1N09rcGtCOFFDQlJremRnTjdNVzUzQkJSQmdTd1RGSVNkdDZELXNnWk1ZckN1S2VLdnhaZ1JBcjU5V1F1TzlyTFBiQmJUaFVySWliNUdVM3dMVzhzZ0lPLUlWQ1laR1FoM1Qxa1ZuU1dmcHBJQlV6Rm5ULXBnak5PQk1VYVlBT2NVbjRrYXR6Yw?oc=5",
+      "investors": [
+        "Wing"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
       "company": "Databento",
       "amount_m": 97,
       "date": "2026-07-09",
@@ -667,7 +833,7 @@
         "ex-Amazon operations chief"
       ],
       "theme": "Robotics/physical",
-      "stage": "",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -691,7 +857,7 @@
         "Goodwater Capital"
       ],
       "theme": "Other",
-      "stage": "",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -731,6 +897,42 @@
       "desc": ""
     },
     {
+      "company": "New Zealand",
+      "amount_m": null,
+      "date": "2026-07-08",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sS0hlQ3NVaHBfY1BISDZQeXdLWnNLYktIV0RtZ3J5Y3NmN1M0T2I5OEpfWWNjQTVEWmFLUUpMWGRYN3ZMdGlYRk9acjNMZjlpRDRoNVM0OUNtSXE4MXk4cWszSTE?oc=5",
+      "investors": [
+        "Benchmark"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "FMG wing",
+      "amount_m": null,
+      "date": "2026-07-08",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPX2RiRzdXeENBRlhwWVF1aTUyYVRRMmktUHAyN2JoeVQ0WVQxOHdxMTNDSUNDRl9pTjBVOHFXZ2NjTlAxN0ZNbFNTcDNTMU1mcGQ2VXlxMzFKUXVmM0xIUnNKaFNTQ3NLeEV0ajZEanpRQmNTSGFucEU1NmZ3azYyS1BxS1FzZVc5YVdUNDA1TGxVclNnMkNBdGRvMFJuMGxCS3lPbFFNMFZsV21oZGMwVE91ckFvOWxBM1YyNDNhS1pwQTNNclJIWlM1SmtNbXc3TUVJVTNoM21tTjNWU2phUFN3b9IB6gFBVV95cUxOdFNYRVpqMC1IUmxLOHlPR21xVWg3U1dWa3l2d25PZVdPRFFTVHd6SUp0RWp1TExDSkpQa0cwMnVFc2hQQy1EMzlralJ2NmlWVVNGZllCTGhQQzVvZ2NzLVVlSHBjLXlmeTRIQjhBRkVxemRWZks4Zl9mclAyNW1EZGlES2V3OU9SWHc3c1BXdWVZN3Z3akpoVG1JZnVjcVEyc3dKSG43bUtBZTBHb1RsWUcwVndOWWlycTZNYVZ3Vl9wM29WdGVpejNGSWtSRmZlZFJGUWFZb2M0SmVucWR6QWNwMWE3WDRNUVE?oc=5",
+      "investors": [
+        "Wing"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Prior conviction",
+      "amount_m": null,
+      "date": "2026-07-08",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVXZaanFxWTN4UjdPTmRxT0M3MzV4bEZVa290TWxnbkl4OFFNS3ROMlV3TmFQUHFmS0Q0b1VPOWdCbk4xaUpld0VWY0pDN3Z5eXEtTkJ4bms0WEJXN3VkMm1ibkRaY3AwcjFaWmgxaFRSSGJQVEJ3RjVCQkluLXFldHNVWE1tYk95bFhjaFVQYWU3UVlPVjRQVUJwOFhfNW5CemVTc05JQ1RVN0gxaFhwczYzUU45ZFBCQUdLcEhZSVJKUkZoTUQ3UWw0V2xMbjFlSnZqNWwzVUQ5aE91cTM5ZG1ISlNnU0gwdUlqU21xcDhWMXhta0QxV194TQ?oc=5",
+      "investors": [
+        "Conviction"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
       "company": "AI law startup Norm",
       "amount_m": 120,
       "date": "2026-07-07",
@@ -739,7 +941,7 @@
         "Khosla Ventures"
       ],
       "theme": "Other",
-      "stage": "",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -751,7 +953,7 @@
         "Accel"
       ],
       "theme": "Vertical SaaS",
-      "stage": "",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -764,6 +966,43 @@
       ],
       "theme": "Fintech",
       "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "REPLIGEN CORP : BENCHMARK",
+      "amount_m": null,
+      "date": "2026-07-07",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU3RLSlJFdzZ4TG0wWDM4Z1JaM2xXZ1REeVlnRUhwRnpoLVdkcVFIVS1RTFBERk1fUUFWTF9lUUJ1bVhsTEZLSU9LeGZNNTVlLWFkVXhSUy1GQzgydEtCazVNa0J1OHlRVjdoUDJxaXI5YjBFOXN1Z3FLRzdTY3E4ZUlPc3BLelVxNkRFSk5nMlZuRnBQ?oc=5",
+      "investors": [
+        "Benchmark",
+        "HOLD - Moomoo"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "alqem",
+      "amount_m": null,
+      "date": "2026-07-06",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05dTB5T2VNVHJZOGZFc01lZ0Jrd3BmeDF3c2xzcTI1YWtSRG10YWZTSThlaUtYNTNpd1pULWlWTC02T3VrOHNTSFdKbjlaM29Idm5rR3lOS041Q3ltb3dOUHRfMGVpMXFCSmt3dFVhcXRabzdHQVpr?oc=5",
+      "investors": [
+        "Union Square Ventures"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Indonesia",
+      "amount_m": null,
+      "date": "2026-07-06",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ1BWVEowY2tnTGM4ZTJIdlJ6RG4wYjZhdkZQYlVmR1dnM3hmWU8yMVl1QVBPQnVlV214MWNuNU1QeGNnbXlPZFRxZTNKZmttS0xxUnUyakdvSTZtY3BxYlF6ZXpFLUFnbVdPclBsOFVhVGJHeG1oZ0M1WmQ4bkxHTTB2bzNZNWRUbnRnRXJ1NA?oc=5",
+      "investors": [
+        "Benchmark"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -789,7 +1028,7 @@
         "Union Square Ventures"
       ],
       "theme": "Other",
-      "stage": "",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -814,7 +1053,7 @@
         "General Catalyst"
       ],
       "theme": "AI infra",
-      "stage": "",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -839,7 +1078,7 @@
         "GreatPoint Ventures"
       ],
       "theme": "Other",
-      "stage": "",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -865,7 +1104,7 @@
         "North Island Ventures"
       ],
       "theme": "Other",
-      "stage": "",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -877,7 +1116,7 @@
         "Eclipse Capital"
       ],
       "theme": "Robotics/physical",
-      "stage": "",
+      "stage": "Venture",
       "desc": ""
     },
     {
@@ -889,38 +1128,1328 @@
         "Riot Ventures"
       ],
       "theme": "Defense/gov",
-      "stage": "",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "Integral",
+      "amount_m": null,
+      "date": "2026-07-01",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNW1nSzRsMmkyWWRGZXlJZ2tuLXBQcFJGSk9sZ2hHWnBGMnNBLWRxS2pCZDgxcnl2aFRLZXM4NFNMSWlLX1NBN3lEb1BTalkxclp2N3g3VU1mX3VEWW9nd0dlUUpHVzdZNDNOMG9GbXJOU3RCYXVFWUpUUEJHaVJTTGFTQTdNUUpTc1Y1ZkM1WEdQMW41SngyYlk1ZHVYWk5WTE1RQkdkOG1wRnlUaktiLWo2OFRmNmZqTlVQdkRnU0ExS3FiQld1LVlobXNkQ1Z6dUpvV2V0TTJUTGc?oc=5",
+      "investors": [
+        "GreatPoint Ventures"
+      ],
+      "theme": "Data",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Straiker",
+      "amount_m": 64,
+      "date": "2026-06-30",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTDhLRVJtQ1lqU3ByMENPQzNmSHlaam9Lc1J2U1FTdFhyT2JrZ050MXBocmk5OGJ4Zlg3UFVuYk1lZVdubTIzS2lxOXV6aVZfYnA3bnZQUTV2clh0c0NVclg1RnBuM1YxNHJzeG5EZjdMM2NuX010a1owSlMtWFNxbTNiZ2JZbXBmQXQweg?oc=5",
+      "investors": [
+        "Bain Capital Ventures",
+        "Lightspeed"
+      ],
+      "theme": "AI agents",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Pie",
+      "amount_m": 24,
+      "date": "2026-06-30",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYUpEWXNDS3lHTDFuQzVaNVFjcXFheG9Lc0F1cExnM2xUY2RweVZzLVBqTm5LdlNFbDRNbGpVLWMzV183bWZOMS1FaWwxc2ZTekZBdmU5d3V6aC14bElxSWxUOVRlLXNCendEb2daaVROWVpOdFpBX2ZfLVU4SnhHbjZsYXJqc1N2ZzJEblJjZTVlaGxfbjRCYWlFZFRyNUNDdlZXN280Z2RLT0g0THlYQXd1b0k4RXpzUmdiRkxSMUhJSDhVaXVHVA?oc=5",
+      "investors": [
+        "Lightspeed"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "AllHome",
+      "amount_m": null,
+      "date": "2026-06-30",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNU19mZVhXZjVpYzZZcjA2NkQtYnZXUjhVQmhjdzFQMldfN2NFd2JtaDZIeWU3ajgwQWxvbE01b1VlRnB1dG9NcGJfUjBmenRIb2JaYW45MkR6bkpBMnc1MXN6cnhrMnZwNlFYZWlmVllmcDdQR3ByUEtYSHV5cTJRNkx2R2U3WEdQNi1qS3N4WS1GbzlEQ0xxYnVVbG4xcnpUb1JOcUpkZ2tjbzh3cGlmTWotSG5jeEFYSTRMN3dPQ2RHM3YtMUR1UElydzFmbkdVTjNuUDI3Y3g0U0tfTlZoSFJjRQ?oc=5",
+      "investors": [
+        "Bessemer"
+      ],
+      "theme": "Other",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Canadian fintech Float",
+      "amount_m": 85,
+      "date": "2026-06-29",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVVNfMlZ3TVNneHRzbHZtbm1ERHY0Vnd1YkhpUlJUWlM0N2dKMDlhWnZWb0FzZ0J0ZW94OG1rRjAxYmlwdHk3OS1PVVJFS2FqNHVxLXlKenFFd1p5T01HcTFKUjZxUlVPbFpZUzZDRzNrdl9DNWNQak9PY3hXSUd2RkNRYw?oc=5",
+      "investors": [
+        "Inovia Capital"
+      ],
+      "theme": "Fintech",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Sandstone",
+      "amount_m": 30,
+      "date": "2026-06-29",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5b2lGaVR4MThTdnNHc0dLZnJ6ZHR1SzBzckFvNFRoVkR0WldfcVZ3R3JOUkxuTmJPYTNlQUlaTmYtYWdzLW9CQTV0aDJVd3hkWFVUR3M4SEU?oc=5",
+      "investors": [
+        "Lightspeed"
+      ],
+      "theme": "Vertical SaaS",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Pocket",
+      "amount_m": 11,
+      "date": "2026-06-29",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLXFJMXU2UWUwZkNnWFlGYlgzV0U0YjFsSjBQd0ZGN05WUDhoWmp2dUNFaDR3QlFhNmJXN1VkaV90T2dpMm53ZV9KN1I1MVRmbnZjX0J3WTRva2JYMjYwUy1OdjJUcnlfNDBqOXQ4cEJKTjdibDJudTVYVENWTWJSdmtCcjFDaTFhUHdGdDUteFZMWHFVVFgtVlJn?oc=5",
+      "investors": [
+        "Accel"
+      ],
+      "theme": "AI agents",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Sinner's shaky start",
+      "amount_m": null,
+      "date": "2026-06-29",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONEVNTHcxRHozaDlNQm5HZmtEelhtakprN3M0N0ExOVQ5YzlYRTc4YjRqRUllUmJaLTN4cGxOOFJrLUNXMmxvbjlQV2pvNGkyUEw3SF9mVkdnRklXU0MzLUtjaVZnR3BKb3hZc0RHRlY1ZGpvTUxQa0N3Tkh3ZnpYMmhudGE5MVpMQ3Q4VHd4ekpDcEpWTnVvLVpEUFlYTmUyR1BV?oc=5",
+      "investors": [
+        "First Round"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Redo",
+      "amount_m": 81,
+      "date": "2026-06-26",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTEczNFFjemxvVy1kcWpmcTBhY1EzMkQ2dUNqdWMxcmgtRXdONkxwdXBDLVBIMU9lNU1oZFJ2RmhLRzBoS1BBSHlUT1Ntam53Z21kc1VsRXAzRFkwOEpVZTdDc05FTWt0MVZTSkRFWHM4a2JPY0NmdlVmY0cxMVVlZk5FONIBiAFBVV95cUxNbVZ4eEV2RHBUaW1OUHVsbktESkwwMFpmeDFWUzBYSFFReUtMbkQwYVJyNkozWjgxRG9abmNBcWROY1EtZ3k3bVY4OWpCRFRuY0hObU5XU2F3S3ZlLWdFMUJjS1RrWEs4NHgtYkdQNWVYWWVLYlVfdm5MY3dHd2JEUmtSVTBUUG5a?oc=5",
+      "investors": [
+        "Cervin Ventures",
+        "Pelion Venture Partners"
+      ],
+      "theme": "Other",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Draper, Utah",
+      "amount_m": 81,
+      "date": "2026-06-26",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMkNiYkhYZmFwSC03ZHdIdXVJWFFIaDRaTHNfRHNBLUk5NFA1aGY0V054WmduUVdFbm1nUHZUcnJwTERmVlVYUWJ6NFNkelc0RTJabXVoeUJ5cjNFSzc2NWtqZ3c0c21oVUVJSy1CU0pGRnNsOS1QRDNzREpncWNaWHhMaUJ0OVJjWm1TVFJPUDZackJBWHlfbUJMY1pzOGE1LU5LQWQ2TUVRS1pHNlBKdk5sd1F3Z0x4MUlQNW1VdVpZSmp0X1VLUE5wSQ?oc=5",
+      "investors": [
+        "Cervin Ventures"
+      ],
+      "theme": "Other",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Fomo",
+      "amount_m": 75,
+      "date": "2026-06-26",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX2tONFZLdDMzdkhuU3FEZW5TU19VbVNvbk9wNVFycGZlQnpyMl9hZUFDalgtbHY3ZE50RmtHZmdvejR3RldUTnFONFp4Z2tfWkpKZDFTUGs3SG5lSkVGaDhRcVFFSkNKVWhJQ2VWZ2huSnUyOXJRN284TzJPdDlBaFZkdm12dTRnd1RJUWUzUnhUX3lsMVh1Uy1LLXU1cnJTM3JJMVhZNGpEUQ?oc=5",
+      "investors": [
+        "Union Square Ventures"
+      ],
+      "theme": "Fintech",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Warp",
+      "amount_m": 60,
+      "date": "2026-06-26",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zandWbUUzS1h1YnBmQVNmdHFGRTRXdE1LNHpQSEl2cUt4R2h6b0pJNnhsLTRnT1h5b2FmcV9RcVZsbExQeTBpaFF2cjZLZlVjQkdnbzZ4Z2gtZFFaVFdtVzZTSU90QkE3REFlZHZ0XzdCMXc1dzJJRjlqX2o?oc=5",
+      "investors": [
+        "Y Combinator"
+      ],
+      "theme": "Other",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Hera",
+      "amount_m": 27,
+      "date": "2026-06-26",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY0V4XzVxbzJJeE8zN1lDeXlWQ0tPQW1JN0t5cHZPeFlIajNPR3BOMC02d2ZKYnIxMHVhdXZnRS0zdzV1UzRvV255QUxBSTV2b1lpR2ZoOVlPSVZYb3B5bGc5eHJVcDhLN0dNeUh4cU1RcjZnck1uX3pjZ05JbUxCUUdablRNWjN4N2NFQU5TcHFNWEM3cWlrNTZHQjlEd2IwNml6UU5GMlZnUWJyRDZzN0Nn?oc=5",
+      "investors": [
+        "Bain Capital Ventures",
+        "Bain Capital Ventures - Pulse 2.0",
+        "IA Ventures"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Tomo",
+      "amount_m": 5,
+      "date": "2026-06-26",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTW9CemZ4czVLbDlsR2RxODRKRUxhV1gzcXh6ZTJ6S1lvNnhwb05NYWhxblVHSWJPNnV0TElzYk1FTFdmMzZ5TVk4Q2hzMWExSjhRaTVicFBQS01OQWJnbi1RSmhnMlJBWGZrQnVsZmJTVUVPNFc3emVUR2NNUFlXVTd1MURnLS1B0gGOAUFVX3lxTE5KQ3F5aVBjY1FVRmN4N3FsVlRYVVRJTDQzbkpYXzhpUURQOHp4VVZKaTA1Wm16WExBUHhjOHhicU5NWVpUU05VR0ctMHd1S1hpWkNLVmNRM0J2NnlJSmhXRkNsTDRDd1MtSjF5LWVRYTZwc0hETk9PZFBaVTN4UWRESU5XMjJkSmNkYkNta3c?oc=5",
+      "investors": [
+        "Bain Capital Ventures",
+        "Bain Capital Ventures - Pulse 2.0",
+        "Basis Set"
+      ],
+      "theme": "Other",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "PharmEasy founders' new startup AllHome",
+      "amount_m": null,
+      "date": "2026-06-26",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcWVHX2tKQm4wejVXcHlmNnRpaENyTjBxOTJwY0JndDFfOW52QXMyVFNuLXlMaURiSkQtNk0xSTItWUdEU2phT18xMmk2U095al9DZGhQMVJBSGRmOUhtSlFpWG9zb2FTSWxqZGktUHRpSWxCTUhlXzBiNTJSaXk0RjU0UzZCSDlpWVhoMU5HOE1Sa1Z5N3dCU1VpdUxvUjE5a2NOLXNaNUg3aTBIUkpYODNjbG5qZEY2WVZPM1BDS0Zpc1M0TmtNSDRETjlnRXlZNWRXVDFuYVJUTmhEVm8tRk5BajPSAeoBQVVfeXFMTnFaakNlUmRDeHRJRG9GM1lhSndEZXpZaTZKMDRRRFhsaUxzVVQwVzdSZjlKNzhJdXV5c1BuN1V6WjFrTDNKU2lWX2lnVF94OHZRTlBMRWhYSjVhSGVETlhRdzZOYVplaTk1VFZGZGtDQmhjWTVQd0UtSmRWQXhLbnNSdVM3ZGV6RXFiNzdEazYyb1FEVllGWi05dEJUTFhtaG9GQlhnaXpJSE8yQ0w4MTBoTHNmWlZRdzdTTm1qYVkxaUJ0Zlc3MENCaWgtZEtlbS1WQ1RJdXBUTjZ5RzZoU2Y5YXRzYjJNdldB?oc=5",
+      "investors": [
+        "Bessemer",
+        "Bessemer - Moneycontrol.com"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Trase",
+      "amount_m": 107,
+      "date": "2026-06-25",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOQTBrc0gtdnFMRFlEWW82dFFDbS03Yy05MXNBTFQ3T2pZdkpBRVU3Z25yU21Tb2l2VjhveFlBODl2RDFteFZ6MnRmYWtBaGlIc05FMVNvbWpFU21XUW1EZDVTRS1sMlN5S1c3d1Z1a0p0bHA4V2JTZkFscW9DUVpVLThnWmItWmtXRnRpWkdldm5yWEJmRmc5R0ppdkNmY19najVTcnh2bjRYd3pkckVwQl9sd1NtbGZLdS16US0zSG96a1QzSnFyRUlraWRmazRiU1IzSklCbEM4NTdGUnNVWlpRbVdBLXRQbjVHSmtzMFF3aXpKNFhGOFBSeE51UnZBTjR0U3FBQlVKQi1CTUZoSkFEUWs5QWs?oc=5",
+      "investors": [
+        "ARCH Venture Partners",
+        "ARCH Venture Partners - Pulse 2.0"
+      ],
+      "theme": "AI agents",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "Scaled Cognition",
+      "amount_m": 100,
+      "date": "2026-06-25",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWTFOcmVHZFVmUE9oY0pETzA5NGw0WUk4THFSVi04bVR1TmtjaWZ5WEpuMEg5VGFSM3hoZEhqNGQ0M2xobnF5V1FRcFpMaWhadFkzdkZ2T2lzU053OUI2UU5wZTQyemQ5V18zVUV1NzFQbUh5RGlWM2IwUWZvSGd1SzVfVkYza085RnR2T2pR?oc=5",
+      "investors": [
+        "Khosla Ventures"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Float Financial",
+      "amount_m": 85,
+      "date": "2026-06-25",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbFpaN2p2ZktQUExrRUNRQjAyYks5dGZocnlSX0llZmstUE1feE9hYTdLYXBiVkZ3b1lOZkNpbEw2OEduenlJUFJhY00zcmZMRWgtV2xkZ052YnBncTVxbFlPYVY2czhraEV3b3ItaGVPYUFHNVVSSUp2TmEyQUQ4X1F4MDdfYlowd3VtbXNfTkxGU0ktMVRmUTNIWVpnTnBTTFlXcHFrRlN1T3pON1BUemY3MEo0YzlwWjBtV2x6U2hYMmFkdC1CeEdvTTF6UXlVQUpUN0ZyVVBJcE9qWktUNzBNbHdxWnl6RFQ1ZGln?oc=5",
+      "investors": [
+        "Inovia Capital"
+      ],
+      "theme": "Fintech",
+      "stage": "Series C",
+      "desc": ""
+    },
+    {
+      "company": "Sail Research",
+      "amount_m": 80,
+      "date": "2026-06-25",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaFcyM0l4RHJld3RRVjNGZUoyX3BvZHdaY2dEUm9NamlvM0RTRjJUemNFUVpoT2ZJTnlJRy10UWZkTjBmNE84OFNkVk5QR2QtRGwya1lHVEtJUHNEdElKVEtJcmtWWmpURzNuXzlwMHRJVGY4T3VwRGs1ejIzckVYSTV1NFFxd0lPRllGUnlTdjA2M1VsMzlJazZmN3piS1ExeU5OeTFtVWtYUVZyZnhKYkZjeXJLOVNDZ09pSmZDVnVRZ3k4czVlVDFrNlhub3lwMmhGSkFPVQ?oc=5",
+      "investors": [
+        "Kleiner Perkins"
+      ],
+      "theme": "AI agents",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Ornn",
+      "amount_m": 33,
+      "date": "2026-06-25",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZmJHa2R6VnhOVmJZTTZkSnpJRVg3SzBqdTFkdU1yR01oUFlYZ3cxN00yckpvbWY3a2VtQ3NJZ2FYSFFYNlJrTTI4U05ZTk55eUE3MUZoYzRfM2FXRlhFWEcxa3h6M3Q0TzlLQVVPZ2lDalQwVFhnd0VJUXEybThJeUllYUQ?oc=5",
+      "investors": [
+        "a16z",
+        "a16z crypto - Futures & Options World"
+      ],
+      "theme": "Crypto/web3",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "Netris",
+      "amount_m": 15,
+      "date": "2026-06-25",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZEo1MFBpaF9DaUFtREdDMFpjeHFmc0NacTdJUnI4Z3YtbUJfTVh0bzlkMzZOOGMtaWFNSjN0SEdudGJaSFYwdjgyOTRTYXV3ellIbldRYmMwaE1vMndGUjhVY1Q3VktIOHk0UTRqTlRUNXRfM05sbUdSd2prWERXUjY5alhGdHlDSWNhcVRuenY0TlpBbWVqaQ?oc=5",
+      "investors": [
+        "a16z"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "SuperLiving",
+      "amount_m": 7,
+      "date": "2026-06-25",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS1ZmQkZzeHJldGkxd0tNUDBKUklKUWhBQWR2ZC1qS3J5Rlo0ZFppTHJLY29YWDdpT245U0xiTEZMRTFrVGJoanBVeHhfcHp1eFJYVDE4SXJVT2ZzMjBlaG4wNzVfXzN1WjNzdm9OdFhWVmwzT0NGbTRka1Uxb2x6dV9Fd3hZck1fcEo3Ql8zMGRydw?oc=5",
+      "investors": [
+        "Lightspeed",
+        "Lightspeed - YourStory.com"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Health-tech start",
+      "amount_m": 7,
+      "date": "2026-06-25",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZjVreUgzZml4Z3VaRnFiRjVNbW9FNDNxdWFBVW11eTdmU0htYlZsTDZHT2tPeVdmcU81eTRjei1oLV9IaHRNMGYwMm96REJYVDdWSmdXcGJ4MER1NEJwY0UxdHFOdGcxU3lJNWxsV2NVdHlod2RXTWcybFlUR1lNTVAxbnRsN3RWaW9fd29iQm1qWjRudFBCNGdCZm5aUFk1Y1lwVERPeTNzRGJuQ2k4SHdqbGh6RG9KS19xZXR3T1JjeXZmX2Y4UnhyRUJibzExNkpITFpDeWnSAd4BQVVfeXFMUGlVNGxHaWZFNU5mQXM3QXI5YVdTSmpKLWx6MWpBSmJmRW52YTUzSmFkYkhrRkc4c192YVJKbVBNeVd1ZXZvYjJGVDNpRFJLdkg0QVRKdW9MeUxMLUV0RDdybkRsOWVwako2NUE3bmpJVUN0bVJvYVgwa3MwUHROUXlWYVIwOVRYVGtDMVJuckhSd3p3NThYY3BNTUFFWjdfN2txUHMzNHRGZVlXMXNaS2E3bU84SmlteFQxQnl0bHo3NVI2V3hNN1Q5WjIyUEVVeVd3U3ltMmFZcllNZl9n?oc=5",
+      "investors": [
+        "Lightspeed",
+        "Lightspeed - Business Standard"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Revora",
+      "amount_m": 2,
+      "date": "2026-06-25",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVXBQVUJIUVhWM0xRWE5KWHcxWlFLdDFoaFVVQXQwV19pNGhGZHl1OFJKRXZYUFZyQ1kzS0Zwa2pzNFktZEdUWXhkNVVNRV95aU9Hc2RtdnBIZzRRYXNsTWU1dVJLbHpJNkI5R0w3MDBVTGxsMm5jR3d0WUE4VXlfNzljR3NBdnBnSTViR01wTllxamhNMG94UEZtZUV4U3c?oc=5",
+      "investors": [
+        "Hi2 Global"
+      ],
+      "theme": "Consumer/marketplace",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "BI",
+      "amount_m": null,
+      "date": "2026-06-25",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOUdjR253WVBHdDdhbkFJRmdkZGJZbzZzRm5vX0ZUWnN0QmRwZXNTSVVJa2lid20xcVpkdUxHWVJiUnctWHFVLV81TTVCNWN3cklKMFNWTmotX1dEeURjR1ZRdW5sekhhYXg3YVd4WFhxci1DdW1ZTmtkczFVOTV4QlNHUms3Y21JWnFKbGRqb1UySldpbmVBRGlQaw?oc=5",
+      "investors": [
+        "Benchmark"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "AI TRENDS",
+      "amount_m": 200,
+      "date": "2026-06-24",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYOV9QSlBCckNkblNUZTRWX1RYNEduQmMxbmxMZ1N2bVZkbDVkWHF6TUR6NUVjUzVQNnVlaVdyRV92ZGVNYU1iZ2R1Y2h1Y3N1VE0wRHN1Tko1SEdZRGtVYVpPbno?oc=5",
+      "investors": [
+        "Kleiner Perkins",
+        "a16z and Kleiner Perkins - Binance"
+      ],
+      "theme": "Other",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "Thoma Bravo invests in padoa, Taktile",
+      "amount_m": 110,
+      "date": "2026-06-24",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZDNPLWZRTG5JdGsxYkZoUVE3V1NkellNMHkzQlV2SkZ4WW9BMHFfbkkzME1xeEYwekpiWURSbWF5R1h1WEE3RlVUNmhDeTQ0V2Vzb1BfNGt5NWVMbzlyblB0aWdURTY4X1Y1VzU1WEMwWWFyYVo4eDhrS0lBRE9UZE5JVC14a2N6MFl3bXowejNRR1BmSUZoVDRSVXZudUIwdEVR?oc=5",
+      "investors": [
+        "Caduceus Capital Partners",
+        "Cervin Ventures"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "McLean startup Trase",
+      "amount_m": 107,
+      "date": "2026-06-24",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQem0zRThCaXFBN01nSUY1UXZ4cXZucFp3Vk5HeVVNT25fcVdmeEREblc0MTRuTXVBZTdFUGczS1MwZGVfZUlkQkJXanlNOVhVM0JldEZTa1hObTRxb0FwYkxQQjZJWnhIOHJwYjdQNWZOa2pvWnMzWVFOdXgwQ1dxdzFEMWl3SWc1UmF2NHBOVmowX2JDRl9pWXU5WnZQV05WUlZDWU1TZTk?oc=5",
+      "investors": [
+        "ARCH Venture Partners"
+      ],
+      "theme": "Other",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "Exclusive: Trase",
+      "amount_m": 107,
+      "date": "2026-06-24",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeFdmbFN1c3AxS3VmLUM1YkRqQVlDT1NCQU5DaXJhdmhfZDRFdkZNUWkxcnU5UTZuMzJhX0lMRm1ra2ExQUtHRVRmYVFNTGVDZ3hEeGdBemsycVZ1Q09uSjFzTE5HUnotU1hwM0hzS1NaSU9Mb2dmT0dzbkVldEtGQ1RlSHUxd2Etb3djRWxsUWRRM2haQnVXRS05QQ?oc=5",
+      "investors": [
+        "ARCH Venture Partners"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Cadence",
+      "amount_m": 100,
+      "date": "2026-06-24",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEJlbTFiOHNTZnFEWmR4RTF1NjZzSDBKX1RHS29uTDUtM055cDA0eERFZFVPdEczejBoeHgyOWZuVHJoOEcwNXh3WVVjRS1nUjl5VENfMGE5bzRJYVhZaWpRbTUtczI1ZThFcmdKTDlrOV9yWW42MUlQY2w5TzF3d2U3MUhHcTZxRW5mNTVoYjZvaXpZckl2MGJMcWtzUnBONXU2b25rYzBLb1ZHRTU0X2tFUVQ2aXhWYW9hTlB4dW9ucE0?oc=5",
+      "investors": [
+        "General Catalyst",
+        "Spark Capital",
+        "Thrive Capital"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "Series C",
+      "desc": ""
+    },
+    {
+      "company": "Trovy",
+      "amount_m": 25,
+      "date": "2026-06-24",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOb05sLWg4MGFuX0Y0S1lQR1N0SmIwUjRTb3VyYTk0TnJ0R2ZmdHFQOXEtSXY3UldQWW5tQ2diYnRlZjRBYVpwSi1EU2FGUXZ2UzB6SXJiZ2Q4Y0o3OFBaVDE4UGY1WlRERjZwYVY4eVk3X09EbF9lV01qWUd0aEF1VzNiVXB3eTdXNTVJTl9XbWZ4dFlHWHBGa1doQjJuRE0wWGpFbFd6TjVFcTIwSGJSTjFKRGJfb0IwTDd5NFFhZnlWc1ZxSjV1ZWZLb2wtMXJVR05fMw?oc=5",
+      "investors": [
+        "DCM Ventures"
+      ],
+      "theme": "Fintech",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "QOSMIC",
+      "amount_m": 3,
+      "date": "2026-06-24",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMDB2Wl84WDFHV0hJZ1p1ajdrM2FnZnpmTFI4d2hSRDhseWRFZG1UWmNZeVZzWEZ5MnlzUUhPMnR1X2FJc1Q4VkMxWGRmYXdPQzRxUzNPTGZrWFZQT1IwcW5Vc2NUNFdKZVhpbVJhLUVCRVEyTHVKUFhpWU1qaHZubHJVRmJudkJuVTBsLW1fZVZCMUg3REh0ZWZMdzBwTXRoVmZfQ2U1d01TZDNwLWc1StIBsAFBVV95cUxPMDB2Wl84WDFHV0hJZ1p1ajdrM2FnZnpmTFI4d2hSRDhseWRFZG1UWmNZeVZzWEZ5MnlzUUhPMnR1X2FJc1Q4VkMxWGRmYXdPQzRxUzNPTGZrWFZQT1IwcW5Vc2NUNFdKZVhpbVJhLUVCRVEyTHVKUFhpWU1qaHZubHJVRmJudkJuVTBsLW1fZVZCMUg3REh0ZWZMdzBwTXRoVmZfQ2U1d01TZDNwLWc1Sg?oc=5",
+      "investors": [
+        "Accel",
+        "Prosus"
+      ],
+      "theme": "Other",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "Revora, formerly MyAlice,",
+      "amount_m": 2,
+      "date": "2026-06-24",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcEVLQkU2V2tNc1VZQ0lMaUstTElYMUpreXFaZVZKeFd5MERGbllIQTVJaTZ6R3BoNUIwYmJ2Vkd5cTU1Q25hREV0eUx0WW1SMnVjOEZjd1VUTDNiblM3aUVyUDV3U0dFa2xUbng3WnM5WmpDTFcxS0ZSZnl6dnFLbHd3N0daMW4xZUdHdkRma2VXTExjczRvMm1vek1zSGZRZkpuQWxRTlZvQ3V5MVFlRQ?oc=5",
+      "investors": [
+        "Hi2 Global"
+      ],
+      "theme": "Other",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "STARK",
+      "amount_m": null,
+      "date": "2026-06-24",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DOWc1N0tLcWZ4bFowSXJCMG5GcDd4WEVIMEI1bklPNEljVlYtSXVIMW1Vd3VjWFdCTVRNYXJCM29mbUNoWnhtdHVzUURESkVvYnpYUE9jRlE0Wmt2b25taTg4ZzlFVnlVdWJqV2RWODJQeFdqQ09YTE5n?oc=5",
+      "investors": [
+        "Founders Fund"
+      ],
+      "theme": "Defense/gov",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "AI memory startup focused on cutting token costs",
+      "amount_m": 98,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQXppdlU5eU9CcThLWDluSjhoemx3YllRcDIyZFA4Z3owR0JKS1dNeFBBSDVLU3A1SDNscWVHOVJmMmw5Z3A1Rm9UWnJpaGVEQk4zRWRaa09SYUhqRU1ocFhWVk85WExIYU5ZMXJfR01GRG8teFVPQ3ZSWFRSRmJwVFY0cGMyWWZjbzZsSkt2Q2Z0NVd6dXJjLS01N2dELTdMX2dONFNB0gGrAUFVX3lxTE1WRzlOc2pBZks5amFpSDUtMnhCbUIwbS1DWF9DRkg2M0FTeWVFVHpwSzN6ZlBjb21TdDFjQlJ5ZDI3T1hDMTBSZ19ZUWdJenZUN1d5SFBtTVZSZ2lDdWYyaWozYXZNYk9SbTJJS2VwNmlrdkhpQS1xU19vN1JUUXBNVnVqclNRRGhPR1FhVEd0RHdZRk50TWdBbmIxY3VDMDBvOVp2aWlQMVZKaw?oc=5",
+      "investors": [
+        "General Catalyst",
+        "Kleiner Perkins"
+      ],
+      "theme": "AI infra",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Social Crypto Trading App Fomo",
+      "amount_m": 75,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcXhWQUQ4ZHVNNXN3Z2p0SEtTVUp3QlplLTVmM3pKYWt4Zl9zRENWb3pIejdrdlc0ZWctUDJFdzc2NXNHMnRYSjYtT3d2a2d2dVlnaUhPd1EwYWhacktPYTlLdnNzYTE4TW94S1ZFMEVNbUI3M1R5UTRtZTdCNXdIUGRaQlpNaDlyU2tsaVJpRkNneVF6d091QU1WSENpRHdoUjRjMDVjcGVpMnltVkdCeWg2aVV6TzFScHZFdlY0YXREYzN6QzRxdG5DRU5ZUHp4Rmww?oc=5",
+      "investors": [
+        "Union Square Ventures"
+      ],
+      "theme": "Fintech",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Probook",
+      "amount_m": 40,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOFo2QWt0bzgwSzNqc0RleUVmVl9EZ0Zyc0pHbkplWS1HWlI0WEEwOEI2TjA2NGFkRUNUc3ZfRUdlTDZza0czZDZOb0VzaUFIT2pMSDBTaFlsd1NGckplQ29Rd1E2N05OUDJYQVhvZ3hQZlF3ZmQ0WFJoTE5TdVo0N0Y4czc2c0pHQ3BDbTJPLVhVaTVGbHlNUmg1di1yd0doMnBhR2Vtajg4cVl5YXZsUlVR?oc=5",
+      "investors": [
+        "Sequoia",
+        "a16z"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Allium",
+      "amount_m": 40,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IRTFHLTNJMzZtUDVNbnJWWXdwcHlUb01LbG1kSHh3MnFnNldqQU9lYU5zcElRV2hJVGxsUXB3R0JsWXkycFk5dEhXZEE3bGFkdjRDV1BscDB0S3M?oc=5",
+      "investors": [
+        "Amplify"
+      ],
+      "theme": "Crypto/web3",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Exclusive: Crypto analytics startup Allium",
+      "amount_m": 40,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNlNYTV9nQlVHOEF1UW1yMlpxZ0l2Q3BKOGUxY0tqVlJycGpvdmszWFRjYUVvM1JrdUdmQXktMXFLaTlRMUZObEdtR1ZvTjJSYXFENTZSeUdVWUpBRHVuZGJjLVBsM2NGa3VhemZxZFotLXJLMlBaMmZPWXFJa19tTGRQZTQ5d3dTZkNYNzNhSlZidGc0?oc=5",
+      "investors": [
+        "Amplify",
+        "Kleiner Perkins"
+      ],
+      "theme": "Data",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Mitigata",
+      "amount_m": 15,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQam1ZWTE2TGF6aDlvV0tlLVlPN09jR1NCY2JmM25XM0ZaandGdmVWTTlhWmxCNnJ4Y3ctSVBTSElqdkhEU19XOVpnRkRTLTBUUGpoV2dvczBwellGaWlpa0dkZ0lQRjZObnBtOWZvZGc2OTJJd2FRNk15dzU0cXRCa2dOTjFXek9ROXBlR1ZCeDBROXpqaGc1bFNQcEU1RXJoTVF3Y0pqa0dxUdIBrwFBVV95cUxQSDBFWGNNSG13aFViNkc4bUg2YkFRV1dnb1JmRGc3TmNWZ1lTdHM5T2laSW82eDFYLThqdmZRclIxQ2NURnFWOE5IcGtQSURDSF9qemRRTXg1NDdveElWRmFyV25xam9ENDViaXZkc19aX01uUjVfRkNUdVVxMmwtQkpuZHY1RVc2eDlidGVMREpWd21FeENsTHpCbnlkY2FRU3AzaUpkTXBmZkR1X3pn?oc=5",
+      "investors": [
+        "Bessemer",
+        "Bessemer Venture Partners - YourStory.com"
+      ],
+      "theme": "Other",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Cyber resilience startup Mitigata",
+      "amount_m": 15,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd1IwNzRTc0R1VnFBX0tVRU5nenN2ZGp4SG52bFdIWWhKYmJ0YkpXb2dzNXVIZEdwU096NUZZZzFzbjVXZlpqaE1FRXVmZHNSZVZfSVRBLXFtd21fZWpZQkdOWjd3bUN3RlFZZ0UtU2xmUVVqWFB4UmhXOFNPNUIycFdtcnlsRWVhc2pjWlFmUDFBVHRzcV9fNDBHQnlvc19SVzdiMk9RYkRIR2lVOF8ybGI2M1hhZ9IBtgFBVV95cUxQd1IwNzRTc0R1VnFBX0tVRU5nenN2ZGp4SG52bFdIWWhKYmJ0YkpXb2dzNXVIZEdwU096NUZZZzFzbjVXZlpqaE1FRXVmZHNSZVZfSVRBLXFtd21fZWpZQkdOWjd3bUN3RlFZZ0UtU2xmUVVqWFB4UmhXOFNPNUIycFdtcnlsRWVhc2pjWlFmUDFBVHRzcV9fNDBHQnlvc19SVzdiMk9RYkRIR2lVOF8ybGI2M1hhZw?oc=5",
+      "investors": [
+        "Bessemer",
+        "Bessemer - Entrackr"
+      ],
+      "theme": "Cybersecurity",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Cybersecurity startup Mitigata",
+      "amount_m": 15,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPUkZqc2lGeDJiRWM4YWR4bGlrX0p2TE1WMHNXdDk0V0FCbTIxZXdDWk1NeS1BN1BUdjgwYXc1T2NodjFzaDhVOEdTSzBDUlRpZFRyYUt3OFZabjNsc3ptaERtUTl5bzh0Rng5VV80WkpqV2hDWFZZRW52S3ktRjZGb2lKelZXaWRoYWk1UXdjSzE2a213THpoRjBDZjNkdDl2QUlLbWxWcWhHV2M0azhPT2pfOVJrQjhOMEtPWWYtYWY2bVZYV1ZxXzNjU1pUSmdZczVSVWRSdXlKeUp6V0daS1Z30gHnAUFVX3lxTE00OUVjTEl3MGUwVEEycy1UOWtpZFZwanlHSkY3azRjbW9CS2lWYWFEbWNtTS12UGI0TWFPdEppa0Rld19UMWNFbWlmUjRTeDB4V29FRWFLRHN5RGNRRVVmdm1ScVkxaEx0SGtxRXJBX2JtM3R6MXhXWHd3ZS1nRmlUb3FNUjByN0NPUlc1UFVTSHBTMHJIUDlaMlNiSW9xa3MzRmlaWWhfYzBLZE43YWpTQ3FOREZuVUNGYTI4S0ZjZVZZZURPX3loMkYtWGlFVFhtN1R3XzRJQ3lOSXozeU5VUV8yNGpzVQ?oc=5",
+      "investors": [
+        "Bessemer"
+      ],
+      "theme": "Cybersecurity",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Ladder Health",
+      "amount_m": 7,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQR1R5ZnpqQy0yWURxTVdjUmwwZG5LemYzNFQ0SUlCd1ZRbmYta3FibVpNalJXUHlINkFQb25QR2FmTldSTmpVUWVBTzVoUjczQjVrQ2hpdG9Cd1UwZ3E1UXV2RDdTZjMtcGY1V3VvMjd5dzlfYjZaVzA5S1NUUG5OQklSZHFlNXU0WUtsaWFVczZBVk9uOXJ1bnpLNHpFVEtxekFaWE53aTlvcFBtNXZ6dVEzTmQxM2p6QXpYNGNR?oc=5",
+      "investors": [
+        "Hatteras Venture Partners"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "HaloBraid ne ki $7 Million ki Funding",
+      "amount_m": 7,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRzFyRVBfUkF6Qm4zSnplM0kyeGtybTgzNVBrUHpuYWtEb1UxUFhVcGlnMjNjZnc2c0VoYkVjbUR6VDlYUG5vMFhLMkI1NGdOdk1SemJSaV95Um16WVNhSU9MTFc2aEw3ODdha05BUU16Q1h4Sm1UVFhkdGhoVlBkUkF2U3ROeC1XQkc0RlpOX3MwLTRCckV1cmpjbnNBQXh2RFI0MDBfX2VJZFN1WHJLaDRzWlFQRDB4Z2NOaXlKbjRqNFVwU0paRUNGVDVRd1h5YUdGMjdFaVo?oc=5",
+      "investors": [
+        "Seven Seven Six"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Halo",
+      "amount_m": 7,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoV0NrSUJhcWZRNFJKM1FFeU5aRGt0Y0J1RVhSVVNjT0J6eXE0ZWtOU3hsWmZHOVl2U3JMYTZtUl9TamVWNzZVVmk1bndNRVJ0OGlUWlZMenk4RERXalp1STFIR3dtb0Fsa0ZxVEEwYkpRZUFLemk5YXBKcGs?oc=5",
+      "investors": [
+        "Seven Seven Six"
+      ],
+      "theme": "AI agents",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "HaloBraid",
+      "amount_m": 7,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOWtjYzFLUW1MR3ZITV9VWk9IdjdjRmNZZENyY0RBSFdjQ040VzZSNHhQLWRDM0RvYlJtMmpkeGw1RUdST1lKVVRrY0c1dFZMMlU2aDJ1VU1yalBkUTl5dTFXV2JHdDVvdks0RjJBdW5RRFRHOFZpT0NBNy1BNFpmT0ZhNG5BbjgyWmUwbWVzVnY3TC1kb3RqUWhHZ3NJVlk1QU5zbmExQU5YdHZsWmtiUjZMRGw5ZFdZMGc?oc=5",
+      "investors": [
+        "Seven Seven Six"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Six-month",
+      "amount_m": 2,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSTlmaDRMWGgyWWlzQnA4eVROQTBVNzlaREIwT2lVR0Q4VnAwUmVzNjY1N2gzMmlsYWotNU5Zd1Jlb0J6Mjl2MGkwZmlYam9FenhobGw4cDBrYnhGVXhQNE1DaFNHejFKdUthb0J1cHVYSi16MVF6aWlCcnZ4Zy1CcUx3dHZKUXln?oc=5",
+      "investors": [
+        "TTV Capital"
+      ],
+      "theme": "Other",
+      "stage": "Pre-seed",
+      "desc": ""
+    },
+    {
+      "company": "Menlo",
+      "amount_m": null,
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWTRrUkpyOW4yTTlFTUtkMXJMbzlFV2xfbUt5UlE3M2c5ampQRkVuM3NlMHliX2FyR1hISzg1RUNHUzlacTNmWXVOSm45Z1p1aGhyUmtxVGozdHc3dHc3UlJ5anlCOU5nWVlRZHpRcXBGQmVaUUtJNDhlVDdOSmZsTTIxV2JfRXdMM0NqM2ExODRhQ3Bkbl9KcDlyLVBJM3BqdDhoOUtFUU1LWEhKTWh0d2tLMkI5S1V3Rjc0?oc=5",
+      "investors": [
+        "Menlo"
+      ],
+      "theme": "Fintech",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Social Crypto App Fomo",
+      "amount_m": 75,
+      "date": "2026-06-22",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DVTdvZWlrTE1kT1JFeDd2TlZCRmVkaVJjdDN2REdwQmJ6aW9wdG5yLUpoS0xmT3g1UGp5VWxweUZNMjJLeVRNQ21QblRLN0c0bEJ4WTNtYXI1MElWeDcyUzI2aFY0Zjl4eUN0MUdvSklHcEpjQ0xhRFFSeG1DMnM?oc=5",
+      "investors": [
+        "Index Ventures - Bitcoin Foundation",
+        "Union Square Ventures"
+      ],
+      "theme": "Crypto/web3",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Trading app Fomo",
+      "amount_m": 75,
+      "date": "2026-06-22",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OR2cyMmdJbnlIVWxyMGdHS3RQZWVKMVJ6bVNURkpXM0pmNENpVVNrTkhUTnVSdkl5SUJYWVhPdmE5WTFxMl9KNkZxQlFBTTRtbS1rOExkYmt4Vno3bl91Ulg0WVJEUQ?oc=5",
+      "investors": [
+        "Union Square Ventures"
+      ],
+      "theme": "Fintech",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Crypto trading app Fomo",
+      "amount_m": 75,
+      "date": "2026-06-22",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbWtEWm1HOVFfem14OFRkMzB3b3M1YVQ0bnJWN1JhQy01OXNnVDh6dXZlYnJhN2JXSVZ6Z3pNNXJ5NmhLVTdxOVM5Q0RuWlhfUE9RWDhoRHJadU9WREN4TG9ONGhqcE1Ma1NWLWlQXzZFMGhTcXVHLXp0bXl6VWlvNnhRMFVpVm0zOVNkQkJiSndBczRyYzhiWm9LN2NfeVROM3J0RGhDbTRlS1o0Wm5XQmE3TUVUdk56VDA3Tmc1WWJjeTJsRF92SU9pUlFFNVhwZmpGZG1wOA?oc=5",
+      "investors": [
+        "Union Square Ventures"
+      ],
+      "theme": "Fintech",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Vedana Therapeutics",
+      "amount_m": 46,
+      "date": "2026-06-22",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeHgyQTBOTFVLczlJQU84T2l0QU93akpYNnFadmdXQ0VHVGpSZl9NRUtURG5taHpxdUNhMmV6d0FzUFlReE91TmRiZVhMMWZNeGlDbXozUzB4MTN0MjVJN2lRQmdjYzdwSjRLaWhjbENGQ1hxTDlSdmhYb1llcDJ3c1pmQ0h3VXpXa1FyU3VKZlc?oc=5",
+      "investors": [
+        "Canaan Partners"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Prosper AI",
+      "amount_m": 30,
+      "date": "2026-06-22",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSnFVX3NSQ2pSdjZTbmd6UHFmVURsaC1GWkVqUFJJWkU4eFNMUEtFa2hfd3cyVFVRRTM1aXRJdkZZMFZvU1hFaF9QVWNPNXctaVkyZFJOYThqRlEwWFFNdWF0Yzc1ZXAwRVJNMWdDeFp2b044UFRWV3FGdG9WLVNOYXJDOG4xanVZLUZWR0I0WQ?oc=5",
+      "investors": [
+        "a16z"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Ploy",
+      "amount_m": 27,
+      "date": "2026-06-22",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOEtab0h2c0J0UDBpM0dJeUdwcm54bnFhT3N6T2hnOU5PYWRyeU9uM1NJc2JUd0RjSUo5U0NDdFpVWkZPcUp5eWROLTFXOUN2T29oR1RYZUdnLThhOVpGNUlNbXN1ODBjMnltdkl3RHpBTHdQTFVVV1JKZmR4TzBxUUlIdWp3d1lPVVHSAY8BQVVfeXFMUHp5ODc2NHBLOEtlaTNfb3lGS29ZclZMUjQ3aEluOWVLcXhsSjAteS1jeUZaWXc3UzlTQ2RURjZRSEJ6WEZ0OEpKV1M1cjFmdU4xYk9QbE1SSmIwSXRlYnFTMG1WcWRmUUZERnJWSERib1UtQXo1aks2MnhZMVQ4dndIMDlsSEFFNUprWHc4SFE?oc=5",
+      "investors": [
+        "First Round",
+        "Y Combinator"
+      ],
+      "theme": "Other",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "Syntax Bio",
+      "amount_m": 14,
+      "date": "2026-06-22",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMDF1a3NzdVhzRS1CVVNRSTctRno5TkswWXdmTWFjMUg3bUd3MTJaZkZ5V3RjUjhwelJEa0FybVlRZHlSV3ZTTlR2UXljTUJZcnhKcFdISzBrSXBZSnZGVDdvbXpvTFBjWGtrX25EaUdCZ3FrYW80YUZyQ2RJZGxLNUhkSFMzMEk0ZFlqSUJoVjRLdUt5LVVEeFVXSmoxZ9IBowFBVV95cUxQbWMzdy1lUVF0TnBlc2JzZEFyellPclE2bHhiMXNzLXhDY2QwdmxEcGpWczlOVkk2MERpM3hkYkxSLWdPLTI4THBjVUpVemNORG1EN3dCdFVpaUJzRU51U3JSRFVqQ19KZnNVQW1PY0ZHYlplNkpzRE1EdkJoX3ZmWXdtYnpvV1F1SXRaTklTbUNQaGJYNWRhcWVBV2xJeC1ZTFRr?oc=5",
+      "investors": [
+        "DCVC Bio"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Latest FanSided mock draft",
+      "amount_m": null,
+      "date": "2026-06-20",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWElqXzFHWnp4Tl8xV1Via3RxcGYyNFZBb214RTlTcUZ1VWs3UFdQT1FHNWgwX3ZkT2dvT2RGN2I0Um02RkhvYmRHUXRucXBLbEt5TGpoSnJLOEVzZGZjUWtwVm1jSW1sOGI4MUF6b2tDNHpCUnpGaDFnbllyOXdmdUhGNS1xbjB0UjZXalZsLXliYkI5blVmYXZCX19fS1pnWURTZDlYUQ?oc=5",
+      "investors": [
+        "First Round"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Vetic",
+      "amount_m": 40,
+      "date": "2026-06-19",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb2dlX2xwbUdWVDNuN0t1Qk5zSWlKS0luWmxtRTVQZVQtWDcyVnl3VWxXeWVZRkJLNi1WLVF0cFV1aDFJLXRqQ1JicWp2dkZPcWwyel9sc3ZYSkkweER2OHdyUldaS0ZwV2tWZGFnd1dIdVVoQWhUeENtZEZYemI0NUJIMHZMa2h3RmRFVDAyeUE3Wmo2dzh3c0ZGaGd2c09ob1JBcUdnU2lndEtB?oc=5",
+      "investors": [
+        "Bessemer"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Sen. Gillibrand’s 22-year",
+      "amount_m": 30,
+      "date": "2026-06-19",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaW1yTmx5UXlnM0pPb2Y5WXNDSWR3X05PbzRUU0NFZzRoS1VpN3FEWVZmNU5SZEpxYk9xbGFzYV9aN180bEs2WHpjbGVWWUVIMVlCSGluMG5hdFdaU2FDd1hzN1JzTHUwa2xZeEtRQzJlU09lbzY1YWt6QkI0S1VSc051MFNBdTF3emp1ckNEZ1F6Qm5yZXpUYVNVbGExZlJsQVQ5UFpQTkdsRTZLV0w4dlBHaVdWMDFYMTZuLVhReldIU0MzNm1veHJnazR0ZEJGY0E?oc=5",
+      "investors": [
+        "Lux Capital"
+      ],
+      "theme": "Fintech",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Portal Biotechnologies",
+      "amount_m": 9,
+      "date": "2026-06-19",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdjN0Q3BNeHZvMDEtb1ZyZml3OHhjc3Racm1aODNwcW00Z0FFb2ZhekpONGVUR2tWU1RKNTNrd2M2N043NXI5RS1vaUpNVTNnM0JuQmwxU0sycEdFZnNKWnRDRkNLREo2WE9jUjlNMzEwbFA0eHJ4Mlg5cjh3MXRELW53M2p5NDA?oc=5",
+      "investors": [
+        "IA Ventures"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Twenty",
+      "amount_m": 100,
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRWxjeENoWFphcmFYTzBrM0FQU2FhZUtZc1hDdGt6ZEg4VC0yYXNMdG9aSldIOWp1bXVSbHlzZE8wUENZbkJhQnFNSElDRzBLS0stOWpWOXlVOVlfc2RPT0U4dUcxS2tKLXdfaVdhcEZsbjBDTEowai1oMm5ocm1VX001elRqMmdyVmxhSEwwc21vcEFTbjhNQ0RRc1pDUk1YSGtiN3M0OWFBaGlnd2F2U3JmYWs3UdIBuwFBVV95cUxNcVBpYUVwUk5BSWdsUmtUSjRhbkswWEh6Rmx5eldvYWxTLWhQZFozaHFQZEhBaUN3R0l1WGY1UlZIbk5vS0xPNTJVU19MY0QzSGg2UXhqaXVYLWs5dVVsM1NNZGtUTGtpcDlCVFl3b0w5QklBLUtIS2ZBcFl4RWpsNV9nbXR1NlBxQ2szOXdmbXpLU21uOXFucVlqcGVCXzNhamJXSFpYM0VvX3h4VDNRS1E0Y3cwYWhkZmRz?oc=5",
+      "investors": [
+        "Accel"
+      ],
+      "theme": "Cybersecurity",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "Gradial",
+      "amount_m": 65,
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSkFiZFRUcXk5blR3Vm5VMXd6aGtwQTU2aXZRTnpnVHBjV3U3OW1rQUlRMFpuQUdQQWkzU1pmVXZqSTk4bk5aVFZqMDJFUUtOUGJfZDdjcXk4c3FnUlUtRF9Bc1QzeGk3aEhySm9VV0phcHBKQ3B3RjVzN2xUNC1ZYQ?oc=5",
+      "investors": [
+        "Insight Partners"
+      ],
+      "theme": "Other",
+      "stage": "Series C",
+      "desc": ""
+    },
+    {
+      "company": "Pet healthcare startup Vetic",
+      "amount_m": 40,
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVhSUGY2ck90Q0tRaG5tbTZyNDU3V1JZSWtmZTR3Mm9FNldCYTZ4ckN0SnNBam43cVJDYl81LWRzcWJZRFJ0Tm5xdnl0eUhVaDNCeklpb3h6TzJ1d21QUkFuYlNidXFDVGNxMkZsSFdDdzBVUVVFQjhiaTJxQ2stZDFOY3FEcExoRUF3aklZUndoOGVNUS0w0gGXAUFVX3lxTE9NWFJQZjZyT3RDS1Fobm1tNnI0NTdXUllJa2ZlNHcyb0U2V0JhNnhyQ3RKc0FqbjdxUkNiXzUtZHNxYllEUnRObnF2eXR5SFVoM0J6SWlveHpPMnV3bVBSQW5iU2J1cUNUY3EyRmxIV0N3MFVRVUVCOGJpMnFDay1kMU5jcURwTGhFQXdqSVlSd2g4ZU1RLTA?oc=5",
+      "investors": [
+        "Bessemer",
+        "Bessemer - Entrackr",
+        "Bessemer Venture Partners - BusinessLine",
+        "Bessemer Venture Partners - YourStory.com"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Exclusive: Son of pro",
+      "amount_m": 30,
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZzZHQ1JTLTM3UlpSMi0wUmM3czBxZnlyQWJxQzVjZmtaenBka1RiUEZyVjUwcjFQeUt5Mk1qRVdvdzZQMmNCRXFobzIxZ2hhLWNWYmI2SkRhWW9Uc3o3dF9DaHV5UXZiVjA2TmJUbEk3Z1VINHZpSWRxQkd5VklFNHExMVNLR0s5SjQ3ZWgxWnFjcWNNQzhjWUZkT1lHR0ZZaWo4alJRV29jY09jU1h4YVYwSGl6RkNLVFZ1RVYtck5rWl9XUVh2WXVMTUEtb3gxdGc?oc=5",
+      "investors": [
+        "Lux Capital"
+      ],
+      "theme": "Crypto/web3",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Pramaana Labs",
+      "amount_m": 27,
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNRUpXenotOTBwdkRQZ0VSZjBoM085OGNsWUpLU0o0Ymh4QzF3Q2Y0c3JVNnZaak9rUE9OQUJxMTl0Y1duUnBiS2dvbnBSME1tQVFUMEI0U3RyMGIxZ09HMjBNcHI5c1VRaVJKNFN0S2pxVUtELVh2QzRTaGEzd3B1T01xVXNnbnBGaTdYYnVZRTc0WmRxdVNmdEpobVA1NmJ3TUVlbWQzaXUyRWV5V3c2MDlkV3RsLXVTUVFuQ3dpYWt6V2dTRXpyb1pReWhtMUF0LWFBZkF3Wk43YjNZU3RjNU5sR2lPS25ERDBtdE9YYXBPNFZQVURQcGZiZlpoNGtnb2RfWnllTkg?oc=5",
+      "investors": [
+        "Accel",
+        "Khosla Ventures",
+        "Khosla Ventures - Business Standard"
+      ],
+      "theme": "Other",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "Indian AI startup Pramaana Labs",
+      "amount_m": 27,
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZU5kV1hIYlhrQTVsX2dXNEt4QUtIdW41QkVJVF9xOVpPNkMzMlBUYms5UXZoRHN3ek14T0xJNUNMOEtGcEZjOVFnX2RjcFI5X3F5RnlwWC1ySTNlcVF2WUp4cUhiUnQyZUgyaXItRGtUcVRhM0hzUmN6bjV5dk95aQ?oc=5",
+      "investors": [
+        "Khosla Ventures",
+        "Khosla Ventures - DealStreetAsia"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "AI startup Pramaana Labs",
+      "amount_m": 27,
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcm1zRm5ibnVfUTZ3cmVZZFU3UmZQYW5mRGl5cE40cDBkcWZLVHNMQXlNbWFOUmdmVEw0c21uYzYyRnNZcHdtV1JwcnZKR3FsVUhMRDlXRGVuMFYySkpYemN0NFctYVZIaHE0ZVBaZEhURTNRSWdZT3hjOWJUZldaRFlCVjZqZU9oVVluMXUwbTU5ODc1N1E?oc=5",
+      "investors": [
+        "Khosla Ventures",
+        "Khosla Ventures - YourStory.com"
+      ],
+      "theme": "Other",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "Endoscopic Robotics Company Channel Robotics",
+      "amount_m": 5,
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMnVPUHlWa3NLUEotdGxRZklRUzNOeldFUGR6aEszOXh3aGpRVElQUnpLSE1JUmVneTJmbzk4Q3ZqMk5hZU0zbDF5LVplTzRfbmVZa3ZoVXZacFN6ZTlCeDE3cDB4WG4tMzdET1VRQ1lNVllfbVN2SXBPdmcyWllrQ3JnM0lLcDQzTzYzV1ZfMEdVRW40ejBMQm10blRzcXVCYW5JamNRcmFtOWJ2X19FaERySFE3dEFxaXpV?oc=5",
+      "investors": [
+        "True Ventures"
+      ],
+      "theme": "Robotics/physical",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "3",
+      "amount_m": null,
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObHVTeUt2NnZPMnBhZm9ZaHpub2ppWUgxLUFWTE5WM2hReE1wT3hxZDJzRl9maVNRbENTMHFwZkVQNGdHZ3gwdnZianBIV2RrZTQxTDdMeWR1T18yeTdfVUVUclpmSFRjbTJVSC0tbjJfejBPSnpsR2IwMzd6STdiZHViY2sxTm0zaEl6ODVCUzVCLVF4THVXNnRuZHFkUktnS1dlVWt1SkZWLVFlb2lpN3RKQTFDdFFxWTNKOWtNVUdsQjQ2MUdiZDNvTW9WcnZCYWUtclhsYk_SAd4BQVVfeXFMTWhyc25QTmgwd2RaZ2I2UnRHWWphWkFRdERsRUl6dUFvQnBtMlJWaFpRdklTejZnY0xNNmxrcVY3RUxyeHpuYzhMN2lQMFJCbWlaSGY5ZEU5UVM5b2drajRZSF80TnJzNDRwTy1DMDVwMU5vd2cyM0I4RVJNOWNULVdKSEdQYlVPb1czZGRCbUZ1allZV3JlU2lYUTV4UTZySVBOWUVQdW44R2w2WWZVdnFjRm0tZUh4Nk1HMDREbm5VZDJvbnN4VTd6MDVsYTBrSWdWM2Q0em1XRzRHV1hR?oc=5",
+      "investors": [
+        "Matrix"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Vergennes battery project",
+      "amount_m": null,
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMGJObGlKWDg1WUVUT0lRSHd6N0tKMV9jOVZqSWNHMVpnTHptazBiRWdwS1l1VmdDZmREMFRNNnEwYmVZekJ6bUpOdzlFMW55LThsM1hjWUx3QnVwVUhIdEdMcFZwWDRfVk95WE5MT0FQUFdBT01qYlZkdVhVdHJ3d1RHT3VtdHp1ZENj?oc=5",
+      "investors": [
+        "Battery"
+      ],
+      "theme": "Climate/energy",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "AI cyber warfare startup Twenty",
+      "amount_m": 100,
+      "date": "2026-06-17",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUFM3TmFsQS1xMnRDam10YktmbFc1NkljblhBZWF6QU1CMFhDUlhMMXpYRlpQemJzcThYUGt6VjZ1QVJySmt4a0pjMk5wZWhVdVNhN2pDTEhtUjZQUHprQUN6YWtkWko5X1dJeXhwbzU4R0FrS1VkdGRfRHIyRVBXT251OWp4MXIxS3Z1N2EwazZIRlZVYTNEMg?oc=5",
+      "investors": [
+        "Accel"
+      ],
+      "theme": "Cybersecurity",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Convey",
+      "amount_m": 38,
+      "date": "2026-06-17",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQUHd5VWh3ajFvZ2lqblJfU2FLUks4VVFDbVNYU3lGaUx5RExaa1BZRy1VNGhSV19PWUpreTFRT0h6dXVQNEgxM2VJNS1MdmZWNDJleEY0WHJBTlpoX1BaRk44RGZfQUtlSjh5YkxNbzdud2xDaGNidjNiakJYZlJ3bkVHQW5LOUFLaUpJTmpnLVFjZHRqVjBCR21DNkJfTW5WbkdpQ0hXRjZfbGY5OVJDdW9LYU1tTC1ucE5VUXhMV2RXOUVxbWJoNzNYNlZEbjN3bWhBZzVaVmhMLTloZ0UxN3REMHhYSGFQZ1NpbWpkNklYUW9DWWdVTmYyQmJxWFg3QXc?oc=5",
+      "investors": [
+        "Khosla Ventures",
+        "a16z"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Telepatia",
+      "amount_m": 33,
+      "date": "2026-06-17",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NNm5QNW5WWi03eUJmZDc4X3F4VWFhbGh4RzNEejVncFZyNTU3cUQ5b2dVcE9BSnR6U1RGajdpalBSMGVCMWo3VXZWdFhVTFBtNkx6d0JMZTRscFV2Y05sVjZCSWFqWmxkSDY0dlhHMWk2NW8?oc=5",
+      "investors": [
+        "a16z"
+      ],
+      "theme": "Crypto/web3",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "BoldCap",
+      "amount_m": 27,
+      "date": "2026-06-17",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZkUzcVo0b21LVTlpYVVmcmREN3pWOHJtUkVCSnE4cnB0QUUtVTRkcXIyS0NCbUYzLURHeWdoZkVHcGxoekFRbjQwT1VES0tPZnk2U3hrVGF6dlR2VUdRVzNPeWZjX1JXZXRGMWFQVXNDTU1GVHdnNEdVc1FqN085TG1VREcyMWZRMkdac0lZS0laUnB0VUZqUmNBRUJmcTdl0gGgAUFVX3lxTFBmRTNxWjRvbUtVOWlhVWZyZEQ3elY4cm1SRUJKcThycHRBRS1VNGRxcjJLQ0JtRjMtREd5Z2hmRUdwbGh6QVFuNDBPVURLS09meTZTeGtUYXp2VHZVR1FXM095ZmNfUldldEYxYVBVc0NNTUZUd2c0R1VzUWo3TzlMbVVERzIxZlEyR1pzSVlLSVpScHRVRmpSY0FFQmZxN2U?oc=5",
+      "investors": [
+        "Khosla Ventures",
+        "Khosla Ventures - Entrackr"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Flutterwave",
+      "amount_m": 250,
+      "date": "2026-06-16",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5pb28waUYzVldCQ1ItNlNZekZ0THVsX0M5aDhKenNXMEdUYXBvNERwYUZRVk9saGFrMElHbFhRWmt2NThQaU1GWnppUTR6RWNKcGh1UFloV2VyUUk3V2dVbFZ6Nzd5UFdtQzNjdDZaNzNjaDlBYk9vY3AtYw?oc=5",
+      "investors": [
+        "B Capital Group",
+        "Glynn Capital"
+      ],
+      "theme": "Crypto/web3",
+      "stage": "Series D",
+      "desc": ""
+    },
+    {
+      "company": "SolarSquare",
+      "amount_m": 53,
+      "date": "2026-06-16",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY0JNcXZQWW9VVHNCRl82VzJDcWptOHZqSmN0eG9ETFd6SV82VThaTmpXT0IzOU9kVTVBODZjcGNkSUt1bnQzTDB4c2JoZi1xeURwS3RFWU9GcU92Y3g4R0tEWGZZTUpIaXpXX2NXWV81dV9kX0VtNTlqMmZlTVVxZzhFdnJUQQ?oc=5",
+      "investors": [
+        "B Capital Group",
+        "B Capital to Build India"
+      ],
+      "theme": "Climate/energy",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Bland",
+      "amount_m": 50,
+      "date": "2026-06-16",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HYkJLZ3JsWXNLbmx0U2NsbEJZU3p6TUFqdHVvdWpXQkJYWmdwVzlZT3ZVYk9VMFZHTlVOTkVFMXBPazg5WGpEM0EybzRHYl9QZjhxLTBudEZQd0ROYWlVY0toaDltZ3REVThiNmF3b1IybkVvclZPQzgwdk1pQQ?oc=5",
+      "investors": [
+        "Scale Venture Partners",
+        "Tribeca Venture Partners"
+      ],
+      "theme": "Other",
+      "stage": "Series C",
+      "desc": ""
+    },
+    {
+      "company": "Watch",
+      "amount_m": null,
+      "date": "2026-06-16",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNekVKSWtId3E4Z3FFcmh2TGhPdVBLUFNSeHh3bHgwQjBxWUhSZ2lTSXU5amRMalNoYkFIX0kzY1dfMG1GNWE5dHZWRjkwbnR0emZsdWkxT25YMWFYd0IxT1NyVnFBOXdMWnhXLWpFWHVGd1RWcnFqUTVhNVFSbDBIQWtIRENHSzZkVHRTX1U0MWtXUDQxTElybGxDZWlpdXdERUQybmF5OA?oc=5",
+      "investors": [
+        "Benchmark"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "BOJ",
+      "amount_m": null,
+      "date": "2026-06-16",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcXZGcm5kTmZOSEZUQ213dWFOalIzaDV4bUlmSVM0bWhoeTZmb2RjdlhmMVEwTzBwcjR5Tl9md2N2b3NHSlc4THJpUWsxeU9QYkxUUFdzRkpacHp4VWZiX1ZqaDdyMkJYQ2lpaXFFci14Z2U1UGtrQmpPN05UZ3RqQk85dWJnekt6UUI0cmF4SHZOYWROZTVqTFhmNzdnbHlNUUt3c2lnZ0VpOUI5c0UwaHhSaw?oc=5",
+      "investors": [
+        "Benchmark"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Greylock Federal Credit Union's Shred Day event",
+      "amount_m": null,
+      "date": "2026-06-16",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZlh5aVpOVy1USS1PLXZscWdIVDdrVURYQkRraXJkLW9YZUx5RXo5RFgtWFdkdXg2WHc3ZnBEcVJmSW5ZWDA5QlBjZFYybnZ6Z2VKbkFEdElBUVJFdXMtUnNYc3NONGZaSHcxSmt2UlJIV0c4Q0stcWY3YWxXVUNGaXhjakowOHZEWGFwbTVTdlI5VnNqdDIyTllpM3FoMjJSNGtNdHR6dFI3TFRUbU4xSlFQaVRUZ3RoQTJKQWxpYTdvOUdOQk1VaWMyc3RCZkF1NEZ1MHBEQVd5SGhKWTFxNg?oc=5",
+      "investors": [
+        "Greylock"
+      ],
+      "theme": "Fintech",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Latest Action by Right",
+      "amount_m": null,
+      "date": "2026-06-16",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVE9NUlFYSm84c3JFMy1veUcxMTdJVF9Iam4tVW0xT3czeGlsbFpEWTJvSTNtMjM2emVBd015TzlxcC0yMVd1TDF1dmZDMG5RRldHOHFqM0FDc3p4a3JCUk9jcGRLX1VMd0VoTUJzUXJFcVdia3M0blFjc2Rrejl5c2pKenVqdG16X0QxczJ4anZWYUlrVGg2TGx3U2ZzaGR3Z24tSTM4X2wwYmk5TGp4d3Z5UlZ5WjhpT3hPUmo5RUdWbFVuTi1JRXpCcHdkeUFUS19mT1FQNmNyejBsNE1peVlRNEd5QjlDVF9nejl0RHY?oc=5",
+      "investors": [
+        "Wing"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Sarvam",
+      "amount_m": 300,
+      "date": "2026-06-15",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yNHVwdUQwMWl6Sk9rRmVrM2ZkWWtTdkR1ckdzNE1QQm10bDJNcGZMT1BKUnBVR292QnJiTzRjWTV5SU8ybGpOUW0ybkN3NUpRUm5v?oc=5",
+      "investors": [
+        "Bessemer"
+      ],
+      "theme": "Other",
+      "stage": "Series B",
+      "desc": ""
+    },
+    {
+      "company": "EDGE Markets",
+      "amount_m": 29,
+      "date": "2026-06-15",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeWl5U2xCbFpMN2x2OHQydjRwVkh0aHNCMHRGQTAtY0tiM3NGRDlwV2JuSnlWa1B3NEFiX1NYd296eE4yS2ZkOWFFcU00dXpNNUF4eFFzNHFxZXNKQko2ZzJzSmhvN3FUM3dUei1IS1RfeFBCcXZ1cWVWdDF3eDBseU11el9VZWw1MDFnQS1UOHNuMTNrMElHTTMxVGxZV2pwVnFnZEx0em1JbjNucmJMNVlqM2tzQk0?oc=5",
+      "investors": [
+        "Bullpen Capital",
+        "CoinFund - FinTech Global"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "ChatSee.ai",
+      "amount_m": 6,
+      "date": "2026-06-15",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBCNWtMOTFSbW84OXdNZlJJME9XWjZHMFJmVUlicVlXSk0xazQzUEpWel9jNU01QWFzUjZtR1IxVVloMlZDLTFUVW5GT3h1cEptV3FJLXdvaG5CbE9DNzA1SmIwcjBSNGpSVDRUalJwb09FZnFCck5ZUWd3?oc=5",
+      "investors": [
+        "True Ventures"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "MNX, an AI economy",
+      "amount_m": 6,
+      "date": "2026-06-13",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYU9kZ1l4dXVXNWVHZUp5UVNHMXVYUHZsUjlBQVIxTkl2c1FwdkVleDg1b2tlcEFEall1OFhQUDRvQkE4UlE0Mzdha2tMZUZ5MkpBdlZRdUtWaFE5QU1iSDQ3MjJNWEJtVHQ5ZTVRWFlOZ2RSY29uLWFkanh4TjQ4X2ZIWUVCYlc2RmFDMVpLVW16TXdDSmh1Sk5MSzRlZ0ZEd0VqY1oyZTB1QXhhY01zbnktdm95TXFpck1aMUw2TWpMYjNOLVE?oc=5",
+      "investors": [
+        "North Island Ventures"
+      ],
+      "theme": "Other",
+      "stage": "Pre-seed",
+      "desc": ""
+    },
+    {
+      "company": "Digital Asset",
+      "amount_m": 355,
+      "date": "2026-06-12",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ0RjTkJqUW0xaGdPS2dGSnpFWDh3RXEyOGNfbXJRNmVLS2pwYUZUbVpOMGhnRVlxZWFrVzJ5dVhGT2RUa0RuYzVISzVuU1c0eGpVSk52MXBCMEpZa0pkdmEteHBQbVFrUlZxN2pfV2FjSmdtSDlmZnJmQ2dsLVRtcEtpcnhJSC1KTXlVcFVDNWc?oc=5",
+      "investors": [
+        "a16z"
+      ],
+      "theme": "Fintech",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "SonoThera",
+      "amount_m": 125,
+      "date": "2026-06-12",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVh4bGVxN3k2T19vWWVXeDRWcGtWaXJtRERqTTlBbE1TMzlBV3Bma3Q1OFJXUXROdS1fZmpKOGV5S1VVYWlmVGloYWt3YXZZbHA0NEIyR1BLTkNsaEVjRWRIVUt6WmpGSlNFR2w2c2F3VEF1aHVrVHl1TlZUcER4UWxoNzIxOE1iTWxmeW03QVVlbm1zM2JYUE95LU84NkUwZW5OcENVeHQxVnVtZEVoejJPTXlVSDc2cEdOeA?oc=5",
+      "investors": [
+        "Vivo Capital"
+      ],
+      "theme": "Healthcare/bio",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Theker",
+      "amount_m": 85,
+      "date": "2026-06-12",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kaVVrbVl6dTlOQzJ6d05LbjVJc2U5MURJemgyLW1hQ1Y0Y1hEM1k2eHRyRVk5Q2ZCelRURHM1Vk03Q2hyektNdFdYU1pVNUlmT3R4RGI3NU1uYzY1RXRkd1VsbWViZGVaeHk0RU1yZ3VUb0hIOVlpdUlVZmJVUG8?oc=5",
+      "investors": [
+        "CRV"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Largest robotics Series A ever",
+      "amount_m": 85,
+      "date": "2026-06-12",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNk53eF9yeFFNNkcwSFl3ZkU3RGxkUEdleFJELXBNdmMzU0ZXZ1lYWVd0Q3hGYmxRU1hISGtkYXZ5bllxaDlNejZmcVg3SmRtLUJJRko5NHNXMUdLR2NQNnZXRE11RmpzU2Q0Yk4zN1V0Vmx3cGF0MllrdC14OVBHZ1JjSnY3NUtL?oc=5",
+      "investors": [
+        "CRV"
+      ],
+      "theme": "Robotics/physical",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Endurance Energy",
+      "amount_m": 54,
+      "date": "2026-06-12",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaFdCT3JuYlk2Q3J2cFNaMmE2V3BBZHJqVFd0OWZZNm5WZ29sRFpDbDF3NXRORXdHRll2TUxLalRzUk9kVXhWWU11bHJiOXMzblNzWW1kbXEtX0RKa1hSaXhwS2NpUjBNSTVkWThsd0Jhc1lOeUdGVElLMUJsUGVZSTd0MG85N2FNdFRwNQ?oc=5",
+      "investors": [
+        "Riot Ventures"
+      ],
+      "theme": "Climate/energy",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Artis",
+      "amount_m": 7,
+      "date": "2026-06-12",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zeXZvbHNZSi1qalpuZnJuYTlwTjJwNXJodkREOVVGRW5VUnl3UXBReW1yQy1mNlhoLWhmeDM2bzk1N0NWcW9QdERSN2wxUEZuem9GWWVtR0VwcDdIZ0dnZENRSHEtT1lWS256LXFiVmdZVk95Ym1KVk5n?oc=5",
+      "investors": [
+        "LiveOak Ventures",
+        "Their Craft - Yahoo Finance"
+      ],
+      "theme": "Other",
+      "stage": "Seed",
+      "desc": ""
+    },
+    {
+      "company": "Spanish AI robotics startup Theker",
+      "amount_m": null,
+      "date": "2026-06-12",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOW0wTVJlY0xPTGNUMkdQM2hnODlIYUVydkQwbXhfWW9yLW9RMnJVcHpaRHpGMHVxN2xBRzJGcVZiaW1pRnBTN2F5UnVPb3VtUm9FbDRSSzBSQkg5Q3h5d2xuN3NlN0RpbXV2M1lOa1YyLU5xNEttSlpXcTRYM2dISS1tamdPTnk2RGhHbC0yWURoZDc2b1BFSHJwcHU2aXhfaHBZM1R3ZDA2SmxtY0hoSkpLNEJlWm9B?oc=5",
+      "investors": [
+        "CRV"
+      ],
+      "theme": "Robotics/physical",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Spanish company Theker",
+      "amount_m": null,
+      "date": "2026-06-12",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOU5KM3VndWNWY0VVMV9TV0NQNUdoaW1ZSjZwT3lDZkI2MUNrN1FhR0lkUFNISDlkTkt4M2xiNkR3VFNZaWZrSzVYUlhWclVFQS1panpMN0lBZ1FzVXVSX1psSTY3UTF1NS1vVWdpMG5yYldrNVBZMTBxaEJjUkNGMG5SNnlTRndnd2ZKaVZCTXdSTmp4NXpXSUUweEYybHZ2SFpIaEY3ajRsOHg4cDN5eEJucEtiUXdIZVpYSm05NzlNbnYwaW9iUDdn?oc=5",
+      "investors": [
+        "CRV"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Maneva",
+      "amount_m": null,
+      "date": "2026-06-12",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeWE5MU9VSmlUanpjd1ZSM012OERFak9xcDNSMkhycEo3TG9XS1VGMG9ZcE9zX3lvWDhINmlYTmtGemZkTXpKUnhsX2JoYk8zdzI2ejVRWnlnQmNLbEZGN3VqUU5fZHA1SHdNdUJPVmp6LXpvQWIzSkM5UTVKc3loQm16dzg2bTl3ck8yVk4yR2R2VjZCUW1waXZVSQ?oc=5",
+      "investors": [
+        "U.S. Venture Partners"
+      ],
+      "theme": "Robotics/physical",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Indonesia's rupiah gains after central",
+      "amount_m": null,
+      "date": "2026-06-12",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RNE8teFhOZkFzZHdPeURDd3JkZk1uNVFsOWJJRjR0VzduQjZJaWJtUVJKTnhETzF4b29lTTdsajE5dTFrZVpVR2taNHRJUHJGS1A0VXJjWi1kZTQ5b2hseTR3aU1veXRSYkhGLUF3WFFGa2pyUGM4eXR0NEI?oc=5",
+      "investors": [
+        "Benchmark"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Canton developer Digital Asset",
+      "amount_m": 355,
+      "date": "2026-06-11",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONGp4NVRPbTBJY1VrTXNyVjd4RTJWX2tLZ2ZfT3ktLU1PbzRId2xITFBJY1lfQ090Q1B2ME9kdFhDeWdUNklpdUstOVduNF9ScDR4VFJwTGVid2oybEdtYmRQVFA1N2laeEZoVlY1QWhNdGFieTNYcnJYd09ybTVxWHUyZGd2TnVOdFZQdWhReWVCeE1VTDZ1QUtxcFdleE1hWmtCOGZXUnZTRk9J?oc=5",
+      "investors": [
+        "a16z",
+        "a16z crypto - ledgerinsights.com"
+      ],
+      "theme": "Dev tools",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Koho",
+      "amount_m": 130,
+      "date": "2026-06-11",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZURxYTk4S192Rk1sc3hxNEMzb2tTN1BQM0EyRWZqNWdkRnFPc3pYVkQ1UE43Nk9IZmExXzdJcS1NZGpQSUFaNzdMOWJoVEQweThUOEg5ZGJkTWYtQ3ItczZwR3N2MFRKOVJ3bmVzZ0JKU3ViUGhaalNLSnZPUXJMX0VyY1hRczM3Rzh2NEFiNDh0MFZLRjdwdURIUld0Zw?oc=5",
+      "investors": [
+        "Riot Ventures"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Current",
+      "amount_m": 80,
+      "date": "2026-06-11",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbVViZDhqLThrMVJCWFB4Mjc4NXNwc01pWm84TlN1NEQzZ01YYzFSbHRZa183eFFFOUJ1YUtuRVozRE5QQlpxdTRVeGJEbzFjblJFd0QtNktKMlFzajNyOXRoNG1CTHFDRDMxWF8waGNHR2JUbDc5SklDcHRTZHpuZjVpNEFaeTJuUTJyVHlGZ01KcHp5VTI1cjRBeGd6YUFESHFtemlnbG50d0JGMUxicHJnT0QxdUpvbGo1Nmk4cEV1VzhBYngwaEJFT1Y4REtjODhVaGJIVXVXT0NPMG1OOGFvelRrZXcyQWd1MTkyV2ZVMk1o?oc=5",
+      "investors": [
+        "Foundation Capital"
+      ],
+      "theme": "Other",
+      "stage": "Series E",
+      "desc": ""
+    },
+    {
+      "company": "Poetic",
+      "amount_m": 50,
+      "date": "2026-06-11",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jNVRJYXFQc09xT2hvcE9JaG1CRWNkdDNIWDR4NmtLTkU4RG9hNEt3UlhGZm5Ybkc3dHdzdXBBeVdSUXpGU0Q0SU5qc1pkRXc2ZDhOektaVVRscEVRMGxDcjR1dkNJY3hlb0I2dm0wLU1odTR1TThOZ2lPX1dfX0k?oc=5",
+      "investors": [
+        "Founders Fund",
+        "Investors At",
+        "Kleiner Perkins",
+        "Kleiner Perkins - Benzinga"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Turnout",
+      "amount_m": 35,
+      "date": "2026-06-11",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORVpXOEtfVUFtdHhLa0lIUEN0dURPYTJzVzZudldUNjhqaHZzNEhrQWFNMVZSazkwa0NVZ0p0aTVfSjZKakpHNWhWSmRVWW1seEpHSHhyRHo0SW1ERW5nVVFlZlp2OGh0bHEyX21jNVQ4dWNhSWZrZXpZNkhqb1NINGYyZ1lvUEVnTXVLdDktbFI2VTZZelRpNUs5V3NVVFl5RmZ5XzRJcWVaOFZqR1RNajh5cTFvM1BvZlk3a3ZUbmpCQUFTR0JPSy10RGtvcFA5NFd6TA?oc=5",
+      "investors": [
+        "Mangusta Capital"
+      ],
+      "theme": "Other",
+      "stage": "Series A",
+      "desc": ""
+    },
+    {
+      "company": "Stars + Honey",
+      "amount_m": null,
+      "date": "2026-06-11",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONW5NRlJaUmlwZ1NTcXMtQUJBclllQzlRdUY1NEVoVHIwU3NXRk9GODdPNk9zV2pkajd5eE56d3FMZ0RZU2g1U0VwTXZHN2NLQllqZmNNWVJFQ1c1aU51bS1BM3ZtTjRhd2l1WnN3ejl0aVJuQjQtNEJZMktGa1I4QVhQQjE1Z2pxbDAtRlViZWhiSTJFV1J4QnVRRTk3VDM4cE50Q2Ztb9IBrAFBVV95cUxQU2ZHMWxBQXhtc0VpdXEwQkd3cDZqWWlFWEgzcERqRzhHcmZUb0tRV1A5NnAtLTF0aDEzT0dubEV6LVlJYnR1ZmU1WFJvUi1vcmhDVGVfVFV5MjNOdnRYMWpxd0pXcWd0d0kxdTZ0aExqVTRBTmYwYXF0WmQ1akUtMHhEaDdCMkhtMk1LeFdwUFZHSU5zQTZJX3R4ZW1QT3JrcUhfdkZvczBHakFQ?oc=5",
+      "investors": [
+        "VMG Partners"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Europe's central",
+      "amount_m": null,
+      "date": "2026-06-11",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWlJRXpjbktvWkZtblRoUTFRYTc3OHBFdU5tLXpqdU4tellOUmVjZUdZNzgxYzYxc2hibXhuX0pmc21pdC1HbU5BdlkwNXZnbkpwenRrNmNSQW8xa3VIaXBOdDkybzZpdWxORWpUdUo2MVJIUWV5RVE0blQ5SGR3T1p3Vk1hSUducXpJdl9QU0U3bV8xT0N6bDJ1dGg2UXJZMVA1dHpnck9VTWQ5dTlWcjF4bw?oc=5",
+      "investors": [
+        "Benchmark",
+        "Iran war"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
+      "desc": ""
+    },
+    {
+      "company": "Wimbledon",
+      "amount_m": null,
+      "date": "2026-06-11",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQS2hxT2o1S2xlVnRiTDFXZ1VBWGVjcUd4M2xBTUxUaUVjaGlLRlI1RUtndHByZjNLS3gyWHBMVExfNURlZTlraDc1dWR6MzQzNGVPWTMzbmNhZnROcC1FY3g1cGJWTHhUMlp0YkplX2sxY09VMkRuV1NDQ2xEeklrd09sSzNFa3JyT1h6aVlycnRwQnlTQndFY1JyVGxrV3c5amc?oc=5",
+      "investors": [
+        "First Round"
+      ],
+      "theme": "Other",
+      "stage": "Venture",
       "desc": ""
     }
   ],
   "themes": [
     {
       "theme": "Other",
-      "count": 25,
+      "count": 89,
       "examples": [
         "Flex",
+        "Valarian",
         "Vendelux",
         "Project Q",
         "MeltPlan",
-        "Hostie",
-        "Aria Systems"
+        "Hostie"
+      ]
+    },
+    {
+      "theme": "Fintech",
+      "count": 21,
+      "examples": [
+        "Aria",
+        "InstaLILY AI",
+        "Feathery",
+        "InsideDesk",
+        "Kord",
+        "Linker Finance"
       ]
     },
     {
       "theme": "AI agents",
-      "count": 13,
+      "count": 17,
       "examples": [
         "Lyzr AI",
         "TJM Labs",
-        "InstaLILY AI",
         "Adaptive",
         "Guthrie AI",
-        "Finto"
+        "Finto",
+        "Synthreo"
+      ]
+    },
+    {
+      "theme": "Healthcare/bio",
+      "count": 14,
+      "examples": [
+        "Corner Health",
+        "xCures",
+        "Healome Therapeutics",
+        "Hera",
+        "Health-tech start",
+        "Exclusive: Trase"
       ]
     },
     {
       "theme": "Vertical SaaS",
-      "count": 11,
+      "count": 13,
       "examples": [
         "Alta | AI GTM System of Actions",
         "Parspec",
@@ -931,92 +2460,94 @@
       ]
     },
     {
-      "theme": "Fintech",
-      "count": 8,
-      "examples": [
-        "Aria",
-        "Feathery",
-        "InsideDesk",
-        "Kord",
-        "Linker Finance",
-        "Tradevu"
-      ]
-    },
-    {
-      "theme": "Data",
-      "count": 6,
-      "examples": [
-        "Auger",
-        "Valarian",
-        "EdVisorly",
-        "SimpleAI",
-        "Birdsview.com",
-        "Accel and Prosus backed QOSMIC"
-      ]
-    },
-    {
       "theme": "Robotics/physical",
-      "count": 6,
+      "count": 11,
       "examples": [
         "Dutch Monumental",
         "mode40",
         "Oxipital AI",
         "Verge.io",
-        "Supply chain startup Auger, led by ex",
-        "Humble Robotics"
+        "Dexterous Robotics Benchmark DexVerse",
+        "Supply chain startup Auger, led by ex"
+      ]
+    },
+    {
+      "theme": "Data",
+      "count": 9,
+      "examples": [
+        "Auger",
+        "EdVisorly",
+        "SimpleAI",
+        "Birdsview.com",
+        "Benchmark",
+        "Bessemer’s data center non"
+      ]
+    },
+    {
+      "theme": "Crypto/web3",
+      "count": 7,
+      "examples": [
+        "KorProtocol",
+        "Ornn",
+        "Allium",
+        "Social Crypto App Fomo",
+        "Exclusive: Son of pro",
+        "Telepatia"
+      ]
+    },
+    {
+      "theme": "Climate/energy",
+      "count": 5,
+      "examples": [
+        "Battery energy storage facility proposal",
+        "Axle Energy",
+        "Vergennes battery project",
+        "SolarSquare",
+        "Endurance Energy"
       ]
     },
     {
       "theme": "AI infra",
-      "count": 3,
+      "count": 4,
       "examples": [
         "PreciTaste",
         "Oratomic",
-        "Engram"
+        "Engram",
+        "AI memory startup focused on cutting token costs"
+      ]
+    },
+    {
+      "theme": "Cybersecurity",
+      "count": 4,
+      "examples": [
+        "Cyber resilience startup Mitigata",
+        "Cybersecurity startup Mitigata",
+        "Twenty",
+        "AI cyber warfare startup Twenty"
       ]
     },
     {
       "theme": "Defense/gov",
-      "count": 2,
+      "count": 3,
       "examples": [
         "TerraFirma",
-        "Queue"
+        "Queue",
+        "STARK"
       ]
     },
     {
-      "theme": "Healthcare/bio",
+      "theme": "Consumer/marketplace",
       "count": 2,
       "examples": [
-        "Corner Health",
-        "xCures"
+        "Novel Foods Expert Network",
+        "Revora"
       ]
     },
     {
       "theme": "Dev tools",
       "count": 1,
       "examples": [
-        "Open Vision Engineering"
-      ]
-    },
-    {
-      "theme": "Consumer/marketplace",
-      "count": 1,
-      "examples": [
-        "Boost Technology"
-      ]
-    },
-    {
-      "theme": "Crypto/web3",
-      "count": 1,
-      "examples": [
-        "KorProtocol"
-      ]
-    },
-    {
-      "theme": "Climate/energy",
-      "count": 1,
-      "examples": [
-        "Axle Energy"
+        "Canton developer Digital Asset"
       ]
     }
   ]
