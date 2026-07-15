@@ -4,21 +4,6 @@
   "count": 47,
   "companies": [
     {
-      "name": "Adaptive",
-      "domain": "adaptive.build",
-      "desc": "The company offers an AI-driven financial management platform specifically designed for the construction industry, automating processes such as job costing, billing, and compliance documentation. It employs AI agents to ",
-      "stage": "SERIES_A",
-      "last_amount": 6500000.0,
-      "total": 32775000.0,
-      "investors": [
-        "Andreessen Horowitz",
-        "Exponent",
-        "Third Kind Venture Capital",
-        "Definition"
-      ],
-      "location": "New York, NY"
-    },
-    {
       "name": "Feathery",
       "domain": "feathery.io",
       "desc": "The company provides an AI-powered platform that automates processes such as client onboarding, underwriting, and proposal generation for the financial services industry. It utilizes advanced document analysis, a no-code",
@@ -34,9 +19,24 @@
       "location": "San Francisco, California"
     },
     {
+      "name": "Adaptive",
+      "domain": "adaptive.build",
+      "desc": "The company offers an AI-driven financial management platform specifically designed for the construction industry, automating processes such as job costing, billing, and compliance documentation. It employs AI agents to ",
+      "stage": "SERIES_A",
+      "last_amount": 6500000.0,
+      "total": 32775000.0,
+      "investors": [
+        "Andreessen Horowitz",
+        "Exponent",
+        "Third Kind Venture Capital",
+        "Definition"
+      ],
+      "location": "New York, NY"
+    },
+    {
       "name": "Lyzr AI",
       "domain": "lyzr.ai",
-      "desc": "Lyzr offers a platform for developing and managing autonomous AI agents that enhance enterprise workflows through secure and scalable solutions. The technology utilizes Reinforcement Learning, RAG summarization, and inte",
+      "desc": "Lyzr provides a platform for developing and managing autonomous AI agents designed to enhance enterprise workflows through secure and scalable solutions. The technology employs Reinforcement Learning, RAG summarization, ",
       "stage": "SERIES_B",
       "last_amount": 100000000.0,
       "total": 125400000.0,
@@ -94,7 +94,7 @@
     {
       "name": "Hostie",
       "domain": "hostie.ai",
-      "desc": "The company provides an AI-driven platform designed for restaurants that automates communication via phone calls, texts, and emails, facilitating reservations and order processing. It utilizes conversational AI with mult",
+      "desc": "The company offers an AI-driven platform for restaurants that automates communication through phone calls, texts, and emails, streamlining reservations and order processing. It employs conversational AI with multilingual",
       "stage": "SERIES_A",
       "last_amount": 12000000.0,
       "total": 16000000.0,
@@ -109,7 +109,7 @@
     {
       "name": "Nurix",
       "domain": "nurix.ai",
-      "desc": "The company develops conversational AI agents that automate workflows across various enterprise functions, such as sales and customer support, by managing tasks end-to-end and integrating with existing systems. These age",
+      "desc": "The company develops conversational AI agents designed to automate workflows across various enterprise functions, including sales and customer support, by managing tasks end-to-end and integrating with existing systems. ",
       "stage": "VENTURE_UNKNOWN",
       "last_amount": 14131800.0,
       "total": 44711800.0,
@@ -137,6 +137,21 @@
       "location": "München"
     },
     {
+      "name": "Valarian",
+      "domain": "valarian.com",
+      "desc": "Valarian's primary offering is a secure software platform built on ACRA, which facilitates controlled data movement and enforces trust through compartmentalized data storage and access. The platform utilizes advanced enc",
+      "stage": "SERIES_A",
+      "last_amount": 50000000.0,
+      "total": 68554000.0,
+      "investors": [
+        "Founders Factory",
+        "Playfair",
+        "IQ Capital",
+        "XTX Markets"
+      ],
+      "location": "London"
+    },
+    {
       "name": "Vendelux",
       "domain": "vendelux.com",
       "desc": "Vendelux provides an event intelligence platform that leverages real-time attendee data and AI-driven workflows to enhance the management of in-person events, enabling companies to identify high-value events, engage targ",
@@ -154,7 +169,7 @@
     {
       "name": "Linker Finance",
       "domain": "linkerfinance.com",
-      "desc": "Linker Finance offers a fintech platform that enhances digital banking experiences for community financial institutions, featuring capabilities such as digital account opening, business onboarding, and commercial banking",
+      "desc": "Linker Finance provides a fintech platform designed to enhance digital banking experiences for community financial institutions, offering features such as digital account opening, business onboarding, and commercial bank",
       "stage": "SEED",
       "last_amount": 5000000.0,
       "total": 8820000.0,
@@ -167,17 +182,29 @@
       "location": "Pasadena, California"
     },
     {
-      "name": "Valarian",
-      "domain": "valarian.com",
-      "desc": "Valarian's main product is a secure software platform built on ACRA, designed to enable controlled data movement and enforce trust through compartmentalized data storage and access. The platform employs advanced encrypti",
-      "stage": "SERIES_A",
-      "last_amount": 50000000.0,
-      "total": 68554000.0,
+      "name": "Guthrie AI",
+      "domain": "guthrieai.com",
+      "desc": "Guthrie AI provides an automated preconstruction assistant that leverages AI-powered virtual bid assistants to streamline the bidding process by organizing project documentation, managing RFPs, and generating proposals. ",
+      "stage": "SEED",
+      "last_amount": 4000000.0,
+      "total": 4530000.0,
       "investors": [
-        "Founders Factory",
-        "Playfair",
-        "IQ Capital",
-        "XTX Markets"
+        "Chicago Ventures"
+      ],
+      "location": "Philadelphia, PA"
+    },
+    {
+      "name": "Prolo",
+      "domain": "prolo.io",
+      "desc": "Prolo offers an AI-driven procurement platform specifically designed for the construction industry, which automates the material ordering process to improve project management efficiency. The platform utilizes technologi",
+      "stage": "SEED",
+      "last_amount": 5617113.0,
+      "total": 5617113.0,
+      "investors": [
+        "Andreessen Horowitz",
+        "Triple Point",
+        "Concrete Ventures",
+        "Explorer"
       ],
       "location": "London"
     },
@@ -196,24 +223,9 @@
       "location": "Bear, Delaware"
     },
     {
-      "name": "Prolo",
-      "domain": "prolo.io",
-      "desc": "Prolo offers an AI-driven procurement platform specifically designed for the construction industry, which automates the material ordering process to improve project management efficiency. The platform utilizes technologi",
-      "stage": "SEED",
-      "last_amount": 5617113.0,
-      "total": 5617113.0,
-      "investors": [
-        "Andreessen Horowitz",
-        "Triple Point",
-        "Concrete Ventures",
-        "Explorer"
-      ],
-      "location": "London"
-    },
-    {
       "name": "DSALTA",
       "domain": "dsalta.com",
-      "desc": "The company offers a compliance management platform that integrates access reviews, risk management, and asset management to streamline compliance processes. It employs AI-driven automation for auditing and real-time ris",
+      "desc": "The company provides a compliance management platform that consolidates access reviews, risk management, and asset management to enhance compliance processes. It utilizes AI-driven automation for auditing and real-time r",
       "stage": "PRE_SEED",
       "last_amount": 0,
       "total": 100000.0,
@@ -222,21 +234,6 @@
         "Ismail Sebe"
       ],
       "location": "San Francisco, CA"
-    },
-    {
-      "name": "EdVisorly",
-      "domain": "edvisorly.com",
-      "desc": "The company offers an AI-driven enrollment platform that automates transcript processing and transfer credit evaluations, aimed at enhancing the transfer experience for students. Key technologies include automated data e",
-      "stage": "SERIES_A",
-      "last_amount": 13300000.0,
-      "total": 36330000.0,
-      "investors": [
-        "Google for Startups",
-        "Strada Education Foundation",
-        "U.S. News & World Report",
-        "Potencia Ventures"
-      ],
-      "location": "Los Angeles, California"
     },
     {
       "name": "Project Q",
@@ -254,6 +251,21 @@
       "location": "Berlin, Berlin"
     },
     {
+      "name": "WizCommerce",
+      "domain": "wizcommerce.com",
+      "desc": "WizCommerce provides a B2B sales automation platform designed to modernize the order management process for wholesalers and distributors by integrating various sales channels and streamlining workflows. The platform util",
+      "stage": "SERIES_A",
+      "last_amount": 8333985.0,
+      "total": 21868891.0,
+      "investors": [
+        "Alpha Wave Global",
+        "Peak XV Partners",
+        "Neon Fund",
+        "Falcon Edge Capitals"
+      ],
+      "location": "Washington, DC"
+    },
+    {
       "name": "Oxipital AI",
       "domain": "oxipitalai.com",
       "desc": "Oxipital AI offers a visual AI platform designed to enhance manufacturing processes through advanced machine vision technologies, focusing on product inspection and robotic process automation. The platform employs deep o",
@@ -269,19 +281,19 @@
       "location": "Bedford, Massachusetts"
     },
     {
-      "name": "WizCommerce",
-      "domain": "wizcommerce.com",
-      "desc": "WizCommerce offers a B2B sales automation platform that modernizes the order management process for wholesalers and distributors by integrating various sales channels and streamlining workflows. The platform employs AI t",
+      "name": "EdVisorly",
+      "domain": "edvisorly.com",
+      "desc": "The company offers an AI-driven enrollment platform that automates transcript processing and transfer credit evaluations, aimed at enhancing the transfer experience for students. Key technologies include automated data e",
       "stage": "SERIES_A",
-      "last_amount": 8333985.0,
-      "total": 21868891.0,
+      "last_amount": 13300000.0,
+      "total": 36330000.0,
       "investors": [
-        "Alpha Wave Global",
-        "Peak XV Partners",
-        "Neon Fund",
-        "Falcon Edge Capitals"
+        "Google for Startups",
+        "Strada Education Foundation",
+        "U.S. News & World Report",
+        "Potencia Ventures"
       ],
-      "location": "Washington, DC"
+      "location": "Los Angeles, California"
     },
     {
       "name": "PreciTaste",
@@ -299,19 +311,19 @@
       "location": "New York City, New York"
     },
     {
-      "name": "Alta | AI GTM System of Actions",
-      "domain": "altahq.com",
-      "desc": "The main product is an AI-powered revenue platform that utilizes AI Revenue Agents to analyze data, prioritize sales opportunities, and automate repetitive tasks. It integrates with tools like Salesforce and HubSpot, emp",
+      "name": "Aria",
+      "domain": "helloaria.eu",
+      "desc": "Aria provides a flexible payments infrastructure through an embedded invoice financing API that enables instant payments to suppliers while allowing buyers to manage their payment terms. The technology emphasizes underwr",
       "stage": "SERIES_A",
-      "last_amount": 25000000.0,
-      "total": 32000000.0,
+      "last_amount": 274378800.0,
+      "total": 365065295.0,
       "investors": [
-        "Entrée Capital",
-        "Target Global",
-        "Skywell Capital Partners",
-        "IN Venture"
+        "Otium Capital",
+        "Otium",
+        "Cnam incubateur",
+        "Ankaa Ventures"
       ],
-      "location": "Tel Aviv"
+      "location": "Paris, Île-de-France"
     },
     {
       "name": "ConstructionClock App",
@@ -328,36 +340,24 @@
       "location": "Winnipeg, Manitoba"
     },
     {
-      "name": "Guthrie AI",
-      "domain": "guthrieai.com",
-      "desc": "Guthrie AI provides an automated preconstruction assistant that leverages AI-powered virtual bid assistants to streamline the bidding process by organizing project documentation, managing RFPs, and generating proposals. ",
-      "stage": "SEED",
-      "last_amount": 4000000.0,
-      "total": 4530000.0,
-      "investors": [
-        "Chicago Ventures"
-      ],
-      "location": "Philadelphia, PA"
-    },
-    {
-      "name": "Aria",
-      "domain": "helloaria.eu",
-      "desc": "Aria provides a flexible payments infrastructure through an embedded invoice financing API that enables instant payments to suppliers while allowing buyers to manage their payment terms. The technology emphasizes underwr",
+      "name": "Alta | AI GTM System of Actions",
+      "domain": "altahq.com",
+      "desc": "The main product is an AI-powered revenue platform that utilizes AI Revenue Agents to analyze data, prioritize sales opportunities, and automate repetitive tasks. It integrates with tools like Salesforce and HubSpot, emp",
       "stage": "SERIES_A",
-      "last_amount": 274378800.0,
-      "total": 365065295.0,
+      "last_amount": 25000000.0,
+      "total": 32000000.0,
       "investors": [
-        "Otium Capital",
-        "Otium",
-        "Cnam incubateur",
-        "Ankaa Ventures"
+        "Entrée Capital",
+        "Target Global",
+        "Skywell Capital Partners",
+        "IN Venture"
       ],
-      "location": "Paris, Île-de-France"
+      "location": "Tel Aviv"
     },
     {
       "name": "Legible",
       "domain": "legiblepolicy.com",
-      "desc": "The main product is an AI-native policy intelligence tool designed to streamline legislative workflows by providing real-time access to relevant bills, amendments, and deadlines, effectively replacing traditional methods",
+      "desc": "The main product is an AI-native policy intelligence tool that streamlines legislative workflows by providing real-time access to relevant bills, amendments, and deadlines, effectively replacing traditional methods like ",
       "stage": "SEED",
       "last_amount": 3400000.0,
       "total": 4978000.0,
@@ -371,7 +371,7 @@
     {
       "name": "Aria Systems",
       "domain": "ariasystems.com",
-      "desc": "Aria Systems offers a SaaS Billing Cloud platform that automates billing processes for complex usage and subscription models, leveraging AI technologies for real-time rating and charging. The platform is designed for sea",
+      "desc": "Aria Systems provides a SaaS Billing Cloud platform that automates billing processes for complex usage and subscription models, utilizing AI technologies for real-time rating and charging. The platform is designed for se",
       "stage": "SERIES_A",
       "last_amount": 7992656.0,
       "total": 616676576.0,
@@ -401,7 +401,7 @@
     {
       "name": "Tradevu",
       "domain": "tradevu.co",
-      "desc": "Tradevu offers a financial platform for global trade that integrates stablecoin-powered banking, on-chain financing, and investment opportunities in tokenized trade assets, connecting importers, exporters, and financial ",
+      "desc": "Tradevu provides a financial platform for global trade that integrates stablecoin-powered banking, on-chain financing, and investment opportunities in tokenized trade assets. Utilizing blockchain technology, the platform",
       "stage": "PRE_SEED",
       "last_amount": 250000.0,
       "total": 850000.0,
@@ -429,7 +429,7 @@
     {
       "name": "Kord",
       "domain": "kord.com",
-      "desc": "The company offers a software solution for AML compliance that facilitates client onboarding, payment processing, and secure management of client funds through a closed-loop infrastructure. It employs technologies such a",
+      "desc": "The company provides a software solution for AML compliance that streamlines client onboarding, payment processing, and secure management of client funds through a closed-loop infrastructure. It utilizes technologies suc",
       "stage": "SERIES_A",
       "last_amount": 8572768.0,
       "total": 8572768.0,
@@ -443,7 +443,7 @@
     {
       "name": "Verge.io",
       "domain": "verge.io",
-      "desc": "The main product is a Private Cloud Operating System that integrates virtualization, storage, and networking into a single platform, allowing for efficient management of workloads on existing hardware. It utilizes Ultrac",
+      "desc": "The main product is a Private Cloud Operating System that consolidates virtualization, storage, and networking into a unified platform, enabling efficient workload management on existing hardware. It employs Ultraconverg",
       "stage": "SEED",
       "last_amount": 0,
       "total": 12080000.0,
@@ -512,21 +512,6 @@
       "location": "Accra"
     },
     {
-      "name": "LICENSEWARE",
-      "domain": "licenseware.io",
-      "desc": "Licenseware offers a modular SaaS solution for software license management that automates the assessment of licensing requirements and optimizes IT costs, particularly in Microsoft and Oracle environments. The platform e",
-      "stage": "SEED",
-      "last_amount": 913753.0,
-      "total": 2822465.0,
-      "investors": [
-        "Cluj Startups",
-        "Acequia Capital",
-        "Transylvania Angels Network (T.A.N.)",
-        "Early Game Ventures"
-      ],
-      "location": "Bucharest"
-    },
-    {
       "name": "Neocad",
       "domain": "neocadsrl.com",
       "desc": "The primary product leverages Generative AI to optimize the 3D CAD design process, allowing users to handle intricate design tasks with greater efficiency. This technology is designed to enhance productivity and support ",
@@ -542,6 +527,21 @@
       "location": "Milan, Lombardy"
     },
     {
+      "name": "LICENSEWARE",
+      "domain": "licenseware.io",
+      "desc": "Licenseware offers a modular SaaS solution for software license management that automates the assessment of licensing requirements and optimizes IT costs, particularly in Microsoft and Oracle environments. The platform e",
+      "stage": "SEED",
+      "last_amount": 913753.0,
+      "total": 2822465.0,
+      "investors": [
+        "Cluj Startups",
+        "Acequia Capital",
+        "Transylvania Angels Network (T.A.N.)",
+        "Early Game Ventures"
+      ],
+      "location": "Bucharest"
+    },
+    {
       "name": "ESGAgent.ai - AI Agents for ESG Compliance",
       "domain": "kleantech.com.au",
       "desc": "Klean Technologies offers a B2B SaaS platform that enables retailers to integrate sustainability initiatives into their operations, featuring tools for carbon footprint measurement, impact tracking, and customer engageme",
@@ -554,6 +554,16 @@
         "Greg Steele"
       ],
       "location": "Brisbane, Queensland"
+    },
+    {
+      "name": "SimpleAI",
+      "domain": "simpleaiworks.com",
+      "desc": "The primary offering is an AI-driven accounting software that automates various tasks including data entry, invoice processing, and bank reconciliation, leveraging Generative Pre-Trained Transformers for efficient docume",
+      "stage": "SEED",
+      "last_amount": 5000000.0,
+      "total": 5000000.0,
+      "investors": [],
+      "location": "Singapore"
     },
     {
       "name": "Shiprazor",
@@ -608,16 +618,6 @@
         "Spiral Capital"
       ],
       "location": "WeWork, 21 Floor, Shiroyama Trust Tower, 4-3-1 Toranomon, Tokyo, Minato-ku, Japan"
-    },
-    {
-      "name": "SimpleAI",
-      "domain": "simpleaiworks.com",
-      "desc": "The primary offering is an AI-driven accounting software that automates various tasks including data entry, invoice processing, and bank reconciliation, leveraging Generative Pre-Trained Transformers for efficient docume",
-      "stage": "SEED",
-      "last_amount": 5000000.0,
-      "total": 5000000.0,
-      "investors": [],
-      "location": "Singapore"
     },
     {
       "name": "苏州博纳讯动软件有限公司",
