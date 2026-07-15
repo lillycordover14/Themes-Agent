@@ -317,7 +317,7 @@ def score(comp):
     elif M >= 1 and cycle == "approaching":
         status, lk, rank, basis = "Entering window + momentum", "Medium", 3, "signal"
     elif cycle == "approaching":
-        status, lk, rank, basis = "Entering raise window", "Medium", 3, "cadence"
+        status, lk, rank, basis = "Potentially entering raise window", "Medium", 3, "cadence"
     elif cycle == "overdue":
         status, lk, rank, basis = "Overdue \u2014 watch", "Medium", 3, "cadence"
     elif cycle == "mid-cycle":
