@@ -40,6 +40,61 @@ def mentions(title, name):
     return (any(t in tl for t in toks)) if toks else ((name or "").lower() in tl)
 
 
+def fetch_text(url, timeout=15):
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8", "replace")
+    except Exception:
+        return ""
+
+
+def social_links(domain):
+    """Resolve the company's REAL LinkedIn company page + X handle from its own site footer."""
+    if not domain:
+        return "", ""
+    base = domain if domain.startswith("http") else "https://" + domain
+    li = x = ""
+    for url in (base, base.rstrip("/") + "/contact", base.rstrip("/") + "/about"):
+        html = fetch_text(url)
+        if not html:
+            continue
+        if not li:
+            m = re.search(r"https?://(?:www\.)?linkedin\.com/company/[A-Za-z0-9_\-%.]+", html)
+            if m:
+                li = m.group(0).rstrip("/")
+        if not x:
+            m = re.search(r"https?://(?:www\.)?(?:x|twitter)\.com/([A-Za-z0-9_]{2,30})", html)
+            if m and m.group(1).lower() not in ("share", "intent", "home", "hashtag", "search", "i"):
+                x = "https://x.com/" + m.group(1)
+        if li and x:
+            break
+    return li, x
+
+
+UPCOMING = re.compile(r"(join us at|meet us at|see us at|visit us at|will be at|we.?ll be at|will attend|attending|catch us at|find us at|upcoming|register|book (a )?(meeting|time|demo)|stop by|come see us|this week at|next week at)", re.I)
+
+
+def events_confs(domain):
+    """Best-effort: pull upcoming event/conference names off the company's own events page."""
+    if not domain:
+        return []
+    base = domain if domain.startswith("http") else "https://" + domain
+    out = []
+    for url in (base.rstrip("/") + "/events", base.rstrip("/") + "/company/events", base.rstrip("/") + "/resources/events"):
+        html = fetch_text(url)
+        if not html:
+            continue
+        text = re.sub("<[^>]+>", " ", html)
+        text = re.sub(r"\s+", " ", text)
+        for m in CONF.finditer(text):
+            snip = text[max(0, m.start() - 45):m.end() + 8].strip()
+            if 6 < len(snip) < 90:
+                out.append({"date": "", "title": snip[:120], "link": url, "when": "upcoming", "source": "Events page"})
+        if out:
+            break
+    return out[:5]
+
+
 def fetch_json(url, timeout=20):
     for _ in range(2):
         try:
@@ -155,7 +210,8 @@ def activity(comp):
             return
         seen.add(key)
         if CONF.search(title) and within_days(date, 180):
-            confs.append({"date": date, "title": title, "link": link, "source": src})
+            confs.append({"date": date, "title": title, "link": link, "source": src,
+                          "when": "upcoming" if UPCOMING.search(title) else "prior"})
         elif within_days(date, WINDOW):
             cat2 = cat or categorize(title)
             if cat2:
@@ -175,15 +231,25 @@ def activity(comp):
             if a["date"] and mentions(a["title"], founder):
                 add(a["date"], "Founder", a["title"], a["link"], "Founder news")
 
+    for ec in events_confs(domain):
+        key = re.sub(r"[^a-z0-9]+", "", ec["title"].lower())[:60]
+        if key not in seen:
+            seen.add(key); confs.append(ec)
     updates.sort(key=lambda x: x.get("date", ""), reverse=True)
-    confs.sort(key=lambda x: x.get("date", ""), reverse=True)
+    # upcoming conferences first, then most recent
+    confs.sort(key=lambda x: (0 if x.get("when") == "upcoming" else 1, "" if x.get("when") == "upcoming" else x.get("date", "")))
+    # resolve real LinkedIn / X profile from the company site (fallback to provided/empty)
+    li = comp.get("linkedin") or ""; xx = comp.get("x") or ""
+    if not (li and xx):
+        rli, rx = social_links(domain)
+        li = li or rli; xx = xx or rx
     return {
         "name": name, "domain": domain, "slug": slug,
         "updates": updates[:14],
         "conferences": confs[:8],
         "new_customers": new_customers(slug),
-        "linkedin": comp.get("linkedin", ""),
-        "x": comp.get("x", ""),
+        "linkedin": li,
+        "x": xx,
         "substack": comp.get("substack", ""),
         "url": ("https://" + domain if domain else ""),
     }
