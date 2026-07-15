@@ -183,6 +183,7 @@ def activity(comp):
         "conferences": confs[:8],
         "new_customers": new_customers(slug),
         "linkedin": comp.get("linkedin", ""),
+        "x": comp.get("x", ""),
         "substack": comp.get("substack", ""),
         "url": ("https://" + domain if domain else ""),
     }
