@@ -1,15 +1,30 @@
 {
   "generated": "2026-07-15",
   "mode": "full",
-  "count": 47,
+  "count": 50,
   "companies": [
+    {
+      "name": "InstaLILY AI",
+      "domain": "instalily.ai",
+      "desc": "InstaLILY AI provides a platform that leverages specialized language models tailored to individual businesses, facilitating the deployment of autonomous AI agents designed to enhance workflows in sales, service, and oper",
+      "stage": "SERIES_B",
+      "last_amount": 60000000.0,
+      "total": 88000000.0,
+      "investors": [
+        "Insight Partners",
+        "Google for Startups",
+        "Perceptive Ventures",
+        "United Rentals"
+      ],
+      "location": "New York, NY"
+    },
     {
       "name": "Feathery",
       "domain": "feathery.io",
       "desc": "The company provides an AI-powered platform that automates processes such as client onboarding, underwriting, and proposal generation for the financial services industry. It utilizes advanced document analysis, a no-code",
       "stage": "SERIES_A",
-      "last_amount": 0,
-      "total": 4050000.0,
+      "last_amount": 30000000.0,
+      "total": 34050000.0,
       "investors": [
         "Index Ventures",
         "Clocktower Ventures",
@@ -47,6 +62,21 @@
         "GFT Ventures"
       ],
       "location": "Jersey City, New Jersey"
+    },
+    {
+      "name": "Flex",
+      "domain": "flex.one",
+      "desc": "Flex provides a financial technology platform that integrates business and personal finance management, leveraging advanced AI technology for transaction tracking, treasury management, and risk mitigation. Key features i",
+      "stage": "SERIES_B",
+      "last_amount": 70000000.0,
+      "total": 808608000.0,
+      "investors": [
+        "Draft Ventures",
+        "MS&AD Ventures",
+        "Dualcore",
+        "SPiCE VC"
+      ],
+      "location": "San Francisco, CA"
     },
     {
       "name": "MeltPlan",
@@ -198,8 +228,8 @@
       "domain": "prolo.io",
       "desc": "Prolo offers an AI-driven procurement platform specifically designed for the construction industry, which automates the material ordering process to improve project management efficiency. The platform utilizes technologi",
       "stage": "SEED",
-      "last_amount": 5617113.0,
-      "total": 5617113.0,
+      "last_amount": 5597823.0,
+      "total": 5597823.0,
       "investors": [
         "Andreessen Horowitz",
         "Triple Point",
@@ -240,8 +270,8 @@
       "domain": "projectqai.github.io",
       "desc": "The main product is a software platform designed for API-first coordination of sensors, assets, and mission systems, enabling integration and interoperability across diverse environments without vendor lock-in. It utiliz",
       "stage": "SERIES_A",
-      "last_amount": 17090325.0,
-      "total": 25944270.0,
+      "last_amount": 17136195.0,
+      "total": 25990140.0,
       "investors": [
         "HENSOLDT",
         "Heliad",
@@ -355,6 +385,21 @@
       "location": "Tel Aviv"
     },
     {
+      "name": "Synthreo",
+      "domain": "synthreo.ai",
+      "desc": "Synthreo offers a multi-tenant AI platform tailored for managed service providers, enabling the creation and deployment of AI agents without the need for coding. The platform features large language model integration, a ",
+      "stage": "SEED",
+      "last_amount": 2500000.0,
+      "total": 4613219.0,
+      "investors": [
+        "Swiss InsurEvolution Partners Holding AG",
+        "Top Down",
+        "Vince Kent",
+        "Synthreo Holding, LLC"
+      ],
+      "location": "Phoenix, Arizona"
+    },
+    {
       "name": "Legible",
       "domain": "legiblepolicy.com",
       "desc": "The main product is an AI-native policy intelligence tool that streamlines legislative workflows by providing real-time access to relevant bills, amendments, and deadlines, effectively replacing traditional methods like ",
@@ -382,6 +427,20 @@
         "13books Capital"
       ],
       "location": "San Francisco, California"
+    },
+    {
+      "name": "InsideDesk",
+      "domain": "insidedesk.com",
+      "desc": "InsideDesk offers a Revenue Cycle Management platform designed for dental support organizations, utilizing AI and RPA technologies to automate claims management, streamline payment posting, and enhance operational effici",
+      "stage": "SEED",
+      "last_amount": 12600000.0,
+      "total": 12600000.0,
+      "investors": [
+        "Pender Ventures",
+        "Round13 Capital",
+        "Graphite Ventures"
+      ],
+      "location": "Toronto, Ontario"
     },
     {
       "name": "Bohr Energie",
@@ -516,7 +575,7 @@
       "domain": "neocadsrl.com",
       "desc": "The primary product leverages Generative AI to optimize the 3D CAD design process, allowing users to handle intricate design tasks with greater efficiency. This technology is designed to enhance productivity and support ",
       "stage": "PRE_SEED",
-      "last_amount": 659377.0,
+      "last_amount": 661795.0,
       "total": 637467.0,
       "investors": [
         "40Jemz Ventures",
@@ -596,6 +655,18 @@
       "location": "Glen Allen, Virginia"
     },
     {
+      "name": "Solving.AI",
+      "domain": "solving.ai",
+      "desc": "The main product is an AI-driven platform that integrates into software applications to provide real-time, contextual guidance, enhancing user onboarding and feature adoption through interactive instructions. It utilizes",
+      "stage": "PRE_SEED",
+      "last_amount": 782882.0,
+      "total": 782882.0,
+      "investors": [
+        "AQC Capital"
+      ],
+      "location": "Montreal, QC, Canada"
+    },
+    {
       "name": "Aryval",
       "domain": "aryval.io",
       "desc": "Aryval distinguishes itself through its holistic strategy, encompassing the tracking of inquiries, automation of communication, facilitation of the check-in process, organization of data, and identification of yield retu",
@@ -645,30 +716,6 @@
         "Prairies Economic Development Canada"
       ],
       "location": "Steinbach, Manitoba"
-    },
-    {
-      "name": "Marakisoft Technologies",
-      "domain": "marakisoft.com",
-      "desc": "Marakisoft is a trusted Ethiopian software solution provider and consulting company delivering ERP and POS solutions designed to simplify and scale business operations. With over 17 years of experience and more than 5,00",
-      "stage": "PRE_SEED",
-      "last_amount": 250000.0,
-      "total": 250000.0,
-      "investors": [
-        "Renew Capital"
-      ],
-      "location": "Addis Ababa, Addis Ababa"
-    },
-    {
-      "name": "Zendawa",
-      "domain": "zendawa.africa",
-      "desc": "The main product is a digital platform designed to enhance the operational management and online sales capabilities of neighborhood pharmacies, integrating telepharmacy and financial services. It utilizes machine learnin",
-      "stage": "PRE_SEED",
-      "last_amount": 250000.0,
-      "total": 250000.0,
-      "investors": [
-        "Renew Capital"
-      ],
-      "location": "Nakuru, Headquarters"
     }
   ]
 }

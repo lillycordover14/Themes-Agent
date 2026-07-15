@@ -2,70 +2,67 @@
   "generated": "2026-07-15",
   "companies": [
     {
-      "name": "Taktile",
-      "domain": "taktile.com",
-      "score": 67,
-      "stage": "Series C",
-      "months_since": 17,
-      "headcount": 207,
-      "signals": [
-        "Runway: 17 mo since last round (Series C) — in the raise window",
-        "Raise chatter: “Exclusive: Taktile raises $110 million from Goldman Sachs, Tiger Global to automate high-stakes”",
-        "Momentum/PR: “Goldman leads $110M bet on Taktile's AI software - American Banker”"
-      ],
-      "url": "https://taktile.com",
-      "links": [
-        "https://news.google.com/rss/articles/CBMikwFBVV95cUxQejdGMnlFal9MZmd3UW0xTGFab2R3QnIyTEg1cE40TFVxd1VmVHVXdENVUWpzaTBjZlROUTcxNUpkZ3lPeEQ2N3plSnYtSWNabTZlM3pQd0dEVEpIMDNrazFnQ3hnRU5KQW0tMzVCc1U0N0QzbVRfQkd2OEdDVFJmUDlTXzdEWGxJazNYbHBaNk84Qkk?oc=5",
-        "https://news.google.com/rss/articles/CBMiigFBVV95cUxON1JxbHpYS0N0eEZfNlNocXZraUdBdFlNdzlpWnpoZEJfLUhBd0xFZVdPUkVCRkxJemFFb09JekM2LW9qa2R1bGltMHVlMVY3SVFLckwwek1XdkhBLWVxWGI2ckc1U0l6TDQ4Tk1zUGtJYWNoM2FTNk9rQ0tKbUNUZmpNZ0VMa2RuNlE?oc=5"
-      ]
-    },
-    {
       "name": "Salient",
       "domain": "",
-      "score": 10,
-      "stage": "Series A",
-      "months_since": 12,
-      "headcount": 53,
+      "score": 0,
+      "stage": "",
+      "months_since": 125,
+      "last_raise_date": "2016-02-17",
+      "finance_leadership_open": false,
+      "open_roles": 0,
       "signals": [
-        "Last round 12 mo ago (Series A)",
-        "Momentum/PR: “The spinoff benefits as Canada doubles down on defence - BNN Bloomberg”"
+        "Last round ~125 mo ago"
       ],
       "url": "",
-      "links": [
-        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeDZ6R2xib2diRDAzdm9JVjlKZmU1SDA1T1ZOdFQ2NGVmcl9FMm1rUEhJQ3MwbjlnaTI5aEhmMmdEcU9wMjA0MGMxMmQ5RnZDS3lOdjZVRFMzdmtHVHR2anlQcEwzQXZhanVJa0FJUE44U2ZVb1kxUkFCZUxIazBXVXdjZW9oajBEZS1fZEdYbks0NzQwbEpaV3NjMlVjTmJPM29zbTNYaDdkbUxsZDlrczdYQmlNYkRQUVpF?oc=5"
-      ]
+      "links": []
+    },
+    {
+      "name": "Taktile",
+      "domain": "taktile.com",
+      "score": 0,
+      "stage": "",
+      "months_since": null,
+      "last_raise_date": "",
+      "finance_leadership_open": false,
+      "open_roles": 44,
+      "signals": [
+        "No dated prior round found (Form D / news)",
+        "44 open roles right now (fin=0 sales=4 eng=32)"
+      ],
+      "url": "https://taktile.com",
+      "links": []
     },
     {
       "name": "NetBox Labs",
       "domain": "netboxlabs.com",
-      "score": 10,
-      "stage": "Series B",
+      "score": 0,
+      "stage": "",
       "months_since": 12,
-      "headcount": 131,
+      "last_raise_date": "2025-07-14",
+      "finance_leadership_open": false,
+      "open_roles": 11,
       "signals": [
-        "Last round 12 mo ago (Series B)",
-        "Momentum/PR: “From system of record to system of control: How NetBox Labs is making network engineers “master”"
+        "Last round ~12 mo ago",
+        "11 open roles right now (fin=1 sales=8 eng=4)"
       ],
       "url": "https://netboxlabs.com",
-      "links": [
-        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sMWMzMnhVekliNGw5YzVlUUQxWEg0NFlfdmlYU0NNRTNZNHQ5THRUMnRMcm9xMGxUVVBnaDFER1lscFFDZ0V0Xzh0S2RUemhQNkxYQUpfTERZbVhNWThF?oc=5"
-      ]
+      "links": []
     },
     {
       "name": "Bretton",
       "domain": "bretton.com",
-      "score": 10,
-      "stage": "Series B",
-      "months_since": 5,
-      "headcount": 92,
+      "score": 0,
+      "stage": "",
+      "months_since": null,
+      "last_raise_date": "",
+      "finance_leadership_open": false,
+      "open_roles": 8,
       "signals": [
-        "Last round 5 mo ago (Series B)",
-        "Momentum/PR: “Bretton AI Launches AI-Native Managed Services, Appoints Financial Crimes Veteran Rick Shooman ”"
+        "No dated prior round found (Form D / news)",
+        "8 open roles right now (fin=0 sales=2 eng=5)"
       ],
       "url": "https://bretton.com",
-      "links": [
-        "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOS2xZUFRZVFhkVnRYU2pmOWktWHJBaFVpZnU1bVJUS2taMms1c1hPSHFwQ1kxU1Z2WnlJbUN1c0c5dEpFMm1VVGJDa1N2RzMzNXk2VER4emdST0VVZGhPdmNrNDFsRDdNV0Q1Ny1uUG9TLXNfaEVKaDloRU1rRDlJWjhVc2lkcnI4Y295RlhoVm42MnhDeFFDVFIwS2lDaGVESmVJeTlQeVlBQUs4SXZVd2F5OUhmLXZ3SWdGS0t2ZVNSdy1zSTRIRnVPWEMyaTlKd20tUXJDZEI0UnF1dktBMU5JalFlTW9uWF8xdlBDVUtkZWFfOUZUbVdNWQ?oc=5"
-      ]
+      "links": []
     }
   ]
 }
