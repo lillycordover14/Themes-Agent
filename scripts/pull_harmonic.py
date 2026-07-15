@@ -76,5 +76,6 @@ print("Wrote %d Harmonic companies (mode=%s)" % (len(companies), mode))
 try:
     import subprocess as _sp, sys as _sys
     _sp.run([_sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "pull_pipeline.py")])
+    _sp.run([_sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "snapshot_signals.py")])
 except Exception as _e:
     print("pipeline scoring skipped:", _e)
