@@ -23,27 +23,27 @@ STAGE_BUCKET = re.compile(r"\b(pre-?seed|angel|seed|series\s?([a-e])|growth roun
 
 # theme -> keywords (matched as word-ish substrings on company name + full news title)
 THEME_KWS = {
-    "AI agents": ["agent", "agentic", "copilot", "assistant", "autonomous", "voice ai", "chatbot", "ai worker", "ai employee"],
-    "AI infra": ["inference", "gpu", "llm", "mlops", "orchestration", "vector db", "fine-tun", "compute", "foundation model", "token cost", "model training", "datacenter", "ai infrastructure", "ai chip", "accelerator"],
-    "Dev tools": ["developer", "devops", "sdk", "open source", "coding", "software engineering", "codebase", "ci/cd", "api platform", "observability"],
-    "Data/analytics": ["data platform", "analytics", "warehouse", "data pipeline", "etl", "data infrastructure", "business intelligence"],
-    "Cybersecurity": ["security", "cyber", "threat", "identity", "zero trust", "fraud", "soc", "endpoint", "vulnerabilit"],
-    "Fintech": ["fintech", "payments", "banking", "lending", "credit card", "underwrit", "treasury", "wealth", "neobank", "spend management", "financial services", "capital markets", "trading platform", "accounting software"],
-    "Insurance": ["insurance", "insurtech", "claims", "actuarial", "reinsurance"],
-    "Healthcare/bio": ["health", "clinical", "patient", "biotech", "drug", "diagnostic", "medical", "pharma", "therapeutic", "care delivery", "life science"],
-    "Defense/gov": ["defense", "national security", "govtech", "dod", "military", "space", "drone", "surveillance", "public sector"],
-    "Robotics/hardware": ["robot", "manufactur", "industrial", "warehouse automation", "machine vision", "hardware", "factory", "autonomous vehicle", "physical ai", "humanoid"],
-    "Climate/energy": ["climate", "energy", "grid", "solar", "battery", "carbon", "renewable", "nuclear", "fusion", "ev charging"],
-    "Crypto/web3": ["crypto", "blockchain", "web3", "stablecoin", "defi", "digital asset", "tokeniz"],
-    "Sales/GTM": ["sales team", "gtm", "go-to-market", "revenue team", "crm", "sales automation", "outbound", "prospecting"],
-    "Marketing": ["marketing", "advertising", "adtech", "brand", "seo", "content marketing"],
-    "HR/People": ["recruit", "hiring", "hr platform", "people ops", "payroll", "talent", "workforce"],
-    "Legal": ["legal", "law firm", "contract", "compliance software", "litigation", "paralegal"],
-    "Logistics/supply": ["logistics", "supply chain", "freight", "shipping", "procurement", "inventory", "fulfillment"],
-    "Vertical SaaS": ["construction", "real estate", "restaurant", "hospitality", "retail", "field service", "healthcare software", "legaltech", "proptech", "vertical software", "industry-specific"],
-    "Consumer/marketplace": ["consumer", "marketplace", "creator", "commerce", "social app", "gaming", "shopping", "travel", "dating", "e-commerce"],
-    "Productivity/collab": ["productivity", "collaboration", "workspace", "note-taking", "meeting", "document", "knowledge management"],
-    "Education": ["education", "edtech", "learning", "tutoring", "student", "course"],
+    "Physical AI & robotics": ["robot", "humanoid", "embodied", "physical ai", "physical world", "machine vision", "manufactur", "warehouse", "drone", "autonomous vehicle", "self-driving", "factory", "industrial automation", "hardware", "actuator", "lidar"],
+    "Agent-native infra": ["agent infrastructure", "agentic infra", "agentic", "agent orchestration", "multi-agent", "agent platform", "tool use", "\bmcp\b", "agent framework", "orchestration layer", "eval infra", "agent memory"],
+    "Applied AI agents": ["ai agent", "ai agents", "copilot", "ai assistant", "ai worker", "ai employee", "voice agent", "ai sdr", "ai coworker", "autonomous agent", "workflow automation", "agent for"],
+    "AI compute & models": ["inference", "\bgpu\b", "foundation model", "\bllm\b", "large language model", "model training", "compute", "datacenter", "ai chip", "accelerator", "fine-tun", "pretrain", "frontier model"],
+    "AI dev tooling": ["developer", "devtools", "coding", "code generation", "\bcode\b", "software engineering", "\bsdk\b", "ci/cd", "devops", "codebase", "vibe coding"],
+    "Data infrastructure": ["data platform", "data infrastructure", "warehouse", "data pipeline", "\betl\b", "analytics", "observability", "vector database", "data lake", "streaming data"],
+    "Cybersecurity": ["security", "cyber", "threat", "\bfraud\b", "identity", "zero trust", "\bsoc\b", "endpoint", "vulnerabilit", "phishing", "malware"],
+    "Defense & national security": ["defense", "defence", "military", "national security", "\bspace\b", "govtech", "surveillance", "\bdod\b", "warfare", "border"],
+    "Fintech & payments": ["fintech", "payments", "banking", "lending", "\bcredit\b", "neobank", "spend management", "wealth", "trading", "capital markets", "card", "remittance", "brokerage"],
+    "Financial back-office & compliance AI": ["compliance", "\baml\b", "\bkyc\b", "audit", "risk management", "underwrit", "back office", "back-office", "regtech", "financial operations", "controls", "reconciliation", "financial crime"],
+    "Insurance / insurtech": ["insurance", "insurtech", "claims", "actuarial", "reinsurance"],
+    "Energy & climate": ["energy", "\bgrid\b", "solar", "battery", "fusion", "nuclear", "carbon", "climate", "renewable", "\bev\b", "power plant", "geothermal", "decarboniz"],
+    "Healthcare & bio AI": ["health", "clinical", "patient", "\bdrug\b", "diagnostic", "biotech", "medical", "pharma", "therapeutic", "care delivery", "life science", "genomic"],
+    "Legal AI": ["legal", "\blaw\b", "contract", "litigation", "paralegal", "law firm"],
+    "Sales & GTM AI": ["sales", "\bgtm\b", "\bcrm\b", "revenue team", "outbound", "prospecting", "go-to-market", "lead generation"],
+    "Marketing & creative AI": ["marketing", "advertising", "adtech", "content creation", "creative", "\bdesign\b", "brand", "video generation", "image generation"],
+    "HR & workforce": ["recruit", "hiring", "\bhr\b", "payroll", "talent", "workforce", "people ops", "staffing"],
+    "Logistics & supply chain": ["logistics", "supply chain", "freight", "shipping", "procurement", "inventory", "fulfillment", "warehouse management"],
+    "Vertical SaaS": ["construction", "real estate", "restaurant", "hospitality", "retail", "field service", "proptech", "legaltech", "dental", "agriculture", "education", "edtech"],
+    "Consumer & marketplace": ["consumer", "marketplace", "creator", "\bcommerce\b", "social app", "gaming", "shopping", "travel", "dating", "e-commerce"],
+    "Crypto & digital assets": ["crypto", "blockchain", "stablecoin", "\bdefi\b", "web3", "tokeniz", "digital asset", "onchain"],
 }
 THEME_RX = {t: re.compile("|".join(r"\b" + re.escape(k) for k in kws), re.I) for t, kws in THEME_KWS.items()}
 ENTERPRISE = re.compile(r"\b(platform|software|saas|enterprise|workflow|automation|\bops\b|operations|management|b2b|api|infrastructure|ai-native|ai-powered|ai )\b", re.I)
@@ -59,14 +59,12 @@ def norm(s):
 
 def theme_of(text):
     t = (text or "")
-    best, n = "Other", 0
+    best, n = "", 0
     for label, rx in THEME_RX.items():
         c = len(rx.findall(t))
         if c > n:
             best, n = label, c
-    if best == "Other" and ENTERPRISE.search(t):
-        best = "Enterprise SaaS"
-    return best if best != "Other" else "Unclassified"
+    return best or "Enterprise AI software"
 
 
 def stage_bucket(title):
@@ -118,7 +116,7 @@ def company_of(title):
     return co
 
 
-THEME_LIST = list(THEME_KWS.keys()) + ["Enterprise SaaS", "Consumer/marketplace", "Unclassified"]
+THEME_LIST = list(THEME_KWS.keys()) + ["Enterprise AI software"]
 
 
 def _llm_call(items):
@@ -275,7 +273,7 @@ def main():
     order = ["Pre-seed", "Seed", "Series A", "Series B", "Series C", "Series D", "Growth/Late", "Venture"]
     stage_counts = {s: sum(1 for r in rows if r.get("stage") == s) for s in order}
     stage_counts = {k: v for k, v in stage_counts.items() if v}
-    named = [t for t in themes if t["theme"] not in ("Unclassified", "Enterprise SaaS")]
+    named = [t for t in themes if t["theme"] != "Enterprise AI software"]
     kpis = {"strongest_theme": (named[0]["theme"] if named else (themes[0]["theme"] if themes else "")),
             "total_raises": len(rows), "early_raises": len(early),
             "total_cap_m": total_cap, "early_cap_m": sum(r.get("amount_m") or 0 for r in early),
@@ -301,8 +299,8 @@ def main():
 
     emerging = []
     for t in themes:
-        if t["theme"] in ("Unclassified",):
-            continue
+        if t["theme"] == "Enterprise AI software":
+            continue   # generic catch-all — not surfaced as an "emerging theme" card
         comps = [r for r in rows if r["theme"] == t["theme"]]
         cap = sum(r.get("amount_m") or 0 for r in comps)
         stg = {}

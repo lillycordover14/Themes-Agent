@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "count": 200,
-  "summary": "Capital is concentrating in AI agents (17), Healthcare/bio (16), Crypto/web3 (14). Largest recent round: Helsing ($1.8B).",
+  "summary": "Capital is concentrating in Healthcare & bio AI (16), Crypto & digital assets (12), Fintech & payments (11). Largest recent round: Helsing ($1.8B).",
   "kpis": {
-    "strongest_theme": "AI agents",
+    "strongest_theme": "Healthcare & bio AI",
     "total_raises": 200,
     "early_raises": 78,
     "total_cap_m": 11248,
@@ -25,7 +25,7 @@
       "date": "2026-07-15",
       "link": "https://helloaria.eu",
       "investors": [],
-      "theme": "Fintech",
+      "theme": "Fintech & payments",
       "stage": "Series A"
     },
     {
@@ -34,7 +34,7 @@
       "date": "2026-07-15",
       "link": "https://lyzr.ai",
       "investors": [],
-      "theme": "AI agents",
+      "theme": "Applied AI agents",
       "stage": "Series B"
     },
     {
@@ -43,7 +43,7 @@
       "date": "2026-07-15",
       "link": "https://tjmlabs.com",
       "investors": [],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Series B"
     },
     {
@@ -54,7 +54,7 @@
       "investors": [
         "Accel"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -66,7 +66,7 @@
         "Energize Capital",
         "Energize Capital - TradingView"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Fintech & payments",
       "stage": "Series B"
     },
     {
@@ -77,7 +77,7 @@
       "investors": [
         "New Enterprise Associates"
       ],
-      "theme": "AI infra",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -89,7 +89,7 @@
         "Cervin Ventures",
         "Tribeca Venture Partners"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -98,7 +98,7 @@
       "date": "2026-07-15",
       "link": "https://auger.com",
       "investors": [],
-      "theme": "Logistics/supply",
+      "theme": "Logistics & supply chain",
       "stage": "Series B"
     },
     {
@@ -109,7 +109,7 @@
       "investors": [
         "Khosla Ventures"
       ],
-      "theme": "Robotics/hardware",
+      "theme": "Physical AI & robotics",
       "stage": "Venture"
     },
     {
@@ -118,7 +118,7 @@
       "date": "2026-07-15",
       "link": "https://feathery.io",
       "investors": [],
-      "theme": "Fintech",
+      "theme": "Financial back-office & compliance AI",
       "stage": "Series A"
     },
     {
@@ -127,7 +127,7 @@
       "date": "2026-07-15",
       "link": "https://altahq.com",
       "investors": [],
-      "theme": "AI agents",
+      "theme": "Sales & GTM AI",
       "stage": "Series A"
     },
     {
@@ -136,7 +136,7 @@
       "date": "2026-07-15",
       "link": "https://parspec.io",
       "investors": [],
-      "theme": "Logistics/supply",
+      "theme": "Logistics & supply chain",
       "stage": "Series A"
     },
     {
@@ -145,7 +145,7 @@
       "date": "2026-07-15",
       "link": "https://projectqai.github.io",
       "investors": [],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -158,7 +158,7 @@
         "Bessemer - Entrackr",
         "Bessemer to bring AI into construction"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Seed"
     },
     {
@@ -167,7 +167,7 @@
       "date": "2026-07-15",
       "link": "https://nurix.ai",
       "investors": [],
-      "theme": "AI agents",
+      "theme": "Applied AI agents",
       "stage": "Venture Unknown"
     },
     {
@@ -176,7 +176,7 @@
       "date": "2026-07-15",
       "link": "https://edvisorly.com",
       "investors": [],
-      "theme": "Education",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -185,7 +185,7 @@
       "date": "2026-07-15",
       "link": "https://insidedesk.com",
       "investors": [],
-      "theme": "Insurance",
+      "theme": "Insurance / insurtech",
       "stage": "Seed"
     },
     {
@@ -205,7 +205,7 @@
       "investors": [
         "Accel"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -214,7 +214,7 @@
       "date": "2026-07-15",
       "link": "https://bohr-energie.fr",
       "investors": [],
-      "theme": "Climate/energy",
+      "theme": "Energy & climate",
       "stage": "Series A"
     },
     {
@@ -223,7 +223,7 @@
       "date": "2026-07-15",
       "link": "https://kord.com",
       "investors": [],
-      "theme": "Enterprise SaaS",
+      "theme": "Financial back-office & compliance AI",
       "stage": "Series A"
     },
     {
@@ -232,7 +232,7 @@
       "date": "2026-07-15",
       "link": "https://wizcommerce.com",
       "investors": [],
-      "theme": "Sales/GTM",
+      "theme": "Sales & GTM AI",
       "stage": "Series A"
     },
     {
@@ -241,7 +241,7 @@
       "date": "2026-07-15",
       "link": "https://ariasystems.com",
       "investors": [],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -250,7 +250,7 @@
       "date": "2026-07-15",
       "link": "https://about.mozu-inc.jp",
       "investors": [],
-      "theme": "Productivity/collab",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -259,7 +259,7 @@
       "date": "2026-07-15",
       "link": "https://adaptive.build",
       "investors": [],
-      "theme": "AI agents",
+      "theme": "Applied AI agents",
       "stage": "Series A"
     },
     {
@@ -268,7 +268,7 @@
       "date": "2026-07-15",
       "link": "https://prolo.io",
       "investors": [],
-      "theme": "Logistics/supply",
+      "theme": "Logistics & supply chain",
       "stage": "Seed"
     },
     {
@@ -277,7 +277,7 @@
       "date": "2026-07-15",
       "link": "https://altaml.com",
       "investors": [],
-      "theme": "Education",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -286,7 +286,7 @@
       "date": "2026-07-15",
       "link": "https://linkerfinance.com",
       "investors": [],
-      "theme": "Fintech",
+      "theme": "Fintech & payments",
       "stage": "Seed"
     },
     {
@@ -295,7 +295,7 @@
       "date": "2026-07-15",
       "link": "https://simpleaiworks.com",
       "investors": [],
-      "theme": "Fintech",
+      "theme": "Financial back-office & compliance AI",
       "stage": "Seed"
     },
     {
@@ -304,7 +304,7 @@
       "date": "2026-07-15",
       "link": "https://guthrieai.com",
       "investors": [],
-      "theme": "AI agents",
+      "theme": "Enterprise AI software",
       "stage": "Seed"
     },
     {
@@ -313,7 +313,7 @@
       "date": "2026-07-15",
       "link": "https://gofinto.com",
       "investors": [],
-      "theme": "AI agents",
+      "theme": "Applied AI agents",
       "stage": "Seed"
     },
     {
@@ -322,7 +322,7 @@
       "date": "2026-07-15",
       "link": "https://legiblepolicy.com",
       "investors": [],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Seed"
     },
     {
@@ -331,7 +331,7 @@
       "date": "2026-07-15",
       "link": "https://birdsview.com",
       "investors": [],
-      "theme": "Data/analytics",
+      "theme": "Data infrastructure",
       "stage": "Seed"
     },
     {
@@ -340,7 +340,7 @@
       "date": "2026-07-15",
       "link": "https://synthreo.ai",
       "investors": [],
-      "theme": "AI agents",
+      "theme": "Applied AI agents",
       "stage": "Seed"
     },
     {
@@ -349,7 +349,7 @@
       "date": "2026-07-15",
       "link": "https://sherpahq.ai",
       "investors": [],
-      "theme": "HR/People",
+      "theme": "HR & workforce",
       "stage": "Pre Seed"
     },
     {
@@ -367,7 +367,7 @@
       "date": "2026-07-15",
       "link": "https://neocadsrl.com",
       "investors": [],
-      "theme": "Productivity/collab",
+      "theme": "Enterprise AI software",
       "stage": "Pre Seed"
     },
     {
@@ -376,7 +376,7 @@
       "date": "2026-07-15",
       "link": "https://licenseware.io",
       "investors": [],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Seed"
     },
     {
@@ -385,7 +385,7 @@
       "date": "2026-07-15",
       "link": "https://kleantech.com.au",
       "investors": [],
-      "theme": "AI agents",
+      "theme": "Applied AI agents",
       "stage": "Seed"
     },
     {
@@ -394,7 +394,7 @@
       "date": "2026-07-15",
       "link": "https://solving.ai",
       "investors": [],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Pre Seed"
     },
     {
@@ -403,7 +403,7 @@
       "date": "2026-07-15",
       "link": "https://aryval.io",
       "investors": [],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -412,7 +412,7 @@
       "date": "2026-07-15",
       "link": "https://mode40.com",
       "investors": [],
-      "theme": "Robotics/hardware",
+      "theme": "Physical AI & robotics",
       "stage": "Venture"
     },
     {
@@ -421,7 +421,7 @@
       "date": "2026-07-15",
       "link": "https://dsalta.com",
       "investors": [],
-      "theme": "Enterprise SaaS",
+      "theme": "Financial back-office & compliance AI",
       "stage": "Pre Seed"
     },
     {
@@ -430,7 +430,7 @@
       "date": "2026-07-15",
       "link": "https://oxipitalai.com",
       "investors": [],
-      "theme": "Robotics/hardware",
+      "theme": "Physical AI & robotics",
       "stage": "Series A"
     },
     {
@@ -439,7 +439,7 @@
       "date": "2026-07-15",
       "link": "https://precitaste.com",
       "investors": [],
-      "theme": "AI infra",
+      "theme": "AI compute & models",
       "stage": "Series A"
     },
     {
@@ -448,7 +448,7 @@
       "date": "2026-07-15",
       "link": "https://tradevu.co",
       "investors": [],
-      "theme": "Crypto/web3",
+      "theme": "Crypto & digital assets",
       "stage": "Pre Seed"
     },
     {
@@ -457,7 +457,7 @@
       "date": "2026-07-15",
       "link": "https://verge.io",
       "investors": [],
-      "theme": "Robotics/hardware",
+      "theme": "Physical AI & robotics",
       "stage": "Seed"
     },
     {
@@ -475,7 +475,7 @@
       "date": "2026-07-15",
       "link": "https://getoze.com",
       "investors": [],
-      "theme": "Fintech",
+      "theme": "Fintech & payments",
       "stage": "Seed"
     },
     {
@@ -484,7 +484,7 @@
       "date": "2026-07-15",
       "link": "https://shiprazor.com",
       "investors": [],
-      "theme": "Logistics/supply",
+      "theme": "Logistics & supply chain",
       "stage": "Seed"
     },
     {
@@ -495,7 +495,7 @@
       "investors": [
         "Benchmark"
       ],
-      "theme": "Data/analytics",
+      "theme": "Physical AI & robotics",
       "stage": "Venture"
     },
     {
@@ -508,7 +508,7 @@
         "Kleiner Perkins",
         "Kleiner Perkins - TradingView"
       ],
-      "theme": "AI agents",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -520,7 +520,7 @@
         "North Island Ventures",
         "Union Square Ventures"
       ],
-      "theme": "AI agents",
+      "theme": "Physical AI & robotics",
       "stage": "Venture"
     },
     {
@@ -531,7 +531,7 @@
       "investors": [
         "Oak HC/FT"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Venture"
     },
     {
@@ -542,7 +542,7 @@
       "investors": [
         "Sequoia"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -553,7 +553,7 @@
       "investors": [
         "Bessemer"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -564,7 +564,7 @@
       "investors": [
         "Conviction"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -575,7 +575,7 @@
       "investors": [
         "Y Combinator"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -587,7 +587,7 @@
         "Goldman and Lightspeed - Sifted",
         "Lightspeed"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -598,7 +598,7 @@
       "investors": [
         "Blockchain Capital"
       ],
-      "theme": "Crypto/web3",
+      "theme": "Crypto & digital assets",
       "stage": "Series A"
     },
     {
@@ -609,7 +609,7 @@
       "investors": [
         "Caduceus Capital Partners"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -620,7 +620,7 @@
       "investors": [
         "NFX"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -633,7 +633,7 @@
         "Khosla Ventures",
         "Spark Capital"
       ],
-      "theme": "AI infra",
+      "theme": "AI compute & models",
       "stage": "Series A"
     },
     {
@@ -646,7 +646,7 @@
         "Craft Ventures",
         "Khosla Ventures"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series C"
     },
     {
@@ -657,7 +657,7 @@
       "investors": [
         "Benchmark"
       ],
-      "theme": "Robotics/hardware",
+      "theme": "Physical AI & robotics",
       "stage": "Venture"
     },
     {
@@ -669,7 +669,7 @@
         "Spark Capital",
         "Spark Capital - Healthcare IT Today"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Series B"
     },
     {
@@ -680,7 +680,7 @@
       "investors": [
         "Energize Capital"
       ],
-      "theme": "Climate/energy",
+      "theme": "Energy & climate",
       "stage": "Series A"
     },
     {
@@ -691,7 +691,7 @@
       "investors": [
         "Matrix"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Seed"
     },
     {
@@ -702,7 +702,7 @@
       "investors": [
         "Wing"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -714,7 +714,7 @@
         "NEA - PR Newswire",
         "New Enterprise Associates"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -725,7 +725,7 @@
       "investors": [
         "Radical Ventures"
       ],
-      "theme": "AI agents",
+      "theme": "Applied AI agents",
       "stage": "Series A"
     },
     {
@@ -736,7 +736,7 @@
       "investors": [
         "Goodwater Capital"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -747,7 +747,7 @@
       "investors": [
         "Lux Capital"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -758,7 +758,7 @@
       "investors": [
         "I2BF Global Ventures"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -769,7 +769,7 @@
       "investors": [
         "Y Combinator"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -780,7 +780,7 @@
       "investors": [
         "Benchmark"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -791,7 +791,7 @@
       "investors": [
         "Wing"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -802,7 +802,7 @@
       "investors": [
         "Conviction"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -813,7 +813,7 @@
       "investors": [
         "Khosla Ventures"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -847,7 +847,7 @@
         "Benchmark",
         "HOLD - Moomoo"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -858,7 +858,7 @@
       "investors": [
         "Union Square Ventures"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -869,7 +869,7 @@
       "investors": [
         "Benchmark"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -880,7 +880,7 @@
       "investors": [
         "North Island Ventures"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -893,7 +893,7 @@
         "Radical Ventures",
         "Union Square Ventures"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -905,7 +905,7 @@
         "Kleiner Perkins",
         "Thrive Capital"
       ],
-      "theme": "AI agents",
+      "theme": "Agent-native infra",
       "stage": "Series D"
     },
     {
@@ -916,7 +916,7 @@
       "investors": [
         "General Catalyst"
       ],
-      "theme": "AI infra",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -928,7 +928,7 @@
         "New Enterprise Associates",
         "Radical Ventures"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -939,7 +939,7 @@
       "investors": [
         "GreatPoint Ventures"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -952,7 +952,7 @@
         "First Round",
         "North Island Ventures"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -963,7 +963,7 @@
       "investors": [
         "North Island Ventures"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -974,7 +974,7 @@
       "investors": [
         "Eclipse Capital"
       ],
-      "theme": "Robotics/hardware",
+      "theme": "Physical AI & robotics",
       "stage": "Venture"
     },
     {
@@ -985,7 +985,7 @@
       "investors": [
         "Riot Ventures"
       ],
-      "theme": "AI agents",
+      "theme": "Physical AI & robotics",
       "stage": "Seed"
     },
     {
@@ -996,7 +996,7 @@
       "investors": [
         "GreatPoint Ventures"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1008,7 +1008,7 @@
         "Bain Capital Ventures",
         "Lightspeed"
       ],
-      "theme": "AI agents",
+      "theme": "Agent-native infra",
       "stage": "Series A"
     },
     {
@@ -1019,7 +1019,7 @@
       "investors": [
         "Lightspeed"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1030,7 +1030,7 @@
       "investors": [
         "Bessemer"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -1041,7 +1041,7 @@
       "investors": [
         "Inovia Capital"
       ],
-      "theme": "Fintech",
+      "theme": "Fintech & payments",
       "stage": "Venture"
     },
     {
@@ -1052,7 +1052,7 @@
       "investors": [
         "Lightspeed"
       ],
-      "theme": "Legal",
+      "theme": "Legal AI",
       "stage": "Series A"
     },
     {
@@ -1063,7 +1063,7 @@
       "investors": [
         "Accel"
       ],
-      "theme": "AI agents",
+      "theme": "Applied AI agents",
       "stage": "Venture"
     },
     {
@@ -1074,7 +1074,7 @@
       "investors": [
         "First Round"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1086,7 +1086,7 @@
         "Cervin Ventures",
         "Pelion Venture Partners"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -1097,7 +1097,7 @@
       "investors": [
         "Cervin Ventures"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -1108,7 +1108,7 @@
       "investors": [
         "Union Square Ventures"
       ],
-      "theme": "Fintech",
+      "theme": "Fintech & payments",
       "stage": "Series B"
     },
     {
@@ -1119,7 +1119,7 @@
       "investors": [
         "Y Combinator"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -1132,7 +1132,7 @@
         "Bain Capital Ventures - Pulse 2.0",
         "IA Ventures"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Series A"
     },
     {
@@ -1145,7 +1145,7 @@
         "Bain Capital Ventures - Pulse 2.0",
         "Basis Set"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Seed"
     },
     {
@@ -1157,7 +1157,7 @@
         "ARCH Venture Partners",
         "ARCH Venture Partners - Pulse 2.0"
       ],
-      "theme": "AI agents",
+      "theme": "Agent-native infra",
       "stage": "Seed"
     },
     {
@@ -1168,7 +1168,7 @@
       "investors": [
         "Khosla Ventures"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -1179,7 +1179,7 @@
       "investors": [
         "Inovia Capital"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series C"
     },
     {
@@ -1190,7 +1190,7 @@
       "investors": [
         "Kleiner Perkins"
       ],
-      "theme": "AI agents",
+      "theme": "Applied AI agents",
       "stage": "Venture"
     },
     {
@@ -1202,7 +1202,7 @@
         "a16z",
         "a16z crypto - Futures & Options World"
       ],
-      "theme": "Crypto/web3",
+      "theme": "Crypto & digital assets",
       "stage": "Seed"
     },
     {
@@ -1213,7 +1213,7 @@
       "investors": [
         "a16z"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -1225,7 +1225,7 @@
         "Lightspeed",
         "Lightspeed - YourStory.com"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -1237,7 +1237,7 @@
         "Lightspeed",
         "Lightspeed - Business Standard"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Venture"
     },
     {
@@ -1248,7 +1248,7 @@
       "investors": [
         "Hi2 Global"
       ],
-      "theme": "Consumer/marketplace",
+      "theme": "Enterprise AI software",
       "stage": "Seed"
     },
     {
@@ -1259,7 +1259,7 @@
       "investors": [
         "Benchmark"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1271,7 +1271,7 @@
         "Kleiner Perkins",
         "a16z and Kleiner Perkins - Binance"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Seed"
     },
     {
@@ -1282,7 +1282,7 @@
       "investors": [
         "ARCH Venture Partners"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Seed"
     },
     {
@@ -1295,7 +1295,7 @@
         "Spark Capital",
         "Thrive Capital"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Series C"
     },
     {
@@ -1306,7 +1306,7 @@
       "investors": [
         "DCM Ventures"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1318,7 +1318,7 @@
         "Accel",
         "Prosus"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Seed"
     },
     {
@@ -1329,7 +1329,7 @@
       "investors": [
         "Hi2 Global"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Seed"
     },
     {
@@ -1340,7 +1340,7 @@
       "investors": [
         "Founders Fund"
       ],
-      "theme": "Defense/gov",
+      "theme": "Defense & national security",
       "stage": "Venture"
     },
     {
@@ -1352,7 +1352,7 @@
         "Sequoia",
         "a16z"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1363,7 +1363,7 @@
       "investors": [
         "Amplify"
       ],
-      "theme": "Crypto/web3",
+      "theme": "Crypto & digital assets",
       "stage": "Series B"
     },
     {
@@ -1375,7 +1375,7 @@
         "Amplify",
         "Kleiner Perkins"
       ],
-      "theme": "Crypto/web3",
+      "theme": "Crypto & digital assets",
       "stage": "Venture"
     },
     {
@@ -1387,7 +1387,7 @@
         "Bessemer",
         "Bessemer Venture Partners - YourStory.com"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -1421,7 +1421,7 @@
       "investors": [
         "Hatteras Venture Partners"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Venture"
     },
     {
@@ -1432,7 +1432,7 @@
       "investors": [
         "Seven Seven Six"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1443,7 +1443,7 @@
       "investors": [
         "Seven Seven Six"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1454,7 +1454,7 @@
       "investors": [
         "TTV Capital"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Pre-seed"
     },
     {
@@ -1465,7 +1465,7 @@
       "investors": [
         "Menlo"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Fintech & payments",
       "stage": "Venture"
     },
     {
@@ -1477,7 +1477,7 @@
         "Index Ventures - Bitcoin Foundation",
         "Union Square Ventures"
       ],
-      "theme": "Cybersecurity",
+      "theme": "Crypto & digital assets",
       "stage": "Venture"
     },
     {
@@ -1488,7 +1488,7 @@
       "investors": [
         "Union Square Ventures"
       ],
-      "theme": "Crypto/web3",
+      "theme": "Fintech & payments",
       "stage": "Venture"
     },
     {
@@ -1499,7 +1499,7 @@
       "investors": [
         "Union Square Ventures"
       ],
-      "theme": "Crypto/web3",
+      "theme": "Fintech & payments",
       "stage": "Series B"
     },
     {
@@ -1510,7 +1510,7 @@
       "investors": [
         "Canaan Partners"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Series A"
     },
     {
@@ -1521,7 +1521,7 @@
       "investors": [
         "a16z"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Series A"
     },
     {
@@ -1533,7 +1533,7 @@
         "First Round",
         "Y Combinator"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Seed"
     },
     {
@@ -1544,7 +1544,7 @@
       "investors": [
         "DCVC Bio"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -1555,7 +1555,7 @@
       "investors": [
         "First Round"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1566,7 +1566,7 @@
       "investors": [
         "Bessemer"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Venture"
     },
     {
@@ -1577,7 +1577,7 @@
       "investors": [
         "Lux Capital"
       ],
-      "theme": "Crypto/web3",
+      "theme": "Fintech & payments",
       "stage": "Venture"
     },
     {
@@ -1588,7 +1588,7 @@
       "investors": [
         "IA Ventures"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Venture"
     },
     {
@@ -1610,7 +1610,7 @@
       "investors": [
         "Insight Partners"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series C"
     },
     {
@@ -1624,7 +1624,7 @@
         "Bessemer Venture Partners - BusinessLine",
         "Bessemer Venture Partners - YourStory.com"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Venture"
     },
     {
@@ -1635,7 +1635,7 @@
       "investors": [
         "Lux Capital"
       ],
-      "theme": "Crypto/web3",
+      "theme": "Crypto & digital assets",
       "stage": "Venture"
     },
     {
@@ -1649,7 +1649,7 @@
         "Khosla Ventures - Business Standard",
         "Khosla Ventures - YourStory.com"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Seed"
     },
     {
@@ -1660,7 +1660,7 @@
       "investors": [
         "Matrix"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1671,7 +1671,7 @@
       "investors": [
         "Battery"
       ],
-      "theme": "Climate/energy",
+      "theme": "Energy & climate",
       "stage": "Venture"
     },
     {
@@ -1683,7 +1683,7 @@
         "Khosla Ventures",
         "a16z"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -1694,7 +1694,7 @@
       "investors": [
         "a16z"
       ],
-      "theme": "Crypto/web3",
+      "theme": "Crypto & digital assets",
       "stage": "Series A"
     },
     {
@@ -1706,7 +1706,7 @@
         "Khosla Ventures",
         "Khosla Ventures - Entrackr"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1718,7 +1718,7 @@
         "B Capital Group",
         "Glynn Capital"
       ],
-      "theme": "Crypto/web3",
+      "theme": "Crypto & digital assets",
       "stage": "Series D"
     },
     {
@@ -1730,7 +1730,7 @@
         "B Capital Group",
         "B Capital to Build India"
       ],
-      "theme": "Climate/energy",
+      "theme": "Energy & climate",
       "stage": "Venture"
     },
     {
@@ -1742,7 +1742,7 @@
         "Scale Venture Partners",
         "Tribeca Venture Partners"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series C"
     },
     {
@@ -1753,7 +1753,7 @@
       "investors": [
         "Benchmark"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1764,7 +1764,7 @@
       "investors": [
         "Benchmark"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1775,7 +1775,7 @@
       "investors": [
         "Wing"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1786,7 +1786,7 @@
       "investors": [
         "Bessemer"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -1798,7 +1798,7 @@
         "Bullpen Capital",
         "CoinFund - FinTech Global"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -1809,7 +1809,7 @@
       "investors": [
         "True Ventures"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1820,7 +1820,7 @@
       "investors": [
         "North Island Ventures"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Pre-seed"
     },
     {
@@ -1831,7 +1831,7 @@
       "investors": [
         "a16z"
       ],
-      "theme": "Crypto/web3",
+      "theme": "Crypto & digital assets",
       "stage": "Venture"
     },
     {
@@ -1842,7 +1842,7 @@
       "investors": [
         "Vivo Capital"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Venture"
     },
     {
@@ -1853,7 +1853,7 @@
       "investors": [
         "CRV"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -1864,7 +1864,7 @@
       "investors": [
         "Riot Ventures"
       ],
-      "theme": "Climate/energy",
+      "theme": "Energy & climate",
       "stage": "Series A"
     },
     {
@@ -1876,7 +1876,7 @@
         "LiveOak Ventures",
         "Their Craft - Yahoo Finance"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Seed"
     },
     {
@@ -1887,7 +1887,7 @@
       "investors": [
         "CRV"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1898,7 +1898,7 @@
       "investors": [
         "U.S. Venture Partners"
       ],
-      "theme": "Robotics/hardware",
+      "theme": "Physical AI & robotics",
       "stage": "Series A"
     },
     {
@@ -1910,7 +1910,7 @@
         "a16z",
         "a16z crypto - ledgerinsights.com"
       ],
-      "theme": "Crypto/web3",
+      "theme": "Crypto & digital assets",
       "stage": "Venture"
     },
     {
@@ -1921,7 +1921,7 @@
       "investors": [
         "Riot Ventures"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1932,7 +1932,7 @@
       "investors": [
         "Foundation Capital"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series E"
     },
     {
@@ -1946,7 +1946,7 @@
         "Kleiner Perkins",
         "Kleiner Perkins - Benzinga"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -1957,7 +1957,7 @@
       "investors": [
         "Mangusta Capital"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series A"
     },
     {
@@ -1968,7 +1968,7 @@
       "investors": [
         "VMG Partners"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1980,7 +1980,7 @@
         "Benchmark",
         "Iran war"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -1991,7 +1991,7 @@
       "investors": [
         "First Round"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -2004,7 +2004,7 @@
         "Lux Capital",
         "North Island Ventures"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -2027,7 +2027,7 @@
       "investors": [
         "Battery"
       ],
-      "theme": "Climate/energy",
+      "theme": "Energy & climate",
       "stage": "Venture"
     },
     {
@@ -2038,7 +2038,7 @@
       "investors": [
         "Battery"
       ],
-      "theme": "Climate/energy",
+      "theme": "Energy & climate",
       "stage": "Series A"
     },
     {
@@ -2049,7 +2049,7 @@
       "investors": [
         "FirstMark Capital"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -2060,7 +2060,7 @@
       "investors": [
         "Social Leverage"
       ],
-      "theme": "Fintech",
+      "theme": "Fintech & payments",
       "stage": "Venture"
     },
     {
@@ -2071,7 +2071,7 @@
       "investors": [
         "True Ventures"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -2083,7 +2083,7 @@
         "SeaX Ventures",
         "SeaX Ventures to develop open-world RPG Tomo"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -2094,7 +2094,7 @@
       "investors": [
         "Thrive Capital"
       ],
-      "theme": "Climate/energy",
+      "theme": "Energy & climate",
       "stage": "Venture"
     },
     {
@@ -2106,7 +2106,7 @@
         "General Catalyst",
         "Lightspeed"
       ],
-      "theme": "Enterprise SaaS",
+      "theme": "Enterprise AI software",
       "stage": "Series C"
     },
     {
@@ -2119,7 +2119,7 @@
         "Rally Ventures",
         "Smash Capital - Indiatimes"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -2132,7 +2132,7 @@
         "a16z",
         "a16z crypto"
       ],
-      "theme": "Crypto/web3",
+      "theme": "Crypto & digital assets",
       "stage": "Venture"
     },
     {
@@ -2143,7 +2143,7 @@
       "investors": [
         "General Catalyst"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -2154,7 +2154,7 @@
       "investors": [
         "Bain Capital Ventures"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Series A"
     },
     {
@@ -2165,7 +2165,7 @@
       "investors": [
         "Underdog Labs"
       ],
-      "theme": "Cybersecurity",
+      "theme": "Enterprise AI software",
       "stage": "Venture"
     },
     {
@@ -2176,7 +2176,7 @@
       "investors": [
         "Accel"
       ],
-      "theme": "Unclassified",
+      "theme": "Enterprise AI software",
       "stage": "Series B"
     },
     {
@@ -2187,7 +2187,7 @@
       "investors": [
         "Oak HC/FT"
       ],
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "stage": "Series C"
     },
     {
@@ -2204,43 +2204,19 @@
   ],
   "themes": [
     {
-      "theme": "Unclassified",
-      "count": 64,
+      "theme": "Enterprise AI software",
+      "count": 104,
       "examples": [
         "Flex",
-        "MeltPlan",
-        "Open Vision Engineering",
-        "Sequoia Financial Advisors LLC",
-        "Bessemer’s data center non",
-        "Illinois"
-      ]
-    },
-    {
-      "theme": "Enterprise SaaS",
-      "count": 34,
-      "examples": [
-        "InstaLILY AI",
+        "Valarian",
         "Vendelux",
         "Project Q",
-        "Kord",
-        "Aria Systems",
-        "Legible"
+        "MeltPlan",
+        "EdVisorly"
       ]
     },
     {
-      "theme": "AI agents",
-      "count": 17,
-      "examples": [
-        "Lyzr AI",
-        "Alta | AI GTM System of Actions",
-        "Nurix",
-        "Adaptive",
-        "Guthrie AI",
-        "Finto"
-      ]
-    },
-    {
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "count": 16,
       "examples": [
         "TJM Labs",
@@ -2252,31 +2228,55 @@
       ]
     },
     {
-      "theme": "Crypto/web3",
-      "count": 14,
+      "theme": "Crypto & digital assets",
+      "count": 12,
       "examples": [
         "Tradevu",
         "KorProtocol",
         "Ornn",
         "Allium",
         "Crypto analytics startup Allium",
-        "Trading app Fomo"
+        "Social Crypto App Fomo"
       ]
     },
     {
-      "theme": "Fintech",
-      "count": 8,
+      "theme": "Fintech & payments",
+      "count": 11,
       "examples": [
         "Aria",
-        "Feathery",
+        "InstaLILY AI",
         "Linker Finance",
-        "SimpleAI",
         "Oze",
-        "Canadian fintech Float"
+        "Canadian fintech Float",
+        "Fomo"
       ]
     },
     {
-      "theme": "Climate/energy",
+      "theme": "Physical AI & robotics",
+      "count": 10,
+      "examples": [
+        "Dutch Monumental",
+        "mode40",
+        "Oxipital AI",
+        "Verge.io",
+        "Benchmark",
+        "Nous Research"
+      ]
+    },
+    {
+      "theme": "Applied AI agents",
+      "count": 9,
+      "examples": [
+        "Lyzr AI",
+        "Nurix",
+        "Adaptive",
+        "Finto",
+        "Synthreo",
+        "ESGAgent.ai - AI Agents for ESG Compliance"
+      ]
+    },
+    {
+      "theme": "Energy & climate",
       "count": 8,
       "examples": [
         "Bohr Energie",
@@ -2285,18 +2285,6 @@
         "SolarSquare",
         "Endurance Energy",
         "Solidion Technology"
-      ]
-    },
-    {
-      "theme": "Robotics/hardware",
-      "count": 7,
-      "examples": [
-        "Dutch Monumental",
-        "mode40",
-        "Oxipital AI",
-        "Verge.io",
-        "Dexterous Robotics Benchmark DexVerse",
-        "Humble Robotics"
       ]
     },
     {
@@ -2312,29 +2300,7 @@
       ]
     },
     {
-      "theme": "Cybersecurity",
-      "count": 6,
-      "examples": [
-        "Cyber resilience startup Mitigata",
-        "Cybersecurity startup Mitigata",
-        "Social Crypto App Fomo",
-        "Twenty",
-        "Campground",
-        "A Security"
-      ]
-    },
-    {
-      "theme": "AI infra",
-      "count": 4,
-      "examples": [
-        "Valarian",
-        "PreciTaste",
-        "Oratomic",
-        "Engram"
-      ]
-    },
-    {
-      "theme": "Logistics/supply",
+      "theme": "Logistics & supply chain",
       "count": 4,
       "examples": [
         "Auger",
@@ -2344,66 +2310,80 @@
       ]
     },
     {
-      "theme": "Education",
-      "count": 2,
+      "theme": "Financial back-office & compliance AI",
+      "count": 4,
       "examples": [
-        "EdVisorly",
-        "AltaML"
+        "Feathery",
+        "Kord",
+        "SimpleAI",
+        "DSALTA"
       ]
     },
     {
-      "theme": "Productivity/collab",
-      "count": 2,
+      "theme": "Cybersecurity",
+      "count": 4,
       "examples": [
-        "Mozu (Business/Productivity Software)",
-        "Neocad"
+        "Cyber resilience startup Mitigata",
+        "Cybersecurity startup Mitigata",
+        "Twenty",
+        "A Security"
       ]
     },
     {
-      "theme": "Data/analytics",
-      "count": 2,
+      "theme": "Agent-native infra",
+      "count": 3,
       "examples": [
-        "Birdsview.com",
-        "Benchmark"
+        "Rogo",
+        "Straiker",
+        "Trase"
       ]
     },
     {
-      "theme": "Insurance",
+      "theme": "Sales & GTM AI",
+      "count": 2,
+      "examples": [
+        "Alta | AI GTM System of Actions",
+        "WizCommerce"
+      ]
+    },
+    {
+      "theme": "AI compute & models",
+      "count": 2,
+      "examples": [
+        "PreciTaste",
+        "Oratomic"
+      ]
+    },
+    {
+      "theme": "Insurance / insurtech",
       "count": 1,
       "examples": [
         "InsideDesk"
       ]
     },
     {
-      "theme": "Sales/GTM",
+      "theme": "Data infrastructure",
       "count": 1,
       "examples": [
-        "WizCommerce"
+        "Birdsview.com"
       ]
     },
     {
-      "theme": "HR/People",
+      "theme": "HR & workforce",
       "count": 1,
       "examples": [
         "sherpa"
       ]
     },
     {
-      "theme": "Legal",
+      "theme": "Legal AI",
       "count": 1,
       "examples": [
         "Sandstone"
       ]
     },
     {
-      "theme": "Consumer/marketplace",
-      "count": 1,
-      "examples": [
-        "Revora"
-      ]
-    },
-    {
-      "theme": "Defense/gov",
+      "theme": "Defense & national security",
       "count": 1,
       "examples": [
         "STARK"
@@ -2412,35 +2392,7 @@
   ],
   "emerging": [
     {
-      "theme": "Enterprise SaaS",
-      "count": 34,
-      "cap_m": 1880,
-      "examples": [
-        "InstaLILY AI",
-        "Vendelux",
-        "Project Q",
-        "Kord",
-        "Aria Systems",
-        "Legible"
-      ],
-      "top_stage": "Series A"
-    },
-    {
-      "theme": "AI agents",
-      "count": 17,
-      "cap_m": 910,
-      "examples": [
-        "Lyzr AI",
-        "Alta | AI GTM System of Actions",
-        "Nurix",
-        "Adaptive",
-        "Guthrie AI",
-        "Finto"
-      ],
-      "top_stage": "Seed"
-    },
-    {
-      "theme": "Healthcare/bio",
+      "theme": "Healthcare & bio AI",
       "count": 16,
       "cap_m": 700,
       "examples": [
@@ -2454,35 +2406,63 @@
       "top_stage": "Venture"
     },
     {
-      "theme": "Crypto/web3",
-      "count": 14,
-      "cap_m": 1499,
+      "theme": "Crypto & digital assets",
+      "count": 12,
+      "cap_m": 1394,
       "examples": [
         "Tradevu",
         "KorProtocol",
         "Ornn",
         "Allium",
         "Crypto analytics startup Allium",
-        "Trading app Fomo"
+        "Social Crypto App Fomo"
       ],
       "top_stage": "Venture"
     },
     {
-      "theme": "Fintech",
-      "count": 8,
-      "cap_m": 487,
+      "theme": "Fintech & payments",
+      "count": 11,
+      "cap_m": 692,
       "examples": [
         "Aria",
-        "Feathery",
+        "InstaLILY AI",
         "Linker Finance",
-        "SimpleAI",
         "Oze",
-        "Canadian fintech Float"
+        "Canadian fintech Float",
+        "Fomo"
+      ],
+      "top_stage": "Venture"
+    },
+    {
+      "theme": "Physical AI & robotics",
+      "count": 10,
+      "cap_m": 370,
+      "examples": [
+        "Dutch Monumental",
+        "mode40",
+        "Oxipital AI",
+        "Verge.io",
+        "Benchmark",
+        "Nous Research"
+      ],
+      "top_stage": "Venture"
+    },
+    {
+      "theme": "Applied AI agents",
+      "count": 9,
+      "cap_m": 347,
+      "examples": [
+        "Lyzr AI",
+        "Nurix",
+        "Adaptive",
+        "Finto",
+        "Synthreo",
+        "ESGAgent.ai - AI Agents for ESG Compliance"
       ],
       "top_stage": "Seed"
     },
     {
-      "theme": "Climate/energy",
+      "theme": "Energy & climate",
       "count": 8,
       "cap_m": 666,
       "examples": [
@@ -2494,20 +2474,6 @@
         "Solidion Technology"
       ],
       "top_stage": "Series A"
-    },
-    {
-      "theme": "Robotics/hardware",
-      "count": 7,
-      "cap_m": 57,
-      "examples": [
-        "Dutch Monumental",
-        "mode40",
-        "Oxipital AI",
-        "Verge.io",
-        "Dexterous Robotics Benchmark DexVerse",
-        "Humble Robotics"
-      ],
-      "top_stage": "Venture"
     },
     {
       "theme": "Vertical SaaS",
@@ -2524,33 +2490,7 @@
       "top_stage": "Series A"
     },
     {
-      "theme": "Cybersecurity",
-      "count": 6,
-      "cap_m": 244,
-      "examples": [
-        "Cyber resilience startup Mitigata",
-        "Cybersecurity startup Mitigata",
-        "Social Crypto App Fomo",
-        "Twenty",
-        "Campground",
-        "A Security"
-      ],
-      "top_stage": "Series B"
-    },
-    {
-      "theme": "AI infra",
-      "count": 4,
-      "cap_m": 448,
-      "examples": [
-        "Valarian",
-        "PreciTaste",
-        "Oratomic",
-        "Engram"
-      ],
-      "top_stage": "Series A"
-    },
-    {
-      "theme": "Logistics/supply",
+      "theme": "Logistics & supply chain",
       "count": 4,
       "cap_m": 76,
       "examples": [
@@ -2562,12 +2502,47 @@
       "top_stage": "Seed"
     },
     {
-      "theme": "Education",
-      "count": 2,
-      "cap_m": 19,
+      "theme": "Financial back-office & compliance AI",
+      "count": 4,
+      "cap_m": 44,
       "examples": [
-        "EdVisorly",
-        "AltaML"
+        "Feathery",
+        "Kord",
+        "SimpleAI",
+        "DSALTA"
+      ],
+      "top_stage": "Series A"
+    },
+    {
+      "theme": "Cybersecurity",
+      "count": 4,
+      "cap_m": 167,
+      "examples": [
+        "Cyber resilience startup Mitigata",
+        "Cybersecurity startup Mitigata",
+        "Twenty",
+        "A Security"
+      ],
+      "top_stage": "Series B"
+    },
+    {
+      "theme": "Agent-native infra",
+      "count": 3,
+      "cap_m": 331,
+      "examples": [
+        "Rogo",
+        "Straiker",
+        "Trase"
+      ],
+      "top_stage": "Series D"
+    },
+    {
+      "theme": "Sales & GTM AI",
+      "count": 2,
+      "cap_m": 33,
+      "examples": [
+        "Alta | AI GTM System of Actions",
+        "WizCommerce"
       ],
       "top_stage": "Series A"
     }
@@ -2590,7 +2565,7 @@
           "amount_m": 3,
           "date": "2026-06-24",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMDB2Wl84WDFHV0hJZ1p1ajdrM2FnZnpmTFI4d2hSRDhseWRFZG1UWmNZeVZzWEZ5MnlzUUhPMnR1X2FJc1Q4VkMxWGRmYXdPQzRxUzNPTGZrWFZQT1IwcW5Vc2NUNFdKZVhpbVJhLUVCRVEyTHVKUFhpWU1qaHZubHJVRmJudkJuVTBsLW1fZVZCMUg3REh0ZWZMdzBwTXRoVmZfQ2U1d01TZDNwLWc1StIBsAFBVV95cUxPMDB2Wl84WDFHV0hJZ1p1ajdrM2FnZnpmTFI4d2hSRDhseWRFZG1UWmNZeVZzWEZ5MnlzUUhPMnR1X2FJc1Q4VkMxWGRmYXdPQzRxUzNPTGZrWFZQT1IwcW5Vc2NUNFdKZVhpbVJhLUVCRVEyTHVKUFhpWU1qaHZubHJVRmJudkJuVTBsLW1fZVZCMUg3REh0ZWZMdzBwTXRoVmZfQ2U1d01TZDNwLWc1Sg?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Ex",
@@ -2598,7 +2573,7 @@
           "amount_m": 12,
           "date": "2026-05-26",
           "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNSXMzdW42QXZBY2xuTEo0RnVvLTZHZ0VKSy14eU5wdWNOM3ltZXc1QjN3MDY3bFBLYVBHUVdjRTVScGlxQk1KRzl0NDlReVB5TTh3U211cWVWbllhNEszRk81bDgtdDZWeVA2bllzN3YyTUYwRzJYdUtGckoyb3J6RXpiT0FNZlRhM25uNU5SNHYxRVBsNDh2Y3AxVmxoZHBMTmpVd2lrbjUtZlQ4VW1LZWNydUROQVh6THIwb25BSU9mTzJERHlJNmd1eXZCaHI3YXQzd2dTQU1QNEhJcFlSOWsyX1JfVkxPdXNocFg2aXNET2RCZWRQRGV3?oc=5",
-          "theme": "Healthcare/bio"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "AI coworker startup Viktor",
@@ -2606,7 +2581,7 @@
           "amount_m": null,
           "date": "2026-05-20",
           "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNbmFoT0Q1cGlvSkRhM2o0dWNlempkQlVLUG1MT2JIaDY1WkJnRktpV1lhTjM3SlRKN1I3NWRjUTc0NEEycjZGNDUyMXRvWW9aZzU1MmdBOWRFM1QzU015VW1BS1NZcGd0OWdETHF4WTVLVlVhYy1MUXljT29OaEZYcmhOVVZFYVNBdk1mSFJkaWM3STdVWmwtRlczZjZVUWlqTEJRbzRSTGF6azkxMVAwYVVidWFubng2RnRCLUZrS1A2UXVsUU9aR3IxTjFzdTN3VVBnX01kWm9xTUNURFk5cUtyeHVvZ0tPYUJ6RUVTRjZTbm1wbkNn?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Applied AI agents"
         },
         {
           "company": "Sprouts.ai",
@@ -2614,7 +2589,7 @@
           "amount_m": 9,
           "date": "2026-05-15",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQR3hYZS1wWXA1MmE2NWl3NUtxOFFtLUxHdklIVzBYdXdQNFNoUXdwTEtYSDhkUWYwcnNuN0YwVGF5U1JseWtuN1F6NEpUX2ZGckZWU2NMclFrVjI0Rmk0NEVBaUJLWE40MFpvNm1lUU95Ulo4bzI3NTdVLXdmWUVRdlUtUXNaVFVUR2d1LVlORHM5cG8?oc=5",
-          "theme": "AI agents"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Ciridae",
@@ -2622,7 +2597,7 @@
           "amount_m": 20,
           "date": "2026-05-11",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWmFVREd1NEpDRDljMkg2MXNYbTFQRzBUZWgyQVF3cDBhLWNvUy1XekstNHQtejkwOXhiby0xdmZPSDJZS0FlRkJDQkQ1eWhvOGdBa0xaZFN6d0huOXZIeFBwcVVoZi0xNGVQUUsxRVlveWVJS01pYklTcld0dU1JZzV3NmhxNDZrQVdKRXJ3VFd3Vm9jd3ZOVGhLQjNiQXM1WlBTbktBRDBiYzNYcGxCWGhhWUZseHE1amw5SWNjTFjSAcYBQVVfeXFMTUNnUTczWll2clVBbmJoRWhfclBCVVdLR01xMEhLTjNRb0xNT1l5NmtTTUVHMGxXaXhVXzZXVWYwM1NVYV9mNkdjcFNhd2RSMmZyNl94TGFPZ3lnZ1g5dkQ0enhRZXhUeHQxXzd3aGt1Skh3Q2RqVVNSenFGelV0TG4wT3djUGVOOWpNLWZsejdET1BYbFI4Tlloa1BOU1Y1S2t3bXBMUzhIYkY0UE1HbkhUZFd2clctc291aFlYbTcyYlhMc0Nn?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Atlas",
@@ -2630,7 +2605,7 @@
           "amount_m": 6,
           "date": "2026-04-09",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZFpzb0ZkZFpTWUFROEE0ZlptUnZDT204Nnc3QW1YTXRLWkplby1sekFITjU4T1RHMDRJRURVRUpmVFhGWmNDeFBaVXI5a0xNd1QyVUZOcmtoSTFmdjRJRHZrbVpUbWU3UERhbHlhS3V0YUpfcWNiNjh5ZjdzTnVMX0NvSlJhS0M5UEM1d0tXMTBaWHpnM2sxVw?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Rivian CEO RJ Scaringe",
@@ -2638,7 +2613,7 @@
           "amount_m": 500,
           "date": "2026-03-11",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX3FtV0UxYnZ6RHJkcDI4cTJtQkdhZXFoeGpJQ05CbDFOS1lmM2dnUDU1akFBRTFJZ0ZoajhwRHljNUtSTHZFYlQyWXJhM3BtaU9hbW1qSWctd3o3QnI4WXhzUWp4MVN2alFjclpsZzdFb2Jma2xUSXFYX0NBdFJiZTdtRGZNZ251czcwTEdPM1A?oc=5",
-          "theme": "Robotics/hardware"
+          "theme": "Physical AI & robotics"
         },
         {
           "company": "Vimag Labs",
@@ -2646,7 +2621,7 @@
           "amount_m": 5,
           "date": "2026-01-29",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOU0M0ZUFhMXZIRVh2LTl4dDNibkgydzQyVlExRXF0TWdOY1NkWnQ0TTFEN0tPeFhrSzJGM0lNYWRYalVhT05UaE9qaFJieVV0WjFCajAzTHFOY2NKSXZ3WlJlN3ZYY2RQcGh1N2dMaXFVNWZkeDU5dzhIRktjaWMxUmtJcUxldw?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Open Vision Engineering",
@@ -2654,7 +2629,7 @@
           "amount_m": 11,
           "date": "2026-07-15",
           "link": "https://www.itnewsonline.com/BusinessWire/Open-Vision-Engineering-Raises-No.3611-Million-to-Drive-Next-Phase-of-Pockets-Growth/37484",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         }
       ],
       "early": 9
@@ -2668,7 +2643,7 @@
           "amount_m": 95,
           "date": "2026-06-05",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NckY3a0EydThxY3UxdFVsME5uVVFDRm9xaTVOWV96UVZKUWNDRE1KSzBaMHBZUTQ2X2p4YnRGS1RvcHVKbXAtOVhLOEVrc25uU1JRTlRYZkNoc0pxc2xadVlPR3pEQjFoM05PWUxCeGJpOFNMUXZNcmpWaVFhd9IBfkFVX3lxTE9NckY3a0EydThxY3UxdFVsME5uVVFDRm9xaTVOWV96UVZKUWNDRE1KSzBaMHBZUTQ2X2p4YnRGS1RvcHVKbXAtOVhLOEVrc25uU1JRTlRYZkNoc0pxc2xadVlPR3pEQjFoM05PWUxCeGJpOFNMUXZNcmpWaVFhdw?oc=5",
-          "theme": "Healthcare/bio"
+          "theme": "Healthcare & bio AI"
         },
         {
           "company": "Gradient Labs",
@@ -2676,7 +2651,7 @@
           "amount_m": 13,
           "date": "2026-06-01",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zUnFGZ25KWDMxdnh4SkxCWmJKU3JfN0cxT3QtNmFkbWZPa0lSa1dYR3lBMUZSMjJHVWtNcV9pa1plc2wtbV9NdS15WW1ZV3lzNXd1cmdCYUQ1WEc4Z3VTamtaMFAxNUMxYWc?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Node",
@@ -2684,7 +2659,7 @@
           "amount_m": 42,
           "date": "2026-01-27",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOREhiLXBTLWR3U0l3VnBTMDcxU2JmMTdwVGZmM09td3d6WlpDQUhIanFQd2x1LVVMWkdlS1hFSDlsR2xfZEMyeWJLYk1Za0ZuQjdpTERVLW5XX1NlaEhhSkJVMkVkRDRwYWlVNFhKNkduNUIzNzZPUkltZ0hsclZGY3psazNxYmVRM3l6SnVfbmlCbDl0aTFwa0dxd1VZUQ?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         }
       ],
       "early": 0
@@ -2698,7 +2673,7 @@
           "amount_m": 60,
           "date": "2026-02-10",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObXU1Rk9pVXA0WUN2YWt1VTNnRm5RNFZtUkdhY1VHYVNWeE9UVFdldUhPX01HQlRmdTVETG9yVDdjTXVobGxnTVdFakxVQzJNMm5nbE8yMEpuUTZtT19Ja0UxdUUtWU96WlY4NkpVY096Ukw0WWdyWE8tb0Y2V01jS2lLcVFLa01iZGJWUkRtTVhPeUxXOEJIRXdsbXdFb2xSUVNVVEFWOE5jMzVC?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Artemis",
@@ -2706,7 +2681,7 @@
           "amount_m": 70,
           "date": "2026-04-15",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRV9IX3B1RkdmN09WbTl6Mm1TbzBkcFFrTjU0NmRHdk14QzVpclR1QjI1cWFEbkk0NzFjY2Z6R21paGNzMHJRdkZxN3U4anhUVW1TOGg4cnhrWUVZbjR3N0h4ZXZCeWZ4QzhLNDNWeFZXQTBVdVBxTFhyd3B0ZklYTUJ3TXkxbmtjTzAtdHdTXzJmanRZZ2ZvTkVINUd5S1UwNUxv?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Enterprise AI software"
         }
       ],
       "early": 1
@@ -2720,7 +2695,7 @@
           "amount_m": 50,
           "date": "2026-06-10",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNamt4WjJScVkxWndtTmZqR212d3U3cVJUeUZQOFdzeGdNMExKVUlMX01lTTNiSHFCN1JWeFA5a0JCWW4wNEFXaW8yYWtuUEt5QnE1Ql9kMTQwVkdHdG5nWVNNdzQtRzdsQlpwd3czdlVmcDRTUjY1R3FOWXFiS0VlMEJqRzNfU0hidF9UaWJhb085WnotU1p3SlJsd1JhRlp0Mm45Sw?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "STARK",
@@ -2728,7 +2703,7 @@
           "amount_m": null,
           "date": "2026-06-24",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DOWc1N0tLcWZ4bFowSXJCMG5GcDd4WEVIMEI1bklPNEljVlYtSXVIMW1Vd3VjWFdCTVRNYXJCM29mbUNoWnhtdHVzUURESkVvYnpYUE9jRlE0Wmt2b25taTg4ZzlFVnlVdWJqV2RWODJQeFdqQ09YTE5n?oc=5",
-          "theme": "Defense/gov"
+          "theme": "Defense & national security"
         },
         {
           "company": "Coinbase CEO's antiaging company",
@@ -2736,7 +2711,7 @@
           "amount_m": 435,
           "date": "2026-06-03",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLW42ckR4RUpKczdRb2tRdmhscmxmVHRPME9wQllQZnZpM1ljOTJiMXJ3UjI5YkpHbnFDMHFBS21WRjFJU25HSk0ybDhDdmhrRl9kVGVBR0EyUTNaLTBpN0tNU1hJRXZueVAwSE9KVktsVThDVHdfTUFuTDZUdXI2V21JX1VDbVFsdWlPNXdzeUNTVEpWWU9rR2cwQWVJWGtWSXo1R0VLakR1WFkwZVF2dg?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Longevity startup NewLimit",
@@ -2744,7 +2719,7 @@
           "amount_m": 435,
           "date": "2026-06-02",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOC1qTXA4ZGpQRnVJbmFzc0ZTQmVoMW1tSDJJZEhZM2pjN1JUdjFpVjlVdU43dXphOGZTcTZIbjZZVmRNZDhRU01jVDdZYV9teVdyNnFvaVlEUVdsNXNwSy1qMHB6MkQxZDlfSXRBQVdobTRjTGRHbWtGWUJqWVE4dkhzQ1J2ZC1QNVFvV0x6bktPaUdVc1VacXFHNlJ6V2c1SDhrYmZia0pIZWZzUUdN?oc=5",
-          "theme": "Healthcare/bio"
+          "theme": "Healthcare & bio AI"
         },
         {
           "company": "Roadrunner",
@@ -2752,7 +2727,7 @@
           "amount_m": 27,
           "date": "2026-05-18",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5DNlQyRmYzNERVajJaSWdCUjZwUmdEdnlsaFJ3d09qcW9xRnpVMmplcVBtSzE2X1U2cGVsOUh4ZGxFYk1GZ0IwM0x3b3lSNHdlZUFyODJqMmJoMUlJcG0ya2F0cFhUN1Vsd3RzcEQ2eGpraVNjN0JmWA?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Panthalassa",
@@ -2760,7 +2735,7 @@
           "amount_m": 140,
           "date": "2026-05-04",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTF96ZXp6d1dVUXVmcF93SUI1clQ3bkRrM0h0NFQ5STZHM2k3NkExb0NTVWQtR1hzVmZPdDUyc1FCckJJczl5WEdjQnJMT2RITkd0UU04MHNNYTN0TkdCcHBSM1VTV1RSY3JkRXVMWm05c090WjJGOFpxOC1taE1IRFg4UjBfcWx6RnQzanFzTjlnMklVbFhUQUE4SnkwTjZlTGhrTUNVZkpWcUZrUVE?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Halter",
@@ -2768,7 +2743,7 @@
           "amount_m": 220,
           "date": "2026-03-24",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeWdueXRzWE90N21sUC1RTWxfSk9PNnhyeEt3cTZ1QUpFRVAwWVJuNXpGT1h3aTBhX2JaU3FsbmhMUC1VR1hQRjVwMFRGOWt1cHpJaEJlazJia2pwZWhkOXRQb2k4MTd4SHExNmM1cmcwZ2pkbGhWWmtGNEkxZnJOVDkwUDJPbEdSQWNVTmstU1ByMXh1NXpXMFFTOHNUUk9OMlJlZHcwNm9TZkRTazdsQ1hOYw?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         }
       ],
       "early": 1
@@ -2782,7 +2757,7 @@
           "amount_m": null,
           "date": "2026-07-14",
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWXhqSk8zMGxrNEd5VW1qeDNhcHB3aV9xeTZ5bEFzTG5pbUU1SFlRTEdsdWQyT19EY201NktzMXZta2MySW1YN0FHdHpZU2c3cF9kQzhNbGRHZDVYRDhnYXNzci1xMk5MRmQwbHRuYldjWEpUa09Jb2hWWjY2b0RKc0ZMRW52RVNZYllISWtDM19JOUlSdGpxM054XzJFSS1JNnB2T2pSOGhYNEVsZEgwemxZWlVoNG5IX1I0cnZ6c01FcHJKMGpzWjFKUXFTZE5YaGVnNUxvNEotRzZfWHJJ?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Probook",
@@ -2790,7 +2765,7 @@
           "amount_m": 40,
           "date": "2026-06-23",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOFo2QWt0bzgwSzNqc0RleUVmVl9EZ0Zyc0pHbkplWS1HWlI0WEEwOEI2TjA2NGFkRUNUc3ZfRUdlTDZza0czZDZOb0VzaUFIT2pMSDBTaFlsd1NGckplQ29Rd1E2N05OUDJYQVhvZ3hQZlF3ZmQ0WFJoTE5TdVo0N0Y4czc2c0pHQ3BDbTJPLVhVaTVGbHlNUmg1di1yd0doMnBhR2Vtajg4cVl5YXZsUlVR?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Pace",
@@ -2798,7 +2773,7 @@
           "amount_m": 46,
           "date": "2026-05-27",
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQODZCZzg0elRTRXpHVVFsTk1pVEc2SHhORHBaQmdMSFFxYkpfZlJVMU9BUUhuRlhPYXVqU3Z1MjFjeFN5dm1WTG80dHB5V0tOOERfdXp1Z0Zfa1p5ay1XUmhCNGFQcTI4dERGSUZ2VHhSamVZY2N6RTJuN2hlZmJYM1duQ2RRallzaklYVDJrNnlseVdBNjNuUlJVZ1Q3UzY1TERKSWNNc2xEdm1Uczl1N0paN05OcTBuU2lDbXNHVVBuQXdJdzVsTUFn?oc=5",
-          "theme": "Insurance"
+          "theme": "Insurance / insurtech"
         },
         {
           "company": "SendCutSend manufacturing company",
@@ -2806,7 +2781,7 @@
           "amount_m": 110,
           "date": "2026-05-20",
           "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFB0TUJSWjQtS1BrMEU5dVQ3d2FQUEJ1SkwxZGR1N2RxVnVZcTQ3Tnc2emNlb0dvdndpNV80QXFaSQ?oc=5",
-          "theme": "Robotics/hardware"
+          "theme": "Physical AI & robotics"
         },
         {
           "company": "Dust",
@@ -2814,7 +2789,7 @@
           "amount_m": 40,
           "date": "2026-05-18",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWlV2UlJrcTVMOVVJNkNMZnVvVThrWjlpMUlaZ240WmpUOG1hNS1TVFVrSHdhd2hDd2pUM2FYWlJ5dkJuTUVTYndCd2tnc3pXZFhCdU5QaWtQZU9XaUxtSnRtRlByZFRTdldJMlMxQTl6NGJGWlR4NE9oczd3U1JJRUQzU0Jfc3BvWXl4NnRZMzNPeUJOSjVCZTlRWTlXNGRydS10dnhQUEx4ZmJyaGE5ZU9ZamFqUXFHdWRr?oc=5",
-          "theme": "AI infra"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Sequoia",
@@ -2822,7 +2797,7 @@
           "amount_m": 56,
           "date": "2026-05-05",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN3JhaUd3UmtpZ3QtTDRLb1ZaUFIxQm5IVjNjbHR5YWZmZEhUZlFSaTJhUGpRaGlYUmlKWXlkWklGSnhiNVhiUW95VG12YVNqdy01SmVIR0hyci1uTzdXN0tyeUlVYi12QktOOU9nOTZxaW9XMXJlMVJaT1ZQS3ktZFV1eDhGT3hEVHdWS0dvX3Y2TmJWU2VuaEtVend2Z2xHU0Z4UGg2cFhsb2UwQ3lNRkdITzJSZkk?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Standard Intelligence",
@@ -2830,7 +2805,7 @@
           "amount_m": 75,
           "date": "2026-04-30",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWU43dUU5Q21XZTNsYk14UFJqNXh5Nk90SzBxWDFXM3ZQSFkwYl9XczJfRG81akRUTUdaRzlHQVpoeW9iekRUNGpWczBCZ1M5NUlCZF9CU2JXUTRNbFM0Um9FNDNnc3paYlpQSlFyQUxOU3FNajdBWDVDclhyUnlWOV8ybTQyaXZ1WDlhNVI3ZGFRN3JCVmIwTUJpUlc1VG5FOTRlUnNwOWl1OHFHR2hnMzdB0gG3AUFVX3lxTE0tMkY3SmRSRHcwNGRDdEdQTFBOYTFTSGp2NjR2aTZTbHE1UlV1dXczbVN5UDdKdmVObkdqQjY0TmlZN0RHSkxrdG00NXFWWWFQcE82ckpFM1NGR095TmJXQ0lzMXlESVVBTUtiR0Fmb3piZXhZMHZUcFVjY25fSDNzTGZRdWlvcDkwZlR3X3E0Q2pqNk1nelp6TEdGVVlxWmJ2c1hPWXNUS3EyLVhCQ2VhUzByZ0kzMA?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "AI coding startup Factory",
@@ -2838,7 +2813,7 @@
           "amount_m": 150,
           "date": "2026-04-17",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN0xjREYwNEp4dThycE82TVVBQWFjeUpWQW1hWk5YRmZ5RGkwbjluUHhoY0k4OFQ1RlN2YWFQLWljT21LY1lLZzY0ZzdFejFnaDFNNmR4bVBfbl9mQ2ZyWFV3OEFTOG13d1IzcU9PWTdISXdVQkJodFBXcllDMnNpWHlYVS1hdzJ5Q3c?oc=5",
-          "theme": "Dev tools"
+          "theme": "Physical AI & robotics"
         },
         {
           "company": "Harvey",
@@ -2846,7 +2821,7 @@
           "amount_m": 11000,
           "date": "2026-03-25",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUlNpNzJNSEpZRzVaem5VTC1kWlByN0U3bTdMbVBTVkwzZkwzakM1NWJWanBZSllKWWo0SUJMQU9SYkJKQUF4ajN4T1czZUFxak9UcHJDaVN6S1pMN3ZmZmh2NVlZeksxdEx0dUVldWNja1Nqb3pyWTZUU0N0Mi01UG9fcTVsRXAxRnoyNFJCVkxjTlNYY2o2WUtFaEU0NkZlMFFnWDYyeXE1eGJEMHc?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Startup Oasis Security",
@@ -2868,7 +2843,7 @@
           "amount_m": null,
           "date": "2026-04-16",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU2lBTjRNalR1dlVWVVNVb296WVhDYjRJSC1aWU5JVkE3REpMLUtESTNwLWlPNWFCU3c1cGpUZE1yM1J4ZlRFZ1JYeUtHZlVnSlo1Y2szS2JZaHl0TDZjV0RqQW43TWtDNkV4UVRVUnJvdUhBYlM0X1NyX0NkRmdQLVVCWlluRjdzUDU5YXdqbjUzbFdjVkdfSmU4Yy1OSE1KcDY0bg?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Benchmark",
@@ -2876,7 +2851,7 @@
           "amount_m": null,
           "date": "2026-07-14",
           "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYWxKX0s0UEFGS1lRRXQ1NzFTRlMyOXZnY2g3aHlhcUprbGU5dlFEcUhlSHRMMV8tUWpFcFhSQ2I4SWJMdTVYclFQb19Pb1V0OEU0eFFYaV9DYmtCYkp1T2hfSzk3bzVMRmhzeFFzeU9OclpkWXA4UFp1VEwxdVBpc01jUDZWYzl1RFN3bUM2R09hN3V2aXhmbGNVWGlSQkdMZ0lKYVlORktpYnVKODR3b2RYTUx5U3NNdkdMSmZQY3RsY1BmS2k2MWxPajRiM184N2xsTA?oc=5",
-          "theme": "Data/analytics"
+          "theme": "Physical AI & robotics"
         },
         {
           "company": "Dexterous Robotics Benchmark DexVerse",
@@ -2884,7 +2859,7 @@
           "amount_m": null,
           "date": "2026-07-11",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNODlwRTdkc21iWGhlOUMwVXZKUmVqY3VsWUZGOF9jcU9KSGVLQzlXVjBNWTlYLXF5YU1UTkp5OHJhTlVaVUlIRGhkWVl2TzV5cDUyak1CWDl2SVJvYURDRXgtS2h2ejRtckNlSTdfQTQzUnZvRF9QRko4endHaG4ya0plZS1BM2dp?oc=5",
-          "theme": "Robotics/hardware"
+          "theme": "Physical AI & robotics"
         },
         {
           "company": "New Zealand",
@@ -2892,7 +2867,7 @@
           "amount_m": null,
           "date": "2026-07-08",
           "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sS0hlQ3NVaHBfY1BISDZQeXdLWnNLYktIV0RtZ3J5Y3NmN1M0T2I5OEpfWWNjQTVEWmFLUUpMWGRYN3ZMdGlYRk9acjNMZjlpRDRoNVM0OUNtSXE4MXk4cWszSTE?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "REPLIGEN CORP : BENCHMARK",
@@ -2900,7 +2875,7 @@
           "amount_m": null,
           "date": "2026-07-07",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU3RLSlJFdzZ4TG0wWDM4Z1JaM2xXZ1REeVlnRUhwRnpoLVdkcVFIVS1RTFBERk1fUUFWTF9lUUJ1bVhsTEZLSU9LeGZNNTVlLWFkVXhSUy1GQzgydEtCazVNa0J1OHlRVjdoUDJxaXI5YjBFOXN1Z3FLRzdTY3E4ZUlPc3BLelVxNkRFSk5nMlZuRnBQ?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Indonesia",
@@ -2908,7 +2883,7 @@
           "amount_m": null,
           "date": "2026-07-06",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ1BWVEowY2tnTGM4ZTJIdlJ6RG4wYjZhdkZQYlVmR1dnM3hmWU8yMVl1QVBPQnVlV214MWNuNU1QeGNnbXlPZFRxZTNKZmttS0xxUnUyakdvSTZtY3BxYlF6ZXpFLUFnbVdPclBsOFVhVGJHeG1oZ0M1WmQ4bkxHTTB2bzNZNWRUbnRnRXJ1NA?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "BI",
@@ -2916,7 +2891,7 @@
           "amount_m": null,
           "date": "2026-06-25",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOUdjR253WVBHdDdhbkFJRmdkZGJZbzZzRm5vX0ZUWnN0QmRwZXNTSVVJa2lid20xcVpkdUxHWVJiUnctWHFVLV81TTVCNWN3cklKMFNWTmotX1dEeURjR1ZRdW5sekhhYXg3YVd4WFhxci1DdW1ZTmtkczFVOTV4QlNHUms3Y21JWnFKbGRqb1UySldpbmVBRGlQaw?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Watch",
@@ -2924,7 +2899,7 @@
           "amount_m": null,
           "date": "2026-06-16",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNekVKSWtId3E4Z3FFcmh2TGhPdVBLUFNSeHh3bHgwQjBxWUhSZ2lTSXU5amRMalNoYkFIX0kzY1dfMG1GNWE5dHZWRjkwbnR0emZsdWkxT25YMWFYd0IxT1NyVnFBOXdMWnhXLWpFWHVGd1RWcnFqUTVhNVFSbDBIQWtIRENHSzZkVHRTX1U0MWtXUDQxTElybGxDZWlpdXdERUQybmF5OA?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "BOJ",
@@ -2932,7 +2907,7 @@
           "amount_m": null,
           "date": "2026-06-16",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcXZGcm5kTmZOSEZUQ213dWFOalIzaDV4bUlmSVM0bWhoeTZmb2RjdlhmMVEwTzBwcjR5Tl9md2N2b3NHSlc4THJpUWsxeU9QYkxUUFdzRkpacHp4VWZiX1ZqaDdyMkJYQ2lpaXFFci14Z2U1UGtrQmpPN05UZ3RqQk85dWJnekt6UUI0cmF4SHZOYWROZTVqTFhmNzdnbHlNUUt3c2lnZ0VpOUI5c0UwaHhSaw?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Europe's central",
@@ -2940,7 +2915,7 @@
           "amount_m": null,
           "date": "2026-06-11",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWlJRXpjbktvWkZtblRoUTFRYTc3OHBFdU5tLXpqdU4tellOUmVjZUdZNzgxYzYxc2hibXhuX0pmc21pdC1HbU5BdlkwNXZnbkpwenRrNmNSQW8xa3VIaXBOdDkybzZpdWxORWpUdUo2MVJIUWV5RVE0blQ5SGR3T1p3Vk1hSUducXpJdl9QU0U3bV8xT0N6bDJ1dGg2UXJZMVA1dHpnck9VTWQ5dTlWcjF4bw?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         }
       ],
       "early": 1
@@ -2970,7 +2945,7 @@
           "amount_m": 22,
           "date": "2026-05-06",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01ZERBUERXVjFsa0RRQ3V4RC1XX3d4U3d0U2pjeWZndnl5MzB4eFNnNE16SHpqamhUQnVSN2taZUNfbXJLRmMxdzBJeklYYWRNbjhnOURXemx3MXZyYU9uMGtlczdvNjUtRHAzN3Y2WVJfT2luNHBWMU9FcEE?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Axiamatic",
@@ -2978,7 +2953,7 @@
           "amount_m": 54,
           "date": "2026-03-11",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYkl4TGtJb29sT3lJYllCSE5DNldhWFhKUkFOUUVkajE5c0YxUjlVUlRKc2FSVHQzV3pDcWJYY3ZRbU5LRkppRHdKeDBaUU1xTEhFNWVLMV9aU0ZSVlpSQ2RXU1UyczNiWEU3dzV1RkxrT25kSk5TVHMyandWQ1A3NFF0ZGs1OTdZOTh1V19xelNYNG9HbUQyRkw0VVhnbTN4RTZnN0hRV1kzLS1XVVVXNXZjWDVWNlJtT2pFN3VsdF84SXFweHVfT2MzYWRMNkR2WUVULVo3N1k?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Bretton AI",
@@ -2986,7 +2961,7 @@
           "amount_m": 75,
           "date": "2026-02-10",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZF9SYzBtTXJyWFpGVzhxTzZzOUhlMG45YXRUWW1EVmYxWS1WSEJrOWpSVUV6QlpEQ2xpRXFWUlRVMlFsVUR6bGw0Z0tHSnBPdXo4XzA4QVhoYXMyRTBWUEJKZTFFWDNORVV4Nzd6Wk9qZmdGcUxDSjZGVWMyS09DelpnVzA0ZmJIX2dudHFvZ3o1SWNkRjJwcFZZXzJtRG91a3YyRUduaHgzY01EU2dsdDBMQTZ6dw?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Financial back-office & compliance AI"
         }
       ],
       "early": 1
@@ -3000,7 +2975,7 @@
           "amount_m": 30,
           "date": "2026-06-29",
           "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5b2lGaVR4MThTdnNHc0dLZnJ6ZHR1SzBzckFvNFRoVkR0WldfcVZ3R3JOUkxuTmJPYTNlQUlaTmYtYWdzLW9CQTV0aDJVd3hkWFVUR3M4SEU?oc=5",
-          "theme": "Legal"
+          "theme": "Legal AI"
         },
         {
           "company": "Straiker",
@@ -3008,7 +2983,7 @@
           "amount_m": 64,
           "date": "2026-06-29",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVGxUWmRMTXkxMmZDN0FQa2tRNTFWd1RsMzNiV3VoblR2c0wtandRVkgtTWY3UjNkUW9iQkJrNjMxd0thZDNJeU1hZlg5VkFqSTAyRHNmYjV2N2xMOWVXR0lwWjZid2wxOFl3dFE1ZXFzZDZfYjJDX0tJMXU0bHZSczFWOTRCSkhYQWdXN2kzOTJWUGxKLTJjOVM4NHZJVjlhV0tPbjkxb1l2d3pMcjhNanFCN1Nha0E?oc=5",
-          "theme": "AI agents"
+          "theme": "Agent-native infra"
         },
         {
           "company": "SuperLiving",
@@ -3016,7 +2991,7 @@
           "amount_m": 7,
           "date": "2026-06-25",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS1ZmQkZzeHJldGkxd0tNUDBKUklKUWhBQWR2ZC1qS3J5Rlo0ZFppTHJLY29YWDdpT245U0xiTEZMRTFrVGJoanBVeHhfcHp1eFJYVDE4SXJVT2ZzMjBlaG4wNzVfXzN1WjNzdm9OdFhWVmwzT0NGbTRka1Uxb2x6dV9Fd3hZck1fcEo3Ql8zMGRydw?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Trackk",
@@ -3024,7 +2999,7 @@
           "amount_m": 4,
           "date": "2026-05-19",
           "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOaHNNd2k5bVZDWk1vdVRzMGdaQmtfTHZvNGZJX2FDMkhWTEpGTnl4RVJxZmVMNTRnVWdGWDlWZE9TbUpfRFZwZ1dkSkZNdmRleHF1NmtPYVliRXVBVWtPdzcxOTZRa1BQZmN5YmQta0dPSHJicVY0dlpjdTZkNkYzdloydXVTVnAteFdrZHNmUk9ZRk9UZ2F3azFGQlVqVFNULTJ1V25tUDZ6OU52YXZmZWFSZDZNM2VLcW14YjJGb0RxYXBlbU82RTVNOUhOM1JudTZHOXZobU5SUEZlczItQ0lBMFRocE5rTXVzMTQ5RWp3cktRVkI0QdIBxwFBVV95cUxQckVqWl9qNDdLSWxUMkJyNWI0c1BDLVZaTldVc3JPd01oNHZHTjE3blAxa3RlMlpFUl9nWVc1MXR6UVVFSGRHWUNTdGIzQi0tbkxCVEJlMGwxZlFhY2RBeXRiREl1UXVUY1U0c2tJTVdYcW81bUFoRWdTLXZNZkQ3Z3BadnlIdDRZZDQ2WC12bDlWYUU4ckwteEFMTnR4VENTcDdJMG1jQzlIcEpIeTA0S2F3b1NiRUJGcV8xa2FCNnlfcjRuS0ln?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Origin Lab",
@@ -3032,7 +3007,7 @@
           "amount_m": 8,
           "date": "2026-05-13",
           "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNSkhRaXZtTmhqRGxIT29wV1RfMmRLRXFhc1hXX0V4RThsX09lZjc4bzJzOXpCQUZreHBuRXpqdExZOHc1STRJUnpHLW91b3cxa3ZyZWFVNWtDaUFHU0xKU1U3MmctTEJGbmQ3OW9tX3J4X3NkWFJoU2xRU21tbW9TQ1RMaWtYU1Z4TUhZRGpXOFk2NlluVW5IX3g0MDUwMU1VekM0Y2d5aEdsZ1B6V1R5X1JzdVRNc3BEdU5fa0FPNU1oMmp6X3N5OXV2UWY2Z0RYbWZSVVo5QlJEenN4WG4yWlgtNDdwRHgybU9aU2FBOHJwbkQwUUpvemlOREhDTXJSWWN5czlRbDI?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "ZyG",
@@ -3040,7 +3015,7 @@
           "amount_m": 58,
           "date": "2026-03-05",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ib2taa1pKM1ZlZjF4bk1od0NyTGQ5WFF6QU1TV1pNS2NTbXJjdzl4TFlGWG9nUHVaYTMwUGRvT0NCNWR3S2F0bFpTMVdtc0p2cFpfWjcyV2N6V2FGcFFNMWFtVEtMMy1Za1pURnN1eGV0ZXhidVE?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Xflow",
@@ -3048,7 +3023,7 @@
           "amount_m": 17,
           "date": "2026-02-24",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95d0ZWa3pnOHR6a1c3WWVRaXpQejNRNVpBeUlRWUtObHU1aFNDcWRGY3piYmI0OFpqcGxYVzZCU29YMzVLVEtqd3luX2pVQnRlRjZ3MFBraGJwSEVsRFdOZ0ZjeXZhOERGeGNSazVaa0szYWxIOFpPUA?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Portkey",
@@ -3056,7 +3031,7 @@
           "amount_m": 15,
           "date": "2026-02-19",
           "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQcXg2a1dLTFZOYWd4N3M3aGVyQXlBQVRfYk9iWXJST05sOGRMWGZXb016Q3lZQTF3dFNOd05xX0lUR0tvZmRWWUlTUWEtQzV3WWJJN2NxaW1MYlFfN3N4ZXhLSEFrdXpRNDF1RVNWRTMybmV5WmpQY3pCUkxOVlFXMzZMbW1feU5uSkthVVdVMVVKTjRyVi1TYUVYYUszTWZRU185RVJxREFTZ0hqVWxrblhsQjhfejBIdmN3SjVrejZBNlFyMHNzWTdYZ2hrTmJ0QUM1SjFGYWNfNjFidjBYRGFEeGZoU2M?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Plug",
@@ -3064,7 +3039,7 @@
           "amount_m": 20,
           "date": "2026-02-02",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9WeTNoUHVhTnNBOWJxdWNJNkpQZXVkMjlnSzRaOXVORThROG5hVXUzS0NIS0NvZmJSWWFXRWVKdE05WEI4M2pMdWcza0d6dy1nLW9SN0FKNUhlQ0cwcDI3ekR4c1o1d1JrUDQ4RkxsaG9ySWVnRXBfcEplalQ?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "MITO AI",
@@ -3072,7 +3047,7 @@
           "amount_m": 4,
           "date": "2026-01-29",
           "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWF9yWDJEbnZJX29WWVhwQjkzVnJDdnVHZnkwZUF0bW5leXpWcGZaV0VQUXhTTlQyWWpiTGtPd3lEZ09rOEl1N2dVZmJuMUw0cFMzclpvQWlJRF85bEtWNjg0eVl3UjRXNGtoNTBLclNKaXBoNVN3MlgwejhpU3ZDVHFBcndBNE9Ub3BfTWdSd3JZRXFydUIteDVES1BnTXpxejBnYjhnRFhzYzFMNjMxbFNINGZiRXVJZ2NnYlZXdXhWRU14MGNGV1NXb3JHWWtuM2JYNWN1UEhnVWd0Y1RSUlcwQ1BuSzBBVjltNmh4b3Vudw?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Marketing & creative AI"
         }
       ],
       "early": 10
@@ -3086,7 +3061,7 @@
           "amount_m": 45,
           "date": "2026-05-29",
           "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVnFfcDZvZWlqSWJzejN0QldLUnBZdXh6N0dMWlpyNXdvRlpSRW9rcGlxcnYwaDlzM2N1OEZkU1duVWozb0FKVnRfWk44S3BkVkhMb2t2RThKb3YteGV0TXF5amJsTUFEUnEwdXpSckpSMUVqLUw1VGxYZ0ZRampQNVdZRl9CLW5uMHBycUlFb2tOdnFwQjdIY3Y3UVdsWUk5SkhyYWU3RW5fTU54aVFmU0tFVEdaQXVIYm83RWRYa2RyNUM3OEEzVDBrY19iTFVvdzYtM05ZcTQ1eU9QaVAtdnBRSlFHUXBJSWow?oc=5",
-          "theme": "Defense/gov"
+          "theme": "Defense & national security"
         },
         {
           "company": "Illoca",
@@ -3094,7 +3069,7 @@
           "amount_m": 13,
           "date": "2026-05-07",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE16NG55TTduYzduX1JOOG9mZ1UtX0ZRLUw3bjFWaGYzdDVVM0dFeUJWdlZPc1hpYm1iN096MFJsSmxVdXRGUk43NmxRRkZfMDhSTmg4ZjllbEI5djZENm1SRzRuN3lSeUJwR1VKYjZGTDBTcUJpYVNJOTFn?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Aman Gupta’s OFF/BEAT",
@@ -3102,7 +3077,7 @@
           "amount_m": null,
           "date": "2026-04-08",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWEJXamFsblRVWWlTWm9rRXVkaWl4TkZCSlYxWHJob2xhWVdRNDBxalJuMFAwY0RCV193ODNMLW8xQjM3S2RqOHhKZ2p3dkIwM2dfNlJfY18tM0NPN1RXdVBVR0psekVCMExPdURNQm5ZVUVLc1kwWFJGNFk0Q1ZUOTBiLWUwYlRiMFc5cjRtenZhRk40clVmNk1R?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "OFF/BEAT",
@@ -3110,7 +3085,7 @@
           "amount_m": null,
           "date": "2026-04-07",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWHhzMTFvTTFkTWF6RV9adDk1RjFPa3RueG9hamlxbVAyb2R2dTVkTHItNFZGWDVqNVZCSVZ5U190ZG1LdmpjV0FrV1RsNHNNX3B2ZkowQk1CMzd4WnpQaWFnbUpPRUcyMmhrMlRESUpIalF4UnFfd1duMVNqbHZXbzJtVVI2VThKdGhlV1d0U0NNRmtobk1mTzhHYkZZeGRaNnlCczRmbW8wcUExaXlNaFNMYTNOZw?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Bold",
@@ -3126,7 +3101,7 @@
           "amount_m": 58,
           "date": "2026-03-05",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ib2taa1pKM1ZlZjF4bk1od0NyTGQ5WFF6QU1TV1pNS2NTbXJjdzl4TFlGWG9nUHVaYTMwUGRvT0NCNWR3S2F0bFpTMVdtc0p2cFpfWjcyV2N6V2FGcFFNMWFtVEtMMy1Za1pURnN1eGV0ZXhidVE?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "MeltPlan",
@@ -3134,7 +3109,7 @@
           "amount_m": 10,
           "date": "2026-03-02",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RamxEV3NITXFKSm00X2Y3NDk3UVdWcFFGUkZRNTAyWVFlMEIwLVlFTkRDZTg2MFZVVEZpTW1qMHNnaDZNWVFuUm5pOHJ5UjdTQzZBZWFxelJJN1Ztd04xXzF2TGo0WTZFdTZoSjQ3UWVILWtjYnVRZnJXQXg?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "NODA AI",
@@ -3142,7 +3117,7 @@
           "amount_m": 25,
           "date": "2026-02-26",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcDZSM05mSjhEVW5WVzRWakFfQTFlQW92bm9yX2NBajdIQnd0MnJDRHg5Mzhycmd4cjA2SGRuMkYwN3NqdjRsanVPYlphYk5QdU9CenZtVE0ydzJWZXZjRG1HUzEzUXFFaE9oOENyYmc5bUp0VTNscDRxenA2YjNiOGNPVEhfTnF6WFYyUnBtdGh5VTdKVDRMeHhYYUhzMDdmaWFv?oc=5",
-          "theme": "Defense/gov"
+          "theme": "Defense & national security"
         },
         {
           "company": "Defense Tech Startup Breaker",
@@ -3150,7 +3125,7 @@
           "amount_m": 6,
           "date": "2026-02-17",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVXNfSW0zMk9DVmdlRGNIbFUyQ3RkbzlkbmNTVVFHcC1jd0gtblBPRXBHeUNhZkU0aElBckZEVEJjZWNHRUFmSFJoVUlPR0tiWGZlazRRNTlJRnNnWXNiakpmOW03dXlKTEZIenVDTXR3eXFQOUJlSjlMZmRjV2E3N1J4X0tYT21fZnQ0UHVZbndqNUozd0dXZEd1eUtYRnJwYmhES1lkMVYxbURzdTdPNWQ5VlNqZw?oc=5",
-          "theme": "Defense/gov"
+          "theme": "Defense & national security"
         },
         {
           "company": "Paraglide",
@@ -3158,7 +3133,7 @@
           "amount_m": 5,
           "date": "2026-01-27",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcHFuV084Y3dMczA4aUFQMnctRnRPeDAzRzlZMU1NbWs5YmVZU2dXSGR4SnRaRDRxenZ3OGZ6dXE4MzlZMXNBS0ExT2psS3ZEWE80R1EyUGZuakdwOFR3bUpzdHBoZFZyYlhtenRRVVlOcUhfZS1fX3h1ckpHMUVDZmR0emUwbW5KSkQxaGZwT2dMM29RbWJ6RkJwSzFERDBmdlBCLXZoZGlNbkRPV3Z2LS1yYlppSi1tbTVnOQ?oc=5",
-          "theme": "AI agents"
+          "theme": "Applied AI agents"
         }
       ],
       "early": 10
@@ -3172,7 +3147,7 @@
           "amount_m": null,
           "date": "2026-05-21",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZTZFbjVEaGFqaDRVYXk2bFdMbFZjSlNXRC1qaGhWWGFaMTNQd29qcnFuQmZhVDZ6RG1oVEJ6UXpoY2dTMnNsWURScnlfSUY3RzNvRUMyWGNiSDI0cWgzUXRPYV9PTmNvOTNaVG1ZdFNwa2JRNFgyMllhaHNfOUs0LXk5QzJ6SkRwdXpreXVnUXFDY0E5Z20zcGlJT3A0THFKQTdRZHo1YXM2NThNZmNDSg?oc=5",
-          "theme": "Climate/energy"
+          "theme": "Energy & climate"
         },
         {
           "company": "EGI Battery Announces Successful",
@@ -3180,7 +3155,7 @@
           "amount_m": 10,
           "date": "2026-03-04",
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWlVHVzRaQUt1SmJBUTBkN1QzR01EaHlnc1psamZKbHZwaVlWQXJXdTdGSmRCSEh2SXVDNmxlVlBZdGF3eUlOWVRJUjBIVEs2c2MtS2RsWTFRTTRaMGtSWmhoNXZPdGpjcVc0RkdGaVVXb2p1WjBxYUI2MXJxM0t5WGFoUzBpaC1ucXF0Z1JXWFNFVkdadGNHWlRsRTRHMkpkTWQwWS1lTWEtdnh2T3BLTWNtRi0yeUxGWFozSER6Y1c2bzREZF9ZQVFRWmJUVnZ3aHJBY1loblg4eEVZMm8w?oc=5",
-          "theme": "Climate/energy"
+          "theme": "Energy & climate"
         },
         {
           "company": "Vergennes battery project",
@@ -3188,7 +3163,7 @@
           "amount_m": null,
           "date": "2026-06-18",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMGJObGlKWDg1WUVUT0lRSHd6N0tKMV9jOVZqSWNHMVpnTHptazBiRWdwS1l1VmdDZmREMFRNNnEwYmVZekJ6bUpOdzlFMW55LThsM1hjWUx3QnVwVUhIdEdMcFZwWDRfVk95WE5MT0FQUFdBT01qYlZkdVhVdHJ3d1RHT3VtdHp1ZENj?oc=5",
-          "theme": "Climate/energy"
+          "theme": "Energy & climate"
         },
         {
           "company": "Eclipse",
@@ -3196,7 +3171,7 @@
           "amount_m": 23,
           "date": "2026-06-10",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ2Y1Z2pMN2lZbVVrRTlPNGpKTW9tOUxnUmlmbHg5RnNOMG1xMW1NQmJkcTBTV0JoLXUxdVp3MmRnbDlib21aWGhPdURnMG5ZLXlmOGRtM0NIbGw1dzZOX2gtN3pvQ3AzRzAza2RCVmJseDRPWktPY3JwOU1McXhBemJUb1VIa0Znb01hTWIyRTU1NXJCNURSMmZGYVB3Zw?oc=5",
-          "theme": "Climate/energy"
+          "theme": "Energy & climate"
         },
         {
           "company": "Solidion Technology",
@@ -3204,7 +3179,7 @@
           "amount_m": 35,
           "date": "2026-06-10",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRDZaTzF3STZxSVlqbnB5VEpWWmg2NVpLblUwYjFFV1ZvVnpGM3ZQY3ptMzV2aEhJejVMTDN6STV0Y3FUd3NuYU8zVlcyUUZtY3YwYUJvcHlpMjVzbkdpY3A5NDFPbnpZeDRoT1kyWElWZTlzNVJZSXBkb25naEt1aHA4Y1VQRmI2dFpCRGlNUG12cnlZUURWeXR4WUhQanF4WGxIdWh0eXlNaEdjaEx4Q0wyRdIBuAFBVV95cUxPaVJ6Z0RVV1ZiYlpWRWpQVFlHOXhNbzhla1JzZmdBM0ktZFJkZEJTYnVzUHlUYTYwbDFYOVZmS1lvb3NkSXRHbE5fbnZKc3R1Nlk2ZUZhczBndmZIZzZIQ01oclJ0LU5EenlJRWdTTHdjbHJPSllIWW9MN3pOLUc5OVRNWDFuaVlfb29tYjZZTlhuNWJVN24wejVQcFBLOXJMV2U0Yjh3WXlldkhiTDZ4Q3Byd1ZLTkE4?oc=5",
-          "theme": "Climate/energy"
+          "theme": "Energy & climate"
         },
         {
           "company": "Surge Battery",
@@ -3212,7 +3187,7 @@
           "amount_m": 21,
           "date": "2026-06-03",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTVc4T1VPUTBOZHFwRUVDaldCU2EtdnJvNFU3YldqbmdCNkpYb0lDRENUM0N6QTlUZUJrb3hpUTkxN0xOVF9ON1d3X3V2dWhyM1o2SjFJUVBZN0JacjFBN1NFaTJQMXpEZkpUNjVMeUhjRWFUb1c5c1lhc2F2TlNtcA?oc=5",
-          "theme": "Climate/energy"
+          "theme": "Energy & climate"
         },
         {
           "company": "Panasonic",
@@ -3220,7 +3195,7 @@
           "amount_m": null,
           "date": "2026-05-14",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY0M3MDBJYmMtSmFQX1k3LXY3X2MyXzhwUXJCNkktWXQybkFJUV9KNktfaE9vcmRVV2VRYXJDbGFjc3Jndm1ad1hXT1oyZFJqNDhBd2JWb3FZRVFVYWNGbUlsbEoyZ3UxVG1BbVRqc2pIT0t2RzI4WXNxTl9od0pTVFFGd041OGFTZFNUNlR3bUlHU1E4NFlhX2cxOEN5em8?oc=5",
-          "theme": "Climate/energy"
+          "theme": "Energy & climate"
         }
       ],
       "early": 2
@@ -3234,7 +3209,7 @@
           "amount_m": 30,
           "date": "2026-05-14",
           "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUmNWSWxHV3ZieEpkWC1sWVluX2E2ZDE3ckpfeWRYU094T3d4dHZHUEJxdktlZTBGVU93YkkzcGpWZmlSTDBRM3VjeWo1dWJibGZTMXN5eVJnSnZ6dGZYam5PaFdUOXJrOTMxRXZRV1hZUTNSaEZ4cHlpRURQMU5DYXVjUjdyWEJPdEJiOGlVMm9EZlJOT0ZiNmNMYUJJS1JyYmpKUHBGVUc5U1lzamJKUlladUdUd3lSeDZzSEViZnBVOEplY3htZ01IUmZqZEZBcEFOQkdVZjZDVzNVQktETkI0b0RZcmM?oc=5",
-          "theme": "Cybersecurity"
+          "theme": "Agent-native infra"
         },
         {
           "company": "BrainGrid",
@@ -3242,7 +3217,7 @@
           "amount_m": 1,
           "date": "2026-03-24",
           "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZ2lJSmttVXZQaWdVTF9zWlROZHpTbG40VndfaWNwRk9fQm9iaENtUWVaZzhHOXo1eFdYWkk2T25OaFdseVRzc05VMVpUbjI4LVM3d3hxTVNpV0h6RkNLYUZUSEVHc0RpdDBmV1lJdmZrZkRTN1Y5Qlp3RE12ZDB3bWZWOUcxNkVVY3NpY0VCaFBzYkNWb1FqYS1SMnBTTlJreHpfMTNCRzVJbWRPQ3ZhVmRPYmNxbER0WGE4ZFlBR2Fad0lSU1ptUkFnSjk0Qjd1RXhnRWxZTlp1bTFpUDRGUkhTYXc4Wnc5YUZMUEFBeGozYlVnVktvUQ?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Govtech startup NationGraph",
@@ -3250,7 +3225,7 @@
           "amount_m": 18,
           "date": "2026-02-25",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNandXTkNjWHlXcmJaZXB5UU5rNTZ2THJFMjRWUmx1NV9MZDJTVzd1NjdhRV81LVJRWmtGZGM1QlBPMU9HV2FyOV9JOEcwVUVSYXpXWWxpMnVVQk1Vd1J2ZFJVSEpaUy14X29fbUxCYWVOaW5KWmNfWVFyOTB1QkZVNkxBNUlZajk2WUd3OUhXVTU2b2VmbzhjRW4zb2JSY0k3?oc=5",
-          "theme": "Defense/gov"
+          "theme": "Defense & national security"
         },
         {
           "company": "Menlo",
@@ -3258,7 +3233,7 @@
           "amount_m": null,
           "date": "2026-06-23",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWTRrUkpyOW4yTTlFTUtkMXJMbzlFV2xfbUt5UlE3M2c5ampQRkVuM3NlMHliX2FyR1hISzg1RUNHUzlacTNmWXVOSm45Z1p1aGhyUmtxVGozdHc3dHc3UlJ5anlCOU5nWVlRZHpRcXBGQmVaUUtJNDhlVDdOSmZsTTIxV2JfRXdMM0NqM2ExODRhQ3Bkbl9KcDlyLVBJM3BqdDhoOUtFUU1LWEhKTWh0d2tLMkI5S1V3Rjc0?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Fintech & payments"
         },
         {
           "company": "Nourish",
@@ -3266,7 +3241,7 @@
           "amount_m": 100,
           "date": "2026-05-19",
           "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcEpqRkEwZ1VNTHAtOERad2VTM3hPdEtVTnRRLTh4ZlNOOUFKOVZMbGI2WlFqY0pXRmoxVHFsTXZoOVlGdU5tQ2VLOFcwZ01GQXl0T1U3TmxDS3ZpODE2WGFJOEFyakJ3emJaTmgySlZCNFFFZS1aa0k3RXNhdUN5bG92YnV5T3I4QTF3NEF2UmVtQS1oZUJtX3oydEFIRkQ1RmZwR2NidWNZV2wtVzh1aVBnZEpSekExNkpLTF8tcGZDa0JNbXFpRWkyZFROLWZaOWx3V0VFQVhnTFBsSWN6UQ?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Nutrition Startup",
@@ -3274,7 +3249,7 @@
           "amount_m": 100,
           "date": "2026-05-19",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWFZsTlZ1UU1GSkViVlFMcTJ4d0xPSUxCdDRCclZ3WmVfcnVtZHQtRThmeHNXQmZ4X1Y0MzZPQ2dQbm5VQmZCcmgxV1FUVEFXWEhfQmlxMF8zTjYybmpaQ3hfYmFJd3VONndDN2Y3TnZoQ00waGxzdWxjN0drNjl5amZVWUg?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "You",
@@ -3282,7 +3257,7 @@
           "amount_m": null,
           "date": "2026-05-13",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRVZiMVh2Wmtab3NUVmxFRVM3NDJ3YWRuU2JfZ0Z0X2c0QUFjTFZpTUhDdHpreEZLXzc2d21RX3FTU3ZOWjRRODVnMENkQWliWVFGLWJJOHRkUGUwQW0wVE8ybG41SDRYakhMY0JaWWFBNDlNbEJWTVZ5ZUJ0TlBLSmplTkE?oc=5",
-          "theme": "HR/People"
+          "theme": "HR & workforce"
         },
         {
           "company": "Menlo Park reluctantly",
@@ -3290,7 +3265,7 @@
           "amount_m": null,
           "date": "2026-04-29",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSWJFREtWUXlwU3BGeVpCdFZXcUhISFFVQ0tVR2Y4TGMzZDhwSXE4dTkyRHMyMHFYSUNVUU9lLWtpMXc4My1JMmxpamdLQ3lhbUxZcllBMkJEV1h4SHJMUjJWVU1NVFZxaHdtQlpWR1dLS19xVlpxY0RkN0FVV3Q0Rm05VGVTYlRJeldXc09tTVNMQWtRLTRPOHFSZkwzaFdfeWZ5T1ZhdE1iajh6RkdXVWdjRmZfN2c?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "NationGraph",
@@ -3298,7 +3273,7 @@
           "amount_m": 18,
           "date": "2026-03-03",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZTlFTkZ6bWxRR05KT20zM05fWldhWTRGVzNVUG5YQ1dNLUdaVFRnMko4QlJRS3lQM1hvZXdaSW1lY1Bxb0U0Rm9PVXYwc1N2VnpOTGlOeEtkZ2FyRGw4QTlMQnRUdnE1MlpjTVAtNXVBTjZUZFBSdXNSc2xpMTktcWc3U1h5cnQ2SjY5QnoxMk5lVkNiaVF4c003T3RBYk13RGtNNnBoSXFTY2xPV2c?oc=5",
-          "theme": "Legal"
+          "theme": "Legal AI"
         }
       ],
       "early": 3
@@ -3312,7 +3287,7 @@
           "amount_m": 25,
           "date": "2026-05-15",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRWpfeUU3bWw0Ti1oTHpEOThlN2FaVXQwOU01djhra3dVODE5c3JPdWVnWXlRNlBGSURMU3czWDh6YkpjQXAxVnJoRkZrNm9Ra0xzZjRkZzlhellLWGhzVzZNOXVwSHZTSUwtMkg0dTZQamlmZGYta0hUUy1iaHFUMNIBgAFBVV95cUxQRWpfeUU3bWw0Ti1oTHpEOThlN2FaVXQwOU01djhra3dVODE5c3JPdWVnWXlRNlBGSURMU3czWDh6YkpjQXAxVnJoRkZrNm9Ra0xzZjRkZzlhellLWGhzVzZNOXVwSHZTSUwtMkg0dTZQamlmZGYta0hUUy1iaHFUMA?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Hypercore",
@@ -3320,7 +3295,7 @@
           "amount_m": 14,
           "date": "2026-02-24",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWFhjXzdmZkZFalpJQTFXQnhXY2JQYXR2VEFzbTVmQ0xqdjN0VXJlSjNCRG8zTjhJQlprWFRWeFNKTUFsOWJnLUJnODZoOVVvLWZlMzVXT3NtR1FGbUtXOS11WXNGYVJNbjJkdnpHMjdiQVVvUGZueXk4dzNZY0w4SlZidTlZX2s?oc=5",
-          "theme": "Fintech"
+          "theme": "Fintech & payments"
         },
         {
           "company": "WINN.AI",
@@ -3328,7 +3303,7 @@
           "amount_m": 18,
           "date": "2026-02-11",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1qdTFnOHBnd2IxNGNHRU1OeVRtYlZOd0NCZm1lWmxXRXQtSzRJRHlraDgybjR2MFM5czU1TU5KUndnRnFBeU5iT3NHOFFnRy05UHZpbUFKODJndmRQcFk3TjNB?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Sales & GTM AI"
         },
         {
           "company": "Pasito",
@@ -3336,7 +3311,7 @@
           "amount_m": 21,
           "date": "2026-02-03",
           "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNMk9tY2F2V1BHc1lzSUcxaFlkVXNFOHgxRmhEdEJtX0xsNXdnSnlLSWppTkFobWw4VzJObDF3czhINjV1b19QMHI1VGxDWWxPd0laRVdqTjYtbWJfRVUwazV2Y1ZxM3BMbWdVRm9hOEhJOVNsSGNBQmZoTFA0QUtqd2tiOE1kdU55bFlRUV9hcUM3MGR3SzBvVkdBQlJqNVVreF9nanRVVHF6eVV1d19TZXc4OFllZDU4X1B6VXlCWk1uYXU2Q0pnUmx0bnFGb3NuNm5nZ2tiZHYwYTFib18tOEdjZS12TlVpQm1wQ1dDNUk4bE0?oc=5",
-          "theme": "Productivity/collab"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Slice",
@@ -3344,7 +3319,7 @@
           "amount_m": 25,
           "date": "2026-01-28",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90U0ZZUjNjTlM2YlQyejZXdXlITDVwWW9nS2N4aHV4dDViazRIeEI2NTJQUWtkZy0tSURWVGFUTFpTOXBldHU2S3BDd2I3VmFnY1ZzSVAteU0yYXhUUWt3cDQ0ZFgtbmFB?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Gradial",
@@ -3352,7 +3327,7 @@
           "amount_m": 65,
           "date": "2026-06-18",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSkFiZFRUcXk5blR3Vm5VMXd6aGtwQTU2aXZRTnpnVHBjV3U3OW1rQUlRMFpuQUdQQWkzU1pmVXZqSTk4bk5aVFZqMDJFUUtOUGJfZDdjcXk4c3FnUlUtRF9Bc1QzeGk3aEhySm9VV0phcHBKQ3B3RjVzN2xUNC1ZYQ?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Instabug Egypt",
@@ -3360,7 +3335,7 @@
           "amount_m": 46,
           "date": "2026-04-27",
           "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBPMHFlWUFTOHRJc1FIejgyTzctMEpwRUdwWVNhNF96WWhKNmhuZVBrdzdQNk9yMDJFOFRJWjk4bw?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Global Insight",
@@ -3368,7 +3343,7 @@
           "amount_m": null,
           "date": "2026-04-27",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNC1Ib3c5VWV3eEtEVlVuZzNULW1VeWNyaEhHQTJQUHFqdmxwTjFXYVJCdS1iZ3c2em5wdHNQRWt2Ql9IbWY4RVZFVHhoTEpPdHlUNk1XQ2l2NENDUVdXQTRVM3Ytb3MxN1F1ckU4WVhzZ2gzQTFRMWRaZmRVUTJ4ZUdpUUIzcDM3a2VWSGxQX0U2NkhmQUczVFQ0bFhxbmhMa2ZLUEdfNHBNcHFO?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Cloudsmith",
@@ -3376,7 +3351,7 @@
           "amount_m": 72,
           "date": "2026-04-23",
           "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNdUEwUF9TWHhadlVZdHRZVlBCUlJ1VEFkMjNSRFBmaGlJMFhRT0phMTI0d0NuTHZrNkJjYU5WXzRTYlhUVE1Td3BJYy1fMllHcmtvVU03SEFibzZQaU5UMjFiWTRwSU5TczBLVG5PQUxDYkFlSF9NNFRtX20taW1yM3BXWWpQZnhaRmp2YnlZd1lHUWRYUFIyYkJkV3lVNUp4QWR0c2c3ZDdZNXptS1IybVJhMlhuclJkYUQ0X3pRSFpyUGtqV1llQUJ1dndmOU5UdVpTd1JLd3dFWEl4dnRDcTg0azZHdlJTRWxLallQNVFNb3BYbmlPSk9CaWtFZTQ3WElIc3ZDTTBEUkJaY0J2S3gyQk9rSElrdS1zUjJNZ3RMUXQ4b2dhQw?oc=5",
-          "theme": "Logistics/supply"
+          "theme": "Logistics & supply chain"
         },
         {
           "company": "Factory",
@@ -3384,7 +3359,7 @@
           "amount_m": 150,
           "date": "2026-04-17",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaFdweFA1WkV1VnVob21faXVFU0hsbXNIQ1hVRm1aOUwzWTlyRl9YX0M4NkJzSVFPQ2Fsa0JSQW1oNVZzbmtfOGhkMHg0MDdkcFdoNWVrYk43a3ZWTHlpQ0I1ZXZ2S1p1THF5c1dlalAzV3RpUTF5VV9GdXJYb1lOQ3FBMnZzRUxaZHRQLUZ3ZEVzRU5obGln?oc=5",
-          "theme": "Robotics/hardware"
+          "theme": "Physical AI & robotics"
         }
       ],
       "early": 5
@@ -3398,7 +3373,7 @@
           "amount_m": 3,
           "date": "2026-02-26",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM3RtOEF4VUhXcUpCVVlzdlYwMTRRN2ZzRjNKYTdzYkFtSEZUYkJmOXkwQVN4cEY5dko3S21tblVQTzVpUmFwZGUtNjE4WG56S2hvOXJfdmpwUHV2ZlFkSUpxOVRXWUlpWXZ1SnhZb0lOTlV0QllSeDVaSk5Vem5VZ3A3WkRKTVR1MDkyR3VXSFBVUGN4VUsweA?oc=5",
-          "theme": "Fintech"
+          "theme": "Fintech & payments"
         },
         {
           "company": "Kin Health",
@@ -3406,7 +3381,7 @@
           "amount_m": 9,
           "date": "2026-05-18",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN0Y5V0htcE9QWE4ydWk3YmpHcGh1emVCcHR2SzVPVUpHdHpBQ0lSNUtKYk5NWFBrV0NfcV82VWd2WlVjTkhRMFd2UThpMVE4TDc1NHBEVWhfOTFBM0p6VU1GSkNzSVIybmVqbUJZb2ZkWVJiNDVnOGNtZGJtVmp3Z2JyQ1p4X21XcXpTVklHR3RYUFprOUVoS3N6MFA3Qm1yYnluSEJoRmRjdXh5NlpRQzh6cXNPd01zdXdBVUhxVzJKUQ?oc=5",
-          "theme": "Healthcare/bio"
+          "theme": "Healthcare & bio AI"
         },
         {
           "company": "Forus",
@@ -3414,7 +3389,7 @@
           "amount_m": 160,
           "date": "2026-05-13",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11LWJObkl2TXF6dUt4Z0gxTmNjNnd1TzVxZFVIVnJvc0F0OElidXpYVExjUkxHSm9WNnVKRE9ZN3JYSHhldXpTLVFOZ25JQ1hTdjR2Tk5XaGFvdkVDVGZzeGx5MDREQXNMZ2JYcVZwYVZrY3VpWl9IQjhB?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         }
       ],
       "early": 1
@@ -3428,7 +3403,7 @@
           "amount_m": 27,
           "date": "2026-06-22",
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8tZGtSSVI1cVc4NElpMU04emRNNDVra2NscVpDYzV0d2wyV2g2UVMtTUxVV29nZW5wazdwaWhpTEY5NU1zalBCUFZzVk91dnJYN3JxNlZPeG16Q0I1N2VibndLdWx6N1pkWHI1SlVER1Q4a0hrN2Q4?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "YC",
@@ -3436,7 +3411,7 @@
           "amount_m": null,
           "date": "2026-05-26",
           "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZmt4VXhZZHE3QmZDSXdlMXpRUzJ1Q2FQWnNWdGVOdGxCdHg5eFRtYk1kOGtUZmVNMGxzWHFkNGN3aUt2QUNvcHpTMVNlUW1hdFY0bTVNTHBocDFrX2xuUjZJcGI3OGNqRUhCMGkzNS0tVThVRVlVZmJEeVM0TVhhVkRpNWFhX0VObjliUUhIcHRrODcwNjZPQnBKbWg3a2kwUHYxZHh5R3VEeThvT1FmQjhURExzSXNPNzN5WjZ2aVFHYmV5ZmlMMFpIY28?oc=5",
-          "theme": "Healthcare/bio"
+          "theme": "Healthcare & bio AI"
         },
         {
           "company": "MochaTrade",
@@ -3444,7 +3419,7 @@
           "amount_m": null,
           "date": "2026-05-06",
           "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaDViTjYwVFpETzBrY3VGWFFXeEJhZkdEalNfd2dVeTJNbDV6WklDZWVrVktyMVBkWnJQSER0NGM2VHEzeUZZcXgydkhUanZEajhKWmExSEZBVVhYellLOGVKRUxQMHNXSmpvUGk2WEtwazZvek80UXZVWkJ6My1Ib3QtU3RMYTBNYXo3dHNKN2tsZWdUQlAtd2NzazFTNVRJdTUyajg3cW54TGxqT2pLWFdJUFFhSHptb0toZ1llN0hndlk3QjNVOUhyOVhZS09WbGRwWWpYWHM3SzlTelhhY3JEblY3LUxNamhYVnFn0gHzAUFVX3lxTE1xWjJoVVBYR0tIb1VDdmJPMTJic044TEN1TlF2WWhsYTVmczNDZzdCNVA3WWQtcW9pcURKT1Y2WVByWXpueUNiUjhtTXlFdWpvZ2QxWXI1Z1hTVW5UTXczT3ZnbWQxSU5STXRneVRLeWp2TGxkaEN4TUR6YUdDUlhQeDRiTWhkS3lyUFFTSXYtdGJROEE4eUNURzRURm56bW5Hd19uVE1TbWI0d1BDVlY3d1Y2OHJ6dmRPZTdfV04taHJzbzBad1lqWmw1eU5KOUtWU1VSZFBtaW12WFZUZ3U4SmdtaUNfeGNuc21IZVlqMWxrbw?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Y Combinator's Glimpse",
@@ -3452,7 +3427,7 @@
           "amount_m": 35,
           "date": "2026-03-25",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONV8zVWVTWi1CYmQ3N21OR0tYX3dQR3NGR3hBTHZmM0ZuSWZwd2JtUjhaZ051dHQ4WWtMY3pWQlRlZGxjWGJoQk1uMjZ2cEU2MkE2eVk3RWZjWlJVREtycTk5aEZRUzhWVXVuUlV2eDlBdWxaOWZNNTFPeTVHQnhaUXJieFRRRXd2TGdF?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Sri Lankan",
@@ -3460,7 +3435,7 @@
           "amount_m": null,
           "date": "2026-07-14",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaDk4VGVyNFhLbmtDa2UwRXFUNWdVZENZM0YwTjJIZlNFSjdPV2ZybnhQb3hBTU9wNmkwMTJHNGJubVdsTXhRR3ZBRHBnVmswZWdZeGVERjhQZ0h3bzlvQXZuM3g2ak5FcTlCNlJudFNsdE8wYndmVU9laG8xT01BdGlYeTJiR1dsNnBBY1pOZTF3blhvLTVtRGR5WERhS1c5WkQ0WlpOQ2JQSUxQSTI5d2NCTHpKUQ?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Y Combinator",
@@ -3468,7 +3443,7 @@
           "amount_m": 3,
           "date": "2026-07-08",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHdwcF83VExYcktpNy1zN091YUpVNE1iT3dScW1JaEhpT1hmTDhsTDIxOUZzZE9aZk9Bek9XNDBySGU2TlU2V3dCdUlTU3hsekQtd0w1WUZaQkhxeFlfVmp4RUJDSXU5T0dkb09zMmZiRFlpcU5UblZLSjgwanY0TjY1Q280V0VJWFFMN2hMZ01JZWdpV05PNU5fRk1xdmhPaHc1dlBobXdfYTRrdnNGWG1MSQ?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Warp",
@@ -3476,7 +3451,7 @@
           "amount_m": 60,
           "date": "2026-06-26",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zandWbUUzS1h1YnBmQVNmdHFGRTRXdE1LNHpQSEl2cUt4R2h6b0pJNnhsLTRnT1h5b2FmcV9RcVZsbExQeTBpaFF2cjZLZlVjQkdnbzZ4Z2gtZFFaVFdtVzZTSU90QkE3REFlZHZ0XzdCMXc1dzJJRjlqX2o?oc=5",
-          "theme": "Unclassified"
+          "theme": "Enterprise AI software"
         },
         {
           "company": "Greenboard",
@@ -3484,7 +3459,7 @@
           "amount_m": 16,
           "date": "2026-05-12",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTVRGaVRwWFFsYjY5RTVNUVJXUzZ0M3FEckxQOWR1eDRraGtFc1BtdHU2RGNzTEpZTWllWnZjVGlXVzRCWDBQLW0tRHRmMnZjREoxeHFLZjMyXzdFamx1UnBxbzJGWXp3WEx3VXphbzlBSG45U0R6aHU3TmdIenhjNklHc0N4bURrdEFlX0ZHWGgzZnpvNDhxcFZjZllLQXRaRjF3Z1hOV2ZzT2txSVNfTFVVU0s4Z0Ut?oc=5",
-          "theme": "Enterprise SaaS"
+          "theme": "Financial back-office & compliance AI"
         },
         {
           "company": "Moritz",
@@ -3492,7 +3467,7 @@
           "amount_m": 9,
           "date": "2026-05-05",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaTI1TzY3RVd0VzRGcWdRam15WWlmY2dNUEttRElPWUJyR1pqdVJ3MjBwelBVZG92OUdCRG82M1RhQTBRWmV3Qjc2Ykt5SjJsTDdQRUJKWW5udUZCVXpXNWVURktNczEyUTQ2TFVOdGJ1azlPR0xvYmRqRlBmeGhvT19WYmJHNWVGdlp3S29YNDM4UVZyZXJTTWR3ZjJENmxBRVhr0gGoAUFVX3lxTE9kNUJfcDVrSUpJZTQ3djlXMXpPMUdHbGd5YWZQSlBfdHJIaTBkam93eFA5cnp3cmNIeHJBOTNYTlVoV2lZUXVNSG01alpHa05ZOFpGazhzN2xaMlJ2cmt0Ml9Od1FYRzlUNEtaZDBxckluZE0zcVFfU01IbzZYU0FGNDJraTVRVS1jU3ZlMmUzSFY2WnN1ZUY4TXA1UTZKUlo2ZzZKVktwZw?oc=5",
-          "theme": "Legal"
+          "theme": "Legal AI"
         },
         {
           "company": "Y Combinator alum Moritz",
@@ -3500,7 +3475,7 @@
           "amount_m": 9,
           "date": "2026-05-05",
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Kb2ZoRnBNNVE0aEtZOXYyYVl4eTI1V2hNLVNWXzZFZEFTTktESGNGLURuSFh5YTBJNHNCNUNzaFpJb2tPYUprTnNvQWNsUXhfRXp3NXZxcWkwaFJJVGRPR3dndGZ6b294ZkNkOENn?oc=5",
-          "theme": "Legal"
+          "theme": "Legal AI"
         }
       ],
       "early": 4
