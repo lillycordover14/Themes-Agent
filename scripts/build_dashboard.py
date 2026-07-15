@@ -2,7 +2,7 @@
 """Build index.html from data/tailwinds.json + data/funds.json using scripts/dashboard_template.html.
 Also folds in Harmonic saved-search companies (data/harmonic_raises.json) if present, since the
 Harmonic pull runs before this build. Pure, no network."""
-import json, os, base64
+import json, os, base64, re
 PW_HASH = "1d5aaaa4c93515f767b7fe618476505c1bfefdb92db1625648f46e3c431a16a8"
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
