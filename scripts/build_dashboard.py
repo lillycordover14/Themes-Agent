@@ -180,8 +180,25 @@ def compute_pov():
     print("computed POV for %d firms" % sum(1 for f in FUNDS.get("funds", []) if f.get("pov")))
 
 
+def clean_focus(s):
+    """Trim PitchBook boilerplate that was stored cut off mid-word so it reads as a finished phrase."""
+    s = (s or "").strip()
+    if not s or s[-1] in ".!?)":
+        return s
+    c = s.rfind(". ")
+    if c >= 40:                       # end at the last complete sentence
+        return s[:c + 1]
+    s = s.rstrip(" ,;:-")
+    parts = s.rsplit(" ", 1)          # drop a trailing 1-2 char partial fragment (", C" -> California)
+    if len(parts) == 2 and len(parts[1]) <= 2:
+        s = parts[0].rstrip(" ,;:-")
+    return s + "\u2026"
+
+
 compute_pov()
 
+for _f in FUNDS.get("funds", []):
+    _f["focus"] = clean_focus(_f.get("focus"))
 _active = [f for f in FUNDS.get("funds", []) if f.get("updates") or f.get("pin")]
 F_DISPLAY = {"generated": FUNDS.get("generated"), "count": len(_active), "funds": _active}
 print("dashboard shows %d firms with activity (of %d tracked)" % (len(_active), len(FUNDS.get("funds", []))))

@@ -58,7 +58,7 @@ a{color:#33517f;text-decoration:none}a:hover{text-decoration:underline}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:11px}.chip{font-size:10px;font-weight:600;color:#33517f;background:#eef2f8;border:1px solid #e0e7f2;border-radius:6px;padding:2px 8px}
 .upd{border-top:1px solid #eef0f4;padding:8px 0 0;margin-top:8px}.upd:first-of-type{border-top:none;margin-top:0;padding-top:0}
 .upd .u1{display:flex;gap:7px;align-items:baseline}.utype{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.3px;color:#fff;border-radius:4px;padding:1px 6px;white-space:nowrap}
-.ut-Investment{background:#3a7d44}.ut-Thesis{background:#2f6f8f}.ut-New-fund{background:#c0562e}.ut-New-program{background:#6a4c93}.ut-Portfolio{background:#8a5a2b}.ut-Post{background:#5b6b7c}.ut-Podcast{background:#b3541e}
+.agrp{margin:8px 0}.agrp h5{margin:10px 0 4px;font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:#7a8699;font-weight:700}.ut-Investment{background:#3a7d44}.ut-Thesis{background:#2f6f8f}.ut-New-fund{background:#c0562e}.ut-New-program{background:#6a4c93}.ut-Portfolio{background:#8a5a2b}.ut-Post{background:#5b6b7c}.ut-Podcast{background:#b3541e}
 .upd .ud{font-size:10px;color:#9aa3b3;white-space:nowrap}.upd .ut{font-size:12px;color:#14213d;font-weight:600;line-height:1.35}.upd .us{font-size:11px;color:#5b6b7c;line-height:1.45;margin-top:2px}
 .fc .mon{font-size:11px;color:#b0b7c3;font-style:italic;padding:4px 0}
 .details-cue{font-size:10px;color:#8a94a6;margin-top:9px;font-weight:600}
@@ -181,7 +181,10 @@ function openFirm(slug){const f=FBY[slug];if(!f)return;const m=f.meta||{};const 
  const pods=(f.podcasts||[]);
  const podcasts=pods.length?pods.map(p=>'<div class="pod"><div class="pt"><a href="'+p.url+'" target="_blank">'+esc(p.title||p.show||'Appearance')+'</a></div><div class="pm">'+[esc(p.person),esc(p.show),p.date].filter(Boolean).join(' · ')+'</div></div>').join(''):'<div class="mplace">Discovered automatically each week — populating soon.</div>';
  const ups=(f.updates||[]);
- const acts=ups.length?ups.map(u=>'<div class="pod"><div class="pt"><a href="'+u.link+'" target="_blank">'+esc(u.title)+'</a></div><div class="pm">'+[u.type,u.date].filter(Boolean).join(' · ')+'</div></div>').join(''):'<div class="mplace">No items yet.</div>';
+ const _item=u=>'<div class="pod"><div class="pt"><a href="'+u.link+'" target="_blank">'+esc(u.title)+'</a></div><div class="pm">'+[u.type,u.date].filter(Boolean).join(' · ')+'</div></div>';
+ const _sect=(label,arr)=>arr.length?'<div class="agrp"><h5>'+label+'</h5>'+arr.map(_item).join('')+'</div>':'';
+ const _nf=ups.filter(u=>u.type==='New fund'),_inv=ups.filter(u=>u.type==='Investment'),_oth=ups.filter(u=>u.type!=='New fund'&&u.type!=='Investment');
+ const acts=ups.length?(_sect('New funds',_nf)+_sect('Investments',_inv)+_sect('News & posts',_oth)):'<div class="mplace">No items yet.</div>';
  document.getElementById('modalBody').innerHTML='<div class="mh"><h2>'+esc(f.name)+'</h2><button class="x" onclick="closeFirm()">×</button></div>'+(mb.length?'<div class="fmeta">'+mb.map(x=>'<span>'+x+'</span>').join('')+'</div>':'')+'<div class="mfocus">'+esc(f.focus||'')+'</div>'+(f.pov?'<div class="fpov"><b>Where their head is:</b> '+esc(f.pov)+'</div>':'')+'<div class="chips">'+srcChips+'</div><div class="msec"><h4>People</h4>'+people+'</div><div class="msec"><h4>Podcasts &amp; interviews</h4>'+podcasts+'</div><div class="msec"><h4>Recent activity</h4>'+acts+'</div>';
  document.getElementById('ov').classList.add('on');
 }
