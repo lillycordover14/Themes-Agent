@@ -31,7 +31,7 @@ CAT = [
     ("Partnership", re.compile(r"\b(partners? with|partnership|integrat\w+|collaborat\w+|teams? up with|alliance|joins forces)\b", re.I)),
     ("Award/traction", re.compile(r"\b(named|ranked|award|fastest.growing|milestone|surpass|doubl\w+|crosses|reaches \$)\b", re.I)),
 ]
-CONF = re.compile(r"\b(speaking at|join us at|meet us at|booth|keynote|will present|presenting at|exhibit\w*|sponsor\w* of|fireside|panel at|on stage at|attending)\b|\b(conference|summit|expo|symposium|forum|dreamforce|re:?invent|hackathon|demo day)\b|\b[A-Z][A-Za-z0-9&' ]{2,30}\s(Summit|Conference|Conf|Expo|Forum|World|Week|Days|Live|Connect|Ignite)\b", re.I)
+CONF = re.compile(r"\b(speaking at|to speak at|join us at|meet us at|see us at|catch us at|booth|keynote|will present|presenting at|exhibit\w*|sponsor\w* of|fireside|panel at|on stage at|attending)\b|\b(conference|summit|expo|symposium|forum|dreamforce|re:?invent|hackathon|demo day|money\s?20/?20|saastr|finovate|web ?summit|fintech nexus|lendit|sxsw|kubecon|\bgtc\b|\bces\b|hlth|davos)\b|\b[A-Z][A-Za-z0-9&' ]{2,30}\s(Summit|Conference|Conf|Expo|Forum|World|Week|Days|Live|Connect|Ignite)\b", re.I)
 
 
 def mentions(title, name):
@@ -195,6 +195,34 @@ def new_customers(slug):
     return sorted(cur - prev)[:12]
 
 
+
+KNOWN_EVENTS = ["money20/20", "money2020", "dreamforce", "re:invent", "reinvent", "web summit", "websummit",
+    "fintech devcon", "ai summit", "saastr", "hlth", "finovate", "davos", "gtc", "kubecon", "rsa conference",
+    "lendit", "fintech nexus", "sxsw", "collision", "ces", "transform", "the ai conference"]
+EVENT_NAME = re.compile(r"([A-Z0-9][A-Za-z0-9&/.'\-]{1,24}(?:\s+[A-Z0-9][A-Za-z0-9&/.'\-]{1,20}){0,3}\s+(?:Summit|Conference|Conf|Expo|Forum|Week|World|Days|Live|Connect|Ignite|Dreamforce))", re.I)
+
+
+def event_key(title):
+    tl = (title or "").lower()
+    for k in KNOWN_EVENTS:
+        if k in tl:
+            return k
+    m = EVENT_NAME.search(title or "")
+    if m:
+        return re.sub(r"\s+", " ", m.group(1).lower()).strip()
+    return re.sub(r"[^a-z0-9]+", "", tl)[:40]
+
+
+def dedup_events(confs):
+    seen = set(); out = []
+    for c in confs:
+        k = event_key(c.get("title", ""))
+        if k in seen:
+            continue
+        seen.add(k); out.append(c)
+    return out
+
+
 def activity(comp):
     name = comp.get("name"); domain = comp.get("domain", "")
     slug = re.sub(r"[^a-z0-9]+", "-", (comp.get("slug") or name or "").lower()).strip("-")
@@ -238,6 +266,7 @@ def activity(comp):
     updates.sort(key=lambda x: x.get("date", ""), reverse=True)
     # upcoming conferences first, then most recent
     confs.sort(key=lambda x: (0 if x.get("when") == "upcoming" else 1, "" if x.get("when") == "upcoming" else x.get("date", "")))
+    confs = dedup_events(confs)
     # resolve real LinkedIn / X profile from the company site (fallback to provided/empty)
     li = comp.get("linkedin") or ""; xx = comp.get("x") or ""
     if not (li and xx):
@@ -246,7 +275,7 @@ def activity(comp):
     return {
         "name": name, "domain": domain, "slug": slug,
         "updates": updates[:14],
-        "conferences": confs[:8],
+        "conferences": confs[:5],
         "new_customers": new_customers(slug),
         "linkedin": li,
         "x": xx,
