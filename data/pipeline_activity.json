@@ -27,7 +27,71 @@
       "name": "NetBox Labs",
       "domain": "netboxlabs.com",
       "slug": "netbox-labs",
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-07-07",
+          "category": "Blog",
+          "title": "Meet Chris Veith, the VP Building NetBox Labs’ Global Ecosystem",
+          "link": "https://netboxlabs.com/blog/meet-chris-veith-the-vp-building-netbox-labs-global-ecosystem/",
+          "source": "Blog"
+        },
+        {
+          "date": "2026-07-01",
+          "category": "Blog",
+          "title": "New in NetBox Validation: A HIPAA Security Rule Compliance Pack",
+          "link": "https://netboxlabs.com/blog/netbox-validation-hipaa-security-rule-compliance-pack/",
+          "source": "Blog"
+        },
+        {
+          "date": "2026-06-30",
+          "category": "Blog",
+          "title": "Your Infrastructure Lives in One System. Now Procurement Can, Too.",
+          "link": "https://netboxlabs.com/blog/netbox-asset-lifecycle-ga/",
+          "source": "Blog"
+        },
+        {
+          "date": "2026-06-27",
+          "category": "Blog",
+          "title": "NetBox Evolve Call for Papers Is Open",
+          "link": "https://netboxlabs.com/blog/netbox-evolve-call-for-papers-is-open/",
+          "source": "Blog"
+        },
+        {
+          "date": "2026-06-19",
+          "category": "Blog",
+          "title": "Meet Natalia Kepets, the Engineer Reshaping QA at NetBox Labs",
+          "link": "https://netboxlabs.com/blog/meet-natalia-kepets-the-engineer-reshaping-qa-at-netbox-labs/",
+          "source": "Blog"
+        },
+        {
+          "date": "2026-06-11",
+          "category": "Blog",
+          "title": "Introducing the NetBox Data Exchange",
+          "link": "https://netboxlabs.com/blog/netbox-data-exchange-curated-infrastructure-dataset/",
+          "source": "Blog"
+        },
+        {
+          "date": "2026-06-11",
+          "category": "Blog",
+          "title": "Public Preview: NetBox Validation Brings Continuous Compliance and Pre-Change Safety to the System of Record",
+          "link": "https://netboxlabs.com/blog/netbox-validation-compliance-public-preview/",
+          "source": "Blog"
+        },
+        {
+          "date": "2026-06-11",
+          "category": "Blog",
+          "title": "Your Infrastructure Is Now Agent-Native",
+          "link": "https://netboxlabs.com/blog/your-infrastructure-is-now-agent-native/",
+          "source": "Blog"
+        },
+        {
+          "date": "2026-06-11",
+          "category": "Blog",
+          "title": "Celebrating Ten Years of NetBox & Announcing our Infrastructure Intelligence Platform",
+          "link": "https://netboxlabs.com/blog/evolving-infrastructure-intelligence-platform/",
+          "source": "Blog"
+        }
+      ],
       "conferences": [],
       "new_customers": [],
       "linkedin": "",

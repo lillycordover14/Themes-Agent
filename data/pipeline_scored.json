@@ -2,31 +2,6 @@
   "generated": "2026-07-15",
   "companies": [
     {
-      "name": "Taktile",
-      "domain": "taktile.com",
-      "stage": "Series C",
-      "months_since": 17,
-      "last_raise_date": "2025-02-27",
-      "last_raise_source": "Harmonic (by domain)",
-      "funding_total": 134850000.0,
-      "cycle": "mid-cycle",
-      "basis": "cadence",
-      "status": "Mid-cycle",
-      "likelihood": "Low",
-      "rank": 2,
-      "strong_signals": 0,
-      "supporting_signals": 0,
-      "finance_leadership_open": false,
-      "open_roles": 44,
-      "signals": [
-        "17 mo since last round (Series C) · typical Series C cadence ~27 mo · mid-cycle",
-        "Last round: 2025-02-27 (Harmonic (by domain))",
-        "Basis: cadence only (no live signals yet)"
-      ],
-      "url": "https://taktile.com",
-      "links": []
-    },
-    {
       "name": "Salient",
       "domain": "trysalient.com",
       "stage": "Series A",
@@ -34,17 +9,17 @@
       "last_raise_date": "2025-07-28",
       "last_raise_source": "Harmonic (by domain)",
       "funding_total": 64500000.0,
-      "cycle": "mid-cycle",
+      "cycle": "approaching",
       "basis": "cadence",
-      "status": "Mid-cycle",
-      "likelihood": "Low",
-      "rank": 2,
+      "status": "Entering raise window",
+      "likelihood": "Medium",
+      "rank": 3,
       "strong_signals": 0,
       "supporting_signals": 0,
       "finance_leadership_open": false,
       "open_roles": 8,
       "signals": [
-        "12 mo since last round (Series A) · typical Series A cadence ~18 mo · mid-cycle",
+        "12 mo since last round (Series A) · typical Series A cadence ~12 mo · approaching typical raise window",
         "Last round: 2025-07-28 (Harmonic (by domain))",
         "Basis: cadence only (no live signals yet)"
       ],
@@ -69,7 +44,7 @@
       "finance_leadership_open": false,
       "open_roles": 11,
       "signals": [
-        "12 mo since last round (Series B) · typical Series B cadence ~22 mo · mid-cycle",
+        "12 mo since last round (Series B) · typical Series B cadence ~15 mo · mid-cycle",
         "Last round: 2025-07-14 (Harmonic (by domain))",
         "Basis: cadence only (no live signals yet)"
       ],
@@ -94,11 +69,36 @@
       "finance_leadership_open": false,
       "open_roles": 8,
       "signals": [
-        "5 mo since last round (Series B) · typical Series B cadence ~22 mo · just raised",
+        "5 mo since last round (Series B) · typical Series B cadence ~15 mo · just raised",
         "Last round: 2026-02-10 (Harmonic (by domain))",
         "Basis: cadence only (no live signals yet)"
       ],
       "url": "https://bretton.com",
+      "links": []
+    },
+    {
+      "name": "Taktile",
+      "domain": "taktile.com",
+      "stage": "Series C",
+      "months_since": 1,
+      "last_raise_date": "2026-06-22",
+      "last_raise_source": "provided",
+      "funding_total": 134850000.0,
+      "cycle": "just raised",
+      "basis": "cadence",
+      "status": "Just raised — not soon",
+      "likelihood": "Very low",
+      "rank": 1,
+      "strong_signals": 0,
+      "supporting_signals": 0,
+      "finance_leadership_open": false,
+      "open_roles": 44,
+      "signals": [
+        "1 mo since last round (Series C) · typical Series C cadence ~19 mo · just raised",
+        "Last round: 2026-06-22 (provided)",
+        "Basis: cadence only (no live signals yet)"
+      ],
+      "url": "https://taktile.com",
       "links": []
     }
   ]
