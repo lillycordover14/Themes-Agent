@@ -180,19 +180,41 @@ def compute_pov():
     print("computed POV for %d firms" % sum(1 for f in FUNDS.get("funds", []) if f.get("pov")))
 
 
+_FOCUS_CITIES = {"san francisco","menlo park","palo alto","new york","boston","cambridge","chicago",
+    "seattle","austin","los angeles","denver","houston","salt lake city","durham","san jose","santa monica",
+    "foster city","burlingame","oklahoma city","fort lauderdale","greenwich","woodside","madison","manhattan beach",
+    "jupiter","skaneateles","niwot","portola valley","santa fe","pittsburgh","atlanta","miami","washington",
+    "san diego","boulder","portland","minneapolis","dallas","philadelphia","brooklyn","mountain view","redwood city",
+    "sunnyvale","bellevue","san mateo","stamford","waltham","newton","providence","ann arbor","detroit","columbus",
+    "nashville","raleigh","toronto","london","berlin","paris","tel aviv","singapore","hong kong","bangalore",
+    "chevy chase","tulsa","reston","tysons","santa clara","irvine","new orleans","kansas city","salt lake"}
+_FOCUS_LOC = re.compile(r"\s+(?:based in|headquartered in|located in)\s+(.+)$", re.I)
+
+
 def clean_focus(s):
-    """Trim PitchBook boilerplate that was stored cut off mid-word so it reads as a finished phrase."""
+    """Only tidy PitchBook boilerplate (leave curated focus lines untouched). No ellipsis; never end mid-word."""
     s = (s or "").strip()
-    if not s or s[-1] in ".!?)":
+    if "Founded in" not in s:          # curated focus lines (e.g. "Seed -> growth") stay exactly as written
+        return s
+    if s and s[-1] in ".!?)":
         return s
     c = s.rfind(". ")
-    if c >= 40:                       # end at the last complete sentence
+    if c >= 40:                        # end at the last complete sentence
         return s[:c + 1]
+    cm = s.rfind(", ")                 # drop an incomplete trailing ", State" clause -> end on the city
+    if cm >= 40:
+        s = s[:cm]
     s = s.rstrip(" ,;:-")
-    parts = s.rsplit(" ", 1)          # drop a trailing 1-2 char partial fragment (", C" -> California)
-    if len(parts) == 2 and len(parts[1]) <= 2:
-        s = parts[0].rstrip(" ,;:-")
-    return s + "\u2026"
+    m = _FOCUS_LOC.search(s)           # keep the city only if it's a recognized (complete) city
+    if m and m.group(1).strip().rstrip(".,").lower() not in _FOCUS_CITIES:
+        s = s[:m.start()].rstrip(" ,;:-")
+    # strip any dangling location lead-in fragment(s) ("... firm headquarte", "... based in")
+    while True:
+        ns = re.sub(r"\s+(?:head\w*|based|located|in)$", "", s, flags=re.I).rstrip(" ,;:-")
+        if ns == s:
+            break
+        s = ns
+    return s
 
 
 compute_pov()
