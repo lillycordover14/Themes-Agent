@@ -183,8 +183,10 @@ function openFirm(slug){const f=FBY[slug];if(!f)return;const m=f.meta||{};const 
  const ups=(f.updates||[]);
  const _item=u=>'<div class="pod"><div class="pt"><a href="'+u.link+'" target="_blank">'+esc(u.title)+'</a></div><div class="pm">'+[u.type,u.date].filter(Boolean).join(' · ')+'</div></div>';
  const _sect=(label,arr)=>arr.length?'<div class="agrp"><h5>'+label+'</h5>'+arr.map(_item).join('')+'</div>':'';
- const _nf=ups.filter(u=>u.type==='New fund'),_inv=ups.filter(u=>u.type==='Investment'),_oth=ups.filter(u=>u.type!=='New fund'&&u.type!=='Investment');
- const acts=ups.length?(_sect('New funds',_nf)+_sect('Investments',_inv)+_sect('News & posts',_oth)):'<div class="mplace">No items yet.</div>';
+ const _g=t=>ups.filter(u=>u.type===t);
+ const _known=['New fund','Investment','Thesis','Post'];
+ const _oth=ups.filter(u=>_known.indexOf(u.type)<0);
+ const acts=ups.length?(_sect('New funds',_g('New fund'))+_sect('Investments',_g('Investment'))+_sect('Thesis',_g('Thesis'))+_sect('Posts',_g('Post'))+_sect('Other',_oth)):'<div class="mplace">No items yet.</div>';
  document.getElementById('modalBody').innerHTML='<div class="mh"><h2>'+esc(f.name)+'</h2><button class="x" onclick="closeFirm()">×</button></div>'+(mb.length?'<div class="fmeta">'+mb.map(x=>'<span>'+x+'</span>').join('')+'</div>':'')+'<div class="mfocus">'+esc(f.focus||'')+'</div>'+(f.pov?'<div class="fpov"><b>Where their head is:</b> '+esc(f.pov)+'</div>':'')+'<div class="chips">'+srcChips+'</div><div class="msec"><h4>People</h4>'+people+'</div><div class="msec"><h4>Podcasts &amp; interviews</h4>'+podcasts+'</div><div class="msec"><h4>Recent activity</h4>'+acts+'</div>';
  document.getElementById('ov').classList.add('on');
 }

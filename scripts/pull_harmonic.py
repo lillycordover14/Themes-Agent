@@ -14,9 +14,17 @@ SIZE = os.environ.get("HARMONIC_SIZE", "50").strip()
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "harmonic_raises.json")
 
+def _run_pipeline():
+    try:
+        import subprocess as _sp
+        _sp.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "pull_pipeline.py")])
+    except Exception as _e:
+        print("pipeline scoring skipped:", _e)
+
+
 if not KEY:
-    print("HARMONIC_API_KEY not set - skipping Harmonic pull.")
-    sys.exit(0)
+    print("HARMONIC_API_KEY not set - skipping Harmonic radar; still scoring pipeline (web fallback).")
+    _run_pipeline(); sys.exit(0)
 
 H = {"apikey": KEY, "accept": "application/json"}
 
@@ -72,3 +80,4 @@ json.dump({"generated": datetime.date.today().isoformat(), "mode": mode, "count"
           open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 print("Wrote %d Harmonic companies (mode=%s)" % (len(companies), mode))
 
+_run_pipeline()

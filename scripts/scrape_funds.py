@@ -108,6 +108,17 @@ def gdelt(query, cutoff, maxrec=20):
     return out
 
 
+
+_STOP = {"the","inc","labs","ai","app","io","co","company","technologies","capital","ventures","group","partners","fund","the"}
+def mentions(title, name):
+    """Require the firm's distinctive name token in the TITLE, so an article about another firm
+    that merely contains a generic word (e.g. 'capital') is not attributed to this firm."""
+    import re as _re
+    toks = [t for t in _re.findall(r"[a-z0-9]{3,}", (name or "").lower()) if t not in _STOP]
+    tl = (title or "").lower()
+    return (any(t in tl for t in toks)) if toks else ((name or "").lower() in tl)
+
+
 def entries_from(feed, from_blog, cutoff, require_invest=False):
     out = []
     if not feed or not getattr(feed, "entries", None):
@@ -191,7 +202,7 @@ def process_fund(f, cutoff):
     for u in feeds:
         cand += entries_from(fetch(u), True, cutoff)
     for it in gdelt('"%s" (funding OR raises OR invests OR acquires OR leads OR backs OR fund)' % name, cutoff):
-        if not INVEST_NEWS.search(it["title"]):
+        if not INVEST_NEWS.search(it["title"]) or not mentions(it["title"], name):
             continue
         cand.append({"date": it["date"], "type": classify(it["title"], False),
                      "title": it["title"], "link": it["link"], "summary": it["summary"]})
@@ -209,7 +220,7 @@ def process_fund(f, cutoff):
     f["updates"] = sorted(allu, key=lambda x: x.get("date", ""), reverse=True)
     # podcasts: discover partner/firm appearances from the web
     pods = [{"date": it["date"], "type": "Post", "title": it["title"], "link": it["link"], "summary": it["summary"]}
-             for it in gdelt('"%s" (podcast OR interview OR episode OR fireside)' % name, cutoff)]
+             for it in gdelt('"%s" (podcast OR interview OR episode OR fireside)' % name, cutoff) if mentions(it["title"], name)]
     if pods:
         existing_p = f.get("podcasts", [])
         seen_p = {p.get("url") for p in existing_p} | {norm(p.get("title", "")) for p in existing_p}
@@ -258,7 +269,7 @@ if __name__ == "__main__":
     main()
     # web-only Raising Soon pipeline (no API key): snapshot signals, then score. Order matters —
     # the scorer reads the day's snapshot.
-    for _s in ("snapshot_signals.py", "pull_pipeline.py"):
+    for _s in ("snapshot_signals.py",):
         try:
             import subprocess as _sp
             _sp.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), _s)])
