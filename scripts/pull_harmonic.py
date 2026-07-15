@@ -72,7 +72,3 @@ json.dump({"generated": datetime.date.today().isoformat(), "mode": mode, "count"
           open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 print("Wrote %d Harmonic companies (mode=%s)" % (len(companies), mode))
 
-# score the Raising-Soon pipeline in this same step (shares HARMONIC_API_KEY)
-try:
-except Exception as _e:
-    print("pipeline scoring skipped:", _e)
