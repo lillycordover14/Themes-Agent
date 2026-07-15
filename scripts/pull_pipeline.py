@@ -152,42 +152,36 @@ def score(comp):
     slug = re.sub(r"[^a-z0-9]+", "-", (comp.get("slug") or name or "").lower()).strip("-")
     print("•", name)
 
-    # accurate anchor via Harmonic by domain
-    hf = harmonic_funding(name, domain)
-    last_raise = (hf.get("last_funding_at") or hf.get("lastFundingAt") or "")[:10]
-    stage = pretty_stage(hf.get("funding_stage") or hf.get("fundingStage") or "")
-    total = hf.get("funding_total") or hf.get("fundingTotal")
-    src_note = "Harmonic (by domain)" if last_raise else ""
-
-    # strict, on-topic articles only
     arts = [a for a in gdelt_articles(name) if mentions(a["title"], name)]
 
-    # fallback dating if Harmonic gave nothing
-    if not last_raise:
+    # ANCHOR last-raise on the MOST RECENT of Harmonic-by-domain and a web-detected completed raise
+    # (Harmonic can lag real announcements — e.g. it missed Taktile's $110M round).
+    hf = harmonic_funding(name, domain)
+    h_date = (hf.get("last_funding_at") or hf.get("lastFundingAt") or "")[:10]
+    stage = pretty_stage(hf.get("funding_stage") or hf.get("fundingStage") or "")
+    total = hf.get("funding_total") or hf.get("fundingTotal")
+
+    web_raised = [a for a in arts if a["date"] and RAISED_PAST.search(a["title"])]
+    web_date = web_raised[0]["date"] if web_raised else ""
+
+    last_raise = ""; src_note = ""
+    cands = [d for d in [h_date, web_date] if d]
+    if cands:
+        last_raise = max(cands)
+        if web_date and last_raise == web_date and (not h_date or web_date > h_date):
+            src_note = "recent raise in news" + (" (Harmonic lags)" if h_date and web_date > h_date else "")
+            mm = STAGE_RE.search(web_raised[0]["title"]) if web_raised else None
+            if mm:
+                stage = "Series " + mm.group(1).upper()
+        else:
+            src_note = "Harmonic (by domain)"
+    else:
         fd = edgar_latest(name)
-        raised = [a for a in arts if a["date"] and RAISED_PAST.search(a["title"])]
-        news_raise = raised[0]["date"] if raised else ""
-        last_raise = max([d for d in [fd, news_raise] if d] or [""])
-        if last_raise:
-            src_note = "Form D / news"
-        if not stage:
-            for a in raised[:3]:
-                mm = STAGE_RE.search(a["title"])
-                if mm:
-                    stage = "Series " + mm.group(1).upper(); break
-
+        if fd:
+            last_raise = fd; src_note = "SEC Form D"
     months = months_since(last_raise)
-    snap = latest_snapshot(slug)
-    signals = []; links = []
 
-    # on-topic evidence
-    imm = [a for a in arts if a["date"] and IMMINENT.search(a["title"]) and _recent(a["date"], 4)]
-    fh = [a for a in arts if FIN.search(a["title"]) and _recent(a["date"], 9)]
-    mh = [a for a in arts if MOM.search(a["title"]) and _recent(a["date"], 4)]
-    open_cfo = bool(snap.get("finance_leadership_open"))
-    open_gtm = bool(snap.get("gtm_leadership_open"))
-
-    # stage-aware cadence -> where in the funding cycle are they?
+    # stage-aware cadence -> cycle position
     CADENCE = {"Seed": 15, "Series A": 18, "Series B": 22, "Series C": 27, "Series D": 33}
     typ = CADENCE.get(stage, 20)
     ratio = (months / typ) if months is not None else None
@@ -202,30 +196,39 @@ def score(comp):
     else:
         cycle = "overdue"
 
-    # qualitative status + likelihood (no numeric score)
-    if imm:
-        status, likelihood, rank = "Raising now — press chatter", "Active", 5
-    elif cycle in ("approaching", "overdue") and (open_cfo or fh):
-        status, likelihood, rank = "High chance soon", "High", 4
-    elif cycle == "approaching":
-        status, likelihood, rank = "Entering raise window", "Medium", 3
-    elif cycle == "overdue":
-        status, likelihood, rank = "Overdue — watch", "Medium", 3
-    elif cycle == "mid-cycle" and (open_cfo or fh):
-        status, likelihood, rank = "Mid-cycle, hiring finance leadership", "Medium", 3
-    elif cycle == "mid-cycle":
-        status, likelihood, rank = "Mid-cycle", "Low", 2
-    elif cycle == "just raised":
-        status, likelihood, rank = "Just raised — not soon", "Very low", 1
-    else:
-        status, likelihood, rank = "Unknown — no round data", "—", 0
+    # live, temporally-sound signals (Tier 1)
+    snap = latest_snapshot(slug)
+    imm = [a for a in arts if a["date"] and IMMINENT.search(a["title"]) and not RAISED_PAST.search(a["title"]) and _recent(a["date"], 4)]
+    fh = [a for a in arts if FIN.search(a["title"]) and _recent(a["date"], 9)]
+    mh = [a for a in arts if MOM.search(a["title"]) and _recent(a["date"], 4)]
+    open_cfo = bool(snap.get("finance_leadership_open"))
+    open_gtm = bool(snap.get("gtm_leadership_open"))
 
-    # evidence lines
+    # TIERED: defer to live signals; otherwise cadence-only (and say so)
+    if cycle == "just raised" and not imm:
+        status, lk, rank, basis = "Just raised — not soon", "Very low", 1, "cadence"
+    elif imm:
+        status, lk, rank, basis = "Raising now — press chatter", "Active", 5, "signal"
+    elif (open_cfo or fh) and cycle in ("mid-cycle", "approaching", "overdue"):
+        status, lk, rank, basis = "High chance soon — hiring/press signal", "High", 4, "signal"
+    elif cycle == "approaching":
+        status, lk, rank, basis = "Entering raise window", "Medium", 3, "cadence"
+    elif cycle == "overdue":
+        status, lk, rank, basis = "Overdue — watch", "Medium", 3, "cadence"
+    elif cycle == "mid-cycle":
+        status, lk, rank, basis = "Mid-cycle", "Low", 2, "cadence"
+    else:
+        status, lk, rank, basis = "Unknown — no round data", "\u2014", 0, "none"
+
+    # evidence
+    signals = []; links = []
     if months is not None:
         cyc_txt = {"just raised": "just raised", "mid-cycle": "mid-cycle",
                    "approaching": "approaching typical raise window", "overdue": "past typical cadence"}.get(cycle, "")
         signals.append("%d mo since last round%s · typical %s cadence ~%d mo · %s" % (
             months, " (" + stage + ")" if stage else "", stage or "round", typ, cyc_txt))
+        if src_note:
+            signals.append("Last round: %s (%s)" % (last_raise, src_note))
     else:
         signals.append("No dated prior round found")
     if imm:
@@ -241,14 +244,15 @@ def score(comp):
             snap.get("open_roles_total"), snap.get("roles_finance"), snap.get("roles_sales"), snap.get("roles_eng")))
     if mh:
         signals.append("Momentum/PR: “%s”" % mh[0]["title"][:95]); links.append(mh[0]["link"])
+    signals.append("Basis: " + ("live signal" if basis == "signal" else "cadence only (no live signals yet)" if basis == "cadence" else "insufficient data"))
 
     return {
         "name": name, "domain": domain, "stage": stage,
         "months_since": months, "last_raise_date": last_raise, "last_raise_source": src_note,
-        "funding_total": total, "cycle": cycle,
-        "status": status, "likelihood": likelihood, "rank": rank,
+        "funding_total": total, "cycle": cycle, "basis": basis,
+        "status": status, "likelihood": lk, "rank": rank,
         "finance_leadership_open": open_cfo, "open_roles": snap.get("open_roles_total"),
-        "signals": signals[:6], "url": ("https://" + domain if domain else ""), "links": links[:3],
+        "signals": signals[:7], "url": ("https://" + domain if domain else ""), "links": links[:3],
     }
 
 def main():
