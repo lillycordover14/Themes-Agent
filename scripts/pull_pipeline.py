@@ -237,6 +237,8 @@ def score(comp):
         cycle = "approaching"
     else:
         cycle = "overdue"
+    if fast and cycle == "mid-cycle":
+        cycle = "approaching"   # curated fast-growers raise ahead of the stage-typical clock
 
     # ---- backtest-supported signal set ----
     snap = latest_snapshot(slug)
