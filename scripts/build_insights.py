@@ -25,7 +25,7 @@ FUND_WORDS = re.compile(r"\b(capital|ventures|partners|fund|management|associate
 STAGE_RE = re.compile(r"\bseries\s+([a-e])\b", re.I)
 
 SECTORS = {
-    "AI agents": ["agent", "agentic", "copilot", "assistant"],
+    "AI agents": ["agent", "agentic", "copilot", "assistant", "automation", "voice ai", "chatbot"],
     "AI infra": ["inference", "gpu", " llm", "mlops", "orchestrat", "vector", "fine-tun", "compute", "foundation model", "token cost", "model training"],
     "Data": ["data ", "analytics", "warehouse", "pipeline", "observability"],
     "Dev tools": ["developer", "devops", " sdk", "open source", "coding", "engineering"],
@@ -36,7 +36,8 @@ SECTORS = {
     "Healthcare/bio": ["health", "clinical", "patient", "biotech", " drug", "diagnostic", "medical", "pharma", "care"],
     "Climate/energy": ["climate", "energy", " grid", "solar", "battery", "carbon", "renewable"],
     "Crypto/web3": ["crypto", "blockchain", "web3", "token ", "defi", "stablecoin"],
-    "Vertical SaaS": ["vertical", "workflow", "legal", "construction", "logistics", "procurement", "real estate"],
+    "Vertical SaaS": ["vertical", "workflow", "legal", "construction", "logistics", "procurement", "real estate", "hr ", "recruit", "marketing", "sales ", "gtm", "insurance", "supply"],
+    "Consumer/marketplace": ["consumer", "marketplace", "creator", "commerce", "social", "gaming", "shopping", "travel"],
 }
 
 
@@ -159,7 +160,17 @@ def main():
     themes = [{"theme": t, "count": len(v), "examples": v[:6]} for t, v in tally.items()]
     themes.sort(key=lambda x: -x["count"])
 
-    json.dump({"generated": TODAY.isoformat(), "count": len(rows), "raises": rows, "themes": themes},
+    top = [t for t in themes if t["theme"] != "Other"][:3]
+    summary = ""
+    if top:
+        summary = "Capital is concentrating in " + ", ".join("%s (%d raises)" % (t["theme"], t["count"]) for t in top) + "."
+        biggest = max(rows, key=lambda r: r.get("amount_m") or 0, default=None)
+        if biggest and biggest.get("amount_m"):
+            amt = biggest["amount_m"]
+            amt_s = ("$%.1fB" % (amt / 1000)) if amt >= 1000 else ("$%dM" % amt)
+            summary += " Largest recent round: %s (%s%s)." % (biggest["company"], biggest.get("stage") + ", " if biggest.get("stage") else "", amt_s)
+
+    json.dump({"generated": TODAY.isoformat(), "count": len(rows), "summary": summary, "raises": rows, "themes": themes},
               open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print("Wrote insights.json — %d deduped raises across %d themes" % (len(rows), len(themes)))
 

@@ -1,6 +1,7 @@
 {
   "generated": "2026-07-15",
   "count": 80,
+  "summary": "Capital is concentrating in AI agents (13 raises), Vertical SaaS (11 raises), Fintech (8 raises). Largest recent round: Helsing ($1.8B).",
   "raises": [
     {
       "company": "Aria",
@@ -28,7 +29,7 @@
       "date": "2026-07-15",
       "link": "",
       "investors": [],
-      "theme": "Data",
+      "theme": "AI agents",
       "stage": "Series B",
       "desc": "TJM Labs offers AI-driven automation solutions specifically designed for pharmacies, focusing on automating repetitive tasks such as prescription intake, data e"
     },
@@ -115,7 +116,7 @@
       "date": "2026-07-15",
       "link": "",
       "investors": [],
-      "theme": "AI agents",
+      "theme": "Vertical SaaS",
       "stage": "Series A",
       "desc": "The main product is an AI-powered revenue platform that employs AI Revenue Agents to analyze data, prioritize sales opportunities, and automate repetitive tasks"
     },
@@ -159,7 +160,7 @@
       "date": "2026-07-15",
       "link": "",
       "investors": [],
-      "theme": "AI agents",
+      "theme": "Vertical SaaS",
       "stage": "Venture Unknown",
       "desc": "The company develops conversational AI agents designed to automate workflows across various enterprise functions, including sales and customer support, by manag"
     },
@@ -211,7 +212,7 @@
       "date": "2026-07-15",
       "link": "",
       "investors": [],
-      "theme": "Climate/energy",
+      "theme": "Vertical SaaS",
       "stage": "Series A",
       "desc": "Bohr Energie provides a software platform for independent energy producers that facilitates the management of electricity sales, featuring real-time production "
     },
@@ -421,7 +422,7 @@
       "date": "2026-07-15",
       "link": "",
       "investors": [],
-      "theme": "Other",
+      "theme": "AI agents",
       "stage": "",
       "desc": "Aryval distinguishes itself through its holistic strategy, encompassing the tracking of inquiries, automation of communication, facilitation of the check-in pro"
     },
@@ -441,7 +442,7 @@
       "date": "2026-07-15",
       "link": "",
       "investors": [],
-      "theme": "Other",
+      "theme": "AI agents",
       "stage": "Pre Seed",
       "desc": "The company provides a compliance management platform that consolidates access reviews, risk management, and asset management to enhance compliance processes. I"
     },
@@ -491,7 +492,7 @@
       "date": "2026-07-15",
       "link": "",
       "investors": [],
-      "theme": "Other",
+      "theme": "Consumer/marketplace",
       "stage": "Seed",
       "desc": "The main product is a B2B commerce platform that facilitates transactions between distributors and retailers, utilizing technologies such as WhatsApp for orderi"
     },
@@ -895,7 +896,7 @@
   "themes": [
     {
       "theme": "Other",
-      "count": 28,
+      "count": 25,
       "examples": [
         "Flex",
         "Vendelux",
@@ -907,14 +908,26 @@
     },
     {
       "theme": "AI agents",
-      "count": 12,
+      "count": 13,
       "examples": [
         "Lyzr AI",
+        "TJM Labs",
         "InstaLILY AI",
-        "Alta | AI GTM System of Actions",
-        "Nurix",
         "Adaptive",
-        "Guthrie AI"
+        "Guthrie AI",
+        "Finto"
+      ]
+    },
+    {
+      "theme": "Vertical SaaS",
+      "count": 11,
+      "examples": [
+        "Alta | AI GTM System of Actions",
+        "Parspec",
+        "Nurix",
+        "Bohr Energie",
+        "WizCommerce",
+        "Prolo"
       ]
     },
     {
@@ -930,27 +943,15 @@
       ]
     },
     {
-      "theme": "Vertical SaaS",
-      "count": 8,
-      "examples": [
-        "Parspec",
-        "WizCommerce",
-        "Prolo",
-        "AltaML",
-        "Legible",
-        "ConstructionClock App"
-      ]
-    },
-    {
       "theme": "Data",
-      "count": 7,
+      "count": 6,
       "examples": [
-        "TJM Labs",
         "Auger",
         "Valarian",
         "EdVisorly",
         "SimpleAI",
-        "Birdsview.com"
+        "Birdsview.com",
+        "Accel and Prosus backed QOSMIC"
       ]
     },
     {
@@ -972,14 +973,6 @@
         "PreciTaste",
         "Oratomic",
         "Engram"
-      ]
-    },
-    {
-      "theme": "Climate/energy",
-      "count": 2,
-      "examples": [
-        "Bohr Energie",
-        "Axle Energy"
       ]
     },
     {
@@ -1006,10 +999,24 @@
       ]
     },
     {
+      "theme": "Consumer/marketplace",
+      "count": 1,
+      "examples": [
+        "Boost Technology"
+      ]
+    },
+    {
       "theme": "Crypto/web3",
       "count": 1,
       "examples": [
         "KorProtocol"
+      ]
+    },
+    {
+      "theme": "Climate/energy",
+      "count": 1,
+      "examples": [
+        "Axle Energy"
       ]
     }
   ]
