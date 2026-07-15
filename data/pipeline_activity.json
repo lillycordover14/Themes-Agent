@@ -8,7 +8,8 @@
       "updates": [],
       "conferences": [],
       "new_customers": [],
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/company/trysalient",
+      "x": "",
       "substack": "",
       "url": "https://trysalient.com"
     },
@@ -17,9 +18,32 @@
       "domain": "taktile.com",
       "slug": "taktile",
       "updates": [],
-      "conferences": [],
+      "conferences": [
+        {
+          "date": "",
+          "title": "cover upcoming webinars, on-demand insights, and connect with us",
+          "link": "https://taktile.com/events",
+          "when": "upcoming",
+          "source": "Events page"
+        },
+        {
+          "date": "",
+          "title": "deas with the AI community at global events. Community events Connect with yo",
+          "link": "https://taktile.com/events",
+          "when": "upcoming",
+          "source": "Events page"
+        },
+        {
+          "date": "",
+          "title": "ive community gatherings. Taktile Labs Login Contact us Community events Connect with pe",
+          "link": "https://taktile.com/events",
+          "when": "upcoming",
+          "source": "Events page"
+        }
+      ],
       "new_customers": [],
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/company/taktile1/",
+      "x": "https://x.com/taktile_org",
       "substack": "",
       "url": "https://taktile.com"
     },
@@ -92,9 +116,46 @@
           "source": "Blog"
         }
       ],
-      "conferences": [],
+      "conferences": [
+        {
+          "date": "",
+          "title": "y Meetup Sep 15, 2026 | 11:00 AM EST | 15:00 UTC Event NetBox Labs Partner Summit 2026 Oc",
+          "link": "https://netboxlabs.com/events",
+          "when": "upcoming",
+          "source": "Events page"
+        },
+        {
+          "date": "",
+          "title": "tBox Community Meetup Event Datacloud Global Congress 2026 Event Cisco Live 2026 La",
+          "link": "https://netboxlabs.com/events",
+          "when": "upcoming",
+          "source": "Events page"
+        },
+        {
+          "date": "",
+          "title": "Cisco Live 2026 Las Vegas Event Data Centre Congress 2026 Event Megaport World Tour AP",
+          "link": "https://netboxlabs.com/events",
+          "when": "upcoming",
+          "source": "Events page"
+        },
+        {
+          "date": "",
+          "title": "webinars. Browse dates, topics, and formats, and register to join live or on d",
+          "link": "https://netboxlabs.com/events",
+          "when": "upcoming",
+          "source": "Events page"
+        },
+        {
+          "date": "",
+          "title": "026 banner\"},\"acf\":{\"event_details\":{\"type\":\"Conference\",\"locat",
+          "link": "https://netboxlabs.com/events",
+          "when": "upcoming",
+          "source": "Events page"
+        }
+      ],
       "new_customers": [],
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/company/netboxlabs",
+      "x": "",
       "substack": "",
       "url": "https://netboxlabs.com"
     },
@@ -103,9 +164,32 @@
       "domain": "bretton.com",
       "slug": "bretton",
       "updates": [],
-      "conferences": [],
+      "conferences": [
+        {
+          "date": "",
+          "title": ":before { content: counter(activity-count) ' way to connect'; } .ev",
+          "link": "https://bretton.com/events",
+          "when": "upcoming",
+          "source": "Events page"
+        },
+        {
+          "date": "",
+          "title": ":before { content: counter(activity-count) ' ways to connect'; } .ev",
+          "link": "https://bretton.com/events",
+          "when": "upcoming",
+          "source": "Events page"
+        },
+        {
+          "date": "",
+          "title": "tems found. Upcoming Events Event Type Hub / Marquee Conference Month J",
+          "link": "https://bretton.com/events",
+          "when": "upcoming",
+          "source": "Events page"
+        }
+      ],
       "new_customers": [],
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/company/bretton-ai",
+      "x": "https://x.com/brettonai",
       "substack": "",
       "url": "https://bretton.com"
     }
