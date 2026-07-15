@@ -7,6 +7,13 @@ that errors keeps its existing data.
 """
 import json, os, re, sys, time, datetime, urllib.parse, urllib.request, urllib.error
 
+import sys as _s
+try:
+    _s.stdout.reconfigure(line_buffering=True)
+    _s.stderr.reconfigure(line_buffering=True)
+except Exception:
+    pass
+
 try:
     import feedparser
 except ImportError:
@@ -64,20 +71,22 @@ def fetch(url, tries=3):
         except Exception as e:
             print("  ! fetch failed:", url, e); return None
 
-def gdelt(query, cutoff, maxrec=25):
+def gdelt(query, cutoff, maxrec=20):
     """GDELT Doc API news search. Works from datacenter/CI IPs (unlike Google News). Free, no key."""
     url = ("https://api.gdeltproject.org/api/v2/doc/doc?query=%s&mode=artlist&format=json"
            "&maxrecords=%d&sort=datedesc&timespan=6months" % (urllib.parse.quote(query), maxrec))
-    for i in range(3):
+    for i in range(2):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
-            body = urllib.request.urlopen(req, timeout=25).read()
+            body = urllib.request.urlopen(req, timeout=15).read()
             d = json.loads(body or b"{}")
             break
         except urllib.error.HTTPError as e:
-            if e.code in (429, 500, 502, 503) and i < 2:
-                time.sleep(2 * (i + 1)); continue
-            print("  ! gdelt failed:", e); return []
+            if e.code in (429, 500, 502, 503) and i < 1:
+                time.sleep(1); continue
+            return []
+        except Exception:
+            return []
         except Exception as e:
             print("  ! gdelt failed:", e); return []
     out = []
@@ -171,6 +180,7 @@ def main():
     for f in data["funds"]:
         slug, name = f["slug"], f["name"]
         print("• %s" % name)
+        time.sleep(0.3)
         cand = []
         src = f.get("sources", {})
         feeds = list(NATIVE_FEEDS.get(slug, []))
