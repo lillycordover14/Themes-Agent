@@ -26,6 +26,9 @@ IMMINENT = re.compile(r"(in talks to raise|is raising|to raise|nearing (a )?(dea
 FIN = re.compile(r"\b(cfo|chief financial|vp finance|vp of finance|head of finance|controller|chief revenue|cro|vp sales)\b.{0,25}(hire|hires|appoint|appoints|names|joins|new)|\b(appoints?|names?|hires?)\b.{0,25}\b(cfo|chief financial|finance chief|cro|chief revenue)\b", re.I)
 MOM = re.compile(r"\b(launches?|launched|partners? with|partnership|customers?|expands?|doubles?|milestone|new product|general availability|acquires?)\b", re.I)
 STAGE_RE = re.compile(r"series\s+([a-e])\b", re.I)
+FIN_HIRE = re.compile(r"\b(cfo|chief financial officer|vp\s*(of\s*)?finance|head of finance|financial controller|\bcontroller\b|head of fp&a)\b", re.I)
+REV_HIRE = re.compile(r"\b(cro|chief revenue officer|vp\s*(of\s*)?sales|head of sales|chief commercial|cmo|chief marketing officer|head of revenue|head of gtm)\b", re.I)
+HIRE_VERB = re.compile(r"\b(hires?|hired|appoints?|appointed|names?|named|joins?|joined|welcomes?|adds?|taps?|brings on)\b", re.I)
 STOP = {"the", "inc", "labs", "ai", "app", "io", "co", "company", "technologies", "capital", "ventures", "group"}
 
 
@@ -130,6 +133,26 @@ def latest_snapshot(slug):
         return {}
 
 
+def history(slug):
+    path = os.path.join(HIST_DIR, slug + ".jsonl")
+    if not os.path.exists(path):
+        return []
+    try:
+        rows = [json.loads(l) for l in open(path, encoding="utf-8").read().splitlines() if l.strip()]
+        rows.sort(key=lambda r: r.get("date", ""))
+        return rows
+    except Exception:
+        return []
+
+
+def _days_between(a, b):
+    try:
+        ya, ma, da = map(int, a[:10].split("-")); yb, mb, db = map(int, b[:10].split("-"))
+        return abs((datetime.date(yb, mb, db) - datetime.date(ya, ma, da)).days)
+    except Exception:
+        return 0
+
+
 def months_since(iso):
     try:
         y, mo, dd = map(int, iso[:10].split("-"))
@@ -196,54 +219,95 @@ def score(comp):
     else:
         cycle = "overdue"
 
-    # live, temporally-sound signals (Tier 1)
+    # ---- backtest-supported signal set ----
     snap = latest_snapshot(slug)
-    imm = [a for a in arts if a["date"] and IMMINENT.search(a["title"]) and not RAISED_PAST.search(a["title"]) and _recent(a["date"], 4)]
-    fh = [a for a in arts if FIN.search(a["title"]) and _recent(a["date"], 9)]
-    mh = [a for a in arts if MOM.search(a["title"]) and _recent(a["date"], 4)]
+    rows = history(slug)
+
+    def _news(rx, mo):
+        return [x for x in arts if x["date"] and rx.search(x["title"]) and HIRE_VERB.search(x["title"]) and _recent(x["date"], mo)]
+
+    imm = [x for x in arts if x["date"] and IMMINENT.search(x["title"]) and not RAISED_PAST.search(x["title"]) and _recent(x["date"], 4)]
+    fin_hire = _news(FIN_HIRE, 9)          # finance-leadership hire in the news (late-stage signal)
+    rev_hire = _news(REV_HIRE, 9)          # revenue/GTM-leadership hire — MOST consistent hire signal in the pilot
+    mh = [x for x in arts if MOM.search(x["title"]) and _recent(x["date"], 4)]
     open_cfo = bool(snap.get("finance_leadership_open"))
     open_gtm = bool(snap.get("gtm_leadership_open"))
 
-    # TIERED: defer to live signals; otherwise cadence-only (and say so)
-    if cycle == "just raised" and not imm:
-        status, lk, rank, basis = "Just raised — not soon", "Very low", 1, "cadence"
-    elif imm:
-        status, lk, rank, basis = "Raising now — press chatter", "Active", 5, "signal"
-    elif (open_cfo or fh) and cycle in ("mid-cycle", "approaching", "overdue"):
-        status, lk, rank, basis = "High chance soon — hiring/press signal", "High", 4, "signal"
+    # hiring trajectory from our own point-in-time log (needs >=2 snapshots spanning >=14d)
+    ramp = freeze = False; roles_note = ""
+    if len(rows) >= 2 and _days_between(rows[0].get("date", ""), rows[-1].get("date", "")) >= 14:
+        first = rows[0].get("open_roles_total") or 0
+        last = rows[-1].get("open_roles_total") or 0
+        peak = max((r.get("open_roles_total") or 0) for r in rows)
+        if first >= 3 and last >= first * 1.3:
+            ramp = True; roles_note = "open roles %d\u2192%d" % (first, last)
+        elif peak >= 10 and last <= peak * 0.7:
+            freeze = True; roles_note = "hiring cooled from peak %d to %d" % (peak, last)
+    # press pickup (from the day's snapshot: 30d vs 90d run-rate)
+    p30 = snap.get("press_30d") or 0; p90 = snap.get("press_90d") or 0
+    press_spike = p30 >= 3 and p30 >= (p90 / 3.0) * 1.5
+
+    # classify signals into STRONG (high-precision, backtest-supported) vs SUPPORTING.
+    # finance-leadership is treated as STRONG only at later stages (the pilot showed it is a C/D tell);
+    # revenue-leadership is STRONG at all stages (most consistent). hiring-freeze-after-ramp is the
+    # classic pre-close pattern -> STRONG.
+    late = stage in ("Series B", "Series C", "Series D") or stage == ""
+    strong = []; supp = []
+    if rev_hire:
+        strong.append(("Revenue/GTM-leadership hire: \u201c%s\u201d" % rev_hire[0]["title"][:90], rev_hire[0]["link"]))
+    if open_gtm:
+        strong.append(("Open GTM-leadership role (CRO/VP Sales) on careers page", None))
+    if fin_hire:
+        (strong if late else supp).append(("Finance-leadership hire: \u201c%s\u201d" % fin_hire[0]["title"][:90], fin_hire[0]["link"]))
+    if open_cfo:
+        (strong if late else supp).append(("Open finance-leadership role (CFO/VP Finance) on careers page", None))
+    if freeze:
+        strong.append(("Hiring cooled after a ramp \u2014 classic pre-close pattern (%s)" % roles_note, None))
+    if ramp:
+        supp.append(("Hiring ramp: %s" % roles_note, None))
+    if press_spike:
+        supp.append(("Press pickup: %d articles in 30d (vs %d in 90d)" % (p30, p90), None))
+    if mh:
+        supp.append(("Momentum/PR: \u201c%s\u201d" % mh[0]["title"][:90], mh[0]["link"]))
+    S = len(strong); M = len(supp)
+
+    # ---- tiered status (defer to signals; else cadence) ----
+    if imm:
+        status, lk, rank, basis = "Raising now \u2014 press chatter", "Active", 5, "signal"
+    elif cycle == "just raised":
+        status, lk, rank, basis = "Just raised \u2014 not soon", "Very low", 1, "cadence"
+    elif S >= 2 or (S >= 1 and cycle in ("approaching", "overdue")):
+        status, lk, rank, basis = "High chance soon", "High", 4, "signal"
+    elif S >= 1:
+        status, lk, rank, basis = "Signals building \u2014 watch", "Medium", 3, "signal"
+    elif M >= 2 and cycle in ("approaching", "overdue"):
+        status, lk, rank, basis = "Heating up (hiring/press)", "Medium", 3, "signal"
+    elif M >= 1 and cycle == "approaching":
+        status, lk, rank, basis = "Entering window + momentum", "Medium", 3, "signal"
     elif cycle == "approaching":
         status, lk, rank, basis = "Entering raise window", "Medium", 3, "cadence"
     elif cycle == "overdue":
-        status, lk, rank, basis = "Overdue — watch", "Medium", 3, "cadence"
+        status, lk, rank, basis = "Overdue \u2014 watch", "Medium", 3, "cadence"
     elif cycle == "mid-cycle":
         status, lk, rank, basis = "Mid-cycle", "Low", 2, "cadence"
     else:
-        status, lk, rank, basis = "Unknown — no round data", "\u2014", 0, "none"
+        status, lk, rank, basis = "Unknown \u2014 no round data", "\u2014", 0, "none"
 
-    # evidence
+    # ---- evidence ----
     signals = []; links = []
     if months is not None:
         cyc_txt = {"just raised": "just raised", "mid-cycle": "mid-cycle",
                    "approaching": "approaching typical raise window", "overdue": "past typical cadence"}.get(cycle, "")
-        signals.append("%d mo since last round%s · typical %s cadence ~%d mo · %s" % (
+        signals.append("%d mo since last round%s \u00b7 typical %s cadence ~%d mo \u00b7 %s" % (
             months, " (" + stage + ")" if stage else "", stage or "round", typ, cyc_txt))
         if src_note:
             signals.append("Last round: %s (%s)" % (last_raise, src_note))
     else:
         signals.append("No dated prior round found")
-    if imm:
-        signals.append("Imminent-raise chatter: “%s”" % imm[0]["title"][:95]); links.append(imm[0]["link"])
-    if open_cfo:
-        signals.append("Open finance-leadership role (CFO/VP Finance) on careers page")
-    elif open_gtm:
-        signals.append("Open GTM-leadership role (CRO/VP Sales) on careers page")
-    if fh:
-        signals.append("Finance/GTM leadership hire: “%s”" % fh[0]["title"][:95]); links.append(fh[0]["link"])
-    if snap.get("open_roles_total"):
-        signals.append("%d open roles now (fin=%s sales=%s eng=%s)" % (
-            snap.get("open_roles_total"), snap.get("roles_finance"), snap.get("roles_sales"), snap.get("roles_eng")))
-    if mh:
-        signals.append("Momentum/PR: “%s”" % mh[0]["title"][:95]); links.append(mh[0]["link"])
+    for label, link in (strong + supp):
+        signals.append(label)
+        if link:
+            links.append(link)
     signals.append("Basis: " + ("live signal" if basis == "signal" else "cadence only (no live signals yet)" if basis == "cadence" else "insufficient data"))
 
     return {
@@ -251,8 +315,9 @@ def score(comp):
         "months_since": months, "last_raise_date": last_raise, "last_raise_source": src_note,
         "funding_total": total, "cycle": cycle, "basis": basis,
         "status": status, "likelihood": lk, "rank": rank,
+        "strong_signals": S, "supporting_signals": M,
         "finance_leadership_open": open_cfo, "open_roles": snap.get("open_roles_total"),
-        "signals": signals[:7], "url": ("https://" + domain if domain else ""), "links": links[:3],
+        "signals": signals[:8], "url": ("https://" + domain if domain else ""), "links": links[:3],
     }
 
 def main():
