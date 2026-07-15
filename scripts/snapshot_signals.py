@@ -193,6 +193,28 @@ def github_stars(repo):
     return d.get("stargazers_count") if isinstance(d, dict) else None
 
 
+
+def site_customers(comp):
+    """Best-effort: pull customer names from 'X logo' alt-text on the homepage / customers page,
+    so pipeline_activity can diff day-over-day for NEW customers."""
+    domain = comp.get("domain", "")
+    if not domain:
+        return []
+    base = domain if domain.startswith("http") else "https://" + domain
+    names = set()
+    for url in (base, base.rstrip("/") + "/customers", base.rstrip("/") + "/company/customers"):
+        html = fetch_text(url)
+        if not html:
+            continue
+        for alt in re.findall(r'alt=["\']([^"\']{2,50})["\']', html):
+            m = re.match(r"^(.*?)\s+logo$", alt.strip(), re.I)
+            if m:
+                nm = m.group(1).strip()
+                if 2 <= len(nm) <= 40 and re.match(r"^[A-Za-z0-9]", nm):
+                    names.add(nm)
+    return sorted(names)[:40]
+
+
 def snapshot(comp):
     name = comp.get("name")
     slug = re.sub(r"[^a-z0-9]+", "-", (comp.get("slug") or name or "").lower()).strip("-")
@@ -209,6 +231,7 @@ def snapshot(comp):
         "raise_chatter": raise_hl, "exec_hire_news": hire_hl,
         "form_d_latest": edgar_form_d(name),
         "github_stars": github_stars(comp.get("github")),
+        "site_customers": site_customers(comp),
     }
     print("  roles=%d (fin_lead=%s gtm_lead=%s) press30=%d formD=%s" % (
         roles["open_roles_total"], roles["finance_leadership_open"], roles["gtm_leadership_open"], c30, row["form_d_latest"] or "-"))

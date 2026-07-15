@@ -269,7 +269,7 @@ if __name__ == "__main__":
     main()
     # web-only Raising Soon pipeline (no API key): snapshot signals, then score. Order matters —
     # the scorer reads the day's snapshot.
-    for _s in ("snapshot_signals.py",):
+    for _s in ("snapshot_signals.py", "pipeline_activity.py"):
         try:
             import subprocess as _sp
             _sp.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), _s)])

@@ -228,7 +228,11 @@ try:
     PIPE = json.load(open(os.path.join(ROOT, "data", "pipeline_scored.json"), encoding="utf-8"))
 except Exception:
     PIPE = {"companies": []}
-BLOB = json.dumps({"D": D, "F": F_DISPLAY, "P": PIPE}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
+try:
+    PACT = json.load(open(os.path.join(ROOT, "data", "pipeline_activity.json"), encoding="utf-8"))
+except Exception:
+    PACT = {"companies": []}
+BLOB = json.dumps({"D": D, "F": F_DISPLAY, "P": PIPE, "PA": PACT}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
 TEMPLATE = open(os.path.join(HERE, "dashboard_template.html"), encoding="utf-8").read()
 html = TEMPLATE.replace("__BLOB__", BLOB)
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
