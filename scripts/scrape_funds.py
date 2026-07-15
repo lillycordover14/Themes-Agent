@@ -6,6 +6,7 @@ Google News RSS query for the fund name. Runs on GitHub Actions. Never hard-fail
 that errors keeps its existing data.
 """
 import json, os, re, sys, time, datetime, urllib.parse, urllib.request, urllib.error
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import sys as _s
 try:
@@ -173,76 +174,86 @@ def edgar_formd(name, cutoff):
     return out
 
 
+def process_fund(f, cutoff):
+    """All web work for one firm. Runs in its own thread. Mutates f in place; returns # new items."""
+    slug, name = f["slug"], f["name"]
+    cand = []
+    src = f.get("sources", {})
+    feeds = list(NATIVE_FEEDS.get(slug, []))
+    if src.get("substack"):
+        feeds.append(src["substack"].rstrip("/") + "/feed")
+    blog = src.get("blog", "")
+    if "medium.com" in blog:
+        feeds.append(blog.rstrip("/") + "/feed")
+    for p in (f.get("partner_substacks") or []):
+        if "substack.com" in (p.get("url") or ""):
+            feeds.append(p["url"].rstrip("/") + "/feed")
+    for u in feeds:
+        cand += entries_from(fetch(u), True, cutoff)
+    for it in gdelt('"%s" (funding OR raises OR invests OR acquires OR leads OR backs OR fund)' % name, cutoff):
+        if not INVEST_NEWS.search(it["title"]):
+            continue
+        cand.append({"date": it["date"], "type": classify(it["title"], False),
+                     "title": it["title"], "link": it["link"], "summary": it["summary"]})
+    cand += entries_from(fetch(google_news_url(name)), False, cutoff, require_invest=True)
+    existing = f.get("updates", [])
+    seen = {norm(u.get("title", "")) for u in existing} | {u.get("link") or u.get("url", "") for u in existing}
+    fresh = []
+    for c in cand:
+        key = norm(c["title"])
+        if key in seen or c["link"] in seen:
+            continue
+        seen.add(key); seen.add(c["link"]); fresh.append(c)
+    allu = fresh + existing
+    cut = (datetime.date.today() - datetime.timedelta(days=DAYS)).isoformat()
+    allu = [u for u in allu if (not u.get("date")) or u.get("date") >= cut]
+    f["updates"] = sorted(allu, key=lambda x: x.get("date", ""), reverse=True)
+    # podcasts: discover partner/firm appearances from the web
+    pods = [{"date": it["date"], "type": "Post", "title": it["title"], "link": it["link"], "summary": it["summary"]}
+             for it in gdelt('"%s" (podcast OR interview OR episode OR fireside)' % name, cutoff)]
+    pods += entries_from(fetch(podcast_news_url(name)), False, cutoff)
+    if pods:
+        existing_p = f.get("podcasts", [])
+        seen_p = {p.get("url") for p in existing_p} | {norm(p.get("title", "")) for p in existing_p}
+        add_p = []
+        for p in pods:
+            if p["link"] in seen_p or norm(p["title"]) in seen_p:
+                continue
+            seen_p.add(p["link"])
+            add_p.append({"person": "", "show": "", "title": p["title"], "url": p["link"], "date": p["date"]})
+        if add_p:
+            f["podcasts"] = (add_p + existing_p)[:8]
+    try:
+        fd_cut = (datetime.date.today() - datetime.timedelta(days=365)).isoformat()
+        seen_t = {u.get("title") for u in f.get("updates", [])}
+        for it in edgar_formd(name, fd_cut):
+            if it["title"] not in seen_t:
+                f.setdefault("updates", []).insert(0, it); seen_t.add(it["title"])
+    except Exception:
+        pass
+    json.dump(f, open(os.path.join(PER_FUND_DIR, slug + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    if fresh:
+        print("• %s  + %d new (total %d in window)" % (name, len(fresh), len(f["updates"])))
+    else:
+        print("• %s" % name)
+    return len(fresh)
+
+
 def main():
     data = json.load(open(FUNDS_PATH, encoding="utf-8"))
     cutoff = datetime.date.today() - datetime.timedelta(days=DAYS)
     total_new = 0
-    for f in data["funds"]:
-        slug, name = f["slug"], f["name"]
-        print("• %s" % name)
-        time.sleep(0.3)
-        cand = []
-        src = f.get("sources", {})
-        feeds = list(NATIVE_FEEDS.get(slug, []))
-        if src.get("substack"):
-            feeds.append(src["substack"].rstrip("/") + "/feed")
-        blog = src.get("blog", "")
-        if "medium.com" in blog:
-            feeds.append(blog.rstrip("/") + "/feed")
-        for p in (f.get("partner_substacks") or []):
-            if "substack.com" in (p.get("url") or ""):
-                feeds.append(p["url"].rstrip("/") + "/feed")
-        for u in feeds:
-            cand += entries_from(fetch(u), True, cutoff)
-        for it in gdelt('"%s" (funding OR raises OR invests OR acquires OR leads OR backs OR fund)' % name, cutoff):
-            if not INVEST_NEWS.search(it["title"]):
-                continue
-            cand.append({"date": it["date"], "type": classify(it["title"], False),
-                         "title": it["title"], "link": it["link"], "summary": it["summary"]})
-        cand += entries_from(fetch(google_news_url(name)), False, cutoff, require_invest=True)
-        existing = f.get("updates", [])
-        seen = {norm(u.get("title", "")) for u in existing} | {u.get("link") or u.get("url", "") for u in existing}
-        fresh = []
-        for c in cand:
-            key = norm(c["title"])
-            if key in seen or c["link"] in seen:
-                continue
-            seen.add(key); seen.add(c["link"]); fresh.append(c)
-        allu = fresh + existing
-        cut = (datetime.date.today() - datetime.timedelta(days=DAYS)).isoformat()
-        allu = [u for u in allu if (not u.get("date")) or u.get("date") >= cut]
-        f["updates"] = sorted(allu, key=lambda x: x.get("date", ""), reverse=True)
-        total_new += len(fresh)
-        if fresh:
-            print("  + %d new (total %d in window)" % (len(fresh), len(f["updates"])))
-        # podcasts: discover partner/firm appearances from the web
-        pods = [{"date": it["date"], "type": "Post", "title": it["title"], "link": it["link"], "summary": it["summary"]}
-                 for it in gdelt('"%s" (podcast OR interview OR episode OR fireside)' % name, cutoff)]
-        pods += entries_from(fetch(podcast_news_url(name)), False, cutoff)
-        if pods:
-            existing_p = f.get("podcasts", [])
-            seen_p = {p.get("url") for p in existing_p} | {norm(p.get("title", "")) for p in existing_p}
-            add_p = []
-            for p in pods:
-                if p["link"] in seen_p or norm(p["title"]) in seen_p:
-                    continue
-                seen_p.add(p["link"])
-                add_p.append({"person": "", "show": "", "title": p["title"], "url": p["link"], "date": p["date"]})
-            if add_p:
-                f["podcasts"] = (add_p + existing_p)[:8]
-        try:
-            fd_cut = (datetime.date.today() - datetime.timedelta(days=365)).isoformat()
-            seen_t = {u.get("title") for u in f.get("updates", [])}
-            for it in edgar_formd(name, fd_cut):
-                if it["title"] not in seen_t:
-                    f.setdefault("updates", []).insert(0, it); seen_t.add(it["title"])
-        except Exception:
-            pass
-        # write per-fund file
-        json.dump(f, open(os.path.join(PER_FUND_DIR, slug + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    funds = data["funds"]
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        futs = [ex.submit(process_fund, f, cutoff) for f in funds]
+        for fut in as_completed(futs):
+            try:
+                total_new += fut.result()
+            except Exception as e:
+                print("  ! fund error:", e)
     data["generated"] = datetime.date.today().isoformat()
     json.dump(data, open(FUNDS_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    print("Done. %d new items across %d funds." % (total_new, len(data["funds"])))
+    print("Done. %d new items across %d funds." % (total_new, len(funds)))
 
 
 if __name__ == "__main__":
