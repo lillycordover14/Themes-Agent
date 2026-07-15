@@ -181,6 +181,95 @@ def llm_enrich(rows):
     print("  LLM enriched %d new companies (cached %d total)" % (len(todo), len(cache)))
 
 
+UA_H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"}
+THEME_CACHE = os.path.join(ROOT, "data", "insights_theme_cache.json")
+
+
+def _get(url, timeout=10):
+    try:
+        return urllib.request.urlopen(urllib.request.Request(url, headers=UA_H), timeout=timeout).read().decode("utf-8", "replace")
+    except Exception:
+        return ""
+
+
+def clearbit_domain(name):
+    """Resolve company name -> (domain, clean_name) via Clearbit's free autocomplete. ('','') on miss."""
+    try:
+        raw = _get("https://autocomplete.clearbit.com/v1/companies/suggest?query=" + urllib.parse.quote(name), 8)
+        arr = json.loads(raw) if raw else []
+    except Exception:
+        arr = []
+    if isinstance(arr, list) and arr:
+        nn = norm(name)
+        for it in arr:
+            if nn and (nn in norm(it.get("name", "")) or norm(it.get("name", "")).startswith(nn[:6])):
+                return it.get("domain", ""), it.get("name", "")
+        return arr[0].get("domain", ""), arr[0].get("name", "")
+    return "", ""
+
+
+def site_text(domain):
+    """Homepage <title> + meta/og description — a concise description of what the company does."""
+    if not domain:
+        return ""
+    html = _get("https://" + domain.lstrip("/"))
+    if not html:
+        return ""
+    parts = []
+    t = re.search(r"<title[^>]*>([^<]{3,140})", html, re.I)
+    if t:
+        parts.append(t.group(1))
+    for pat in (r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']{5,300})',
+                r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']{5,300})'):
+        m = re.search(pat, html, re.I)
+        if m:
+            parts.append(m.group(1))
+    return " ".join(parts)[:600]
+
+
+def enrich_themes(rows, cap=130):
+    """For companies the headline could not classify, resolve their site and theme from what they DO.
+    Cached in data/insights_theme_cache.json (committed) so repeat runs are near-free. Fully free."""
+    try:
+        cache = json.load(open(THEME_CACHE, encoding="utf-8"))
+    except Exception:
+        cache = {}
+    fetched = 0; t0 = time.time()
+    for r in rows:
+        k = norm(r["company"])
+        if k in cache:
+            c = cache[k]
+            if c.get("theme"):
+                r["theme"] = c["theme"]
+            if c.get("clean"):
+                r["company"] = c["clean"]
+            continue
+        if r["theme"] != "Enterprise AI software":
+            cache[k] = {"theme": r["theme"]}          # headline already gave a real theme
+            continue
+        if fetched >= cap or (time.time() - t0) > 240:
+            continue
+        fetched += 1
+        dom, clean = clearbit_domain(r["company"])
+        if not dom:                                    # fallback: guess a domain from the name
+            slug = re.sub(r"[^a-z0-9]", "", r["company"].lower())
+            for g in (slug + ".com", slug + ".ai", slug + ".io"):
+                if site_text(g):
+                    dom = g; break
+        txt = site_text(dom) if dom else ""
+        th = theme_of(txt) if txt else "Enterprise AI software"
+        if clean and 2 < len(clean) < 42:
+            r["company"] = clean
+        r["theme"] = th
+        cache[k] = {"theme": th, "domain": dom, "clean": r["company"]}
+        time.sleep(0.12)
+    try:
+        json.dump(cache, open(THEME_CACHE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    except Exception:
+        pass
+    print("  theme discovery: fetched %d company sites (cache %d)" % (fetched, len(cache)))
+
+
 def main():
     try:
         funds = json.load(open(FUNDS, encoding="utf-8")).get("funds", [])
@@ -260,7 +349,8 @@ def main():
         rows.append(r)
     rows.sort(key=lambda x: (x.get("date") or "", x.get("amount_m") or 0), reverse=True)
     rows = rows[:200]
-    llm_enrich(rows)
+    enrich_themes(rows)   # free: resolve each unclassified company's site and theme from what it does
+    llm_enrich(rows)      # optional LLM refinement (off unless OPENAI_API_KEY set)
 
     tally = {}
     for r in rows:
