@@ -1,9 +1,41 @@
-# Raising Soon Signal Engine — Build Specification v1.0
+# Raising Soon Signal Engine — Build Specification v1.1
 
 **Smith Point Capital — Proprietary. Internal use only.**
 **Date:** 2026-07-15
-**Status:** Implementation-ready. Written to be executed by a pure-Python pipeline inside the existing Themes Agent GitHub Action, with zero LLM tokens at runtime.
+**Status:** Implementation-ready as *architecture*. Scoring weights are provisional priors, not calibrated fits (see box below). Written to be executed by a pure-Python pipeline inside the existing Themes Agent GitHub Action, with zero LLM tokens at runtime.
 **Target repo:** `Themes Agent` (existing dashboard + daily Action). This spec extends `scripts/` and `data/` and feeds the **Raising Soon** tab via `data/pipeline_scored.json`.
+**Revision v1.1:** incorporates an adversarial review's fixes — temporal alignment of the pilot's shape signals, provisional-prior weight labeling, a headcount/web/LinkedIn collinearity cap, a thin-signal quarantine rule, decoupling runway from the output window, a coverage-bias cap on missing-data reweighting, and a corrected worked-example arithmetic check.
+
+---
+
+> ## Confidence & Validity (read this first)
+>
+> - **Framework soundness: 6.5/10.** The stage-segmented signal taxonomy — Seed→A through D→E, each with its own drivers, thresholds, and lead times — is a sound, well-motivated design. It should survive calibration largely intact.
+> - **Current weights & scores: 2.5/10 — NOT yet trustworthy for live sourcing.** Every weight in §3.4 is a provisional prior seeded from a 20-company pilot with no negative controls. Do not rank companies, brief IC, or gate outreach off raw scores until the four caveats below are closed by the controlled backtest (§5) and the forward point-in-time log (§5.1).
+>
+> **Four headline caveats:**
+>
+> 1. **Temporal alignment.** Harmonic's `ago30d/90d/180d/365d` windows are anchored to *today*, not to each company's raise date. The pilot's "ramp-then-plateau" finding may be measuring **post-raise** behavior, not pre-raise (§3.1, §5.2).
+> 2. **No negative controls.** The pilot measured hit-rate on companies known to have already raised; it never measured false-fire rate on companies that did *not* raise. Without controls, "12/12 fired" tells us nothing about lift.
+> 3. **n = 20.** Four companies per stage does not support setting a weight, let alone eleven weights per profile.
+> 4. **Collinearity.** Headcount, web traffic, and LinkedIn followers move together — the pilot's own finding is that momentum "mirrors headcount almost exactly." Weighting all three independently triple-counts one underlying momentum factor.
+>
+> Until §5's controlled backtest (negative controls, n≈300, measured lift) and §5.1's forward log produce validated numbers, treat every score in this system as a **shape hypothesis demonstration**, not a sourcing signal.
+
+### What we can trust today vs. what must be earned
+
+| Trust level | Signal | Why |
+|---|---|---|
+| **Temporally sound today** | Hire lead-times (revenue leader B2, finance leader B3, first senior hire B4) | `startDate` is an absolute historical date — lead time is exact regardless of pull date. |
+| | Founder pedigree (E1) | Career history is static, not a rolling today-anchored window. |
+| | Elite investor base (A4) | Cap-table membership is a point-in-time fact, not a time series. |
+| | Form D confirmation (A3) | EDGAR filings are dated events, fully historical and retroactively verifiable. |
+| | Press cadence (D1, GDELT) | GDELT supports true historical date ranges; the ratio is computed against real pre-event windows. |
+| **Provisional — must be earned via §5.1** | Headcount ramp-then-plateau (B1) | Computed from today-anchored ago-windows; may reflect post-raise hiring freeze, not a pre-raise signal. |
+| | Web traffic plateau (C1) | Same today-anchoring problem; mirrors headcount, so it is not an independent check. |
+| | LinkedIn follower plateau (C2, B+ use) | Same today-anchoring problem. |
+| | Runway / burn proxy (A2) | Unvalidated burn model; wrong by construction for AI-native cost structures (§4.3). Now a score input only, not a window cap (§3.7, §4.4). |
+| | Finance-leader hire (B3) | Lead time itself is exact, but the *signal is quarantined* for low n (2 firings) until it clears the n≥5 threshold (§2, §3.4). |
 
 ---
 
@@ -20,19 +52,19 @@ The engine covers **all stages**: it predicts Seed→A, A→B, B→C, C→D, and
 
 ### Why stage segmentation matters
 
-Our 20-company pilot backtest (Seed through D, run against live Harmonic data) shows that the signals that precede a raise are **categorically different by stage**:
+Our 20-company pilot backtest (Seed through D, run against live Harmonic data) shows that the signals that precede a raise are **categorically different by stage** — directionally, at least; see the Confidence & Validity box above before treating any specific hit-rate as fact:
 
 - **Seed and Series A raises are announced by people and attention, not by org charts.** The predictive stack is founder pedigree (ex-OpenAI / ex-Tesla / ex-Scale / ex-DeepMind / ex-Stripe), explosive social/web growth off a tiny base (+500% to +11,000% LinkedIn-follower YoY in our sample), fast early headcount growth from a handful of people, and the presence of elite seed investors (a16z, Sequoia, Khosla, Lightspeed) who reliably pre-empt the next round. Finance and GTM executive hires are essentially absent this early.
-- **Series B through D raises are announced by the org chart and the hiring curve.** The single most universal signal in the pilot — present in **12 of 12** B/C/D companies — is **headcount "ramp-then-plateau"**: explosive YoY growth (+140% to +610%) that flattens to single-digit or negative growth in the final ~30 days before the raise, as the company pauses hiring while the round closes. The second-most consistent is a **revenue-leadership hire** (VP Sales / CRO / SVP Revenue), present in **10 of 12** B/C/D companies, landing 1–11 months pre-raise and tightest at Series B (1.3–7.6 months).
-- **A finance-leadership hire (CFO / VP Finance) is a late-stage tell only.** It appeared in **0 of 4** Series B companies, **0 of 4** Series C companies, and **2 of 4** Series D companies (Cognition's VP Finance ~10.9 months prior; Replit's SVP Finance ~20 months prior; plus one B-stage anomaly, Lovable's "Head of FBOS / startup CFO" ~2.5 months prior). It is high-precision, low-recall, and belongs almost entirely in the C→D and D→E profiles. At B/C, the "adult in the room" hire is more often a COO or Head of GTM.
-- **Web traffic and LinkedIn follower curves mirror headcount almost exactly** (same ramp-then-plateau shape at every stage). They are a momentum *proxy*, not an independent signal — the engine weights them as corroboration only, never as a primary driver.
+- **Series B through D raises are announced by the org chart and the hiring curve.** The single most universal signal in the pilot — present in **12 of 12** B/C/D companies — is **headcount "ramp-then-plateau"**: explosive YoY growth (+140% to +610%) that flattens to single-digit or negative growth in the final ~30 days before the raise, as the company pauses hiring while the round closes. **This is now classified PROVISIONAL — see §3.1: the pilot's measurement method cannot distinguish a pre-raise plateau from a post-raise hiring freeze.** The second-most consistent is a **revenue-leadership hire** (VP Sales / CRO / SVP Revenue), present in **10 of 12** B/C/D companies, landing 1–11 months pre-raise and tightest at Series B (1.3–7.6 months) — this one IS temporally sound, because hire dates are absolute.
+- **A finance-leadership hire (CFO / VP Finance) is a late-stage tell only, and is quarantined in v1.1.** It appeared in **0 of 4** Series B companies, **0 of 4** Series C companies, and **2 of 4** Series D companies (Cognition's VP Finance ~10.9 months prior; Replit's SVP Finance ~20 months prior; plus one B-stage anomaly, Lovable's "Head of FBOS / startup CFO" ~2.5 months prior). Two positive firings is below the n≥5 quarantine threshold (§2, §3.4): the signal stays in the taxonomy, monitoring-only, weight 0.0, until it earns enough events.
+- **Web traffic and LinkedIn follower curves mirror headcount almost exactly** (same ramp-then-plateau shape at every stage). They are a momentum *proxy*, not an independent signal, and are also PROVISIONAL for the same temporal-alignment reason as headcount — plus they are collinear with it (§3.4 collinearity cap).
 - **Company age is decoupling from stage in the AI cohort** (2–3-year-old companies raising $2B+ Series Ds). The engine therefore keys timing off `fundingStage + lastFundingAt` (stage-conditional cadence), never off `foundingDate`.
 
 ### The core insight
 
-A raise is not a surprise event; it is the visible endpoint of a 3–12 month operational sequence — hire the revenue leader, ramp headcount against the new plan, spend down the prior round, then freeze hiring while the term sheet closes. Each stage runs a different version of this sequence. The engine models the sequence directly: a **weighted, stage-specific signal stack**, calibrated on observed pre-raise feature values from companies that actually raised, combined with a **cadence/runway prior** that works within Harmonic's plan limitation (no per-round data; only `lastFundingAt`, `numFundingRounds`, `fundingTotal`).
+A raise is not a surprise event; it is the visible endpoint of a 3–12 month operational sequence — hire the revenue leader, ramp headcount against the new plan, spend down the prior round, then freeze hiring while the term sheet closes. Each stage runs a different version of this sequence. The engine models the sequence directly: a **weighted, stage-specific signal stack**, calibrated on observed pre-raise feature values from companies that actually raised, combined with a **cadence prior** that works within Harmonic's plan limitation (no per-round data; only `lastFundingAt`, `numFundingRounds`, `fundingTotal`). Runway is estimated too, but as of v1.1 it informs the score only — it no longer sets a hard ceiling on the timing window (§3.7, §4.4).
 
-The output is deliberately simple to consume: one score, one window, one ranked list on the Raising Soon tab — refreshed daily, for free, before the company's raise hits TechCrunch and every other growth fund's inbox.
+The output is deliberately simple to consume: one score, one window, one ranked list on the Raising Soon tab — refreshed daily, for free. Until calibration closes the gaps in the box above, treat the ranked list as a **research queue to investigate**, not a probability-ordered sourcing feed.
 
 ---
 
@@ -40,7 +72,7 @@ The output is deliberately simple to consume: one score, one window, one ranked 
 
 Every signal below specifies: **definition → data source → exact extraction logic → raw feature emitted**. Feature names are canonical; the executor must use them verbatim in the signal record schema (§6.4).
 
-Notation for Harmonic traction metrics: each metric arrives as `{value_now, ago30d: {value, percentChange}, ago90d: {...}, ago180d: {...}, ago365d: {...}}`. We write `hc_pct_30` for headcount `ago30d.percentChange`, etc. All `percentChange` values are treated as percentages (e.g., `140.0` = +140%).
+Notation for Harmonic traction metrics: each metric arrives as `{value_now, ago30d: {value, percentChange}, ago90d: {...}, ago180d: {...}, ago365d: {...}}`. We write `hc_pct_30` for headcount `ago30d.percentChange`, etc. All `percentChange` values are treated as percentages (e.g., `140.0` = +140%). **All four `ago*` windows are anchored to today's pull date, not to any company-specific event date — see §3.1 for why this matters for the three signals below marked PROVISIONAL.**
 
 ### Group A — Capital & Cadence
 
@@ -54,9 +86,9 @@ Notation for Harmonic traction metrics: each metric arrives as `{value_now, ago3
   - `cadence_ratio = months_since_raise / cadence_median[stage]`
 - **Raw features:** `months_since_raise` (float), `cadence_ratio` (float).
 
-#### A2. `runway_depletion` — estimated runway remaining (burn proxy)
+#### A2. `runway_depletion` — estimated runway remaining (burn proxy) — **score input only, not a window cap (v1.1, §3.7, §4.4)**
 
-- **Definition:** Estimated months of cash left, computed without per-round data (see §4 for the full model).
+- **Definition:** Estimated months of cash left, computed without per-round data (see §4 for the full model, including v1.1's AI-native caveats).
 - **Source:** Harmonic `funding.fundingTotal`, `fundingStage`, headcount time series.
 - **Extraction:** Per §4.3: estimate last round size from `fundingTotal × stage_share[stage]`, estimate cumulative burn from the trapezoidal average of the headcount time series × a fully-loaded monthly cost, subtract.
 - **Raw features:** `est_last_round_usd` (float), `est_monthly_burn_usd` (float), `runway_months_remaining` (float).
@@ -78,21 +110,22 @@ Notation for Harmonic traction metrics: each metric arrives as `{value_now, ago3
 
 ### Group B — Talent & Hiring
 
-#### B1. `hc_ramp_plateau` — headcount ramp-then-plateau (THE flagship signal)
+#### B1. `hc_ramp_plateau` — headcount ramp-then-plateau **(PROVISIONAL)**
 
+- **Status: PROVISIONAL — unproven until validated on the forward point-in-time log (§5.1).** Today-anchored ago-windows may reflect post-raise hiring freezes rather than pre-raise behavior; see §3.1.
 - **Definition:** Explosive trailing-year headcount growth that has flattened in the trailing 30 days. Pilot: present in **12/12** B/C/D companies; YoY ramps of +140% to +610% collapsing to single-digit or negative 30-day growth immediately pre-raise. Held at every stage; only magnitude differed (B/C swing harder off smaller bases).
 - **Source:** Harmonic headcount time series (`value` + `percentChange` at ago30/90/180/365).
 - **Extraction (exact):**
   - `ramp = hc_pct_365` (fallback: annualize `hc_pct_180 × 2.03` if 365 missing).
   - `mid = hc_pct_90`
   - `plateau = hc_pct_30`
-  - **Plateau flag fires when:** `mid > 30.0 AND plateau < 8.0` *(this is the canonical threshold; tune per §5)*. Strong-plateau variant: `ramp > stage_ramp_ref AND plateau < 3.0` (see stage refs in §3.2).
+  - **Plateau flag fires when:** `mid > 30.0 AND plateau < 8.0` *(this is the canonical threshold; tune per §5)*. Strong-plateau variant: `ramp > stage_ramp_ref AND plateau < 3.0` (see stage refs in §3.3).
   - Guard: require `headcount_now ≥ 8` (below that, one departure fakes a plateau).
 - **Raw features:** `hc_now` (int), `hc_pct_30`, `hc_pct_90`, `hc_pct_180`, `hc_pct_365` (floats), `hc_plateau_flag` (bool), `hc_strong_plateau_flag` (bool).
 
 #### B2. `revenue_leader_hire` — VP Sales / CRO / SVP Revenue arrival
 
-- **Definition:** A senior revenue leader joined recently. Pilot: **10/12** B/C/D companies, landing 1–11 months pre-raise; tightest at Series B (1.3–7.6 months), earlier and more spread at C.
+- **Definition:** A senior revenue leader joined recently. Pilot: **10/12** B/C/D companies, landing 1–11 months pre-raise; tightest at Series B (1.3–7.6 months), earlier and more spread at C. Temporally sound: `startDate` is an absolute date, not today-anchored.
 - **Source:** Harmonic `employees`/`execs` with experience arrays (`title`, `department`, `roleType`, `startDate`, `endDate`, `isCurrentPosition`).
 - **Extraction (exact):** Scan every person's experience entries where `isCurrentPosition == true` AND the experience's company matches the tracked company. Title matches (case-insensitive regex):
   `r"(chief revenue|cro\b|vp[,.]?\s*(of\s+)?(sales|revenue)|svp[,.]?\s*(of\s+)?(sales|revenue)|head of (sales|revenue|go.to.market|gtm))"`
@@ -100,9 +133,10 @@ Notation for Harmonic traction metrics: each metric arrives as `{value_now, ago3
   `rev_hire_months_ago = (today - startDate).days / 30.44` (null if none).
 - **Raw features:** `rev_hire_months_ago` (float|null), `rev_hire_title` (string|null).
 
-#### B3. `finance_leader_hire` — CFO / VP Finance / Head of Finance arrival
+#### B3. `finance_leader_hire` — CFO / VP Finance / Head of Finance arrival **(QUARANTINED, w=0 — monitoring only)**
 
-- **Definition:** A senior finance leader joined. Pilot: **0/4 at B, 0/4 at C, 2/4 at D** (Cognition VP Finance ~10.9mo prior; Replit SVP Finance ~20mo prior; plus Lovable's "Head of FBOS / startup CFO" ~2.5mo prior at B as the lone early-stage exception). Lead times vary wildly (2.5–23mo): **high precision, low recall, predominantly C→D / D→E**.
+- **Status: QUARANTINED (v1.1).** Only **2** positive firings in the pilot (Cognition, Replit; the Lovable B-stage case is a labeled anomaly). Below the n≥5 quarantine threshold (§2 "Thin-signal quarantine rule," §3.4). The signal remains in the taxonomy and is computed/logged, but its scoring weight is forced to 0.0 across every profile until it clears the threshold in the backtest (§5.6) or forward log (§5.1).
+- **Definition:** A senior finance leader joined. Pilot: **0/4 at B, 0/4 at C, 2/4 at D** (Cognition VP Finance ~10.9mo prior; Replit SVP Finance ~20mo prior; plus Lovable's "Head of FBOS / startup CFO" ~2.5mo prior at B as the lone early-stage exception). Lead times vary wildly (2.5–23mo): the *lead-time computation itself* is temporally sound (absolute dates), but the *sample* is too thin to trust a weight.
 - **Source & extraction:** Same person-scan as B2 with regex:
   `r"(chief financial|cfo\b|vp[,.]?\s*(of\s+)?finance|svp[,.]?\s*(of\s+)?finance|head of (finance|fp&a|fbos)|finance lead)"`
   Same exclusions. `fin_hire_months_ago = (today - startDate).days / 30.44`.
@@ -116,7 +150,7 @@ Notation for Harmonic traction metrics: each metric arrives as `{value_now, ago3
 
 #### B5. `ats_hiring_state` — open-roles mix and freeze detection
 
-- **Definition:** The live job board is a real-time read on the hiring plan: (a) a posted **finance/BizOps/Chief-of-Staff req** at B+ is the *forward-looking* version of B3; (b) a posted **GTM leadership req** is the forward-looking version of B2; (c) a **≥30% drop in total open roles over 30 days** corroborates the headcount plateau (hiring freeze while the round closes).
+- **Definition:** The live job board is a real-time read on the hiring plan: (a) a posted **finance/BizOps/Chief-of-Staff req** at B+ is the *forward-looking* version of B3 (and, being sampled continuously rather than as a one-off hire event, may accumulate a usable sample faster than B3 itself); (b) a posted **GTM leadership req** is the forward-looking version of B2; (c) a **≥30% drop in total open roles over 30 days** corroborates the headcount plateau (hiring freeze while the round closes) — note this corroboration inherits B1's temporal-alignment caveat where it overlaps with the plateau read.
 - **Source:** Public ATS endpoints, tried in order per company (store the discovered `ats_slug` in the company config once found):
   - Greenhouse: `https://boards-api.greenhouse.io/v1/boards/<slug>/jobs` (JSON)
   - Lever: `https://api.lever.co/v0/postings/<slug>?mode=json` (JSON)
@@ -131,15 +165,17 @@ Notation for Harmonic traction metrics: each metric arrives as `{value_now, ago3
 
 ### Group C — Traction & Momentum
 
-#### C1. `web_momentum` — web traffic ramp-then-plateau (corroboration only)
+#### C1. `web_momentum` — web traffic ramp-then-plateau (corroboration only) **(PROVISIONAL)**
 
-- **Definition:** Same shape test as B1 applied to web traffic. Pilot: mirrors headcount "almost exactly" at all stages — a momentum proxy, **never weighted as an independent driver**.
+- **Status: PROVISIONAL — unproven until validated on the forward point-in-time log (§5.1).** Same today-anchoring problem as B1; see §3.1.
+- **Definition:** Same shape test as B1 applied to web traffic. Pilot: mirrors headcount "almost exactly" at all stages — a momentum proxy, **never weighted as an independent driver**, and collinear with B1 (§3.4 collinearity cap).
 - **Source:** Harmonic web traffic time series.
 - **Extraction:** `web_plateau_flag = web_pct_90 > 30.0 AND web_pct_30 < 8.0`; also emit `web_pct_365`.
 - **Raw features:** `web_pct_30/90/180/365` (floats), `web_plateau_flag` (bool).
 
-#### C2. `linkedin_momentum` — LinkedIn follower acceleration
+#### C2. `linkedin_momentum` — LinkedIn follower acceleration **(PROVISIONAL, plateau form)**
 
+- **Status:** the **plateau form** (`li_plateau_flag`, B+ use) is PROVISIONAL for the same reason as B1/C1 — see §3.1. The **explosive-growth form** (`li_explosive_flag`, Seed/A use) measures magnitude off a tiny base rather than a ramp-then-plateau shape, so it is less exposed to the post-raise-confound specifically, but its `ago365d` input is still today-anchored — treat it as directionally useful, not yet validated.
 - **Definition:** Dual-purpose. Early stage (Seed/A): explosive growth off a tiny base is a *primary* signal (pilot: +500% to +11,000% YoY pre-raise). Later stages: corroboration-only plateau shape.
 - **Source:** Harmonic LinkedIn follower time series.
 - **Extraction:** `li_pct_365`, `li_pct_90`, `li_pct_30`; `li_explosive_flag = li_pct_365 > 500.0` (Seed/A use); `li_plateau_flag = li_pct_90 > 30.0 AND li_pct_30 < 8.0` (B+ use).
@@ -161,7 +197,7 @@ Notation for Harmonic traction metrics: each metric arrives as `{value_now, ago3
 
 #### D1. `press_cadence` — GDELT announcement rhythm
 
-- **Definition:** Companies stage-manage news into the run-up to a raise (product GA, partnerships, ARR milestones), then often go quiet in the final weeks. We measure the *ratio* of recent to prior press volume plus milestone keywords.
+- **Definition:** Companies stage-manage news into the run-up to a raise (product GA, partnerships, ARR milestones), then often go quiet in the final weeks. We measure the *ratio* of recent to prior press volume plus milestone keywords. Temporally sound: GDELT supports true historical date ranges.
 - **Source:** GDELT DOC 2.0 API (free, datacenter-friendly): `https://api.gdeltproject.org/api/v2/doc/doc?query="<company name>"&mode=artlist&format=json&timespan=6m&maxrecords=250`.
 - **Extraction (exact):**
   - Count articles bucketed by publish date: `press_90 = count(last 90d)`, `press_prior_90 = count(90–180d ago)`.
@@ -174,26 +210,30 @@ Notation for Harmonic traction metrics: each metric arrives as `{value_now, ago3
 
 #### E1. `founder_pedigree` — tier-1 alumni founders (Seed/A primary driver)
 
-- **Definition:** Founders with prior tenure at pedigree organizations. Pilot: one of the four dominant Seed/A predictors (rounds get pre-empted on résumé).
+- **Definition:** Founders with prior tenure at pedigree organizations. Pilot: one of the four dominant Seed/A predictors (rounds get pre-empted on résumé). Temporally sound: career history is static.
 - **Source:** Harmonic execs/employees with `roleType == FOUNDER` (or title regex `r"(founder|co.founder)"`), full experience arrays.
 - **Extraction:** For each founder, scan **all** experience entries (past and current) for employer names in the constant `PEDIGREE_ORGS` set (ship in `config/pedigree_orgs.json`): `OpenAI, DeepMind, Anthropic, Google Brain, Meta AI / FAIR, Tesla, SpaceX, Stripe, Scale AI, Databricks, Palantir, Airbnb, Uber (early), Ramp, Figma, Snowflake, Nvidia, Two Sigma, Jane Street, MIT/Stanford PhD (title contains "PhD" at those institutions)`. `pedigree_founder_count = count of distinct founders with ≥1 match`.
 - **Raw features:** `pedigree_founder_count` (int), `founder_count` (int).
+
+### Thin-signal quarantine rule (v1.1)
+
+Any signal with fewer than **5** positive firings in the calibration sample is **quarantined**: it stays in the taxonomy and is still computed, logged, and shown (e.g., in `top_drivers` and the signal record), but its scoring weight is forced to **0.0 ("monitoring only")** until it accumulates ≥5 positive firings in either the backtest cohort (§5.6) or the forward log (§5.1). `finance_leader_hire` (B3) is quarantined today with only 2 confirmed firings. Re-evaluate every quarantine whenever §5.1 or §5.6 reports an updated firing count.
 
 ### Signal → feature summary
 
 | # | Signal | Group | Primary stages | Raw features |
 |---|--------|-------|----------------|--------------|
 | A1 | cadence_pressure | Capital | all | months_since_raise, cadence_ratio |
-| A2 | runway_depletion | Capital | A→B and up | runway_months_remaining, est_monthly_burn_usd |
+| A2 | runway_depletion (score input only, §3.7) | Capital | A→B and up | runway_months_remaining, est_monthly_burn_usd |
 | A3 | form_d_filed | Capital | all (override) | form_d_date, form_d_age_days |
 | A4 | elite_investor_base | Capital | Seed→A, D→E | elite_investor_count |
-| B1 | hc_ramp_plateau | Talent | all (B+ strongest) | hc_pct_30/90/180/365, hc_plateau_flag |
+| B1 | hc_ramp_plateau **(PROVISIONAL)** | Talent | all (B+ strongest) | hc_pct_30/90/180/365, hc_plateau_flag |
 | B2 | revenue_leader_hire | Talent | A→B, B→C | rev_hire_months_ago |
-| B3 | finance_leader_hire | Talent | C→D, D→E | fin_hire_months_ago |
+| B3 | finance_leader_hire **(QUARANTINED, w=0)** | Talent | C→D, D→E | fin_hire_months_ago |
 | B4 | first_senior_hire | Talent | Seed→A | senior_hire_months_ago |
 | B5 | ats_hiring_state | Talent | A→B and up | ats_freeze_flag, ats_finance_req_flag, gtm_role_share |
-| C1 | web_momentum | Traction | corroboration | web_pct_*, web_plateau_flag |
-| C2 | linkedin_momentum | Traction | Seed/A primary; else corroboration | li_pct_*, li_explosive_flag |
+| C1 | web_momentum **(PROVISIONAL)** | Traction | corroboration | web_pct_*, web_plateau_flag |
+| C2 | linkedin_momentum **(PROVISIONAL, plateau form)** | Traction | Seed/A primary; else corroboration | li_pct_*, li_explosive_flag |
 | C3 | twitter_momentum | Traction | corroboration | tw_pct_* |
 | C4 | github_velocity | Traction | Seed→A, A→B (devtools) | stars_30d_delta, gh_surge_flag |
 | D1 | press_cadence | Product/Press | B→C and up | press_ratio, press_milestone_flag |
@@ -203,7 +243,25 @@ Notation for Harmonic traction metrics: each metric arrives as `{value_now, ago3
 
 ## 3. Stage-Segmented Scoring Model
 
-### 3.1 Architecture
+### 3.1 Temporal Alignment Caveat (read before §3.2–3.8)
+
+Harmonic's traction time series are anchored to the pull date (`ago30d/90d/180d/365d` = 30/90/180/365 days before *today*), not to any company-specific reference date. For a live company being scored today, this is fine — the windows are exactly what production needs. It is **not** fine for validating the *shape* claims this model depends on:
+
+- The pilot's "ramp-then-plateau" finding (§7) was measured by pulling live Harmonic data for companies that had *already* raised, then reading their today-anchored windows. Because the pull happened after the raise, `ago30d` may fall entirely in the **post-raise** period — meaning the observed "plateau" could be a post-raise hiring pause, not a pre-raise signal at all.
+- This affects every signal built on the same mechanic: `hc_ramp_plateau` (B1), `web_momentum` (C1), and `linkedin_momentum`'s plateau form (C2, B+ use). All three are reclassified **PROVISIONAL**.
+- It does **not** affect signals built on absolute dates: hire `startDate`, Form D filing dates, GDELT article dates, founder career history, investor names. Those are computed identically whether read today or reconstructed retroactively (§5.4).
+
+**Reclassification (v1.1):**
+
+| Signal | Status |
+|---|---|
+| B1 `hc_ramp_plateau` | **PROVISIONAL — unproven until validated on the forward point-in-time log (§5.1)** |
+| C1 `web_momentum` (plateau flag) | **PROVISIONAL — same reason** |
+| C2 `linkedin_momentum` (plateau flag, B+ use) | **PROVISIONAL — same reason** |
+
+The only way to actually validate a shape claim is to compare a company's signal state *as captured on the day it was captured* against what happens to that company later — a point-in-time snapshot taken before the outcome is known. That is the forward log described in **§5.1, now the primary calibration method** for these three signals. The §5 backtest's today-anchored reconstruction (§5.2–5.4) remains a useful stopgap for signals built on absolute dates, but it **cannot** validate shape signals — this is stated explicitly rather than treating the backtest as equivalent evidence. This same caveat governs backtest design at §5.2.
+
+### 3.2 Architecture
 
 Each company is assigned a **transition profile** from its current `fundingStage`:
 
@@ -217,9 +275,9 @@ Each company is assigned a **transition profile** from its current `fundingStage
 
 If `fundingStage` is null: infer from `fundingTotal` (< $5M → SEED_TO_A; $5–25M → A_TO_B; $25–75M → B_TO_C; $75–200M → C_TO_D; ≥ $200M → D_TO_E) and set `stage_inferred: true` in the output.
 
-**Score = 100 × Σᵢ wᵢ(profile) × sᵢ**, where each subscore `sᵢ ∈ [0,1]` and weights per profile sum to 1.00. Then apply the Form D override (§3.5) and derive the window (§3.6). `clip(x,a,b)` means clamp to `[a,b]`.
+**Score = 100 × Σᵢ wᵢ(profile) × sᵢ**, where each subscore `sᵢ ∈ [0,1]` and weights per profile sum to ~1.00 (v1.1: rounded to 1 decimal, see §3.4). Then apply the Form D override (§3.6) and derive the window (§3.7). `clip(x,a,b)` means clamp to `[a,b]`.
 
-### 3.2 Subscore definitions (exact math, all profiles)
+### 3.3 Subscore definitions (exact math, all profiles)
 
 **s_cadence** (from A1) — hazard-shaped in `cadence_ratio` `r`, using the profile's `cadence_median` M (§4.1):
 
@@ -230,13 +288,13 @@ s_cadence = 0                          if r < 0.50        # too soon; just raise
           = max(0.2, 1 - (r-2.5)/2)    if r > 2.50        # dormant decay, floor 0.2
 ```
 
-**s_runway** (from A2) — `RM = runway_months_remaining`:
+**s_runway** (from A2, score input only — §3.7, §4.4) — `RM = runway_months_remaining`:
 
 ```
 s_runway = clip((12 - RM) / 9, 0, 1)      # 0 at ≥12mo runway, 1.0 at ≤3mo
 ```
 
-**s_hc** (from B1) — ramp × plateau product. `stage_ramp_ref` (the YoY % that counts as "full ramp"): SEED_TO_A **300**, A_TO_B **150**, B_TO_C **120**, C_TO_D **100**, D_TO_E **80** (pilot: B/C swing harder off smaller bases; observed range +140% to +610%).
+**s_hc** (from B1, **PROVISIONAL**) — ramp × plateau product. `stage_ramp_ref` (the YoY % that counts as "full ramp"): SEED_TO_A **300**, A_TO_B **150**, B_TO_C **120**, C_TO_D **100**, D_TO_E **80** (pilot: B/C swing harder off smaller bases; observed range +140% to +610%).
 
 ```
 ramp_c    = clip(hc_pct_365 / stage_ramp_ref, 0, 1)
@@ -257,7 +315,7 @@ s_rev_hire = 1.0   if m ≤ H/2
            = 0.0   otherwise
 ```
 
-**s_fin_hire** (from B3) — long window, late-stage only (pilot leads: 2.5–23mo, exemplars 10.9mo and ~20mo):
+**s_fin_hire** (from B3, **QUARANTINED — weight forced to 0.0 in §3.4 regardless of this subscore's value**) — long window, late-stage only (pilot leads: 2.5–23mo, exemplars 10.9mo and ~20mo). The subscore is still computed and logged (it feeds the forward log, §5.1) even though it currently contributes nothing to the score:
 
 ```
 m = fin_hire_months_ago
@@ -274,10 +332,10 @@ s_fin_hire = 1.0  if m ≤ 12
 s_ats = 0.5·ats_freeze_flag + 0.3·(ats_finance_req_flag if profile ∈ {C_TO_D, D_TO_E}
                                     else ats_gtm_req_flag)
       + 0.2·clip((gtm_role_share - 0.20)/0.25, 0, 1)
-(all nulls → term contributes 0; if no ATS found at all, s_ats = 0 and reweight per §3.4)
+(all nulls → term contributes 0; if no ATS found at all, s_ats = 0 and reweight per §3.5)
 ```
 
-**s_momentum** (from C1+C2+C3) — corroboration blend. For B+ profiles:
+**s_momentum** (from C1+C2+C3, **PROVISIONAL** — §3.1; collinear with s_hc, capped in combination per §3.4) — corroboration blend. For B+ profiles:
 
 ```
 s_momentum = clip(0.45·web_plateau_flag + 0.40·li_plateau_flag
@@ -291,7 +349,7 @@ s_momentum = clip(0.5·clip(li_pct_365/1000, 0, 1) + 0.3·clip(web_pct_365/500, 
                   + 0.2·li_explosive_flag, 0, 1)
 ```
 
-**s_github** (from C4, only if `is_devtool`): `s_github = 1.0 if gh_surge_flag else clip(stars_30d_delta/300, 0, 1)`. Non-devtool → 0 and reweight (§3.4).
+**s_github** (from C4, only if `is_devtool`): `s_github = 1.0 if gh_surge_flag else clip(stars_30d_delta/300, 0, 1)`. Non-devtool → 0 and reweight (§3.5).
 
 **s_press** (from D1): `s_press = clip((press_ratio - 1.0)/2.0, 0, 1) + 0.25·press_milestone_flag`, clipped to [0,1]; nulls → 0.
 
@@ -299,42 +357,65 @@ s_momentum = clip(0.5·clip(li_pct_365/1000, 0, 1) + 0.3·clip(web_pct_365/500, 
 
 **s_elite** (from A4): `0 elite investors → 0; 1 → 0.5; ≥2 → 1.0`.
 
-### 3.3 The five weight profiles
+### 3.4 The Five Weight Profiles — Provisional Priors (NOT Calibrated)
 
-Weights per column sum to 1.00. These are the **v1 calibration** seeded directly from the pilot hit-rates (§7); §5 defines how the 300-company backtest revises them.
+**These are provisional priors, not calibrated weights.** They are seeded from the n=20 pilot's directional hit-rates (§7) with no negative controls (Confidence & Validity box, caveat 2), and are **frozen at these placeholder values** until the controlled backtest (§5, with negative controls and measured lift) or the forward point-in-time log (§5.1) produces a validated revision. Column sums, relative rankings, and precision beyond one decimal place are not meaningful yet — they are illustrative starting points, rounded to 1 decimal place for that reason.
+
+Two frozen-placeholder rules apply on top of the table:
+
+- **Quarantine.** `s_fin_hire` is forced to **0.0 in every profile** (§2 thin-signal quarantine rule) — the pilot observed only 2 positive firings, below the n≥5 minimum. The signal stays in the taxonomy (§2, B3) and is still computed and logged for the forward log, but contributes nothing to the score until it clears the threshold. Weight mass freed by this quarantine has been folded into neighboring signals below (mostly `s_ats`, `s_press`, `s_elite`) — see §5.6 for how quarantine interacts with the mechanical hit-rate-to-weight conversion once real data exists.
+- **Collinearity cap.** `s_hc` and `s_momentum` are, per the pilot's own finding, one underlying momentum factor measured three ways (headcount, web, LinkedIn). `w(s_hc) + w(s_momentum)` is capped at **≤ 0.4** in every profile below, and — once calibrated — must be set from the *marginal* lift of momentum *given* headcount is already known, not from each signal's standalone lift. Standalone lift double/triple-counts one factor.
 
 | Subscore | SEED_TO_A | A_TO_B | B_TO_C | C_TO_D | D_TO_E |
 |---|---|---|---|---|---|
-| s_hc (ramp-then-plateau) | 0.12 | **0.22** | **0.25** | **0.22** | 0.18 |
-| s_cadence | 0.15 | 0.18 | 0.18 | 0.18 | 0.18 |
-| s_runway | 0.05 | 0.08 | 0.10 | 0.10 | 0.12 |
-| s_rev_hire | 0.00 | **0.15** | 0.12 | 0.08 | 0.06 |
-| s_fin_hire | 0.00 | 0.02 | 0.04 | **0.14** | **0.16** |
-| s_ats | 0.05 | 0.08 | 0.08 | 0.06 | 0.06 |
-| s_momentum | **0.18** | 0.10 | 0.08 | 0.06 | 0.05 |
-| s_github | 0.08 | 0.05 | 0.03 | 0.02 | 0.01 |
-| s_press | 0.04 | 0.05 | 0.05 | 0.06 | 0.08 |
-| s_pedigree | **0.20** | 0.04 | 0.02 | 0.01 | 0.00 |
-| s_elite | 0.13 | 0.03 | 0.05 | 0.07 | 0.10 |
-| *(s_senior_hire replaces s_rev_hire at Seed)* | *(folded into s_ats slot: use 0.05 for s_senior_hire, drop s_ats to 0.00 at Seed — seed-stage ATS boards are sparse)* | | | | |
+| s_hc **(PROVISIONAL)** | 0.1 | 0.2 | 0.3 | 0.2 | 0.2 |
+| s_cadence | 0.1 | 0.2 | 0.2 | 0.2 | 0.2 |
+| s_runway (score input only) | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 |
+| s_rev_hire | 0.0 | 0.2 | 0.1 | 0.1 | 0.1 |
+| s_fin_hire **(QUARANTINED)** | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 |
+| s_ats | 0.0 | 0.1 | 0.1 | 0.1 | 0.1 |
+| s_momentum **(PROVISIONAL)** | 0.2 | 0.1 | 0.1 | 0.1 | 0.1 |
+| s_github | 0.1 | 0.0 | 0.0 | 0.0 | 0.0 |
+| s_press | 0.0 | 0.1 | 0.1 | 0.1 | 0.1 |
+| s_pedigree | 0.2 | 0.0 | 0.0 | 0.0 | 0.0 |
+| s_elite | 0.1 | 0.0 | 0.1 | 0.1 | 0.1 |
+| s_senior_hire (SEED_TO_A only, replaces s_ats slot) | 0.1 | — | — | — | — |
+| **Column sum** | **1.0** | **1.0** | **1.0** | **1.0** | **1.0** |
+| **s_hc + s_momentum (cap ≤ 0.4)** | 0.3 | 0.3 | 0.4 | 0.3 | 0.3 |
 
-**Rationale, grounded in the backtest:**
+**Rationale (directional only, all subject to recalibration):**
 
-- **SEED_TO_A** is pedigree + attention: `s_pedigree` (0.20) and `s_momentum` (0.18) dominate because those were the pilot's Seed/A drivers; `s_rev_hire`/`s_fin_hire` are zeroed because finance/GTM exec hires were "essentially absent this early." `s_elite` (0.13) captures pre-emption by a16z/Sequoia/Khosla/Lightspeed-class insiders.
-- **A_TO_B** pivots to operations: `s_hc` jumps to 0.22 and `s_rev_hire` peaks at 0.15 — the pilot's revenue-leader hire was *tightest* at Series B (1.3–7.6mo lead), making it the highest-value timed signal at this transition. `s_fin_hire` stays near zero (0/4 at B; the Lovable FBOS hire is the lone anomaly and is worth 0.02, not more).
-- **B_TO_C** is peak ramp-plateau (0.25): B/C companies "swing harder off smaller bases," so the shape is cleanest here. Revenue hire still matters (0.12) but arrives "earlier/more spread at C," so it times the window less precisely.
-- **C_TO_D** is where `s_fin_hire` earns its keep (0.14): 2/4 Series D companies hired finance leadership 10.9–20mo out (Cognition, Replit), and the ATS finance-req flag (inside s_ats) catches it even earlier. Ramp-plateau still leads (0.22).
-- **D_TO_E** leans institutional: finance function (0.16), runway math (0.12 — burn is enormous and estimable), press choreography (0.08), and elite-investor pre-emption dynamics (0.10). Pedigree is irrelevant (0.00).
+- **SEED_TO_A** leans pedigree + momentum + elite investors, per the pilot's Seed/A cohort; rev/fin hires are absent this early, so both sit at 0.0.
+- **A_TO_B** leans headcount + revenue-leader hire (tightest timed signal at this transition per pilot); `s_fin_hire` is quarantined here too (0/4 in pilot).
+- **B_TO_C** carries the largest combined momentum allocation (0.4, at the cap) because the pilot's ramp-then-plateau shape was cleanest here — but see §3.1: this is exactly the profile most exposed to the temporal-alignment problem, since the shape claim itself is unvalidated.
+- **C_TO_D** and **D_TO_E** lose their pilot-suggested `s_fin_hire` weight to quarantine (only 2 firings total, both here); that mass has been folded into `s_ats` (which includes a forward-looking finance-req flag with a larger sample) and `s_elite`/`s_press`.
 
-### 3.4 Missing-data reweighting
+### 3.5 Missing-Data Reweighting and Coverage-Bias Cap
 
-If a subscore is **structurally unavailable** (no ATS board found, non-devtool for s_github, Harmonic returns no traction series), set its weight to 0 and renormalize the remaining weights to sum to 1.00. A subscore that is available but simply zero (e.g., no revenue hire found) is **kept at zero** — absence of the hire is real evidence. Record `signals_missing: [...]` in the output so the dashboard can show coverage.
+If a subscore is **structurally unavailable** (no ATS board found, non-devtool for s_github, Harmonic returns no traction series), it contributes 0 to the raw score. What happens next depends on how much weight mass is missing — a v1.1 fix, because naive renormalization silently rewards thin coverage:
 
-### 3.5 Form D override
+```
+missing_mass = Σ wᵢ over structurally-unavailable subscores
+
+if missing_mass ≤ 0.20:
+    # coverage is fine; renormalize remaining weights to sum to 1.00, as v1.0 did
+    score = 100 × Σ (wᵢ / (1 - missing_mass)) × sᵢ     over available i
+
+else:
+    # v1.1 fix: do NOT renormalize. A poorly-tracked company should not float to
+    # the top just because its few available subscores happen to be high.
+    score = 100 × Σ wᵢ × sᵢ                             over available i (weights NOT rescaled)
+    score = min(score, 100 × (1 - missing_mass))         # explicit coverage cap
+    coverage_capped = true
+```
+
+A subscore that is available but simply zero (e.g., no revenue hire found) is **kept at zero** — absence of the hire is real evidence, and is not the same as missing data. Record `signals_missing: [...]`, `missing_weight_mass`, and `coverage_capped` in the output (§6.5) so the dashboard can show coverage, and exclude `coverage_capped: true` companies from any auto-alert / "Imminent" surfacing until a human confirms tracking quality.
+
+### 3.6 Form D Override
 
 If `form_d_age_days ≤ 120` and the filing post-dates `lastFundingAt + 30d`: `score = max(score, 90)`, `window = "0-3mo"`, `override = "form_d"`. (The round may already be partially closed — this converts Raising Soon into a "get in the second close / next round early" alert.)
 
-### 3.6 Window estimation
+### 3.7 Window Estimation
 
 Compute `expected_months_to_raise` then map to a band:
 
@@ -347,20 +428,36 @@ elif hc_plateau_flag:                   base_remaining = min(base_remaining, 5.0
 if profile == A_TO_B and rev_hire_months_ago is not null and rev_hire_months_ago ≤ 6:
                                         base_remaining = min(base_remaining, 6.0)
 if ats_freeze_flag:                     base_remaining = min(base_remaining, 4.0)
-if runway_months_remaining is not null: base_remaining = min(base_remaining,
-                                             max(1.0, runway_months_remaining - 2.0))
-    # companies start raising ~2mo before projected cash-out at the latest
 
 window: base_remaining ≤ 3 → "0-3mo"; ≤ 6 → "3-6mo"; ≤ 12 → "6-12mo"; else "12mo+"
 if cadence_ratio > 3.0 and score < 40 → "dormant"
 ```
 
+**v1.1 change: runway is no longer a window cap.** The v1.0 formula additionally capped `base_remaining` at `runway_months_remaining - 2.0`, letting an unvalidated burn estimate directly shrink the customer-facing timing window. Because the burn proxy is known to be wrong for AI-native companies (compute cost, revenue offset, and venture debt are all ignored or crudely patched — §4.3), that cap is **removed**. `runway_months_remaining` still feeds `s_runway` (§3.3, §3.4) and therefore the *score*, but no longer ceilings the *window* until §4.4's validation runs.
+
+Note also that two of the remaining compressors (`hc_strong_plateau_flag`, `hc_plateau_flag`) are themselves **PROVISIONAL** (§3.1) — treat window-tightening from these two triggers with the same caution as the score contribution.
+
 **Score bands for the dashboard:** 80–100 = `Imminent` (red), 60–79 = `Warming` (orange), 40–59 = `Watch` (yellow), <40 = `Quiet` (gray).
 
-### 3.7 Worked example (illustrative arithmetic check)
+### 3.8 Worked Example (Arithmetic Check Only — Not Evidence of Predictive Power)
 
-Series B enterprise-AI company (profile B_TO_C, cadence_median 20mo, ramp_ref 120): raised 14mo ago (`r=0.70 → s_cadence=0.27`); `hc_pct_365=+210, hc_pct_90=+38, hc_pct_30=+2` → `ramp_c=1.0, plateau_c=0.75, gate=1 → s_hc=0.75`; CRO hired 5mo ago → `s_rev_hire=1.0`; no finance hire → 0; ATS freeze fired + gtm_share 0.35 → `s_ats=0.5+0+0.2·0.6=0.62`; web+LI plateau both fired → `s_momentum=0.85`; runway est 7mo → `s_runway=0.56`; press_ratio 1.8 + milestone → `s_press=0.65`; not devtool (reweight s_github's 0.03 pro-rata); 1 elite investor → 0.5; pedigree 0.
-Score ≈ 100 × (0.25·0.75 + 0.18·0.27 + 0.10·0.56 + 0.12·1.0 + 0.04·0 + 0.08·0.62 + 0.08·0.85 + 0.05·0.65 + 0.02·0 + 0.05·0.5) / 0.97 ≈ **66 → "Warming."** Window: plateau flag caps at 5.0, runway caps at 5.0 → **"3-6mo."** This matches the pilot's modal pre-raise posture.
+This example exists to verify the scoring code adds up correctly. It is **not** a claim that the resulting score is accurate — see the Confidence & Validity box.
+
+Series B enterprise-AI company (profile `B_TO_C`, cadence_median 20mo, ramp_ref 120, non-devtool): raised 14mo ago → `r = 0.70 → s_cadence = 0.27`; `hc_pct_365=+210, hc_pct_90=+38, hc_pct_30=+2` → `ramp_c=1.0, plateau_c=0.75, gate=1 → s_hc=0.75` (**PROVISIONAL, §3.1**); CRO hired 5mo ago → `s_rev_hire=1.0`; no finance hire, and `s_fin_hire` is quarantined regardless → contributes `0.0` at weight `0.0`; ATS freeze fired + `gtm_role_share=0.35` → `s_ats = 0.5 + 0 + 0.2·0.6 = 0.62`; web+LinkedIn plateau both fired → `s_momentum=0.85` (**PROVISIONAL, §3.1**); estimated runway → `s_runway=0.56` (score input only, §3.7); `press_ratio=1.8` + milestone → `s_press=0.65`; not devtool → `s_github` weight is 0.0 (no post-hoc reweighting needed); 1 elite investor → `s_elite=0.5`; 0 founders matched → `s_pedigree=0`.
+
+Using the v1.1 `B_TO_C` weights (§3.4: s_hc 0.3, s_cadence 0.2, s_runway 0.1, s_rev_hire 0.1, s_fin_hire 0.0, s_ats 0.1, s_momentum 0.1, s_github 0.0, s_press 0.1, s_pedigree 0.0, s_elite 0.1 — column already sums to 1.00, so no reweighting division is needed for a non-devtool company):
+
+```
+score = 100 × (0.3·0.75 + 0.2·0.27 + 0.1·0.56 + 0.1·1.0 + 0.0·0
+              + 0.1·0.62 + 0.1·0.85 + 0.1·0.65 + 0.0·0 + 0.1·0.5)
+      = 100 × (0.225 + 0.054 + 0.056 + 0.1 + 0 + 0.062 + 0.085 + 0.065 + 0 + 0.05)
+      = 100 × 0.697
+      ≈ 70 → "Warming"
+```
+
+**Window:** `base_remaining = max(0.5, 20 - 14) = 6.0`. `hc_strong_plateau_flag` fires (ramp 210 > 120 ref, plateau 2 < 3.0) → cap at 3.0. `ats_freeze_flag` fires → cap at 4.0 (non-binding, 3.0 already lower). Runway is **not** applied as a window cap (§3.7). → **base_remaining = 3.0 → "0-3mo."**
+
+*(v1.0 of this example contained an arithmetic error — its stated formula actually summed to ≈0.605, not the ≈0.66 it claimed, and it used a runway-based window cap that v1.1 removes. The corrected values above replace it, and the unit test target in §6.1 has been updated to match. This is an arithmetic self-check, not evidence that the score is predictive.)*
 
 ---
 
@@ -421,11 +518,17 @@ runway_months_remaining = max(0, (usable_capital - est_burn_to_date_usd)
                                   / current_run_rate_usd)
 ```
 
-**Known error sources, accepted deliberately:** ignores revenue offset (understates runway for efficient companies — acceptable: those companies raise opportunistically anyway, and the cadence term catches them), ignores venture debt, and headcount cost varies by geo. The backtest (§5.5) measures whether `runway_months_remaining < 9` actually discriminates; if its lift is < 1.3× it gets down-weighted, not "fixed."
+**v1.1 caveat — this proxy is likely wrong for AI-native companies specifically, in three ways that don't cancel out:**
 
-### 4.4 Combining cadence and runway into timing
+- **Compute cost.** The $22,000–$29,700/head/month figure is a *people*-cost model. AI-native companies frequently spend more on GPU/cloud compute than on headcount — a cost this model does not see at all, so `est_monthly_burn_usd` likely **understates** true burn for compute-heavy companies.
+- **Revenue offset.** The model ignores revenue entirely, which **overstates** burn (understates true runway pressure) for companies with real ARR against their burn.
+- **Venture debt.** The model ignores debt facilities, which extend actual runway beyond what `fundingTotal` implies — another source of **understated** runway that pushes the opposite direction from the compute-cost error.
 
-The window logic (§3.6) uses **whichever binds first**: `min(cadence_median − months_since_raise, runway_months_remaining − 2)`. Rationale: fast-growing AI companies raise on *momentum* before cash pressure (cadence binds); efficient slower burners raise on *cash* (runway binds). Emit both intermediate values in the signal record so the dashboard can show "why this window."
+Because these errors point in different directions for different companies and don't net out predictably, `runway_months_remaining` is **no longer allowed to cap the output timing window** (§3.7) — it feeds the score only (§3.4 `s_runway`), and even that weight should be treated as unvalidated until §5.6/§5.7 measures its actual lift. If lift is < 1.3× it gets down-weighted, not "fixed."
+
+### 4.4 Runway's Role: Score Input Only, Not a Window Cap (v1.1)
+
+v1.0 combined cadence and runway directly into the timing window (`min(cadence-based remaining, runway - 2)`), on the theory that "whichever binds first" should set the window. **v1.1 removes runway from that combination**: the window (§3.7) is now driven only by cadence and the (provisional) signal-driven compressors. Runway remains an input to the *score* via `s_runway` (§3.3, §3.4), because the directional idea — low runway correlates with urgency — is still plausible, but the burn proxy is not yet validated well enough to let it override or tighten a customer-facing timing estimate (§4.3). Emit `runway_months_remaining` in the signal record regardless, so the dashboard can show it as context and so §5's backtest can measure its actual lift (§5.6, §5.7) before it is ever reinstated as a window input.
 
 ### 4.5 Cross-validation of `lastFundingAt` (403 workaround hygiene)
 
@@ -434,271 +537,40 @@ The window logic (§3.6) uses **whichever binds first**: `min(cadence_median −
 1. **GDELT raise detection:** if the last 60 days of GDELT articles for the company match `r"(raises|raised|closes|secures)\s+\$\d+"`, and `lastFundingAt` is older than the article by > 30 days, set `raise_event_suspected: true`, freeze the score at its previous value, and surface a "verify: possible unrecorded round" chip on the dashboard. Do NOT auto-advance the stage (names collide; a human confirms via the Cowork-side PitchBook connector).
 2. **Form D date** (A3): if a Form D post-dates `lastFundingAt` by > 45 days, same flag.
 
-When a new raise IS confirmed (Harmonic updates `lastFundingAt` / `numFundingRounds` increments), the engine automatically rolls the company to the next profile and — critically for §5 — **logs the event** to `data/raising_soon/raise_events.jsonl` with the full frozen signal record from the day before, building SPC's own labeled dataset for free, forever.
+When a new raise IS confirmed (Harmonic updates `lastFundingAt` / `numFundingRounds` increments), the engine automatically rolls the company to the next profile and — critically for §5.1 — **logs the event** to `data/raising_soon/raise_events.jsonl` with the full frozen signal record from the day before, building SPC's own labeled, point-in-time dataset for free, forever.
 
 ---
 
 ## 5. Reverse-Engineering Backtest Methodology (20 → 300 companies)
 
-The pilot proved the signal shapes. This section scales calibration to statistically usable weights.
+The pilot proved the signal shapes exist; it did not prove they predict. This section scales calibration to statistically usable weights, and §5.1 explains why, for three of the signals, this section alone is not sufficient.
 
-### 5.1 The central measurement constraint (state it, design around it)
+### 5.1 Primary Calibration Method — Forward Point-in-Time Snapshot Log
+
+**This section, not the today-anchored backtest below, is the primary calibration method for the three PROVISIONAL shape signals (§3.1): `hc_ramp_plateau`, `web_momentum`, and `linkedin_momentum`'s plateau form.** Historical Harmonic data cannot validate them, because there is no way to retroactively ask "what did the today-anchored windows look like on an arbitrary past date" — Harmonic simply doesn't expose that. The only valid fix is to stop reconstructing the past and start capturing the present, then wait for outcomes.
+
+**Mechanism (already built into the daily pipeline, §4.5, §6.1):**
+
+- Every day, `build_record.py` writes a full signal record per company to `data/raising_soon/signals/<slug>.json`, and the Action commits it. This is, by construction, a true point-in-time snapshot — no anchoring ambiguity, because it captures exactly what the production model saw on that date.
+- When `detect_raises.py` observes a new raise (`lastFundingAt` advances), it appends the **prior day's frozen record** to `data/raising_soon/raise_events.jsonl` — a genuine labeled example: "here is what the signals looked like N days before this company's raise, captured before anyone knew the raise was coming."
+- Symmetrically, companies that do **not** raise accumulate snapshots that never get labeled positive — the full tracked universe (`companies.json`, §6.1) is a running set of negative controls for free, closing caveat #2 in the Confidence & Validity box as soon as enough calendar time has passed.
+
+**Why this supersedes the backtest for shape signals:** a snapshot logged today and labeled in 3–12 months when the raise (or non-raise) resolves has zero temporal-alignment ambiguity. The backtest in §5.2–5.7 remains useful for signals on absolute dates (hires, Form D, press) because those can be reconstructed exactly against `t0`. For the three shape signals, treat every number quoted from §7 (pilot) or §5.6 (backtest) as a **hypothesis**, and treat this forward log as the only source that can convert that hypothesis into a validated weight.
+
+**Reporting cadence:** quarterly (aligned with §5.8), report for every tracked company that raised in the quarter: what did its score/subscores look like 30/60/90/180 days prior, and — the comparison the pilot never ran — what did non-raising companies' plateau flags look like over the same horizon. Do not revise `weights.json` for the three provisional signals until this comparison shows measured lift ≥ 1.3× (the same bar used in §5.6).
+
+### 5.2 The central measurement constraint (state it, design around it)
+
+*(See §3.1 for why this matters and §5.1 for the calibration method it ultimately hands off to for shape signals.)*
 
 Two limitations shape the whole design:
 
 1. **fundingRounds 403:** the only per-company event date is `lastFundingAt`. We cannot reconstruct multi-round histories, so every backtest company contributes exactly **one** labeled event: its most recent raise at date `t0 = lastFundingAt`.
 2. **Harmonic time series are anchored to *today*** (ago30/90/180/365 from the pull date), not to arbitrary historical dates. We cannot ask "what was headcount growth as of 14 months ago."
 
-**Consequence — the sampling rule:** only companies whose raise happened **30–120 days before the pull date** are usable, because then today's ago-windows *straddle* `t0`: `ago30d` ≈ post-raise, `ago90d/ago180d` ≈ the immediate pre-raise period (where the plateau lives), `ago365d` ≈ the ramp. The pilot used exactly this trick; the scaled backtest institutionalizes it.
+**Consequence — the sampling rule:** only companies whose raise happened **30–120 days before the pull date** are usable, because then today's ago-windows *straddle* `t0`: `ago30d` ≈ post-raise, `ago90d/ago180d` ≈ the immediate pre-raise period (where the plateau lives), `ago365d` ≈ the ramp. The pilot used exactly this trick; the scaled backtest institutionalizes it. **This trick still cannot fully resolve the post-raise confound for the plateau window itself (§3.1) — it narrows the ambiguity, it does not eliminate it. Only §5.1's forward log eliminates it.**
 
-### 5.2 Sample construction (target n=300, 60 per profile)
+### 5.3 Sample construction (target n=300, 60 per profile)
 
 - **Positives (n≈300):** via Harmonic natural-language/saved search (the same mechanism as the existing saved search 163876 "Enterprise Software just raised"), one query per stage: *"B2B enterprise or AI companies that raised a Series {A|B|C|D|E} in the last 4 months"*, filtered in post to `30 ≤ (today − lastFundingAt).days ≤ 120`. Take up to 60 per stage; if a stage under-fills (Series E will), take what exists and widen to 150 days before lowering n.
-- **Controls (n≈300, stage-matched):** same searches minus the raise clause — *"B2B enterprise/AI companies at Series {X}"* — filtered to `months_since_raise ≥ 1.5 × cadence_median[profile]` **and** no GDELT raise match in 12 months (i.e., demonstrably NOT raising on schedule). 60 per stage.
-- Persist both cohorts to `data/raising_soon/backtest/cohort_{YYYYQ}.json` so every quarterly run is reproducible.
-
-### 5.3 Look-back feature extraction
-
-For each positive, pull the full company record and compute **every raw feature in §2** exactly as production would, then re-index against `t0`:
-
-- **Time-series shape:** label each ago-window as pre- or post-raise relative to `t0`. The **plateau test for backtest purposes** is: growth in the window containing `[t0 − 60d, t0]` < 8% while the window covering `[t0 − 365d, t0 − 90d]` shows ramp above the stage ref. With only 4 anchor points this is coarse — accept it; the pilot showed the shape is violent enough (+140→single digits) to survive coarse windows.
-- **Hires:** `startDate` arrays are absolute dates (not today-anchored), so hire lead times are computed *exactly*: `lead = (t0 − startDate).days / 30.44` for every B2/B3/B4 match with `0 ≤ lead ≤ 24`.
-- **Press:** GDELT supports historical date ranges natively — compute `press_ratio` for the 90d window ending at `t0` vs. the prior 90d.
-- **Form D:** EDGAR is fully historical — record whether a Form D landed within `[t0 − 30d, t0 + 30d]` (measures A3's realistic recall, which the pilot did not cover).
-- **Not measurable retroactively:** ATS open-role history (job boards have no free archive) and GitHub star history (would need daily snapshots). For these two, seed weights are held at their §3.3 values and calibrated only from the **forward log** (§5.7) — say so in the calibration report rather than faking it.
-
-### 5.4 Per-signal metrics
-
-For each signal × profile, compute:
-
-- **Hit-rate** `HR = P(signal fired | raised)` — fired means the §2 flag/threshold condition met in the pre-raise window.
-- **False-fire rate** `FF = P(signal fired | control)`.
-- **Lift** `L = HR / max(FF, 0.02)`.
-- **Lead-time distribution** — median and IQR of months-before-raise at first firing (hires and press give exact leads; time-series signals give windowed leads).
-
-Pilot values to beat / confirm: `hc_ramp_plateau` HR = 12/12 at B/C/D; `revenue_leader_hire` HR = 10/12 with lead 1–11mo (median tight at B: 1.3–7.6mo); `finance_leader_hire` HR = 0/4 (B), 0/4 (C), 2/4 (D) with leads 2.5–23mo.
-
-### 5.5 Converting hit-rates into weights
-
-Per profile, mechanical and reproducible:
-
-```
-raw_i  = max(0, HR_i × (L_i - 1))          # rewards firing often AND discriminating
-w_i    = raw_i / Σ_j raw_j                  # normalize to 1.00
-w_i    = 0.5 × w_i + 0.5 × w_i_prior        # shrink toward §3.3 priors (n=60/stage
-                                            # is still small); renormalize
-Floor/cap: any signal with L < 1.3 → w = 0 (redistribute); no single w > 0.30.
-```
-
-Corroboration constraint (from the pilot's "momentum mirrors headcount" finding): cap `s_momentum` weight at **0.10 for all B+ profiles** regardless of its lift, because its correlation with `s_hc` means its marginal lift is inflated. Verify by computing the `s_hc`–`s_momentum` feature correlation in the positive cohort; if ρ < 0.4 (i.e., they've decoupled), lift the cap.
-
-### 5.6 Model-level precision/recall
-
-Score every positive (features as of `t0 − 30d` approximation) and every control with the calibrated weights. Report, per profile: **precision@score≥60**, **recall@score≥60**, ROC-AUC (rank positives vs. controls), and **window accuracy** (share of positives whose predicted window contained the actual `t0`). **v1 acceptance gates: precision ≥ 0.55 and recall ≥ 0.50 at score ≥ 60, per profile.** A profile that fails gates ships with its §3.3 prior weights and a `calibration: "prior"` tag rather than a bad fit.
-
-### 5.7 Re-calibration cadence
-
-- **Quarterly** (first Monday of Jan/Apr/Jul/Oct, manual trigger from Cowork): re-run §5.2–5.6 with a fresh cohort; write `config/weights.json` with a bumped `calibration_version`; commit. The Action never recalibrates on its own — weights are versioned config, not runtime state.
-- **Continuous forward validation, free:** the production event log (`raise_events.jsonl`, §4.5) accumulates true outcomes for *tracked* companies — each logged raise stores the prior day's score and window. Quarterly, report: for tracked companies that raised, what was their score 30/90/180 days prior? This forward log is the *only* source that can calibrate the ATS and GitHub signals (§5.3) and is the long-run replacement for the today-anchored backtest hack.
-- **Optional PitchBook enrichment (Cowork-side only, token-costed):** for the quarterly calibration sample only, `pitchbook_get_company_deals` can supply true per-round dates/amounts to (a) validate `lastFundingAt`, (b) measure the true cadence medians for §4.1, and (c) validate the §4.2 stage-share decomposition. Budget: ≤ 100 companies/quarter, run manually. Never in CI.
-
----
-
-## 6. Implementation Plan for the Executor
-
-Hard requirement: **zero LLM tokens in CI.** Everything below is stdlib-Python (urllib, json, re, datetime) plus what's already in `requirements.txt`. All paths relative to repo root.
-
-### 6.1 Module layout
-
-```
-scripts/
-  raising_soon/
-    __init__.py
-    config.py            # loads config/*.json; stage tables from §3.3, §4.1, §4.2 as dicts
-    harmonic.py          # get_company(id_or_url) -> dict; wraps existing auth pattern from
-                         #   pull_harmonic.py (apikey header, candidate-endpoint fallback,
-                         #   fail-safe exit-0 on total failure)
-    features/
-      capital.py         # A1 cadence, A2 runway (implements §4 verbatim), A4 elite match
-      talent.py          # B1 hc shape, B2/B3/B4 person-scan regexes, title matching
-      ats.py             # B5: greenhouse/lever/ashby fetchers + slug discovery + freeze calc
-      traction.py        # C1/C2/C3 momentum, C4 github stars
-      press.py           # D1 GDELT fetch + ratio + milestone regex
-      founder.py         # E1 pedigree scan
-      edgar.py           # A3 Form D search + name normalization/fuzzy match
-    scoring.py           # subscores (§3.2), weights apply (§3.3), reweighting (§3.4),
-                         #   form-d override (§3.5), window (§3.6)
-    build_record.py      # orchestrates features -> data/raising_soon/signals/<slug>.json
-    detect_raises.py     # §4.5: lastFundingAt change detection -> raise_events.jsonl
-    backtest.py          # §5 end-to-end; ALSO runnable locally/Cowork-side, never in cron
-config/
-  weights.json           # {"calibration_version": "2026Q3-v1", "profiles": {...§3.3...}}
-  stage_priors.json      # cadence medians, stage shares, ramp refs, burn constants
-  elite_investors.json   # A4 set
-  pedigree_orgs.json     # E1 set
-  companies.json         # THE TRACKED UNIVERSE: [{name, slug, harmonic_id_or_url,
-                         #   legal_name (for EDGAR), ats: {vendor, slug}|null,
-                         #   github_org_repo|null, is_ai_native, is_devtool}]
-data/
-  raising_soon/
-    signals/<slug>.json  # per-company signal record (schema §6.4) — committed daily,
-                         #   which gives free 30d history for ATS/GitHub deltas
-    raise_events.jsonl   # append-only outcome log (§4.5)
-    backtest/            # quarterly cohorts + calibration reports
-  pipeline_scored.json   # scored output consumed by the Raising Soon tab (schema §6.5)
-```
-
-Function contracts the executor must honor:
-
-- `features/*.py` — every module exposes `extract(company_json, prev_record: dict|None, cfg) -> dict` returning ONLY its raw features from §2, with `None` for unavailable. No scoring logic in feature modules.
-- `scoring.py` — `score(record: dict, profile: str, weights: dict) -> {"score": int, "window": str, "subscores": {...}, "signals_missing": [...], "override": str|None}`. Pure function; unit-test with the §3.7 worked example (expected: score 66 ± 1, window "3-6mo").
-- `build_record.py` — `main()` iterates `config/companies.json`, is resilient per-company (one company's HTTP failure logs and continues; carry forward the previous record with `"stale": true`), and exits 0 always (matching the existing fail-safe philosophy of `pull_harmonic.py`).
-
-### 6.2 Daily GitHub Action step ordering
-
-Extend `.github/workflows/update.yml` (move cron to daily, e.g. `0 12 * * *`; the Monday funds scrape can key off `if: github.event.schedule` day check or just run daily too — scraping is cheap):
-
-```yaml
-steps:
-  1. checkout, setup-python, pip install -r requirements.txt
-  2. python scripts/scrape_funds.py                      # existing
-  3. python scripts/pull_harmonic.py                     # existing (saved-search raises feed)
-  4. python -m scripts.raising_soon.build_record         # NEW: fetch + extract per company
-       env: HARMONIC_API_KEY, GITHUB_TOKEN (for star API rate limit)
-  5. python -m scripts.raising_soon.detect_raises        # NEW: log outcomes, roll stages
-  6. python - <<'PY'                                     # NEW: score
-     from scripts.raising_soon import scoring; scoring.score_all()   # writes pipeline_scored.json
-     PY
-  7. python scripts/build_dashboard.py                   # existing — extended to render
-                                                         #   the Raising Soon tab from
-                                                         #   data/pipeline_scored.json
-  8. git add -A && git commit && git push                # existing
-```
-
-Rate-limit discipline (be a good citizen, stay free): Harmonic 1 req/company/day; SEC EDGAR ≤ 10 req/s with the User-Agent header, batch all companies in one pass; GDELT ≤ 1 req/company with 1s sleep; ATS endpoints are static JSON, 1 req/company; GitHub ≤ 1 req/devtool-company (well under 5,000/hr with token). For a 150-company universe the whole step budget is ~600 HTTP calls, < 6 minutes.
-
-### 6.3 Token budget
-
-| Path | LLM tokens |
-|---|---|
-| Daily Action (steps 1–8) | **0** — pure Python + HTTP, by construction |
-| Quarterly recalibration (backtest.py, Cowork-side) | 0 required; optional PitchBook validation ≤ 100 companies (§5.7) |
-| Ad-hoc company enrichment (Cowork) | optional, human-triggered only |
-
-### 6.4 Per-company signal record schema — `data/raising_soon/signals/<slug>.json`
-
-```json
-{
-  "schema_version": 1,
-  "slug": "acme-ai",
-  "name": "Acme AI",
-  "as_of": "2026-07-15",
-  "stale": false,
-  "stage": {"funding_stage": "SERIES_B", "profile": "B_TO_C", "stage_inferred": false},
-  "capital": {
-    "last_funding_at": "2025-05-10", "num_funding_rounds": 3, "funding_total_usd": 68000000,
-    "months_since_raise": 14.2, "cadence_ratio": 1.01,
-    "est_last_round_usd": 37400000, "est_monthly_burn_usd": 3860000,
-    "runway_months_remaining": 6.8,
-    "form_d_date": null, "form_d_age_days": null,
-    "elite_investor_count": 1, "raise_event_suspected": false
-  },
-  "talent": {
-    "hc_now": 130, "hc_pct_30": 2.1, "hc_pct_90": 38.0, "hc_pct_180": 96.0, "hc_pct_365": 210.0,
-    "hc_plateau_flag": true, "hc_strong_plateau_flag": true,
-    "rev_hire_months_ago": 5.0, "rev_hire_title": "Chief Revenue Officer",
-    "fin_hire_months_ago": null, "fin_hire_title": null,
-    "senior_hire_months_ago": null, "senior_hire_title": null,
-    "ats": {"vendor": "greenhouse", "slug": "acmeai", "open_roles_now": 9,
-            "open_roles_30d_ago": 16, "ats_freeze_flag": true,
-            "ats_finance_req_flag": false, "ats_gtm_req_flag": true, "gtm_role_share": 0.35}
-  },
-  "traction": {
-    "web_pct_30": 4.0, "web_pct_90": 44.0, "web_pct_365": 260.0, "web_plateau_flag": true,
-    "li_pct_30": 6.0, "li_pct_90": 51.0, "li_pct_365": 340.0,
-    "li_explosive_flag": false, "li_plateau_flag": true,
-    "tw_pct_90": 18.0, "tw_pct_365": 90.0,
-    "github": null
-  },
-  "press": {"press_90": 7, "press_prior_90": 4, "press_ratio": 1.75, "press_milestone_flag": true},
-  "founder": {"founder_count": 2, "pedigree_founder_count": 0}
-}
-```
-
-### 6.5 Scored output schema — `data/pipeline_scored.json` (feeds the Raising Soon tab)
-
-```json
-{
-  "generated_at": "2026-07-15T12:04:00Z",
-  "calibration_version": "2026Q3-v1",
-  "companies": [
-    {
-      "slug": "acme-ai", "name": "Acme AI",
-      "profile": "B_TO_C", "next_round": "Series C",
-      "score": 66, "band": "Warming", "window": "3-6mo",
-      "override": null, "stale": false,
-      "subscores": {"s_hc": 0.75, "s_cadence": 0.27, "s_runway": 0.56, "s_rev_hire": 1.0,
-                    "s_fin_hire": 0.0, "s_ats": 0.62, "s_momentum": 0.85, "s_github": null,
-                    "s_press": 0.65, "s_pedigree": 0.0, "s_elite": 0.5},
-      "signals_missing": ["s_github"],
-      "top_drivers": ["Revenue leader hired 5.0mo ago (CRO)",
-                      "Headcount +210% YoY, +2.1% last 30d — ramp-then-plateau",
-                      "ATS open roles 16 -> 9 in 30d (freeze)"],
-      "score_delta_7d": +9,
-      "why_window": "plateau caps at 5mo; est. runway 6.8mo binds at 4.8mo"
-    }
-  ]
-}
-```
-
-`top_drivers` is generated by template strings in `scoring.py` (the three highest `wᵢ × sᵢ` contributions), giving the tab human-readable "why" lines with zero LLM involvement. `score_delta_7d` is computed against the git-committed prior file — companies whose score jumps ≥ 10 in a week sort to a "Movers" strip at the top of the tab.
-
-### 6.6 Dashboard integration
-
-`scripts/build_dashboard.py` gains a third tab renderer: read `data/pipeline_scored.json`, render a table sorted by score desc — columns: Company | Next round | Score (colored band chip) | Window | Top drivers | Δ7d — plus the Movers strip and a per-company expandable row showing subscores and `why_window`. Follow the existing template pattern in `scripts/dashboard_template.html`. If `pipeline_scored.json` is missing, render the tab with a "no data yet" placeholder (never break the build — same fail-safe contract as the rest of the pipeline).
-
-### 6.7 Build order for the executor (dependency-sorted)
-
-1. `config/*.json` (constants from this spec, verbatim) → 2. `harmonic.py` (reuse `pull_harmonic.py` auth/fallback code) → 3. `features/capital.py` + `features/talent.py` (covers 70% of weight mass — shippable v0.5 with just these two + scoring) → 4. `scoring.py` + unit test against §3.7 → 5. `build_record.py` + Action wiring + dashboard tab (**ship v0.5 here**) → 6. `features/ats.py`, `edgar.py`, `press.py`, `traction.py`, `founder.py` → 7. `detect_raises.py` → 8. `backtest.py` (Cowork-side) → first quarterly calibration → `weights.json` v2.
-
----
-
-## 7. Appendix — Pilot Backtest Results (n = 20, Harmonic, run July 2026)
-
-Sample: 20 companies that recently raised, spanning Seed (4), Series A (4), Series B (4), Series C (4), Series D (4); B2B enterprise/AI universe; features extracted from live Harmonic records with ago-windows straddling each company's `lastFundingAt` (the §5.1 method).
-
-### 7.1 Signal hit-rates by stage cohort
-
-| Signal | Seed (n=4) | A (n=4) | B (n=4) | C (n=4) | D (n=4) | Reading |
-|---|---|---|---|---|---|---|
-| Headcount ramp-then-plateau | shape present as ramp-only (still scaling into round) | ramp-only | **4/4** | **4/4** | **4/4** | **12/12 at B/C/D — most universal signal.** YoY ramp +140% to +610%, flattening to single-digit or negative growth in final ~30d. Magnitude larger at B/C (smaller bases). |
-| Revenue-leadership hire (VP Sales/CRO/SVP Rev) | 0/4 | 0/4 | 4/4 | 3/4 | 3/4 | **10/12 at B/C/D.** Lead 1–11mo. Tightest at B: **1.3–7.6mo**; earlier and more spread at C. |
-| Finance-leadership hire (CFO/VP Fin) | 0/4 | 0/4 | 0/4* | 0/4 | **2/4** | Late-stage-only tell. Leads 2.5–23mo — high precision, low recall. *One B-stage anomaly: see 7.2. |
-| Web-traffic / LinkedIn plateau mirror | — | — | 4/4 | 4/4 | 4/4 | Mirrors headcount "almost exactly" at all stages → corroboration weight only. |
-| Explosive LinkedIn/web growth off tiny base | **4/4** | **3/4** | — | — | — | **+500% to +11,000% YoY** pre-raise. Primary Seed/A driver. |
-| Founder pedigree (ex-OpenAI/Tesla/Scale/DeepMind/Stripe etc.) | **4/4** | **3/4** | n/m | n/m | n/m | Primary Seed/A driver. |
-| Elite prior investors (a16z/Sequoia/Khosla/Lightspeed) | 3/4 | 3/4 | n/m | n/m | n/m | Pre-emption channel at Seed/A. |
-| Fast early headcount off tiny base | 4/4 | 4/4 | — | — | — | Seed/A form of the hiring signal (ramp without plateau). |
-
-*n/m = not measured as a driver in the pilot for that cohort; — = signal form not applicable at that stage.*
-
-### 7.2 Named exemplars (finance-hire lead times)
-
-| Company | Round raised | Finance hire | Lead time before raise |
-|---|---|---|---|
-| Cognition | Series D | VP Finance | ~10.9 months |
-| Replit | Series D | SVP Finance | ~20 months |
-| Lovable | Series B (anomaly) | "Head of FBOS" (startup-CFO role) | ~2.5 months |
-
-### 7.3 Structural findings carried into the model
-
-1. **Ramp-then-plateau is the flagship** → highest single weight in every B+ profile (0.18–0.25) and the primary window-compressor (§3.6).
-2. **Revenue hire is the best *timed* signal at A→B** (1.3–7.6mo lead) → weight 0.15 with a 9-month decay window.
-3. **Finance hire is a C→D/D→E signal with wild lead variance** → weights 0.14/0.16 with a 24-month window and no window-compression role; the forward-looking ATS finance-req flag partially de-lags it.
-4. **Momentum metrics are correlated corroboration, not independent evidence** → capped at ≤ 0.10 weight for B+ profiles (§5.5 correlation check enforces this permanently).
-5. **Age is decoupling from stage in the AI cohort** (2–3yr-old, $2B+ Series D companies observed) → all timing keys off `fundingStage + lastFundingAt`; `foundingDate` appears nowhere in the scoring math.
-6. **Sample-size honesty:** n=20 seeds directionally correct weights; the §5 backtest (n≈300 + stage-matched controls) is the calibration of record, and the production `raise_events.jsonl` log supersedes both over time.
-
----
-
-*End of specification. Executor: begin at §6.7 step 1. All constants in this document are v1 calibration values and live in `config/` — never hard-code them in module logic.*
+- **Controls (n≈300, stage-matched):** same searches minus the raise clause — *"B2B enterprise/AI companies at Series {X}"* — filtered to `months_since_raise ≥ 1.5 × cadence_median[profile]` **and** no GDELT raise match in 12 months (i.e., demonstrably NOT raising on schedule). 60 per stage. These controls resolve caveat #2 for the absolute-date signal
