@@ -256,3 +256,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+    try:  # web-only point-in-time signal logger for Raising Soon (no API key)
+        import subprocess as _sp
+        _sp.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "snapshot_signals.py")])
+    except Exception as _e:
+        print("snapshot step skipped:", _e)
