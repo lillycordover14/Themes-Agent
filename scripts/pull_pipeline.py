@@ -178,56 +178,78 @@ def score(comp):
 
     months = months_since(last_raise)
     snap = latest_snapshot(slug)
-    sc = 0; signals = []; links = []
+    signals = []; links = []
 
-    # 1) cadence / runway
+    # on-topic evidence
+    imm = [a for a in arts if a["date"] and IMMINENT.search(a["title"]) and _recent(a["date"], 4)]
+    fh = [a for a in arts if FIN.search(a["title"]) and _recent(a["date"], 9)]
+    mh = [a for a in arts if MOM.search(a["title"]) and _recent(a["date"], 4)]
+    open_cfo = bool(snap.get("finance_leadership_open"))
+    open_gtm = bool(snap.get("gtm_leadership_open"))
+
+    # stage-aware cadence -> where in the funding cycle are they?
+    CADENCE = {"Seed": 15, "Series A": 18, "Series B": 22, "Series C": 27, "Series D": 33}
+    typ = CADENCE.get(stage, 20)
+    ratio = (months / typ) if months is not None else None
+    if months is None:
+        cycle = "unknown"
+    elif months < 8 or (ratio is not None and ratio < 0.45):
+        cycle = "just raised"
+    elif ratio < 0.8:
+        cycle = "mid-cycle"
+    elif ratio <= 1.25:
+        cycle = "approaching"
+    else:
+        cycle = "overdue"
+
+    # qualitative status + likelihood (no numeric score)
+    if imm:
+        status, likelihood, rank = "Raising now — press chatter", "Active", 5
+    elif cycle in ("approaching", "overdue") and (open_cfo or fh):
+        status, likelihood, rank = "High chance soon", "High", 4
+    elif cycle == "approaching":
+        status, likelihood, rank = "Entering raise window", "Medium", 3
+    elif cycle == "overdue":
+        status, likelihood, rank = "Overdue — watch", "Medium", 3
+    elif cycle == "mid-cycle" and (open_cfo or fh):
+        status, likelihood, rank = "Mid-cycle, hiring finance leadership", "Medium", 3
+    elif cycle == "mid-cycle":
+        status, likelihood, rank = "Mid-cycle", "Low", 2
+    elif cycle == "just raised":
+        status, likelihood, rank = "Just raised — not soon", "Very low", 1
+    else:
+        status, likelihood, rank = "Unknown — no round data", "—", 0
+
+    # evidence lines
     if months is not None:
-        anchor = " (%s)" % stage if stage else ""
-        if months < 8:
-            signals.append("Raised ~%d mo ago%s — likely NOT raising soon" % (months, anchor))
-        elif 14 <= months <= 30:
-            sc += round(max(0, 30 * (1 - abs(months - 20) / 12)))
-            signals.append("Cadence: %d mo since last round%s — in the typical raise window" % (months, anchor))
-        else:
-            signals.append("Last round ~%d mo ago%s" % (months, anchor))
+        cyc_txt = {"just raised": "just raised", "mid-cycle": "mid-cycle",
+                   "approaching": "approaching typical raise window", "overdue": "past typical cadence"}.get(cycle, "")
+        signals.append("%d mo since last round%s · typical %s cadence ~%d mo · %s" % (
+            months, " (" + stage + ")" if stage else "", stage or "round", typ, cyc_txt))
     else:
         signals.append("No dated prior round found")
-
-    # 2) imminent-raise chatter
-    imm = [a for a in arts if a["date"] and IMMINENT.search(a["title"]) and _recent(a["date"], 4)]
     if imm:
-        sc += 35; signals.append("Imminent-raise chatter: “%s”" % imm[0]["title"][:95]); links.append(imm[0]["link"])
-
-    # 3) finance / GTM leadership hire in the news
-    fh = [a for a in arts if FIN.search(a["title"]) and _recent(a["date"], 9)]
+        signals.append("Imminent-raise chatter: “%s”" % imm[0]["title"][:95]); links.append(imm[0]["link"])
+    if open_cfo:
+        signals.append("Open finance-leadership role (CFO/VP Finance) on careers page")
+    elif open_gtm:
+        signals.append("Open GTM-leadership role (CRO/VP Sales) on careers page")
     if fh:
-        sc += 18; signals.append("Finance/GTM leadership hire: “%s”" % fh[0]["title"][:95]); links.append(fh[0]["link"])
-
-    # 4) ATS open finance-leadership role (today's snapshot)
-    if snap.get("finance_leadership_open"):
-        sc += 20; signals.append("Open finance-leadership role on their careers page (CFO/VP Finance)")
-    elif snap.get("gtm_leadership_open"):
-        sc += 8; signals.append("Open GTM-leadership role (CRO/VP Sales)")
+        signals.append("Finance/GTM leadership hire: “%s”" % fh[0]["title"][:95]); links.append(fh[0]["link"])
     if snap.get("open_roles_total"):
         signals.append("%d open roles now (fin=%s sales=%s eng=%s)" % (
             snap.get("open_roles_total"), snap.get("roles_finance"), snap.get("roles_sales"), snap.get("roles_eng")))
-
-    # 5) momentum / PR
-    mh = [a for a in arts if MOM.search(a["title"]) and _recent(a["date"], 4)]
     if mh:
-        sc += 8; signals.append("Momentum/PR: “%s”" % mh[0]["title"][:95]); links.append(mh[0]["link"])
+        signals.append("Momentum/PR: “%s”" % mh[0]["title"][:95]); links.append(mh[0]["link"])
 
-    if len(signals) <= 1 and sc == 0:
-        signals.append("No strong pre-raise signals yet")
     return {
-        "name": name, "domain": domain, "score": min(100, sc), "stage": stage,
+        "name": name, "domain": domain, "stage": stage,
         "months_since": months, "last_raise_date": last_raise, "last_raise_source": src_note,
-        "funding_total": total,
-        "finance_leadership_open": bool(snap.get("finance_leadership_open")),
-        "open_roles": snap.get("open_roles_total"),
+        "funding_total": total, "cycle": cycle,
+        "status": status, "likelihood": likelihood, "rank": rank,
+        "finance_leadership_open": open_cfo, "open_roles": snap.get("open_roles_total"),
         "signals": signals[:6], "url": ("https://" + domain if domain else ""), "links": links[:3],
     }
-
 
 def main():
     try:
@@ -243,7 +265,7 @@ def main():
             print("  scoring failed:", e)
             out.append({"name": c.get("name"), "domain": c.get("domain", ""), "score": 0,
                         "signals": ["data unavailable this run"], "url": ("https://" + c.get("domain", "")) if c.get("domain") else "", "links": []})
-    out.sort(key=lambda x: -(x.get("score") or 0))
+    out.sort(key=lambda x: (-(x.get("rank") or 0), -(x.get("months_since") or 0)))
     json.dump({"generated": TODAY.isoformat(), "companies": out}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print("Wrote pipeline_scored.json (%d companies, hybrid)" % len(out))
 
