@@ -14,6 +14,18 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PIPE = os.path.join(ROOT, "data", "pipeline.json")
 OUT = os.path.join(ROOT, "data", "pipeline_scored.json")
 HIST_DIR = os.path.join(ROOT, "data", "signal_history")
+_PACT = None
+
+
+def _pipeline_activity(slug):
+    global _PACT
+    if _PACT is None:
+        try:
+            d = json.load(open(os.path.join(ROOT, "data", "pipeline_activity.json"), encoding="utf-8"))
+            _PACT = {c.get("slug"): c for c in d.get("companies", [])}
+        except Exception:
+            _PACT = {}
+    return _PACT.get(slug, {})
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 TODAY = datetime.date.today()
 
@@ -186,9 +198,11 @@ def score(comp):
 
     web_raised = [a for a in arts if a["date"] and RAISED_PAST.search(a["title"])]
     web_date = web_raised[0]["date"] if web_raised else ""
+    manual_raise = (comp.get("last_raise") or "")[:10]
+    manual_stage = comp.get("stage") or ""
 
     last_raise = ""; src_note = ""
-    cands = [d for d in [h_date, web_date] if d]
+    cands = [d for d in [manual_raise, h_date, web_date] if d]
     if cands:
         last_raise = max(cands)
         if web_date and last_raise == web_date and (not h_date or web_date > h_date):
@@ -202,11 +216,16 @@ def score(comp):
         fd = edgar_latest(name)
         if fd:
             last_raise = fd; src_note = "SEC Form D"
+    if manual_stage:
+        stage = manual_stage
+    if manual_raise and last_raise == manual_raise:
+        src_note = "provided"
     months = months_since(last_raise)
 
     # stage-aware cadence -> cycle position
     CADENCE = {"Seed": 15, "Series A": 18, "Series B": 22, "Series C": 27, "Series D": 33}
-    typ = CADENCE.get(stage, 20)
+    fast = (comp.get("growth", "fast") != "slow")   # pipeline names are curated fast-growers
+    typ = CADENCE.get(stage, 20) * (0.72 if fast else 1.0)
     ratio = (months / typ) if months is not None else None
     if months is None:
         cycle = "unknown"
@@ -269,6 +288,19 @@ def score(comp):
         supp.append(("Press pickup: %d articles in 30d (vs %d in 90d)" % (p30, p90), None))
     if mh:
         supp.append(("Momentum/PR: \u201c%s\u201d" % mh[0]["title"][:90], mh[0]["link"]))
+    act = _pipeline_activity(slug)
+    if act.get("new_customers"):
+        supp.append(("New customer on site: %s" % ", ".join(act["new_customers"][:3]), None))
+    if act.get("conferences"):
+        c0 = act["conferences"][0]
+        supp.append(("Conference/roadshow presence: %s" % (c0.get("title", "")[:80]), c0.get("link")))
+    if len(rows) >= 2 and _days_between(rows[0].get("date", ""), rows[-1].get("date", "")) >= 14:
+        sf = rows[0].get("roles_sales") or 0; slt = rows[-1].get("roles_sales") or 0
+        if slt >= 3 and slt >= sf * 1.4:
+            supp.append(("GTM hiring surge: sales roles %d\u2192%d" % (sf, slt), None))
+        gf = rows[0].get("github_stars") or 0; gl = rows[-1].get("github_stars") or 0
+        if gf and gl >= gf * 1.15:
+            supp.append(("GitHub stars accelerating %d\u2192%d" % (gf, gl), None))
     S = len(strong); M = len(supp)
 
     # ---- tiered status (defer to signals; else cadence) ----

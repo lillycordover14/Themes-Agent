@@ -31,7 +31,7 @@ CAT = [
     ("Partnership", re.compile(r"\b(partners? with|partnership|integrat\w+|collaborat\w+|teams? up with|alliance|joins forces)\b", re.I)),
     ("Award/traction", re.compile(r"\b(named|ranked|award|fastest.growing|milestone|surpass|doubl\w+|crosses|reaches \$)\b", re.I)),
 ]
-CONF = re.compile(r"\b(speaking at|join us at|meet us at|booth|keynote|will present|presenting at|exhibit\w*|sponsor\w* of|fireside|panel at|on stage at|attending)\b|\b[A-Z][A-Za-z0-9&' ]{2,30}\s(Summit|Conference|Conf|Expo|Forum|World|Week|Days|Live|Connect|Re:?Invent|Ignite|Dreamforce)\b", re.I)
+CONF = re.compile(r"\b(speaking at|join us at|meet us at|booth|keynote|will present|presenting at|exhibit\w*|sponsor\w* of|fireside|panel at|on stage at|attending)\b|\b(conference|summit|expo|symposium|forum|dreamforce|re:?invent|hackathon|demo day)\b|\b[A-Z][A-Za-z0-9&' ]{2,30}\s(Summit|Conference|Conf|Expo|Forum|World|Week|Days|Live|Connect|Ignite)\b", re.I)
 
 
 def mentions(title, name):
@@ -54,9 +54,9 @@ def fetch_json(url, timeout=20):
     return None
 
 
-def gdelt_articles(name):
+def gdelt_articles(name, months=2):
     url = ("https://api.gdeltproject.org/api/v2/doc/doc?query=%s&mode=artlist&format=json"
-           "&maxrecords=60&sort=datedesc&timespan=2months" % urllib.parse.quote('"%s"' % name))
+           "&maxrecords=80&sort=datedesc&timespan=%dmonths" % (urllib.parse.quote('"%s"' % name), months))
     d = fetch_json(url) or {}
     out = []
     for a in (d.get("articles") or []):
@@ -103,6 +103,14 @@ def within_window(iso):
         return False
 
 
+def within_days(iso, n):
+    try:
+        y, mo, dd = map(int, iso[:10].split("-"))
+        return (TODAY - datetime.date(y, mo, dd)).days <= n
+    except Exception:
+        return False
+
+
 def categorize(title):
     for label, rx in CAT:
         if rx.search(title):
@@ -136,40 +144,46 @@ def activity(comp):
     name = comp.get("name"); domain = comp.get("domain", "")
     slug = re.sub(r"[^a-z0-9]+", "-", (comp.get("slug") or name or "").lower()).strip("-")
     print("•", name)
-    arts = [a for a in gdelt_articles(name) if a["date"] and within_window(a["date"]) and mentions(a["title"], name)]
+    # News/Google-news (GDELT) over 6 months, strict on-topic
+    arts = [a for a in gdelt_articles(name, 6) if a["date"] and mentions(a["title"], name)]
 
     updates = []; confs = []; seen = set()
-    for a in arts:
-        key = re.sub(r"[^a-z0-9]+", "", a["title"].lower())[:60]
-        if key in seen:
-            continue
-        seen.add(key)
-        if CONF.search(a["title"]):
-            confs.append({"date": a["date"], "title": a["title"], "link": a["link"]})
-            continue
-        cat = categorize(a["title"])
-        if cat:
-            updates.append({"date": a["date"], "category": cat, "title": a["title"], "link": a["link"]})
 
-    # company blog posts in-window
-    for b in blog_posts(domain):
-        if b["date"] and not within_window(b["date"]):
-            continue
-        key = re.sub(r"[^a-z0-9]+", "", (b["title"] or "").lower())[:60]
-        if not b["title"] or key in seen:
-            continue
+    def add(date, cat, title, link, src):
+        key = re.sub(r"[^a-z0-9]+", "", (title or "").lower())[:60]
+        if not title or key in seen:
+            return
         seen.add(key)
-        (confs if CONF.search(b["title"]) else updates).append(
-            {"date": b["date"], "category": "Blog", "title": b["title"], "link": b["link"]})
+        if CONF.search(title) and within_days(date, 180):
+            confs.append({"date": date, "title": title, "link": link, "source": src})
+        elif within_days(date, WINDOW):
+            cat2 = cat or categorize(title)
+            if cat2:
+                updates.append({"date": date, "category": cat2, "title": title, "link": link, "source": src})
+
+    for a in arts:
+        add(a["date"], None, a["title"], a["link"], "News")
+    # company blog + Substack posts
+    for feed_domain, src in ((domain, "Blog"), (comp.get("substack"), "Substack")):
+        if not feed_domain:
+            continue
+        for b in blog_posts(feed_domain):
+            add(b["date"], src, b["title"], b["link"], src)
+    # founder / executive activity via news (LinkedIn post content is not scrapable without login)
+    for founder in (comp.get("founders") or [])[:4]:
+        for a in gdelt_articles(founder, 2):
+            if a["date"] and mentions(a["title"], founder):
+                add(a["date"], "Founder", a["title"], a["link"], "Founder news")
 
     updates.sort(key=lambda x: x.get("date", ""), reverse=True)
     confs.sort(key=lambda x: x.get("date", ""), reverse=True)
-    ncust = new_customers(slug)
     return {
         "name": name, "domain": domain, "slug": slug,
-        "updates": updates[:12],
-        "conferences": confs[:6],
-        "new_customers": ncust,
+        "updates": updates[:14],
+        "conferences": confs[:8],
+        "new_customers": new_customers(slug),
+        "linkedin": comp.get("linkedin", ""),
+        "substack": comp.get("substack", ""),
         "url": ("https://" + domain if domain else ""),
     }
 
