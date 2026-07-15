@@ -63,7 +63,7 @@ def fetch(url, tries=3):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA,
                 "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*"})
-            raw = urllib.request.urlopen(req, timeout=25).read()
+            raw = urllib.request.urlopen(req, timeout=12).read()
             return feedparser.parse(raw)
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 502, 503) and i < tries - 1:
@@ -155,7 +155,7 @@ def edgar_formd(name, cutoff):
         q = urllib.parse.quote('"%s"' % name)
         url = "https://efts.sec.gov/LATEST/search-index?q=%s&forms=D" % q
         req = urllib.request.Request(url, headers={"User-Agent": "ThemesAgent research@smithpointcapital.com"})
-        d = json.loads(urllib.request.urlopen(req, timeout=25).read())
+        d = json.loads(urllib.request.urlopen(req, timeout=12).read())
     except Exception:
         return []
     tok = (name.lower().split() or [""])[0]
@@ -195,7 +195,6 @@ def process_fund(f, cutoff):
             continue
         cand.append({"date": it["date"], "type": classify(it["title"], False),
                      "title": it["title"], "link": it["link"], "summary": it["summary"]})
-    cand += entries_from(fetch(google_news_url(name)), False, cutoff, require_invest=True)
     existing = f.get("updates", [])
     seen = {norm(u.get("title", "")) for u in existing} | {u.get("link") or u.get("url", "") for u in existing}
     fresh = []
@@ -211,7 +210,6 @@ def process_fund(f, cutoff):
     # podcasts: discover partner/firm appearances from the web
     pods = [{"date": it["date"], "type": "Post", "title": it["title"], "link": it["link"], "summary": it["summary"]}
              for it in gdelt('"%s" (podcast OR interview OR episode OR fireside)' % name, cutoff)]
-    pods += entries_from(fetch(podcast_news_url(name)), False, cutoff)
     if pods:
         existing_p = f.get("podcasts", [])
         seen_p = {p.get("url") for p in existing_p} | {norm(p.get("title", "")) for p in existing_p}
@@ -244,7 +242,7 @@ def main():
     cutoff = datetime.date.today() - datetime.timedelta(days=DAYS)
     total_new = 0
     funds = data["funds"]
-    with ThreadPoolExecutor(max_workers=12) as ex:
+    with ThreadPoolExecutor(max_workers=16) as ex:
         futs = [ex.submit(process_fund, f, cutoff) for f in funds]
         for fut in as_completed(futs):
             try:
