@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Pipeline Activity feed (data/pipeline.json) — WEB-ONLY, free.
 
-For each tracked company, surface MATERIAL updates from the last ~35 days: funding, product
+For each tracked company, surface MATERIAL updates from the last ~45 days: funding, product
 launches, new customers, exec hires, partnerships, and — called out specially — CONFERENCES the
 company will be at (a chance for Lilly to meet the team). Sources: GDELT news (strict name match),
 the company blog RSS, and website/customer-page diffs recorded by snapshot_signals.py.
@@ -20,7 +20,7 @@ HIST_DIR = os.path.join(ROOT, "data", "signal_history")
 OUT = os.path.join(ROOT, "data", "pipeline_activity.json")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 TODAY = datetime.date.today()
-WINDOW = 35  # days
+WINDOW = 45  # days
 
 STOP = {"the", "inc", "labs", "ai", "app", "io", "co", "company", "technologies", "capital", "ventures", "group", "partners", "fund"}
 CAT = [

@@ -10,6 +10,13 @@ FUNDS = os.path.join(ROOT, "data", "funds.json")
 HARM = os.path.join(ROOT, "data", "harmonic_raises.json")
 OUT = os.path.join(ROOT, "data", "insights.json")
 THEME_HIST = os.path.join(ROOT, "data", "insights_theme_history.jsonl")
+NAME_RES_PATH = os.path.join(ROOT, "data", "name_resolution.json")
+try:
+    NAME_RES = json.load(open(NAME_RES_PATH, encoding="utf-8"))
+except Exception:
+    NAME_RES = {}
+def reskey(title):
+    return re.sub(r"[^a-z0-9]+", "", (title or "").lower())[:80]
 LLM_CACHE = os.path.join(ROOT, "data", "insights_llm_cache.json")
 OPENAI = os.environ.get("OPENAI_API_KEY", "").strip()
 TODAY = datetime.date.today()
@@ -395,6 +402,10 @@ def main():
                 continue
             title = u.get("title") or ""
             co = company_of(title)
+            if not co:
+                _r = NAME_RES.get(reskey(title))
+                if _r and _r.get("name"):
+                    co = _r["name"]     # resolved from a headline fragment by the weekly Affinity pass
             if not co or len(co) > 48 or FUND_WORDS.search(co) or SHELL.search(co):
                 continue
             amt = amount_m(title)

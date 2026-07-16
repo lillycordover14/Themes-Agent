@@ -482,6 +482,18 @@
       "stage": "Venture"
     },
     {
+      "company": "QOSMIC",
+      "amount_m": 3,
+      "date": "2026-07-13",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWFoaUs5dGhPLXk3ZGNVdnVhRlV0V0xfRERNNFpjWncwODRQRmE4ejdQR1h5YVNCTHo1VUFBY25GZEZibUdWYXVyRWJtdnFZM0FKUFktOXhid1ZFTzBXZmtRTS1neVFwSVptVHVqcGtpNkNtR2p0T1NDRmZ3ZXVIZkZmdkxvU3VSOURyY0VVcHdFc1JFX01vdXk2aHhJZ285U0t4b3N2Y1NEUTRWNjJITnFuWUdfTVlCNDlDNFJRTk5MaFZMbkdXdktnTTdmN2hL?oc=5",
+      "investors": [
+        "Accel",
+        "Prosus"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Seed"
+    },
+    {
       "company": "Novel Foods Expert Network",
       "amount_m": null,
       "date": "2026-07-13",
@@ -1111,18 +1123,6 @@
       ],
       "theme": "Applied / horizontal AI",
       "stage": "Venture"
-    },
-    {
-      "company": "QOSMIC",
-      "amount_m": 3,
-      "date": "2026-06-24",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMDB2Wl84WDFHV0hJZ1p1ajdrM2FnZnpmTFI4d2hSRDhseWRFZG1UWmNZeVZzWEZ5MnlzUUhPMnR1X2FJc1Q4VkMxWGRmYXdPQzRxUzNPTGZrWFZQT1IwcW5Vc2NUNFdKZVhpbVJhLUVCRVEyTHVKUFhpWU1qaHZubHJVRmJudkJuVTBsLW1fZVZCMUg3REh0ZWZMdzBwTXRoVmZfQ2U1d01TZDNwLWc1StIBsAFBVV95cUxPMDB2Wl84WDFHV0hJZ1p1ajdrM2FnZnpmTFI4d2hSRDhseWRFZG1UWmNZeVZzWEZ5MnlzUUhPMnR1X2FJc1Q4VkMxWGRmYXdPQzRxUzNPTGZrWFZQT1IwcW5Vc2NUNFdKZVhpbVJhLUVCRVEyTHVKUFhpWU1qaHZubHJVRmJudkJuVTBsLW1fZVZCMUg3REh0ZWZMdzBwTXRoVmZfQ2U1d01TZDNwLWc1Sg?oc=5",
-      "investors": [
-        "Accel",
-        "Prosus"
-      ],
-      "theme": "Applied / horizontal AI",
-      "stage": "Seed"
     },
     {
       "company": "Revora, formerly MyAlice,",
@@ -2672,11 +2672,11 @@
       "fund": "Accel",
       "picks": [
         {
-          "company": "QOSMIC",
+          "company": "Perceptic",
           "stage": "Seed",
-          "amount_m": 3,
-          "date": "2026-06-24",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMDB2Wl84WDFHV0hJZ1p1ajdrM2FnZnpmTFI4d2hSRDhseWRFZG1UWmNZeVZzWEZ5MnlzUUhPMnR1X2FJc1Q4VkMxWGRmYXdPQzRxUzNPTGZrWFZQT1IwcW5Vc2NUNFdKZVhpbVJhLUVCRVEyTHVKUFhpWU1qaHZubHJVRmJudkJuVTBsLW1fZVZCMUg3REh0ZWZMdzBwTXRoVmZfQ2U1d01TZDNwLWc1StIBsAFBVV95cUxPMDB2Wl84WDFHV0hJZ1p1ajdrM2FnZnpmTFI4d2hSRDhseWRFZG1UWmNZeVZzWEZ5MnlzUUhPMnR1X2FJc1Q4VkMxWGRmYXdPQzRxUzNPTGZrWFZQT1IwcW5Vc2NUNFdKZVhpbVJhLUVCRVEyTHVKUFhpWU1qaHZubHJVRmJudkJuVTBsLW1fZVZCMUg3REh0ZWZMdzBwTXRoVmZfQ2U1d01TZDNwLWc1Sg?oc=5",
+          "amount_m": 12,
+          "date": "2026-05-26",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNSXMzdW42QXZBY2xuTEo0RnVvLTZHZ0VKSy14eU5wdWNOM3ltZXc1QjN3MDY3bFBLYVBHUVdjRTVScGlxQk1KRzl0NDlReVB5TTh3U211cWVWbllhNEszRk81bDgtdDZWeVA2bllzN3YyTUYwRzJYdUtGckoyb3J6RXpiT0FNZlRhM25uNU5SNHYxRVBsNDh2Y3AxVmxoZHBMTmpVd2lrbjUtZlQ4VW1LZWNydUROQVh6THIwb25BSU9mTzJERHlJNmd1eXZCaHI3YXQzd2dTQU1QNEhJcFlSOWsyX1JfVkxPdXNocFg2aXNET2RCZWRQRGV3?oc=5",
           "theme": "Applied / horizontal AI"
         },
         {
@@ -2712,6 +2712,14 @@
           "theme": "Applied / horizontal AI"
         },
         {
+          "company": "Fluency",
+          "stage": "Seed",
+          "amount_m": 9,
+          "date": "2026-02-09",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRUNxYzkxc2NVbnZTS2M2UWNBYVh4Qm1pUi1zUmhWZ0k2N2p0TUNnSDFaQTdmMmhYcDBiZ1BwYm1hdzU0cFBtbW0wdjg4MGk0cTBUWnZsUDZnY2tFNXRINVJvU253LTg5cFVvR2I1WDdFLVkxdEJtTzNVMXV0c1R0bU80SGIweWNVSklVN1ZVWmw5bWVNVXdINU1CcDdydWlhcXQ4M2ZibEhKMlY4RWtCTUV4MDlWdmRacE9OdUdLSHJiTGVVSmgycnZyVVQ0T25BczR6OWdONm13QXVicWlKX2YyaXNfLXppUUhRU2NpUQ?oc=5",
+          "theme": "Applied / horizontal AI"
+        },
+        {
           "company": "Vimag Labs",
           "stage": "Series A",
           "amount_m": 5,
@@ -2736,23 +2744,15 @@
           "theme": "Applied / horizontal AI"
         },
         {
-          "company": "Agave",
+          "company": "QOSMIC",
           "stage": "Venture",
-          "amount_m": 15,
-          "date": "2026-07-07",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaFY5WXdTcTZmcC03ZjQtd3U0ZkFudDRRanhuUjVRRi1qaDlfSmhrV2U3cFVCaTlRT3lnSlZYaDNSem9GbVI0MkRVS1lodml0SEpQdS0xN2NXSW54dzJoVGZZYW9xa2RUeGdTb3EwWnRuam04TlNsSFZDaEpKU1k3dVZZZXUwRVpJLWdvUzgzczR1OFlHUjdkR095THRHUnZucnlSS1VR?oc=5",
-          "theme": "Vertical SaaS"
-        },
-        {
-          "company": "Pocket",
-          "stage": "Venture",
-          "amount_m": 11,
-          "date": "2026-06-29",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLXFJMXU2UWUwZkNnWFlGYlgzV0U0YjFsSjBQd0ZGN05WUDhoWmp2dUNFaDR3QlFhNmJXN1VkaV90T2dpMm53ZV9KN1I1MVRmbnZjX0J3WTRva2JYMjYwUy1OdjJUcnlfNDBqOXQ4cEJKTjdibDJudTVYVENWTWJSdmtCcjFDaTFhUHdGdDUteFZMWHFVVFgtVlJn?oc=5",
-          "theme": "Applied AI agents"
+          "amount_m": 3,
+          "date": "2026-07-13",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWFoaUs5dGhPLXk3ZGNVdnVhRlV0V0xfRERNNFpjWncwODRQRmE4ejdQR1h5YVNCTHo1VUFBY25GZEZibUdWYXVyRWJtdnFZM0FKUFktOXhid1ZFTzBXZmtRTS1neVFwSVptVHVqcGtpNkNtR2p0T1NDRmZ3ZXVIZkZmdkxvU3VSOURyY0VVcHdFc1JFX01vdXk2aHhJZ285U0t4b3N2Y1NEUTRWNjJITnFuWUdfTVlCNDlDNFJRTk5MaFZMbkdXdktnTTdmN2hL?oc=5",
+          "theme": "Applied / horizontal AI"
         }
       ],
-      "early": 6
+      "early": 7
     },
     {
       "fund": "Redpoint",
@@ -2912,6 +2912,14 @@
           "theme": "Applied / horizontal AI"
         },
         {
+          "company": "Parallel Web Systems",
+          "stage": "Venture",
+          "amount_m": 100,
+          "date": "2026-04-29",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOWU0T0RkZUVsNTFMWF8yTWhneDRHYnJYbk9iSnp3RlNlZ3pTeUFEM3hfUnVNQUlhWU14RlVRWGNWTndGVGQ4X1ZkdS1uYmZ6c2J6RXhDZUVOTFc3MGZsdF9DbEo0YnVua3NnLW1DU0EzQUIzZ1k5YjEwSmM2aVJDNTgwMG1uTDRlTk5r?oc=5",
+          "theme": "Applied AI agents"
+        },
+        {
           "company": "Factory",
           "stage": "Venture",
           "amount_m": 150,
@@ -2926,14 +2934,6 @@
           "date": "2026-03-25",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUlNpNzJNSEpZRzVaem5VTC1kWlByN0U3bTdMbVBTVkwzZkwzakM1NWJWanBZSllKWWo0SUJMQU9SYkJKQUF4ajN4T1czZUFxak9UcHJDaVN6S1pMN3ZmZmh2NVlZeksxdEx0dUVldWNja1Nqb3pyWTZUU0N0Mi01UG9fcTVsRXAxRnoyNFJCVkxjTlNYY2o2WUtFaEU0NkZlMFFnWDYyeXE1eGJEMHc?oc=5",
           "theme": "Applied / horizontal AI"
-        },
-        {
-          "company": "Startup Oasis Security",
-          "stage": "Venture",
-          "amount_m": 120,
-          "date": "2026-03-19",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSWg4Nm9WUEhjaExJWXJseF9rMVVKTG1lVzBlZ1h4VmFNRWRUUXlER0xtV0dQTDZDako1OTJSOVQxTHZ0dnlTUXFfLTNCUDAtRmMtNS0yWmFibExWZlZGbDVoeTc0em9CakdVS056bXZUdnlTTGpXN2xaa0NXR3g1RjVXbDFLR0UzZklvU0ZMMG92cHZHQVRXVF9JZGM0ZkxCYVhMcGJGeHBsekwyeW1wQg?oc=5",
-          "theme": "Cybersecurity"
         }
       ],
       "early": 0
