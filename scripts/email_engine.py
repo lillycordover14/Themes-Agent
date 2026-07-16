@@ -45,6 +45,16 @@ ANGLE = {
 }
 
 
+def _clean_title(t):
+    """Sanitize a scraped headline/conference title for use in an email hook; '' if it's junk (CSS/HTML/JS)."""
+    t = (t or "")
+    t = re.sub(r"<[^>]+>", " ", t)
+    if re.search(r"[{}]|:before|:after|counter\(|content\s*:|@media|function\s*\(|;\s*}|=>|var\s|px\b", t, re.I):
+        return ""
+    t = re.sub(r"\s+", " ", t).strip(" -–—:·|\"'")
+    return t if 4 <= len(t) <= 120 else ""
+
+
 def angle_for(text):
     t = (text or "").lower()
     if any(k in t for k in ("fintech", "financial", "insurance", "insurtech", "wealth", "bank", "payment", "trust", "accounting")):
@@ -101,9 +111,12 @@ def draft(company, desc, stage, amount_m, investors, conns, hook, mode='sourcing
     subject = "Smith Point Capital — %s" % company
     if mode == "pipeline":
         # warm follow-up: assume prior touches; lead on genuine attention + a fresh hook, abridged SPC, soft ask
-        opener = ("I've been keeping a close eye on %s — %s, and came away really impressed." % (company, hook.rstrip("."))) if hook \
-                 else ("I've been keeping a close eye on %s and have been really impressed by the trajectory." % company)
-        lines = ["Hi %s," % greet, "", opener, "", INTRO_SHORT, "",
+        _d = (desc or "").strip().rstrip(".")
+        if _d[:1].isupper() and _d[1:2].islower():
+            _d = _d[0].lower() + _d[1:]
+        why = ("What keeps standing out: you're building %s — exactly the kind of deeply embedded, mission-critical software we love to back." % _d) if _d else "I've been really impressed by the trajectory."
+        first = ("I've been keeping a close eye on %s — %s." % (company, hook.rstrip("."))) if hook else ("I've been keeping a close eye on %s." % company)
+        lines = ["Hi %s," % greet, "", first + " " + why, "", INTRO_SHORT, "",
                  'On the "more than capital" front, %s' % angle_for(company + " " + (desc or "")),
                  "", "Would love to grab ~20 minutes to compare notes — no agenda, just have a hunch there could be a fit. Lmk if useful.",
                  "", "Best,", "Lilly"]
@@ -150,6 +163,8 @@ def main():
             return {}
 
     pipe = load("pipeline_scored.json"); pact = load("pipeline_activity.json")
+    _psrc = load("pipeline.json"); _pl = _psrc.get("companies", _psrc) if isinstance(_psrc, dict) else _psrc
+    descmap = {c.get("name", ""): (c.get("desc") or "") for c in (_pl or [])}
     src = load("sourcing_enriched.json") or load("sourcing_candidates.json")
 
     act_by = {}
@@ -174,26 +189,23 @@ def main():
         a = act_by.get(re.sub(r"[^a-z0-9]+", "", nm.lower()), {})
         hook = ""
         ups = a.get("updates") or []
-        confs = a.get("conferences") or []
         if ups:
-            u0 = ups[0]; cat = (u0.get("category") or "").lower(); t = (u0.get("title") or "").rstrip(".")
+            u0 = ups[0]; cat = (u0.get("category") or "").lower(); t = _clean_title(u0.get("title"))
             if "fund" in cat:
                 hook = "congrats on the raise"
             elif "product" in cat:
-                hook = "the new product news caught my eye (“%s”)" % t[:80]
+                hook = ("the new product news caught my eye (“%s”)" % t) if t else "the recent product news caught my eye"
             elif "customer" in cat:
-                hook = "saw the new-customer news (“%s”)" % t[:80]
+                hook = ("saw the new-customer news (“%s”)" % t) if t else "saw the new-customer news"
             elif "partner" in cat:
-                hook = "saw the partnership announcement (“%s”)" % t[:80]
+                hook = ("saw the partnership announcement (“%s”)" % t) if t else "saw the recent partnership news"
             elif "hire" in cat or "exec" in cat:
-                hook = "saw the leadership news (“%s”)" % t[:80]
+                hook = ("saw the leadership news (“%s”)" % t) if t else "saw the recent leadership news"
             elif "award" in cat or "traction" in cat:
-                hook = "saw the recent milestone (“%s”)" % t[:80]
+                hook = ("saw the recent milestone (“%s”)" % t) if t else "saw the recent milestone"
             else:
-                hook = "just caught your recent update (“%s”)" % t[:80]
-        elif confs:
-            hook = "saw you'll be at %s" % (confs[0].get("title") or "an upcoming event").rstrip(".")[:80]
-        add(nm, c.get("desc") or c.get("status") or "", c.get("stage", ""), None, [], [], hook,
+                hook = ("just caught your recent update (“%s”)" % t) if t else "just caught your recent update"
+        add(nm, descmap.get(nm, ""), c.get("stage", ""), None, [], [], hook,
             c.get("domain", ""), "pipeline")
 
     # Sourcing companies (hook off the recent raise)

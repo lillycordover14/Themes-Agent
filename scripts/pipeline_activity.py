@@ -34,6 +34,12 @@ CAT = [
 CONF = re.compile(r"\b(speaking at|to speak at|join us at|meet us at|see us at|catch us at|booth|keynote|will present|presenting at|exhibit\w*|sponsor\w* of|fireside|panel at|on stage at|attending)\b|\b(conference|summit|expo|symposium|forum|dreamforce|re:?invent|hackathon|demo day|money\s?20/?20|saastr|finovate|web ?summit|fintech nexus|lendit|sxsw|kubecon|\bgtc\b|\bces\b|hlth|davos)\b|\b[A-Z][A-Za-z0-9&' ]{2,30}\s(Summit|Conference|Conf|Expo|Forum|World|Week|Days|Live|Connect|Ignite)\b", re.I)
 
 
+_JUNK_TITLE = re.compile(r"[{}]|:before|:after|counter\(|content\s*:|@media|function\s*\(|;\s*}|=>|\bvar\b|</?[a-z]+>", re.I)
+def _titleok(t):
+    t = (t or "").strip()
+    return bool(t) and 4 <= len(t) <= 200 and not _JUNK_TITLE.search(t)
+
+
 def mentions(title, name):
     toks = [t for t in re.findall(r"[a-z0-9]{3,}", (name or "").lower()) if t not in STOP]
     tl = (title or "").lower()
@@ -121,7 +127,7 @@ def gdelt_articles(name, months=2):
             iso = "%s-%s-%s" % (sd[0:4], sd[4:6], sd[6:8]); datetime.date(int(sd[0:4]), int(sd[4:6]), int(sd[6:8]))
         except Exception:
             iso = ""
-        if title:
+        if title and _titleok(title):
             out.append({"title": title[:170], "date": iso, "link": a.get("url", "")})
     return out
 
@@ -143,7 +149,10 @@ def blog_posts(domain):
             for k in ("published_parsed", "updated_parsed"):
                 if e.get(k):
                     dt = datetime.date(*e[k][:3]); break
-            out.append({"title": (e.get("title") or "")[:170], "link": e.get("link", ""),
+            _bt=(e.get("title") or "")[:170]
+            if not _titleok(_bt):
+                continue
+            out.append({"title": _bt, "link": e.get("link", ""),
                         "date": dt.isoformat() if dt else ""})
         if out:
             break

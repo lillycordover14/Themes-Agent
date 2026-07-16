@@ -1,42 +1,46 @@
 {
-  "companies": [
-    {
-      "name": "Salient",
-      "domain": "trysalient.com",
-      "founders": [],
-      "substack": "",
-      "linkedin": "https://www.linkedin.com/company/trysalient",
-      "x": "",
-      "ats": "ashby:salient"
-    },
-    {
-      "name": "Taktile",
-      "domain": "taktile.com",
-      "last_raise": "2026-06-22",
-      "stage": "Series C",
-      "founders": [
-        "Maik Taro Wehmeyer",
-        "Maximilian Eber"
-      ],
-      "substack": "",
-      "linkedin": "https://www.linkedin.com/company/taktile1/",
-      "x": "https://x.com/taktile_org"
-    },
-    {
-      "name": "NetBox Labs",
-      "domain": "netboxlabs.com",
-      "founders": [],
-      "substack": "",
-      "linkedin": "https://www.linkedin.com/company/netboxlabs",
-      "x": ""
-    },
-    {
-      "name": "Bretton",
-      "domain": "bretton.com",
-      "founders": [],
-      "substack": "",
-      "linkedin": "https://www.linkedin.com/company/bretton-ai",
-      "x": "https://x.com/brettonai"
-    }
-  ]
+ "companies": [
+  {
+   "name": "Salient",
+   "domain": "trysalient.com",
+   "founders": [],
+   "substack": "",
+   "linkedin": "https://www.linkedin.com/company/trysalient",
+   "x": "",
+   "ats": "ashby:salient",
+   "desc": "AI voice and text agents that automate loan servicing for lenders — collections, onboarding, payments, and compliance in real time"
+  },
+  {
+   "name": "Taktile",
+   "domain": "taktile.com",
+   "last_raise": "2026-06-22",
+   "stage": "Series C",
+   "founders": [
+    "Maik Taro Wehmeyer",
+    "Maximilian Eber"
+   ],
+   "substack": "",
+   "linkedin": "https://www.linkedin.com/company/taktile1/",
+   "x": "https://x.com/taktile_org",
+   "desc": "the decisioning platform banks and insurers run their credit, risk, and onboarding decisions on — AI agents, rules, and data orchestration with real governance"
+  },
+  {
+   "name": "NetBox Labs",
+   "domain": "netboxlabs.com",
+   "founders": [],
+   "substack": "",
+   "linkedin": "https://www.linkedin.com/company/netboxlabs",
+   "x": "",
+   "desc": "the commercial source-of-truth and automation layer for enterprise network infrastructure (the team behind NetBox)"
+  },
+  {
+   "name": "Bretton",
+   "domain": "bretton.com",
+   "founders": [],
+   "substack": "",
+   "linkedin": "https://www.linkedin.com/company/bretton-ai",
+   "x": "https://x.com/brettonai",
+   "desc": "an AI compliance agent for financial-crime investigations — automating suspicious-activity reports, entity due diligence, and regulatory reporting"
+  }
+ ]
 }
