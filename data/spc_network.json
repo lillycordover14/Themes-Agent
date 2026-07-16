@@ -1,75 +1,589 @@
 {
   "_doc": "Curated Smith Point Capital connection + fit graph. Drives the Sourcing Engine's fit filter and the FREE (web-scrape) connection pass. The authoritative connection layer is the weekly Affinity/Harmonic enrichment; this file gives every run a warm-path prior even before enrichment. Sources: SPC team bios, Precision Advisory Network (smithpointcapital.com/about-us), portfolio page, Apr-2026 pipeline deck.",
-
   "team": [
-    {"name": "Keith Block", "role": "Founder & CEO", "urn": "urn:harmonic:user:24642", "employers": ["Salesforce", "Oracle", "Booz Allen Hamilton"], "boards": ["State Farm", "Carnegie Mellon University"], "schools": ["Carnegie Mellon University"]},
-    {"name": "Burke Norton", "role": "Co-Founder, Managing Director", "urn": "urn:harmonic:user:23896", "employers": ["Vista Equity Partners", "Salesforce", "Expedia", "Wilson Sonsini Goodrich & Rosati"], "boards": ["Business Software Alliance"], "schools": []},
-    {"name": "Chris Lytle", "role": "Co-Founder, Managing Director", "urn": "urn:harmonic:user:23897", "employers": ["Longfellow", "Inseego", "Cavulus", "Morgan Stanley", "John Levin & Co"], "boards": ["Inseego", "Prolifiq", "Virtualitics", "ZEDEDA"], "schools": []},
-    {"name": "John Cummings", "role": "Managing Director, CFO/COO", "urn": "urn:harmonic:user:24743", "employers": ["Celonis", "Salesforce"], "boards": [], "schools": ["Haas School of Business", "Columbia Business School", "UCLA"]},
-    {"name": "Tyler Prince", "role": "Managing Director, Head of Value Creation", "urn": "urn:harmonic:user:24426", "employers": ["Snowflake", "Salesforce", "PwC", "Oracle", "PeopleSoft", "IBM", "Andersen Consulting"], "boards": ["1871"], "schools": ["University of Illinois Urbana-Champaign"]},
-    {"name": "Lorenzo Salazar", "role": "Principal Investor", "urn": "urn:harmonic:user:23532", "employers": ["Vista Equity Partners", "Ionic Partners", "Credit Suisse"], "boards": [], "schools": ["University of Texas at Austin", "McCombs School of Business"]},
-    {"name": "Brooke Slattery", "role": "Principal Investor", "urn": "urn:harmonic:user:23533", "employers": ["VMG Technology", "Catalyst", "Insight Partners"], "boards": [], "schools": ["University of Pennsylvania", "Wharton School"]},
-    {"name": "Sewon Park", "role": "Associate", "urn": "urn:harmonic:user:22952", "employers": ["General Atlantic", "Morgan Stanley", "Blue Pool Capital"], "boards": [], "schools": ["Harvard University"]},
-    {"name": "Lilly Cordover", "role": "Analyst", "urn": "urn:harmonic:user:22951", "employers": ["Fifth Wall", "Union Square Advisors"], "boards": [], "schools": ["University of Virginia", "McIntire School of Commerce"]},
-    {"name": "Christian Nysaether", "role": "Operating Principal", "urn": "urn:harmonic:user:24257", "employers": ["Snowflake", "Salesforce"], "boards": [], "schools": ["Santa Clara University"]}
+    {
+      "name": "Keith Block",
+      "role": "Founder & CEO",
+      "urn": "urn:harmonic:user:24642",
+      "employers": [
+        "Salesforce",
+        "Oracle",
+        "Booz Allen Hamilton"
+      ],
+      "boards": [
+        "State Farm",
+        "Carnegie Mellon University"
+      ],
+      "schools": [
+        "Carnegie Mellon University"
+      ]
+    },
+    {
+      "name": "Burke Norton",
+      "role": "Co-Founder, Managing Director",
+      "urn": "urn:harmonic:user:23896",
+      "employers": [
+        "Vista Equity Partners",
+        "Salesforce",
+        "Expedia",
+        "Wilson Sonsini Goodrich & Rosati"
+      ],
+      "boards": [
+        "Business Software Alliance"
+      ],
+      "schools": []
+    },
+    {
+      "name": "Chris Lytle",
+      "role": "Co-Founder, Managing Director",
+      "urn": "urn:harmonic:user:23897",
+      "employers": [
+        "Longfellow",
+        "Inseego",
+        "Cavulus",
+        "Morgan Stanley",
+        "John Levin & Co"
+      ],
+      "boards": [
+        "Inseego",
+        "Prolifiq",
+        "Virtualitics",
+        "ZEDEDA"
+      ],
+      "schools": []
+    },
+    {
+      "name": "John Cummings",
+      "role": "Managing Director, CFO/COO",
+      "urn": "urn:harmonic:user:24743",
+      "employers": [
+        "Celonis",
+        "Salesforce"
+      ],
+      "boards": [],
+      "schools": [
+        "Haas School of Business",
+        "Columbia Business School",
+        "UCLA"
+      ]
+    },
+    {
+      "name": "Tyler Prince",
+      "role": "Managing Director, Head of Value Creation",
+      "urn": "urn:harmonic:user:24426",
+      "employers": [
+        "Snowflake",
+        "Salesforce",
+        "PwC",
+        "Oracle",
+        "PeopleSoft",
+        "IBM",
+        "Andersen Consulting"
+      ],
+      "boards": [
+        "1871"
+      ],
+      "schools": [
+        "University of Illinois Urbana-Champaign"
+      ]
+    },
+    {
+      "name": "Lorenzo Salazar",
+      "role": "Principal Investor",
+      "urn": "urn:harmonic:user:23532",
+      "employers": [
+        "Vista Equity Partners",
+        "Ionic Partners",
+        "Credit Suisse"
+      ],
+      "boards": [],
+      "schools": [
+        "University of Texas at Austin",
+        "McCombs School of Business"
+      ]
+    },
+    {
+      "name": "Brooke Slattery",
+      "role": "Principal Investor",
+      "urn": "urn:harmonic:user:23533",
+      "employers": [
+        "VMG Technology",
+        "Catalyst",
+        "Insight Partners"
+      ],
+      "boards": [],
+      "schools": [
+        "University of Pennsylvania",
+        "Wharton School"
+      ]
+    },
+    {
+      "name": "Sewon Park",
+      "role": "Associate",
+      "urn": "urn:harmonic:user:22952",
+      "employers": [
+        "General Atlantic",
+        "Morgan Stanley",
+        "Blue Pool Capital"
+      ],
+      "boards": [],
+      "schools": [
+        "Harvard University"
+      ]
+    },
+    {
+      "name": "Lilly Cordover",
+      "role": "Analyst",
+      "urn": "urn:harmonic:user:22951",
+      "employers": [
+        "Fifth Wall",
+        "Union Square Advisors"
+      ],
+      "boards": [],
+      "schools": [
+        "University of Virginia",
+        "McIntire School of Commerce"
+      ]
+    },
+    {
+      "name": "Christian Nysaether",
+      "role": "Operating Principal",
+      "urn": "urn:harmonic:user:24257",
+      "employers": [
+        "Snowflake",
+        "Salesforce"
+      ],
+      "boards": [],
+      "schools": [
+        "Santa Clara University"
+      ]
+    }
   ],
-
   "advisors": [
-    {"name": "Denise Dresser", "title": "Chief Revenue Officer, OpenAI", "employers": ["OpenAI", "Slack", "Salesforce", "Oracle"], "expertise": ["Go-to-Market", "Strategy & Business Models", "Ecosystem"], "linkedin": "https://www.linkedin.com/in/denisedresser/"},
-    {"name": "Lisa Edwards", "title": "Operations", "employers": ["Diligent", "Salesforce", "Visa", "ZEDEDA"], "expertise": ["Go-to-Market", "Leadership & Talent"], "linkedin": "https://www.linkedin.com/in/lisaedwardssf/"},
-    {"name": "Andy Kofoid", "title": "President, Databricks", "employers": ["Databricks", "Salesforce", "ExactTarget"], "expertise": ["Strategy & Business Models", "Leadership & Talent", "Product Market Fit"], "linkedin": "https://www.linkedin.com/in/andy-kofoid-9377a91/"},
-    {"name": "Maria Martinez", "title": "Customer Success", "employers": ["Cisco", "Salesforce", "Microsoft"], "expertise": ["Customer Success", "Go-to-Market"], "linkedin": "https://www.linkedin.com/in/martinezmaria/"},
-    {"name": "Jeff Sanders", "title": "Global CEO & Board Practice, Heidrick & Struggles", "employers": ["Heidrick & Struggles"], "expertise": ["Leadership & Talent", "Strategy & Business Models"], "linkedin": "https://www.linkedin.com/in/jeffsanders2/"},
-    {"name": "Ari Schmorak", "title": "Head of GTM and Product Operations, Stripe", "employers": ["Stripe", "Salesforce", "McKinsey & Company"], "expertise": ["Go-to-Market", "Product Market Fit", "Strategy & Business Models"], "linkedin": "https://www.linkedin.com/in/ari-schmorak-8a073b1/"},
-    {"name": "Larry Shurtz", "title": "Chief Sales Officer, Genesys", "employers": ["Genesys", "Confluent", "Salesforce", "Oracle"], "expertise": ["Go-to-Market", "Customer Success", "Ecosystem", "Financial Metrics"], "linkedin": "https://www.linkedin.com/in/larryshurtz/"},
-    {"name": "Paul Smith", "title": "Chief Commercial Officer, Anthropic", "employers": ["Anthropic", "ServiceNow", "Salesforce", "Umee", "Microsoft", "P&G"], "expertise": ["Go-to-Market", "Strategy & Business", "Ecosystem"], "linkedin": "https://www.linkedin.com/in/pjsmith/"},
-    {"name": "Sara Varni", "title": "CMO, Datadog", "employers": ["Datadog", "Twilio", "Attentive", "ExactTarget", "Salesforce"], "expertise": ["Go-to-Market", "Customer Success", "Ecosystem", "Culture"], "linkedin": "https://www.linkedin.com/in/saravarnibright/"},
-    {"name": "John Wookey", "title": "Product", "employers": ["SAP", "Salesforce", "Oracle"], "expertise": ["Product Market Fit", "Platform Differentiation"], "linkedin": "https://www.linkedin.com/in/john-wookey/"}
+    {
+      "name": "Denise Dresser",
+      "title": "Chief Revenue Officer, OpenAI",
+      "employers": [
+        "OpenAI",
+        "Slack",
+        "Salesforce",
+        "Oracle"
+      ],
+      "expertise": [
+        "Go-to-Market",
+        "Strategy & Business Models",
+        "Ecosystem"
+      ],
+      "linkedin": "https://www.linkedin.com/in/denisedresser/"
+    },
+    {
+      "name": "Lisa Edwards",
+      "title": "Operations",
+      "employers": [
+        "Diligent",
+        "Salesforce",
+        "Visa",
+        "ZEDEDA"
+      ],
+      "expertise": [
+        "Go-to-Market",
+        "Leadership & Talent"
+      ],
+      "linkedin": "https://www.linkedin.com/in/lisaedwardssf/"
+    },
+    {
+      "name": "Andy Kofoid",
+      "title": "President, Databricks",
+      "employers": [
+        "Databricks",
+        "Salesforce",
+        "ExactTarget"
+      ],
+      "expertise": [
+        "Strategy & Business Models",
+        "Leadership & Talent",
+        "Product Market Fit"
+      ],
+      "linkedin": "https://www.linkedin.com/in/andy-kofoid-9377a91/"
+    },
+    {
+      "name": "Maria Martinez",
+      "title": "Customer Success",
+      "employers": [
+        "Cisco",
+        "Salesforce",
+        "Microsoft"
+      ],
+      "expertise": [
+        "Customer Success",
+        "Go-to-Market"
+      ],
+      "linkedin": "https://www.linkedin.com/in/martinezmaria/"
+    },
+    {
+      "name": "Jeff Sanders",
+      "title": "Global CEO & Board Practice, Heidrick & Struggles",
+      "employers": [
+        "Heidrick & Struggles"
+      ],
+      "expertise": [
+        "Leadership & Talent",
+        "Strategy & Business Models"
+      ],
+      "linkedin": "https://www.linkedin.com/in/jeffsanders2/"
+    },
+    {
+      "name": "Ari Schmorak",
+      "title": "Head of GTM and Product Operations, Stripe",
+      "employers": [
+        "Stripe",
+        "Salesforce",
+        "McKinsey & Company"
+      ],
+      "expertise": [
+        "Go-to-Market",
+        "Product Market Fit",
+        "Strategy & Business Models"
+      ],
+      "linkedin": "https://www.linkedin.com/in/ari-schmorak-8a073b1/"
+    },
+    {
+      "name": "Larry Shurtz",
+      "title": "Chief Sales Officer, Genesys",
+      "employers": [
+        "Genesys",
+        "Confluent",
+        "Salesforce",
+        "Oracle"
+      ],
+      "expertise": [
+        "Go-to-Market",
+        "Customer Success",
+        "Ecosystem",
+        "Financial Metrics"
+      ],
+      "linkedin": "https://www.linkedin.com/in/larryshurtz/"
+    },
+    {
+      "name": "Paul Smith",
+      "title": "Chief Commercial Officer, Anthropic",
+      "employers": [
+        "Anthropic",
+        "ServiceNow",
+        "Salesforce",
+        "Umee",
+        "Microsoft",
+        "P&G"
+      ],
+      "expertise": [
+        "Go-to-Market",
+        "Strategy & Business",
+        "Ecosystem"
+      ],
+      "linkedin": "https://www.linkedin.com/in/pjsmith/"
+    },
+    {
+      "name": "Sara Varni",
+      "title": "CMO, Datadog",
+      "employers": [
+        "Datadog",
+        "Twilio",
+        "Attentive",
+        "ExactTarget",
+        "Salesforce"
+      ],
+      "expertise": [
+        "Go-to-Market",
+        "Customer Success",
+        "Ecosystem",
+        "Culture"
+      ],
+      "linkedin": "https://www.linkedin.com/in/saravarnibright/"
+    },
+    {
+      "name": "John Wookey",
+      "title": "Product",
+      "employers": [
+        "SAP",
+        "Salesforce",
+        "Oracle"
+      ],
+      "expertise": [
+        "Product Market Fit",
+        "Platform Differentiation"
+      ],
+      "linkedin": "https://www.linkedin.com/in/john-wookey/"
+    }
   ],
-
-  "network_employers": ["Salesforce", "Vista Equity Partners", "Oracle", "Snowflake", "Databricks", "Celonis", "ServiceNow", "Cisco", "SAP", "Stripe", "Datadog", "Anthropic", "OpenAI", "Slack", "Confluent", "Genesys", "Twilio", "ExactTarget", "Insight Partners", "General Atlantic", "Fifth Wall", "VMG Technology", "Morgan Stanley", "Expedia", "PwC", "IBM", "Diligent", "Visa", "Microsoft", "McKinsey & Company", "Heidrick & Struggles"],
-
-  "network_schools": ["Carnegie Mellon University", "University of Pennsylvania", "Wharton School", "Harvard University", "University of Virginia", "McIntire School of Commerce", "University of Texas at Austin", "McCombs School of Business", "University of Illinois Urbana-Champaign", "Santa Clara University", "Haas School of Business", "Columbia Business School", "UCLA"],
-
-  "co_investors": ["a16z", "Andreessen Horowitz", "Redpoint", "Bessemer", "Bessemer Venture Partners", "Sequoia", "Salesforce Ventures", "Lightspeed", "Lightspeed Venture Partners", "Kleiner Perkins", "Insight Partners", "GV", "Google Ventures", "Khosla", "Khosla Ventures", "Founders Fund", "Index Ventures", "Thrive Capital", "Coatue", "Felicis", "IVP", "ICONIQ", "Meritech", "Accel", "Spark Capital", "Ribbit", "Scale Venture Partners", "NGP Capital", "Sapphire Ventures"],
-
-  "board_companies": ["Inseego", "Prolifiq", "Virtualitics", "ZEDEDA"],
-
+  "network_employers": [
+    "Salesforce",
+    "Vista Equity Partners",
+    "Oracle",
+    "Snowflake",
+    "Databricks",
+    "Celonis",
+    "ServiceNow",
+    "Cisco",
+    "SAP",
+    "Stripe",
+    "Datadog",
+    "Anthropic",
+    "OpenAI",
+    "Slack",
+    "Confluent",
+    "Genesys",
+    "Twilio",
+    "ExactTarget",
+    "Insight Partners",
+    "General Atlantic",
+    "Fifth Wall",
+    "VMG Technology",
+    "Morgan Stanley",
+    "Expedia",
+    "PwC",
+    "IBM",
+    "Diligent",
+    "Visa",
+    "Microsoft",
+    "McKinsey & Company",
+    "Heidrick & Struggles"
+  ],
+  "network_schools": [
+    "Carnegie Mellon University",
+    "University of Pennsylvania",
+    "Wharton School",
+    "Harvard University",
+    "University of Virginia",
+    "McIntire School of Commerce",
+    "University of Texas at Austin",
+    "McCombs School of Business",
+    "University of Illinois Urbana-Champaign",
+    "Santa Clara University",
+    "Haas School of Business",
+    "Columbia Business School",
+    "UCLA"
+  ],
+  "co_investors": [
+    "a16z",
+    "Andreessen Horowitz",
+    "Redpoint",
+    "Bessemer",
+    "Bessemer Venture Partners",
+    "Sequoia",
+    "Salesforce Ventures",
+    "Lightspeed",
+    "Lightspeed Venture Partners",
+    "Kleiner Perkins",
+    "Insight Partners",
+    "GV",
+    "Google Ventures",
+    "Khosla",
+    "Khosla Ventures",
+    "Founders Fund",
+    "Index Ventures",
+    "Thrive Capital",
+    "Coatue",
+    "Felicis",
+    "IVP",
+    "ICONIQ",
+    "Meritech",
+    "Accel",
+    "Spark Capital",
+    "Ribbit",
+    "Scale Venture Partners",
+    "NGP Capital",
+    "Sapphire Ventures"
+  ],
+  "board_companies": [
+    "Inseego",
+    "Prolifiq",
+    "Virtualitics",
+    "ZEDEDA"
+  ],
   "portfolio": [
-    {"name": "Anomalo", "domain": "anomalo.com", "theme": "Data Management"},
-    {"name": "AssemblyAI", "domain": "assemblyai.com", "theme": "Applied AI"},
-    {"name": "Bestow", "domain": "bestow.com", "theme": "Precision Applications"},
-    {"name": "Code Metal", "domain": "codemetal.ai", "theme": "Edge Computing"},
-    {"name": "Gather AI", "domain": "gather.ai", "theme": "Applied AI"},
-    {"name": "Neuron7", "domain": "neuron7.ai", "theme": "Applied AI"},
-    {"name": "Prophecy", "domain": "prophecy.io", "theme": "Data Management"},
-    {"name": "Virtualitics", "domain": "virtualitics.com", "theme": "Data Management"},
-    {"name": "ZEDEDA", "domain": "zededa.com", "theme": "Edge Computing"}
+    {
+      "name": "Anomalo",
+      "domain": "anomalo.com",
+      "theme": "Data Management"
+    },
+    {
+      "name": "AssemblyAI",
+      "domain": "assemblyai.com",
+      "theme": "Applied AI"
+    },
+    {
+      "name": "Bestow",
+      "domain": "bestow.com",
+      "theme": "Precision Applications"
+    },
+    {
+      "name": "Code Metal",
+      "domain": "codemetal.ai",
+      "theme": "Edge Computing"
+    },
+    {
+      "name": "Gather AI",
+      "domain": "gather.ai",
+      "theme": "Applied AI"
+    },
+    {
+      "name": "Neuron7",
+      "domain": "neuron7.ai",
+      "theme": "Applied AI"
+    },
+    {
+      "name": "Prophecy",
+      "domain": "prophecy.io",
+      "theme": "Data Management"
+    },
+    {
+      "name": "Virtualitics",
+      "domain": "virtualitics.com",
+      "theme": "Data Management"
+    },
+    {
+      "name": "ZEDEDA",
+      "domain": "zededa.com",
+      "theme": "Edge Computing"
+    }
   ],
-
   "fit": {
     "themes": {
-      "Applied AI": ["applied ai", "ai agent", "agentic", "copilot", "ai assistant", "ai platform", "ai-native", "ai-powered", "workflow automation", "process intelligence", "field service", "customer research", "vertical ai"],
-      "Data Management": ["data quality", "analytics", "observability", "warehouse", "data pipeline", "etl", "data governance", "federated", "unstructured data", "metadata", "data infrastructure"],
-      "Edge Computing": ["edge computing", "distributed", "iot", "on-device", "sovereign ai", "embedded", "edge infrastructure"],
-      "Precision Applications": ["insurance", "insurtech", "healthcare", "clinical", "revenue cycle", "specialty pharmacy", "legal", "procurement", "supply chain", "manufacturing", "industrial", "compliance", "grc", "accounting", "estate", "trust", "fintech", "financial services", "logistics", "aerospace", "defense", "geospatial", "telecom"]
+      "Applied AI": [
+        "applied ai",
+        "ai agent",
+        "agentic",
+        "copilot",
+        "ai assistant",
+        "ai platform",
+        "ai-native",
+        "ai-powered",
+        "workflow automation",
+        "process intelligence",
+        "field service",
+        "customer research",
+        "vertical ai"
+      ],
+      "Data Management": [
+        "data quality",
+        "analytics",
+        "observability",
+        "warehouse",
+        "data pipeline",
+        "etl",
+        "data governance",
+        "federated",
+        "unstructured data",
+        "metadata",
+        "data infrastructure"
+      ],
+      "Edge Computing": [
+        "edge computing",
+        "distributed",
+        "iot",
+        "on-device",
+        "sovereign ai",
+        "embedded",
+        "edge infrastructure"
+      ],
+      "Precision Applications": [
+        "insurance",
+        "insurtech",
+        "healthcare",
+        "clinical",
+        "revenue cycle",
+        "specialty pharmacy",
+        "legal",
+        "procurement",
+        "supply chain",
+        "manufacturing",
+        "industrial",
+        "compliance",
+        "grc",
+        "accounting",
+        "estate",
+        "trust",
+        "fintech",
+        "financial services",
+        "logistics",
+        "aerospace",
+        "defense",
+        "geospatial",
+        "telecom"
+      ]
     },
-    "applied_ai_verticals": ["healthcare", "legal", "procurement", "supply chain", "manufacturing", "industrial intelligence", "physical ai", "robotics", "specialty pharma", "financial services", "insurance", "compliance", "grc", "geospatial", "defense", "aerospace", "field service"],
+    "applied_ai_verticals": [
+      "healthcare",
+      "legal",
+      "procurement",
+      "supply chain",
+      "manufacturing",
+      "industrial intelligence",
+      "physical ai",
+      "robotics",
+      "specialty pharma",
+      "financial services",
+      "insurance",
+      "compliance",
+      "grc",
+      "geospatial",
+      "defense",
+      "aerospace",
+      "field service"
+    ],
     "sweet_spot": {
       "note": "Actionable = growth-stage mission-critical enterprise software: ~$10M+ ARR (up to ~$250M rev), 50%+ growth (often 3x+), typically Series A-C, defensible moat, CEO wants a partner.",
-      "stages": ["Series A", "Series B", "Series C"],
+      "stages": [
+        "Series A",
+        "Series B",
+        "Series C"
+      ],
       "min_raise_m_hint": 20,
       "arr_floor_m_hint": 10
     },
     "watchlist": {
       "note": "Earlier / smaller - Seed or small Series A, or ARR below ~$10M. Worth tracking but too early to act on now.",
-      "stages": ["Pre-seed", "Seed", "Series A"]
+      "stages": [
+        "Pre-seed",
+        "Seed",
+        "Series A"
+      ]
     },
     "pass_signals": {
-      "note": "Categories/reasons SPC has repeatedly passed on. Down-rank or exclude when the description matches.",
-      "categories": ["ai sdr", "sre agent", "site reliability", "generic rcm", "code review", "software engineering intelligence"],
-      "keywords_downrank": ["consumer", "marketplace", "food", "beverage", "hospitality", "restaurant", "gaming", "social app", "dating", "seo", "biotech", "drug discovery", "therapeutics", "crypto", "web3", "token", "nft"],
-      "reasons_seen": ["too early / low ARR", "biotech single-bet risk", "crowded/undifferentiated category", "moat concerns", "GTM buildout concerns", "just raised / overpriced", "not thematically a fit"]
+      "note": "Categories/reasons SPC has repeatedly passed on. Down-rank/exclude when the description matches. Health & bio-AI names are KEPT (usually B2B enterprise software for health systems/pharma) — only pure consumer/crypto are screened out.",
+      "categories": [
+        "ai sdr",
+        "sre agent",
+        "site reliability",
+        "generic rcm",
+        "code review",
+        "software engineering intelligence"
+      ],
+      "keywords_downrank": [
+        "consumer",
+        "marketplace",
+        "food",
+        "beverage",
+        "hospitality",
+        "restaurant",
+        "gaming",
+        "social app",
+        "dating",
+        "seo",
+        "crypto",
+        "web3",
+        "token",
+        "nft"
+      ],
+      "reasons_seen": [
+        "too early / low ARR",
+        "biotech single-bet risk",
+        "crowded/undifferentiated category",
+        "moat concerns",
+        "GTM buildout concerns",
+        "just raised / overpriced",
+        "not thematically a fit"
+      ]
     }
   }
 }

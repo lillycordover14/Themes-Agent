@@ -2,9 +2,9 @@
   "generated": "2026-07-16",
   "window_days": 45,
   "counts": {
-    "actionable": 15,
-    "watchlist": 22,
-    "excluded_off_thesis": 5
+    "actionable": 16,
+    "watchlist": 25,
+    "excluded_off_thesis": 1
   },
   "actionable": [
     {
@@ -356,6 +356,25 @@
       "valuation_m": 1200
     },
     {
+      "company": "Vedana Therapeutics",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Series A",
+      "amount_m": 46,
+      "investors": [
+        "Canaan Partners"
+      ],
+      "date": "2026-06-22",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeHgyQTBOTFVLczlJQU84T2l0QU93akpYNnFadmdXQ0VHVGpSZl9NRUtURG5taHpxdUNhMmV6d0FzUFlReE91TmRiZVhMMWZNeGlDbXozUzB4MTN0MjVJN2lRQmdjYzdwSjRLaWhjbENGQ1hxTDlSdmhYb1llcDJ3c1pmQ0h3VXpXa1FyU3VKZlc?oc=5",
+      "domain": "",
+      "tier": "actionable",
+      "fit_reason": "Series A ($46M) — sizable A, likely at/near the ARR floor",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced"
+    },
+    {
       "company": "Prosper AI",
       "desc": "AI voice agent automating healthcare patient access, scheduling and revenue-cycle tasks (eligibility, claim status).",
       "theme": "Precision Applications",
@@ -652,6 +671,25 @@
       "connection_status": "no connection surfaced"
     },
     {
+      "company": "Healome Therapeutics",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Seed",
+      "amount_m": null,
+      "investors": [
+        "Matrix"
+      ],
+      "date": "2026-07-10",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPU0c0Y1JoRzZ4eUtWXzVIamJwX2pac2RCNUZzWjdVMDZsdE5vWEpLbTY0SGJMckVwWHpjSmVLbE9xN3JhM0RyYWo5NEZ0VExGbjdlSTBXZlFlVkFLMWNaeml2SGpfY1BKYXlKSEZyUF9lU2ZIODFBcUp0WmdVRjZZTnVzanNFZDZLd3VhVGJUdmdUVEFlWVRSaUFsWjFqdzJhRjF5SVdRdXRiTUpXd1d6Ml8wQUpoeHBPR0txQnBqUFBacUZwTG51czlJbk5aSTjSAdQBQVVfeXFMT21yeUFfQ2VpOUlfck00eXhneW95SnQ0X21jRWUxY21fRkpWR2U1TXY0dUpxSURfWXR3Wk15aVJaSEdoT3RRSmJiVzZuTFRXdnNyQ0NmWGVQSWI2VHI1WXBxMWJtellQN0VSY0VPa3RoUUM0WUlwX2xXZm84VmZwTWNheWEwSVZQSEFDUF9OMkdPOWtNWGFTN3BWWC02VXhUVXlmb21fOXNOUTBxZEJpQ1RPeFhmaHZKbzJDOUEtZmdnQUdTZE5MdFV4bC12Yk4xcEtJQUw?oc=5",
+      "domain": "",
+      "tier": "watchlist",
+      "fit_reason": "Seed — early; track for traction",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced"
+    },
+    {
       "company": "Float",
       "desc": "Fintech & payments",
       "theme": "Precision Applications",
@@ -789,6 +827,25 @@
       "connection_status": "warm path"
     },
     {
+      "company": "Portal Biotechnologies",
+      "desc": "Healthcare & bio AI",
+      "theme": "Edge Computing",
+      "vertical": "Healthcare",
+      "stage": "Venture",
+      "amount_m": 9,
+      "investors": [
+        "IA Ventures"
+      ],
+      "date": "2026-06-19",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdjN0Q3BNeHZvMDEtb1ZyZml3OHhjc3Racm1aODNwcW00Z0FFb2ZhekpONGVUR2tWU1RKNTNrd2M2N043NXI5RS1vaUpNVTNnM0JuQmwxU0sycEdFZnNKWnRDRkNLREo2WE9jUjlNMzEwbFA0eHJ4Mlg5cjh3MXRELW53M2p5NDA?oc=5",
+      "domain": "",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced"
+    },
+    {
       "company": "SonoThera",
       "desc": "Healthcare & bio AI",
       "theme": "Precision Applications",
@@ -849,6 +906,25 @@
         }
       ],
       "connection_status": "warm path"
+    },
+    {
+      "company": "Tavo Biotherapeutics",
+      "desc": "Applied / horizontal AI",
+      "theme": "Edge Computing",
+      "vertical": "",
+      "stage": "Series A",
+      "amount_m": 17,
+      "investors": [
+        "Polaris Partners"
+      ],
+      "date": "2026-06-03",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNnRrcExaVGdXZjlENExYSXZVc1JhTTVSVkYySDVRWTdmYXVRZ3NGbFRsV2VCbUZMMExsQ3dIU2xRUWRrbzVwZ2NudFl3NUhYMHRFc1JnNTFCLWl0aUdZSkZfTGo5UzRsLXBOQUZxRTM2djZLVEduM3h6OFQ5OThOaWFkbE9fejVfOTBfbWpCRDY0MnpxTWV2VFBURm1nM25aSUJwWHd5RVdHd3k3c0dqRVNSd0xOVU950gG-AUFVX3lxTE9IQ0x5VlpsZXFnUDUtTVBoZ1RIQlY3WkNWWGN6ZVh6WUVXUjdKMFdiZUFWTTl1R0QtTWtOamVoUmtDdzNvYXJreTNQeDZWMFoyYlVMYnJnZ2FuclVvQjlINmxaOFlwV09ISjJ0RUQ5ZTJJelNWWkdOTGlPRkNJZmQ4cTJSYTU0S3lwNmxlQ2FRYTJMS0hwRFY3OTdQYTNfYmUxazBldGJhbV9nWVpTTXZfTTFxTUI0YzdObE9scnc?oc=5",
+      "domain": "",
+      "tier": "watchlist",
+      "fit_reason": "Series A ($17M) — track for the next round",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced"
     },
     {
       "company": "NewLimit",
