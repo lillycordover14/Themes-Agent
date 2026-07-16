@@ -3,12 +3,13 @@
 tracked raises (Investment updates, 6mo, all stages) + Harmonic feed. Deduped by company; tagged
 with stage bucket (unknown->Venture), amount, investors, theme. Emits theme rollup, per-stage
 counts, KPIs, concentration line, and a per-fund investor-signal (real early-stage picks)."""
-import json, os, re, datetime
+import json, os, re, time, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FUNDS = os.path.join(ROOT, "data", "funds.json")
 HARM = os.path.join(ROOT, "data", "harmonic_raises.json")
 OUT = os.path.join(ROOT, "data", "insights.json")
+THEME_HIST = os.path.join(ROOT, "data", "insights_theme_history.jsonl")
 LLM_CACHE = os.path.join(ROOT, "data", "insights_llm_cache.json")
 OPENAI = os.environ.get("OPENAI_API_KEY", "").strip()
 TODAY = datetime.date.today()
@@ -48,7 +49,7 @@ THEME_KWS = {
 THEME_RX = {t: re.compile("|".join(r"\b" + re.escape(k) for k in kws), re.I) for t, kws in THEME_KWS.items()}
 ENTERPRISE = re.compile(r"\b(platform|software|saas|enterprise|workflow|automation|\bops\b|operations|management|b2b|api|infrastructure|ai-native|ai-powered|ai )\b", re.I)
 
-FUND_SIGNAL = ["Accel", "Redpoint", "Felicis", "Founders Fund", "Sequoia", "Benchmark", "Greylock",
+FUND_SIGNAL = ["a16z", "Accel", "Redpoint", "Felicis", "Founders Fund", "Sequoia", "Benchmark", "Greylock",
                "Lightspeed", "Bessemer", "Battery", "Menlo", "Index", "Insight", "Pear", "Y Combinator"]
 EARLY = {"Pre-seed", "Seed", "Series A"}
 
@@ -64,7 +65,7 @@ def theme_of(text):
         c = len(rx.findall(t))
         if c > n:
             best, n = label, c
-    return best or "Enterprise AI software"
+    return best or "Applied / horizontal AI"
 
 
 def stage_bucket(title):
@@ -113,6 +114,10 @@ def company_of(title):
     co = DESCR.sub("", co).strip()
     if len(co.split()) > 4:            # descriptive headline fragment, not a clean name
         return ""
+    JUNK = {"ai", "ml", "api", "saas", "the", "a", "an", "new", "app", "data", "cloud", "io", "inc",
+            "startup", "company", "it", "us", "tech", "labs", "group"}
+    if norm(co) in JUNK or len(re.sub(r"[^a-z0-9]", "", co.lower())) < 3:
+        return ""                      # generic token, not a real company name
     return co
 
 
@@ -227,9 +232,11 @@ def site_text(domain):
     return " ".join(parts)[:600]
 
 
-def enrich_themes(rows, cap=130):
+def enrich_themes(rows, cap=None):
     """For companies the headline could not classify, resolve their site and theme from what they DO.
     Cached in data/insights_theme_cache.json (committed) so repeat runs are near-free. Fully free."""
+    if cap is None:
+        cap = int(os.environ.get("INSIGHTS_FETCH_CAP", "200"))
     try:
         cache = json.load(open(THEME_CACHE, encoding="utf-8"))
     except Exception:
@@ -244,30 +251,63 @@ def enrich_themes(rows, cap=130):
             if c.get("clean"):
                 r["company"] = c["clean"]
             continue
-        if r["theme"] != "Enterprise AI software":
-            cache[k] = {"theme": r["theme"]}          # headline already gave a real theme
-            continue
-        if fetched >= cap or (time.time() - t0) > 240:
+        if fetched >= cap or (time.time() - t0) > 300:
             continue
         fetched += 1
         dom, clean = clearbit_domain(r["company"])
-        if not dom:                                    # fallback: guess a domain from the name
+        if not dom:
             slug = re.sub(r"[^a-z0-9]", "", r["company"].lower())
             for g in (slug + ".com", slug + ".ai", slug + ".io"):
                 if site_text(g):
                     dom = g; break
         txt = site_text(dom) if dom else ""
-        th = theme_of(txt) if txt else "Enterprise AI software"
+        th = theme_of(txt) if txt else r["theme"]      # site says what they do; else keep headline theme
         if clean and 2 < len(clean) < 42:
             r["company"] = clean
-        r["theme"] = th
-        cache[k] = {"theme": th, "domain": dom, "clean": r["company"]}
-        time.sleep(0.12)
+        if th:
+            r["theme"] = th
+        cache[k] = {"theme": r["theme"], "domain": dom, "clean": r["company"]}
+        time.sleep(0.1)
     try:
         json.dump(cache, open(THEME_CACHE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     except Exception:
         pass
     print("  theme discovery: fetched %d company sites (cache %d)" % (fetched, len(cache)))
+
+
+def theme_momentum(counts):
+    """Month-over-month change in the raise MIX by theme. Appends today's per-theme raise counts to
+    a daily history file and compares against the closest row ~30 days back. Deltas accrue over time;
+    the first few weeks read as a baseline. Free, pure-data."""
+    today = TODAY.isoformat()
+    rows = []
+    try:
+        for ln in open(THEME_HIST, encoding="utf-8"):
+            if ln.strip():
+                rows.append(json.loads(ln))
+    except Exception:
+        pass
+    rows = [r for r in rows if r.get("date") != today]      # idempotent: overwrite today
+    rows.append({"date": today, "counts": counts})
+    rows.sort(key=lambda r: r.get("date", ""))
+    try:
+        open(THEME_HIST, "w", encoding="utf-8").write("\n".join(json.dumps(r) for r in rows) + "\n")
+    except Exception:
+        pass
+
+    def days_ago(d):
+        try:
+            y, mo, dd = map(int, d[:10].split("-")); return (TODAY - datetime.date(y, mo, dd)).days
+        except Exception:
+            return 0
+    cand = [r for r in rows if 21 <= days_ago(r["date"]) <= 45]
+    base = cand[-1] if cand else next((r for r in rows if r["date"] < today), None)
+    if not base:
+        return {"since": "", "tw": []}
+    bc = base.get("counts", {})
+    tw = [{"name": t, "delta": c - bc.get(t, 0), "now": c} for t, c in counts.items()]
+    tw.sort(key=lambda x: (-x["delta"], -x["now"]))
+    return {"since": base["date"], "tw": tw}
 
 
 def main():
@@ -299,7 +339,7 @@ def main():
     def match_signal_fund(fund_name):
         fl = (fund_name or "").lower()
         for s in FUND_SIGNAL:
-            if s.lower() in fl or (s == "Y Combinator" and ("combinator" in fl or fl.strip() == "yc")):
+            if s.lower() in fl or (s == "Y Combinator" and ("combinator" in fl or fl.strip() == "yc")) or (s == "a16z" and "andreessen" in fl):
                 return s
         return None
 
@@ -358,12 +398,13 @@ def main():
     themes = [{"theme": t, "count": len(v), "examples": v[:6]} for t, v in tally.items()]
     themes.sort(key=lambda x: -x["count"])
 
+    momentum = theme_momentum({t["theme"]: t["count"] for t in themes})
     total_cap = sum(r.get("amount_m") or 0 for r in rows)
     early = [r for r in rows if r.get("stage") in EARLY]
     order = ["Pre-seed", "Seed", "Series A", "Series B", "Series C", "Series D", "Growth/Late", "Venture"]
     stage_counts = {s: sum(1 for r in rows if r.get("stage") == s) for s in order}
     stage_counts = {k: v for k, v in stage_counts.items() if v}
-    named = [t for t in themes if t["theme"] != "Enterprise AI software"]
+    named = [t for t in themes if t["theme"] != "Applied / horizontal AI"]
     kpis = {"strongest_theme": (named[0]["theme"] if named else (themes[0]["theme"] if themes else "")),
             "total_raises": len(rows), "early_raises": len(early),
             "total_cap_m": total_cap, "early_cap_m": sum(r.get("amount_m") or 0 for r in early),
@@ -389,7 +430,7 @@ def main():
 
     emerging = []
     for t in themes:
-        if t["theme"] == "Enterprise AI software":
+        if t["theme"] == "Applied / horizontal AI":
             continue   # generic catch-all — not surfaced as an "emerging theme" card
         comps = [r for r in rows if r["theme"] == t["theme"]]
         cap = sum(r.get("amount_m") or 0 for r in comps)
@@ -402,7 +443,7 @@ def main():
     emerging = emerging[:12]
 
     json.dump({"generated": TODAY.isoformat(), "count": len(rows), "summary": summary, "kpis": kpis,
-               "raises": rows, "themes": themes, "emerging": emerging, "investor_signal": investor_signal},
+               "raises": rows, "themes": themes, "emerging": emerging, "investor_signal": investor_signal, "momentum": momentum},
               open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print("Wrote insights.json — %d raises, %d themes, %d funds in investor signal" % (len(rows), len(themes), len(investor_signal)))
 
