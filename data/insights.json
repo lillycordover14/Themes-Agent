@@ -5,17 +5,17 @@
   "kpis": {
     "strongest_theme": "Healthcare & bio AI",
     "total_raises": 200,
-    "early_raises": 79,
-    "total_cap_m": 13834,
-    "early_cap_m": 2843,
+    "early_raises": 80,
+    "total_cap_m": 13796,
+    "early_cap_m": 2888,
     "stage_counts": {
       "Pre-seed": 3,
       "Seed": 27,
-      "Series A": 49,
+      "Series A": 50,
       "Series B": 26,
       "Series C": 9,
       "Series D": 4,
-      "Venture": 73
+      "Venture": 72
     }
   },
   "raises": [
@@ -277,12 +277,12 @@
       "stage": "Pre Seed"
     },
     {
-      "company": "ESGAgent.ai - AI Agents for ESG Compliance",
+      "company": "ESGAgent.ai",
       "amount_m": 1,
       "date": "2026-07-16",
       "link": "https://kleantech.com.au",
       "investors": [],
-      "theme": "Applied AI agents",
+      "theme": "Energy & climate",
       "stage": "Seed"
     },
     {
@@ -893,7 +893,7 @@
       "stage": "Series B"
     },
     {
-      "company": "fintech Float",
+      "company": "Float",
       "amount_m": 85,
       "date": "2026-06-29",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVVNfMlZ3TVNneHRzbHZtbm1ERHY0Vnd1YkhpUlJUWlM0N2dKMDlhWnZWb0FzZ0J0ZW94OG1rRjAxYmlwdHk3OS1PVVJFS2FqNHVxLXlKenFFd1p5T01HcTFKUjZxUlVPbFpZUzZDRzNrdl9DNWNQak9PY3hXSUd2RkNRYw?oc=5",
@@ -1228,17 +1228,6 @@
       "stage": "Pre-seed"
     },
     {
-      "company": "Menlo",
-      "amount_m": null,
-      "date": "2026-06-23",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWTRrUkpyOW4yTTlFTUtkMXJMbzlFV2xfbUt5UlE3M2c5ampQRkVuM3NlMHliX2FyR1hISzg1RUNHUzlacTNmWXVOSm45Z1p1aGhyUmtxVGozdHc3dHc3UlJ5anlCOU5nWVlRZHpRcXBGQmVaUUtJNDhlVDdOSmZsTTIxV2JfRXdMM0NqM2ExODRhQ3Bkbl9KcDlyLVBJM3BqdDhoOUtFUU1LWEhKTWh0d2tLMkI5S1V3Rjc0?oc=5",
-      "investors": [
-        "Menlo"
-      ],
-      "theme": "Fintech & payments",
-      "stage": "Venture"
-    },
-    {
       "company": "Social Crypto App Fomo",
       "amount_m": 75,
       "date": "2026-06-22",
@@ -1248,17 +1237,6 @@
         "Union Square Ventures"
       ],
       "theme": "Crypto & digital assets",
-      "stage": "Venture"
-    },
-    {
-      "company": "Trading app Fomo",
-      "amount_m": 75,
-      "date": "2026-06-22",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OR2cyMmdJbnlIVWxyMGdHS3RQZWVKMVJ6bVNURkpXM0pmNENpVVNrTkhUTnVSdkl5SUJYWVhPdmE5WTFxMl9KNkZxQlFBTTRtbS1rOExkYmt4Vno3bl91Ulg0WVJEUQ?oc=5",
-      "investors": [
-        "Union Square Ventures"
-      ],
-      "theme": "Fintech & payments",
       "stage": "Venture"
     },
     {
@@ -2134,17 +2112,6 @@
       "stage": "Seed"
     },
     {
-      "company": "Pitch Deck: Ex-Apple Marketer",
-      "amount_m": 10,
-      "date": "2026-06-02",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOUNpNS1BRktBNlNEa093MUZtajFRTGt0M0tFT2ZpRm9uOFB1dFlNRVJfR01ReEY5dXZuQWJnZWFPaGNBMGFSak00MHdPcUJmcEs0Q3M1Vy1wX3VmZ1hlcGI3cFZyeGdObHBQWUdZSE5yd3lnY1dob1kxTEpVWmhRelE1TG9HSjUxWUk5SmRfX0NmdzBDeUJqVDhHNGVGY0d0dHYybHVuOHp6eDhPRGdzSEtndzRuWVlDaXRfWDNCZEk4Zw?oc=5",
-      "investors": [
-        "XYZ Venture Capital"
-      ],
-      "theme": "Applied AI agents",
-      "stage": "Venture"
-    },
-    {
       "company": "SpeedLabs",
       "amount_m": 6,
       "date": "2026-06-02",
@@ -2235,12 +2202,46 @@
       ],
       "theme": "Applied / horizontal AI",
       "stage": "Series A"
+    },
+    {
+      "company": "Picogrid",
+      "amount_m": 45,
+      "date": "2026-05-29",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVnFfcDZvZWlqSWJzejN0QldLUnBZdXh6N0dMWlpyNXdvRlpSRW9rcGlxcnYwaDlzM2N1OEZkU1duVWozb0FKVnRfWk44S3BkVkhMb2t2RThKb3YteGV0TXF5amJsTUFEUnEwdXpSckpSMUVqLUw1VGxYZ0ZRampQNVdZRl9CLW5uMHBycUlFb2tOdnFwQjdIY3Y3UVdsWUk5SkhyYWU3RW5fTU54aVFmU0tFVEdaQXVIYm83RWRYa2RyNUM3OEEzVDBrY19iTFVvdzYtM05ZcTQ1eU9QaVAtdnBRSlFHUXBJSWow?oc=5",
+      "investors": [
+        "Bessemer",
+        "Initialized Capital"
+      ],
+      "theme": "Defense & national security",
+      "stage": "Series A"
+    },
+    {
+      "company": "Fragrance Tech Company Patina",
+      "amount_m": 2,
+      "date": "2026-05-29",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdmJXbkJERlMtbXNQLXVsQXc1UXNCYXRORVRkaUZxQjlBaFNEZ0hFUGJkelZicDA0aTBFVzlGaGVNRWI2WENrNTdjQnczcDJ1VVpSUEhHYktmcHNBSThGQjZDRzlVWXZGNWtRaFNnQzdKTnZ3aGJxY3JZMDI3ZVJTbTlMa2stSEE?oc=5",
+      "investors": [
+        "True Ventures"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Venture"
+    },
+    {
+      "company": "Wingstop (WING) Rebound",
+      "amount_m": null,
+      "date": "2026-05-29",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWW1ucFhweGxsTjdiSlVaVE9nVGNfMGdKRDZsOGJDekR5YWExM2gzQXI4cVcySG0zcG9abHY2SnVnZ1RsOWhLTjlLUDg2MnZBQVlVT0wwYjgwODBOd1FhWTZPbkdnRFp4MUNaM25yc3d3Y25xLWdnVHlFSHZUMm5OMGlBa1NxeVhCZUtid0FXMGtlb1M3d19BZVdEZ1dpVXdmNkZoQWdXbS1teWVYR2tSY2xPY1NYX2VzZHlXS3liTHFYSjNLak8yQUt2ODg4YW42c2fSAdcBQVVfeXFMT3BaajlRQXl2T01tX3ZaNjZXT0R5eUZiblp0SVNCVEp1TDhvXzlZT0Vfd3ZFbEZUS2I1d2FCVzZjSmkyLXRyOE1IbXZZNkk0YmN4MkdZb19XU1RoYXJlcDRlUDdKdDB0Wl96aW9KX1ZnZ2Z5ZWM4ZnBzVVdiaEVwdnRySXZ2N0d0VVdTT2tocEg3Mm9HRlBicWYwMGtkRXlLVzRmemV6dC1ZeHhsbWt1U096WjVqRTU5Mzh1N3g4YXV4bTNtR1BJNmtzYi1BemxmYXg2RFF5bG8?oc=5",
+      "investors": [
+        "Wing"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Venture"
     }
   ],
   "themes": [
     {
       "theme": "Applied / horizontal AI",
-      "count": 110,
+      "count": 112,
       "examples": [
         "Emergent",
         "Flex",
@@ -2275,39 +2276,39 @@
       ]
     },
     {
-      "theme": "Applied AI agents",
+      "theme": "Energy & climate",
       "count": 10,
+      "examples": [
+        "ESGAgent.ai",
+        "Axle Energy",
+        "Vergennes battery project",
+        "SolarSquare",
+        "Endurance Energy",
+        "Solidion Technology"
+      ]
+    },
+    {
+      "theme": "Applied AI agents",
+      "count": 8,
       "examples": [
         "Lyzr AI",
         "InstaLILY AI",
         "Nurix",
         "Adaptive",
         "Synthreo",
-        "ESGAgent.ai - AI Agents for ESG Compliance"
+        "Pocket"
       ]
     },
     {
       "theme": "Fintech & payments",
-      "count": 9,
+      "count": 7,
       "examples": [
         "Aria",
         "Linker Finance",
         "Oze",
-        "fintech Float",
+        "Float",
         "Fomo",
-        "Menlo"
-      ]
-    },
-    {
-      "theme": "Energy & climate",
-      "count": 9,
-      "examples": [
-        "Axle Energy",
-        "Vergennes battery project",
-        "SolarSquare",
-        "Endurance Energy",
-        "Solidion Technology",
-        "Eclipse"
+        "Crypto trading app Fomo"
       ]
     },
     {
@@ -2388,6 +2389,14 @@
       ]
     },
     {
+      "theme": "Defense & national security",
+      "count": 2,
+      "examples": [
+        "STARK",
+        "Picogrid"
+      ]
+    },
+    {
       "theme": "Insurance / insurtech",
       "count": 1,
       "examples": [
@@ -2409,13 +2418,6 @@
       ]
     },
     {
-      "theme": "Defense & national security",
-      "count": 1,
-      "examples": [
-        "STARK"
-      ]
-    },
-    {
       "theme": "AI dev tooling",
       "count": 1,
       "examples": [
@@ -2426,8 +2428,8 @@
   "emerging": [
     {
       "theme": "Applied / horizontal AI",
-      "count": 110,
-      "cap_m": 7315,
+      "count": 112,
+      "cap_m": 7317,
       "examples": [
         "Emergent",
         "Flex",
@@ -2467,46 +2469,46 @@
       "top_stage": "Venture"
     },
     {
-      "theme": "Applied AI agents",
+      "theme": "Energy & climate",
       "count": 10,
-      "cap_m": 314,
+      "cap_m": 1142,
+      "examples": [
+        "ESGAgent.ai",
+        "Axle Energy",
+        "Vergennes battery project",
+        "SolarSquare",
+        "Endurance Energy",
+        "Solidion Technology"
+      ],
+      "top_stage": "Venture"
+    },
+    {
+      "theme": "Applied AI agents",
+      "count": 8,
+      "cap_m": 303,
       "examples": [
         "Lyzr AI",
         "InstaLILY AI",
         "Nurix",
         "Adaptive",
         "Synthreo",
-        "ESGAgent.ai - AI Agents for ESG Compliance"
+        "Pocket"
       ],
-      "top_stage": "Venture"
+      "top_stage": "Series B"
     },
     {
       "theme": "Fintech & payments",
-      "count": 9,
-      "cap_m": 602,
+      "count": 7,
+      "cap_m": 527,
       "examples": [
         "Aria",
         "Linker Finance",
         "Oze",
-        "fintech Float",
+        "Float",
         "Fomo",
-        "Menlo"
+        "Crypto trading app Fomo"
       ],
-      "top_stage": "Venture"
-    },
-    {
-      "theme": "Energy & climate",
-      "count": 9,
-      "cap_m": 1141,
-      "examples": [
-        "Axle Energy",
-        "Vergennes battery project",
-        "SolarSquare",
-        "Endurance Energy",
-        "Solidion Technology",
-        "Eclipse"
-      ],
-      "top_stage": "Venture"
+      "top_stage": "Seed"
     },
     {
       "theme": "Physical AI & robotics",
@@ -3306,14 +3308,6 @@
           "date": "2026-03-24",
           "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZ2lJSmttVXZQaWdVTF9zWlROZHpTbG40VndfaWNwRk9fQm9iaENtUWVaZzhHOXo1eFdYWkk2T25OaFdseVRzc05VMVpUbjI4LVM3d3hxTVNpV0h6RkNLYUZUSEVHc0RpdDBmV1lJdmZrZkRTN1Y5Qlp3RE12ZDB3bWZWOUcxNkVVY3NpY0VCaFBzYkNWb1FqYS1SMnBTTlJreHpfMTNCRzVJbWRPQ3ZhVmRPYmNxbER0WGE4ZFlBR2Fad0lSU1ptUkFnSjk0Qjd1RXhnRWxZTlp1bTFpUDRGUkhTYXc4Wnc5YUZMUEFBeGozYlVnVktvUQ?oc=5",
           "theme": "Applied / horizontal AI"
-        },
-        {
-          "company": "Menlo",
-          "stage": "Venture",
-          "amount_m": null,
-          "date": "2026-06-23",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWTRrUkpyOW4yTTlFTUtkMXJMbzlFV2xfbUt5UlE3M2c5ampQRkVuM3NlMHliX2FyR1hISzg1RUNHUzlacTNmWXVOSm45Z1p1aGhyUmtxVGozdHc3dHc3UlJ5anlCOU5nWVlRZHpRcXBGQmVaUUtJNDhlVDdOSmZsTTIxV2JfRXdMM0NqM2ExODRhQ3Bkbl9KcDlyLVBJM3BqdDhoOUtFUU1LWEhKTWh0d2tLMkI5S1V3Rjc0?oc=5",
-          "theme": "Fintech & payments"
         },
         {
           "company": "Nourish",

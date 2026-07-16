@@ -148,6 +148,13 @@ def company_of(title):
             "exec","execs","executive","executives","billionaire","heir","professor","alumnus","alumni"}
     if any(re.search(r"\b" + re.escape(b) + r"\b", _lw) for b in _BAD):
         return ""
+    # strip a leading bare sector word / descriptor ("fintech Float"->"Float", "Trading app Fomo"->"Fomo")
+    co = re.sub(r"^(?:fintech|healthtech|insurtech|proptech|legaltech|climatetech|edtech|adtech|trading app|pitch deck)\s*:?\s+", "", co, flags=re.I).strip(" :-")
+    _FUNDSTOP = {"menlo","accel","sequoia","redpoint","bessemer","lightspeed","kleiner","insight","khosla","coatue",
+                 "felicis","greylock","benchmark","battery","index","pear","thrive","a16z","andreessen","foundersfund",
+                 "generalcatalyst","iconiq","ivp","nea","gv","greycroft","emergence","craft","8vc","dst","tiger","bain"}
+    if norm(co) in _FUNDSTOP or "pitch deck" in co.lower() or "ex-apple" in co.lower():
+        return ""
     # strip a leading "<X>-backed / -based / -led / -founded" qualifier (e.g. "Illinois-based Klinic", "Y Combinator-backed Klinic")
     co = re.sub(r"^[A-Za-z0-9.&'’ ]+?-(?:backed|based|led|founded|headquartered)\b\s*", "", co, flags=re.I).strip(" -–—:·|")
     # strip a leading nationality/state word ("Sri Lankan Klinic" -> "Klinic")
@@ -155,6 +162,7 @@ def company_of(title):
     for d in DEMO_LEAD:
         if low.startswith(d + " "):
             co = co[len(d):].strip(); low = co.lower(); break
+    co = re.sub(r"^(?:fintech|healthtech|insurtech|proptech|legaltech|climatetech|edtech|adtech)\s+", "", co, flags=re.I).strip()  # after demonym strip ("Canadian fintech Float"->"Float")
     if len(co.split()) > 4:            # descriptive headline fragment, not a clean name
         return ""
     JUNK = {"ai", "ml", "api", "saas", "the", "a", "an", "new", "app", "data", "cloud", "io", "inc",
@@ -425,9 +433,16 @@ def main():
         harm = json.load(open(HARM, encoding="utf-8")).get("companies", [])
     except Exception:
         harm = []
+    _FUNDSTOP_H = {"menlo","accel","sequoia","redpoint","bessemer","lightspeed","kleiner","insight","khosla","coatue",
+                   "felicis","greylock","benchmark","battery","index","pear","thrive","a16z","andreessen","foundersfund",
+                   "generalcatalyst","iconiq","ivp","nea","gv","greycroft","emergence","craft","8vc","dst","tiger","bain"}
     for c in harm:
         name = c.get("name")
         if not name or SHELL.search(name):
+            continue
+        name = re.sub(r"^(?:fintech|healthtech|insurtech|proptech|legaltech|climatetech|edtech|adtech|trading app|pitch deck)\s*:?\s+", "", name, flags=re.I).strip(" :-")
+        name = re.sub(r"\s+[|–—-]\s+.*$", "", name).strip()        # cut " - descriptive suffix"
+        if not name or len(name) < 3 or norm(name) in _FUNDSTOP_H or "pitch deck" in name.lower():
             continue
         raw = (c.get("stage") or "").replace("SERIES_", "Series ").replace("_", " ").title().strip()
         st = raw or "Venture"

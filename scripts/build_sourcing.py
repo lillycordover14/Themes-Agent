@@ -218,10 +218,16 @@ def main():
         print("no insights.json:", e); raises = []
 
     cands = {}
+    FUND_STOP = {"menlo","accel","sequoia","redpoint","bessemer","lightspeed","kleiner","kleinerperkins","insight",
+                 "insightpartners","khosla","coatue","felicis","greylock","benchmark","battery","index","pear","thrive",
+                 "a16z","andreessen","foundersfund","generalcatalyst","menloventures","iconiq","ivp","nea","gv"}
     def consider(company, desc, stage, amount_m, investors, date, link, domain, src):
+        company = re.sub(r"^(?:fintech|healthtech|insurtech|proptech|legaltech|climatetech|trading app|pitch deck:?)\s+", "", (company or ""), flags=re.I).strip(" :-")
         k = norm(company)
         if not k or len(company) < 3:
             return
+        if k in FUND_STOP or "pitch deck" in company.lower() or "ex-apple" in company.lower():
+            return   # a fund, or a headline fragment — not a portfolio company
         blob = company + " . " + (desc or "")
         theme, vert, tscore = theme_and_vertical(blob, net)
         if not theme:
@@ -246,13 +252,9 @@ def main():
         da = months_ago_days(d)
         if da is None or da > RECENT_DAYS:
             continue
-        dom = ""
-        lk = r.get("link") or ""
-        m = re.search(r"https?://([^/]+)", lk)
-        if m and "harmonic" not in m.group(1) and "gdelt" not in m.group(1):
-            dom = m.group(1).replace("www.", "")
+        dom = ""   # never derive a domain from a news article; real domains come from enrichment
         consider(r.get("company", ""), r.get("desc") or r.get("theme", ""), r.get("stage", ""),
-                 r.get("amount_m"), r.get("investors") or [], d, lk, dom, "funds")
+                 r.get("amount_m"), r.get("investors") or [], d, (r.get("link") or ""), dom, "funds")
 
     # 2) broad GDELT news sweep for recent raises across SPC verticals
     verticals = [] if os.environ.get("SOURCING_SKIP_NEWS") else ["healthcare AI", "legal AI", "procurement software", "supply chain AI", "manufacturing AI",
