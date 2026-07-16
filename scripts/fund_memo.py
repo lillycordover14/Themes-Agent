@@ -97,6 +97,7 @@ def memo_for(f):
     bets, sect, stages = [], {}, {}
     for u in inv:
         title = u.get("title") or ""; co = bi.company_of(title); amt = bi.amount_m(title)
+        if co: co = re.sub(r"\s*[:\-\u2013\u2014]\s*\$?\d[\d.,]*\s*(?:million|billion|m|b|k)?\b.*$", "", co, flags=re.I).strip()
         s = sector_of(co + " " + title); sect[s] = sect.get(s, 0) + 1
         sm = STAGE.search(title)
         if sm: g = sm.group(0).title(); stages[g] = stages.get(g, 0) + 1
@@ -108,12 +109,20 @@ def memo_for(f):
                 continue
             if amt and amt >= 5000:
                 amt = None   # $5B+ is a valuation/mega figure, not a clean round size
-            bets.append({"company": co, "amt": amt, "amt_s": money(amt), "date": (u.get("date") or "")[:10], "link": u.get("link") or u.get("url", "")})
+            bets.append({"company": co, "amt": amt, "amt_s": money(amt), "date": (u.get("date") or "")[:10], "link": u.get("link") or u.get("url", ""), "_sector": s})
     seen, dd = set(), []
     for b in sorted(bets, key=lambda x: (x.get("amt") or 0), reverse=True):
         k = bi.norm(b["company"])
         if k and k not in seen: seen.add(k); dd.append(b)
+    # group actual companies under each sector (clean, specific)
+    by_sec = {}
+    for b in dd:
+        by_sec.setdefault(b.get("_sector",""), []).append(b)
     top_sect = sorted(sect.items(), key=lambda x: -x[1])
+    sectors_detail = []
+    for sname, cnt in top_sect[:6]:
+        comps = [{"company": x["company"], "amt": x["amt_s"], "link": x["link"]} for x in by_sec.get(sname, [])][:6]
+        sectors_detail.append({"name": sname, "n": cnt, "companies": comps})
     n = len(inv)
 
     # --- narrative sections ---
@@ -176,6 +185,8 @@ def memo_for(f):
         "notable": notable, "watch": watch,
         "sectors": [{"name": s, "n": k} for s, k in top_sect[:5]],
         "bets": [{"company": b["company"], "amt": b["amt_s"], "date": b["date"], "link": b["link"]} for b in dd[:8]],
+        "sectors_detail": sectors_detail,
+        "partners": [{"name": pp.get("name",""), "role": pp.get("role",""), "substack": pp.get("substack",""), "x": pp.get("x",""), "linkedin": pp.get("linkedin","")} for pp in (f.get("people") or [])[:6] if pp.get("name")],
         "generated": TODAY.isoformat(),
     }
 
