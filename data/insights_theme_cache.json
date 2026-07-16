@@ -35,7 +35,7 @@
     "clean": "Valarian"
   },
   "auger": {
-    "theme": "Applied / horizontal AI",
+    "theme": "Logistics & supply chain",
     "clean": "Auger",
     "src": "affinity-desc"
   },
@@ -645,7 +645,7 @@
     "clean": "Vedana Therapeutics"
   },
   "prosperai": {
-    "theme": "Healthcare & bio AI",
+    "theme": "Applied AI agents",
     "clean": "Prosper AI",
     "src": "affinity-desc"
   },

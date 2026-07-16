@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-15",
+  "generated": "2026-07-16",
   "window_days": 45,
   "counts": {
-    "actionable": 16,
+    "actionable": 15,
     "watchlist": 26,
     "excluded_off_thesis": 5
   },
@@ -15,7 +15,7 @@
       "stage": "Series A",
       "amount_m": 274,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://helloaria.eu",
       "domain": "helloaria.eu",
       "tier": "actionable",
@@ -40,7 +40,7 @@
         "BGV",
         "Rocketship.vc"
       ],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://lyzr.ai",
       "domain": "lyzr.ai",
       "tier": "actionable",
@@ -69,7 +69,7 @@
         "Elephant",
         "Arthur Ventures"
       ],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://tjmlabs.com",
       "domain": "tjmlabs.com",
       "tier": "actionable",
@@ -94,7 +94,7 @@
         "Home Depot Ventures",
         "Energize Capital"
       ],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://instalily.ai",
       "domain": "instalily.ai",
       "tier": "actionable",
@@ -133,7 +133,7 @@
         "Eclipse",
         "Oak HC/FT"
       ],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://auger.com",
       "domain": "auger.com",
       "tier": "actionable",
@@ -187,7 +187,7 @@
         "Contrary",
         "SV Angel"
       ],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://feathery.io",
       "domain": "feathery.io",
       "tier": "actionable",
@@ -221,7 +221,7 @@
         "Innovation Endeavors",
         "Heartland Ventures"
       ],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://parspec.io",
       "domain": "parspec.io",
       "tier": "actionable",
@@ -252,46 +252,6 @@
       "connections": [],
       "connection_status": "No automated SPC connection surfaced",
       "valuation_m": 127
-    },
-    {
-      "company": "Prime Intellect",
-      "desc": "Decentralized platform to train and deploy self-improving agentic models (RL environments, distributed training, serverless inference).",
-      "theme": "Applied AI",
-      "vertical": "",
-      "stage": "Series A",
-      "amount_m": 130,
-      "investors": [
-        "Founders Fund",
-        "ICONIQ",
-        "Intel Capital",
-        "Menlo Ventures",
-        "Dell Technologies Capital",
-        "Radical Ventures"
-      ],
-      "date": "2026-07-08",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVWs0Y0htWE03N0JMbjZ2czFUUHozVm5pV0Fya3hJMEtjM3ZwRTJxNjJHN29XaDg2bG5rWmFVcHRuSjc3SGhJOGRLOU51aXBzYTdjVGhKVkZuT0dlakotaWMzQnl4c0dwVk1fQ1hKUjFiYXRvdTdpeFpmRkg3OHV3MFNPajJTUHA4eldKMG5JM3dTQWM1emlROUxTOUZMdDlqLXRmMEdod2wzQTlvazBhaTZNZjB6enE2?oc=5",
-      "domain": "news.google.com",
-      "tier": "actionable",
-      "fit_reason": "Series A ($130M) — sizable A, likely at/near the ARR floor",
-      "source": "funds",
-      "connections": [
-        {
-          "via": "Lorenzo Salazar & Brooke Slattery",
-          "person": "Sean Cai",
-          "title": "Research Resident",
-          "source": "LinkedIn"
-        },
-        {
-          "kind": "co-investor",
-          "detail": "Backed by Founders Fund — a fund SPC gets intros through"
-        },
-        {
-          "kind": "co-investor",
-          "detail": "Backed by ICONIQ — a fund SPC gets intros through"
-        }
-      ],
-      "connection_status": "warm path via Affinity",
-      "valuation_m": 1000
     },
     {
       "company": "Sandstone",
@@ -493,7 +453,7 @@
       "stage": "Venture Unknown",
       "amount_m": 14,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://nurix.ai",
       "domain": "nurix.ai",
       "tier": "watchlist",
@@ -510,7 +470,7 @@
       "stage": "Seed",
       "amount_m": 13,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://insidedesk.com",
       "domain": "insidedesk.com",
       "tier": "watchlist",
@@ -527,7 +487,7 @@
       "stage": "Series A",
       "amount_m": 6,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://adaptive.build",
       "domain": "adaptive.build",
       "tier": "watchlist",
@@ -544,7 +504,7 @@
       "stage": "Seed",
       "amount_m": 6,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://prolo.io",
       "domain": "prolo.io",
       "tier": "watchlist",
@@ -561,7 +521,7 @@
       "stage": "Seed",
       "amount_m": 5,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://linkerfinance.com",
       "domain": "linkerfinance.com",
       "tier": "watchlist",
@@ -578,7 +538,7 @@
       "stage": "Seed",
       "amount_m": 5,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://simpleaiworks.com",
       "domain": "simpleaiworks.com",
       "tier": "watchlist",
@@ -595,7 +555,7 @@
       "stage": "Seed",
       "amount_m": 2,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://synthreo.ai",
       "domain": "synthreo.ai",
       "tier": "watchlist",
@@ -612,7 +572,7 @@
       "stage": "Seed",
       "amount_m": 1,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://kleantech.com.au",
       "domain": "kleantech.com.au",
       "tier": "watchlist",
@@ -629,7 +589,7 @@
       "stage": "Seed",
       "amount_m": null,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://dsalta.com",
       "domain": "dsalta.com",
       "tier": "watchlist",
@@ -646,7 +606,7 @@
       "stage": "Seed",
       "amount_m": null,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://getoze.com",
       "domain": "getoze.com",
       "tier": "watchlist",
@@ -663,7 +623,7 @@
       "stage": "Seed",
       "amount_m": null,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://shiprazor.com",
       "domain": "shiprazor.com",
       "tier": "watchlist",
@@ -680,7 +640,7 @@
       "stage": "Seed",
       "amount_m": null,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://zendawa.africa",
       "domain": "zendawa.africa",
       "tier": "watchlist",
@@ -776,31 +736,6 @@
       "connection_status": "warm path via Affinity"
     },
     {
-      "company": "Health-tech start-up SuperLiving",
-      "desc": "Healthcare & bio AI",
-      "theme": "Precision Applications",
-      "vertical": "Healthcare",
-      "stage": "Venture",
-      "amount_m": 7,
-      "investors": [
-        "Lightspeed",
-        "Lightspeed - Business Standard"
-      ],
-      "date": "2026-06-25",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZjVreUgzZml4Z3VaRnFiRjVNbW9FNDNxdWFBVW11eTdmU0htYlZsTDZHT2tPeVdmcU81eTRjei1oLV9IaHRNMGYwMm96REJYVDdWSmdXcGJ4MER1NEJwY0UxdHFOdGcxU3lJNWxsV2NVdHlod2RXTWcybFlUR1lNTVAxbnRsN3RWaW9fd29iQm1qWjRudFBCNGdCZm5aUFk1Y1lwVERPeTNzRGJuQ2k4SHdqbGh6RG9KS19xZXR3T1JjeXZmX2Y4UnhyRUJibzExNkpITFpDeWnSAd4BQVVfeXFMUGlVNGxHaWZFNU5mQXM3QXI5YVdTSmpKLWx6MWpBSmJmRW52YTUzSmFkYkhrRkc4c192YVJKbVBNeVd1ZXZvYjJGVDNpRFJLdkg0QVRKdW9MeUxMLUV0RDdybkRsOWVwako2NUE3bmpJVUN0bVJvYVgwa3MwUHROUXlWYVIwOVRYVGtDMVJuckhSd3p3NThYY3BNTUFFWjdfN2txUHMzNHRGZVlXMXNaS2E3bU84SmlteFQxQnl0bHo3NVI2V3hNN1Q5WjIyUEVVeVd3U3ltMmFZcllNZl9n?oc=5",
-      "domain": "news.google.com",
-      "tier": "watchlist",
-      "fit_reason": "stage unconfirmed — track",
-      "source": "funds",
-      "connections": [
-        {
-          "kind": "co-investor",
-          "detail": "Backed by Lightspeed — a fund SPC gets intros through"
-        }
-      ],
-      "connection_status": "warm path via Affinity"
-    },
-    {
       "company": "STARK",
       "desc": "Defense & national security",
       "theme": "Precision Applications",
@@ -889,56 +824,13 @@
       "stage": "Venture",
       "amount_m": 40,
       "investors": [
-        "Bessemer"
-      ],
-      "date": "2026-06-19",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb2dlX2xwbUdWVDNuN0t1Qk5zSWlKS0luWmxtRTVQZVQtWDcyVnl3VWxXeWVZRkJLNi1WLVF0cFV1aDFJLXRqQ1JicWp2dkZPcWwyel9sc3ZYSkkweER2OHdyUldaS0ZwV2tWZGFnd1dIdVVoQWhUeENtZEZYemI0NUJIMHZMa2h3RmRFVDAyeUE3Wmo2dzh3c0ZGaGd2c09ob1JBcUdnU2lndEtB?oc=5",
-      "domain": "news.google.com",
-      "tier": "watchlist",
-      "fit_reason": "stage unconfirmed — track",
-      "source": "funds",
-      "connections": [
-        {
-          "kind": "co-investor",
-          "detail": "Backed by Bessemer — a fund SPC gets intros through"
-        }
-      ],
-      "connection_status": "warm path via Affinity"
-    },
-    {
-      "company": "Sen. Gillibrand’s 22-year-old son",
-      "desc": "Fintech & payments",
-      "theme": "Precision Applications",
-      "vertical": "",
-      "stage": "Venture",
-      "amount_m": 30,
-      "investors": [
-        "Lux Capital"
-      ],
-      "date": "2026-06-19",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaW1yTmx5UXlnM0pPb2Y5WXNDSWR3X05PbzRUU0NFZzRoS1VpN3FEWVZmNU5SZEpxYk9xbGFzYV9aN180bEs2WHpjbGVWWUVIMVlCSGluMG5hdFdaU2FDd1hzN1JzTHUwa2xZeEtRQzJlU09lbzY1YWt6QkI0S1VSc051MFNBdTF3emp1ckNEZ1F6Qm5yZXpUYVNVbGExZlJsQVQ5UFpQTkdsRTZLV0w4dlBHaVdWMDFYMTZuLVhReldIU0MzNm1veHJnazR0ZEJGY0E?oc=5",
-      "domain": "news.google.com",
-      "tier": "watchlist",
-      "fit_reason": "stage unconfirmed — track",
-      "source": "funds",
-      "connections": [],
-      "connection_status": "No automated SPC connection surfaced"
-    },
-    {
-      "company": "Pet healthcare startup Vetic",
-      "desc": "Healthcare & bio AI",
-      "theme": "Precision Applications",
-      "vertical": "Healthcare",
-      "stage": "Venture",
-      "amount_m": 40,
-      "investors": [
         "Bessemer",
         "Bessemer - Entrackr",
         "Bessemer Venture Partners - BusinessLine",
         "Bessemer Venture Partners - YourStory.com"
       ],
-      "date": "2026-06-18",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVhSUGY2ck90Q0tRaG5tbTZyNDU3V1JZSWtmZTR3Mm9FNldCYTZ4ckN0SnNBam43cVJDYl81LWRzcWJZRFJ0Tm5xdnl0eUhVaDNCeklpb3h6TzJ1d21QUkFuYlNidXFDVGNxMkZsSFdDdzBVUVVFQjhiaTJxQ2stZDFOY3FEcExoRUF3aklZUndoOGVNUS0w0gGXAUFVX3lxTE9NWFJQZjZyT3RDS1Fobm1tNnI0NTdXUllJa2ZlNHcyb0U2V0JhNnhyQ3RKc0FqbjdxUkNiXzUtZHNxYllEUnRObnF2eXR5SFVoM0J6SWlveHpPMnV3bVBSQW5iU2J1cUNUY3EyRmxIV0N3MFVRVUVCOGJpMnFDay1kMU5jcURwTGhFQXdqSVlSd2g4ZU1RLTA?oc=5",
+      "date": "2026-06-19",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb2dlX2xwbUdWVDNuN0t1Qk5zSWlKS0luWmxtRTVQZVQtWDcyVnl3VWxXeWVZRkJLNi1WLVF0cFV1aDFJLXRqQ1JicWp2dkZPcWwyel9sc3ZYSkkweER2OHdyUldaS0ZwV2tWZGFnd1dIdVVoQWhUeENtZEZYemI0NUJIMHZMa2h3RmRFVDAyeUE3Wmo2dzh3c0ZGaGd2c09ob1JBcUdnU2lndEtB?oc=5",
       "domain": "news.google.com",
       "tier": "watchlist",
       "fit_reason": "stage unconfirmed — track",
@@ -988,8 +880,75 @@
       "source": "funds",
       "connections": [],
       "connection_status": "No automated SPC connection surfaced"
+    },
+    {
+      "company": "Novellia",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Series A",
+      "amount_m": 18,
+      "investors": [
+        "Spark Capital"
+      ],
+      "date": "2026-06-03",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSTVkN2pldkJJNVpGZEtuZnBhZnBfV1FEc0ZLeVJPWlAtZ0dROUVNdjZIRWp6Yk5DaXdKVVJQeDBRQS1tZ0Q1X19hLTFjNlgxUU9UaUcyWGkzSG13dVNjVERvRjdjNWE5OGpYUk9wSXBZeVQ2NWhPeExVMjZ4UmdZS2ZnNnY4bkc3RUdYRFlad3BaSHlQUU9WZUJXbmtCQWRKUXhlcHVsVk0?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "Series A ($18M) — track for the next round",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Spark Capital — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "warm path via Affinity"
+    },
+    {
+      "company": "NewLimit",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Venture",
+      "amount_m": 435,
+      "investors": [
+        "Founders Fund"
+      ],
+      "date": "2026-06-02",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOC1qTXA4ZGpQRnVJbmFzc0ZTQmVoMW1tSDJJZEhZM2pjN1JUdjFpVjlVdU43dXphOGZTcTZIbjZZVmRNZDhRU01jVDdZYV9teVdyNnFvaVlEUVdsNXNwSy1qMHB6MkQxZDlfSXRBQVdobTRjTGRHbWtGWUJqWVE4dkhzQ1J2ZC1QNVFvV0x6bktPaUdVc1VacXFHNlJ6V2c1SDhrYmZia0pIZWZzUUdN?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Founders Fund — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "warm path via Affinity"
+    },
+    {
+      "company": "Pitch Deck: Ex-Apple Marketer",
+      "desc": "Applied AI agents",
+      "theme": "Applied AI",
+      "vertical": "",
+      "stage": "Venture",
+      "amount_m": 10,
+      "investors": [
+        "XYZ Venture Capital"
+      ],
+      "date": "2026-06-02",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOUNpNS1BRktBNlNEa093MUZtajFRTGt0M0tFT2ZpRm9uOFB1dFlNRVJfR01ReEY5dXZuQWJnZWFPaGNBMGFSak00MHdPcUJmcEs0Q3M1Vy1wX3VmZ1hlcGI3cFZyeGdObHBQWUdZSE5yd3lnY1dob1kxTEpVWmhRelE1TG9HSjUxWUk5SmRfX0NmdzBDeUJqVDhHNGVGY0d0dHYybHVuOHp6eDhPRGdzSEtndzRuWVlDaXRfWDNCZEk4Zw?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "No automated SPC connection surfaced"
     }
   ],
   "enriched": true,
-  "enriched_at": "2026-07-15"
+  "enriched_at": "2026-07-16"
 }

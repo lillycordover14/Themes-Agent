@@ -130,6 +130,17 @@ def company_of(title):
     co = re.sub(r"\s+[|–—-]\s+.*$", "", co).strip()   # only split on SPACED separators (keep hyphenated words like Illinois-based)
     co = DESCR.sub("", co).strip()
     co = re.sub(r",\s+(?:an?|the)\b.*$", "", co).strip(" ,")   # drop appositive ("Maxima, an AI accounting platform" -> "Maxima")
+    # strip a leading descriptor phrase that ends in startup/company/etc ("AI coworker startup Viktor" -> "Viktor")
+    co = re.sub(r"^(?:[A-Za-z][\w.&-]*\s+){1,3}?(?:startup|start-up|company|firm|platform|venture|maker)\s+(?=[A-Z])", "", co).strip()
+    # headline-about-a-person / non-company fragments -> not a company
+    _lw = co.lower()
+    if re.search(r"[\u2019']s\b", co):                 # possessive subject ("Gillibrand's ... son")
+        return ""
+    _BAD = {"ceo","cto","cfo","coo","cmo","cro","president","founder","co-founder","cofounder","chief",
+            "senator","sen","rep","congressman","congresswoman","governor","son","daughter","wife","husband",
+            "exec","execs","executive","executives","billionaire","heir","professor","alumnus","alumni"}
+    if any(re.search(r"\b" + re.escape(b) + r"\b", _lw) for b in _BAD):
+        return ""
     # strip a leading "<X>-backed / -based / -led / -founded" qualifier (e.g. "Illinois-based Klinic", "Y Combinator-backed Klinic")
     co = re.sub(r"^[A-Za-z0-9.&'’ ]+?-(?:backed|based|led|founded|headquartered)\b\s*", "", co, flags=re.I).strip(" -–—:·|")
     # strip a leading nationality/state word ("Sri Lankan Klinic" -> "Klinic")
@@ -440,14 +451,7 @@ def main():
             "total_cap_m": total_cap, "early_cap_m": sum(r.get("amount_m") or 0 for r in early),
             "stage_counts": stage_counts}
 
-    summary = ""
-    if named:
-        summary = "Capital is concentrating in " + ", ".join("%s (%d)" % (t["theme"], t["count"]) for t in named[:3]) + "."
-        biggest = max((r for r in rows if r.get("amount_m")), key=lambda r: r["amount_m"], default=None)
-        if biggest:
-            a = biggest["amount_m"]; asx = ("$%.1fB" % (a / 1000)) if a >= 1000 else ("$%dM" % a)
-            stg = (biggest["stage"] + ", ") if biggest.get("stage") and biggest["stage"] != "Venture" else ""
-            summary += " Largest recent round: %s (%s%s)." % (biggest["company"], stg, asx)
+    summary = ""   # concentration line removed per request
 
     # investor signal: per-fund early-stage picks (Seed / Series A first), then recent others
     investor_signal = []
