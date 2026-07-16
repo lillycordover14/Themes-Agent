@@ -19,6 +19,45 @@ MONTHS = {m: i for i, m in enumerate(
     ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
 
 
+
+SECTORS = [
+    ("Cybersecurity", ["cybersecurity","cyber security","siem","threat","malware","phishing","zero trust","endpoint","vulnerabilit","soc ","identity","appsec","ransomware","detection and response"]),
+    ("Fintech & payments", ["fintech","payments","payment","banking","neobank","lending","credit","treasury","capital markets","brokerage","remittance","cards","spend management","financial infrastructure","wealth"]),
+    ("Insurance / insurtech", ["insurance","insurtech","actuarial","claims","underwriting","reinsurance"]),
+    ("Healthcare & bio", ["healthcare","health","clinical","patient","biotech","drug","diagnostic","medical","pharma","oncology","therapeutic","genomic","care","life science","medtech","provider","rcm","revenue cycle"]),
+    ("Robotics & physical AI", ["robotics","robot","physical ai","autonomous","drone","humanoid","actuator","teleop","industrial automation","warehouse automation"]),
+    ("AI infrastructure & compute", ["gpu","inference","compute","model training","foundation model"," llm","semiconductor","chip","tpu","asic","accelerator","datacenter","cuda","hardware design"]),
+    ("Data infrastructure", ["data platform","data infrastructure","database","warehouse","data pipeline"," etl","data quality","observability","vector","analytics","data governance","lakehouse"]),
+    ("Developer tools", ["developer","devtools","dev tools","devops","sdk"," api ","coding","software engineering","ci/cd","codebase","platform engineering","infrastructure as code"]),
+    ("Defense, aerospace & space", ["defense","defence","military","aerospace","space","satellite","dod","interceptor","national security","weapons","isr","missile","nuclear technology"]),
+    ("Energy, climate & nuclear", ["energy","climate","nuclear","fusion","isotope","battery","grid","solar","carbon","geothermal","renewable","power"]),
+    ("Legal tech", ["legal","law firm"," law ","contract","litigation","paralegal","compliance","regulatory"]),
+    ("Sales & GTM", ["sales","crm","go-to-market"," gtm","revenue team","outbound","prospecting","pipeline","lead generation"]),
+    ("Marketing & creative", ["marketing","advertising","adtech","content creation","creative","brand","seo","video generation","image generation"]),
+    ("HR & workforce", ["recruit","hiring","payroll","talent","workforce","people ops","staffing","hr "]),
+    ("Supply chain & logistics", ["supply chain","logistics","freight","shipping","procurement","inventory","fulfillment","warehouse management"]),
+    ("Manufacturing & materials", ["manufacturing","industrial","factory","cnc","advanced materials","materials","machining","quality inspection"]),
+    ("Government & public sector", ["government","public sector","govtech","municipal","citizen","permitting"]),
+    ("Construction & real estate", ["construction","real estate","proptech","building","architecture"]),
+    ("Voice & language AI", ["voice ai","speech","voice agent","transcription","translation","language model app"]),
+    ("Productivity & workplace", ["workplace","productivity","collaboration","meeting","knowledge management","assistant","workflow automation","operations"]),
+]
+_AI_GENERIC = ["artificial intelligence","ai-native","ai native"," ai ","machine learning"," ml ","genai","agent","copilot"]
+
+def sector_of(text):
+    t = " " + (text or "").lower() + " "
+    best, n = "", 0
+    for label, kws in SECTORS:
+        c = sum(1 for k in kws if k in t)
+        if c > n:
+            best, n = label, c
+    if best:
+        return best
+    if any(k in t for k in _AI_GENERIC):
+        return "AI (broad / applied)"
+    return "Enterprise software"
+
+
 def _field(block, label):
     m = re.search(r"\*\*%s:?\*\*\s*(.+)" % re.escape(label), block)
     return m.group(1).strip() if m else ""
@@ -82,16 +121,16 @@ def _parse_blocks(region, date, link, status):
         blob = " ".join([company, title, desc, industry, prior])
         if st.is_consumer(blob, st.load_net()):
             continue
-        theme = st.theme_of(blob, st.load_net())
-        if not theme and not st.ENT.search(blob):
+        if not st.theme_of(blob, st.load_net()) and not st.ENT.search(blob):
             continue
+        sector = sector_of(industry + " . " + desc + " . " + prior + " . " + title)
         if desc and desc[:1].islower() and company:
             desc = company + " " + desc      # "Demi is a proactive AI assistant..."
         name = founder if founder and 2 < len(founder) < 40 else ""
         out.append({"company": company, "url": url, "founder": name, "founder_title": title,
                     "desc": desc[:260], "prior": prior[:200], "industry": industry[:60], "hq": hq[:60],
                     "team": team, "stealth": stealth_t[:24], "linkedin": linkedin, "email": email,
-                    "status": status, "theme": theme or "Applied / horizontal AI", "date": date, "link": link})
+                    "status": status, "theme": sector, "date": date, "link": link})
     return out
 
 
