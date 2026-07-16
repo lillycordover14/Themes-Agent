@@ -374,6 +374,23 @@
   ],
   "watchlist": [
     {
+      "company": "Bunkerhill Health",
+      "desc": "Bunkerhill Health raises $55 million to put AI agents to work inside hospitals",
+      "theme": "Applied AI",
+      "vertical": "",
+      "stage": "Venture",
+      "amount_m": 55,
+      "investors": [],
+      "date": "2026-07-16",
+      "link": "https://fortune.com/2026/07/16/bunkerhill-health-raises-55-million-ai-agents-work-inside-hospitals/",
+      "domain": "bunkerhillhealth.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "news",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
       "company": "Nurix",
       "desc": "Applied AI agents",
       "theme": "Applied AI",
@@ -768,23 +785,6 @@
       "tier": "watchlist",
       "fit_reason": "stage unconfirmed — track",
       "source": "funds",
-      "connections": [],
-      "connection_status": "no connection surfaced — good to flag"
-    },
-    {
-      "company": "Helious Launches AI",
-      "desc": "Helious Launches AI Bag Counting System for Accurate Industrial Dispatch Operations",
-      "theme": "Precision Applications",
-      "vertical": "",
-      "stage": "Venture",
-      "amount_m": null,
-      "investors": [],
-      "date": "2026-06-15",
-      "link": "https://news.webindia123.com/news/Articles/Business/20260615/4462785.html",
-      "domain": "",
-      "tier": "watchlist",
-      "fit_reason": "stage unconfirmed — track",
-      "source": "news",
       "connections": [],
       "connection_status": "no connection surfaced — good to flag"
     },
