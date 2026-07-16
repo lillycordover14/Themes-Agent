@@ -1,3 +1,6 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+.spc_pat
+token.txt
+*.pat
