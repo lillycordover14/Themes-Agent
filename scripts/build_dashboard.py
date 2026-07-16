@@ -238,10 +238,21 @@ try:
 except Exception as _e:
     print("insights build skipped:", _e)
 try:
+    import subprocess as _sp3, sys as _sys3
+    _sp3.run([_sys3.executable, os.path.join(HERE, "build_sourcing.py")])
+except Exception as _e:
+    print("sourcing build skipped:", _e)
+try:
     INS = json.load(open(os.path.join(ROOT, "data", "insights.json"), encoding="utf-8"))
 except Exception:
     INS = {"raises": [], "themes": []}
-BLOB = json.dumps({"D": D, "F": F_DISPLAY, "P": PIPE, "PA": PACT, "INS": INS}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
+try:
+    _sp = os.path.join(ROOT, "data", "sourcing_enriched.json")
+    _sc = os.path.join(ROOT, "data", "sourcing_candidates.json")
+    SRC = json.load(open(_sp if os.path.exists(_sp) else _sc, encoding="utf-8"))
+except Exception:
+    SRC = {"actionable": [], "watchlist": [], "counts": {}}
+BLOB = json.dumps({"D": D, "F": F_DISPLAY, "P": PIPE, "PA": PACT, "INS": INS, "SRC": SRC}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
 TEMPLATE = open(os.path.join(HERE, "dashboard_template.html"), encoding="utf-8").read()
 html = TEMPLATE.replace("__BLOB__", BLOB)
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
