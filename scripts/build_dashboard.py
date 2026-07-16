@@ -243,6 +243,11 @@ try:
 except Exception as _e:
     print("sourcing build skipped:", _e)
 try:
+    import subprocess as _sp4, sys as _sys4
+    _sp4.run([_sys4.executable, os.path.join(HERE, "email_engine.py")])
+except Exception as _e:
+    print("email build skipped:", _e)
+try:
     INS = json.load(open(os.path.join(ROOT, "data", "insights.json"), encoding="utf-8"))
 except Exception:
     INS = {"raises": [], "themes": []}
@@ -252,7 +257,12 @@ try:
     SRC = json.load(open(_sp if os.path.exists(_sp) else _sc, encoding="utf-8"))
 except Exception:
     SRC = {"actionable": [], "watchlist": [], "counts": {}}
-BLOB = json.dumps({"D": D, "F": F_DISPLAY, "P": PIPE, "PA": PACT, "INS": INS, "SRC": SRC}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
+try:
+    _ed = json.load(open(os.path.join(ROOT, "data", "email_drafts.json"), encoding="utf-8")).get("drafts", [])
+    EMAIL = {re.sub(r"[^a-z0-9]+", "", (d.get("company") or "").lower()): {"subject": d.get("subject", ""), "body": d.get("body", ""), "source": d.get("source", "")} for d in _ed}
+except Exception:
+    EMAIL = {}
+BLOB = json.dumps({"D": D, "F": F_DISPLAY, "P": PIPE, "PA": PACT, "INS": INS, "SRC": SRC, "EMAIL": EMAIL}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
 TEMPLATE = open(os.path.join(HERE, "dashboard_template.html"), encoding="utf-8").read()
 html = TEMPLATE.replace("__BLOB__", BLOB)
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
