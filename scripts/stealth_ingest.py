@@ -40,12 +40,9 @@ def _canonical(text):
     return m.group(1).strip() if m else ""
 
 
-def parse_post_page(text):
-    """Return rich company records from a single Stealth Startup Spy post page (markdown text)."""
-    date = _post_date(text); link = _canonical(text)
-    # split into per-company blocks at '## ' headers
-    parts = re.split(r"\n##\s+", "\n" + text)
+def _parse_blocks(region, date, link, status):
     out = []
+    parts = re.split(r"\n##\s+", "\n" + region)
     for b in parts[1:]:
         head = b.split("\n", 1)[0].strip()
         if head.lower().startswith(("founders coming out", "key talent", "discussion", "ready for")):
@@ -92,10 +89,27 @@ def parse_post_page(text):
             desc = company + " " + desc      # "Demi is a proactive AI assistant..."
         name = founder if founder and 2 < len(founder) < 40 else ""
         out.append({"company": company, "url": url, "founder": name, "founder_title": title,
-                    "desc": desc[:260], "industry": industry[:60], "hq": hq[:60], "team": team,
-                    "stealth": stealth_t[:24], "linkedin": linkedin, "email": email,
-                    "theme": theme or "Applied / horizontal AI", "date": date, "link": link})
+                    "desc": desc[:260], "prior": prior[:200], "industry": industry[:60], "hq": hq[:60],
+                    "team": team, "stealth": stealth_t[:24], "linkedin": linkedin, "email": email,
+                    "status": status, "theme": theme or "Applied / horizontal AI", "date": date, "link": link})
     return out
+
+
+def parse_post_page(text):
+    """Rich records split by section: 'emerging' (coming out of stealth) vs 'going' (key talent under stealth)."""
+    date = _post_date(text); link = _canonical(text)
+    i_out = text.find("Founders Coming Out of Stealth")
+    i_under = text.find("Key Talent Going Under Stealth")
+    recs = []
+    if i_out >= 0 or i_under >= 0:
+        if i_out >= 0:
+            emerging = text[i_out: i_under if i_under > i_out else len(text)]
+            recs += _parse_blocks(emerging, date, link, "emerging")
+        if i_under >= 0:
+            recs += _parse_blocks(text[i_under:], date, link, "going")
+    else:
+        recs = _parse_blocks(text, date, link, "emerging")
+    return recs
 
 
 def main(paths):
