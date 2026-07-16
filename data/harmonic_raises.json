@@ -1,27 +1,12 @@
 {
   "generated": "2026-07-16",
   "mode": "full",
-  "count": 38,
+  "count": 44,
   "companies": [
-    {
-      "name": "Emergent",
-      "domain": "emergent.sh",
-      "desc": "The main product is an autonomous AI coding tool designed to automate software development tasks, enhancing both efficiency and accuracy in programming. It utilizes advanced artificial intelligence technologies for tasks",
-      "stage": "SERIES_C",
-      "last_amount": 130000000.0,
-      "total": 223625024.0,
-      "investors": [
-        "Creaegis",
-        "Prosus Group",
-        "Sentinel Global",
-        "Y Combinator"
-      ],
-      "location": "2380 Via Espada, Pleasanton, CA 94566, United States"
-    },
     {
       "name": "InstaLILY AI",
       "domain": "instalily.ai",
-      "desc": "InstaLILY AI offers a platform that utilizes specialized language models tailored to individual businesses, enabling the deployment of autonomous AI agents to enhance workflows in sales, service, and operations. The tech",
+      "desc": "InstaLILY AI provides a platform that leverages specialized language models tailored to individual businesses, facilitating the deployment of autonomous AI agents designed to enhance workflows in sales, service, and oper",
       "stage": "SERIES_B",
       "last_amount": 60000000.0,
       "total": 88000000.0,
@@ -64,6 +49,21 @@
       "location": "New York, NY"
     },
     {
+      "name": "Flex",
+      "domain": "flex.one",
+      "desc": "Flex offers a financial technology platform that integrates business and personal finance management, utilizing advanced AI technology for transaction tracking, treasury management, and risk mitigation. Key features incl",
+      "stage": "SERIES_B",
+      "last_amount": 70000000.0,
+      "total": 808608000.0,
+      "investors": [
+        "Draft Ventures",
+        "MS&AD Ventures",
+        "Dualcore",
+        "SPiCE VC"
+      ],
+      "location": "San Francisco, CA"
+    },
+    {
       "name": "Lyzr AI",
       "domain": "lyzr.ai",
       "desc": "Lyzr provides a platform for developing and managing autonomous AI agents designed to enhance enterprise workflows through secure and scalable solutions. The technology employs Reinforcement Learning, RAG summarization, ",
@@ -79,24 +79,9 @@
       "location": "Jersey City, New Jersey"
     },
     {
-      "name": "Flex",
-      "domain": "flex.one",
-      "desc": "Flex provides a financial technology platform that integrates business and personal finance management, leveraging advanced AI technology for transaction tracking, treasury management, and risk mitigation. Key features i",
-      "stage": "SERIES_B",
-      "last_amount": 70000000.0,
-      "total": 808608000.0,
-      "investors": [
-        "Draft Ventures",
-        "MS&AD Ventures",
-        "Dualcore",
-        "SPiCE VC"
-      ],
-      "location": "San Francisco, CA"
-    },
-    {
       "name": "MeltPlan",
       "domain": "meltplan.com",
-      "desc": "MeltPlan provides an AI-driven platform designed for pre-construction activities, focusing on building code compliance research and quantity takeoffs to enhance construction workflow efficiency. The technology employs co",
+      "desc": "MeltPlan offers an AI-driven platform for pre-construction activities, focusing on building code compliance research and quantity takeoffs to improve construction workflow efficiency. The technology utilizes construction",
       "stage": "SEED",
       "last_amount": 14000000.0,
       "total": 31409999.0,
@@ -108,9 +93,24 @@
       "location": "Berkeley, California"
     },
     {
+      "name": "Parspec",
+      "domain": "parspec.io",
+      "desc": "The company offers an AI-driven platform designed to streamline the discovery, quoting, and procurement processes in the construction materials industry, addressing inefficiencies from fragmented systems. It employs arti",
+      "stage": "SERIES_A",
+      "last_amount": 20000000.0,
+      "total": 51500000.0,
+      "investors": [
+        "Great Wave Ventures",
+        "Threshold Ventures",
+        "Building Ventures",
+        "Heartland Ventures"
+      ],
+      "location": "San Francisco , CA"
+    },
+    {
       "name": "Auger",
       "domain": "auger.com",
-      "desc": "Auger is developing an AI-powered supply chain operating system designed to unify data and automate complex operational tasks, facilitating real-time insights for decision-making. The system integrates with existing infr",
+      "desc": "Auger is developing an AI-powered supply chain operating system that integrates with existing infrastructures to unify data and automate complex operational tasks, enabling real-time insights for decision-making. The sys",
       "stage": "SERIES_B",
       "last_amount": 50000000.0,
       "total": 350000000.0,
@@ -122,19 +122,19 @@
       "location": "Bellevue, WA"
     },
     {
-      "name": "Parspec",
-      "domain": "parspec.io",
-      "desc": "The company provides an AI-driven platform that enhances the discovery, quoting, and procurement processes within the construction materials industry, aiming to reduce inefficiencies caused by fragmented systems. It util",
-      "stage": "SERIES_A",
-      "last_amount": 20000000.0,
-      "total": 51500000.0,
+      "name": "Linker Finance",
+      "domain": "linkerfinance.com",
+      "desc": "Linker Finance offers a fintech platform that enhances digital banking experiences for community financial institutions, featuring capabilities such as digital account opening, business onboarding, and commercial banking",
+      "stage": "SEED",
+      "last_amount": 5000000.0,
+      "total": 8820000.0,
       "investors": [
-        "Great Wave Ventures",
-        "Threshold Ventures",
-        "Building Ventures",
-        "Heartland Ventures"
+        "TenOneTen Ventures",
+        "Techstars",
+        "Audaz Capital",
+        "Commerce Ventures"
       ],
-      "location": "San Francisco , CA"
+      "location": "Pasadena, California"
     },
     {
       "name": "Nurix",
@@ -154,7 +154,7 @@
     {
       "name": "Valarian",
       "domain": "valarian.com",
-      "desc": "Valarian's primary offering is a secure software platform built on ACRA, which facilitates controlled data movement and enforces trust through compartmentalized data storage and access. The platform utilizes advanced enc",
+      "desc": "Valarian's main product is a secure software platform built on ACRA, designed to facilitate controlled data movement and enforce trust through compartmentalized data storage and access. The platform employs advanced encr",
       "stage": "SERIES_A",
       "last_amount": 50000000.0,
       "total": 68554000.0,
@@ -165,36 +165,6 @@
         "XTX Markets"
       ],
       "location": "London"
-    },
-    {
-      "name": "Linker Finance",
-      "domain": "linkerfinance.com",
-      "desc": "Linker Finance provides a fintech platform designed to enhance digital banking experiences for community financial institutions, offering features such as digital account opening, business onboarding, and commercial bank",
-      "stage": "SEED",
-      "last_amount": 5000000.0,
-      "total": 8820000.0,
-      "investors": [
-        "TenOneTen Ventures",
-        "Techstars",
-        "Audaz Capital",
-        "Commerce Ventures"
-      ],
-      "location": "Pasadena, California"
-    },
-    {
-      "name": "Rime",
-      "domain": "rime.ai",
-      "desc": "Rime develops advanced text-to-speech models that utilize a proprietary dataset of expressive, multilingual conversational speech, enabling highly realistic voice interactions that reflect natural speech patterns and emo",
-      "stage": "SERIES_A",
-      "last_amount": 24000000.0,
-      "total": 32593986.0,
-      "investors": [
-        "Plug and Play",
-        "Moth Fund",
-        "Twilio Ventures",
-        "Unusual Ventures"
-      ],
-      "location": "San Francisco, CA"
     },
     {
       "name": "Prolo",
@@ -212,31 +182,34 @@
       "location": "London"
     },
     {
-      "name": "TJM Labs",
-      "domain": "tjmlabs.com",
-      "desc": "TJM Labs offers AI-driven automation solutions specifically designed for pharmacies, focusing on automating repetitive tasks such as prescription intake, data entry, and refill management. Their technology seamlessly int",
-      "stage": "SERIES_B",
-      "last_amount": 75000000.0,
-      "total": 100000000.0,
+      "name": "Rime",
+      "domain": "rime.ai",
+      "desc": "Rime develops advanced text-to-speech models that utilize a proprietary dataset of expressive, multilingual conversational speech, enabling highly realistic voice interactions that reflect natural speech patterns and emo",
+      "stage": "SERIES_A",
+      "last_amount": 24000000.0,
+      "total": 32593986.0,
       "investors": [
-        "Updata Partners",
-        "Elephant",
-        "Arthur Ventures"
-      ],
-      "location": "Bear, Delaware"
-    },
-    {
-      "name": "DSALTA",
-      "domain": "dsalta.com",
-      "desc": "The company provides a compliance management platform that consolidates access reviews, risk management, and asset management to enhance compliance processes. It utilizes AI-driven automation for auditing and real-time r",
-      "stage": "PRE_SEED",
-      "last_amount": 0,
-      "total": 100000.0,
-      "investors": [
-        "AI Startup Factory",
-        "Ismail Sebe"
+        "Plug and Play",
+        "Moth Fund",
+        "Twilio Ventures",
+        "Unusual Ventures"
       ],
       "location": "San Francisco, CA"
+    },
+    {
+      "name": "Risk Ledger",
+      "domain": "riskledger.com",
+      "desc": "Risk Ledger offers a third-party risk management platform designed to enhance supply chain security through a dynamic network model that facilitates real-time collaboration among organizations. The platform utilizes tool",
+      "stage": "SERIES_B",
+      "last_amount": 32498088.0,
+      "total": 44866292.0,
+      "investors": [
+        "Episode 1 Ventures",
+        "Google for Startups",
+        "Axiom Equity",
+        "Lifeline Ventures"
+      ],
+      "location": "London, London"
     },
     {
       "name": "Project Q",
@@ -254,9 +227,51 @@
       "location": "Berlin, Berlin"
     },
     {
+      "name": "TJM Labs",
+      "domain": "tjmlabs.com",
+      "desc": "TJM Labs offers AI-driven automation solutions specifically designed for pharmacies, focusing on automating repetitive tasks such as prescription intake, data entry, and refill management. Their technology seamlessly int",
+      "stage": "SERIES_B",
+      "last_amount": 75000000.0,
+      "total": 100000000.0,
+      "investors": [
+        "Updata Partners",
+        "Elephant",
+        "Arthur Ventures"
+      ],
+      "location": "Bear, Delaware"
+    },
+    {
+      "name": "Proaction",
+      "domain": "proaction.com",
+      "desc": "Proaction provides a modular fleet management platform that integrates various workflows and automates daily operations, allowing for efficient management of fleet data across multiple devices. The system employs technol",
+      "stage": "SEED",
+      "last_amount": 4200000.0,
+      "total": 4527500.0,
+      "investors": [
+        "Leazar Capital Holdings LLC",
+        "Holman Growth Ventures",
+        "InnoVenture Iowa",
+        "GTMfund"
+      ],
+      "location": "Des Moines, IA"
+    },
+    {
+      "name": "DSALTA",
+      "domain": "dsalta.com",
+      "desc": "The company provides a compliance management platform that consolidates access reviews, risk management, and asset management to enhance compliance processes. It utilizes AI-driven automation for auditing and real-time r",
+      "stage": "PRE_SEED",
+      "last_amount": 0,
+      "total": 100000.0,
+      "investors": [
+        "AI Startup Factory",
+        "Ismail Sebe"
+      ],
+      "location": "San Francisco, CA"
+    },
+    {
       "name": "WizCommerce",
       "domain": "wizcommerce.com",
-      "desc": "WizCommerce provides a B2B sales automation platform designed to modernize the order management process for wholesalers and distributors by integrating various sales channels and streamlining workflows. The platform util",
+      "desc": "WizCommerce offers a B2B sales automation platform that modernizes the order management process for wholesalers and distributors by integrating various sales channels and streamlining workflows. The platform employs AI t",
       "stage": "SERIES_A",
       "last_amount": 8333985.0,
       "total": 21868891.0,
@@ -286,7 +301,7 @@
     {
       "name": "Aria",
       "domain": "helloaria.eu",
-      "desc": "Aria offers a flexible payments infrastructure through an embedded invoice financing API that enables instant payments to suppliers while allowing buyers to manage their payment terms. The technology focuses on underwrit",
+      "desc": "Aria provides a flexible payments infrastructure through an embedded invoice financing API that allows for instant payments to suppliers while enabling buyers to manage their payment terms. The technology emphasizes unde",
       "stage": "SERIES_A",
       "last_amount": 274378800.0,
       "total": 365065295.0,
@@ -308,15 +323,15 @@
       "investors": [
         "Swiss InsurEvolution Partners Holding AG",
         "Top Down",
-        "Vince Kent",
-        "Synthreo Holding, LLC"
+        "David Bellini, CPA",
+        "Rashaad Bajwa"
       ],
       "location": "Phoenix, Arizona"
     },
     {
       "name": "Legible",
       "domain": "legiblepolicy.com",
-      "desc": "The main product is an AI-native policy intelligence tool that streamlines legislative workflows by providing real-time access to relevant bills, amendments, and deadlines, effectively replacing traditional methods like ",
+      "desc": "The main product is an AI-native policy intelligence tool designed to streamline legislative workflows by providing real-time access to relevant bills, amendments, and deadlines, effectively replacing traditional methods",
       "stage": "SEED",
       "last_amount": 3400000.0,
       "total": 4978000.0,
@@ -346,8 +361,8 @@
       "name": "InsideDesk",
       "domain": "insidedesk.com",
       "desc": "InsideDesk offers a Revenue Cycle Management platform designed for dental support organizations, utilizing AI and RPA technologies to automate claims management, streamline payment posting, and enhance operational effici",
-      "stage": "SEED",
-      "last_amount": 12600000.0,
+      "stage": "SERIES_A",
+      "last_amount": 0,
       "total": 12600000.0,
       "investors": [
         "Pender Ventures",
@@ -359,7 +374,7 @@
     {
       "name": "Tradevu",
       "domain": "tradevu.co",
-      "desc": "Tradevu provides a financial platform for global trade that integrates stablecoin-powered banking, on-chain financing, and investment opportunities in tokenized trade assets. Utilizing blockchain technology, the platform",
+      "desc": "Tradevu offers a financial platform for global trade that connects importers, exporters, and financial institutions through an integrated suite of services, including stablecoin-powered banking, on-chain financing, and i",
       "stage": "PRE_SEED",
       "last_amount": 250000.0,
       "total": 850000.0,
@@ -415,19 +430,14 @@
       "location": ""
     },
     {
-      "name": "Oze",
-      "domain": "getoze.com",
-      "desc": "Oze offers a business application tailored for small and medium enterprises (SMEs) and banks, providing tools for managing invoices, payments, and small business loans. The platform features a mobile app for business own",
+      "name": "SimpleAI",
+      "domain": "simpleaiworks.com",
+      "desc": "The primary offering is an AI-driven accounting software that automates various tasks including data entry, invoice processing, and bank reconciliation, leveraging Generative Pre-Trained Transformers for efficient docume",
       "stage": "SEED",
-      "last_amount": 250000.0,
-      "total": 4655000.0,
-      "investors": [
-        "Renew Capital",
-        "Anorak Ventures",
-        "CAI Capital Partners",
-        "Google for Startups"
-      ],
-      "location": "Accra"
+      "last_amount": 5000000.0,
+      "total": 5000000.0,
+      "investors": [],
+      "location": "Singapore"
     },
     {
       "name": "Neocad",
@@ -445,6 +455,49 @@
       "location": "Milan, Lombardy"
     },
     {
+      "name": "Cue",
+      "domain": "cuedesk.com",
+      "desc": "The company provides a customer service platform that incorporates AI agents, chatbots, and live chat to automate routine inquiries and improve communication across multiple channels, including WhatsApp and Messenger. Ad",
+      "stage": "SERIES_A",
+      "last_amount": 5000000.0,
+      "total": 7528843.0,
+      "investors": [
+        "Knife Capital",
+        "FAM Investments"
+      ],
+      "location": "London"
+    },
+    {
+      "name": "Whale",
+      "domain": "whale.sg",
+      "desc": "The company provides an AI-driven platform focused on surveillance and operational management, particularly for the retail sector, utilizing data analytics and visual intelligence to enhance efficiency and customer engag",
+      "stage": "SERIES_C",
+      "last_amount": 40000000.0,
+      "total": 181037371.0,
+      "investors": [
+        "Charisma Partners 弘章资本",
+        "Hyundai Motor Group",
+        "Gentree Fund",
+        "Bosch Ventures"
+      ],
+      "location": "Singapore"
+    },
+    {
+      "name": "Oze",
+      "domain": "getoze.com",
+      "desc": "Oze offers a business application tailored for small and medium enterprises (SMEs) and banks, providing tools for managing invoices, payments, and small business loans. The platform features a mobile app for business own",
+      "stage": "SEED",
+      "last_amount": 250000.0,
+      "total": 4655000.0,
+      "investors": [
+        "Renew Capital",
+        "Anorak Ventures",
+        "CAI Capital Partners",
+        "Google for Startups"
+      ],
+      "location": "Accra"
+    },
+    {
       "name": "ESGAgent.ai - AI Agents for ESG Compliance",
       "domain": "kleantech.com.au",
       "desc": "Klean Technologies offers a B2B SaaS platform that enables retailers to integrate sustainability initiatives into their operations, featuring tools for carbon footprint measurement, impact tracking, and customer engageme",
@@ -459,14 +512,19 @@
       "location": "Brisbane, Queensland"
     },
     {
-      "name": "SimpleAI",
-      "domain": "simpleaiworks.com",
-      "desc": "The primary offering is an AI-driven accounting software that automates various tasks including data entry, invoice processing, and bank reconciliation, leveraging Generative Pre-Trained Transformers for efficient docume",
-      "stage": "SEED",
-      "last_amount": 5000000.0,
-      "total": 5000000.0,
-      "investors": [],
-      "location": "Singapore"
+      "name": "Velocity AI",
+      "domain": "velocityai.io",
+      "desc": "Velocity AI provides an AI-driven platform designed to enhance sales processes through real-time guidance, automated CRM updates, and dynamic checklists that adapt during sales conversations. The technology leverages pre",
+      "stage": "SERIES_A",
+      "last_amount": 38000000.0,
+      "total": 38000000.0,
+      "investors": [
+        "Wintermute Ventures",
+        "FirstMark",
+        "Activant Capital",
+        "Coinbase"
+      ],
+      "location": "SAN FRANCISCO, CA"
     },
     {
       "name": "Shiprazor",
@@ -499,6 +557,19 @@
       "location": "Glen Allen, Virginia"
     },
     {
+      "name": "Pulse Security AI, Inc.",
+      "domain": "pulsesecurity.ai",
+      "desc": "Building an agentic workforce for security leaders to transform the way they do their jobs in this AI Era",
+      "stage": "SEED",
+      "last_amount": 8000000.0,
+      "total": 8000000.0,
+      "investors": [
+        "Zetta Venture Partners",
+        "Foundation Capital"
+      ],
+      "location": "Los Altos, California"
+    },
+    {
       "name": "Solving.AI",
       "domain": "solving.ai",
       "desc": "The main product is an AI-driven platform that integrates into software applications to provide real-time, contextual guidance, enhancing user onboarding and feature adoption through interactive instructions. It utilizes",
@@ -521,6 +592,18 @@
         "Spiral Capital"
       ],
       "location": "WeWork, 21 Floor, Shiroyama Trust Tower, 4-3-1 Toranomon, Tokyo, Minato-ku, Japan"
+    },
+    {
+      "name": "Liveday",
+      "domain": "liveday.se",
+      "desc": "Liveday provides an integrated event platform tailored for the sports sector, which consolidates ticket sales, merchandise, restaurant bookings, and a point-of-sale system into a unified checkout experience. The platform",
+      "stage": "SEED",
+      "last_amount": 309669.0,
+      "total": 800662.0,
+      "investors": [
+        "Henrik Zetterberg"
+      ],
+      "location": "Helsingborg"
     },
     {
       "name": "Marakisoft Technologies",

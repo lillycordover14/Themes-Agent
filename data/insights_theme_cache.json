@@ -1103,5 +1103,125 @@
     "theme": "Energy & climate",
     "domain": "",
     "clean": "Surge Battery"
+  },
+  "whale": {
+    "theme": "Data infrastructure",
+    "domain": "",
+    "clean": "Whale"
+  },
+  "velocityai": {
+    "theme": "Sales & GTM AI",
+    "domain": "",
+    "clean": "Velocity AI"
+  },
+  "riskledger": {
+    "theme": "Cybersecurity",
+    "domain": "",
+    "clean": "Risk Ledger"
+  },
+  "cue": {
+    "theme": "Applied AI agents",
+    "domain": "",
+    "clean": "Cue"
+  },
+  "proaction": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Proaction"
+  },
+  "esgagentai": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "ESGAgent.ai"
+  },
+  "liveday": {
+    "theme": "Sales & GTM AI",
+    "domain": "",
+    "clean": "Liveday"
+  },
+  "finto": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Finto"
+  },
+  "norm": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Norm"
+  },
+  "float": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "Float"
+  },
+  "terraai": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Terra AI"
+  },
+  "novellia": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Novellia"
+  },
+  "tavobiotherapeutics": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Tavo Biotherapeutics"
+  },
+  "arpio": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Arpio"
+  },
+  "naturals": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Naturals"
+  },
+  "newlimit": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "NewLimit"
+  },
+  "board": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Board"
+  },
+  "plot": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Plot"
+  },
+  "speedlabs": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "SpeedLabs"
+  },
+  "drivenets": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "DriveNets"
+  },
+  "unastella": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Unastella"
+  },
+  "lighttable": {
+    "theme": "Vertical SaaS",
+    "domain": "",
+    "clean": "LightTable"
+  },
+  "waypointbio": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Waypoint Bio"
+  },
+  "gradientlabs": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Gradient Labs"
   }
 }

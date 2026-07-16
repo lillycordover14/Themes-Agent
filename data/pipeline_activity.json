@@ -121,6 +121,13 @@
           "title": "Celebrating Ten Years of NetBox & Announcing our Infrastructure Intelligence Platform",
           "link": "https://netboxlabs.com/blog/evolving-infrastructure-intelligence-platform/",
           "source": "Blog"
+        },
+        {
+          "date": "2026-06-04",
+          "category": "Blog",
+          "title": "Meet Jay Harrison, the Director Building NetBox Cloud’s Foundations",
+          "link": "https://netboxlabs.com/blog/meet-jay-harrison-the-director-building-netbox-clouds-foundations/",
+          "source": "Blog"
         }
       ],
       "conferences": [
