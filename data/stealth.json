@@ -1,6 +1,255 @@
 {
   "generated": "2026-07-16",
   "window_days": 90,
-  "count": 0,
-  "items": []
+  "count": 31,
+  "items": [
+    {
+      "company": "",
+      "title": "Ex-HubSpot engineering director builds AI CRM that acts",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-07-16",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-357"
+    },
+    {
+      "company": "",
+      "title": "Ex-Boston Dynamics roboticist builds YC-backed AI robotics venture",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-07-16",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-357"
+    },
+    {
+      "company": "",
+      "title": "Ex-Gamma CEO builds treasury infra for instant payments",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-07-13",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-356"
+    },
+    {
+      "company": "",
+      "title": "Ex-LinkedIn engineering lead builds a 3.7B-transaction database for fintechs",
+      "blurb": "",
+      "theme": "Precision Applications",
+      "date": "2026-07-13",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-356"
+    },
+    {
+      "company": "",
+      "title": "Airbnb Chief Trust Officer enters stealth",
+      "blurb": "",
+      "theme": "Precision Applications",
+      "date": "2026-07-09",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-355"
+    },
+    {
+      "company": "",
+      "title": "Anduril defense lead and Vultron founder enters stealth",
+      "blurb": "",
+      "theme": "Precision Applications",
+      "date": "2026-07-09",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-355"
+    },
+    {
+      "company": "",
+      "title": "Ex-Apple AI privacy lead builds GTM agents across voice",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-07-06",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-354"
+    },
+    {
+      "company": "",
+      "title": "TU Delft engineer builds interceptor-in-a-box defense for grids",
+      "blurb": "",
+      "theme": "Precision Applications",
+      "date": "2026-07-06",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-354"
+    },
+    {
+      "company": "",
+      "title": "Ex-BofA quant helps insurers assess AI risk",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-07-06",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-354"
+    },
+    {
+      "company": "",
+      "title": "Origin researcher builds AI for predicting drug response before clinical trials",
+      "blurb": "",
+      "theme": "Precision Applications",
+      "date": "2026-07-02",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-353"
+    },
+    {
+      "company": "",
+      "title": "Ex-Amazon engineer is building one API across 15+ voice AI providers",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-07-02",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-353"
+    },
+    {
+      "company": "",
+      "title": "Ex-Tesla engineer raises $70M to build robot foundation model infra",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-06-29",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-352"
+    },
+    {
+      "company": "",
+      "title": "Rogo founding engineer builds BI platform for college athletics",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-06-29",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-352"
+    },
+    {
+      "company": "",
+      "title": "Ex-Huawei AI hardware scientist enters stealth",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-06-29",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-352"
+    },
+    {
+      "company": "",
+      "title": "Oxford PhD builds energy-efficient AI models for edge devices",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-06-25",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-351"
+    },
+    {
+      "company": "",
+      "title": "Caltech ML researcher builds AI for lab protocols",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-06-22",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-350"
+    },
+    {
+      "company": "",
+      "title": "McKinsey alum builds ROI accountability for enterprise AI agents",
+      "blurb": "",
+      "theme": "Applied AI",
+      "date": "2026-06-18",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-349"
+    },
+    {
+      "company": "",
+      "title": "Former reconstructive surgeon builds soft robotics platform",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-06-15",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-348"
+    },
+    {
+      "company": "",
+      "title": "CMU Robotics PhD builds touch-aware robots",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-06-11",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-347"
+    },
+    {
+      "company": "",
+      "title": "Stanford/Harvard co-founder of ORNA enters stealth in biotech",
+      "blurb": "",
+      "theme": "Edge Computing",
+      "date": "2026-06-11",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-347"
+    },
+    {
+      "company": "",
+      "title": "Ex-Mistral AI GTM lead launches stealth startup",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-06-11",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-347"
+    },
+    {
+      "company": "",
+      "title": "Ardent VC principal builds voice AI that interviews entire orgs",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-06-08",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-346"
+    },
+    {
+      "company": "",
+      "title": "Broadlume founder builds AI OS for home services",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-06-08",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-346"
+    },
+    {
+      "company": "",
+      "title": "MIT/Autodesk exit founder builds semi-autonomous wildfire robotics",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-06-04",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-345"
+    },
+    {
+      "company": "",
+      "title": "Harvard MBA Uber Freight GM builds AI logistics OS for healthcare",
+      "blurb": "",
+      "theme": "Precision Applications",
+      "date": "2026-06-04",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-345"
+    },
+    {
+      "company": "",
+      "title": "Roblox ML scientist enters stealth",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-06-01",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-344"
+    },
+    {
+      "company": "",
+      "title": "Ex-Ogilvy PE operator builds AI for the full PE deal lifecycle",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-06-01",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-344"
+    },
+    {
+      "company": "",
+      "title": "Ex-Apple Camera Lead builds AI-driven robotics for manufacturing",
+      "blurb": "",
+      "theme": "Precision Applications",
+      "date": "2026-05-28",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-343"
+    },
+    {
+      "company": "",
+      "title": "Harvard PhD builds AI biosecurity infrastructure for the bioeconomy",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-05-28",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-343"
+    },
+    {
+      "company": "",
+      "title": "Datadog alum builds AI dispatch for restoration companies",
+      "blurb": "",
+      "theme": "Applied / horizontal AI",
+      "date": "2026-05-25",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-342"
+    },
+    {
+      "company": "",
+      "title": "Ex-Navy pilot builds real-time aerial intel for defense",
+      "blurb": "",
+      "theme": "Precision Applications",
+      "date": "2026-05-25",
+      "link": "https://stealthstartupspy.substack.com/p/stealth-startup-spy-342"
+    }
+  ]
 }
