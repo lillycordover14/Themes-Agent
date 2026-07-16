@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Stealth tab — companies emerging from stealth (pure Python, free, runs in the daily Action).
 
-Pulls the stealthstartupspy Substack RSS, treats each post as a launch item, filters to B2B
-enterprise fits against SPC's thesis (data/spc_network.json), drops obvious consumer/crypto,
-theme-tags each, dedupes, and keeps a rolling ~90-day window. Writes data/stealth.json. Fail-safe:
-any error yields an empty (but valid) file rather than breaking the build.
+The stealthstartupspy Substack posts are DIGESTS: each post ("Stealth Startup Spy #NNN") packs
+several stealth companies into the subtitle, e.g. "Ex-SpaceX engineer builds AI R&D platform for
+deep tech, Stanford oncology fellow applies AI to cancer biopsies, & Ex-Google engineer ...".
+So we split each recent post into individual company blurbs, drop consumer/crypto, keep B2B
+enterprise fits (theme-tag against SPC's thesis), dedupe, and keep a rolling ~90-day window.
+Writes data/stealth.json. Fail-safe.
 """
 import json, os, re, datetime, urllib.request
 try:
@@ -18,9 +20,14 @@ OUT = os.path.join(ROOT, "data", "stealth.json")
 FEED = "https://stealthstartupspy.substack.com/feed"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 TODAY = datetime.date.today()
-WINDOW = 90  # days
+WINDOW = 90
 
-RAISE_V = re.compile(r"\b(raises?|raised|emerges?|emerged|launch(?:e[sd])?|unveils?|debuts?|secures?|lands?|closes?)\b", re.I)
+SPLIT = re.compile(r",\s+|\s+&\s+|;\s+|\s+•\s+")
+ENT = re.compile(r"\b(ai|ml|llm|platform|software|infrastructure|enterprise|b2b|api|saas|developer|dev tools|"
+                 r"automation|agent|agentic|security|cyber|cloud|compute|robotics|fintech|health|clinical|legal|"
+                 r"defense|manufactur|supply chain|analytics|payments|insurance|devops|observability|workflow|"
+                 r"copilot|data|model|research|biotech|drug|genomic|protocol|network)\b", re.I)
+TITLE_JUNK = re.compile(r"^stealth\s+startup\s+spy\s*#?\d*$", re.I)
 
 
 def norm(s):
@@ -36,14 +43,13 @@ def strip_html(t):
 
 def load_net():
     try:
-        return json.load(open(NET, encoding="utf-8"))
+        return json.load(open(NET, encoding="utf-8")).get("fit", {})
     except Exception:
-        return {"fit": {"themes": {}, "pass_signals": {}}}
+        return {"themes": {}, "pass_signals": {}}
 
 
 def theme_of(text, fit):
-    t = (text or "").lower()
-    best, n = "", 0
+    t = (text or "").lower(); best, n = "", 0
     for label, kws in fit.get("themes", {}).items():
         c = sum(1 for k in kws if k in t)
         if c > n:
@@ -53,26 +59,10 @@ def theme_of(text, fit):
 
 def is_consumer(text, fit):
     t = (text or "").lower()
-    bad = fit.get("pass_signals", {}).get("keywords_downrank", [])
-    return any(b in t for b in bad)
+    return any(b in t for b in fit.get("pass_signals", {}).get("keywords_downrank", []))
 
 
-def company_of(title):
-    """Best-effort company name from a launch headline; '' if it reads like a topic, not a name."""
-    t = strip_html(title or "")
-    t = re.sub(r"^\s*(?:exclusive|scoop|breaking|stealth\s+startup\s+spy)\s*[:\-–]\s*", "", t, flags=re.I)
-    m = RAISE_V.search(t)
-    co = t[:m.start()].strip(" -–—:·|") if m else t
-    co = re.sub(r"\s*[|–—-]\s+.*$", "", co).strip()
-    # strip leading "<Demonym/sector> " noise handled loosely; drop if too long / clearly a sentence
-    if not co or len(co.split()) > 5:
-        return ""
-    if norm(co) in {"the", "a", "an", "ai", "startup", "stealth"}:
-        return ""
-    return co
-
-
-def fetch_feed():
+def fetch_entries():
     if not feedparser:
         return []
     try:
@@ -82,45 +72,63 @@ def fetch_feed():
         return []
 
 
-def within_window(d):
-    try:
-        return (TODAY - d).days <= WINDOW
-    except Exception:
-        return True
+def entry_date(e):
+    for k in ("published_parsed", "updated_parsed"):
+        if e.get(k):
+            try:
+                return datetime.date(*e[k][:3])
+            except Exception:
+                pass
+    return None
+
+
+def fragments(e):
+    """Individual company blurbs from a digest post (subtitle preferred, else body)."""
+    sub = strip_html(e.get("summary") or "")
+    body = ""
+    if e.get("content"):
+        try:
+            body = strip_html(e["content"][0].get("value") or "")
+        except Exception:
+            body = ""
+    text = sub if len(sub) > 40 else (sub + " " + body)
+    text = re.sub(r"…|\.\.\.$", "", text).strip()
+    parts = [p.strip(" .–—-") for p in SPLIT.split(text) if p.strip()]
+    # merge trailing "and X" style handled by split; keep parts that read like a company blurb
+    out = []
+    for p in parts:
+        if TITLE_JUNK.match(p) or len(p) < 14 or len(p.split()) < 3:
+            continue
+        p = re.sub(r"^(?:and|&)\s+", "", p).strip(" .–—-&")
+        if len(p) < 14 or len(p.split()) < 3:
+            continue
+        out.append(p[:200])
+    return out
 
 
 def main():
-    net = load_net(); fit = net.get("fit", {})
+    fit = load_net()
     items, seen = [], set()
-    for e in fetch_feed():
-        title = strip_html(e.get("title") or "")
+    for e in fetch_entries():
+        d = entry_date(e)
+        if d and (TODAY - d).days > WINDOW:
+            continue
         link = e.get("link", "") or ""
-        blurb = strip_html(e.get("summary") or (e.get("content", [{}])[0].get("value") if e.get("content") else "") or "")[:280]
-        dt = None
-        for k in ("published_parsed", "updated_parsed"):
-            if e.get(k):
-                try:
-                    dt = datetime.date(*e[k][:3]); break
-                except Exception:
-                    pass
-        if dt and not within_window(dt):
-            continue
-        key = norm(link) or norm(title)
-        if not title or key in seen:
-            continue
-        seen.add(key)
-        blob = title + " . " + blurb
-        if is_consumer(blob, fit):
-            continue                      # drop consumer/crypto
-        theme = theme_of(blob, fit)
-        if not theme:
-            continue                      # keep only recognizable B2B-enterprise fits
-        items.append({
-            "company": company_of(title), "title": title[:180], "blurb": blurb,
-            "theme": theme, "date": dt.isoformat() if dt else "", "link": link,
-        })
+        for frag in fragments(e):
+            if is_consumer(frag, fit):
+                continue
+            theme = theme_of(frag, fit)
+            if not theme and not ENT.search(frag):
+                continue
+            k = norm(frag)[:60]
+            if not k or k in seen:
+                continue
+            seen.add(k)
+            items.append({"company": "", "title": frag, "blurb": "",
+                          "theme": theme or "Applied / horizontal AI",
+                          "date": d.isoformat() if d else "", "link": link})
     items.sort(key=lambda x: x.get("date", ""), reverse=True)
-    items = items[:60]
+    items = items[:80]
     json.dump({"generated": TODAY.isoformat(), "window_days": WINDOW, "count": len(items), "items": items},
               open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print("Wrote stealth.json — %d B2B-fit stealth items" % len(items))
