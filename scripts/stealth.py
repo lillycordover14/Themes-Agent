@@ -17,7 +17,7 @@ except Exception:
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NET = os.path.join(ROOT, "data", "spc_network.json")
 OUT = os.path.join(ROOT, "data", "stealth.json")
-FEED = "https://stealthstartupspy.substack.com/feed"
+API = "https://stealthstartupspy.substack.com/api/v1/archive?sort=new&limit=50"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 TODAY = datetime.date.today()
 WINDOW = 90
@@ -63,35 +63,25 @@ def is_consumer(text, fit):
 
 
 def fetch_entries():
-    if not feedparser:
-        return []
+    """Posts from Substack's public JSON archive API: [{title, subtitle, post_date, canonical_url}]."""
     try:
-        raw = urllib.request.urlopen(urllib.request.Request(FEED, headers={"User-Agent": UA}), timeout=20).read()
-        return getattr(feedparser.parse(raw), "entries", []) or []
+        raw = urllib.request.urlopen(urllib.request.Request(API, headers={"User-Agent": UA, "Accept": "application/json"}), timeout=25).read()
+        return json.loads(raw) or []
     except Exception:
         return []
 
 
 def entry_date(e):
-    for k in ("published_parsed", "updated_parsed"):
-        if e.get(k):
-            try:
-                return datetime.date(*e[k][:3])
-            except Exception:
-                pass
-    return None
+    d = (e.get("post_date") or "")[:10]
+    try:
+        y, m, dd = map(int, d.split("-")); return datetime.date(y, m, dd)
+    except Exception:
+        return None
 
 
 def fragments(e):
-    """Individual company blurbs from a digest post (subtitle preferred, else body)."""
-    sub = strip_html(e.get("summary") or "")
-    body = ""
-    if e.get("content"):
-        try:
-            body = strip_html(e["content"][0].get("value") or "")
-        except Exception:
-            body = ""
-    text = sub if len(sub) > 40 else (sub + " " + body)
+    """Individual company blurbs from a digest post's subtitle (the company list)."""
+    text = strip_html(e.get("subtitle") or e.get("description") or "")
     text = re.sub(r"…|\.\.\.$", "", text).strip()
     parts = [p.strip(" .–—-") for p in SPLIT.split(text) if p.strip()]
     # merge trailing "and X" style handled by split; keep parts that read like a company blurb
@@ -113,7 +103,7 @@ def main():
         d = entry_date(e)
         if d and (TODAY - d).days > WINDOW:
             continue
-        link = e.get("link", "") or ""
+        link = e.get("canonical_url", "") or ""
         for frag in fragments(e):
             if is_consumer(frag, fit):
                 continue
