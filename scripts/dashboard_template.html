@@ -147,7 +147,7 @@ function money(n){n=n||0;if(n>=1e9)return '$'+(n/1e9).toFixed(1)+'B';if(n>=1e6)r
 function esc(s){return (s||'').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function fmtd(s){if(!s)return '—';var p=(''+s).slice(0,10).split('-');if(p.length===3){var mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][(+p[1])-1]||'';return mo+' '+(+p[2])+', '+p[0].slice(2);}return s;}
 function showTab(t){['radar','funds','raising','sourcing','stealth'].forEach(function(k){var a=document.getElementById('tab-'+k),b=document.getElementById('tb-'+k);if(a)a.classList.toggle('active',k===t);if(b)b.classList.toggle('active',k===t);});}
-document.getElementById('meta').textContent='Updated '+new Date(D.generated).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+document.getElementById('meta').textContent='Updated '+new Date((D.generated||'')+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
 var INS=BLOB.INS||{raises:[],themes:[],kpis:{}};var IK=INS.kpis||{};
 function m2(n){n=n||0;return n>=1000?('$'+(n/1000).toFixed(1)+'B'):('$'+n+'M');}
 document.getElementById('k-early').textContent=IK.early_raises||0;
