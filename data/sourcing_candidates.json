@@ -1,0 +1,830 @@
+{
+  "generated": "2026-07-15",
+  "window_days": 45,
+  "counts": {
+    "actionable": 15,
+    "watchlist": 26,
+    "excluded_off_thesis": 5
+  },
+  "actionable": [
+    {
+      "company": "Aria",
+      "desc": "Fintech & payments",
+      "theme": "Precision Applications",
+      "vertical": "",
+      "stage": "Series A",
+      "amount_m": 274,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://helloaria.eu",
+      "domain": "helloaria.eu",
+      "tier": "actionable",
+      "fit_reason": "Series A ($274M) — sizable A, likely at/near the ARR floor",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Lyzr AI",
+      "desc": "Applied AI agents",
+      "theme": "Applied AI",
+      "vertical": "",
+      "stage": "Series B",
+      "amount_m": 100,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://lyzr.ai",
+      "domain": "lyzr.ai",
+      "tier": "actionable",
+      "fit_reason": "Series B ($100M) — growth-stage sweet spot",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "TJM Labs",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Series B",
+      "amount_m": 75,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://tjmlabs.com",
+      "domain": "tjmlabs.com",
+      "tier": "actionable",
+      "fit_reason": "Series B ($75M) — growth-stage sweet spot",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "InstaLILY AI",
+      "desc": "Applied AI agents",
+      "theme": "Applied AI",
+      "vertical": "",
+      "stage": "Series B",
+      "amount_m": 60,
+      "investors": [
+        "Energize Capital",
+        "Energize Capital - TradingView"
+      ],
+      "date": "2026-07-15",
+      "link": "https://instalily.ai",
+      "domain": "instalily.ai",
+      "tier": "actionable",
+      "fit_reason": "Series B ($60M) — growth-stage sweet spot",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Feathery",
+      "desc": "Financial back-office & compliance AI",
+      "theme": "Precision Applications",
+      "vertical": "Compliance",
+      "stage": "Series A",
+      "amount_m": 30,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://feathery.io",
+      "domain": "feathery.io",
+      "tier": "actionable",
+      "fit_reason": "Series A ($30M) — sizable A, likely at/near the ARR floor",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Parspec",
+      "desc": "Logistics & supply chain",
+      "theme": "Precision Applications",
+      "vertical": "Supply Chain",
+      "stage": "Series A",
+      "amount_m": 20,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://parspec.io",
+      "domain": "parspec.io",
+      "tier": "actionable",
+      "fit_reason": "Series A ($20M) — sizable A, likely at/near the ARR floor",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "xCures",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Series B",
+      "amount_m": 46,
+      "investors": [
+        "Spark Capital",
+        "Spark Capital - Healthcare IT Today"
+      ],
+      "date": "2026-07-10",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSU9pbC1paDZoX3Z1YWdlTFIyQklqQ0pBTW4yX1l4TGFpSVVqTFNNakRzQkxTdUNzcGUxeGdsSEE0SU5sa1h5UWlSRlZ4WHB2RkgybEtWb0dqMV9vb2kzb25yeXlONXpiUFBiUVVILUdmTE9Fd0RhNjJpc0twNm1JOTBhbTI5SEVRdUxiRXpjY09GYVpfM3BwSGxfUHJ4cFpzQmc3c3JPbE95a0RuTnN1aU4weGhfUkdtMGs5bjVQQldsMUh3U3BjQ3lXYnFUZGdCSk1IV2xR?oc=5",
+      "domain": "news.google.com",
+      "tier": "actionable",
+      "fit_reason": "Series B ($46M) — growth-stage sweet spot",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Spark Capital — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
+    },
+    {
+      "company": "Sandstone",
+      "desc": "Legal AI",
+      "theme": "Precision Applications",
+      "vertical": "Legal",
+      "stage": "Series A",
+      "amount_m": 30,
+      "investors": [
+        "Lightspeed"
+      ],
+      "date": "2026-06-29",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5b2lGaVR4MThTdnNHc0dLZnJ6ZHR1SzBzckFvNFRoVkR0WldfcVZ3R3JOUkxuTmJPYTNlQUlaTmYtYWdzLW9CQTV0aDJVd3hkWFVUR3M4SEU?oc=5",
+      "domain": "news.google.com",
+      "tier": "actionable",
+      "fit_reason": "Series A ($30M) — sizable A, likely at/near the ARR floor",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Lightspeed — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
+    },
+    {
+      "company": "Fomo",
+      "desc": "Fintech & payments",
+      "theme": "Precision Applications",
+      "vertical": "",
+      "stage": "Series B",
+      "amount_m": 75,
+      "investors": [
+        "Union Square Ventures"
+      ],
+      "date": "2026-06-26",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX2tONFZLdDMzdkhuU3FEZW5TU19VbVNvbk9wNVFycGZlQnpyMl9hZUFDalgtbHY3ZE50RmtHZmdvejR3RldUTnFONFp4Z2tfWkpKZDFTUGs3SG5lSkVGaDhRcVFFSkNKVWhJQ2VWZ2huSnUyOXJRN284TzJPdDlBaFZkdm12dTRnd1RJUWUzUnhUX3lsMVh1Uy1LLXU1cnJTM3JJMVhZNGpEUQ?oc=5",
+      "domain": "news.google.com",
+      "tier": "actionable",
+      "fit_reason": "Series B ($75M) — growth-stage sweet spot",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Hera",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Series A",
+      "amount_m": 27,
+      "investors": [
+        "Bain Capital Ventures",
+        "Bain Capital Ventures - Pulse 2.0",
+        "IA Ventures"
+      ],
+      "date": "2026-06-26",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY0V4XzVxbzJJeE8zN1lDeXlWQ0tPQW1JN0t5cHZPeFlIajNPR3BOMC02d2ZKYnIxMHVhdXZnRS0zdzV1UzRvV255QUxBSTV2b1lpR2ZoOVlPSVZYb3B5bGc5eHJVcDhLN0dNeUh4cU1RcjZnck1uX3pjZ05JbUxCUUdablRNWjN4N2NFQU5TcHFNWEM3cWlrNTZHQjlEd2IwNml6UU5GMlZnUWJyRDZzN0Nn?oc=5",
+      "domain": "news.google.com",
+      "tier": "actionable",
+      "fit_reason": "Series A ($27M) — sizable A, likely at/near the ARR floor",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Cadence",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Series C",
+      "amount_m": 100,
+      "investors": [
+        "General Catalyst",
+        "Spark Capital",
+        "Thrive Capital"
+      ],
+      "date": "2026-06-24",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEJlbTFiOHNTZnFEWmR4RTF1NjZzSDBKX1RHS29uTDUtM055cDA0eERFZFVPdEczejBoeHgyOWZuVHJoOEcwNXh3WVVjRS1nUjl5VENfMGE5bzRJYVhZaWpRbTUtczI1ZThFcmdKTDlrOV9yWW42MUlQY2w5TzF3d2U3MUhHcTZxRW5mNTVoYjZvaXpZckl2MGJMcWtzUnBONXU2b25rYzBLb1ZHRTU0X2tFUVQ2aXhWYW9hTlB4dW9ucE0?oc=5",
+      "domain": "news.google.com",
+      "tier": "actionable",
+      "fit_reason": "Series C ($100M) — growth-stage sweet spot",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Spark Capital — a fund SPC gets intros through"
+        },
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Thrive Capital — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
+    },
+    {
+      "company": "Prosper AI",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Series A",
+      "amount_m": 30,
+      "investors": [
+        "a16z"
+      ],
+      "date": "2026-06-22",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSnFVX3NSQ2pSdjZTbmd6UHFmVURsaC1GWkVqUFJJWkU4eFNMUEtFa2hfd3cyVFVRRTM1aXRJdkZZMFZvU1hFaF9QVWNPNXctaVkyZFJOYThqRlEwWFFNdWF0Yzc1ZXAwRVJNMWdDeFp2b044UFRWV3FGdG9WLVNOYXJDOG4xanVZLUZWR0I0WQ?oc=5",
+      "domain": "news.google.com",
+      "tier": "actionable",
+      "fit_reason": "Series A ($30M) — sizable A, likely at/near the ARR floor",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by a16z — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
+    },
+    {
+      "company": "Adaptive Innovations",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Series A",
+      "amount_m": 60,
+      "investors": [
+        "Bain Capital Ventures"
+      ],
+      "date": "2026-06-09",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObFJXOGkySHZaVnctbUNsRmF5MGZFZzRZNFJHMlBoWHlMMDJfOF9fNmRGUUNFdHliSFJHUFI1QnlNd3FZb3BXeFRVc0VxcXZMdng1cmNQUlpTc1VNMVJqQksydjZwR2l3UkJ3MXdqM3hfekhDam5hZDdvdkV3MVJkUnFmQm81V244V2ZwNV9VaXg1UQ?oc=5",
+      "domain": "news.google.com",
+      "tier": "actionable",
+      "fit_reason": "Series A ($60M) — sizable A, likely at/near the ARR floor",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Stepful",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Series C",
+      "amount_m": 55,
+      "investors": [
+        "Oak HC/FT"
+      ],
+      "date": "2026-06-08",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN2VFM1EzVjM3bVVMRy11MTNCODdFZXJXN0NuQjZYTEgwRmJfRzR4SmRWcHg1N0ZuNjdlb1NDVmF0MWUxNm43d2RDbEFPbXdwdndyVXgzSThEclNmY2c2TF9JbUFPbkxxcXI2NXFxVWZ6WFY1VWtra0txVE9SUzVjREtfNmdxbDZDUF9vdUVzRE9BVVMtSDZZR2FOa3pKVG5XU21IYkxCMnNjV0pRMER0aUVGYjRQZE80ODJqOGZqVUhDcnF5Tm9hOV9jYVZhQQ?oc=5",
+      "domain": "news.google.com",
+      "tier": "actionable",
+      "fit_reason": "Series C ($55M) — growth-stage sweet spot",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Collate",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Series A",
+      "amount_m": 95,
+      "investors": [
+        "First Round",
+        "Redpoint"
+      ],
+      "date": "2026-06-07",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRzFZNDRYWFVndVd5YXRwUmJNLVEtZU5JaTFWemJRSnNhSHlJTkQ0SW1pTVBEY09MWFFER1N2RG9acGJ1bVBFRm40ZDA4MmR2d1kxREpkUFZLRFZsQXpjVUUzLTRlNWRCbXVUNzl4djAzeWc4RW5qVEFxVWRDWnF4TEplVHRaMkk4U0ZDa3lUM2JybzJyRng4QlBITWZCRXhNMHR3VXFzN1VibEFwQUV2RHBmQkHSAboBQVVfeXFMUDlfb0pkYWREOGZWWjNQRWR5SmJ1UmlYT29kaE9GckxGRFNxWHhtNmZUYlZxX3ZQNmpleUxxckctRTAxS3FTbTdzZ1F5V3NfeWlWTjdaQU1MLThTRkp2SkNHbVNnRDlVbDhxcS1QamJhVG0wY1E0T1pvanZBYzRsUmxhWjNfN0I1U0NDQThUcEV5aWhScDdZaXVhaGIyd1YxQmQyR0YtX0VCTWdLREs4YV9fQm1sVnNhQldR?oc=5",
+      "domain": "news.google.com",
+      "tier": "actionable",
+      "fit_reason": "Series A ($95M) — sizable A, likely at/near the ARR floor",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Redpoint — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
+    }
+  ],
+  "watchlist": [
+    {
+      "company": "Nurix",
+      "desc": "Applied AI agents",
+      "theme": "Applied AI",
+      "vertical": "",
+      "stage": "Venture Unknown",
+      "amount_m": 14,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://nurix.ai",
+      "domain": "nurix.ai",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "InsideDesk",
+      "desc": "Insurance / insurtech",
+      "theme": "Precision Applications",
+      "vertical": "Insurance",
+      "stage": "Seed",
+      "amount_m": 13,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://insidedesk.com",
+      "domain": "insidedesk.com",
+      "tier": "watchlist",
+      "fit_reason": "Seed — early; track for traction",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Adaptive",
+      "desc": "Applied AI agents",
+      "theme": "Applied AI",
+      "vertical": "",
+      "stage": "Series A",
+      "amount_m": 6,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://adaptive.build",
+      "domain": "adaptive.build",
+      "tier": "watchlist",
+      "fit_reason": "Series A ($6M) — track for the next round",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Prolo",
+      "desc": "Logistics & supply chain",
+      "theme": "Precision Applications",
+      "vertical": "Supply Chain",
+      "stage": "Seed",
+      "amount_m": 6,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://prolo.io",
+      "domain": "prolo.io",
+      "tier": "watchlist",
+      "fit_reason": "Seed — early; track for traction",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Linker Finance",
+      "desc": "Fintech & payments",
+      "theme": "Precision Applications",
+      "vertical": "",
+      "stage": "Seed",
+      "amount_m": 5,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://linkerfinance.com",
+      "domain": "linkerfinance.com",
+      "tier": "watchlist",
+      "fit_reason": "Seed — early; track for traction",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "SimpleAI",
+      "desc": "Financial back-office & compliance AI",
+      "theme": "Precision Applications",
+      "vertical": "Compliance",
+      "stage": "Seed",
+      "amount_m": 5,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://simpleaiworks.com",
+      "domain": "simpleaiworks.com",
+      "tier": "watchlist",
+      "fit_reason": "Seed — early; track for traction",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Synthreo",
+      "desc": "Applied AI agents",
+      "theme": "Applied AI",
+      "vertical": "",
+      "stage": "Seed",
+      "amount_m": 2,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://synthreo.ai",
+      "domain": "synthreo.ai",
+      "tier": "watchlist",
+      "fit_reason": "Seed — early; track for traction",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "ESGAgent.ai - AI Agents for ESG Compliance",
+      "desc": "Applied AI agents",
+      "theme": "Applied AI",
+      "vertical": "Compliance",
+      "stage": "Seed",
+      "amount_m": 1,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://kleantech.com.au",
+      "domain": "kleantech.com.au",
+      "tier": "watchlist",
+      "fit_reason": "Seed — early; track for traction",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "DSALTA",
+      "desc": "Financial back-office & compliance AI",
+      "theme": "Precision Applications",
+      "vertical": "Compliance",
+      "stage": "Seed",
+      "amount_m": null,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://dsalta.com",
+      "domain": "dsalta.com",
+      "tier": "watchlist",
+      "fit_reason": "Seed — early; track for traction",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Oze",
+      "desc": "Fintech & payments",
+      "theme": "Precision Applications",
+      "vertical": "",
+      "stage": "Seed",
+      "amount_m": null,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://getoze.com",
+      "domain": "getoze.com",
+      "tier": "watchlist",
+      "fit_reason": "Seed — early; track for traction",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Shiprazor",
+      "desc": "Logistics & supply chain",
+      "theme": "Precision Applications",
+      "vertical": "Supply Chain",
+      "stage": "Seed",
+      "amount_m": null,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://shiprazor.com",
+      "domain": "shiprazor.com",
+      "tier": "watchlist",
+      "fit_reason": "Seed — early; track for traction",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Zendawa",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Seed",
+      "amount_m": null,
+      "investors": [],
+      "date": "2026-07-15",
+      "link": "https://zendawa.africa",
+      "domain": "zendawa.africa",
+      "tier": "watchlist",
+      "fit_reason": "Seed — early; track for traction",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Corner Health",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Venture",
+      "amount_m": 33,
+      "investors": [
+        "Oak HC/FT"
+      ],
+      "date": "2026-07-14",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM014Nk9POTFFb3p0SXhlOU5WaGoxaFFGdElQVkR3Z0ZkTkx4WnFjS2hKdVR5UHFtX1B5SGt3bWozTnYtc1NweE82eWlnYVdyNEg4NnNlWVQ5UjdOOHJlX1YtbmcyY3FZWlcxVllDckJkVjJSMzI5QTh0NTZBZUJaanp2QzEzMlkyaXplTE51b29ZUzBET0M3UEdaQ2xidW5KM1JKZXNOVkV6YThzN1M5andNajJ4bDdaaDMtSEdsOTc?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "fintech Float",
+      "desc": "Fintech & payments",
+      "theme": "Precision Applications",
+      "vertical": "",
+      "stage": "Venture",
+      "amount_m": 85,
+      "investors": [
+        "Inovia Capital"
+      ],
+      "date": "2026-06-29",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVVNfMlZ3TVNneHRzbHZtbm1ERHY0Vnd1YkhpUlJUWlM0N2dKMDlhWnZWb0FzZ0J0ZW94OG1rRjAxYmlwdHk3OS1PVVJFS2FqNHVxLXlKenFFd1p5T01HcTFKUjZxUlVPbFpZUzZDRzNrdl9DNWNQak9PY3hXSUd2RkNRYw?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Pocket",
+      "desc": "Applied AI agents",
+      "theme": "Applied AI",
+      "vertical": "",
+      "stage": "Venture",
+      "amount_m": 11,
+      "investors": [
+        "Accel"
+      ],
+      "date": "2026-06-29",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLXFJMXU2UWUwZkNnWFlGYlgzV0U0YjFsSjBQd0ZGN05WUDhoWmp2dUNFaDR3QlFhNmJXN1VkaV90T2dpMm53ZV9KN1I1MVRmbnZjX0J3WTRva2JYMjYwUy1OdjJUcnlfNDBqOXQ4cEJKTjdibDJudTVYVENWTWJSdmtCcjFDaTFhUHdGdDUteFZMWHFVVFgtVlJn?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Accel — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
+    },
+    {
+      "company": "Sail Research",
+      "desc": "Applied AI agents",
+      "theme": "Applied AI",
+      "vertical": "",
+      "stage": "Venture",
+      "amount_m": 80,
+      "investors": [
+        "Kleiner Perkins"
+      ],
+      "date": "2026-06-25",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaFcyM0l4RHJld3RRVjNGZUoyX3BvZHdaY2dEUm9NamlvM0RTRjJUemNFUVpoT2ZJTnlJRy10UWZkTjBmNE84OFNkVk5QR2QtRGwya1lHVEtJUHNEdElKVEtJcmtWWmpURzNuXzlwMHRJVGY4T3VwRGs1ejIzckVYSTV1NFFxd0lPRllGUnlTdjA2M1VsMzlJazZmN3piS1ExeU5OeTFtVWtYUVZyZnhKYkZjeXJLOVNDZ09pSmZDVnVRZ3k4czVlVDFrNlhub3lwMmhGSkFPVQ?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Kleiner Perkins — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
+    },
+    {
+      "company": "Health-tech start-up SuperLiving",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Venture",
+      "amount_m": 7,
+      "investors": [
+        "Lightspeed",
+        "Lightspeed - Business Standard"
+      ],
+      "date": "2026-06-25",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZjVreUgzZml4Z3VaRnFiRjVNbW9FNDNxdWFBVW11eTdmU0htYlZsTDZHT2tPeVdmcU81eTRjei1oLV9IaHRNMGYwMm96REJYVDdWSmdXcGJ4MER1NEJwY0UxdHFOdGcxU3lJNWxsV2NVdHlod2RXTWcybFlUR1lNTVAxbnRsN3RWaW9fd29iQm1qWjRudFBCNGdCZm5aUFk1Y1lwVERPeTNzRGJuQ2k4SHdqbGh6RG9KS19xZXR3T1JjeXZmX2Y4UnhyRUJibzExNkpITFpDeWnSAd4BQVVfeXFMUGlVNGxHaWZFNU5mQXM3QXI5YVdTSmpKLWx6MWpBSmJmRW52YTUzSmFkYkhrRkc4c192YVJKbVBNeVd1ZXZvYjJGVDNpRFJLdkg0QVRKdW9MeUxMLUV0RDdybkRsOWVwako2NUE3bmpJVUN0bVJvYVgwa3MwUHROUXlWYVIwOVRYVGtDMVJuckhSd3p3NThYY3BNTUFFWjdfN2txUHMzNHRGZVlXMXNaS2E3bU84SmlteFQxQnl0bHo3NVI2V3hNN1Q5WjIyUEVVeVd3U3ltMmFZcllNZl9n?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Lightspeed — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
+    },
+    {
+      "company": "STARK",
+      "desc": "Defense & national security",
+      "theme": "Precision Applications",
+      "vertical": "Defense",
+      "stage": "Venture",
+      "amount_m": null,
+      "investors": [
+        "Founders Fund"
+      ],
+      "date": "2026-06-24",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DOWc1N0tLcWZ4bFowSXJCMG5GcDd4WEVIMEI1bklPNEljVlYtSXVIMW1Vd3VjWFdCTVRNYXJCM29mbUNoWnhtdHVzUURESkVvYnpYUE9jRlE0Wmt2b25taTg4ZzlFVnlVdWJqV2RWODJQeFdqQ09YTE5n?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Founders Fund — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
+    },
+    {
+      "company": "Ladder Health",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Venture",
+      "amount_m": 7,
+      "investors": [
+        "Hatteras Venture Partners"
+      ],
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQR1R5ZnpqQy0yWURxTVdjUmwwZG5LemYzNFQ0SUlCd1ZRbmYta3FibVpNalJXUHlINkFQb25QR2FmTldSTmpVUWVBTzVoUjczQjVrQ2hpdG9Cd1UwZ3E1UXV2RDdTZjMtcGY1V3VvMjd5dzlfYjZaVzA5S1NUUG5OQklSZHFlNXU0WUtsaWFVczZBVk9uOXJ1bnpLNHpFVEtxekFaWE53aTlvcFBtNXZ6dVEzTmQxM2p6QXpYNGNR?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Menlo",
+      "desc": "Fintech & payments",
+      "theme": "Precision Applications",
+      "vertical": "",
+      "stage": "Venture",
+      "amount_m": null,
+      "investors": [
+        "Menlo"
+      ],
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWTRrUkpyOW4yTTlFTUtkMXJMbzlFV2xfbUt5UlE3M2c5ampQRkVuM3NlMHliX2FyR1hISzg1RUNHUzlacTNmWXVOSm45Z1p1aGhyUmtxVGozdHc3dHc3UlJ5anlCOU5nWVlRZHpRcXBGQmVaUUtJNDhlVDdOSmZsTTIxV2JfRXdMM0NqM2ExODRhQ3Bkbl9KcDlyLVBJM3BqdDhoOUtFUU1LWEhKTWh0d2tLMkI5S1V3Rjc0?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Trading app Fomo",
+      "desc": "Fintech & payments",
+      "theme": "Precision Applications",
+      "vertical": "",
+      "stage": "Venture",
+      "amount_m": 75,
+      "investors": [
+        "Union Square Ventures"
+      ],
+      "date": "2026-06-22",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OR2cyMmdJbnlIVWxyMGdHS3RQZWVKMVJ6bVNURkpXM0pmNENpVVNrTkhUTnVSdkl5SUJYWVhPdmE5WTFxMl9KNkZxQlFBTTRtbS1rOExkYmt4Vno3bl91Ulg0WVJEUQ?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Vetic",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Venture",
+      "amount_m": 40,
+      "investors": [
+        "Bessemer"
+      ],
+      "date": "2026-06-19",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb2dlX2xwbUdWVDNuN0t1Qk5zSWlKS0luWmxtRTVQZVQtWDcyVnl3VWxXeWVZRkJLNi1WLVF0cFV1aDFJLXRqQ1JicWp2dkZPcWwyel9sc3ZYSkkweER2OHdyUldaS0ZwV2tWZGFnd1dIdVVoQWhUeENtZEZYemI0NUJIMHZMa2h3RmRFVDAyeUE3Wmo2dzh3c0ZGaGd2c09ob1JBcUdnU2lndEtB?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Bessemer — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
+    },
+    {
+      "company": "Sen. Gillibrand’s 22-year-old son",
+      "desc": "Fintech & payments",
+      "theme": "Precision Applications",
+      "vertical": "",
+      "stage": "Venture",
+      "amount_m": 30,
+      "investors": [
+        "Lux Capital"
+      ],
+      "date": "2026-06-19",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaW1yTmx5UXlnM0pPb2Y5WXNDSWR3X05PbzRUU0NFZzRoS1VpN3FEWVZmNU5SZEpxYk9xbGFzYV9aN180bEs2WHpjbGVWWUVIMVlCSGluMG5hdFdaU2FDd1hzN1JzTHUwa2xZeEtRQzJlU09lbzY1YWt6QkI0S1VSc051MFNBdTF3emp1ckNEZ1F6Qm5yZXpUYVNVbGExZlJsQVQ5UFpQTkdsRTZLV0w4dlBHaVdWMDFYMTZuLVhReldIU0MzNm1veHJnazR0ZEJGY0E?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Pet healthcare startup Vetic",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Venture",
+      "amount_m": 40,
+      "investors": [
+        "Bessemer",
+        "Bessemer - Entrackr",
+        "Bessemer Venture Partners - BusinessLine",
+        "Bessemer Venture Partners - YourStory.com"
+      ],
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVhSUGY2ck90Q0tRaG5tbTZyNDU3V1JZSWtmZTR3Mm9FNldCYTZ4ckN0SnNBam43cVJDYl81LWRzcWJZRFJ0Tm5xdnl0eUhVaDNCeklpb3h6TzJ1d21QUkFuYlNidXFDVGNxMkZsSFdDdzBVUVVFQjhiaTJxQ2stZDFOY3FEcExoRUF3aklZUndoOGVNUS0w0gGXAUFVX3lxTE9NWFJQZjZyT3RDS1Fobm1tNnI0NTdXUllJa2ZlNHcyb0U2V0JhNnhyQ3RKc0FqbjdxUkNiXzUtZHNxYllEUnRObnF2eXR5SFVoM0J6SWlveHpPMnV3bVBSQW5iU2J1cUNUY3EyRmxIV0N3MFVRVUVCOGJpMnFDay1kMU5jcURwTGhFQXdqSVlSd2g4ZU1RLTA?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Bessemer — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
+    },
+    {
+      "company": "SonoThera",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Venture",
+      "amount_m": 125,
+      "investors": [
+        "Vivo Capital"
+      ],
+      "date": "2026-06-12",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTVh4bGVxN3k2T19vWWVXeDRWcGtWaXJtRERqTTlBbE1TMzlBV3Bma3Q1OFJXUXROdS1fZmpKOGV5S1VVYWlmVGloYWt3YXZZbHA0NEIyR1BLTkNsaEVjRWRIVUt6WmpGSlNFR2w2c2F3VEF1aHVrVHl1TlZUcER4UWxoNzIxOE1iTWxmeW03QVVlbm1zM2JYUE95LU84NkUwZW5OcENVeHQxVnVtZEVoejJPTXlVSDc2cEdOeA?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "SyntheticFi",
+      "desc": "Fintech & payments",
+      "theme": "Precision Applications",
+      "vertical": "",
+      "stage": "Venture",
+      "amount_m": 13,
+      "investors": [
+        "Social Leverage"
+      ],
+      "date": "2026-06-10",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa1Z1WHJ3Mms3VGlXNkNfbzBIUTBoVzMxN0VObkZCS1BSY2Q3bTh4Z2pMOHp1VDh4VFRtcEZPTFFPTGRiTDdTUlZIT0MxMGJlbHdXTnlXdV9VQnBCUlo3YkZBdGJ0NklHLUZOaDRrSUczS0RHWDRPME5leVJGb3FMODI4LUoxdTA?oc=5",
+      "domain": "news.google.com",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    }
+  ],
+  "enriched": false,
+  "enriched_at": null
+}

@@ -11,13 +11,13 @@
   },
   "lyzrai": {
     "theme": "Applied AI agents",
-    "domain": "",
-    "clean": "Lyzr AI"
+    "clean": "Lyzr AI",
+    "src": "affinity-desc"
   },
   "tjmlabs": {
     "theme": "Healthcare & bio AI",
-    "domain": "",
-    "clean": "TJM Labs"
+    "clean": "TJM Labs",
+    "src": "affinity-desc"
   },
   "flex": {
     "theme": "Applied / horizontal AI",
@@ -25,9 +25,9 @@
     "clean": "Flex"
   },
   "instalilyai": {
-    "theme": "Fintech & payments",
-    "domain": "",
-    "clean": "InstaLILY AI"
+    "theme": "Applied AI agents",
+    "clean": "InstaLILY AI",
+    "src": "affinity-desc"
   },
   "valarian": {
     "theme": "Applied / horizontal AI",
@@ -35,14 +35,14 @@
     "clean": "Valarian"
   },
   "auger": {
-    "theme": "Logistics & supply chain",
-    "domain": "",
-    "clean": "Auger"
+    "theme": "Applied / horizontal AI",
+    "clean": "Auger",
+    "src": "affinity-desc"
   },
   "feathery": {
     "theme": "Financial back-office & compliance AI",
-    "domain": "",
-    "clean": "Feathery"
+    "clean": "Feathery",
+    "src": "affinity-desc"
   },
   "rime": {
     "theme": "Applied / horizontal AI",
@@ -51,8 +51,8 @@
   },
   "parspec": {
     "theme": "Logistics & supply chain",
-    "domain": "",
-    "clean": "Parspec"
+    "clean": "Parspec",
+    "src": "affinity-desc"
   },
   "projectq": {
     "theme": "Applied / horizontal AI",
@@ -276,8 +276,8 @@
   },
   "xcures": {
     "theme": "Healthcare & bio AI",
-    "domain": "",
-    "clean": "xCures"
+    "clean": "xCures",
+    "src": "affinity-desc"
   },
   "axleenergy": {
     "theme": "Energy & climate",
@@ -300,9 +300,9 @@
     "clean": "Databento"
   },
   "primeintellect": {
-    "theme": "Applied AI agents",
-    "domain": "",
-    "clean": "Prime Intellect"
+    "theme": "AI compute & models",
+    "clean": "Prime Intellect",
+    "src": "affinity-desc"
   },
   "aistart": {
     "theme": "Applied / horizontal AI",
@@ -446,8 +446,8 @@
   },
   "sandstone": {
     "theme": "Legal AI",
-    "domain": "",
-    "clean": "Sandstone"
+    "clean": "Sandstone",
+    "src": "affinity-desc"
   },
   "pocket": {
     "theme": "Applied AI agents",
@@ -546,8 +546,8 @@
   },
   "cadence": {
     "theme": "Healthcare & bio AI",
-    "domain": "",
-    "clean": "Cadence"
+    "clean": "Cadence",
+    "src": "affinity-desc"
   },
   "trovy": {
     "theme": "Applied / horizontal AI",
@@ -646,8 +646,8 @@
   },
   "prosperai": {
     "theme": "Healthcare & bio AI",
-    "domain": "",
-    "clean": "Prosper AI"
+    "clean": "Prosper AI",
+    "src": "affinity-desc"
   },
   "ploy": {
     "theme": "Applied / horizontal AI",
@@ -926,8 +926,8 @@
   },
   "stepful": {
     "theme": "Healthcare & bio AI",
-    "domain": "",
-    "clean": "Stepful"
+    "clean": "Stepful",
+    "src": "affinity-desc"
   },
   "asecurity": {
     "theme": "Cybersecurity",
@@ -941,8 +941,8 @@
   },
   "collate": {
     "theme": "Healthcare & bio AI",
-    "domain": "",
-    "clean": "Collate"
+    "clean": "Collate",
+    "src": "affinity-desc"
   },
   "hypernative": {
     "theme": "Applied / horizontal AI",

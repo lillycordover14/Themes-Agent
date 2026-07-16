@@ -161,6 +161,20 @@ def free_connections(domain, investors, net):
         return out[:6]
     emp = {e.lower(): e for e in net.get("network_employers", [])}
     sch = {s.lower(): s for s in net.get("network_schools", [])}
+    # reverse index: which SPC people (team + Precision Advisory Network) share each employer / school
+    emp_people, sch_people = {}, {}
+    for grp in ("team", "advisors"):
+        for mem in net.get(grp, []):
+            who = mem.get("name", "")
+            for e in mem.get("employers", []):
+                emp_people.setdefault(e.lower(), []).append(who)
+            for sc in mem.get("schools", []):
+                sch_people.setdefault(sc.lower(), []).append(who)
+    def wholist(names):
+        names = [n for n in names if n]
+        if not names:
+            return "SPC"
+        return names[0] if len(names) == 1 else (names[0] + " + %d more" % (len(names) - 1) if len(names) > 2 else " & ".join(names))
     text = ""
     for url in exec_pages(domain):
         html = fetch_text(url)
@@ -174,14 +188,14 @@ def free_connections(domain, investors, net):
         fl = frag.lower()
         for k, v in emp.items():
             if k in fl and v not in seen:
-                seen.add(v); out.append({"kind": "pedigree", "detail": "An exec previously at %s (shared with SPC's network)" % v})
+                seen.add(v); out.append({"kind": "experience", "detail": "Exec previously at %s — shared work history with %s (SPC)" % (v, wholist(emp_people.get(k, [])))})
     # employer mentions even without an explicit 'prior' cue (bios often list logos/companies)
     for k, v in emp.items():
         if v not in seen and re.search(r"\b" + re.escape(k) + r"\b", tl):
-            seen.add(v); out.append({"kind": "pedigree", "detail": "Team overlaps with %s (in SPC's network)" % v})
+            seen.add(v); out.append({"kind": "experience", "detail": "Team overlaps with %s — shared with %s (SPC)" % (v, wholist(emp_people.get(k, [])))})
     for k, v in sch.items():
         if re.search(r"\b" + re.escape(k) + r"\b", tl) and v not in seen:
-            seen.add(v); out.append({"kind": "school", "detail": "Team includes a %s alum (shared with SPC)" % v})
+            seen.add(v); out.append({"kind": "school", "detail": "%s alum — shared alma mater with %s (SPC)" % (v, wholist(sch_people.get(k, [])))})
     # de-dupe, cap
     uniq = []
     keys = set()

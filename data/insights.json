@@ -1,28 +1,28 @@
 {
-  "generated": "2026-07-16",
+  "generated": "2026-07-15",
   "count": 200,
-  "summary": "Capital is concentrating in Healthcare & bio AI (18), Crypto & digital assets (12), Fintech & payments (11). Largest recent round: Helsing ($1.8B).",
+  "summary": "Capital is concentrating in Healthcare & bio AI (18), Crypto & digital assets (12), Fintech & payments (10). Largest recent round: Helsing ($1.8B).",
   "kpis": {
     "strongest_theme": "Healthcare & bio AI",
     "total_raises": 200,
-    "early_raises": 69,
-    "total_cap_m": 14354,
-    "early_cap_m": 2702,
+    "early_raises": 71,
+    "total_cap_m": 13952,
+    "early_cap_m": 2732,
     "stage_counts": {
-      "Pre-seed": 2,
-      "Seed": 24,
+      "Pre-seed": 3,
+      "Seed": 25,
       "Series A": 43,
       "Series B": 26,
       "Series C": 9,
       "Series D": 4,
-      "Venture": 83
+      "Venture": 81
     }
   },
   "raises": [
     {
       "company": "Aria",
       "amount_m": 274,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://helloaria.eu",
       "investors": [],
       "theme": "Fintech & payments",
@@ -31,7 +31,7 @@
     {
       "company": "Emergent",
       "amount_m": 130,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://emergent.sh",
       "investors": [
         "Khosla Ventures"
@@ -42,7 +42,7 @@
     {
       "company": "Lyzr AI",
       "amount_m": 100,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://lyzr.ai",
       "investors": [],
       "theme": "Applied AI agents",
@@ -51,7 +51,7 @@
     {
       "company": "TJM Labs",
       "amount_m": 75,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://tjmlabs.com",
       "investors": [],
       "theme": "Healthcare & bio AI",
@@ -60,8 +60,8 @@
     {
       "company": "Flex",
       "amount_m": 70,
-      "date": "2026-07-16",
-      "link": "https://flex.one",
+      "date": "2026-07-15",
+      "link": "https://itbrief.co.nz/story/flex-raises-usd-70-million-as-it-launches-uk-service",
       "investors": [
         "Accel"
       ],
@@ -71,19 +71,19 @@
     {
       "company": "InstaLILY AI",
       "amount_m": 60,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://instalily.ai",
       "investors": [
         "Energize Capital",
         "Energize Capital - TradingView"
       ],
-      "theme": "Fintech & payments",
+      "theme": "Applied AI agents",
       "stage": "Series B"
     },
     {
       "company": "Valarian",
       "amount_m": 50,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://valarian.com",
       "investors": [
         "New Enterprise Associates"
@@ -94,16 +94,27 @@
     {
       "company": "Auger",
       "amount_m": 50,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://auger.com",
       "investors": [],
-      "theme": "Logistics & supply chain",
+      "theme": "Applied / horizontal AI",
       "stage": "Series B"
+    },
+    {
+      "company": "Monumental",
+      "amount_m": 32,
+      "date": "2026-07-15",
+      "link": "https://thenextweb.com/news/monumental-32m-khosla-bricklaying-robots-uk-us",
+      "investors": [
+        "Khosla Ventures"
+      ],
+      "theme": "Physical AI & robotics",
+      "stage": "Venture"
     },
     {
       "company": "Feathery",
       "amount_m": 30,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://feathery.io",
       "investors": [],
       "theme": "Financial back-office & compliance AI",
@@ -112,7 +123,7 @@
     {
       "company": "Rime",
       "amount_m": 24,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://rime.ai",
       "investors": [],
       "theme": "Applied / horizontal AI",
@@ -121,7 +132,7 @@
     {
       "company": "Parspec",
       "amount_m": 20,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://parspec.io",
       "investors": [],
       "theme": "Logistics & supply chain",
@@ -130,7 +141,7 @@
     {
       "company": "Project Q",
       "amount_m": 17,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://projectqai.github.io",
       "investors": [],
       "theme": "Applied / horizontal AI",
@@ -139,7 +150,7 @@
     {
       "company": "MeltPlan",
       "amount_m": 14,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://meltplan.com",
       "investors": [
         "Bessemer",
@@ -152,7 +163,7 @@
     {
       "company": "Nurix",
       "amount_m": 14,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://nurix.ai",
       "investors": [],
       "theme": "Applied AI agents",
@@ -161,220 +172,11 @@
     {
       "company": "InsideDesk",
       "amount_m": 13,
-      "date": "2026-07-16",
+      "date": "2026-07-15",
       "link": "https://insidedesk.com",
       "investors": [],
       "theme": "Insurance / insurtech",
       "stage": "Seed"
-    },
-    {
-      "company": "WizCommerce",
-      "amount_m": 8,
-      "date": "2026-07-16",
-      "link": "https://wizcommerce.com",
-      "investors": [],
-      "theme": "Sales & GTM AI",
-      "stage": "Series A"
-    },
-    {
-      "company": "Aria Systems",
-      "amount_m": 8,
-      "date": "2026-07-16",
-      "link": "https://ariasystems.com",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Series A"
-    },
-    {
-      "company": "Mozu (Business/Productivity Software)",
-      "amount_m": 8,
-      "date": "2026-07-16",
-      "link": "https://about.mozu-inc.jp",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Series B"
-    },
-    {
-      "company": "Adaptive",
-      "amount_m": 6,
-      "date": "2026-07-16",
-      "link": "https://adaptive.build",
-      "investors": [],
-      "theme": "Applied AI agents",
-      "stage": "Series A"
-    },
-    {
-      "company": "Prolo",
-      "amount_m": 6,
-      "date": "2026-07-16",
-      "link": "https://prolo.io",
-      "investors": [],
-      "theme": "Logistics & supply chain",
-      "stage": "Seed"
-    },
-    {
-      "company": "AltaML",
-      "amount_m": 6,
-      "date": "2026-07-16",
-      "link": "https://altaml.com",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Series A"
-    },
-    {
-      "company": "Linker Finance",
-      "amount_m": 5,
-      "date": "2026-07-16",
-      "link": "https://linkerfinance.com",
-      "investors": [],
-      "theme": "Fintech & payments",
-      "stage": "Seed"
-    },
-    {
-      "company": "SimpleAI",
-      "amount_m": 5,
-      "date": "2026-07-16",
-      "link": "https://simpleaiworks.com",
-      "investors": [],
-      "theme": "Financial back-office & compliance AI",
-      "stage": "Seed"
-    },
-    {
-      "company": "Legible",
-      "amount_m": 3,
-      "date": "2026-07-16",
-      "link": "https://legiblepolicy.com",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Seed"
-    },
-    {
-      "company": "Synthreo",
-      "amount_m": 2,
-      "date": "2026-07-16",
-      "link": "https://synthreo.ai",
-      "investors": [],
-      "theme": "Applied AI agents",
-      "stage": "Seed"
-    },
-    {
-      "company": "sherpa",
-      "amount_m": 2,
-      "date": "2026-07-16",
-      "link": "https://sherpahq.ai",
-      "investors": [],
-      "theme": "HR & workforce",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "Neocad",
-      "amount_m": 1,
-      "date": "2026-07-16",
-      "link": "https://neocadsrl.com",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "ESGAgent.ai - AI Agents for ESG Compliance",
-      "amount_m": 1,
-      "date": "2026-07-16",
-      "link": "https://kleantech.com.au",
-      "investors": [],
-      "theme": "Applied AI agents",
-      "stage": "Seed"
-    },
-    {
-      "company": "Solving.AI",
-      "amount_m": 1,
-      "date": "2026-07-16",
-      "link": "https://solving.ai",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "DSALTA",
-      "amount_m": null,
-      "date": "2026-07-16",
-      "link": "https://dsalta.com",
-      "investors": [],
-      "theme": "Financial back-office & compliance AI",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "PreciTaste",
-      "amount_m": null,
-      "date": "2026-07-16",
-      "link": "https://precitaste.com",
-      "investors": [],
-      "theme": "AI compute & models",
-      "stage": "Series A"
-    },
-    {
-      "company": "Tradevu",
-      "amount_m": null,
-      "date": "2026-07-16",
-      "link": "https://tradevu.co",
-      "investors": [],
-      "theme": "Crypto & digital assets",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "Boost Technology",
-      "amount_m": null,
-      "date": "2026-07-16",
-      "link": "https://withboost.co",
-      "investors": [],
-      "theme": "Vertical SaaS",
-      "stage": "Seed"
-    },
-    {
-      "company": "Oze",
-      "amount_m": null,
-      "date": "2026-07-16",
-      "link": "https://getoze.com",
-      "investors": [],
-      "theme": "Fintech & payments",
-      "stage": "Seed"
-    },
-    {
-      "company": "Shiprazor",
-      "amount_m": null,
-      "date": "2026-07-16",
-      "link": "https://shiprazor.com",
-      "investors": [],
-      "theme": "Logistics & supply chain",
-      "stage": "Seed"
-    },
-    {
-      "company": "Marakisoft Technologies",
-      "amount_m": null,
-      "date": "2026-07-16",
-      "link": "https://marakisoft.com",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "Zendawa",
-      "amount_m": null,
-      "date": "2026-07-16",
-      "link": "https://zendawa.africa",
-      "investors": [],
-      "theme": "Healthcare & bio AI",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "Dutch Monumental",
-      "amount_m": 32,
-      "date": "2026-07-15",
-      "link": "https://thenextweb.com/news/monumental-32m-khosla-bricklaying-robots-uk-us",
-      "investors": [
-        "Khosla Ventures"
-      ],
-      "theme": "Physical AI & robotics",
-      "stage": "Venture"
     },
     {
       "company": "Open Vision Engineering",
@@ -388,15 +190,202 @@
       "stage": "Venture"
     },
     {
-      "company": "Benchmark",
-      "amount_m": 225,
-      "date": "2026-07-14",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYWxKX0s0UEFGS1lRRXQ1NzFTRlMyOXZnY2g3aHlhcUprbGU5dlFEcUhlSHRMMV8tUWpFcFhSQ2I4SWJMdTVYclFQb19Pb1V0OEU0eFFYaV9DYmtCYkp1T2hfSzk3bzVMRmhzeFFzeU9OclpkWXA4UFp1VEwxdVBpc01jUDZWYzl1RFN3bUM2R09hN3V2aXhmbGNVWGlSQkdMZ0lKYVlORktpYnVKODR3b2RYTUx5U3NNdkdMSmZQY3RsY1BmS2k2MWxPajRiM184N2xsTA?oc=5",
-      "investors": [
-        "Benchmark"
-      ],
-      "theme": "Physical AI & robotics",
-      "stage": "Venture"
+      "company": "WizCommerce",
+      "amount_m": 8,
+      "date": "2026-07-15",
+      "link": "https://wizcommerce.com",
+      "investors": [],
+      "theme": "Sales & GTM AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Aria Systems",
+      "amount_m": 8,
+      "date": "2026-07-15",
+      "link": "https://ariasystems.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Mozu (Business/Productivity Software)",
+      "amount_m": 8,
+      "date": "2026-07-15",
+      "link": "https://about.mozu-inc.jp",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series B"
+    },
+    {
+      "company": "Adaptive",
+      "amount_m": 6,
+      "date": "2026-07-15",
+      "link": "https://adaptive.build",
+      "investors": [],
+      "theme": "Applied AI agents",
+      "stage": "Series A"
+    },
+    {
+      "company": "Prolo",
+      "amount_m": 6,
+      "date": "2026-07-15",
+      "link": "https://prolo.io",
+      "investors": [],
+      "theme": "Logistics & supply chain",
+      "stage": "Seed"
+    },
+    {
+      "company": "AltaML",
+      "amount_m": 6,
+      "date": "2026-07-15",
+      "link": "https://altaml.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Linker Finance",
+      "amount_m": 5,
+      "date": "2026-07-15",
+      "link": "https://linkerfinance.com",
+      "investors": [],
+      "theme": "Fintech & payments",
+      "stage": "Seed"
+    },
+    {
+      "company": "SimpleAI",
+      "amount_m": 5,
+      "date": "2026-07-15",
+      "link": "https://simpleaiworks.com",
+      "investors": [],
+      "theme": "Financial back-office & compliance AI",
+      "stage": "Seed"
+    },
+    {
+      "company": "Legible",
+      "amount_m": 3,
+      "date": "2026-07-15",
+      "link": "https://legiblepolicy.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Seed"
+    },
+    {
+      "company": "Synthreo",
+      "amount_m": 2,
+      "date": "2026-07-15",
+      "link": "https://synthreo.ai",
+      "investors": [],
+      "theme": "Applied AI agents",
+      "stage": "Seed"
+    },
+    {
+      "company": "sherpa",
+      "amount_m": 2,
+      "date": "2026-07-15",
+      "link": "https://sherpahq.ai",
+      "investors": [],
+      "theme": "HR & workforce",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "Neocad",
+      "amount_m": 1,
+      "date": "2026-07-15",
+      "link": "https://neocadsrl.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "ESGAgent.ai - AI Agents for ESG Compliance",
+      "amount_m": 1,
+      "date": "2026-07-15",
+      "link": "https://kleantech.com.au",
+      "investors": [],
+      "theme": "Applied AI agents",
+      "stage": "Seed"
+    },
+    {
+      "company": "Solving.AI",
+      "amount_m": 1,
+      "date": "2026-07-15",
+      "link": "https://solving.ai",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "DSALTA",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "https://dsalta.com",
+      "investors": [],
+      "theme": "Financial back-office & compliance AI",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "PreciTaste",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "https://precitaste.com",
+      "investors": [],
+      "theme": "AI compute & models",
+      "stage": "Series A"
+    },
+    {
+      "company": "Tradevu",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "https://tradevu.co",
+      "investors": [],
+      "theme": "Crypto & digital assets",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "Boost Technology",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "https://withboost.co",
+      "investors": [],
+      "theme": "Vertical SaaS",
+      "stage": "Seed"
+    },
+    {
+      "company": "Oze",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "https://getoze.com",
+      "investors": [],
+      "theme": "Fintech & payments",
+      "stage": "Seed"
+    },
+    {
+      "company": "Shiprazor",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "https://shiprazor.com",
+      "investors": [],
+      "theme": "Logistics & supply chain",
+      "stage": "Seed"
+    },
+    {
+      "company": "Marakisoft Technologies",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "https://marakisoft.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "Zendawa",
+      "amount_m": null,
+      "date": "2026-07-15",
+      "link": "https://zendawa.africa",
+      "investors": [],
+      "theme": "Healthcare & bio AI",
+      "stage": "Pre Seed"
     },
     {
       "company": "TerraFirma",
@@ -453,39 +442,6 @@
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWXhqSk8zMGxrNEd5VW1qeDNhcHB3aV9xeTZ5bEFzTG5pbUU1SFlRTEdsdWQyT19EY201NktzMXZta2MySW1YN0FHdHpZU2c3cF9kQzhNbGRHZDVYRDhnYXNzci1xMk5MRmQwbHRuYldjWEpUa09Jb2hWWjY2b0RKc0ZMRW52RVNZYllISWtDM19JOUlSdGpxM054XzJFSS1JNnB2T2pSOGhYNEVsZEgwemxZWlVoNG5IX1I0cnZ6c01FcHJKMGpzWjFKUXFTZE5YaGVnNUxvNEotRzZfWHJJ?oc=5",
       "investors": [
         "Sequoia"
-      ],
-      "theme": "Applied / horizontal AI",
-      "stage": "Venture"
-    },
-    {
-      "company": "Bessemer’s data center non",
-      "amount_m": null,
-      "date": "2026-07-14",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQd1VEMFNQbGdJeW9mWlpmNV9LUk4zbjhMS2R3SnBVWmN5T1hhLUpVVGVGZlZISHhyTlRDWEd0SEV1bWlhNXg0VTh4MjRka01mX0Z3R1k0NmIzbHhMSVhGR05XWV9EcXdhWVVhVWw1alpGQldaTVh2b19EWmNWeHBHdzF1QU1SbFphaXJEcnlpNk1TbnRFNE5xYnpXck9tZWozM0Fvb21kX1dFTjBtdmNTZGRYZjlMNTF3ZDFnTW1xT2h6d2hVSktydUlWU20?oc=5",
-      "investors": [
-        "Bessemer"
-      ],
-      "theme": "Applied / horizontal AI",
-      "stage": "Venture"
-    },
-    {
-      "company": "Illinois",
-      "amount_m": null,
-      "date": "2026-07-14",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9JWXR3MDRBM1VNTlNfd2pyXy1lMVM2ajFMaXFBNUkyd0JBVW1VTVNxTlBsSVNLUFNBVlhGYUpUQVdEemctemhzZTh6TWI1UkRmMUozSzZpWWE3VzNEUm1LVGo1TUtDWHN1X3BpeWZRSDI0RTVTRWJaMjZta2NNQQ?oc=5",
-      "investors": [
-        "Conviction"
-      ],
-      "theme": "Applied / horizontal AI",
-      "stage": "Venture"
-    },
-    {
-      "company": "Sri Lankan",
-      "amount_m": null,
-      "date": "2026-07-14",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaDk4VGVyNFhLbmtDa2UwRXFUNWdVZENZM0YwTjJIZlNFSjdPV2ZybnhQb3hBTU9wNmkwMTJHNGJubVdsTXhRR3ZBRHBnVmswZWdZeGVERjhQZ0h3bzlvQXZuM3g2ak5FcTlCNlJudFNsdE8wYndmVU9laG8xT01BdGlYeTJiR1dsNnBBY1pOZTF3blhvLTVtRGR5WERhS1c5WkQ0WlpOQ2JQSUxQSTI5d2NCTHpKUQ?oc=5",
-      "investors": [
-        "Y Combinator"
       ],
       "theme": "Applied / horizontal AI",
       "stage": "Venture"
@@ -637,11 +593,11 @@
       "investors": [
         "Radical Ventures"
       ],
-      "theme": "Applied AI agents",
+      "theme": "AI compute & models",
       "stage": "Series A"
     },
     {
-      "company": "AI Start",
+      "company": "AI Start-Up Kaon AI",
       "amount_m": 60,
       "date": "2026-07-08",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNjBmdUV6c3QydUsyZHlzaEZrZ3YxRVJOMUx0dkZBUXBaRzl2Qm1sTWoteWhGcDUzcUFjaVJmZU40UzdKM19JMDl3bk1FbTJtdmVKT3RxY2NVYkpKV0V0Y2NIc0VrY3drbng0d19KeTVaaGxIeVJJamlEZnN5dkpsVnBRX2FwdTJBV0ZnbTZvcTM0aGdzNy1PZXlqeXVPTi05bWc?oc=5",
@@ -674,15 +630,15 @@
       "stage": "Series A"
     },
     {
-      "company": "Y Combinator",
-      "amount_m": 22,
+      "company": "startup Finto",
+      "amount_m": 3,
       "date": "2026-07-08",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHdwcF83VExYcktpNy1zN091YUpVNE1iT3dScW1JaEhpT1hmTDhsTDIxOUZzZE9aZk9Bek9XNDBySGU2TlU2V3dCdUlTU3hsekQtd0w1WUZaQkhxeFlfVmp4RUJDSXU5T0dkb09zMmZiRFlpcU5UblZLSjgwanY0TjY1Q280V0VJWFFMN2hMZ01JZWdpV05PNU5fRk1xdmhPaHc1dlBobXdfYTRrdnNGWG1MSQ?oc=5",
       "investors": [
         "Y Combinator"
       ],
       "theme": "Applied / horizontal AI",
-      "stage": "Series A"
+      "stage": "Venture"
     },
     {
       "company": "New Zealand",
@@ -785,7 +741,7 @@
       "stage": "Venture"
     },
     {
-      "company": "Privacy",
+      "company": "Privacy-focused AI startup Venice",
       "amount_m": 65,
       "date": "2026-07-05",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX0xtaG94ZnhBT05aZHZNZ2pDQ0tITDFEcm1ENTdyY3FNcUgyZnRnQjE1eU80cEZmYnhibklPMGUtbXd1ZW95U3NtaTBuUmM3SnR1cmlQX3cyN1BhUHpUWktFcmxLb1duZ1pIVmlKM2xUdS1UbkNzSGUtVjd6U1hTN0FrckFyZFdKNjJZLU1pdExMem0wRkU5RFFYU1o3QQ?oc=5",
@@ -946,7 +902,7 @@
       "stage": "Series B"
     },
     {
-      "company": "Canadian fintech Float",
+      "company": "fintech Float",
       "amount_m": 85,
       "date": "2026-06-29",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVVNfMlZ3TVNneHRzbHZtbm1ERHY0Vnd1YkhpUlJUWlM0N2dKMDlhWnZWb0FzZ0J0ZW94OG1rRjAxYmlwdHk3OS1PVVJFS2FqNHVxLXlKenFFd1p5T01HcTFKUjZxUlVPbFpZUzZDRzNrdl9DNWNQak9PY3hXSUd2RkNRYw?oc=5",
@@ -1002,7 +958,7 @@
       "stage": "Series B"
     },
     {
-      "company": "Draper, Utah",
+      "company": "Draper, Utah-based Redo",
       "amount_m": 81,
       "date": "2026-06-26",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMkNiYkhYZmFwSC03ZHdIdXVJWFFIaDRaTHNfRHNBLUk5NFA1aGY0V054WmduUVdFbm1nUHZUcnJwTERmVlVYUWJ6NFNkelc0RTJabXVoeUJ5cjNFSzc2NWtqZ3c0c21oVUVJSy1CU0pGRnNsOS1QRDNzREpncWNaWHhMaUJ0OVJjWm1TVFJPUDZackJBWHlfbUJMY1pzOGE1LU5LQWQ2TUVRS1pHNlBKdk5sd1F3Z0x4MUlQNW1VdVpZSmp0X1VLUE5wSQ?oc=5",
@@ -1141,7 +1097,7 @@
       "stage": "Series A"
     },
     {
-      "company": "Health-tech start",
+      "company": "Health-tech start-up SuperLiving",
       "amount_m": 7,
       "date": "2026-06-25",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZjVreUgzZml4Z3VaRnFiRjVNbW9FNDNxdWFBVW11eTdmU0htYlZsTDZHT2tPeVdmcU81eTRjei1oLV9IaHRNMGYwMm96REJYVDdWSmdXcGJ4MER1NEJwY0UxdHFOdGcxU3lJNWxsV2NVdHlod2RXTWcybFlUR1lNTVAxbnRsN3RWaW9fd29iQm1qWjRudFBCNGdCZm5aUFk1Y1lwVERPeTNzRGJuQ2k4SHdqbGh6RG9KS19xZXR3T1JjeXZmX2Y4UnhyRUJibzExNkpITFpDeWnSAd4BQVVfeXFMUGlVNGxHaWZFNU5mQXM3QXI5YVdTSmpKLWx6MWpBSmJmRW52YTUzSmFkYkhrRkc4c192YVJKbVBNeVd1ZXZvYjJGVDNpRFJLdkg0QVRKdW9MeUxMLUV0RDdybkRsOWVwako2NUE3bmpJVUN0bVJvYVgwa3MwUHROUXlWYVIwOVRYVGtDMVJuckhSd3p3NThYY3BNTUFFWjdfN2txUHMzNHRGZVlXMXNaS2E3bU84SmlteFQxQnl0bHo3NVI2V3hNN1Q5WjIyUEVVeVd3U3ltMmFZcllNZl9n?oc=5",
@@ -1348,7 +1304,7 @@
       "stage": "Venture"
     },
     {
-      "company": "Six-month",
+      "company": "Six-month-old Anchorbase",
       "amount_m": 2,
       "date": "2026-06-23",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSTlmaDRMWGgyWWlzQnA4eVROQTBVNzlaREIwT2lVR0Q4VnAwUmVzNjY1N2gzMmlsYWotNU5Zd1Jlb0J6Mjl2MGkwZmlYam9FenhobGw4cDBrYnhGVXhQNE1DaFNHejFKdUthb0J1cHVYSi16MVF6aWlCcnZ4Zy1CcUx3dHZKUXln?oc=5",
@@ -1471,7 +1427,7 @@
       "stage": "Venture"
     },
     {
-      "company": "Sen. Gillibrand’s 22-year",
+      "company": "Sen. Gillibrand’s 22-year-old son",
       "amount_m": 30,
       "date": "2026-06-19",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaW1yTmx5UXlnM0pPb2Y5WXNDSWR3X05PbzRUU0NFZzRoS1VpN3FEWVZmNU5SZEpxYk9xbGFzYV9aN180bEs2WHpjbGVWWUVIMVlCSGluMG5hdFdaU2FDd1hzN1JzTHUwa2xZeEtRQzJlU09lbzY1YWt6QkI0S1VSc051MFNBdTF3emp1ckNEZ1F6Qm5yZXpUYVNVbGExZlJsQVQ5UFpQTkdsRTZLV0w4dlBHaVdWMDFYMTZuLVhReldIU0MzNm1veHJnazR0ZEJGY0E?oc=5",
@@ -1529,17 +1485,6 @@
       "stage": "Venture"
     },
     {
-      "company": "Son of pro",
-      "amount_m": 30,
-      "date": "2026-06-18",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZzZHQ1JTLTM3UlpSMi0wUmM3czBxZnlyQWJxQzVjZmtaenBka1RiUEZyVjUwcjFQeUt5Mk1qRVdvdzZQMmNCRXFobzIxZ2hhLWNWYmI2SkRhWW9Uc3o3dF9DaHV5UXZiVjA2TmJUbEk3Z1VINHZpSWRxQkd5VklFNHExMVNLR0s5SjQ3ZWgxWnFjcWNNQzhjWUZkT1lHR0ZZaWo4alJRV29jY09jU1h4YVYwSGl6RkNLVFZ1RVYtck5rWl9XUVh2WXVMTUEtb3gxdGc?oc=5",
-      "investors": [
-        "Lux Capital"
-      ],
-      "theme": "Crypto & digital assets",
-      "stage": "Venture"
-    },
-    {
       "company": "Pramaana Labs",
       "amount_m": 27,
       "date": "2026-06-18",
@@ -1548,10 +1493,34 @@
         "Accel",
         "Khosla Ventures",
         "Khosla Ventures - Business Standard",
+        "Khosla Ventures - Entrackr",
         "Khosla Ventures - YourStory.com"
       ],
       "theme": "Applied / horizontal AI",
       "stage": "Seed"
+    },
+    {
+      "company": "AI startup Pramaana Labs",
+      "amount_m": 27,
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZU5kV1hIYlhrQTVsX2dXNEt4QUtIdW41QkVJVF9xOVpPNkMzMlBUYms5UXZoRHN3ek14T0xJNUNMOEtGcEZjOVFnX2RjcFI5X3F5RnlwWC1ySTNlcVF2WUp4cUhiUnQyZUgyaXItRGtUcVRhM0hzUmN6bjV5dk95aQ?oc=5",
+      "investors": [
+        "Khosla Ventures",
+        "Khosla Ventures - DealStreetAsia"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Venture"
+    },
+    {
+      "company": "3-D Matrix's (TSE:7777) Performance",
+      "amount_m": null,
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObHVTeUt2NnZPMnBhZm9ZaHpub2ppWUgxLUFWTE5WM2hReE1wT3hxZDJzRl9maVNRbENTMHFwZkVQNGdHZ3gwdnZianBIV2RrZTQxTDdMeWR1T18yeTdfVUVUclpmSFRjbTJVSC0tbjJfejBPSnpsR2IwMzd6STdiZHViY2sxTm0zaEl6ODVCUzVCLVF4THVXNnRuZHFkUktnS1dlVWt1SkZWLVFlb2lpN3RKQTFDdFFxWTNKOWtNVUdsQjQ2MUdiZDNvTW9WcnZCYWUtclhsYk_SAd4BQVVfeXFMTWhyc25QTmgwd2RaZ2I2UnRHWWphWkFRdERsRUl6dUFvQnBtMlJWaFpRdklTejZnY0xNNmxrcVY3RUxyeHpuYzhMN2lQMFJCbWlaSGY5ZEU5UVM5b2drajRZSF80TnJzNDRwTy1DMDVwMU5vd2cyM0I4RVJNOWNULVdKSEdQYlVPb1czZGRCbUZ1allZV3JlU2lYUTV4UTZySVBOWUVQdW44R2w2WWZVdnFjRm0tZUh4Nk1HMDREbm5VZDJvbnN4VTd6MDVsYTBrSWdWM2Q0em1XRzRHV1hR?oc=5",
+      "investors": [
+        "Matrix"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Venture"
     },
     {
       "company": "Vergennes battery project",
@@ -1586,18 +1555,6 @@
       ],
       "theme": "Crypto & digital assets",
       "stage": "Series A"
-    },
-    {
-      "company": "BoldCap",
-      "amount_m": 27,
-      "date": "2026-06-17",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZkUzcVo0b21LVTlpYVVmcmREN3pWOHJtUkVCSnE4cnB0QUUtVTRkcXIyS0NCbUYzLURHeWdoZkVHcGxoekFRbjQwT1VES0tPZnk2U3hrVGF6dlR2VUdRVzNPeWZjX1JXZXRGMWFQVXNDTU1GVHdnNEdVc1FqN085TG1VREcyMWZRMkdac0lZS0laUnB0VUZqUmNBRUJmcTdl0gGgAUFVX3lxTFBmRTNxWjRvbUtVOWlhVWZyZEQ3elY4cm1SRUJKcThycHRBRS1VNGRxcjJLQ0JtRjMtREd5Z2hmRUdwbGh6QVFuNDBPVURLS09meTZTeGtUYXp2VHZVR1FXM095ZmNfUldldEYxYVBVc0NNTUZUd2c0R1VzUWo3TzlMbVVERzIxZlEyR1pzSVlLSVpScHRVRmpSY0FFQmZxN2U?oc=5",
-      "investors": [
-        "Khosla Ventures",
-        "Khosla Ventures - Entrackr"
-      ],
-      "theme": "Applied / horizontal AI",
-      "stage": "Venture"
     },
     {
       "company": "Flutterwave",
@@ -1658,17 +1615,6 @@
       "stage": "Venture"
     },
     {
-      "company": "Latest Action by Right",
-      "amount_m": null,
-      "date": "2026-06-16",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVE9NUlFYSm84c3JFMy1veUcxMTdJVF9Iam4tVW0xT3czeGlsbFpEWTJvSTNtMjM2emVBd015TzlxcC0yMVd1TDF1dmZDMG5RRldHOHFqM0FDc3p4a3JCUk9jcGRLX1VMd0VoTUJzUXJFcVdia3M0blFjc2Rrejl5c2pKenVqdG16X0QxczJ4anZWYUlrVGg2TGx3U2ZzaGR3Z24tSTM4X2wwYmk5TGp4d3Z5UlZ5WjhpT3hPUmo5RUdWbFVuTi1JRXpCcHdkeUFUS19mT1FQNmNyejBsNE1peVlRNEd5QjlDVF9nejl0RHY?oc=5",
-      "investors": [
-        "Wing"
-      ],
-      "theme": "Applied / horizontal AI",
-      "stage": "Venture"
-    },
-    {
       "company": "Sarvam",
       "amount_m": 300,
       "date": "2026-06-15",
@@ -1703,7 +1649,7 @@
       "stage": "Venture"
     },
     {
-      "company": "MNX, an AI economy",
+      "company": "MNX",
       "amount_m": 6,
       "date": "2026-06-13",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYU9kZ1l4dXVXNWVHZUp5UVNHMXVYUHZsUjlBQVIxTkl2c1FwdkVleDg1b2tlcEFEall1OFhQUDRvQkE4UlE0Mzdha2tMZUZ5MkpBdlZRdUtWaFE5QU1iSDQ3MjJNWEJtVHQ5ZTVRWFlOZ2RSY29uLWFkanh4TjQ4X2ZIWUVCYlc2RmFDMVpLVW16TXdDSmh1Sk5MSzRlZ0ZEd0VqY1oyZTB1QXhhY01zbnktdm95TXFpck1aMUw2TWpMYjNOLVE?oc=5",
@@ -1770,7 +1716,18 @@
       "stage": "Seed"
     },
     {
-      "company": "Spanish company Theker",
+      "company": "AI robotics startup Theker",
+      "amount_m": null,
+      "date": "2026-06-12",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOW0wTVJlY0xPTGNUMkdQM2hnODlIYUVydkQwbXhfWW9yLW9RMnJVcHpaRHpGMHVxN2xBRzJGcVZiaW1pRnBTN2F5UnVPb3VtUm9FbDRSSzBSQkg5Q3h5d2xuN3NlN0RpbXV2M1lOa1YyLU5xNEttSlpXcTRYM2dISS1tamdPTnk2RGhHbC0yWURoZDc2b1BFSHJwcHU2aXhfaHBZM1R3ZDA2SmxtY0hoSkpLNEJlWm9B?oc=5",
+      "investors": [
+        "CRV"
+      ],
+      "theme": "Physical AI & robotics",
+      "stage": "Venture"
+    },
+    {
+      "company": "company Theker",
       "amount_m": null,
       "date": "2026-06-12",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOU5KM3VndWNWY0VVMV9TV0NQNUdoaW1ZSjZwT3lDZkI2MUNrN1FhR0lkUFNISDlkTkt4M2xiNkR3VFNZaWZrSzVYUlhWclVFQS1panpMN0lBZ1FzVXVSX1psSTY3UTF1NS1vVWdpMG5yYldrNVBZMTBxaEJjUkNGMG5SNnlTRndnd2ZKaVZCTXdSTmp4NXpXSUUweEYybHZ2SFpIaEY3ajRsOHg4cDN5eEJucEtiUXdIZVpYSm05NzlNbnYwaW9iUDdn?oc=5",
@@ -1939,6 +1896,17 @@
       ],
       "theme": "Fintech & payments",
       "stage": "Venture"
+    },
+    {
+      "company": "AI-Focused Futures Exchange MNX",
+      "amount_m": 6,
+      "date": "2026-06-10",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zdUVXb0J1RUpxMnZQTGNqSjYtZFZSckhWV0dxYUdncURuV0pIelh4ZTlJT3NmR1dfVC1BWFBfemIyM25UMWJGMVZMMnREZ2x6Qk5GYWdTU05MNHBBZTZzUFVHQ0NOdm9wQlhjQ21heDZsaG16RUJuTA?oc=5",
+      "investors": [
+        "North Island Ventures"
+      ],
+      "theme": "Crypto & digital assets",
+      "stage": "Pre-seed"
     },
     {
       "company": "Flux",
@@ -2114,13 +2082,12 @@
       "stage": "Series B"
     },
     {
-      "company": "Cross",
-      "amount_m": 6,
+      "company": "Cross-Appeal",
+      "amount_m": null,
       "date": "2026-06-06",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNFlCeHo5M2dRWGdiYXQwaEowWmtHanotdER2S0R1clhTNHNwUVNfNjRjQTc0eUtaamJJR096TE5uQTNhX0hzOFpYRGtIVUVsOXBkWHQta2NPYk1qb2NsQTduQUlVc3Q2Tjk0UEk5NFkyWldZa0hUTm9mUGtlWV9MQThQbGZzS25oUU40Mko0MA?oc=5",
       "investors": [
-        "Conviction",
-        "North Island Ventures"
+        "Conviction"
       ],
       "theme": "Applied / horizontal AI",
       "stage": "Venture"
@@ -2131,19 +2098,9 @@
       "date": "2026-06-05",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcTE5ak1YTmFxOGE3WHJqY2t1MnlKY0doaXYxR1V5MFRkTGVnTzFYZzZBaE05NndVLWdZX25wODZyVVh4WC1XUTJQSVNRaXZBXzNfYnBxb0d1WWtwM2FlZEpqaHNmbXo2eDZtZkV4NHpxd1lhRm82cUJFZXZTa2RyUUVvVjcwYUN1YVZQalF6ZDJwbnpXTmNJUnFBQ093bXVpWWNtcQ?oc=5",
       "investors": [
+        "BoxGroup",
         "Lux Capital",
         "Thrive Capital"
-      ],
-      "theme": "Energy & climate",
-      "stage": "Venture"
-    },
-    {
-      "company": "Sam Altman",
-      "amount_m": 465,
-      "date": "2026-06-05",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOckM0SGZ4eXZYQlY0QXQ2UWl2NHJSYm9NZEtvU3Q0UzZuWjRzZFJsaU5iS2kxNC0xb2dfVjVtZUYtc0VWbVBUS2JlU0xyMzQ1bUNzMFJwU1RaYU1hMDZxbGVWSGhnb2Q3d0Y5bFF3Mm5aTUNXRFg5TGNSZFJBTl85aWYxb1Z0UHdhWURzVVRjX1JLVkVYcEUzS0lOaEJic0NaWllNY1FHeFBWU3A5MmY4Q3Y2eFd0eHczRWZWN2lqQ2Y5VThjT0doYXh3?oc=5",
-      "investors": [
-        "BoxGroup"
       ],
       "theme": "Energy & climate",
       "stage": "Venture"
@@ -2182,17 +2139,6 @@
       "stage": "Venture"
     },
     {
-      "company": "Helion, the Sam Altman",
-      "amount_m": 465,
-      "date": "2026-06-04",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYnh2NzdiajZwUkRkejZsbnhwaGlYbHV5OUZjOWRyOUJJSTAxci1DTHgwTFFnUkNST0JyRkdOR09jaXFmTFpWSW85SHRpaDNpYVZRNFZ2eW93UkZWLTBwUkh0UG9OelFLVHN1S1VXVHNGdVpFTjFkcnVpM2MwNWpqdFY3SXNzX1VLTjRZRF9XZlJaaU0xbnZKYnEzbTA2enpFcEM4MGxlQlJmZXN0eG54OEYxRm1neExlUnFtbVVxLXQxSXgxN0E?oc=5",
-      "investors": [
-        "Lux Capital"
-      ],
-      "theme": "Energy & climate",
-      "stage": "Venture"
-    },
-    {
       "company": "Fusion firm Helion",
       "amount_m": 465,
       "date": "2026-06-04",
@@ -2226,19 +2172,76 @@
       ],
       "theme": "Applied / horizontal AI",
       "stage": "Series A"
+    },
+    {
+      "company": "Scotch",
+      "amount_m": 20,
+      "date": "2026-06-04",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMzlCbjBnSmNFbngxd1pOX2pKcGMtUWFOUWQyWFplakxkdVU1NGpkS283S0tRdHh5MV93Q1FfV25ERDJoMGtYUnFieU5uSGFMYlNLb1NLSXVEcGNsSFJsMGxFQldiTDZ6NEQyZXdtcG9vZDhHMkRJZ2huOXFkVmdZRWRpZ2VadmM?oc=5",
+      "investors": [
+        "VMG Partners"
+      ],
+      "theme": "Vertical SaaS",
+      "stage": "Series A"
+    },
+    {
+      "company": "Coinbase CEO's antiaging company",
+      "amount_m": 435,
+      "date": "2026-06-03",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLW42ckR4RUpKczdRb2tRdmhscmxmVHRPME9wQllQZnZpM1ljOTJiMXJ3UjI5YkpHbnFDMHFBS21WRjFJU25HSk0ybDhDdmhrRl9kVGVBR0EyUTNaLTBpN0tNU1hJRXZueVAwSE9KVktsVThDVHdfTUFuTDZUdXI2V21JX1VDbVFsdWlPNXdzeUNTVEpWWU9rR2cwQWVJWGtWSXo1R0VLakR1WFkwZVF2dg?oc=5",
+      "investors": [
+        "Founders Fund"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Venture"
+    },
+    {
+      "company": "Cyera",
+      "amount_m": 300,
+      "date": "2026-06-03",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUkI2b2VpTEl6SG1jR0lXQk1pMWhLbWRaX2FwTDhBVFJFV1ZlUjhiY05BQXlkWmR3bnc3MmhWbWNXUE92LXpXek8tV2ZyWG9TeWM3UkRkQUJtcHYyakNYcnVLNHNqa3lBTkRRSWpxNTAtandzZXAwdWNHa2g3MXVFTWhBNEI3MUR1eFh1MjR2UHBmcEF4UktueWpRRy1ObVVibVFKTk50UGlKUDFNYUhkVA?oc=5",
+      "investors": [
+        "Spark Capital"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Venture"
+    },
+    {
+      "company": "Sekai",
+      "amount_m": 26,
+      "date": "2026-06-03",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNeVJYRFltSzZWVGtNN0lyYURSU01wOUdCb096V21Lc2NHSzUxaGNpSHpNZEYzLUJSeFdXUTYyTmhaSUo1VEVKTjJOTkJjZ2xWQUEtTlJBRjFad3Bobld1dXFFMHdBZUdHdV9xMDNOV0psV0FBSkVZNWVHQ18yVEd1bjBDSjQ4N3hrQ2pHNWpRNHBrS2FZNm5DcG1PTUM4dTlzd1JOU1ljcUdYR0o3ZmlzLWxONGdkZU02X1hwYmQ1d256OXlLLTdrS3J3dERXcTBjNUMwR18yRzdycWZqd2syeTQyQTZJdEliUi1vYjBvNHoyeFU?oc=5",
+      "investors": [
+        "Khosla Ventures",
+        "MVP Ventures",
+        "New Enterprise Associates"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Seed"
+    },
+    {
+      "company": "Surge Battery",
+      "amount_m": 21,
+      "date": "2026-06-03",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTVc4T1VPUTBOZHFwRUVDaldCU2EtdnJvNFU3YldqbmdCNkpYb0lDRENUM0N6QTlUZUJrb3hpUTkxN0xOVF9ON1d3X3V2dWhyM1o2SjFJUVBZN0JacjFBN1NFaTJQMXpEZkpUNjVMeUhjRWFUb1c5c1lhc2F2TlNtcA?oc=5",
+      "investors": [
+        "Battery"
+      ],
+      "theme": "Energy & climate",
+      "stage": "Venture"
     }
   ],
   "themes": [
     {
       "theme": "Applied / horizontal AI",
-      "count": 105,
+      "count": 106,
       "examples": [
         "Emergent",
         "Flex",
         "Valarian",
+        "Auger",
         "Rime",
-        "Project Q",
-        "MeltPlan"
+        "Project Q"
       ]
     },
     {
@@ -2267,19 +2270,19 @@
     },
     {
       "theme": "Fintech & payments",
-      "count": 11,
+      "count": 10,
       "examples": [
         "Aria",
-        "InstaLILY AI",
         "Linker Finance",
         "Oze",
-        "Canadian fintech Float",
-        "Fomo"
+        "fintech Float",
+        "Fomo",
+        "Menlo"
       ]
     },
     {
       "theme": "Energy & climate",
-      "count": 11,
+      "count": 10,
       "examples": [
         "Axle Energy",
         "Vergennes battery project",
@@ -2294,23 +2297,34 @@
       "count": 8,
       "examples": [
         "Lyzr AI",
+        "InstaLILY AI",
         "Nurix",
         "Adaptive",
         "Synthreo",
-        "ESGAgent.ai - AI Agents for ESG Compliance",
-        "Prime Intellect"
+        "ESGAgent.ai - AI Agents for ESG Compliance"
       ]
     },
     {
       "theme": "Physical AI & robotics",
       "count": 7,
       "examples": [
-        "Dutch Monumental",
-        "Benchmark",
+        "Monumental",
         "Nous Research",
         "Dexterous Robotics Benchmark DexVerse",
         "Humble Robotics",
-        "Queue"
+        "Queue",
+        "AI robotics startup Theker"
+      ]
+    },
+    {
+      "theme": "Vertical SaaS",
+      "count": 5,
+      "examples": [
+        "Boost Technology",
+        "Construction tech startup Agave",
+        "Agave",
+        "Orbital",
+        "Scotch"
       ]
     },
     {
@@ -2325,32 +2339,30 @@
       ]
     },
     {
-      "theme": "Logistics & supply chain",
-      "count": 4,
-      "examples": [
-        "Auger",
-        "Parspec",
-        "Prolo",
-        "Shiprazor"
-      ]
-    },
-    {
-      "theme": "Vertical SaaS",
-      "count": 4,
-      "examples": [
-        "Boost Technology",
-        "Construction tech startup Agave",
-        "Agave",
-        "Orbital"
-      ]
-    },
-    {
       "theme": "Financial back-office & compliance AI",
       "count": 3,
       "examples": [
         "Feathery",
         "SimpleAI",
         "DSALTA"
+      ]
+    },
+    {
+      "theme": "Logistics & supply chain",
+      "count": 3,
+      "examples": [
+        "Parspec",
+        "Prolo",
+        "Shiprazor"
+      ]
+    },
+    {
+      "theme": "AI compute & models",
+      "count": 3,
+      "examples": [
+        "PreciTaste",
+        "Oratomic",
+        "Prime Intellect"
       ]
     },
     {
@@ -2368,14 +2380,6 @@
       "examples": [
         "sherpa",
         "Factorial"
-      ]
-    },
-    {
-      "theme": "AI compute & models",
-      "count": 2,
-      "examples": [
-        "PreciTaste",
-        "Oratomic"
       ]
     },
     {
@@ -2416,6 +2420,20 @@
   ],
   "emerging": [
     {
+      "theme": "Applied / horizontal AI",
+      "count": 106,
+      "cap_m": 7341,
+      "examples": [
+        "Emergent",
+        "Flex",
+        "Valarian",
+        "Auger",
+        "Rime",
+        "Project Q"
+      ],
+      "top_stage": "Venture"
+    },
+    {
       "theme": "Healthcare & bio AI",
       "count": 18,
       "cap_m": 795,
@@ -2432,7 +2450,7 @@
     {
       "theme": "Crypto & digital assets",
       "count": 12,
-      "cap_m": 1394,
+      "cap_m": 1370,
       "examples": [
         "Tradevu",
         "KorProtocol",
@@ -2445,22 +2463,22 @@
     },
     {
       "theme": "Fintech & payments",
-      "count": 11,
-      "cap_m": 692,
+      "count": 10,
+      "cap_m": 632,
       "examples": [
         "Aria",
-        "InstaLILY AI",
         "Linker Finance",
         "Oze",
-        "Canadian fintech Float",
-        "Fomo"
+        "fintech Float",
+        "Fomo",
+        "Menlo"
       ],
       "top_stage": "Venture"
     },
     {
       "theme": "Energy & climate",
-      "count": 11,
-      "cap_m": 2515,
+      "count": 10,
+      "cap_m": 1606,
       "examples": [
         "Axle Energy",
         "Vergennes battery project",
@@ -2474,30 +2492,43 @@
     {
       "theme": "Applied AI agents",
       "count": 8,
-      "cap_m": 344,
+      "cap_m": 274,
       "examples": [
         "Lyzr AI",
+        "InstaLILY AI",
         "Nurix",
         "Adaptive",
         "Synthreo",
-        "ESGAgent.ai - AI Agents for ESG Compliance",
-        "Prime Intellect"
+        "ESGAgent.ai - AI Agents for ESG Compliance"
       ],
-      "top_stage": "Series A"
+      "top_stage": "Series B"
     },
     {
       "theme": "Physical AI & robotics",
       "count": 7,
-      "cap_m": 369,
+      "cap_m": 144,
       "examples": [
-        "Dutch Monumental",
-        "Benchmark",
+        "Monumental",
         "Nous Research",
         "Dexterous Robotics Benchmark DexVerse",
         "Humble Robotics",
-        "Queue"
+        "Queue",
+        "AI robotics startup Theker"
       ],
       "top_stage": "Venture"
+    },
+    {
+      "theme": "Vertical SaaS",
+      "count": 5,
+      "cap_m": 110,
+      "examples": [
+        "Boost Technology",
+        "Construction tech startup Agave",
+        "Agave",
+        "Orbital",
+        "Scotch"
+      ],
+      "top_stage": "Series A"
     },
     {
       "theme": "Cybersecurity",
@@ -2513,30 +2544,6 @@
       "top_stage": "Series B"
     },
     {
-      "theme": "Logistics & supply chain",
-      "count": 4,
-      "cap_m": 76,
-      "examples": [
-        "Auger",
-        "Parspec",
-        "Prolo",
-        "Shiprazor"
-      ],
-      "top_stage": "Seed"
-    },
-    {
-      "theme": "Vertical SaaS",
-      "count": 4,
-      "cap_m": 90,
-      "examples": [
-        "Boost Technology",
-        "Construction tech startup Agave",
-        "Agave",
-        "Orbital"
-      ],
-      "top_stage": "Seed"
-    },
-    {
       "theme": "Financial back-office & compliance AI",
       "count": 3,
       "cap_m": 35,
@@ -2548,25 +2555,26 @@
       "top_stage": "Series A"
     },
     {
-      "theme": "Agent-native infra",
+      "theme": "Logistics & supply chain",
       "count": 3,
-      "cap_m": 331,
+      "cap_m": 26,
       "examples": [
-        "Rogo",
-        "Straiker",
-        "Trase"
+        "Parspec",
+        "Prolo",
+        "Shiprazor"
       ],
-      "top_stage": "Series D"
+      "top_stage": "Seed"
     },
     {
-      "theme": "HR & workforce",
-      "count": 2,
-      "cap_m": 152,
+      "theme": "AI compute & models",
+      "count": 3,
+      "cap_m": 430,
       "examples": [
-        "sherpa",
-        "Factorial"
+        "PreciTaste",
+        "Oratomic",
+        "Prime Intellect"
       ],
-      "top_stage": "Pre Seed"
+      "top_stage": "Series A"
     }
   ],
   "investor_signal": [
@@ -2676,6 +2684,14 @@
           "theme": "Applied / horizontal AI"
         },
         {
+          "company": "Ex-Palantir AI execs",
+          "stage": "Seed",
+          "amount_m": 12,
+          "date": "2026-05-26",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNSXMzdW42QXZBY2xuTEo0RnVvLTZHZ0VKSy14eU5wdWNOM3ltZXc1QjN3MDY3bFBLYVBHUVdjRTVScGlxQk1KRzl0NDlReVB5TTh3U211cWVWbllhNEszRk81bDgtdDZWeVA2bllzN3YyTUYwRzJYdUtGckoyb3J6RXpiT0FNZlRhM25uNU5SNHYxRVBsNDh2Y3AxVmxoZHBMTmpVd2lrbjUtZlQ4VW1LZWNydUROQVh6THIwb25BSU9mTzJERHlJNmd1eXZCaHI3YXQzd2dTQU1QNEhJcFlSOWsyX1JfVkxPdXNocFg2aXNET2RCZWRQRGV3?oc=5",
+          "theme": "Applied / horizontal AI"
+        },
+        {
           "company": "AI coworker startup Viktor",
           "stage": "Series A",
           "amount_m": null,
@@ -2730,17 +2746,9 @@
           "date": "2026-07-15",
           "link": "https://www.itnewsonline.com/BusinessWire/Open-Vision-Engineering-Raises-No.3611-Million-to-Drive-Next-Phase-of-Pockets-Growth/37484",
           "theme": "Applied / horizontal AI"
-        },
-        {
-          "company": "Flex",
-          "stage": "Venture",
-          "amount_m": 70,
-          "date": "2026-07-15",
-          "link": "https://itbrief.co.nz/story/flex-raises-usd-70-million-as-it-launches-uk-service",
-          "theme": "Applied / horizontal AI"
         }
       ],
-      "early": 8
+      "early": 9
     },
     {
       "fund": "Redpoint",
@@ -2762,7 +2770,7 @@
           "theme": "Applied / horizontal AI"
         },
         {
-          "company": "Node",
+          "company": "design tool Flora",
           "stage": "Venture",
           "amount_m": 42,
           "date": "2026-01-27",
@@ -2900,7 +2908,7 @@
           "theme": "Applied / horizontal AI"
         },
         {
-          "company": "Sequoia",
+          "company": "Astrocade",
           "stage": "Venture",
           "amount_m": 56,
           "date": "2026-05-05",
@@ -2952,14 +2960,6 @@
           "date": "2026-04-16",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU2lBTjRNalR1dlVWVVNVb296WVhDYjRJSC1aWU5JVkE3REpMLUtESTNwLWlPNWFCU3c1cGpUZE1yM1J4ZlRFZ1JYeUtHZlVnSlo1Y2szS2JZaHl0TDZjV0RqQW43TWtDNkV4UVRVUnJvdUhBYlM0X1NyX0NkRmdQLVVCWlluRjdzUDU5YXdqbjUzbFdjVkdfSmU4Yy1OSE1KcDY0bg?oc=5",
           "theme": "Applied / horizontal AI"
-        },
-        {
-          "company": "Benchmark",
-          "stage": "Venture",
-          "amount_m": null,
-          "date": "2026-07-14",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYWxKX0s0UEFGS1lRRXQ1NzFTRlMyOXZnY2g3aHlhcUprbGU5dlFEcUhlSHRMMV8tUWpFcFhSQ2I4SWJMdTVYclFQb19Pb1V0OEU0eFFYaV9DYmtCYkp1T2hfSzk3bzVMRmhzeFFzeU9OclpkWXA4UFp1VEwxdVBpc01jUDZWYzl1RFN3bUM2R09hN3V2aXhmbGNVWGlSQkdMZ0lKYVlORktpYnVKODR3b2RYTUx5U3NNdkdMSmZQY3RsY1BmS2k2MWxPajRiM184N2xsTA?oc=5",
-          "theme": "Physical AI & robotics"
         },
         {
           "company": "Dexterous Robotics Benchmark DexVerse",
@@ -3352,14 +3352,6 @@
           "theme": "Applied / horizontal AI"
         },
         {
-          "company": "Nutrition Startup",
-          "stage": "Venture",
-          "amount_m": 100,
-          "date": "2026-05-19",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWFZsTlZ1UU1GSkViVlFMcTJ4d0xPSUxCdDRCclZ3WmVfcnVtZHQtRThmeHNXQmZ4X1Y0MzZPQ2dQbm5VQmZCcmgxV1FUVEFXWEhfQmlxMF8zTjYybmpaQ3hfYmFJd3VONndDN2Y3TnZoQ00waGxzdWxjN0drNjl5amZVWUg?oc=5",
-          "theme": "Applied / horizontal AI"
-        },
-        {
           "company": "You",
           "stage": "Venture",
           "amount_m": null,
@@ -3514,12 +3506,36 @@
           "theme": "Applied / horizontal AI"
         },
         {
+          "company": "preventive health platform Lucis",
+          "stage": "Series A",
+          "amount_m": null,
+          "date": "2026-05-26",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZmt4VXhZZHE3QmZDSXdlMXpRUzJ1Q2FQWnNWdGVOdGxCdHg5eFRtYk1kOGtUZmVNMGxzWHFkNGN3aUt2QUNvcHpTMVNlUW1hdFY0bTVNTHBocDFrX2xuUjZJcGI3OGNqRUhCMGkzNS0tVThVRVlVZmJEeVM0TVhhVkRpNWFhX0VObjliUUhIcHRrODcwNjZPQnBKbWg3a2kwUHYxZHh5R3VEeThvT1FmQjhURExzSXNPNzN5WjZ2aVFHYmV5ZmlMMFpIY28?oc=5",
+          "theme": "Healthcare & bio AI"
+        },
+        {
           "company": "MochaTrade",
           "stage": "Pre-seed",
           "amount_m": null,
           "date": "2026-05-06",
           "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaDViTjYwVFpETzBrY3VGWFFXeEJhZkdEalNfd2dVeTJNbDV6WklDZWVrVktyMVBkWnJQSER0NGM2VHEzeUZZcXgydkhUanZEajhKWmExSEZBVVhYellLOGVKRUxQMHNXSmpvUGk2WEtwazZvek80UXZVWkJ6My1Ib3QtU3RMYTBNYXo3dHNKN2tsZWdUQlAtd2NzazFTNVRJdTUyajg3cW54TGxqT2pLWFdJUFFhSHptb0toZ1llN0hndlk3QjNVOUhyOVhZS09WbGRwWWpYWHM3SzlTelhhY3JEblY3LUxNamhYVnFn0gHzAUFVX3lxTE1xWjJoVVBYR0tIb1VDdmJPMTJic044TEN1TlF2WWhsYTVmczNDZzdCNVA3WWQtcW9pcURKT1Y2WVByWXpueUNiUjhtTXlFdWpvZ2QxWXI1Z1hTVW5UTXczT3ZnbWQxSU5STXRneVRLeWp2TGxkaEN4TUR6YUdDUlhQeDRiTWhkS3lyUFFTSXYtdGJROEE4eUNURzRURm56bW5Hd19uVE1TbWI0d1BDVlY3d1Y2OHJ6dmRPZTdfV04taHJzbzBad1lqWmw1eU5KOUtWU1VSZFBtaW12WFZUZ3U4SmdtaUNfeGNuc21IZVlqMWxrbw?oc=5",
           "theme": "Applied / horizontal AI"
+        },
+        {
+          "company": "AI call receptionist",
+          "stage": "Series A",
+          "amount_m": 22,
+          "date": "2026-04-16",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTnVvbXg5LXRFZk02azVxTTR2Q2w3bGc2dld4NDlPYXJ2WVo1UlJ5UzA4bno2Zy1iNXBKNlhtR0czNXZWQm45YW1Fc0wzaHZ4UHBoblpCNC1iNHVIZlRkbHZ2VFE0RXpYSk12NjR6WWNaU3J3bHNnMEJtMS1HbE9CZUxCVHF6Q09CTjhaWmkyYlNQak5LMmFxN0dhdnUxX09rdmxWUGl2eEIyUkd6RTg5Rw?oc=5",
+          "theme": "Applied / horizontal AI"
+        },
+        {
+          "company": "Mandel AI",
+          "stage": "Seed",
+          "amount_m": null,
+          "date": "2026-03-25",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd2ZSQVFZMm1RSUgzS1RVb1pxYjltanNpVVJ5SzZEWkZxX1N2U1VHV2xKWHJZc3pWNmt1ZGd0Y2pGNVpxMVhNMW1EZUJFYUhsTm9ENFRFdVB5elpNZzJBOHRNNkUwbHFRdE0xWGFnUTRObjNHOFVqM0FVcDVXc1ZjeGp0VHZ0MThlN0RTMm5VWDdieHNLUG91di1ncVJjOTY2TWNOWWZnVU1IUXVJSzQwUWs5aUFQN3FGMEZ5TndNVVlMVkJLOGFnRHl2RFVfQQ?oc=5",
+          "theme": "Logistics & supply chain"
         },
         {
           "company": "Y Combinator's Glimpse",
@@ -3530,15 +3546,7 @@
           "theme": "Applied / horizontal AI"
         },
         {
-          "company": "Sri Lankan",
-          "stage": "Venture",
-          "amount_m": null,
-          "date": "2026-07-14",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaDk4VGVyNFhLbmtDa2UwRXFUNWdVZENZM0YwTjJIZlNFSjdPV2ZybnhQb3hBTU9wNmkwMTJHNGJubVdsTXhRR3ZBRHBnVmswZWdZeGVERjhQZ0h3bzlvQXZuM3g2ak5FcTlCNlJudFNsdE8wYndmVU9laG8xT01BdGlYeTJiR1dsNnBBY1pOZTF3blhvLTVtRGR5WERhS1c5WkQ0WlpOQ2JQSUxQSTI5d2NCTHpKUQ?oc=5",
-          "theme": "Applied / horizontal AI"
-        },
-        {
-          "company": "Y Combinator",
+          "company": "startup Finto",
           "stage": "Venture",
           "amount_m": 3,
           "date": "2026-07-08",
@@ -3568,25 +3576,9 @@
           "date": "2026-05-05",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaTI1TzY3RVd0VzRGcWdRam15WWlmY2dNUEttRElPWUJyR1pqdVJ3MjBwelBVZG92OUdCRG82M1RhQTBRWmV3Qjc2Ykt5SjJsTDdQRUJKWW5udUZCVXpXNWVURktNczEyUTQ2TFVOdGJ1azlPR0xvYmRqRlBmeGhvT19WYmJHNWVGdlp3S29YNDM4UVZyZXJTTWR3ZjJENmxBRVhr0gGoAUFVX3lxTE9kNUJfcDVrSUpJZTQ3djlXMXpPMUdHbGd5YWZQSlBfdHJIaTBkam93eFA5cnp3cmNIeHJBOTNYTlVoV2lZUXVNSG01alpHa05ZOFpGazhzN2xaMlJ2cmt0Ml9Od1FYRzlUNEtaZDBxckluZE0zcVFfU01IbzZYU0FGNDJraTVRVS1jU3ZlMmUzSFY2WnN1ZUY4TXA1UTZKUlo2ZzZKVktwZw?oc=5",
           "theme": "Legal AI"
-        },
-        {
-          "company": "Y Combinator alum Moritz",
-          "stage": "Venture",
-          "amount_m": 9,
-          "date": "2026-05-05",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Kb2ZoRnBNNVE0aEtZOXYyYVl4eTI1V2hNLVNWXzZFZEFTTktESGNGLURuSFh5YTBJNHNCNUNzaFpJb2tPYUprTnNvQWNsUXhfRXp3NXZxcWkwaFJJVGRPR3dndGZ6b294ZkNkOENn?oc=5",
-          "theme": "Legal AI"
-        },
-        {
-          "company": "Y Combinator-backed AI robo",
-          "stage": "Venture",
-          "amount_m": 5,
-          "date": "2026-04-27",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbGY1UXdjSDFjb05qcE1ERER6TGxuWVB1eVZienlEc0lHSlpqLWZfQkg4UWhpcVNxeWlHMks2STk4SmdBcnZtY3VGLUZfQnpITENEd1RhdkRGdmZzYjZGMHhETjBYNktQUUVFWDlMMllwS3RrNFpIZHM1RFBCUkVBTEE5UVYxMEJGTnNYUUliSnBPb1k0YWVXbFdJT1VoVHUtM3BkWE4xNA?oc=5",
-          "theme": "Applied / horizontal AI"
         }
       ],
-      "early": 3
+      "early": 6
     }
   ],
   "momentum": {
