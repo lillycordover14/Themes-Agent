@@ -1,0 +1,6 @@
+{
+  "_doc": "Founder/CEO name + title per company for personalized email greetings. NAMES ONLY — never store email addresses here; addresses are fetched only on an explicit 'generate email' request. Populated by the weekly task (Harmonic founders, PitchBook fallback).",
+  "tjmlabs": {"name": "Jonathan Adly", "title": "Founder & CEO", "source": "pitchbook"},
+  "auger": {"name": "Dave Clark", "title": "Founder & CEO", "source": "harmonic"},
+  "instalilyai": {"name": "Amit Shah", "title": "Founder & CEO", "source": "harmonic"}
+}

@@ -12,6 +12,10 @@ import json, os, re, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "email_drafts.json")
+try:
+    FOUNDERS = json.load(open(os.path.join(ROOT, "data", "founder_names.json"), encoding="utf-8"))
+except Exception:
+    FOUNDERS = {}
 TODAY = datetime.date.today()
 
 INTRO = ("I'm Lilly, an investor at Smith Point Capital — an enterprise software fund co-founded by "
@@ -49,6 +53,14 @@ def angle_for(text):
     return ANGLE["default"]
 
 
+def founder_of(company):
+    """(name, title) for the company's founder/CEO from the pre-fetched names cache (no emails). ('','') if unknown."""
+    f = FOUNDERS.get(re.sub(r"[^a-z0-9]+", "", (company or "").lower()))
+    if isinstance(f, dict) and f.get("name"):
+        return f.get("name", ""), f.get("title", "")
+    return "", ""
+
+
 def first_name_from_connections(conns):
     """If a surfaced connection is the company's CEO/founder, greet them by first name."""
     for c in (conns or []):
@@ -81,7 +93,8 @@ def warm_line(conns, greet_first):
 
 
 def draft(company, desc, stage, amount_m, investors, conns, hook, mode='sourcing'):
-    greet = first_name_from_connections(conns) or "there"
+    fname, ftitle = founder_of(company)
+    greet = (fname.split()[0] if fname else "") or first_name_from_connections(conns) or "there"
     subject = "Smith Point Capital — %s" % company
     lines = ["Hi %s," % greet, "", INTRO, ""]
     if mode == "sourcing":
@@ -114,7 +127,8 @@ def draft(company, desc, stage, amount_m, investors, conns, hook, mode='sourcing
     if w:
         lines += ["", w]
     lines += ["", CTA.format(co=company), "", "Best,", "Lilly"]
-    return subject, "\n".join(lines)
+    founder = (fname + ((" — " + ftitle) if ftitle else "")) if fname else ""
+    return subject, "\n".join(lines), founder
 
 
 def main():
@@ -139,9 +153,9 @@ def main():
         if not k or k in seen:
             return
         seen.add(k)
-        subj, body = draft(company, desc, stage, amount_m, investors, conns, hook, mode=source)
+        subj, body, founder = draft(company, desc, stage, amount_m, investors, conns, hook, mode=source)
         drafts.append({"company": company, "domain": domain, "subject": subj, "body": body,
-                       "source": source, "based_on": hook or "profile"})
+                       "source": source, "based_on": hook or "profile", "founder": founder})
 
     # Pipeline companies (hook off latest material activity)
     for c in (pipe.get("companies") or []):
