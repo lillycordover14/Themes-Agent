@@ -248,6 +248,11 @@ try:
 except Exception as _e:
     print("email build skipped:", _e)
 try:
+    import subprocess as _sp5, sys as _sys5
+    _sp5.run([_sys5.executable, os.path.join(HERE, "stealth.py")])
+except Exception as _e:
+    print("stealth build skipped:", _e)
+try:
     INS = json.load(open(os.path.join(ROOT, "data", "insights.json"), encoding="utf-8"))
 except Exception:
     INS = {"raises": [], "themes": []}
@@ -262,7 +267,11 @@ try:
     EMAIL = {re.sub(r"[^a-z0-9]+", "", (d.get("company") or "").lower()): {"subject": d.get("subject", ""), "body": d.get("body", ""), "source": d.get("source", ""), "founder": d.get("founder", ""), "to": d.get("to", "")} for d in _ed}
 except Exception:
     EMAIL = {}
-BLOB = json.dumps({"D": D, "F": F_DISPLAY, "P": PIPE, "PA": PACT, "INS": INS, "SRC": SRC, "EMAIL": EMAIL}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
+try:
+    STEALTH = json.load(open(os.path.join(ROOT, "data", "stealth.json"), encoding="utf-8"))
+except Exception:
+    STEALTH = {"items": [], "count": 0}
+BLOB = json.dumps({"D": D, "F": F_DISPLAY, "P": PIPE, "PA": PACT, "INS": INS, "SRC": SRC, "EMAIL": EMAIL, "STEALTH": STEALTH}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
 TEMPLATE = open(os.path.join(HERE, "dashboard_template.html"), encoding="utf-8").read()
 html = TEMPLATE.replace("__BLOB__", BLOB)
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)

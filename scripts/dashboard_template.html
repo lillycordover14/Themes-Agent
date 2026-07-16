@@ -85,7 +85,7 @@ a{color:#33517f;text-decoration:none}a:hover{text-decoration:underline}
 <header class="top"><div class="brand"><div class="mark">SP</div>
 <div><h1 style="color:#2f4b7c">Smith Point Capital Dashboard</h1><div class="sub" style="font-style:italic">Started in 2026</div></div></div>
 <div class="meta"><span class="pill">LIVE · AUTO-UPDATED</span><br><span id="meta"></span></div></header>
-<div class="tabs"><button id="tb-radar" class="active" onclick="showTab('radar')">Insights</button><button id="tb-funds" onclick="showTab('funds')">Funds</button><button id="tb-raising" onclick="showTab('raising')">Pipeline</button><button id="tb-sourcing" onclick="showTab('sourcing')">Sourcing</button></div>
+<div class="tabs"><button id="tb-radar" class="active" onclick="showTab('radar')">Insights</button><button id="tb-funds" onclick="showTab('funds')">Funds</button><button id="tb-raising" onclick="showTab('raising')">Pipeline</button><button id="tb-sourcing" onclick="showTab('sourcing')">Sourcing</button><button id="tb-stealth" onclick="showTab('stealth')">Stealth</button></div>
 
 <div id="tab-radar" class="tab active">
  <div class="mandate"><b>Why this exists:</b> spot the theme / tailwind before the category is obvious, and be ready when the category-definer reaches SPC's Series A–D window. Early-round signal across public funding news, PitchBook and the top funds' own bets, read against the 7 legendary-investor signals (bottom).</div>
@@ -132,6 +132,11 @@ a{color:#33517f;text-decoration:none}a:hover{text-decoration:underline}
  <h2 class="sec">Actionable <span class="secsub">· growth-stage sweet spot ($10M+ ARR, Series A–C)</span></h2><div class="rgrid" id="srcAct"></div>
  <h2 class="sec">Watchlist <span class="secsub">· earlier — track for the next round</span></h2><div class="rgrid" id="srcWatch"></div>
 </div>
+<div id="tab-stealth" class="tab">
+ <div class="mandate"><b>Stealth watch:</b> companies emerging from stealth (via stealthstartupspy), filtered to B2B enterprise fits — Applied AI, Data, Edge, Precision Applications — with consumer/crypto screened out. Newest first, rolling ~90 days. Auto-pulled daily.</div>
+ <div class="kpis"><div class="kpi"><div class="n" id="st-count"></div><div class="l">B2B stealth items</div></div><div class="kpi"><div class="n" id="st-win"></div><div class="l">Window</div></div><div class="kpi"><div class="n" id="st-top"></div><div class="l">Top theme</div></div></div>
+ <div class="rgrid" id="stealthList"></div>
+</div>
 <div class="footnote" id="foot"></div>
 </div>
 <div class="ov" id="ov" onclick="if(event.target===this)closeFirm()"><div class="modal" id="modalBody"></div></div>
@@ -140,7 +145,7 @@ const BLOB=__BLOB__;const D=BLOB.D, FF=BLOB.F;
 function money(n){n=n||0;if(n>=1e9)return '$'+(n/1e9).toFixed(1)+'B';if(n>=1e6)return '$'+(n/1e6).toFixed(0)+'M';if(n>=1e3)return '$'+(n/1e3).toFixed(0)+'K';return n?'$'+n:'—';}
 function esc(s){return (s||'').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function fmtd(s){if(!s)return '—';var p=(''+s).slice(0,10).split('-');if(p.length===3){var mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][(+p[1])-1]||'';return mo+' '+(+p[2])+', '+p[0].slice(2);}return s;}
-function showTab(t){['radar','funds','raising','sourcing'].forEach(function(k){var a=document.getElementById('tab-'+k),b=document.getElementById('tb-'+k);if(a)a.classList.toggle('active',k===t);if(b)b.classList.toggle('active',k===t);});}
+function showTab(t){['radar','funds','raising','sourcing','stealth'].forEach(function(k){var a=document.getElementById('tab-'+k),b=document.getElementById('tb-'+k);if(a)a.classList.toggle('active',k===t);if(b)b.classList.toggle('active',k===t);});}
 document.getElementById('meta').textContent='Updated '+new Date(D.generated).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
 var INS=BLOB.INS||{raises:[],themes:[],kpis:{}};var IK=INS.kpis||{};
 function m2(n){n=n||0;return n>=1000?('$'+(n/1000).toFixed(1)+'B'):('$'+n+'M');}
@@ -222,5 +227,10 @@ function pipeSnippet(el){var raw=el.getAttribute('data-pipe')||'{}';var pretty=r
 function copyPipe(){var t=document.getElementById('pipej');if(!t)return;t.select();var ok=false;try{ok=document.execCommand('copy');}catch(e){}try{if(navigator.clipboard){navigator.clipboard.writeText(t.value);ok=true;}}catch(e){}var c=document.getElementById('pipecopied');if(c)c.textContent=ok?'Copied \u2713':'Press Ctrl/Cmd+C';}
 function renderSourcing(){var ow=document.getElementById('srcWarm')&&document.getElementById('srcWarm').checked;function flt(list){return (list||[]).filter(function(r){if(ow&&!(r.connections||[]).length)return false;return true;});}var A=flt(SRC.actionable),W=flt(SRC.watchlist);var ea=document.getElementById('srcAct'),ew=document.getElementById('srcWatch');if(ea)ea.innerHTML=A.length?A.map(srcCard).join(''):'<div class="empty">No actionable fits match this filter.</div>';if(ew)ew.innerHTML=W.length?W.map(srcCard).join(''):'<div class="empty">Nothing on the watchlist matches this filter.</div>';}
 (function(){var c=SRC.counts||{};var all=(SRC.actionable||[]).concat(SRC.watchlist||[]);var warm=all.filter(function(r){return (r.connections||[]).length;}).length;function setn(id,v){var e=document.getElementById(id);if(e)e.textContent=v;}setn('s-act',c.actionable||0);setn('s-watch',c.watchlist||0);setn('s-warm',warm);var note=document.getElementById('srcNote');if(note){var when=SRC.enriched?('Connections confirmed via Affinity'+(SRC.enriched_at?(' on '+SRC.enriched_at):'')+'.'):'Connections shown are a free web/investor prior — confirmed on the weekly Affinity run.';note.textContent='Recently-raised fits from the last '+(SRC.window_days||45)+' days. '+when;}renderSourcing();})();
+
+
+var STE=(BLOB.STEALTH&&BLOB.STEALTH.items)||[];
+function stealthCards(){var el=document.getElementById('stealthList');if(!el)return;if(!STE.length){el.innerHTML='<div class="empty">No B2B stealth items in the window yet — refreshes daily.</div>';return;}el.innerHTML=STE.map(function(r){var co=r.company?('<span style="font-weight:700">'+esc(r.company)+'</span> · '):'';var d=r.date?('<span class="ud">'+fmtd(r.date)+'</span>'):'';return '<div class="rc"><div class="rch"><h3>'+(r.link?'<a href="'+r.link+'" target="_blank">'+esc(r.title)+'</a>':esc(r.title))+'</h3><span class="rscore" style="background:#6a4c93;font-size:11px">'+esc(r.theme||'')+'</span></div>'+(r.blurb?'<div class="rmeta">'+co+esc(r.blurb)+'</div>':(co?'<div class="rmeta">'+co+'</div>':''))+'<div class="rlinks">'+d+(r.link?' · <a href="'+r.link+'" target="_blank">Source ↗</a>':'')+'</div></div>';}).join('');}
+(function(){var c=(BLOB.STEALTH&&BLOB.STEALTH.count)||STE.length;function setn(id,v){var e=document.getElementById(id);if(e)e.textContent=v;}setn('st-count',c);setn('st-win',((BLOB.STEALTH&&BLOB.STEALTH.window_days)||90)+'d');var tt={};STE.forEach(function(r){if(r.theme)tt[r.theme]=(tt[r.theme]||0)+1;});var top=Object.keys(tt).sort(function(a,b){return tt[b]-tt[a];})[0]||'—';setn('st-top',top);stealthCards();})();
 
 </script></body></html>
