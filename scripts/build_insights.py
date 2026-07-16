@@ -104,18 +104,48 @@ LEADIN = re.compile(r"^(exclusive|scoop|breaking|just in|update|report|reports?|
 DESCR = re.compile(r"^(?:ai|ml|genai|fintech|healthtech|insurtech|proptech|legaltech|climate|defen[cs]e|crypto|web3|data|dev(?:eloper)?|security|cyber|robotics?|biotech|enterprise|vertical|b2b|saas|startup)\s+(?:startup|company|firm|platform|unicorn|maker|provider|player|giant|leader|venture|business|app|tool|scaleup)\s+", re.I)
 
 
+INV_STOP = {"y combinator","yc","ycombinator","a16z","andreessen horowitz","sequoia","accel","greylock","benchmark",
+            "kleiner perkins","kleiner","lightspeed","bessemer","index ventures","founders fund","khosla","khosla ventures",
+            "tiger global","coatue","insight partners","general catalyst","gv","google ventures","first round","nea","ivp",
+            "iconiq","thrive capital","thrive","redpoint","felicis","menlo ventures","battery ventures","spark capital","ribbit",
+            "scale venture partners","emergence","craft ventures","8vc","lux capital","dimension","bain capital","tcv","norwest",
+            "ggv","dst global","softbank","sapphire ventures","ngp capital","sorenson","flybridge","headline","alleycorp"}
+DEMO_STOP = {"alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware","florida","georgia",
+            "hawaii","idaho","illinois","indiana","iowa","kansas","kentucky","louisiana","maine","maryland","massachusetts",
+            "michigan","minnesota","mississippi","missouri","montana","nebraska","nevada","ohio","oklahoma","oregon",
+            "pennsylvania","tennessee","texas","utah","vermont","virginia","washington","wisconsin","wyoming",
+            "american","indian","chinese","british","israeli","european","african","canadian","australian","french","german",
+            "japanese","korean","singaporean","dutch","spanish","italian","brazilian","mexican","nigerian","kenyan","irish",
+            "swiss","swedish","danish","norwegian","finnish","polish","turkish","emirati","saudi","egyptian","sri lankan"}
+DEMO_LEAD = sorted(DEMO_STOP, key=len, reverse=True)
+DESC_TAIL = {"fintech","startup","firm","platform","maker","unicorn","provider","player","giant","leader","scaleup","business","venture"}
+
+
 def company_of(title):
     t = LEADIN.sub("", title or "")
     m = RAISE_V.search(t)
     if not m:
         return ""
     co = t[:m.start()].strip(" -–—:·|\"'")
-    co = re.sub(r"\s*[|–—-]\s*[^-|–—]*$", "", co).strip()
+    co = re.sub(r"\s+[|–—-]\s+.*$", "", co).strip()   # only split on SPACED separators (keep hyphenated words like Illinois-based)
     co = DESCR.sub("", co).strip()
+    co = re.sub(r",\s+(?:an?|the)\b.*$", "", co).strip(" ,")   # drop appositive ("Maxima, an AI accounting platform" -> "Maxima")
+    # strip a leading "<X>-backed / -based / -led / -founded" qualifier (e.g. "Illinois-based Klinic", "Y Combinator-backed Klinic")
+    co = re.sub(r"^[A-Za-z0-9.&'’ ]+?-(?:backed|based|led|founded|headquartered)\b\s*", "", co, flags=re.I).strip(" -–—:·|")
+    # strip a leading nationality/state word ("Sri Lankan Klinic" -> "Klinic")
+    low = co.lower()
+    for d in DEMO_LEAD:
+        if low.startswith(d + " "):
+            co = co[len(d):].strip(); low = co.lower(); break
     if len(co.split()) > 4:            # descriptive headline fragment, not a clean name
         return ""
     JUNK = {"ai", "ml", "api", "saas", "the", "a", "an", "new", "app", "data", "cloud", "io", "inc",
             "startup", "company", "it", "us", "tech", "labs", "group"}
+    toks = low.split()
+    if low in INV_STOP or low in DEMO_STOP:
+        return ""                      # an investor/accelerator or a geography, not the company
+    if toks and toks[-1] in DESC_TAIL:
+        return ""                      # trailing descriptor ("... fintech", "... startup"), not a real name
     if norm(co) in JUNK or len(re.sub(r"[^a-z0-9]", "", co.lower())) < 3:
         return ""                      # generic token, not a real company name
     return co
@@ -430,8 +460,6 @@ def main():
 
     emerging = []
     for t in themes:
-        if t["theme"] == "Applied / horizontal AI":
-            continue   # generic catch-all — not surfaced as an "emerging theme" card
         comps = [r for r in rows if r["theme"] == t["theme"]]
         cap = sum(r.get("amount_m") or 0 for r in comps)
         stg = {}
