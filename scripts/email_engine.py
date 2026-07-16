@@ -24,6 +24,9 @@ INTRO = ("I'm Lilly, an investor at Smith Point Capital — an enterprise softwa
 APPROACH = ("We partner with founders who want more than capital — an operator-led approach backed by a "
             "team with deep experience scaling mission-critical platforms across Salesforce, ServiceNow, "
             "Cisco, Databricks, and Oracle.")
+INTRO_SHORT = ("Quick reminder on us: Smith Point is an enterprise-software fund founded by Keith Block "
+               "(former co-CEO of Salesforce), with Burke Norton (Salesforce, Vista) and Chris Lytle. We back "
+               "mission-critical software and get hands-on with GTM, enterprise pricing, and C-suite introductions.")
 CTA = ("Would you be open to a brief intro call? Would love to hear more about {co} and share more about "
        "Smith Point. Please lmk what works in the coming weeks!")
 
@@ -96,12 +99,20 @@ def draft(company, desc, stage, amount_m, investors, conns, hook, mode='sourcing
     fname, ftitle, femail = founder_of(company)
     greet = (fname.split()[0] if fname else "") or first_name_from_connections(conns) or "there"
     subject = "Smith Point Capital — %s" % company
+    if mode == "pipeline":
+        # warm follow-up: assume prior touches; lead on genuine attention + a fresh hook, abridged SPC, soft ask
+        opener = ("I've been keeping a close eye on %s — %s, and came away really impressed." % (company, hook.rstrip("."))) if hook \
+                 else ("I've been keeping a close eye on %s and have been really impressed by the trajectory." % company)
+        lines = ["Hi %s," % greet, "", opener, "", INTRO_SHORT, "",
+                 'On the "more than capital" front, %s' % angle_for(company + " " + (desc or "")),
+                 "", "Would love to grab ~20 minutes to compare notes — no agenda, just have a hunch there could be a fit. Lmk if useful.",
+                 "", "Best,", "Lilly"]
+        founder = (fname + ((" — " + ftitle) if ftitle else "")) if fname else ""
+        return "Smith Point Capital — %s" % company, "\n".join(lines), founder, femail
+    # sourcing (and default): full 4-section intro
     lines = ["Hi %s," % greet, "", INTRO, ""]
-    if mode == "sourcing":
-        lead = (hook + " " if hook else "") + ("We like getting to know founders early and building relationships "
-                "well before a round comes together — no agenda, and totally understand if you're heads-down right now. ") + APPROACH
-    else:  # pipeline — a warm reason to (re)connect off recent activity
-        lead = (hook + " " if hook else "Wanted to reconnect. ") + APPROACH
+    lead = (hook + " " if hook else "") + ("We like getting to know founders early and building relationships "
+            "well before a round comes together — no agenda, and totally understand if you're heads-down right now. ") + APPROACH
     lines += [lead, ""]
     lines += ['On the "more than capital" front: %s' % angle_for(company + " " + (desc or "")), ""]
     # Why this company
@@ -163,8 +174,25 @@ def main():
         a = act_by.get(re.sub(r"[^a-z0-9]+", "", nm.lower()), {})
         hook = ""
         ups = a.get("updates") or []
+        confs = a.get("conferences") or []
         if ups:
-            hook = "Saw the recent news — “%s.”" % (ups[0].get("title") or "").rstrip(".")
+            u0 = ups[0]; cat = (u0.get("category") or "").lower(); t = (u0.get("title") or "").rstrip(".")
+            if "fund" in cat:
+                hook = "congrats on the raise"
+            elif "product" in cat:
+                hook = "the new product news caught my eye (“%s”)" % t[:80]
+            elif "customer" in cat:
+                hook = "saw the new-customer news (“%s”)" % t[:80]
+            elif "partner" in cat:
+                hook = "saw the partnership announcement (“%s”)" % t[:80]
+            elif "hire" in cat or "exec" in cat:
+                hook = "saw the leadership news (“%s”)" % t[:80]
+            elif "award" in cat or "traction" in cat:
+                hook = "saw the recent milestone (“%s”)" % t[:80]
+            else:
+                hook = "just caught your recent update (“%s”)" % t[:80]
+        elif confs:
+            hook = "saw you'll be at %s" % (confs[0].get("title") or "an upcoming event").rstrip(".")[:80]
         add(nm, c.get("desc") or c.get("status") or "", c.get("stage", ""), None, [], [], hook,
             c.get("domain", ""), "pipeline")
 
