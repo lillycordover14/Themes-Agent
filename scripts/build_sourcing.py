@@ -20,6 +20,7 @@ INS = os.path.join(ROOT, "data", "insights.json")
 NET = os.path.join(ROOT, "data", "spc_network.json")
 PIPE = os.path.join(ROOT, "data", "pipeline.json")
 OUT = os.path.join(ROOT, "data", "sourcing_candidates.json")
+DOM_CACHE = os.path.join(ROOT, "data", "sourcing_domain_cache.json")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 TODAY = datetime.date.today()
 RECENT_DAYS = 45           # "recently raised" window for weekly clearing
@@ -206,6 +207,54 @@ def free_connections(domain, investors, net):
     return uniq[:6]
 
 
+def clearbit_domain(name):
+    """Resolve company name -> domain via Clearbit free autocomplete; '' on miss."""
+    try:
+        raw = fetch_text("https://autocomplete.clearbit.com/v1/companies/suggest?query=" + urllib.parse.quote(name), 8)
+        arr = json.loads(raw) if raw else []
+    except Exception:
+        arr = []
+    if isinstance(arr, list) and arr:
+        nn = norm(name)
+        for it in arr:
+            if nn and (nn in norm(it.get("name", "")) or norm(it.get("name", "")).startswith(nn[:6])):
+                return it.get("domain", "")
+        return arr[0].get("domain", "")
+    return ""
+
+
+def resolve_domains(rows):
+    """Fill a real website for every company (Clearbit + domain guess), cached. Free; runs in CI."""
+    try:
+        cache = json.load(open(DOM_CACHE, encoding="utf-8"))
+    except Exception:
+        cache = {}
+    fetched = 0; t0 = time.time()
+    for r in rows:
+        if r.get("domain"):
+            continue
+        k = norm(r["company"])
+        if k in cache:
+            r["domain"] = cache[k]; continue
+        if fetched >= FETCH_CAP or (time.time() - t0) > 200:
+            continue
+        fetched += 1
+        d = clearbit_domain(r["company"])
+        if not d:
+            slug = re.sub(r"[^a-z0-9]", "", r["company"].lower())
+            for g in (slug + ".com", slug + ".ai", slug + ".io"):
+                if fetch_text("https://" + g, 6):
+                    d = g; break
+        r["domain"] = d
+        if d:
+            cache[k] = d      # only cache real hits (never poison with empty)
+        time.sleep(0.1)
+    try:
+        json.dump(cache, open(DOM_CACHE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    except Exception:
+        pass
+
+
 def main():
     net = load_net()
     if not net:
@@ -301,6 +350,8 @@ def main():
         else:
             r["connections"] = free_connections("", r.get("investors", []), net)  # investor-only, no fetch
         r["connection_status"] = "prospective (web) — confirmed weekly via Affinity" if r["connections"] else "no connection surfaced — good to flag"
+
+    resolve_domains(rows)   # triangulate each company's real website (Clearbit + guess), cached
 
     def sort_key(r):
         return (1 if r["tier"] == "actionable" else 0, r.get("date") or "", r.get("amount_m") or 0)
