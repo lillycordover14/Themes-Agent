@@ -998,5 +998,110 @@
     "theme": "Applied / horizontal AI",
     "domain": "",
     "clean": "Lassie"
+  },
+  "monumental": {
+    "theme": "Physical AI & robotics",
+    "domain": "",
+    "clean": "Monumental"
+  },
+  "aistartupkaonai": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "AI Start-Up Kaon AI"
+  },
+  "startupfinto": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "startup Finto"
+  },
+  "privacyfocusedaistartupvenice": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Privacy-focused AI startup Venice"
+  },
+  "fintechfloat": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "fintech Float"
+  },
+  "draperutahbasedredo": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Draper, Utah-based Redo"
+  },
+  "healthtechstartupsuperliving": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Health-tech start-up SuperLiving"
+  },
+  "sixmontholdanchorbase": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Six-month-old Anchorbase"
+  },
+  "sengillibrands22yearoldson": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "Sen. Gillibrand’s 22-year-old son"
+  },
+  "aistartuppramaanalabs": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "AI startup Pramaana Labs"
+  },
+  "3dmatrixstse7777performance": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "3-D Matrix's (TSE:7777) Performance"
+  },
+  "mnx": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "MNX"
+  },
+  "airoboticsstartuptheker": {
+    "theme": "Physical AI & robotics",
+    "domain": "",
+    "clean": "AI robotics startup Theker"
+  },
+  "companytheker": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "company Theker"
+  },
+  "aifocusedfuturesexchangemnx": {
+    "theme": "Crypto & digital assets",
+    "domain": "",
+    "clean": "AI-Focused Futures Exchange MNX"
+  },
+  "crossappeal": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Cross-Appeal"
+  },
+  "scotch": {
+    "theme": "Vertical SaaS",
+    "domain": "",
+    "clean": "Scotch"
+  },
+  "coinbaseceosantiagingcompany": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Coinbase CEO's antiaging company"
+  },
+  "cyera": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Cyera"
+  },
+  "sekai": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Sekai"
+  },
+  "surgebattery": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "Surge Battery"
   }
 }

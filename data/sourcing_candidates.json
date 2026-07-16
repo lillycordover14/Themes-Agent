@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-15",
+  "generated": "2026-07-16",
   "window_days": 45,
   "counts": {
     "actionable": 15,
-    "watchlist": 26,
+    "watchlist": 28,
     "excluded_off_thesis": 5
   },
   "actionable": [
@@ -15,7 +15,7 @@
       "stage": "Series A",
       "amount_m": 274,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://helloaria.eu",
       "domain": "helloaria.eu",
       "tier": "actionable",
@@ -32,14 +32,23 @@
       "stage": "Series B",
       "amount_m": 100,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://lyzr.ai",
       "domain": "lyzr.ai",
       "tier": "actionable",
       "fit_reason": "Series B ($100M) — growth-stage sweet spot",
       "source": "funds",
-      "connections": [],
-      "connection_status": "no connection surfaced — good to flag"
+      "connections": [
+        {
+          "kind": "experience",
+          "detail": "Team overlaps with Slack — shared with Denise Dresser (SPC)"
+        },
+        {
+          "kind": "experience",
+          "detail": "Team overlaps with Microsoft — shared with Maria Martinez & Paul Smith (SPC)"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
     },
     {
       "company": "TJM Labs",
@@ -49,7 +58,7 @@
       "stage": "Series B",
       "amount_m": 75,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://tjmlabs.com",
       "domain": "tjmlabs.com",
       "tier": "actionable",
@@ -69,14 +78,27 @@
         "Energize Capital",
         "Energize Capital - TradingView"
       ],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://instalily.ai",
       "domain": "instalily.ai",
       "tier": "actionable",
       "fit_reason": "Series B ($60M) — growth-stage sweet spot",
       "source": "funds",
-      "connections": [],
-      "connection_status": "no connection surfaced — good to flag"
+      "connections": [
+        {
+          "kind": "experience",
+          "detail": "Team overlaps with Salesforce — shared with Keith Block + 13 more (SPC)"
+        },
+        {
+          "kind": "experience",
+          "detail": "Team overlaps with Snowflake — shared with Tyler Prince & Christian Nysaether (SPC)"
+        },
+        {
+          "kind": "experience",
+          "detail": "Team overlaps with SAP — shared with John Wookey (SPC)"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
     },
     {
       "company": "Feathery",
@@ -86,7 +108,7 @@
       "stage": "Series A",
       "amount_m": 30,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://feathery.io",
       "domain": "feathery.io",
       "tier": "actionable",
@@ -103,14 +125,19 @@
       "stage": "Series A",
       "amount_m": 20,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://parspec.io",
       "domain": "parspec.io",
       "tier": "actionable",
       "fit_reason": "Series A ($20M) — sizable A, likely at/near the ARR floor",
       "source": "funds",
-      "connections": [],
-      "connection_status": "no connection surfaced — good to flag"
+      "connections": [
+        {
+          "kind": "experience",
+          "detail": "Team overlaps with SAP — shared with John Wookey (SPC)"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
     },
     {
       "company": "xCures",
@@ -328,7 +355,7 @@
       "stage": "Venture Unknown",
       "amount_m": 14,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://nurix.ai",
       "domain": "nurix.ai",
       "tier": "watchlist",
@@ -345,7 +372,7 @@
       "stage": "Seed",
       "amount_m": 13,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://insidedesk.com",
       "domain": "insidedesk.com",
       "tier": "watchlist",
@@ -362,7 +389,7 @@
       "stage": "Series A",
       "amount_m": 6,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://adaptive.build",
       "domain": "adaptive.build",
       "tier": "watchlist",
@@ -379,7 +406,7 @@
       "stage": "Seed",
       "amount_m": 6,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://prolo.io",
       "domain": "prolo.io",
       "tier": "watchlist",
@@ -396,7 +423,7 @@
       "stage": "Seed",
       "amount_m": 5,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://linkerfinance.com",
       "domain": "linkerfinance.com",
       "tier": "watchlist",
@@ -413,7 +440,7 @@
       "stage": "Seed",
       "amount_m": 5,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://simpleaiworks.com",
       "domain": "simpleaiworks.com",
       "tier": "watchlist",
@@ -430,7 +457,7 @@
       "stage": "Seed",
       "amount_m": 2,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://synthreo.ai",
       "domain": "synthreo.ai",
       "tier": "watchlist",
@@ -447,7 +474,7 @@
       "stage": "Seed",
       "amount_m": 1,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://kleantech.com.au",
       "domain": "kleantech.com.au",
       "tier": "watchlist",
@@ -464,7 +491,7 @@
       "stage": "Seed",
       "amount_m": null,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://dsalta.com",
       "domain": "dsalta.com",
       "tier": "watchlist",
@@ -481,14 +508,19 @@
       "stage": "Seed",
       "amount_m": null,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://getoze.com",
       "domain": "getoze.com",
       "tier": "watchlist",
       "fit_reason": "Seed — early; track for traction",
       "source": "funds",
-      "connections": [],
-      "connection_status": "no connection surfaced — good to flag"
+      "connections": [
+        {
+          "kind": "experience",
+          "detail": "Team overlaps with Visa — shared with Lisa Edwards (SPC)"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
     },
     {
       "company": "Shiprazor",
@@ -498,7 +530,7 @@
       "stage": "Seed",
       "amount_m": null,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://shiprazor.com",
       "domain": "shiprazor.com",
       "tier": "watchlist",
@@ -515,7 +547,7 @@
       "stage": "Seed",
       "amount_m": null,
       "investors": [],
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://zendawa.africa",
       "domain": "zendawa.africa",
       "tier": "watchlist",
@@ -785,6 +817,40 @@
         }
       ],
       "connection_status": "prospective (web) — confirmed weekly via Affinity"
+    },
+    {
+      "company": "Articul8",
+      "desc": "Articul8 Lands Major Industrial AI Deal , Beats Big GenAI Rivals",
+      "theme": "Precision Applications",
+      "vertical": "",
+      "stage": "Venture",
+      "amount_m": null,
+      "investors": [],
+      "date": "2026-06-16",
+      "link": "https://www.datacenterknowledge.com/business/articul8-lands-major-industrial-ai-deal-beats-big-genai-rivals",
+      "domain": "",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "news",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Helious Launches AI",
+      "desc": "Helious Launches AI Bag Counting System for Accurate Industrial Dispatch Operations",
+      "theme": "Precision Applications",
+      "vertical": "",
+      "stage": "Venture",
+      "amount_m": null,
+      "investors": [],
+      "date": "2026-06-15",
+      "link": "https://news.webindia123.com/news/Articles/Business/20260615/4462785.html",
+      "domain": "",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "news",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
     },
     {
       "company": "SonoThera",

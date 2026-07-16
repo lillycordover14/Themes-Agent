@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15",
+  "generated": "2026-07-16",
   "count": 200,
   "summary": "Capital is concentrating in Healthcare & bio AI (18), Crypto & digital assets (12), Fintech & payments (10). Largest recent round: Helsing ($1.8B).",
   "kpis": {
@@ -22,7 +22,7 @@
     {
       "company": "Aria",
       "amount_m": 274,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://helloaria.eu",
       "investors": [],
       "theme": "Fintech & payments",
@@ -31,7 +31,7 @@
     {
       "company": "Emergent",
       "amount_m": 130,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://emergent.sh",
       "investors": [
         "Khosla Ventures"
@@ -42,7 +42,7 @@
     {
       "company": "Lyzr AI",
       "amount_m": 100,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://lyzr.ai",
       "investors": [],
       "theme": "Applied AI agents",
@@ -51,7 +51,7 @@
     {
       "company": "TJM Labs",
       "amount_m": 75,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://tjmlabs.com",
       "investors": [],
       "theme": "Healthcare & bio AI",
@@ -60,8 +60,8 @@
     {
       "company": "Flex",
       "amount_m": 70,
-      "date": "2026-07-15",
-      "link": "https://itbrief.co.nz/story/flex-raises-usd-70-million-as-it-launches-uk-service",
+      "date": "2026-07-16",
+      "link": "https://flex.one",
       "investors": [
         "Accel"
       ],
@@ -71,7 +71,7 @@
     {
       "company": "InstaLILY AI",
       "amount_m": 60,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://instalily.ai",
       "investors": [
         "Energize Capital",
@@ -83,7 +83,7 @@
     {
       "company": "Valarian",
       "amount_m": 50,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://valarian.com",
       "investors": [
         "New Enterprise Associates"
@@ -94,11 +94,276 @@
     {
       "company": "Auger",
       "amount_m": 50,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://auger.com",
       "investors": [],
       "theme": "Applied / horizontal AI",
       "stage": "Series B"
+    },
+    {
+      "company": "Feathery",
+      "amount_m": 30,
+      "date": "2026-07-16",
+      "link": "https://feathery.io",
+      "investors": [],
+      "theme": "Financial back-office & compliance AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Rime",
+      "amount_m": 24,
+      "date": "2026-07-16",
+      "link": "https://rime.ai",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Parspec",
+      "amount_m": 20,
+      "date": "2026-07-16",
+      "link": "https://parspec.io",
+      "investors": [],
+      "theme": "Logistics & supply chain",
+      "stage": "Series A"
+    },
+    {
+      "company": "Project Q",
+      "amount_m": 17,
+      "date": "2026-07-16",
+      "link": "https://projectqai.github.io",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "MeltPlan",
+      "amount_m": 14,
+      "date": "2026-07-16",
+      "link": "https://meltplan.com",
+      "investors": [
+        "Bessemer",
+        "Bessemer - Entrackr",
+        "Bessemer to bring AI into construction"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Seed"
+    },
+    {
+      "company": "Nurix",
+      "amount_m": 14,
+      "date": "2026-07-16",
+      "link": "https://nurix.ai",
+      "investors": [],
+      "theme": "Applied AI agents",
+      "stage": "Venture Unknown"
+    },
+    {
+      "company": "InsideDesk",
+      "amount_m": 13,
+      "date": "2026-07-16",
+      "link": "https://insidedesk.com",
+      "investors": [],
+      "theme": "Insurance / insurtech",
+      "stage": "Seed"
+    },
+    {
+      "company": "WizCommerce",
+      "amount_m": 8,
+      "date": "2026-07-16",
+      "link": "https://wizcommerce.com",
+      "investors": [],
+      "theme": "Sales & GTM AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Aria Systems",
+      "amount_m": 8,
+      "date": "2026-07-16",
+      "link": "https://ariasystems.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Mozu (Business/Productivity Software)",
+      "amount_m": 8,
+      "date": "2026-07-16",
+      "link": "https://about.mozu-inc.jp",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series B"
+    },
+    {
+      "company": "Adaptive",
+      "amount_m": 6,
+      "date": "2026-07-16",
+      "link": "https://adaptive.build",
+      "investors": [],
+      "theme": "Applied AI agents",
+      "stage": "Series A"
+    },
+    {
+      "company": "Prolo",
+      "amount_m": 6,
+      "date": "2026-07-16",
+      "link": "https://prolo.io",
+      "investors": [],
+      "theme": "Logistics & supply chain",
+      "stage": "Seed"
+    },
+    {
+      "company": "AltaML",
+      "amount_m": 6,
+      "date": "2026-07-16",
+      "link": "https://altaml.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Linker Finance",
+      "amount_m": 5,
+      "date": "2026-07-16",
+      "link": "https://linkerfinance.com",
+      "investors": [],
+      "theme": "Fintech & payments",
+      "stage": "Seed"
+    },
+    {
+      "company": "SimpleAI",
+      "amount_m": 5,
+      "date": "2026-07-16",
+      "link": "https://simpleaiworks.com",
+      "investors": [],
+      "theme": "Financial back-office & compliance AI",
+      "stage": "Seed"
+    },
+    {
+      "company": "Legible",
+      "amount_m": 3,
+      "date": "2026-07-16",
+      "link": "https://legiblepolicy.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Seed"
+    },
+    {
+      "company": "Synthreo",
+      "amount_m": 2,
+      "date": "2026-07-16",
+      "link": "https://synthreo.ai",
+      "investors": [],
+      "theme": "Applied AI agents",
+      "stage": "Seed"
+    },
+    {
+      "company": "sherpa",
+      "amount_m": 2,
+      "date": "2026-07-16",
+      "link": "https://sherpahq.ai",
+      "investors": [],
+      "theme": "HR & workforce",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "Neocad",
+      "amount_m": 1,
+      "date": "2026-07-16",
+      "link": "https://neocadsrl.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "ESGAgent.ai - AI Agents for ESG Compliance",
+      "amount_m": 1,
+      "date": "2026-07-16",
+      "link": "https://kleantech.com.au",
+      "investors": [],
+      "theme": "Applied AI agents",
+      "stage": "Seed"
+    },
+    {
+      "company": "Solving.AI",
+      "amount_m": 1,
+      "date": "2026-07-16",
+      "link": "https://solving.ai",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "DSALTA",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://dsalta.com",
+      "investors": [],
+      "theme": "Financial back-office & compliance AI",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "PreciTaste",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://precitaste.com",
+      "investors": [],
+      "theme": "AI compute & models",
+      "stage": "Series A"
+    },
+    {
+      "company": "Tradevu",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://tradevu.co",
+      "investors": [],
+      "theme": "Crypto & digital assets",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "Boost Technology",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://withboost.co",
+      "investors": [],
+      "theme": "Vertical SaaS",
+      "stage": "Seed"
+    },
+    {
+      "company": "Oze",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://getoze.com",
+      "investors": [],
+      "theme": "Fintech & payments",
+      "stage": "Seed"
+    },
+    {
+      "company": "Shiprazor",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://shiprazor.com",
+      "investors": [],
+      "theme": "Logistics & supply chain",
+      "stage": "Seed"
+    },
+    {
+      "company": "Marakisoft Technologies",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://marakisoft.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "Zendawa",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://zendawa.africa",
+      "investors": [],
+      "theme": "Healthcare & bio AI",
+      "stage": "Pre Seed"
     },
     {
       "company": "Monumental",
@@ -112,73 +377,6 @@
       "stage": "Venture"
     },
     {
-      "company": "Feathery",
-      "amount_m": 30,
-      "date": "2026-07-15",
-      "link": "https://feathery.io",
-      "investors": [],
-      "theme": "Financial back-office & compliance AI",
-      "stage": "Series A"
-    },
-    {
-      "company": "Rime",
-      "amount_m": 24,
-      "date": "2026-07-15",
-      "link": "https://rime.ai",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Series A"
-    },
-    {
-      "company": "Parspec",
-      "amount_m": 20,
-      "date": "2026-07-15",
-      "link": "https://parspec.io",
-      "investors": [],
-      "theme": "Logistics & supply chain",
-      "stage": "Series A"
-    },
-    {
-      "company": "Project Q",
-      "amount_m": 17,
-      "date": "2026-07-15",
-      "link": "https://projectqai.github.io",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Series A"
-    },
-    {
-      "company": "MeltPlan",
-      "amount_m": 14,
-      "date": "2026-07-15",
-      "link": "https://meltplan.com",
-      "investors": [
-        "Bessemer",
-        "Bessemer - Entrackr",
-        "Bessemer to bring AI into construction"
-      ],
-      "theme": "Applied / horizontal AI",
-      "stage": "Seed"
-    },
-    {
-      "company": "Nurix",
-      "amount_m": 14,
-      "date": "2026-07-15",
-      "link": "https://nurix.ai",
-      "investors": [],
-      "theme": "Applied AI agents",
-      "stage": "Venture Unknown"
-    },
-    {
-      "company": "InsideDesk",
-      "amount_m": 13,
-      "date": "2026-07-15",
-      "link": "https://insidedesk.com",
-      "investors": [],
-      "theme": "Insurance / insurtech",
-      "stage": "Seed"
-    },
-    {
       "company": "Open Vision Engineering",
       "amount_m": 11,
       "date": "2026-07-15",
@@ -188,204 +386,6 @@
       ],
       "theme": "Applied / horizontal AI",
       "stage": "Venture"
-    },
-    {
-      "company": "WizCommerce",
-      "amount_m": 8,
-      "date": "2026-07-15",
-      "link": "https://wizcommerce.com",
-      "investors": [],
-      "theme": "Sales & GTM AI",
-      "stage": "Series A"
-    },
-    {
-      "company": "Aria Systems",
-      "amount_m": 8,
-      "date": "2026-07-15",
-      "link": "https://ariasystems.com",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Series A"
-    },
-    {
-      "company": "Mozu (Business/Productivity Software)",
-      "amount_m": 8,
-      "date": "2026-07-15",
-      "link": "https://about.mozu-inc.jp",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Series B"
-    },
-    {
-      "company": "Adaptive",
-      "amount_m": 6,
-      "date": "2026-07-15",
-      "link": "https://adaptive.build",
-      "investors": [],
-      "theme": "Applied AI agents",
-      "stage": "Series A"
-    },
-    {
-      "company": "Prolo",
-      "amount_m": 6,
-      "date": "2026-07-15",
-      "link": "https://prolo.io",
-      "investors": [],
-      "theme": "Logistics & supply chain",
-      "stage": "Seed"
-    },
-    {
-      "company": "AltaML",
-      "amount_m": 6,
-      "date": "2026-07-15",
-      "link": "https://altaml.com",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Series A"
-    },
-    {
-      "company": "Linker Finance",
-      "amount_m": 5,
-      "date": "2026-07-15",
-      "link": "https://linkerfinance.com",
-      "investors": [],
-      "theme": "Fintech & payments",
-      "stage": "Seed"
-    },
-    {
-      "company": "SimpleAI",
-      "amount_m": 5,
-      "date": "2026-07-15",
-      "link": "https://simpleaiworks.com",
-      "investors": [],
-      "theme": "Financial back-office & compliance AI",
-      "stage": "Seed"
-    },
-    {
-      "company": "Legible",
-      "amount_m": 3,
-      "date": "2026-07-15",
-      "link": "https://legiblepolicy.com",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Seed"
-    },
-    {
-      "company": "Synthreo",
-      "amount_m": 2,
-      "date": "2026-07-15",
-      "link": "https://synthreo.ai",
-      "investors": [],
-      "theme": "Applied AI agents",
-      "stage": "Seed"
-    },
-    {
-      "company": "sherpa",
-      "amount_m": 2,
-      "date": "2026-07-15",
-      "link": "https://sherpahq.ai",
-      "investors": [],
-      "theme": "HR & workforce",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "Neocad",
-      "amount_m": 1,
-      "date": "2026-07-15",
-      "link": "https://neocadsrl.com",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "ESGAgent.ai - AI Agents for ESG Compliance",
-      "amount_m": 1,
-      "date": "2026-07-15",
-      "link": "https://kleantech.com.au",
-      "investors": [],
-      "theme": "Applied AI agents",
-      "stage": "Seed"
-    },
-    {
-      "company": "Solving.AI",
-      "amount_m": 1,
-      "date": "2026-07-15",
-      "link": "https://solving.ai",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "DSALTA",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://dsalta.com",
-      "investors": [],
-      "theme": "Financial back-office & compliance AI",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "PreciTaste",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://precitaste.com",
-      "investors": [],
-      "theme": "AI compute & models",
-      "stage": "Series A"
-    },
-    {
-      "company": "Tradevu",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://tradevu.co",
-      "investors": [],
-      "theme": "Crypto & digital assets",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "Boost Technology",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://withboost.co",
-      "investors": [],
-      "theme": "Vertical SaaS",
-      "stage": "Seed"
-    },
-    {
-      "company": "Oze",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://getoze.com",
-      "investors": [],
-      "theme": "Fintech & payments",
-      "stage": "Seed"
-    },
-    {
-      "company": "Shiprazor",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://shiprazor.com",
-      "investors": [],
-      "theme": "Logistics & supply chain",
-      "stage": "Seed"
-    },
-    {
-      "company": "Marakisoft Technologies",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://marakisoft.com",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "Zendawa",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://zendawa.africa",
-      "investors": [],
-      "theme": "Healthcare & bio AI",
-      "stage": "Pre Seed"
     },
     {
       "company": "TerraFirma",
