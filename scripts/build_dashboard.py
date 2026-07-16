@@ -259,7 +259,7 @@ except Exception:
     SRC = {"actionable": [], "watchlist": [], "counts": {}}
 try:
     _ed = json.load(open(os.path.join(ROOT, "data", "email_drafts.json"), encoding="utf-8")).get("drafts", [])
-    EMAIL = {re.sub(r"[^a-z0-9]+", "", (d.get("company") or "").lower()): {"subject": d.get("subject", ""), "body": d.get("body", ""), "source": d.get("source", ""), "founder": d.get("founder", "")} for d in _ed}
+    EMAIL = {re.sub(r"[^a-z0-9]+", "", (d.get("company") or "").lower()): {"subject": d.get("subject", ""), "body": d.get("body", ""), "source": d.get("source", ""), "founder": d.get("founder", ""), "to": d.get("to", "")} for d in _ed}
 except Exception:
     EMAIL = {}
 BLOB = json.dumps({"D": D, "F": F_DISPLAY, "P": PIPE, "PA": PACT, "INS": INS, "SRC": SRC, "EMAIL": EMAIL}, ensure_ascii=False).replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")

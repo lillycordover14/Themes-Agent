@@ -1,6 +1,21 @@
 {
-  "_doc": "Founder/CEO name + title per company for personalized email greetings. NAMES ONLY — never store email addresses here; addresses are fetched only on an explicit 'generate email' request. Populated by the weekly task (Harmonic founders, PitchBook fallback).",
-  "tjmlabs": {"name": "Jonathan Adly", "title": "Founder & CEO", "source": "pitchbook"},
-  "auger": {"name": "Dave Clark", "title": "Founder & CEO", "source": "harmonic"},
-  "instalilyai": {"name": "Amit Shah", "title": "Founder & CEO", "source": "harmonic"}
+  "_doc": "Founder/CEO name + title + email per company, powering the on-site Email popup. Populated by the weekly task (Harmonic contact, PitchBook fallback). Company-domain address preferred for outreach.",
+  "tjmlabs": {
+    "name": "Jonathan Adly",
+    "title": "Founder & CEO",
+    "email": "jonathan@tjmlabs.com",
+    "source": "pitchbook"
+  },
+  "auger": {
+    "name": "Dave Clark",
+    "title": "Founder & CEO",
+    "email": "dave@auger.com",
+    "source": "harmonic"
+  },
+  "instalilyai": {
+    "name": "Amit Shah",
+    "title": "Founder & CEO",
+    "email": "amit@instalily.ai",
+    "source": "harmonic"
+  }
 }

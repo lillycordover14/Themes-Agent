@@ -54,11 +54,11 @@ def angle_for(text):
 
 
 def founder_of(company):
-    """(name, title) for the company's founder/CEO from the pre-fetched names cache (no emails). ('','') if unknown."""
+    """(name, title, email) for the company's founder/CEO from the pre-fetched cache. ('','','') if unknown."""
     f = FOUNDERS.get(re.sub(r"[^a-z0-9]+", "", (company or "").lower()))
     if isinstance(f, dict) and f.get("name"):
-        return f.get("name", ""), f.get("title", "")
-    return "", ""
+        return f.get("name", ""), f.get("title", ""), f.get("email", "")
+    return "", "", ""
 
 
 def first_name_from_connections(conns):
@@ -93,7 +93,7 @@ def warm_line(conns, greet_first):
 
 
 def draft(company, desc, stage, amount_m, investors, conns, hook, mode='sourcing'):
-    fname, ftitle = founder_of(company)
+    fname, ftitle, femail = founder_of(company)
     greet = (fname.split()[0] if fname else "") or first_name_from_connections(conns) or "there"
     subject = "Smith Point Capital — %s" % company
     lines = ["Hi %s," % greet, "", INTRO, ""]
@@ -128,7 +128,7 @@ def draft(company, desc, stage, amount_m, investors, conns, hook, mode='sourcing
         lines += ["", w]
     lines += ["", CTA.format(co=company), "", "Best,", "Lilly"]
     founder = (fname + ((" — " + ftitle) if ftitle else "")) if fname else ""
-    return subject, "\n".join(lines), founder
+    return subject, "\n".join(lines), founder, femail
 
 
 def main():
@@ -153,9 +153,9 @@ def main():
         if not k or k in seen:
             return
         seen.add(k)
-        subj, body, founder = draft(company, desc, stage, amount_m, investors, conns, hook, mode=source)
+        subj, body, founder, to = draft(company, desc, stage, amount_m, investors, conns, hook, mode=source)
         drafts.append({"company": company, "domain": domain, "subject": subj, "body": body,
-                       "source": source, "based_on": hook or "profile", "founder": founder})
+                       "source": source, "based_on": hook or "profile", "founder": founder, "to": to})
 
     # Pipeline companies (hook off latest material activity)
     for c in (pipe.get("companies") or []):
