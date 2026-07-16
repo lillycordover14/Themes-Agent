@@ -1,37 +1,48 @@
 {
-  "generated": "2026-07-15",
+  "generated": "2026-07-16",
   "count": 200,
-  "summary": "Capital is concentrating in Healthcare & bio AI (16), Crypto & digital assets (12), Fintech & payments (11). Largest recent round: Helsing ($1.8B).",
+  "summary": "Capital is concentrating in Healthcare & bio AI (18), Crypto & digital assets (12), Fintech & payments (11). Largest recent round: Helsing ($1.8B).",
   "kpis": {
     "strongest_theme": "Healthcare & bio AI",
     "total_raises": 200,
-    "early_raises": 78,
-    "total_cap_m": 11248,
-    "early_cap_m": 2630,
+    "early_raises": 69,
+    "total_cap_m": 14354,
+    "early_cap_m": 2702,
     "stage_counts": {
       "Pre-seed": 2,
-      "Seed": 30,
-      "Series A": 46,
+      "Seed": 24,
+      "Series A": 43,
       "Series B": 26,
-      "Series C": 7,
-      "Series D": 2,
-      "Venture": 80
+      "Series C": 9,
+      "Series D": 4,
+      "Venture": 83
     }
   },
   "raises": [
     {
       "company": "Aria",
       "amount_m": 274,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://helloaria.eu",
       "investors": [],
       "theme": "Fintech & payments",
       "stage": "Series A"
     },
     {
+      "company": "Emergent",
+      "amount_m": 130,
+      "date": "2026-07-16",
+      "link": "https://emergent.sh",
+      "investors": [
+        "Khosla Ventures"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series C"
+    },
+    {
       "company": "Lyzr AI",
       "amount_m": 100,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://lyzr.ai",
       "investors": [],
       "theme": "Applied AI agents",
@@ -40,7 +51,7 @@
     {
       "company": "TJM Labs",
       "amount_m": 75,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://tjmlabs.com",
       "investors": [],
       "theme": "Healthcare & bio AI",
@@ -49,18 +60,18 @@
     {
       "company": "Flex",
       "amount_m": 70,
-      "date": "2026-07-15",
-      "link": "https://itbrief.co.nz/story/flex-raises-usd-70-million-as-it-launches-uk-service",
+      "date": "2026-07-16",
+      "link": "https://flex.one",
       "investors": [
         "Accel"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series B"
     },
     {
       "company": "InstaLILY AI",
       "amount_m": 60,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://instalily.ai",
       "investors": [
         "Energize Capital",
@@ -72,34 +83,287 @@
     {
       "company": "Valarian",
       "amount_m": 50,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://valarian.com",
       "investors": [
         "New Enterprise Associates"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
-    },
-    {
-      "company": "Vendelux",
-      "amount_m": 50,
-      "date": "2026-07-15",
-      "link": "https://vendelux.com",
-      "investors": [
-        "Cervin Ventures",
-        "Tribeca Venture Partners"
-      ],
-      "theme": "Enterprise AI software",
-      "stage": "Series B"
     },
     {
       "company": "Auger",
       "amount_m": 50,
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "link": "https://auger.com",
       "investors": [],
       "theme": "Logistics & supply chain",
       "stage": "Series B"
+    },
+    {
+      "company": "Feathery",
+      "amount_m": 30,
+      "date": "2026-07-16",
+      "link": "https://feathery.io",
+      "investors": [],
+      "theme": "Financial back-office & compliance AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Rime",
+      "amount_m": 24,
+      "date": "2026-07-16",
+      "link": "https://rime.ai",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Parspec",
+      "amount_m": 20,
+      "date": "2026-07-16",
+      "link": "https://parspec.io",
+      "investors": [],
+      "theme": "Logistics & supply chain",
+      "stage": "Series A"
+    },
+    {
+      "company": "Project Q",
+      "amount_m": 17,
+      "date": "2026-07-16",
+      "link": "https://projectqai.github.io",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "MeltPlan",
+      "amount_m": 14,
+      "date": "2026-07-16",
+      "link": "https://meltplan.com",
+      "investors": [
+        "Bessemer",
+        "Bessemer - Entrackr",
+        "Bessemer to bring AI into construction"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Seed"
+    },
+    {
+      "company": "Nurix",
+      "amount_m": 14,
+      "date": "2026-07-16",
+      "link": "https://nurix.ai",
+      "investors": [],
+      "theme": "Applied AI agents",
+      "stage": "Venture Unknown"
+    },
+    {
+      "company": "InsideDesk",
+      "amount_m": 13,
+      "date": "2026-07-16",
+      "link": "https://insidedesk.com",
+      "investors": [],
+      "theme": "Insurance / insurtech",
+      "stage": "Seed"
+    },
+    {
+      "company": "WizCommerce",
+      "amount_m": 8,
+      "date": "2026-07-16",
+      "link": "https://wizcommerce.com",
+      "investors": [],
+      "theme": "Sales & GTM AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Aria Systems",
+      "amount_m": 8,
+      "date": "2026-07-16",
+      "link": "https://ariasystems.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Mozu (Business/Productivity Software)",
+      "amount_m": 8,
+      "date": "2026-07-16",
+      "link": "https://about.mozu-inc.jp",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series B"
+    },
+    {
+      "company": "Adaptive",
+      "amount_m": 6,
+      "date": "2026-07-16",
+      "link": "https://adaptive.build",
+      "investors": [],
+      "theme": "Applied AI agents",
+      "stage": "Series A"
+    },
+    {
+      "company": "Prolo",
+      "amount_m": 6,
+      "date": "2026-07-16",
+      "link": "https://prolo.io",
+      "investors": [],
+      "theme": "Logistics & supply chain",
+      "stage": "Seed"
+    },
+    {
+      "company": "AltaML",
+      "amount_m": 6,
+      "date": "2026-07-16",
+      "link": "https://altaml.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Linker Finance",
+      "amount_m": 5,
+      "date": "2026-07-16",
+      "link": "https://linkerfinance.com",
+      "investors": [],
+      "theme": "Fintech & payments",
+      "stage": "Seed"
+    },
+    {
+      "company": "SimpleAI",
+      "amount_m": 5,
+      "date": "2026-07-16",
+      "link": "https://simpleaiworks.com",
+      "investors": [],
+      "theme": "Financial back-office & compliance AI",
+      "stage": "Seed"
+    },
+    {
+      "company": "Legible",
+      "amount_m": 3,
+      "date": "2026-07-16",
+      "link": "https://legiblepolicy.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Seed"
+    },
+    {
+      "company": "Synthreo",
+      "amount_m": 2,
+      "date": "2026-07-16",
+      "link": "https://synthreo.ai",
+      "investors": [],
+      "theme": "Applied AI agents",
+      "stage": "Seed"
+    },
+    {
+      "company": "sherpa",
+      "amount_m": 2,
+      "date": "2026-07-16",
+      "link": "https://sherpahq.ai",
+      "investors": [],
+      "theme": "HR & workforce",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "Neocad",
+      "amount_m": 1,
+      "date": "2026-07-16",
+      "link": "https://neocadsrl.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "ESGAgent.ai - AI Agents for ESG Compliance",
+      "amount_m": 1,
+      "date": "2026-07-16",
+      "link": "https://kleantech.com.au",
+      "investors": [],
+      "theme": "Applied AI agents",
+      "stage": "Seed"
+    },
+    {
+      "company": "Solving.AI",
+      "amount_m": 1,
+      "date": "2026-07-16",
+      "link": "https://solving.ai",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "DSALTA",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://dsalta.com",
+      "investors": [],
+      "theme": "Financial back-office & compliance AI",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "PreciTaste",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://precitaste.com",
+      "investors": [],
+      "theme": "AI compute & models",
+      "stage": "Series A"
+    },
+    {
+      "company": "Tradevu",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://tradevu.co",
+      "investors": [],
+      "theme": "Crypto & digital assets",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "Boost Technology",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://withboost.co",
+      "investors": [],
+      "theme": "Vertical SaaS",
+      "stage": "Seed"
+    },
+    {
+      "company": "Oze",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://getoze.com",
+      "investors": [],
+      "theme": "Fintech & payments",
+      "stage": "Seed"
+    },
+    {
+      "company": "Shiprazor",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://shiprazor.com",
+      "investors": [],
+      "theme": "Logistics & supply chain",
+      "stage": "Seed"
+    },
+    {
+      "company": "Marakisoft Technologies",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://marakisoft.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Pre Seed"
+    },
+    {
+      "company": "Zendawa",
+      "amount_m": null,
+      "date": "2026-07-16",
+      "link": "https://zendawa.africa",
+      "investors": [],
+      "theme": "Healthcare & bio AI",
+      "stage": "Pre Seed"
     },
     {
       "company": "Dutch Monumental",
@@ -113,91 +377,6 @@
       "stage": "Venture"
     },
     {
-      "company": "Feathery",
-      "amount_m": 30,
-      "date": "2026-07-15",
-      "link": "https://feathery.io",
-      "investors": [],
-      "theme": "Financial back-office & compliance AI",
-      "stage": "Series A"
-    },
-    {
-      "company": "Alta | AI GTM System of Actions",
-      "amount_m": 25,
-      "date": "2026-07-15",
-      "link": "https://altahq.com",
-      "investors": [],
-      "theme": "Sales & GTM AI",
-      "stage": "Series A"
-    },
-    {
-      "company": "Parspec",
-      "amount_m": 20,
-      "date": "2026-07-15",
-      "link": "https://parspec.io",
-      "investors": [],
-      "theme": "Logistics & supply chain",
-      "stage": "Series A"
-    },
-    {
-      "company": "Project Q",
-      "amount_m": 17,
-      "date": "2026-07-15",
-      "link": "https://projectqai.github.io",
-      "investors": [],
-      "theme": "Enterprise AI software",
-      "stage": "Series A"
-    },
-    {
-      "company": "MeltPlan",
-      "amount_m": 14,
-      "date": "2026-07-15",
-      "link": "https://meltplan.com",
-      "investors": [
-        "Bessemer",
-        "Bessemer - Entrackr",
-        "Bessemer to bring AI into construction"
-      ],
-      "theme": "Enterprise AI software",
-      "stage": "Seed"
-    },
-    {
-      "company": "Nurix",
-      "amount_m": 14,
-      "date": "2026-07-15",
-      "link": "https://nurix.ai",
-      "investors": [],
-      "theme": "Applied AI agents",
-      "stage": "Venture Unknown"
-    },
-    {
-      "company": "EdVisorly",
-      "amount_m": 13,
-      "date": "2026-07-15",
-      "link": "https://edvisorly.com",
-      "investors": [],
-      "theme": "Enterprise AI software",
-      "stage": "Series A"
-    },
-    {
-      "company": "InsideDesk",
-      "amount_m": 13,
-      "date": "2026-07-15",
-      "link": "https://insidedesk.com",
-      "investors": [],
-      "theme": "Insurance / insurtech",
-      "stage": "Seed"
-    },
-    {
-      "company": "Hostie",
-      "amount_m": 12,
-      "date": "2026-07-15",
-      "link": "https://hostie.ai",
-      "investors": [],
-      "theme": "Vertical SaaS",
-      "stage": "Series A"
-    },
-    {
       "company": "Open Vision Engineering",
       "amount_m": 11,
       "date": "2026-07-15",
@@ -205,287 +384,8 @@
       "investors": [
         "Accel"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
-    },
-    {
-      "company": "Bohr Energie",
-      "amount_m": 11,
-      "date": "2026-07-15",
-      "link": "https://bohr-energie.fr",
-      "investors": [],
-      "theme": "Energy & climate",
-      "stage": "Series A"
-    },
-    {
-      "company": "Kord",
-      "amount_m": 9,
-      "date": "2026-07-15",
-      "link": "https://kord.com",
-      "investors": [],
-      "theme": "Financial back-office & compliance AI",
-      "stage": "Series A"
-    },
-    {
-      "company": "WizCommerce",
-      "amount_m": 8,
-      "date": "2026-07-15",
-      "link": "https://wizcommerce.com",
-      "investors": [],
-      "theme": "Sales & GTM AI",
-      "stage": "Series A"
-    },
-    {
-      "company": "Aria Systems",
-      "amount_m": 8,
-      "date": "2026-07-15",
-      "link": "https://ariasystems.com",
-      "investors": [],
-      "theme": "Enterprise AI software",
-      "stage": "Series A"
-    },
-    {
-      "company": "Mozu (Business/Productivity Software)",
-      "amount_m": 8,
-      "date": "2026-07-15",
-      "link": "https://about.mozu-inc.jp",
-      "investors": [],
-      "theme": "Enterprise AI software",
-      "stage": "Series B"
-    },
-    {
-      "company": "Adaptive",
-      "amount_m": 6,
-      "date": "2026-07-15",
-      "link": "https://adaptive.build",
-      "investors": [],
-      "theme": "Applied AI agents",
-      "stage": "Series A"
-    },
-    {
-      "company": "Prolo",
-      "amount_m": 6,
-      "date": "2026-07-15",
-      "link": "https://prolo.io",
-      "investors": [],
-      "theme": "Logistics & supply chain",
-      "stage": "Seed"
-    },
-    {
-      "company": "AltaML",
-      "amount_m": 6,
-      "date": "2026-07-15",
-      "link": "https://altaml.com",
-      "investors": [],
-      "theme": "Enterprise AI software",
-      "stage": "Series A"
-    },
-    {
-      "company": "Linker Finance",
-      "amount_m": 5,
-      "date": "2026-07-15",
-      "link": "https://linkerfinance.com",
-      "investors": [],
-      "theme": "Fintech & payments",
-      "stage": "Seed"
-    },
-    {
-      "company": "SimpleAI",
-      "amount_m": 5,
-      "date": "2026-07-15",
-      "link": "https://simpleaiworks.com",
-      "investors": [],
-      "theme": "Financial back-office & compliance AI",
-      "stage": "Seed"
-    },
-    {
-      "company": "Guthrie AI",
-      "amount_m": 4,
-      "date": "2026-07-15",
-      "link": "https://guthrieai.com",
-      "investors": [],
-      "theme": "Enterprise AI software",
-      "stage": "Seed"
-    },
-    {
-      "company": "Finto",
-      "amount_m": 3,
-      "date": "2026-07-15",
-      "link": "https://gofinto.com",
-      "investors": [],
-      "theme": "Applied AI agents",
-      "stage": "Seed"
-    },
-    {
-      "company": "Legible",
-      "amount_m": 3,
-      "date": "2026-07-15",
-      "link": "https://legiblepolicy.com",
-      "investors": [],
-      "theme": "Enterprise AI software",
-      "stage": "Seed"
-    },
-    {
-      "company": "Birdsview.com",
-      "amount_m": 3,
-      "date": "2026-07-15",
-      "link": "https://birdsview.com",
-      "investors": [],
-      "theme": "Data infrastructure",
-      "stage": "Seed"
-    },
-    {
-      "company": "Synthreo",
-      "amount_m": 2,
-      "date": "2026-07-15",
-      "link": "https://synthreo.ai",
-      "investors": [],
-      "theme": "Applied AI agents",
-      "stage": "Seed"
-    },
-    {
-      "company": "sherpa",
-      "amount_m": 2,
-      "date": "2026-07-15",
-      "link": "https://sherpahq.ai",
-      "investors": [],
-      "theme": "HR & workforce",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "ConstructionClock App",
-      "amount_m": 1,
-      "date": "2026-07-15",
-      "link": "https://constructionclock.com",
-      "investors": [],
-      "theme": "Vertical SaaS",
-      "stage": "Seed"
-    },
-    {
-      "company": "Neocad",
-      "amount_m": 1,
-      "date": "2026-07-15",
-      "link": "https://neocadsrl.com",
-      "investors": [],
-      "theme": "Enterprise AI software",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "LICENSEWARE",
-      "amount_m": 1,
-      "date": "2026-07-15",
-      "link": "https://licenseware.io",
-      "investors": [],
-      "theme": "Enterprise AI software",
-      "stage": "Seed"
-    },
-    {
-      "company": "ESGAgent.ai - AI Agents for ESG Compliance",
-      "amount_m": 1,
-      "date": "2026-07-15",
-      "link": "https://kleantech.com.au",
-      "investors": [],
-      "theme": "Applied AI agents",
-      "stage": "Seed"
-    },
-    {
-      "company": "Solving.AI",
-      "amount_m": 1,
-      "date": "2026-07-15",
-      "link": "https://solving.ai",
-      "investors": [],
-      "theme": "Enterprise AI software",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "Aryval",
-      "amount_m": 1,
-      "date": "2026-07-15",
-      "link": "https://aryval.io",
-      "investors": [],
-      "theme": "Enterprise AI software",
-      "stage": "Venture"
-    },
-    {
-      "company": "mode40",
-      "amount_m": 1,
-      "date": "2026-07-15",
-      "link": "https://mode40.com",
-      "investors": [],
-      "theme": "Physical AI & robotics",
-      "stage": "Venture"
-    },
-    {
-      "company": "DSALTA",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://dsalta.com",
-      "investors": [],
-      "theme": "Financial back-office & compliance AI",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "Oxipital AI",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://oxipitalai.com",
-      "investors": [],
-      "theme": "Physical AI & robotics",
-      "stage": "Series A"
-    },
-    {
-      "company": "PreciTaste",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://precitaste.com",
-      "investors": [],
-      "theme": "AI compute & models",
-      "stage": "Series A"
-    },
-    {
-      "company": "Tradevu",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://tradevu.co",
-      "investors": [],
-      "theme": "Crypto & digital assets",
-      "stage": "Pre Seed"
-    },
-    {
-      "company": "Verge.io",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://verge.io",
-      "investors": [],
-      "theme": "Physical AI & robotics",
-      "stage": "Seed"
-    },
-    {
-      "company": "Boost Technology",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://withboost.co",
-      "investors": [],
-      "theme": "Vertical SaaS",
-      "stage": "Seed"
-    },
-    {
-      "company": "Oze",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://getoze.com",
-      "investors": [],
-      "theme": "Fintech & payments",
-      "stage": "Seed"
-    },
-    {
-      "company": "Shiprazor",
-      "amount_m": null,
-      "date": "2026-07-15",
-      "link": "https://shiprazor.com",
-      "investors": [],
-      "theme": "Logistics & supply chain",
-      "stage": "Seed"
     },
     {
       "company": "Benchmark",
@@ -508,7 +408,7 @@
         "Kleiner Perkins",
         "Kleiner Perkins - TradingView"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -522,6 +422,18 @@
       ],
       "theme": "Physical AI & robotics",
       "stage": "Venture"
+    },
+    {
+      "company": "Vendelux",
+      "amount_m": 50,
+      "date": "2026-07-14",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTjA5OFRrSXlucXZjR1ZYT1o2ZkFnUDBTUlUzWGNoOVNwdHZRRDNZS3VQX3E5bzlOcFdteGg3SFlXTXBJZVV2bTZ6ZVh0TzlTbGdPb1FOaVRPc1JLaVZpNHZxRkZGSkpUYUNjUU4wOEZ0cTBDSjlJdjhZc210UkY2ekVmcU1ZRVlzZGxmYVZOVXpYclhfbWpJSHVqZnlsQQ?oc=5",
+      "investors": [
+        "Cervin Ventures",
+        "Tribeca Venture Partners"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series B"
     },
     {
       "company": "Corner Health",
@@ -542,7 +454,7 @@
       "investors": [
         "Sequoia"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -553,7 +465,7 @@
       "investors": [
         "Bessemer"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -564,7 +476,7 @@
       "investors": [
         "Conviction"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -575,7 +487,7 @@
       "investors": [
         "Y Combinator"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -587,7 +499,7 @@
         "Goldman and Lightspeed - Sifted",
         "Lightspeed"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -609,7 +521,7 @@
       "investors": [
         "Caduceus Capital Partners"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -620,7 +532,7 @@
       "investors": [
         "NFX"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -646,7 +558,7 @@
         "Craft Ventures",
         "Khosla Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series C"
     },
     {
@@ -702,7 +614,7 @@
       "investors": [
         "Wing"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -714,7 +626,7 @@
         "NEA - PR Newswire",
         "New Enterprise Associates"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series B"
     },
     {
@@ -736,7 +648,7 @@
       "investors": [
         "Goodwater Capital"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -747,7 +659,7 @@
       "investors": [
         "Lux Capital"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -758,7 +670,7 @@
       "investors": [
         "I2BF Global Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -769,7 +681,7 @@
       "investors": [
         "Y Combinator"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -780,7 +692,7 @@
       "investors": [
         "Benchmark"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -791,7 +703,7 @@
       "investors": [
         "Wing"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -802,7 +714,7 @@
       "investors": [
         "Conviction"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -813,7 +725,7 @@
       "investors": [
         "Khosla Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -847,7 +759,7 @@
         "Benchmark",
         "HOLD - Moomoo"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -858,7 +770,7 @@
       "investors": [
         "Union Square Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -869,7 +781,7 @@
       "investors": [
         "Benchmark"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -880,7 +792,7 @@
       "investors": [
         "North Island Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -893,7 +805,7 @@
         "Radical Ventures",
         "Union Square Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -916,7 +828,7 @@
       "investors": [
         "General Catalyst"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -928,7 +840,7 @@
         "New Enterprise Associates",
         "Radical Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series B"
     },
     {
@@ -939,7 +851,7 @@
       "investors": [
         "GreatPoint Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -952,7 +864,7 @@
         "First Round",
         "North Island Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -963,7 +875,7 @@
       "investors": [
         "North Island Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -996,7 +908,7 @@
       "investors": [
         "GreatPoint Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1019,7 +931,7 @@
       "investors": [
         "Lightspeed"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1030,7 +942,7 @@
       "investors": [
         "Bessemer"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series B"
     },
     {
@@ -1074,7 +986,7 @@
       "investors": [
         "First Round"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1086,7 +998,7 @@
         "Cervin Ventures",
         "Pelion Venture Partners"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series B"
     },
     {
@@ -1097,7 +1009,7 @@
       "investors": [
         "Cervin Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series B"
     },
     {
@@ -1119,7 +1031,7 @@
       "investors": [
         "Y Combinator"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series B"
     },
     {
@@ -1145,7 +1057,7 @@
         "Bain Capital Ventures - Pulse 2.0",
         "Basis Set"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Seed"
     },
     {
@@ -1168,7 +1080,7 @@
       "investors": [
         "Khosla Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -1179,7 +1091,7 @@
       "investors": [
         "Inovia Capital"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series C"
     },
     {
@@ -1213,7 +1125,7 @@
       "investors": [
         "a16z"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -1225,7 +1137,7 @@
         "Lightspeed",
         "Lightspeed - YourStory.com"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -1248,19 +1160,8 @@
       "investors": [
         "Hi2 Global"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Seed"
-    },
-    {
-      "company": "BI",
-      "amount_m": null,
-      "date": "2026-06-25",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOUdjR253WVBHdDdhbkFJRmdkZGJZbzZzRm5vX0ZUWnN0QmRwZXNTSVVJa2lid20xcVpkdUxHWVJiUnctWHFVLV81TTVCNWN3cklKMFNWTmotX1dEeURjR1ZRdW5sekhhYXg3YVd4WFhxci1DdW1ZTmtkczFVOTV4QlNHUms3Y21JWnFKbGRqb1UySldpbmVBRGlQaw?oc=5",
-      "investors": [
-        "Benchmark"
-      ],
-      "theme": "Enterprise AI software",
-      "stage": "Venture"
     },
     {
       "company": "AI TRENDS",
@@ -1271,7 +1172,7 @@
         "Kleiner Perkins",
         "a16z and Kleiner Perkins - Binance"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Seed"
     },
     {
@@ -1282,7 +1183,7 @@
       "investors": [
         "ARCH Venture Partners"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Seed"
     },
     {
@@ -1306,7 +1207,7 @@
       "investors": [
         "DCM Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1318,7 +1219,7 @@
         "Accel",
         "Prosus"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Seed"
     },
     {
@@ -1329,7 +1230,7 @@
       "investors": [
         "Hi2 Global"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Seed"
     },
     {
@@ -1352,7 +1253,7 @@
         "Sequoia",
         "a16z"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1387,7 +1288,7 @@
         "Bessemer",
         "Bessemer Venture Partners - YourStory.com"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series B"
     },
     {
@@ -1432,7 +1333,7 @@
       "investors": [
         "Seven Seven Six"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1443,7 +1344,7 @@
       "investors": [
         "Seven Seven Six"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1454,7 +1355,7 @@
       "investors": [
         "TTV Capital"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Pre-seed"
     },
     {
@@ -1533,7 +1434,7 @@
         "First Round",
         "Y Combinator"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Seed"
     },
     {
@@ -1544,7 +1445,7 @@
       "investors": [
         "DCVC Bio"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -1555,7 +1456,7 @@
       "investors": [
         "First Round"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1610,7 +1511,7 @@
       "investors": [
         "Insight Partners"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series C"
     },
     {
@@ -1649,19 +1550,8 @@
         "Khosla Ventures - Business Standard",
         "Khosla Ventures - YourStory.com"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Seed"
-    },
-    {
-      "company": "3",
-      "amount_m": null,
-      "date": "2026-06-18",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObHVTeUt2NnZPMnBhZm9ZaHpub2ppWUgxLUFWTE5WM2hReE1wT3hxZDJzRl9maVNRbENTMHFwZkVQNGdHZ3gwdnZianBIV2RrZTQxTDdMeWR1T18yeTdfVUVUclpmSFRjbTJVSC0tbjJfejBPSnpsR2IwMzd6STdiZHViY2sxTm0zaEl6ODVCUzVCLVF4THVXNnRuZHFkUktnS1dlVWt1SkZWLVFlb2lpN3RKQTFDdFFxWTNKOWtNVUdsQjQ2MUdiZDNvTW9WcnZCYWUtclhsYk_SAd4BQVVfeXFMTWhyc25QTmgwd2RaZ2I2UnRHWWphWkFRdERsRUl6dUFvQnBtMlJWaFpRdklTejZnY0xNNmxrcVY3RUxyeHpuYzhMN2lQMFJCbWlaSGY5ZEU5UVM5b2drajRZSF80TnJzNDRwTy1DMDVwMU5vd2cyM0I4RVJNOWNULVdKSEdQYlVPb1czZGRCbUZ1allZV3JlU2lYUTV4UTZySVBOWUVQdW44R2w2WWZVdnFjRm0tZUh4Nk1HMDREbm5VZDJvbnN4VTd6MDVsYTBrSWdWM2Q0em1XRzRHV1hR?oc=5",
-      "investors": [
-        "Matrix"
-      ],
-      "theme": "Enterprise AI software",
-      "stage": "Venture"
     },
     {
       "company": "Vergennes battery project",
@@ -1683,7 +1573,7 @@
         "Khosla Ventures",
         "a16z"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -1706,7 +1596,7 @@
         "Khosla Ventures",
         "Khosla Ventures - Entrackr"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1742,7 +1632,7 @@
         "Scale Venture Partners",
         "Tribeca Venture Partners"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series C"
     },
     {
@@ -1753,7 +1643,7 @@
       "investors": [
         "Benchmark"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1764,7 +1654,7 @@
       "investors": [
         "Benchmark"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1775,7 +1665,7 @@
       "investors": [
         "Wing"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1786,7 +1676,7 @@
       "investors": [
         "Bessemer"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series B"
     },
     {
@@ -1798,7 +1688,7 @@
         "Bullpen Capital",
         "CoinFund - FinTech Global"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -1809,7 +1699,7 @@
       "investors": [
         "True Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1820,7 +1710,7 @@
       "investors": [
         "North Island Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Pre-seed"
     },
     {
@@ -1853,7 +1743,7 @@
       "investors": [
         "CRV"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -1876,7 +1766,7 @@
         "LiveOak Ventures",
         "Their Craft - Yahoo Finance"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Seed"
     },
     {
@@ -1887,7 +1777,7 @@
       "investors": [
         "CRV"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1921,7 +1811,7 @@
       "investors": [
         "Riot Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1932,7 +1822,7 @@
       "investors": [
         "Foundation Capital"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series E"
     },
     {
@@ -1946,7 +1836,7 @@
         "Kleiner Perkins",
         "Kleiner Perkins - Benzinga"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -1957,7 +1847,7 @@
       "investors": [
         "Mangusta Capital"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
@@ -1968,7 +1858,7 @@
       "investors": [
         "VMG Partners"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1980,7 +1870,7 @@
         "Benchmark",
         "Iran war"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -1991,21 +1881,8 @@
       "investors": [
         "First Round"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
-    },
-    {
-      "company": "AI",
-      "amount_m": 70,
-      "date": "2026-06-10",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zdUVXb0J1RUpxMnZQTGNqSjYtZFZSckhWV0dxYUdncURuV0pIelh4ZTlJT3NmR1dfVC1BWFBfemIyM25UMWJGMVZMMnREZ2x6Qk5GYWdTU05MNHBBZTZzUFVHQ0NOdm9wQlhjQ21heDZsaG16RUJuTA?oc=5",
-      "investors": [
-        "Acadian Ventures",
-        "Lux Capital",
-        "North Island Ventures"
-      ],
-      "theme": "Enterprise AI software",
-      "stage": "Series B"
     },
     {
       "company": "Orbital",
@@ -2049,7 +1926,7 @@
       "investors": [
         "FirstMark Capital"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -2071,7 +1948,7 @@
       "investors": [
         "True Ventures"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -2083,7 +1960,7 @@
         "SeaX Ventures",
         "SeaX Ventures to develop open-world RPG Tomo"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -2106,7 +1983,7 @@
         "General Catalyst",
         "Lightspeed"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series C"
     },
     {
@@ -2119,7 +1996,7 @@
         "Rally Ventures",
         "Smash Capital - Indiatimes"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series B"
     },
     {
@@ -2143,7 +2020,7 @@
       "investors": [
         "General Catalyst"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -2165,7 +2042,7 @@
       "investors": [
         "Underdog Labs"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Venture"
     },
     {
@@ -2176,7 +2053,7 @@
       "investors": [
         "Accel"
       ],
-      "theme": "Enterprise AI software",
+      "theme": "Applied / horizontal AI",
       "stage": "Series B"
     },
     {
@@ -2200,31 +2077,180 @@
       ],
       "theme": "Cybersecurity",
       "stage": "Venture"
+    },
+    {
+      "company": "Factorial",
+      "amount_m": 150,
+      "date": "2026-06-07",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYWU5dEllUWV3X2VLUDNlWlVhR3F4Zlptcmc1R3BIcjI0cDh0UVZ4R1F3UUM0WnRsNXlOQXV2OXg1MDAxNHNFYU5obEQwcXVFLTZIU0RwYTZNSHJxTDl2bGR4bjZXZFJxb2I1Q3VvX21pRnhWb21NZWU2Q1RfQnZLRmx4N0R5bTRoQ3NWWGhIYVZUbWZNcFlRMDhpVUZNYm9VbW9GWkJQOVRzLVh3WllvRHRyckdjMVllNV9hVUpBcVV3WkJiZEFabG4zVjVOSkhrLVRxcNIB2gFBVV95cUxOcDE1WFV2UFBjNXQyLUdmQTZ1ZHU1RWlpM3pBRTRTWVhOUFo2UTJ0elE5cUVKNFdUaXRnNkgzc0d6U285WWVKTlE5aVB3Y29HX2VlcFluaEtweDd4N0o4N1pJS0g4dEVuUlRvNV9nVkhxYXRSS3BaWU03MDZXb1NhbUdfcjJST0pFQUhnTXJJT3k0RWtsdHlVSDNjVmpYZkRrVUxwemZfa29ydFdnZXF3YlZrbHRMS0puUnFEbU92SUdKLTZrdzI0X1JkVjlGb3pBNjJtdTZQRS1sQQ?oc=5",
+      "investors": [
+        "General Catalyst",
+        "General Catalyst and Atomico - Sifted"
+      ],
+      "theme": "HR & workforce",
+      "stage": "Series D"
+    },
+    {
+      "company": "Collate",
+      "amount_m": 95,
+      "date": "2026-06-07",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRzFZNDRYWFVndVd5YXRwUmJNLVEtZU5JaTFWemJRSnNhSHlJTkQ0SW1pTVBEY09MWFFER1N2RG9acGJ1bVBFRm40ZDA4MmR2d1kxREpkUFZLRFZsQXpjVUUzLTRlNWRCbXVUNzl4djAzeWc4RW5qVEFxVWRDWnF4TEplVHRaMkk4U0ZDa3lUM2JybzJyRng4QlBITWZCRXhNMHR3VXFzN1VibEFwQUV2RHBmQkHSAboBQVVfeXFMUDlfb0pkYWREOGZWWjNQRWR5SmJ1UmlYT29kaE9GckxGRFNxWHhtNmZUYlZxX3ZQNmpleUxxckctRTAxS3FTbTdzZ1F5V3NfeWlWTjdaQU1MLThTRkp2SkNHbVNnRDlVbDhxcS1QamJhVG0wY1E0T1pvanZBYzRsUmxhWjNfN0I1U0NDQThUcEV5aWhScDdZaXVhaGIyd1YxQmQyR0YtX0VCTWdLREs4YV9fQm1sVnNhQldR?oc=5",
+      "investors": [
+        "First Round",
+        "Redpoint"
+      ],
+      "theme": "Healthcare & bio AI",
+      "stage": "Series A"
+    },
+    {
+      "company": "Hypernative",
+      "amount_m": 40,
+      "date": "2026-06-06",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wLTJ3aGZpYkxlNVh0RWVENlczSXBkMXk4TjJQSzZTbEtYcTFBS2U1YmJkQ3NOdFRWRjRVdWVmYkZDWGh3LW1xNnlDWmFXcXBUR3R4OVdLUUozWExzTnFZWVgyQzROVUJRUC12bzdR?oc=5",
+      "investors": [
+        "Boldstart"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series B"
+    },
+    {
+      "company": "Cross",
+      "amount_m": 6,
+      "date": "2026-06-06",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNFlCeHo5M2dRWGdiYXQwaEowWmtHanotdER2S0R1clhTNHNwUVNfNjRjQTc0eUtaamJJR096TE5uQTNhX0hzOFpYRGtIVUVsOXBkWHQta2NPYk1qb2NsQTduQUlVc3Q2Tjk0UEk5NFkyWldZa0hUTm9mUGtlWV9MQThQbGZzS25oUU40Mko0MA?oc=5",
+      "investors": [
+        "Conviction",
+        "North Island Ventures"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Venture"
+    },
+    {
+      "company": "Helion",
+      "amount_m": 465,
+      "date": "2026-06-05",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcTE5ak1YTmFxOGE3WHJqY2t1MnlKY0doaXYxR1V5MFRkTGVnTzFYZzZBaE05NndVLWdZX25wODZyVVh4WC1XUTJQSVNRaXZBXzNfYnBxb0d1WWtwM2FlZEpqaHNmbXo2eDZtZkV4NHpxd1lhRm82cUJFZXZTa2RyUUVvVjcwYUN1YVZQalF6ZDJwbnpXTmNJUnFBQ093bXVpWWNtcQ?oc=5",
+      "investors": [
+        "Lux Capital",
+        "Thrive Capital"
+      ],
+      "theme": "Energy & climate",
+      "stage": "Venture"
+    },
+    {
+      "company": "Sam Altman",
+      "amount_m": 465,
+      "date": "2026-06-05",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOckM0SGZ4eXZYQlY0QXQ2UWl2NHJSYm9NZEtvU3Q0UzZuWjRzZFJsaU5iS2kxNC0xb2dfVjVtZUYtc0VWbVBUS2JlU0xyMzQ1bUNzMFJwU1RaYU1hMDZxbGVWSGhnb2Q3d0Y5bFF3Mm5aTUNXRFg5TGNSZFJBTl85aWYxb1Z0UHdhWURzVVRjX1JLVkVYcEUzS0lOaEJic0NaWllNY1FHeFBWU3A5MmY4Q3Y2eFd0eHczRWZWN2lqQ2Y5VThjT0doYXh3?oc=5",
+      "investors": [
+        "BoxGroup"
+      ],
+      "theme": "Energy & climate",
+      "stage": "Venture"
+    },
+    {
+      "company": "Fusion Developer Helion",
+      "amount_m": 465,
+      "date": "2026-06-05",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZGlOamphRXdCQndmVDQxUUcwcVBaR3pKTVJDaGtGS29aT05oQ1lNWWQ5ZkxRNlMzbTJUeWZtdnRnamZ3eDN5UnlMamhkbExrdzVWNTc4T3BDZmZtZ2gwalBRLWNOd1ZTRmE4R1ZTY1JHeFlDSTZfV2NhWm1CVHhOX1FMVjU3c1ZGWWVrY3FSLWZBQTNnQzVCMXdqTTZjRUE?oc=5",
+      "investors": [
+        "Thrive Capital"
+      ],
+      "theme": "AI dev tooling",
+      "stage": "Venture"
+    },
+    {
+      "company": "Findigs",
+      "amount_m": 32,
+      "date": "2026-06-05",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS1FUVEVHOU9adV8tNmMtMnJqcWd0anlPeHJ4WUJqRXZBUmN4RzV0UUhTRlpXNFhFT1k4NU04YW4zd0g3RG8wOTZkdlFtVGFPS2Z5ay1NaWh3c3BYX0QxT1NleWNLTWFLLVVxaUxnTW85VXhPaktlYVhyZlBfVGozMGpHRk9SM3hXWEhsUm16bVk3T3J1ajBBT0FlZHU4bHBySW5qYlpUam9NTWlyVHd2VNIBtgFBVV95cUxNMFJHUDE4b3VKMlg0a0h0LTUxMFZvVGxrclQzbUZwVHVteEpaVUJiZmxXUjRESW9kWUFILVcyZmM5VzhoSHNpQ1VOVzQ0amE0NTdTRGlJaUhUMDJiVWtzWVFLT1c2RUJIVElkYWVEb1R2TlFoS3lZaXRvV054OGlVWFROQnJUVTZ5ZS1jOTN2MFNjbW5nWkhKY0ltai01ZjJ4aXVRQV9jdmdhM0xBVVNJTjZUOGtidw?oc=5",
+      "investors": [
+        "Western Technology Investment"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series C"
+    },
+    {
+      "company": "Opal Security",
+      "amount_m": 23,
+      "date": "2026-06-05",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORkEySTJxZWQ3eWdvaHB2RGd6d2c5MWFRRkRyUm9YV2JqWFhrSHF0TUtEcWdLZkR0TG96QnBvbVdRbml0dGs3WnQtdEpEY1ZJSndfQXNWa3A2VENyV0NWUWhWUGZFTGVWRkE4bnNTaUk5d0VkWGZBMGZrMHNNLXRFSnB3?oc=5",
+      "investors": [
+        "Greylock"
+      ],
+      "theme": "Cybersecurity",
+      "stage": "Venture"
+    },
+    {
+      "company": "Helion, the Sam Altman",
+      "amount_m": 465,
+      "date": "2026-06-04",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYnh2NzdiajZwUkRkejZsbnhwaGlYbHV5OUZjOWRyOUJJSTAxci1DTHgwTFFnUkNST0JyRkdOR09jaXFmTFpWSW85SHRpaDNpYVZRNFZ2eW93UkZWLTBwUkh0UG9OelFLVHN1S1VXVHNGdVpFTjFkcnVpM2MwNWpqdFY3SXNzX1VLTjRZRF9XZlJaaU0xbnZKYnEzbTA2enpFcEM4MGxlQlJmZXN0eG54OEYxRm1neExlUnFtbVVxLXQxSXgxN0E?oc=5",
+      "investors": [
+        "Lux Capital"
+      ],
+      "theme": "Energy & climate",
+      "stage": "Venture"
+    },
+    {
+      "company": "Fusion firm Helion",
+      "amount_m": 465,
+      "date": "2026-06-04",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOa0FUV0duZlZPQkNHT2VVTnRfMkxBWUMwWHJlQzNudzhlSm15c3ZFbHYxNWhXMHJKUGNFdk14TTlXYm9KN0ttRHlNb3lXUUZ5WE1sdnYxejRNcWRzNGxyWWlsdVFKTDh5NXU1Tkw0REdrMFEzbzJDQUZqdURFMDNNWWEtX3FvSE1mMmdn?oc=5",
+      "investors": [
+        "Thrive Capital"
+      ],
+      "theme": "Energy & climate",
+      "stage": "Venture"
+    },
+    {
+      "company": "Suno",
+      "amount_m": 400,
+      "date": "2026-06-04",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVXR3aTRuc0RkdlRyX0U2dURBcW1acjFRanBtdnZzWi1SN3B6bGxJTlBidExsRTBteDBaVnFWZ0lCazZTeHI4UjVtSE85anZFeFZ6anc1RWMtM0VyWFZJZnJDd0pHeUxKM1BTaF9GZTByQXZoclY1dzBLSzJSYXRGVjNxLU5mVm9ZdDhtYkNzclhFZXZqT0d1cHM4OVJXZllnd2RrOFR3?oc=5",
+      "investors": [
+        "Forerunner Ventures",
+        "Union Square Ventures"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series D"
+    },
+    {
+      "company": "Lassie",
+      "amount_m": 35,
+      "date": "2026-06-04",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOUVTN1BqRmg2NDZZaHBsR1NKZ0pIcmJpb1NDak5FbGV4aTh1MjNBTVI2OElUQW9TY0p0NFR2WFBBZFk1VGFIZ1Q0Y2ZISEdheEdINU4yRGxBUERwdHB2T1U1WXlxRDZzS2hoSjBZbTZ0QXNqazNhLTdTN1NaTXAzeHk0YkFMcmFIUlBuQlVvaDI4VVZaaU0taQ?oc=5",
+      "investors": [
+        "a16z",
+        "a16z - orrick.com"
+      ],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series A"
     }
   ],
   "themes": [
     {
-      "theme": "Enterprise AI software",
-      "count": 104,
+      "theme": "Applied / horizontal AI",
+      "count": 105,
       "examples": [
+        "Emergent",
         "Flex",
         "Valarian",
-        "Vendelux",
+        "Rime",
         "Project Q",
-        "MeltPlan",
-        "EdVisorly"
+        "MeltPlan"
       ]
     },
     {
       "theme": "Healthcare & bio AI",
-      "count": 16,
+      "count": 18,
       "examples": [
         "TJM Labs",
+        "Zendawa",
         "Corner Health",
         "xCures",
         "Healome Therapeutics",
-        "Hera",
-        "Health-tech start"
+        "Hera"
       ]
     },
     {
@@ -2252,51 +2278,50 @@
       ]
     },
     {
-      "theme": "Physical AI & robotics",
-      "count": 10,
-      "examples": [
-        "Dutch Monumental",
-        "mode40",
-        "Oxipital AI",
-        "Verge.io",
-        "Benchmark",
-        "Nous Research"
-      ]
-    },
-    {
-      "theme": "Applied AI agents",
-      "count": 9,
-      "examples": [
-        "Lyzr AI",
-        "Nurix",
-        "Adaptive",
-        "Finto",
-        "Synthreo",
-        "ESGAgent.ai - AI Agents for ESG Compliance"
-      ]
-    },
-    {
       "theme": "Energy & climate",
-      "count": 8,
+      "count": 11,
       "examples": [
-        "Bohr Energie",
         "Axle Energy",
         "Vergennes battery project",
         "SolarSquare",
         "Endurance Energy",
-        "Solidion Technology"
+        "Solidion Technology",
+        "Eclipse"
       ]
     },
     {
-      "theme": "Vertical SaaS",
-      "count": 6,
+      "theme": "Applied AI agents",
+      "count": 8,
       "examples": [
-        "Hostie",
-        "ConstructionClock App",
-        "Boost Technology",
-        "Construction tech startup Agave",
-        "Agave",
-        "Orbital"
+        "Lyzr AI",
+        "Nurix",
+        "Adaptive",
+        "Synthreo",
+        "ESGAgent.ai - AI Agents for ESG Compliance",
+        "Prime Intellect"
+      ]
+    },
+    {
+      "theme": "Physical AI & robotics",
+      "count": 7,
+      "examples": [
+        "Dutch Monumental",
+        "Benchmark",
+        "Nous Research",
+        "Dexterous Robotics Benchmark DexVerse",
+        "Humble Robotics",
+        "Queue"
+      ]
+    },
+    {
+      "theme": "Cybersecurity",
+      "count": 5,
+      "examples": [
+        "Cyber resilience startup Mitigata",
+        "Cybersecurity startup Mitigata",
+        "Twenty",
+        "A Security",
+        "Opal Security"
       ]
     },
     {
@@ -2310,23 +2335,22 @@
       ]
     },
     {
-      "theme": "Financial back-office & compliance AI",
+      "theme": "Vertical SaaS",
       "count": 4,
       "examples": [
-        "Feathery",
-        "Kord",
-        "SimpleAI",
-        "DSALTA"
+        "Boost Technology",
+        "Construction tech startup Agave",
+        "Agave",
+        "Orbital"
       ]
     },
     {
-      "theme": "Cybersecurity",
-      "count": 4,
+      "theme": "Financial back-office & compliance AI",
+      "count": 3,
       "examples": [
-        "Cyber resilience startup Mitigata",
-        "Cybersecurity startup Mitigata",
-        "Twenty",
-        "A Security"
+        "Feathery",
+        "SimpleAI",
+        "DSALTA"
       ]
     },
     {
@@ -2339,11 +2363,11 @@
       ]
     },
     {
-      "theme": "Sales & GTM AI",
+      "theme": "HR & workforce",
       "count": 2,
       "examples": [
-        "Alta | AI GTM System of Actions",
-        "WizCommerce"
+        "sherpa",
+        "Factorial"
       ]
     },
     {
@@ -2362,17 +2386,10 @@
       ]
     },
     {
-      "theme": "Data infrastructure",
+      "theme": "Sales & GTM AI",
       "count": 1,
       "examples": [
-        "Birdsview.com"
-      ]
-    },
-    {
-      "theme": "HR & workforce",
-      "count": 1,
-      "examples": [
-        "sherpa"
+        "WizCommerce"
       ]
     },
     {
@@ -2388,20 +2405,27 @@
       "examples": [
         "STARK"
       ]
+    },
+    {
+      "theme": "AI dev tooling",
+      "count": 1,
+      "examples": [
+        "Fusion Developer Helion"
+      ]
     }
   ],
   "emerging": [
     {
       "theme": "Healthcare & bio AI",
-      "count": 16,
-      "cap_m": 700,
+      "count": 18,
+      "cap_m": 795,
       "examples": [
         "TJM Labs",
+        "Zendawa",
         "Corner Health",
         "xCures",
         "Healome Therapeutics",
-        "Hera",
-        "Health-tech start"
+        "Hera"
       ],
       "top_stage": "Venture"
     },
@@ -2434,60 +2458,59 @@
       "top_stage": "Venture"
     },
     {
-      "theme": "Physical AI & robotics",
-      "count": 10,
-      "cap_m": 370,
+      "theme": "Energy & climate",
+      "count": 11,
+      "cap_m": 2515,
       "examples": [
-        "Dutch Monumental",
-        "mode40",
-        "Oxipital AI",
-        "Verge.io",
-        "Benchmark",
-        "Nous Research"
+        "Axle Energy",
+        "Vergennes battery project",
+        "SolarSquare",
+        "Endurance Energy",
+        "Solidion Technology",
+        "Eclipse"
       ],
       "top_stage": "Venture"
     },
     {
       "theme": "Applied AI agents",
-      "count": 9,
-      "cap_m": 347,
+      "count": 8,
+      "cap_m": 344,
       "examples": [
         "Lyzr AI",
         "Nurix",
         "Adaptive",
-        "Finto",
         "Synthreo",
-        "ESGAgent.ai - AI Agents for ESG Compliance"
-      ],
-      "top_stage": "Seed"
-    },
-    {
-      "theme": "Energy & climate",
-      "count": 8,
-      "cap_m": 666,
-      "examples": [
-        "Bohr Energie",
-        "Axle Energy",
-        "Vergennes battery project",
-        "SolarSquare",
-        "Endurance Energy",
-        "Solidion Technology"
+        "ESGAgent.ai - AI Agents for ESG Compliance",
+        "Prime Intellect"
       ],
       "top_stage": "Series A"
     },
     {
-      "theme": "Vertical SaaS",
-      "count": 6,
-      "cap_m": 103,
+      "theme": "Physical AI & robotics",
+      "count": 7,
+      "cap_m": 369,
       "examples": [
-        "Hostie",
-        "ConstructionClock App",
-        "Boost Technology",
-        "Construction tech startup Agave",
-        "Agave",
-        "Orbital"
+        "Dutch Monumental",
+        "Benchmark",
+        "Nous Research",
+        "Dexterous Robotics Benchmark DexVerse",
+        "Humble Robotics",
+        "Queue"
       ],
-      "top_stage": "Series A"
+      "top_stage": "Venture"
+    },
+    {
+      "theme": "Cybersecurity",
+      "count": 5,
+      "cap_m": 190,
+      "examples": [
+        "Cyber resilience startup Mitigata",
+        "Cybersecurity startup Mitigata",
+        "Twenty",
+        "A Security",
+        "Opal Security"
+      ],
+      "top_stage": "Series B"
     },
     {
       "theme": "Logistics & supply chain",
@@ -2502,28 +2525,27 @@
       "top_stage": "Seed"
     },
     {
-      "theme": "Financial back-office & compliance AI",
+      "theme": "Vertical SaaS",
       "count": 4,
-      "cap_m": 44,
+      "cap_m": 90,
+      "examples": [
+        "Boost Technology",
+        "Construction tech startup Agave",
+        "Agave",
+        "Orbital"
+      ],
+      "top_stage": "Seed"
+    },
+    {
+      "theme": "Financial back-office & compliance AI",
+      "count": 3,
+      "cap_m": 35,
       "examples": [
         "Feathery",
-        "Kord",
         "SimpleAI",
         "DSALTA"
       ],
       "top_stage": "Series A"
-    },
-    {
-      "theme": "Cybersecurity",
-      "count": 4,
-      "cap_m": 167,
-      "examples": [
-        "Cyber resilience startup Mitigata",
-        "Cybersecurity startup Mitigata",
-        "Twenty",
-        "A Security"
-      ],
-      "top_stage": "Series B"
     },
     {
       "theme": "Agent-native infra",
@@ -2537,17 +2559,103 @@
       "top_stage": "Series D"
     },
     {
-      "theme": "Sales & GTM AI",
+      "theme": "HR & workforce",
       "count": 2,
-      "cap_m": 33,
+      "cap_m": 152,
       "examples": [
-        "Alta | AI GTM System of Actions",
-        "WizCommerce"
+        "sherpa",
+        "Factorial"
       ],
-      "top_stage": "Series A"
+      "top_stage": "Pre Seed"
     }
   ],
   "investor_signal": [
+    {
+      "fund": "a16z",
+      "picks": [
+        {
+          "company": "Ornn",
+          "stage": "Seed",
+          "amount_m": 33,
+          "date": "2026-06-25",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZmJHa2R6VnhOVmJZTTZkSnpJRVg3SzBqdTFkdU1yR01oUFlYZ3cxN00yckpvbWY3a2VtQ3NJZ2FYSFFYNlJrTTI4U05ZTk55eUE3MUZoYzRfM2FXRlhFWEcxa3h6M3Q0TzlLQVVPZ2lDalQwVFhnd0VJUXEybThJeUllYUQ?oc=5",
+          "theme": "Crypto & digital assets"
+        },
+        {
+          "company": "Netris",
+          "stage": "Series A",
+          "amount_m": 15,
+          "date": "2026-06-25",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZEo1MFBpaF9DaUFtREdDMFpjeHFmc0NacTdJUnI4Z3YtbUJfTVh0bzlkMzZOOGMtaWFNSjN0SEdudGJaSFYwdjgyOTRTYXV3ellIbldRYmMwaE1vMndGUjhVY1Q3VktIOHk0UTRqTlRUNXRfM05sbUdSd2prWERXUjY5alhGdHlDSWNhcVRuenY0TlpBbWVqaQ?oc=5",
+          "theme": "Applied / horizontal AI"
+        },
+        {
+          "company": "Prosper AI",
+          "stage": "Series A",
+          "amount_m": 30,
+          "date": "2026-06-22",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSnFVX3NSQ2pSdjZTbmd6UHFmVURsaC1GWkVqUFJJWkU4eFNMUEtFa2hfd3cyVFVRRTM1aXRJdkZZMFZvU1hFaF9QVWNPNXctaVkyZFJOYThqRlEwWFFNdWF0Yzc1ZXAwRVJNMWdDeFp2b044UFRWV3FGdG9WLVNOYXJDOG4xanVZLUZWR0I0WQ?oc=5",
+          "theme": "Healthcare & bio AI"
+        },
+        {
+          "company": "Telepatia",
+          "stage": "Series A",
+          "amount_m": 33,
+          "date": "2026-06-17",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NNm5QNW5WWi03eUJmZDc4X3F4VWFhbGh4RzNEejVncFZyNTU3cUQ5b2dVcE9BSnR6U1RGajdpalBSMGVCMWo3VXZWdFhVTFBtNkx6d0JMZTRscFV2Y05sVjZCSWFqWmxkSDY0dlhHMWk2NW8?oc=5",
+          "theme": "Crypto & digital assets"
+        },
+        {
+          "company": "Convey",
+          "stage": "Series A",
+          "amount_m": 38,
+          "date": "2026-06-17",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQUHd5VWh3ajFvZ2lqblJfU2FLUks4VVFDbVNYU3lGaUx5RExaa1BZRy1VNGhSV19PWUpreTFRT0h6dXVQNEgxM2VJNS1MdmZWNDJleEY0WHJBTlpoX1BaRk44RGZfQUtlSjh5YkxNbzdud2xDaGNidjNiakJYZlJ3bkVHQW5LOUFLaUpJTmpnLVFjZHRqVjBCR21DNkJfTW5WbkdpQ0hXRjZfbGY5OVJDdW9LYU1tTC1ucE5VUXhMV2RXOUVxbWJoNzNYNlZEbjN3bWhBZzVaVmhMLTloZ0UxN3REMHhYSGFQZ1NpbWpkNklYUW9DWWdVTmYyQmJxWFg3QXc?oc=5",
+          "theme": "Applied / horizontal AI"
+        },
+        {
+          "company": "Lassie",
+          "stage": "Series A",
+          "amount_m": 35,
+          "date": "2026-06-04",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOUVTN1BqRmg2NDZZaHBsR1NKZ0pIcmJpb1NDak5FbGV4aTh1MjNBTVI2OElUQW9TY0p0NFR2WFBBZFk1VGFIZ1Q0Y2ZISEdheEdINU4yRGxBUERwdHB2T1U1WXlxRDZzS2hoSjBZbTZ0QXNqazNhLTdTN1NaTXAzeHk0YkFMcmFIUlBuQlVvaDI4VVZaaU0taQ?oc=5",
+          "theme": "Applied / horizontal AI"
+        },
+        {
+          "company": "Stitch",
+          "stage": "Series A",
+          "amount_m": 25,
+          "date": "2026-05-14",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVnI2UTZrNGZzZ3VYdjNUMTY5bmtXdjAxOFhuOGJfMHYzTXNoWEFDY1MzMlg3ZzFNMlliM296ODNXTFR4aXNDbXdtLW9sZXlma2N2aWNFVUtHZW1RdXRqN2w0SExRQTEwZU5GU25IWnc3b2p0UXh6bW91Q3ZZa0hxYTdQaWJXelRlX2NCMVBFWE1SMHpwaEJMMkpfZ3VXWjZUVVFiZHdTSl9iWThkejdzVk03dw?oc=5",
+          "theme": "Applied / horizontal AI"
+        },
+        {
+          "company": "Hilbert",
+          "stage": "Series A",
+          "amount_m": 28,
+          "date": "2026-04-15",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVk8xZXFPWk9MRUtwbVlqWmJ2VkQxUzBFbEhaR2l6bHIzd1pjbE1sRjZPQ0xncVM1UlJtemhxU2tEeHB4YjNUMGN0d3lxenlzalF3VmJ0aF9Sb3F1TU0xNkdsTm8yaGhHMkNPdk93SElQTGlVTDFkRGNReGREWmtTZFBqQkMtMWs?oc=5",
+          "theme": "Applied / horizontal AI"
+        },
+        {
+          "company": "Cybersecurity startup Cotool",
+          "stage": "Seed",
+          "amount_m": 7,
+          "date": "2026-03-05",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNjV4VFkzQ0xJZ2FtcGIwQWJNQVo4OWZfTERaeTBHdjRxTGxwSDJVUThyblFETy1XMkxRTkpvOWRzclphTlBwU1QtWXl2aGdlVFhMUnlURW9URVBQajhiUVlwRFhLc0RQcUZtcEd3S2xzLWo3N201dVFUYnM3QXhXQ0dZRXVGRmFtdHhpNXhIRmZVc2g2QkJDSXBGSUs2OXRUS1UzX3JTWmtMZEVmZ3c?oc=5",
+          "theme": "Cybersecurity"
+        },
+        {
+          "company": "Probook",
+          "stage": "Venture",
+          "amount_m": 40,
+          "date": "2026-06-23",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOFo2QWt0bzgwSzNqc0RleUVmVl9EZ0Zyc0pHbkplWS1HWlI0WEEwOEI2TjA2NGFkRUNUc3ZfRUdlTDZza0czZDZOb0VzaUFIT2pMSDBTaFlsd1NGckplQ29Rd1E2N05OUDJYQVhvZ3hQZlF3ZmQ0WFJoTE5TdVo0N0Y4czc2c0pHQ3BDbTJPLVhVaTVGbHlNUmg1di1yd0doMnBhR2Vtajg4cVl5YXZsUlVR?oc=5",
+          "theme": "Applied / horizontal AI"
+        }
+      ],
+      "early": 9
+    },
     {
       "fund": "Accel",
       "picks": [
@@ -2565,15 +2673,7 @@
           "amount_m": 3,
           "date": "2026-06-24",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMDB2Wl84WDFHV0hJZ1p1ajdrM2FnZnpmTFI4d2hSRDhseWRFZG1UWmNZeVZzWEZ5MnlzUUhPMnR1X2FJc1Q4VkMxWGRmYXdPQzRxUzNPTGZrWFZQT1IwcW5Vc2NUNFdKZVhpbVJhLUVCRVEyTHVKUFhpWU1qaHZubHJVRmJudkJuVTBsLW1fZVZCMUg3REh0ZWZMdzBwTXRoVmZfQ2U1d01TZDNwLWc1StIBsAFBVV95cUxPMDB2Wl84WDFHV0hJZ1p1ajdrM2FnZnpmTFI4d2hSRDhseWRFZG1UWmNZeVZzWEZ5MnlzUUhPMnR1X2FJc1Q4VkMxWGRmYXdPQzRxUzNPTGZrWFZQT1IwcW5Vc2NUNFdKZVhpbVJhLUVCRVEyTHVKUFhpWU1qaHZubHJVRmJudkJuVTBsLW1fZVZCMUg3REh0ZWZMdzBwTXRoVmZfQ2U1d01TZDNwLWc1Sg?oc=5",
-          "theme": "Enterprise AI software"
-        },
-        {
-          "company": "Ex",
-          "stage": "Seed",
-          "amount_m": 12,
-          "date": "2026-05-26",
-          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNSXMzdW42QXZBY2xuTEo0RnVvLTZHZ0VKSy14eU5wdWNOM3ltZXc1QjN3MDY3bFBLYVBHUVdjRTVScGlxQk1KRzl0NDlReVB5TTh3U211cWVWbllhNEszRk81bDgtdDZWeVA2bllzN3YyTUYwRzJYdUtGckoyb3J6RXpiT0FNZlRhM25uNU5SNHYxRVBsNDh2Y3AxVmxoZHBMTmpVd2lrbjUtZlQ4VW1LZWNydUROQVh6THIwb25BSU9mTzJERHlJNmd1eXZCaHI3YXQzd2dTQU1QNEhJcFlSOWsyX1JfVkxPdXNocFg2aXNET2RCZWRQRGV3?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "AI coworker startup Viktor",
@@ -2589,7 +2689,7 @@
           "amount_m": 9,
           "date": "2026-05-15",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQR3hYZS1wWXA1MmE2NWl3NUtxOFFtLUxHdklIVzBYdXdQNFNoUXdwTEtYSDhkUWYwcnNuN0YwVGF5U1JseWtuN1F6NEpUX2ZGckZWU2NMclFrVjI0Rmk0NEVBaUJLWE40MFpvNm1lUU95Ulo4bzI3NTdVLXdmWUVRdlUtUXNaVFVUR2d1LVlORHM5cG8?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Ciridae",
@@ -2597,7 +2697,7 @@
           "amount_m": 20,
           "date": "2026-05-11",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWmFVREd1NEpDRDljMkg2MXNYbTFQRzBUZWgyQVF3cDBhLWNvUy1XekstNHQtejkwOXhiby0xdmZPSDJZS0FlRkJDQkQ1eWhvOGdBa0xaZFN6d0huOXZIeFBwcVVoZi0xNGVQUUsxRVlveWVJS01pYklTcld0dU1JZzV3NmhxNDZrQVdKRXJ3VFd3Vm9jd3ZOVGhLQjNiQXM1WlBTbktBRDBiYzNYcGxCWGhhWUZseHE1amw5SWNjTFjSAcYBQVVfeXFMTUNnUTczWll2clVBbmJoRWhfclBCVVdLR01xMEhLTjNRb0xNT1l5NmtTTUVHMGxXaXhVXzZXVWYwM1NVYV9mNkdjcFNhd2RSMmZyNl94TGFPZ3lnZ1g5dkQ0enhRZXhUeHQxXzd3aGt1Skh3Q2RqVVNSenFGelV0TG4wT3djUGVOOWpNLWZsejdET1BYbFI4Tlloa1BOU1Y1S2t3bXBMUzhIYkY0UE1HbkhUZFd2clctc291aFlYbTcyYlhMc0Nn?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Atlas",
@@ -2605,7 +2705,7 @@
           "amount_m": 6,
           "date": "2026-04-09",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZFpzb0ZkZFpTWUFROEE0ZlptUnZDT204Nnc3QW1YTXRLWkplby1sekFITjU4T1RHMDRJRURVRUpmVFhGWmNDeFBaVXI5a0xNd1QyVUZOcmtoSTFmdjRJRHZrbVpUbWU3UERhbHlhS3V0YUpfcWNiNjh5ZjdzTnVMX0NvSlJhS0M5UEM1d0tXMTBaWHpnM2sxVw?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Rivian CEO RJ Scaringe",
@@ -2621,7 +2721,7 @@
           "amount_m": 5,
           "date": "2026-01-29",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOU0M0ZUFhMXZIRVh2LTl4dDNibkgydzQyVlExRXF0TWdOY1NkWnQ0TTFEN0tPeFhrSzJGM0lNYWRYalVhT05UaE9qaFJieVV0WjFCajAzTHFOY2NKSXZ3WlJlN3ZYY2RQcGh1N2dMaXFVNWZkeDU5dzhIRktjaWMxUmtJcUxldw?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Open Vision Engineering",
@@ -2629,10 +2729,18 @@
           "amount_m": 11,
           "date": "2026-07-15",
           "link": "https://www.itnewsonline.com/BusinessWire/Open-Vision-Engineering-Raises-No.3611-Million-to-Drive-Next-Phase-of-Pockets-Growth/37484",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
+        },
+        {
+          "company": "Flex",
+          "stage": "Venture",
+          "amount_m": 70,
+          "date": "2026-07-15",
+          "link": "https://itbrief.co.nz/story/flex-raises-usd-70-million-as-it-launches-uk-service",
+          "theme": "Applied / horizontal AI"
         }
       ],
-      "early": 9
+      "early": 8
     },
     {
       "fund": "Redpoint",
@@ -2651,7 +2759,7 @@
           "amount_m": 13,
           "date": "2026-06-01",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zUnFGZ25KWDMxdnh4SkxCWmJKU3JfN0cxT3QtNmFkbWZPa0lSa1dYR3lBMUZSMjJHVWtNcV9pa1plc2wtbV9NdS15WW1ZV3lzNXd1cmdCYUQ1WEc4Z3VTamtaMFAxNUMxYWc?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Node",
@@ -2659,7 +2767,7 @@
           "amount_m": 42,
           "date": "2026-01-27",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOREhiLXBTLWR3U0l3VnBTMDcxU2JmMTdwVGZmM09td3d6WlpDQUhIanFQd2x1LVVMWkdlS1hFSDlsR2xfZEMyeWJLYk1Za0ZuQjdpTERVLW5XX1NlaEhhSkJVMkVkRDRwYWlVNFhKNkduNUIzNzZPUkltZ0hsclZGY3psazNxYmVRM3l6SnVfbmlCbDl0aTFwa0dxd1VZUQ?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         }
       ],
       "early": 0
@@ -2673,7 +2781,7 @@
           "amount_m": 60,
           "date": "2026-02-10",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObXU1Rk9pVXA0WUN2YWt1VTNnRm5RNFZtUkdhY1VHYVNWeE9UVFdldUhPX01HQlRmdTVETG9yVDdjTXVobGxnTVdFakxVQzJNMm5nbE8yMEpuUTZtT19Ja0UxdUUtWU96WlY4NkpVY096Ukw0WWdyWE8tb0Y2V01jS2lLcVFLa01iZGJWUkRtTVhPeUxXOEJIRXdsbXdFb2xSUVNVVEFWOE5jMzVC?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Artemis",
@@ -2681,7 +2789,7 @@
           "amount_m": 70,
           "date": "2026-04-15",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRV9IX3B1RkdmN09WbTl6Mm1TbzBkcFFrTjU0NmRHdk14QzVpclR1QjI1cWFEbkk0NzFjY2Z6R21paGNzMHJRdkZxN3U4anhUVW1TOGg4cnhrWUVZbjR3N0h4ZXZCeWZ4QzhLNDNWeFZXQTBVdVBxTFhyd3B0ZklYTUJ3TXkxbmtjTzAtdHdTXzJmanRZZ2ZvTkVINUd5S1UwNUxv?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         }
       ],
       "early": 1
@@ -2695,7 +2803,7 @@
           "amount_m": 50,
           "date": "2026-06-10",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNamt4WjJScVkxWndtTmZqR212d3U3cVJUeUZQOFdzeGdNMExKVUlMX01lTTNiSHFCN1JWeFA5a0JCWW4wNEFXaW8yYWtuUEt5QnE1Ql9kMTQwVkdHdG5nWVNNdzQtRzdsQlpwd3czdlVmcDRTUjY1R3FOWXFiS0VlMEJqRzNfU0hidF9UaWJhb085WnotU1p3SlJsd1JhRlp0Mm45Sw?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "STARK",
@@ -2711,7 +2819,7 @@
           "amount_m": 435,
           "date": "2026-06-03",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLW42ckR4RUpKczdRb2tRdmhscmxmVHRPME9wQllQZnZpM1ljOTJiMXJ3UjI5YkpHbnFDMHFBS21WRjFJU25HSk0ybDhDdmhrRl9kVGVBR0EyUTNaLTBpN0tNU1hJRXZueVAwSE9KVktsVThDVHdfTUFuTDZUdXI2V21JX1VDbVFsdWlPNXdzeUNTVEpWWU9rR2cwQWVJWGtWSXo1R0VLakR1WFkwZVF2dg?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Longevity startup NewLimit",
@@ -2727,7 +2835,7 @@
           "amount_m": 27,
           "date": "2026-05-18",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5DNlQyRmYzNERVajJaSWdCUjZwUmdEdnlsaFJ3d09qcW9xRnpVMmplcVBtSzE2X1U2cGVsOUh4ZGxFYk1GZ0IwM0x3b3lSNHdlZUFyODJqMmJoMUlJcG0ya2F0cFhUN1Vsd3RzcEQ2eGpraVNjN0JmWA?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Panthalassa",
@@ -2735,7 +2843,7 @@
           "amount_m": 140,
           "date": "2026-05-04",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTF96ZXp6d1dVUXVmcF93SUI1clQ3bkRrM0h0NFQ5STZHM2k3NkExb0NTVWQtR1hzVmZPdDUyc1FCckJJczl5WEdjQnJMT2RITkd0UU04MHNNYTN0TkdCcHBSM1VTV1RSY3JkRXVMWm05c090WjJGOFpxOC1taE1IRFg4UjBfcWx6RnQzanFzTjlnMklVbFhUQUE4SnkwTjZlTGhrTUNVZkpWcUZrUVE?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Halter",
@@ -2743,7 +2851,7 @@
           "amount_m": 220,
           "date": "2026-03-24",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeWdueXRzWE90N21sUC1RTWxfSk9PNnhyeEt3cTZ1QUpFRVAwWVJuNXpGT1h3aTBhX2JaU3FsbmhMUC1VR1hQRjVwMFRGOWt1cHpJaEJlazJia2pwZWhkOXRQb2k4MTd4SHExNmM1cmcwZ2pkbGhWWmtGNEkxZnJOVDkwUDJPbEdSQWNVTmstU1ByMXh1NXpXMFFTOHNUUk9OMlJlZHcwNm9TZkRTazdsQ1hOYw?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         }
       ],
       "early": 1
@@ -2757,7 +2865,7 @@
           "amount_m": null,
           "date": "2026-07-14",
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWXhqSk8zMGxrNEd5VW1qeDNhcHB3aV9xeTZ5bEFzTG5pbUU1SFlRTEdsdWQyT19EY201NktzMXZta2MySW1YN0FHdHpZU2c3cF9kQzhNbGRHZDVYRDhnYXNzci1xMk5MRmQwbHRuYldjWEpUa09Jb2hWWjY2b0RKc0ZMRW52RVNZYllISWtDM19JOUlSdGpxM054XzJFSS1JNnB2T2pSOGhYNEVsZEgwemxZWlVoNG5IX1I0cnZ6c01FcHJKMGpzWjFKUXFTZE5YaGVnNUxvNEotRzZfWHJJ?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Probook",
@@ -2765,7 +2873,7 @@
           "amount_m": 40,
           "date": "2026-06-23",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOFo2QWt0bzgwSzNqc0RleUVmVl9EZ0Zyc0pHbkplWS1HWlI0WEEwOEI2TjA2NGFkRUNUc3ZfRUdlTDZza0czZDZOb0VzaUFIT2pMSDBTaFlsd1NGckplQ29Rd1E2N05OUDJYQVhvZ3hQZlF3ZmQ0WFJoTE5TdVo0N0Y4czc2c0pHQ3BDbTJPLVhVaTVGbHlNUmg1di1yd0doMnBhR2Vtajg4cVl5YXZsUlVR?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Pace",
@@ -2789,7 +2897,7 @@
           "amount_m": 40,
           "date": "2026-05-18",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWlV2UlJrcTVMOVVJNkNMZnVvVThrWjlpMUlaZ240WmpUOG1hNS1TVFVrSHdhd2hDd2pUM2FYWlJ5dkJuTUVTYndCd2tnc3pXZFhCdU5QaWtQZU9XaUxtSnRtRlByZFRTdldJMlMxQTl6NGJGWlR4NE9oczd3U1JJRUQzU0Jfc3BvWXl4NnRZMzNPeUJOSjVCZTlRWTlXNGRydS10dnhQUEx4ZmJyaGE5ZU9ZamFqUXFHdWRr?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Sequoia",
@@ -2797,7 +2905,7 @@
           "amount_m": 56,
           "date": "2026-05-05",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN3JhaUd3UmtpZ3QtTDRLb1ZaUFIxQm5IVjNjbHR5YWZmZEhUZlFSaTJhUGpRaGlYUmlKWXlkWklGSnhiNVhiUW95VG12YVNqdy01SmVIR0hyci1uTzdXN0tyeUlVYi12QktOOU9nOTZxaW9XMXJlMVJaT1ZQS3ktZFV1eDhGT3hEVHdWS0dvX3Y2TmJWU2VuaEtVend2Z2xHU0Z4UGg2cFhsb2UwQ3lNRkdITzJSZkk?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Standard Intelligence",
@@ -2805,7 +2913,7 @@
           "amount_m": 75,
           "date": "2026-04-30",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWU43dUU5Q21XZTNsYk14UFJqNXh5Nk90SzBxWDFXM3ZQSFkwYl9XczJfRG81akRUTUdaRzlHQVpoeW9iekRUNGpWczBCZ1M5NUlCZF9CU2JXUTRNbFM0Um9FNDNnc3paYlpQSlFyQUxOU3FNajdBWDVDclhyUnlWOV8ybTQyaXZ1WDlhNVI3ZGFRN3JCVmIwTUJpUlc1VG5FOTRlUnNwOWl1OHFHR2hnMzdB0gG3AUFVX3lxTE0tMkY3SmRSRHcwNGRDdEdQTFBOYTFTSGp2NjR2aTZTbHE1UlV1dXczbVN5UDdKdmVObkdqQjY0TmlZN0RHSkxrdG00NXFWWWFQcE82ckpFM1NGR095TmJXQ0lzMXlESVVBTUtiR0Fmb3piZXhZMHZUcFVjY25fSDNzTGZRdWlvcDkwZlR3X3E0Q2pqNk1nelp6TEdGVVlxWmJ2c1hPWXNUS3EyLVhCQ2VhUzByZ0kzMA?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "AI coding startup Factory",
@@ -2821,7 +2929,7 @@
           "amount_m": 11000,
           "date": "2026-03-25",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUlNpNzJNSEpZRzVaem5VTC1kWlByN0U3bTdMbVBTVkwzZkwzakM1NWJWanBZSllKWWo0SUJMQU9SYkJKQUF4ajN4T1czZUFxak9UcHJDaVN6S1pMN3ZmZmh2NVlZeksxdEx0dUVldWNja1Nqb3pyWTZUU0N0Mi01UG9fcTVsRXAxRnoyNFJCVkxjTlNYY2o2WUtFaEU0NkZlMFFnWDYyeXE1eGJEMHc?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Startup Oasis Security",
@@ -2843,7 +2951,7 @@
           "amount_m": null,
           "date": "2026-04-16",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU2lBTjRNalR1dlVWVVNVb296WVhDYjRJSC1aWU5JVkE3REpMLUtESTNwLWlPNWFCU3c1cGpUZE1yM1J4ZlRFZ1JYeUtHZlVnSlo1Y2szS2JZaHl0TDZjV0RqQW43TWtDNkV4UVRVUnJvdUhBYlM0X1NyX0NkRmdQLVVCWlluRjdzUDU5YXdqbjUzbFdjVkdfSmU4Yy1OSE1KcDY0bg?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Benchmark",
@@ -2867,7 +2975,7 @@
           "amount_m": null,
           "date": "2026-07-08",
           "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sS0hlQ3NVaHBfY1BISDZQeXdLWnNLYktIV0RtZ3J5Y3NmN1M0T2I5OEpfWWNjQTVEWmFLUUpMWGRYN3ZMdGlYRk9acjNMZjlpRDRoNVM0OUNtSXE4MXk4cWszSTE?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "REPLIGEN CORP : BENCHMARK",
@@ -2875,7 +2983,7 @@
           "amount_m": null,
           "date": "2026-07-07",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU3RLSlJFdzZ4TG0wWDM4Z1JaM2xXZ1REeVlnRUhwRnpoLVdkcVFIVS1RTFBERk1fUUFWTF9lUUJ1bVhsTEZLSU9LeGZNNTVlLWFkVXhSUy1GQzgydEtCazVNa0J1OHlRVjdoUDJxaXI5YjBFOXN1Z3FLRzdTY3E4ZUlPc3BLelVxNkRFSk5nMlZuRnBQ?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Indonesia",
@@ -2883,15 +2991,7 @@
           "amount_m": null,
           "date": "2026-07-06",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ1BWVEowY2tnTGM4ZTJIdlJ6RG4wYjZhdkZQYlVmR1dnM3hmWU8yMVl1QVBPQnVlV214MWNuNU1QeGNnbXlPZFRxZTNKZmttS0xxUnUyakdvSTZtY3BxYlF6ZXpFLUFnbVdPclBsOFVhVGJHeG1oZ0M1WmQ4bkxHTTB2bzNZNWRUbnRnRXJ1NA?oc=5",
-          "theme": "Enterprise AI software"
-        },
-        {
-          "company": "BI",
-          "stage": "Venture",
-          "amount_m": null,
-          "date": "2026-06-25",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOUdjR253WVBHdDdhbkFJRmdkZGJZbzZzRm5vX0ZUWnN0QmRwZXNTSVVJa2lid20xcVpkdUxHWVJiUnctWHFVLV81TTVCNWN3cklKMFNWTmotX1dEeURjR1ZRdW5sekhhYXg3YVd4WFhxci1DdW1ZTmtkczFVOTV4QlNHUms3Y21JWnFKbGRqb1UySldpbmVBRGlQaw?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Watch",
@@ -2899,7 +2999,7 @@
           "amount_m": null,
           "date": "2026-06-16",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNekVKSWtId3E4Z3FFcmh2TGhPdVBLUFNSeHh3bHgwQjBxWUhSZ2lTSXU5amRMalNoYkFIX0kzY1dfMG1GNWE5dHZWRjkwbnR0emZsdWkxT25YMWFYd0IxT1NyVnFBOXdMWnhXLWpFWHVGd1RWcnFqUTVhNVFSbDBIQWtIRENHSzZkVHRTX1U0MWtXUDQxTElybGxDZWlpdXdERUQybmF5OA?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "BOJ",
@@ -2907,7 +3007,7 @@
           "amount_m": null,
           "date": "2026-06-16",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcXZGcm5kTmZOSEZUQ213dWFOalIzaDV4bUlmSVM0bWhoeTZmb2RjdlhmMVEwTzBwcjR5Tl9md2N2b3NHSlc4THJpUWsxeU9QYkxUUFdzRkpacHp4VWZiX1ZqaDdyMkJYQ2lpaXFFci14Z2U1UGtrQmpPN05UZ3RqQk85dWJnekt6UUI0cmF4SHZOYWROZTVqTFhmNzdnbHlNUUt3c2lnZ0VpOUI5c0UwaHhSaw?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Europe's central",
@@ -2915,7 +3015,15 @@
           "amount_m": null,
           "date": "2026-06-11",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWlJRXpjbktvWkZtblRoUTFRYTc3OHBFdU5tLXpqdU4tellOUmVjZUdZNzgxYzYxc2hibXhuX0pmc21pdC1HbU5BdlkwNXZnbkpwenRrNmNSQW8xa3VIaXBOdDkybzZpdWxORWpUdUo2MVJIUWV5RVE0blQ5SGR3T1p3Vk1hSUducXpJdl9QU0U3bV8xT0N6bDJ1dGg2UXJZMVA1dHpnck9VTWQ5dTlWcjF4bw?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
+        },
+        {
+          "company": "Rivan",
+          "stage": "Venture",
+          "amount_m": null,
+          "date": "2026-04-20",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13RkhZcDJJd2xtSVNMSmh6dTZFbTIwSlhuXzFTcTVPd0pHazdGZkhCN01jU1k4MGVpR3NzUzZacF9mc1p5RGRiY3dKRGt6SDhucVI5Vk1jM2drYUJhQWd5S0NQbmItQmJRWUN4Y1R4LTVVeE5IdWJGd2ZlYXpkT3c?oc=5",
+          "theme": "Applied / horizontal AI"
         }
       ],
       "early": 1
@@ -2945,7 +3053,7 @@
           "amount_m": 22,
           "date": "2026-05-06",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01ZERBUERXVjFsa0RRQ3V4RC1XX3d4U3d0U2pjeWZndnl5MzB4eFNnNE16SHpqamhUQnVSN2taZUNfbXJLRmMxdzBJeklYYWRNbjhnOURXemx3MXZyYU9uMGtlczdvNjUtRHAzN3Y2WVJfT2luNHBWMU9FcEE?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Axiamatic",
@@ -2953,7 +3061,7 @@
           "amount_m": 54,
           "date": "2026-03-11",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYkl4TGtJb29sT3lJYllCSE5DNldhWFhKUkFOUUVkajE5c0YxUjlVUlRKc2FSVHQzV3pDcWJYY3ZRbU5LRkppRHdKeDBaUU1xTEhFNWVLMV9aU0ZSVlpSQ2RXU1UyczNiWEU3dzV1RkxrT25kSk5TVHMyandWQ1A3NFF0ZGs1OTdZOTh1V19xelNYNG9HbUQyRkw0VVhnbTN4RTZnN0hRV1kzLS1XVVVXNXZjWDVWNlJtT2pFN3VsdF84SXFweHVfT2MzYWRMNkR2WUVULVo3N1k?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Bretton AI",
@@ -2991,7 +3099,7 @@
           "amount_m": 7,
           "date": "2026-06-25",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS1ZmQkZzeHJldGkxd0tNUDBKUklKUWhBQWR2ZC1qS3J5Rlo0ZFppTHJLY29YWDdpT245U0xiTEZMRTFrVGJoanBVeHhfcHp1eFJYVDE4SXJVT2ZzMjBlaG4wNzVfXzN1WjNzdm9OdFhWVmwzT0NGbTRka1Uxb2x6dV9Fd3hZck1fcEo3Ql8zMGRydw?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Trackk",
@@ -2999,7 +3107,7 @@
           "amount_m": 4,
           "date": "2026-05-19",
           "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOaHNNd2k5bVZDWk1vdVRzMGdaQmtfTHZvNGZJX2FDMkhWTEpGTnl4RVJxZmVMNTRnVWdGWDlWZE9TbUpfRFZwZ1dkSkZNdmRleHF1NmtPYVliRXVBVWtPdzcxOTZRa1BQZmN5YmQta0dPSHJicVY0dlpjdTZkNkYzdloydXVTVnAteFdrZHNmUk9ZRk9UZ2F3azFGQlVqVFNULTJ1V25tUDZ6OU52YXZmZWFSZDZNM2VLcW14YjJGb0RxYXBlbU82RTVNOUhOM1JudTZHOXZobU5SUEZlczItQ0lBMFRocE5rTXVzMTQ5RWp3cktRVkI0QdIBxwFBVV95cUxQckVqWl9qNDdLSWxUMkJyNWI0c1BDLVZaTldVc3JPd01oNHZHTjE3blAxa3RlMlpFUl9nWVc1MXR6UVVFSGRHWUNTdGIzQi0tbkxCVEJlMGwxZlFhY2RBeXRiREl1UXVUY1U0c2tJTVdYcW81bUFoRWdTLXZNZkQ3Z3BadnlIdDRZZDQ2WC12bDlWYUU4ckwteEFMTnR4VENTcDdJMG1jQzlIcEpIeTA0S2F3b1NiRUJGcV8xa2FCNnlfcjRuS0ln?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Origin Lab",
@@ -3007,7 +3115,7 @@
           "amount_m": 8,
           "date": "2026-05-13",
           "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNSkhRaXZtTmhqRGxIT29wV1RfMmRLRXFhc1hXX0V4RThsX09lZjc4bzJzOXpCQUZreHBuRXpqdExZOHc1STRJUnpHLW91b3cxa3ZyZWFVNWtDaUFHU0xKU1U3MmctTEJGbmQ3OW9tX3J4X3NkWFJoU2xRU21tbW9TQ1RMaWtYU1Z4TUhZRGpXOFk2NlluVW5IX3g0MDUwMU1VekM0Y2d5aEdsZ1B6V1R5X1JzdVRNc3BEdU5fa0FPNU1oMmp6X3N5OXV2UWY2Z0RYbWZSVVo5QlJEenN4WG4yWlgtNDdwRHgybU9aU2FBOHJwbkQwUUpvemlOREhDTXJSWWN5czlRbDI?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "ZyG",
@@ -3015,7 +3123,7 @@
           "amount_m": 58,
           "date": "2026-03-05",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ib2taa1pKM1ZlZjF4bk1od0NyTGQ5WFF6QU1TV1pNS2NTbXJjdzl4TFlGWG9nUHVaYTMwUGRvT0NCNWR3S2F0bFpTMVdtc0p2cFpfWjcyV2N6V2FGcFFNMWFtVEtMMy1Za1pURnN1eGV0ZXhidVE?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Xflow",
@@ -3023,7 +3131,7 @@
           "amount_m": 17,
           "date": "2026-02-24",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95d0ZWa3pnOHR6a1c3WWVRaXpQejNRNVpBeUlRWUtObHU1aFNDcWRGY3piYmI0OFpqcGxYVzZCU29YMzVLVEtqd3luX2pVQnRlRjZ3MFBraGJwSEVsRFdOZ0ZjeXZhOERGeGNSazVaa0szYWxIOFpPUA?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Portkey",
@@ -3031,7 +3139,7 @@
           "amount_m": 15,
           "date": "2026-02-19",
           "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQcXg2a1dLTFZOYWd4N3M3aGVyQXlBQVRfYk9iWXJST05sOGRMWGZXb016Q3lZQTF3dFNOd05xX0lUR0tvZmRWWUlTUWEtQzV3WWJJN2NxaW1MYlFfN3N4ZXhLSEFrdXpRNDF1RVNWRTMybmV5WmpQY3pCUkxOVlFXMzZMbW1feU5uSkthVVdVMVVKTjRyVi1TYUVYYUszTWZRU185RVJxREFTZ0hqVWxrblhsQjhfejBIdmN3SjVrejZBNlFyMHNzWTdYZ2hrTmJ0QUM1SjFGYWNfNjFidjBYRGFEeGZoU2M?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Plug",
@@ -3039,7 +3147,7 @@
           "amount_m": 20,
           "date": "2026-02-02",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9WeTNoUHVhTnNBOWJxdWNJNkpQZXVkMjlnSzRaOXVORThROG5hVXUzS0NIS0NvZmJSWWFXRWVKdE05WEI4M2pMdWcza0d6dy1nLW9SN0FKNUhlQ0cwcDI3ekR4c1o1d1JrUDQ4RkxsaG9ySWVnRXBfcEplalQ?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "MITO AI",
@@ -3069,7 +3177,7 @@
           "amount_m": 13,
           "date": "2026-05-07",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE16NG55TTduYzduX1JOOG9mZ1UtX0ZRLUw3bjFWaGYzdDVVM0dFeUJWdlZPc1hpYm1iN096MFJsSmxVdXRGUk43NmxRRkZfMDhSTmg4ZjllbEI5djZENm1SRzRuN3lSeUJwR1VKYjZGTDBTcUJpYVNJOTFn?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Aman Gupta’s OFF/BEAT",
@@ -3077,7 +3185,7 @@
           "amount_m": null,
           "date": "2026-04-08",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWEJXamFsblRVWWlTWm9rRXVkaWl4TkZCSlYxWHJob2xhWVdRNDBxalJuMFAwY0RCV193ODNMLW8xQjM3S2RqOHhKZ2p3dkIwM2dfNlJfY18tM0NPN1RXdVBVR0psekVCMExPdURNQm5ZVUVLc1kwWFJGNFk0Q1ZUOTBiLWUwYlRiMFc5cjRtenZhRk40clVmNk1R?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "OFF/BEAT",
@@ -3085,7 +3193,7 @@
           "amount_m": null,
           "date": "2026-04-07",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWHhzMTFvTTFkTWF6RV9adDk1RjFPa3RueG9hamlxbVAyb2R2dTVkTHItNFZGWDVqNVZCSVZ5U190ZG1LdmpjV0FrV1RsNHNNX3B2ZkowQk1CMzd4WnpQaWFnbUpPRUcyMmhrMlRESUpIalF4UnFfd1duMVNqbHZXbzJtVVI2VThKdGhlV1d0U0NNRmtobk1mTzhHYkZZeGRaNnlCczRmbW8wcUExaXlNaFNMYTNOZw?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Bold",
@@ -3101,7 +3209,7 @@
           "amount_m": 58,
           "date": "2026-03-05",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ib2taa1pKM1ZlZjF4bk1od0NyTGQ5WFF6QU1TV1pNS2NTbXJjdzl4TFlGWG9nUHVaYTMwUGRvT0NCNWR3S2F0bFpTMVdtc0p2cFpfWjcyV2N6V2FGcFFNMWFtVEtMMy1Za1pURnN1eGV0ZXhidVE?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "MeltPlan",
@@ -3109,7 +3217,7 @@
           "amount_m": 10,
           "date": "2026-03-02",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RamxEV3NITXFKSm00X2Y3NDk3UVdWcFFGUkZRNTAyWVFlMEIwLVlFTkRDZTg2MFZVVEZpTW1qMHNnaDZNWVFuUm5pOHJ5UjdTQzZBZWFxelJJN1Ztd04xXzF2TGo0WTZFdTZoSjQ3UWVILWtjYnVRZnJXQXg?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "NODA AI",
@@ -3217,7 +3325,7 @@
           "amount_m": 1,
           "date": "2026-03-24",
           "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZ2lJSmttVXZQaWdVTF9zWlROZHpTbG40VndfaWNwRk9fQm9iaENtUWVaZzhHOXo1eFdYWkk2T25OaFdseVRzc05VMVpUbjI4LVM3d3hxTVNpV0h6RkNLYUZUSEVHc0RpdDBmV1lJdmZrZkRTN1Y5Qlp3RE12ZDB3bWZWOUcxNkVVY3NpY0VCaFBzYkNWb1FqYS1SMnBTTlJreHpfMTNCRzVJbWRPQ3ZhVmRPYmNxbER0WGE4ZFlBR2Fad0lSU1ptUkFnSjk0Qjd1RXhnRWxZTlp1bTFpUDRGUkhTYXc4Wnc5YUZMUEFBeGozYlVnVktvUQ?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Govtech startup NationGraph",
@@ -3241,7 +3349,7 @@
           "amount_m": 100,
           "date": "2026-05-19",
           "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcEpqRkEwZ1VNTHAtOERad2VTM3hPdEtVTnRRLTh4ZlNOOUFKOVZMbGI2WlFqY0pXRmoxVHFsTXZoOVlGdU5tQ2VLOFcwZ01GQXl0T1U3TmxDS3ZpODE2WGFJOEFyakJ3emJaTmgySlZCNFFFZS1aa0k3RXNhdUN5bG92YnV5T3I4QTF3NEF2UmVtQS1oZUJtX3oydEFIRkQ1RmZwR2NidWNZV2wtVzh1aVBnZEpSekExNkpLTF8tcGZDa0JNbXFpRWkyZFROLWZaOWx3V0VFQVhnTFBsSWN6UQ?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Nutrition Startup",
@@ -3249,7 +3357,7 @@
           "amount_m": 100,
           "date": "2026-05-19",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWFZsTlZ1UU1GSkViVlFMcTJ4d0xPSUxCdDRCclZ3WmVfcnVtZHQtRThmeHNXQmZ4X1Y0MzZPQ2dQbm5VQmZCcmgxV1FUVEFXWEhfQmlxMF8zTjYybmpaQ3hfYmFJd3VONndDN2Y3TnZoQ00waGxzdWxjN0drNjl5amZVWUg?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "You",
@@ -3265,7 +3373,7 @@
           "amount_m": null,
           "date": "2026-04-29",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSWJFREtWUXlwU3BGeVpCdFZXcUhISFFVQ0tVR2Y4TGMzZDhwSXE4dTkyRHMyMHFYSUNVUU9lLWtpMXc4My1JMmxpamdLQ3lhbUxZcllBMkJEV1h4SHJMUjJWVU1NVFZxaHdtQlpWR1dLS19xVlpxY0RkN0FVV3Q0Rm05VGVTYlRJeldXc09tTVNMQWtRLTRPOHFSZkwzaFdfeWZ5T1ZhdE1iajh6RkdXVWdjRmZfN2c?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "NationGraph",
@@ -3287,7 +3395,7 @@
           "amount_m": 25,
           "date": "2026-05-15",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRWpfeUU3bWw0Ti1oTHpEOThlN2FaVXQwOU01djhra3dVODE5c3JPdWVnWXlRNlBGSURMU3czWDh6YkpjQXAxVnJoRkZrNm9Ra0xzZjRkZzlhellLWGhzVzZNOXVwSHZTSUwtMkg0dTZQamlmZGYta0hUUy1iaHFUMNIBgAFBVV95cUxQRWpfeUU3bWw0Ti1oTHpEOThlN2FaVXQwOU01djhra3dVODE5c3JPdWVnWXlRNlBGSURMU3czWDh6YkpjQXAxVnJoRkZrNm9Ra0xzZjRkZzlhellLWGhzVzZNOXVwSHZTSUwtMkg0dTZQamlmZGYta0hUUy1iaHFUMA?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Hypercore",
@@ -3311,7 +3419,7 @@
           "amount_m": 21,
           "date": "2026-02-03",
           "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNMk9tY2F2V1BHc1lzSUcxaFlkVXNFOHgxRmhEdEJtX0xsNXdnSnlLSWppTkFobWw4VzJObDF3czhINjV1b19QMHI1VGxDWWxPd0laRVdqTjYtbWJfRVUwazV2Y1ZxM3BMbWdVRm9hOEhJOVNsSGNBQmZoTFA0QUtqd2tiOE1kdU55bFlRUV9hcUM3MGR3SzBvVkdBQlJqNVVreF9nanRVVHF6eVV1d19TZXc4OFllZDU4X1B6VXlCWk1uYXU2Q0pnUmx0bnFGb3NuNm5nZ2tiZHYwYTFib18tOEdjZS12TlVpQm1wQ1dDNUk4bE0?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Slice",
@@ -3319,7 +3427,7 @@
           "amount_m": 25,
           "date": "2026-01-28",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90U0ZZUjNjTlM2YlQyejZXdXlITDVwWW9nS2N4aHV4dDViazRIeEI2NTJQUWtkZy0tSURWVGFUTFpTOXBldHU2S3BDd2I3VmFnY1ZzSVAteU0yYXhUUWt3cDQ0ZFgtbmFB?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Gradial",
@@ -3327,7 +3435,7 @@
           "amount_m": 65,
           "date": "2026-06-18",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSkFiZFRUcXk5blR3Vm5VMXd6aGtwQTU2aXZRTnpnVHBjV3U3OW1rQUlRMFpuQUdQQWkzU1pmVXZqSTk4bk5aVFZqMDJFUUtOUGJfZDdjcXk4c3FnUlUtRF9Bc1QzeGk3aEhySm9VV0phcHBKQ3B3RjVzN2xUNC1ZYQ?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Instabug Egypt",
@@ -3335,7 +3443,7 @@
           "amount_m": 46,
           "date": "2026-04-27",
           "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBPMHFlWUFTOHRJc1FIejgyTzctMEpwRUdwWVNhNF96WWhKNmhuZVBrdzdQNk9yMDJFOFRJWjk4bw?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Global Insight",
@@ -3343,7 +3451,7 @@
           "amount_m": null,
           "date": "2026-04-27",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNC1Ib3c5VWV3eEtEVlVuZzNULW1VeWNyaEhHQTJQUHFqdmxwTjFXYVJCdS1iZ3c2em5wdHNQRWt2Ql9IbWY4RVZFVHhoTEpPdHlUNk1XQ2l2NENDUVdXQTRVM3Ytb3MxN1F1ckU4WVhzZ2gzQTFRMWRaZmRVUTJ4ZUdpUUIzcDM3a2VWSGxQX0U2NkhmQUczVFQ0bFhxbmhMa2ZLUEdfNHBNcHFO?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Cloudsmith",
@@ -3389,7 +3497,7 @@
           "amount_m": 160,
           "date": "2026-05-13",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11LWJObkl2TXF6dUt4Z0gxTmNjNnd1TzVxZFVIVnJvc0F0OElidXpYVExjUkxHSm9WNnVKRE9ZN3JYSHhldXpTLVFOZ25JQ1hTdjR2Tk5XaGFvdkVDVGZzeGx5MDREQXNMZ2JYcVZwYVZrY3VpWl9IQjhB?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         }
       ],
       "early": 1
@@ -3403,15 +3511,7 @@
           "amount_m": 27,
           "date": "2026-06-22",
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8tZGtSSVI1cVc4NElpMU04emRNNDVra2NscVpDYzV0d2wyV2g2UVMtTUxVV29nZW5wazdwaWhpTEY5NU1zalBCUFZzVk91dnJYN3JxNlZPeG16Q0I1N2VibndLdWx6N1pkWHI1SlVER1Q4a0hrN2Q4?oc=5",
-          "theme": "Enterprise AI software"
-        },
-        {
-          "company": "YC",
-          "stage": "Series A",
-          "amount_m": null,
-          "date": "2026-05-26",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZmt4VXhZZHE3QmZDSXdlMXpRUzJ1Q2FQWnNWdGVOdGxCdHg5eFRtYk1kOGtUZmVNMGxzWHFkNGN3aUt2QUNvcHpTMVNlUW1hdFY0bTVNTHBocDFrX2xuUjZJcGI3OGNqRUhCMGkzNS0tVThVRVlVZmJEeVM0TVhhVkRpNWFhX0VObjliUUhIcHRrODcwNjZPQnBKbWg3a2kwUHYxZHh5R3VEeThvT1FmQjhURExzSXNPNzN5WjZ2aVFHYmV5ZmlMMFpIY28?oc=5",
-          "theme": "Healthcare & bio AI"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "MochaTrade",
@@ -3419,7 +3519,7 @@
           "amount_m": null,
           "date": "2026-05-06",
           "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaDViTjYwVFpETzBrY3VGWFFXeEJhZkdEalNfd2dVeTJNbDV6WklDZWVrVktyMVBkWnJQSER0NGM2VHEzeUZZcXgydkhUanZEajhKWmExSEZBVVhYellLOGVKRUxQMHNXSmpvUGk2WEtwazZvek80UXZVWkJ6My1Ib3QtU3RMYTBNYXo3dHNKN2tsZWdUQlAtd2NzazFTNVRJdTUyajg3cW54TGxqT2pLWFdJUFFhSHptb0toZ1llN0hndlk3QjNVOUhyOVhZS09WbGRwWWpYWHM3SzlTelhhY3JEblY3LUxNamhYVnFn0gHzAUFVX3lxTE1xWjJoVVBYR0tIb1VDdmJPMTJic044TEN1TlF2WWhsYTVmczNDZzdCNVA3WWQtcW9pcURKT1Y2WVByWXpueUNiUjhtTXlFdWpvZ2QxWXI1Z1hTVW5UTXczT3ZnbWQxSU5STXRneVRLeWp2TGxkaEN4TUR6YUdDUlhQeDRiTWhkS3lyUFFTSXYtdGJROEE4eUNURzRURm56bW5Hd19uVE1TbWI0d1BDVlY3d1Y2OHJ6dmRPZTdfV04taHJzbzBad1lqWmw1eU5KOUtWU1VSZFBtaW12WFZUZ3U4SmdtaUNfeGNuc21IZVlqMWxrbw?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Y Combinator's Glimpse",
@@ -3427,7 +3527,7 @@
           "amount_m": 35,
           "date": "2026-03-25",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONV8zVWVTWi1CYmQ3N21OR0tYX3dQR3NGR3hBTHZmM0ZuSWZwd2JtUjhaZ051dHQ4WWtMY3pWQlRlZGxjWGJoQk1uMjZ2cEU2MkE2eVk3RWZjWlJVREtycTk5aEZRUzhWVXVuUlV2eDlBdWxaOWZNNTFPeTVHQnhaUXJieFRRRXd2TGdF?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Sri Lankan",
@@ -3435,7 +3535,7 @@
           "amount_m": null,
           "date": "2026-07-14",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaDk4VGVyNFhLbmtDa2UwRXFUNWdVZENZM0YwTjJIZlNFSjdPV2ZybnhQb3hBTU9wNmkwMTJHNGJubVdsTXhRR3ZBRHBnVmswZWdZeGVERjhQZ0h3bzlvQXZuM3g2ak5FcTlCNlJudFNsdE8wYndmVU9laG8xT01BdGlYeTJiR1dsNnBBY1pOZTF3blhvLTVtRGR5WERhS1c5WkQ0WlpOQ2JQSUxQSTI5d2NCTHpKUQ?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Y Combinator",
@@ -3443,7 +3543,7 @@
           "amount_m": 3,
           "date": "2026-07-08",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHdwcF83VExYcktpNy1zN091YUpVNE1iT3dScW1JaEhpT1hmTDhsTDIxOUZzZE9aZk9Bek9XNDBySGU2TlU2V3dCdUlTU3hsekQtd0w1WUZaQkhxeFlfVmp4RUJDSXU5T0dkb09zMmZiRFlpcU5UblZLSjgwanY0TjY1Q280V0VJWFFMN2hMZ01JZWdpV05PNU5fRk1xdmhPaHc1dlBobXdfYTRrdnNGWG1MSQ?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Warp",
@@ -3451,7 +3551,7 @@
           "amount_m": 60,
           "date": "2026-06-26",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zandWbUUzS1h1YnBmQVNmdHFGRTRXdE1LNHpQSEl2cUt4R2h6b0pJNnhsLTRnT1h5b2FmcV9RcVZsbExQeTBpaFF2cjZLZlVjQkdnbzZ4Z2gtZFFaVFdtVzZTSU90QkE3REFlZHZ0XzdCMXc1dzJJRjlqX2o?oc=5",
-          "theme": "Enterprise AI software"
+          "theme": "Applied / horizontal AI"
         },
         {
           "company": "Greenboard",
@@ -3476,9 +3576,21 @@
           "date": "2026-05-05",
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Kb2ZoRnBNNVE0aEtZOXYyYVl4eTI1V2hNLVNWXzZFZEFTTktESGNGLURuSFh5YTBJNHNCNUNzaFpJb2tPYUprTnNvQWNsUXhfRXp3NXZxcWkwaFJJVGRPR3dndGZ6b294ZkNkOENn?oc=5",
           "theme": "Legal AI"
+        },
+        {
+          "company": "Y Combinator-backed AI robo",
+          "stage": "Venture",
+          "amount_m": 5,
+          "date": "2026-04-27",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbGY1UXdjSDFjb05qcE1ERER6TGxuWVB1eVZienlEc0lHSlpqLWZfQkg4UWhpcVNxeWlHMks2STk4SmdBcnZtY3VGLUZfQnpITENEd1RhdkRGdmZzYjZGMHhETjBYNktQUUVFWDlMMllwS3RrNFpIZHM1RFBCUkVBTEE5UVYxMEJGTnNYUUliSnBPb1k0YWVXbFdJT1VoVHUtM3BkWE4xNA?oc=5",
+          "theme": "Applied / horizontal AI"
         }
       ],
-      "early": 4
+      "early": 3
     }
-  ]
+  ],
+  "momentum": {
+    "since": "",
+    "tw": []
+  }
 }

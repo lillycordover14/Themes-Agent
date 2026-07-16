@@ -1,8 +1,23 @@
 {
-  "generated": "2026-07-15",
+  "generated": "2026-07-16",
   "mode": "full",
-  "count": 50,
+  "count": 38,
   "companies": [
+    {
+      "name": "Emergent",
+      "domain": "emergent.sh",
+      "desc": "The main product is an autonomous AI coding tool designed to automate software development tasks, enhancing both efficiency and accuracy in programming. It utilizes advanced artificial intelligence technologies for tasks",
+      "stage": "SERIES_C",
+      "last_amount": 130000000.0,
+      "total": 223625024.0,
+      "investors": [
+        "Creaegis",
+        "Prosus Group",
+        "Sentinel Global",
+        "Y Combinator"
+      ],
+      "location": "2380 Via Espada, Pleasanton, CA 94566, United States"
+    },
     {
       "name": "InstaLILY AI",
       "domain": "instalily.ai",
@@ -122,21 +137,6 @@
       "location": "San Francisco , CA"
     },
     {
-      "name": "Hostie",
-      "domain": "hostie.ai",
-      "desc": "The company offers an AI-driven platform for restaurants that automates communication through phone calls, texts, and emails, streamlining reservations and order processing. It employs conversational AI with multilingual",
-      "stage": "SERIES_A",
-      "last_amount": 12000000.0,
-      "total": 16000000.0,
-      "investors": [
-        "Obvious Ventures",
-        "Scribble Ventures",
-        "Behind Genius",
-        "Burst Capital"
-      ],
-      "location": "San Francisco, CA"
-    },
-    {
       "name": "Nurix",
       "domain": "nurix.ai",
       "desc": "The company develops conversational AI agents designed to automate workflows across various enterprise functions, including sales and customer support, by managing tasks end-to-end and integrating with existing systems. ",
@@ -150,21 +150,6 @@
         "Prosus"
       ],
       "location": "Mountain View, CA"
-    },
-    {
-      "name": "Finto",
-      "domain": "gofinto.com",
-      "desc": "Finto offers an AI-driven platform that automates the invoice processing workflow, utilizing self-learning AI agents for data extraction, validation, and approval management. This technology integrates with existing ERP ",
-      "stage": "SEED",
-      "last_amount": 3400000.0,
-      "total": 3900000.0,
-      "investors": [
-        "Y Combinator",
-        "Lightspeed Venture Partners",
-        "Gradient",
-        "Alphabet Inc."
-      ],
-      "location": "München"
     },
     {
       "name": "Valarian",
@@ -182,21 +167,6 @@
       "location": "London"
     },
     {
-      "name": "Vendelux",
-      "domain": "vendelux.com",
-      "desc": "Vendelux provides an event intelligence platform that leverages real-time attendee data and AI-driven workflows to enhance the management of in-person events, enabling companies to identify high-value events, engage targ",
-      "stage": "SERIES_B",
-      "last_amount": 50000000.0,
-      "total": 67850000.0,
-      "investors": [
-        "Future Back Ventures by Bain & Company",
-        "Jonathan Weiner",
-        "Tribeca Venture Partners",
-        "Manifest"
-      ],
-      "location": "New York, New York"
-    },
-    {
       "name": "Linker Finance",
       "domain": "linkerfinance.com",
       "desc": "Linker Finance provides a fintech platform designed to enhance digital banking experiences for community financial institutions, offering features such as digital account opening, business onboarding, and commercial bank",
@@ -212,16 +182,19 @@
       "location": "Pasadena, California"
     },
     {
-      "name": "Guthrie AI",
-      "domain": "guthrieai.com",
-      "desc": "Guthrie AI provides an automated preconstruction assistant that leverages AI-powered virtual bid assistants to streamline the bidding process by organizing project documentation, managing RFPs, and generating proposals. ",
-      "stage": "SEED",
-      "last_amount": 4000000.0,
-      "total": 4530000.0,
+      "name": "Rime",
+      "domain": "rime.ai",
+      "desc": "Rime develops advanced text-to-speech models that utilize a proprietary dataset of expressive, multilingual conversational speech, enabling highly realistic voice interactions that reflect natural speech patterns and emo",
+      "stage": "SERIES_A",
+      "last_amount": 24000000.0,
+      "total": 32593986.0,
       "investors": [
-        "Chicago Ventures"
+        "Plug and Play",
+        "Moth Fund",
+        "Twilio Ventures",
+        "Unusual Ventures"
       ],
-      "location": "Philadelphia, PA"
+      "location": "San Francisco, CA"
     },
     {
       "name": "Prolo",
@@ -296,36 +269,6 @@
       "location": "Washington, DC"
     },
     {
-      "name": "Oxipital AI",
-      "domain": "oxipitalai.com",
-      "desc": "Oxipital AI provides a visual AI platform that enhances manufacturing processes through advanced machine vision technologies, focusing on product inspection and robotic process automation. The platform utilizes deep obje",
-      "stage": "SERIES_A",
-      "last_amount": 0,
-      "total": 89652124.0,
-      "investors": [
-        "ファナック（株）",
-        "Yamaha Motor Co., Ltd.",
-        "Material Impact",
-        "Johnsonville Ventures"
-      ],
-      "location": "Bedford, Massachusetts"
-    },
-    {
-      "name": "EdVisorly",
-      "domain": "edvisorly.com",
-      "desc": "The company offers an AI-driven enrollment platform that automates transcript processing and transfer credit evaluations, aimed at enhancing the transfer experience for students. Key technologies include automated data e",
-      "stage": "SERIES_A",
-      "last_amount": 13300000.0,
-      "total": 36330000.0,
-      "investors": [
-        "Google for Startups",
-        "Strada Education Foundation",
-        "U.S. News & World Report",
-        "Potencia Ventures"
-      ],
-      "location": "Los Angeles, California"
-    },
-    {
       "name": "PreciTaste",
       "domain": "precitaste.com",
       "desc": "PreciTaste provides an AI-driven platform that automates kitchen operations, utilizing machine learning and computer vision technologies to enhance food preparation processes in restaurants. Key features include demand f",
@@ -354,35 +297,6 @@
         "Ankaa Ventures"
       ],
       "location": "Paris, Île-de-France"
-    },
-    {
-      "name": "ConstructionClock App",
-      "domain": "constructionclock.com",
-      "desc": "The main product is an automated time-tracking application tailored for construction teams, utilizing GPS technology for automatic clocking in and out of employees at job sites. It also features real-time labor hour trac",
-      "stage": "SEED",
-      "last_amount": 800000.0,
-      "total": 2230000.0,
-      "investors": [
-        "M25",
-        "Prairies Economic Development Canada",
-        "Trillick Ventures"
-      ],
-      "location": "Winnipeg, Manitoba"
-    },
-    {
-      "name": "Alta | AI GTM System of Actions",
-      "domain": "altahq.com",
-      "desc": "The main product is an AI-powered revenue platform that employs AI Revenue Agents to analyze data, prioritize sales opportunities, and automate repetitive tasks. It integrates with tools like Salesforce and HubSpot, util",
-      "stage": "SERIES_A",
-      "last_amount": 25000000.0,
-      "total": 32000000.0,
-      "investors": [
-        "Entrée Capital",
-        "Target Global",
-        "Skywell Capital Partners",
-        "IN Venture"
-      ],
-      "location": "Tel Aviv"
     },
     {
       "name": "Synthreo",
@@ -443,21 +357,6 @@
       "location": "Toronto, Ontario"
     },
     {
-      "name": "Bohr Energie",
-      "domain": "bohr-energie.fr",
-      "desc": "Bohr Energie provides a software platform for independent energy producers that facilitates the management of electricity sales, featuring real-time production tracking, market analysis, and customized reporting. The pla",
-      "stage": "SERIES_A",
-      "last_amount": 11421920.0,
-      "total": 15870769.0,
-      "investors": [
-        "Founders Future",
-        "Grand Sud Ouest Capital (GSO Capital)",
-        "Suma Capital",
-        "IRDI Capital Investissement"
-      ],
-      "location": "Toulouse"
-    },
-    {
       "name": "Tradevu",
       "domain": "tradevu.co",
       "desc": "Tradevu provides a financial platform for global trade that integrates stablecoin-powered banking, on-chain financing, and investment opportunities in tokenized trade assets. Utilizing blockchain technology, the platform",
@@ -484,32 +383,6 @@
         "VerticalScope Holdings"
       ],
       "location": "Edmonton, Alberta"
-    },
-    {
-      "name": "Kord",
-      "domain": "kord.com",
-      "desc": "The company provides a software solution for AML compliance that streamlines client onboarding, payment processing, and secure management of client funds through a closed-loop infrastructure. It utilizes technologies suc",
-      "stage": "SERIES_A",
-      "last_amount": 8572768.0,
-      "total": 8572768.0,
-      "investors": [
-        "SFC Capital",
-        "Beringea",
-        "Guinness Ventures"
-      ],
-      "location": "London, England"
-    },
-    {
-      "name": "Verge.io",
-      "domain": "verge.io",
-      "desc": "The main product is a Private Cloud Operating System that consolidates virtualization, storage, and networking into a unified platform, enabling efficient workload management on existing hardware. It employs Ultraconverg",
-      "stage": "SEED",
-      "last_amount": 0,
-      "total": 12080000.0,
-      "investors": [
-        "Zia Yusuf"
-      ],
-      "location": "Detroit Area, Michigan"
     },
     {
       "name": "Boost Technology",
@@ -542,20 +415,6 @@
       "location": ""
     },
     {
-      "name": "Birdsview.com",
-      "domain": "birdsview.com",
-      "desc": "The product is an AI-driven email marketing automation platform designed for eCommerce, enabling hyper-personalized email campaigns by utilizing customer data and product catalogs. It employs big data analytics for custo",
-      "stage": "SEED",
-      "last_amount": 2855480.0,
-      "total": 2855480.0,
-      "investors": [
-        "Newion",
-        "TGFS Technologiegründerfonds Sachsen",
-        "Fortino Ventures"
-      ],
-      "location": "Leipzig"
-    },
-    {
       "name": "Oze",
       "domain": "getoze.com",
       "desc": "Oze offers a business application tailored for small and medium enterprises (SMEs) and banks, providing tools for managing invoices, payments, and small business loans. The platform features a mobile app for business own",
@@ -584,21 +443,6 @@
         "Zest Group"
       ],
       "location": "Milan, Lombardy"
-    },
-    {
-      "name": "LICENSEWARE",
-      "domain": "licenseware.io",
-      "desc": "Licenseware offers a modular SaaS solution for software license management that automates the assessment of licensing requirements and optimizes IT costs, particularly in Microsoft and Oracle environments. The platform e",
-      "stage": "SEED",
-      "last_amount": 913753.0,
-      "total": 2822465.0,
-      "investors": [
-        "Cluj Startups",
-        "Acequia Capital",
-        "Transylvania Angels Network (T.A.N.)",
-        "Early Game Ventures"
-      ],
-      "location": "Bucharest"
     },
     {
       "name": "ESGAgent.ai - AI Agents for ESG Compliance",
@@ -667,18 +511,6 @@
       "location": "Montreal, QC, Canada"
     },
     {
-      "name": "Aryval",
-      "domain": "aryval.io",
-      "desc": "Aryval distinguishes itself through its holistic strategy, encompassing the tracking of inquiries, automation of communication, facilitation of the check-in process, organization of data, and identification of yield retu",
-      "stage": "",
-      "last_amount": 800000.0,
-      "total": 800000.0,
-      "investors": [
-        "Prairies Economic Development Canada"
-      ],
-      "location": "Winnipeg, MB, Canada"
-    },
-    {
       "name": "Mozu (Business/Productivity Software)",
       "domain": "about.mozu-inc.jp",
       "desc": "MOZU Inc. offers a digital transformation platform that tailors IT infrastructure to the unique operational requirements of various industries, aimed at improving productivity and creating new business opportunities. Add",
@@ -691,31 +523,28 @@
       "location": "WeWork, 21 Floor, Shiroyama Trust Tower, 4-3-1 Toranomon, Tokyo, Minato-ku, Japan"
     },
     {
-      "name": "苏州博纳讯动软件有限公司",
-      "domain": "beyondcent.com",
-      "desc": "Suzhou Bona Xundong Software Co., Ltd. is a computer software company based out of South of 4th Floor, Fuhua Building, No. 199 Chongwen Road, Suzhou Industrial Park, Suzhou City, Jiangsu Province, China.",
-      "stage": "SERIES_E",
-      "last_amount": 0,
-      "total": 38484509.0,
+      "name": "Marakisoft Technologies",
+      "domain": "marakisoft.com",
+      "desc": "Marakisoft is a trusted Ethiopian software solution provider and consulting company delivering ERP and POS solutions designed to simplify and scale business operations. With over 17 years of experience and more than 5,00",
+      "stage": "PRE_SEED",
+      "last_amount": 250000.0,
+      "total": 250000.0,
       "investors": [
-        "Harvest Capital",
-        "JDT",
-        "Oriental Fortune Capital",
-        "Hone Capital"
+        "Renew Capital"
       ],
-      "location": "苏州市, 江苏省"
+      "location": "Addis Ababa, Addis Ababa"
     },
     {
-      "name": "mode40",
-      "domain": "mode40.com",
-      "desc": "mode40 provides technology solutions aimed at improving manufacturing processes through the integration of systems such as PLC, SCADA, MES, and ERP, alongside IoT and industrial wireless infrastructure. Their offerings i",
-      "stage": "",
-      "last_amount": 800000.0,
-      "total": 800000.0,
+      "name": "Zendawa",
+      "domain": "zendawa.africa",
+      "desc": "The main product is a digital platform designed to enhance the operational management and online sales capabilities of neighborhood pharmacies, integrating telepharmacy and financial services. It utilizes machine learnin",
+      "stage": "PRE_SEED",
+      "last_amount": 250000.0,
+      "total": 250000.0,
       "investors": [
-        "Prairies Economic Development Canada"
+        "Renew Capital"
       ],
-      "location": "Steinbach, Manitoba"
+      "location": "Nakuru, Headquarters"
     }
   ]
 }

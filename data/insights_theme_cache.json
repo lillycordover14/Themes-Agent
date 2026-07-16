@@ -1,0 +1,1002 @@
+{
+  "aria": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "Aria"
+  },
+  "emergent": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Emergent"
+  },
+  "lyzrai": {
+    "theme": "Applied AI agents",
+    "domain": "",
+    "clean": "Lyzr AI"
+  },
+  "tjmlabs": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "TJM Labs"
+  },
+  "flex": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Flex"
+  },
+  "instalilyai": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "InstaLILY AI"
+  },
+  "valarian": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Valarian"
+  },
+  "auger": {
+    "theme": "Logistics & supply chain",
+    "domain": "",
+    "clean": "Auger"
+  },
+  "feathery": {
+    "theme": "Financial back-office & compliance AI",
+    "domain": "",
+    "clean": "Feathery"
+  },
+  "rime": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Rime"
+  },
+  "parspec": {
+    "theme": "Logistics & supply chain",
+    "domain": "",
+    "clean": "Parspec"
+  },
+  "projectq": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Project Q"
+  },
+  "meltplan": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "MeltPlan"
+  },
+  "nurix": {
+    "theme": "Applied AI agents",
+    "domain": "",
+    "clean": "Nurix"
+  },
+  "insidedesk": {
+    "theme": "Insurance / insurtech",
+    "domain": "",
+    "clean": "InsideDesk"
+  },
+  "wizcommerce": {
+    "theme": "Sales & GTM AI",
+    "domain": "",
+    "clean": "WizCommerce"
+  },
+  "ariasystems": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Aria Systems"
+  },
+  "mozubusinessproductivitysoftware": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Mozu (Business/Productivity Software)"
+  },
+  "adaptive": {
+    "theme": "Applied AI agents",
+    "domain": "",
+    "clean": "Adaptive"
+  },
+  "prolo": {
+    "theme": "Logistics & supply chain",
+    "domain": "",
+    "clean": "Prolo"
+  },
+  "altaml": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "AltaML"
+  },
+  "linkerfinance": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "Linker Finance"
+  },
+  "simpleai": {
+    "theme": "Financial back-office & compliance AI",
+    "domain": "",
+    "clean": "SimpleAI"
+  },
+  "legible": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Legible"
+  },
+  "synthreo": {
+    "theme": "Applied AI agents",
+    "domain": "",
+    "clean": "Synthreo"
+  },
+  "sherpa": {
+    "theme": "HR & workforce",
+    "domain": "",
+    "clean": "sherpa"
+  },
+  "neocad": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Neocad"
+  },
+  "esgagentaiaiagentsforesgcompliance": {
+    "theme": "Applied AI agents",
+    "domain": "",
+    "clean": "ESGAgent.ai - AI Agents for ESG Compliance"
+  },
+  "solvingai": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Solving.AI"
+  },
+  "dsalta": {
+    "theme": "Financial back-office & compliance AI",
+    "domain": "",
+    "clean": "DSALTA"
+  },
+  "precitaste": {
+    "theme": "AI compute & models",
+    "domain": "",
+    "clean": "PreciTaste"
+  },
+  "tradevu": {
+    "theme": "Crypto & digital assets",
+    "domain": "",
+    "clean": "Tradevu"
+  },
+  "boosttechnology": {
+    "theme": "Vertical SaaS",
+    "domain": "",
+    "clean": "Boost Technology"
+  },
+  "oze": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "Oze"
+  },
+  "shiprazor": {
+    "theme": "Logistics & supply chain",
+    "domain": "",
+    "clean": "Shiprazor"
+  },
+  "marakisofttechnologies": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Marakisoft Technologies"
+  },
+  "zendawa": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Zendawa"
+  },
+  "dutchmonumental": {
+    "theme": "Physical AI & robotics",
+    "domain": "",
+    "clean": "Dutch Monumental"
+  },
+  "openvisionengineering": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Open Vision Engineering"
+  },
+  "benchmark": {
+    "theme": "Physical AI & robotics",
+    "domain": "",
+    "clean": "Benchmark"
+  },
+  "terrafirma": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "TerraFirma"
+  },
+  "nousresearch": {
+    "theme": "Physical AI & robotics",
+    "domain": "",
+    "clean": "Nous Research"
+  },
+  "vendelux": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Vendelux"
+  },
+  "cornerhealth": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Corner Health"
+  },
+  "sequoiafinancialadvisorsllc": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Sequoia Financial Advisors LLC"
+  },
+  "bessemersdatacenternon": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Bessemer’s data center non"
+  },
+  "illinois": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Illinois"
+  },
+  "srilankan": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Sri Lankan"
+  },
+  "helsing": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Helsing"
+  },
+  "korprotocol": {
+    "theme": "Crypto & digital assets",
+    "domain": "",
+    "clean": "KorProtocol"
+  },
+  "tombot": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Tombot"
+  },
+  "novelfoodsexpertnetwork": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Novel Foods Expert Network"
+  },
+  "oratomic": {
+    "theme": "AI compute & models",
+    "domain": "",
+    "clean": "Oratomic"
+  },
+  "normai": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Norm AI"
+  },
+  "dexterousroboticsbenchmarkdexverse": {
+    "theme": "Physical AI & robotics",
+    "domain": "",
+    "clean": "Dexterous Robotics Benchmark DexVerse"
+  },
+  "xcures": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "xCures"
+  },
+  "axleenergy": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "Axle Energy"
+  },
+  "healometherapeutics": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Healome Therapeutics"
+  },
+  "panickingcsu": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "“Panicking” CSU"
+  },
+  "databento": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Databento"
+  },
+  "primeintellect": {
+    "theme": "Applied AI agents",
+    "domain": "",
+    "clean": "Prime Intellect"
+  },
+  "aistart": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "AI Start"
+  },
+  "1001": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "1001"
+  },
+  "klinic": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Klinic"
+  },
+  "ycombinator": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Y Combinator"
+  },
+  "newzealand": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "New Zealand"
+  },
+  "fmgwing": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "FMG wing"
+  },
+  "priorconviction": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Prior conviction"
+  },
+  "ailawstartupnorm": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "AI law startup Norm"
+  },
+  "constructiontechstartupagave": {
+    "theme": "Vertical SaaS",
+    "domain": "",
+    "clean": "Construction tech startup Agave"
+  },
+  "agave": {
+    "theme": "Vertical SaaS",
+    "domain": "",
+    "clean": "Agave"
+  },
+  "repligencorpbenchmark": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "REPLIGEN CORP : BENCHMARK"
+  },
+  "alqem": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "alqem"
+  },
+  "indonesia": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Indonesia"
+  },
+  "privacy": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Privacy"
+  },
+  "generalistai": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Generalist AI"
+  },
+  "rogo": {
+    "theme": "Agent-native infra",
+    "domain": "",
+    "clean": "Rogo"
+  },
+  "engram": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Engram"
+  },
+  "twelvelabs": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "TwelveLabs"
+  },
+  "integralprivacytechnologies": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Integral Privacy Technologies"
+  },
+  "veniceai": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Venice AI"
+  },
+  "venice": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Venice"
+  },
+  "humblerobotics": {
+    "theme": "Physical AI & robotics",
+    "domain": "",
+    "clean": "Humble Robotics"
+  },
+  "queue": {
+    "theme": "Physical AI & robotics",
+    "domain": "",
+    "clean": "Queue"
+  },
+  "integral": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Integral"
+  },
+  "straiker": {
+    "theme": "Agent-native infra",
+    "domain": "",
+    "clean": "Straiker"
+  },
+  "pie": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Pie"
+  },
+  "allhome": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "AllHome"
+  },
+  "canadianfintechfloat": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "Canadian fintech Float"
+  },
+  "sandstone": {
+    "theme": "Legal AI",
+    "domain": "",
+    "clean": "Sandstone"
+  },
+  "pocket": {
+    "theme": "Applied AI agents",
+    "domain": "",
+    "clean": "Pocket"
+  },
+  "sinnersshakystart": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Sinner's shaky start"
+  },
+  "redo": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Redo"
+  },
+  "draperutah": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Draper, Utah"
+  },
+  "fomo": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "Fomo"
+  },
+  "warp": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Warp"
+  },
+  "hera": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Hera"
+  },
+  "tomo": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Tomo"
+  },
+  "trase": {
+    "theme": "Agent-native infra",
+    "domain": "",
+    "clean": "Trase"
+  },
+  "scaledcognition": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Scaled Cognition"
+  },
+  "floatfinancial": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Float Financial"
+  },
+  "sailresearch": {
+    "theme": "Applied AI agents",
+    "domain": "",
+    "clean": "Sail Research"
+  },
+  "ornn": {
+    "theme": "Crypto & digital assets",
+    "domain": "",
+    "clean": "Ornn"
+  },
+  "netris": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Netris"
+  },
+  "superliving": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "SuperLiving"
+  },
+  "healthtechstart": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Health-tech start"
+  },
+  "revora": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Revora"
+  },
+  "aitrends": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "AI TRENDS"
+  },
+  "mcleanstartuptrase": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "McLean startup Trase"
+  },
+  "cadence": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Cadence"
+  },
+  "trovy": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Trovy"
+  },
+  "qosmic": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "QOSMIC"
+  },
+  "revoraformerlymyalice": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Revora, formerly MyAlice,"
+  },
+  "stark": {
+    "theme": "Defense & national security",
+    "domain": "",
+    "clean": "STARK"
+  },
+  "probook": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Probook"
+  },
+  "allium": {
+    "theme": "Crypto & digital assets",
+    "domain": "",
+    "clean": "Allium"
+  },
+  "cryptoanalyticsstartupallium": {
+    "theme": "Crypto & digital assets",
+    "domain": "",
+    "clean": "Crypto analytics startup Allium"
+  },
+  "mitigata": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Mitigata"
+  },
+  "cyberresiliencestartupmitigata": {
+    "theme": "Cybersecurity",
+    "domain": "",
+    "clean": "Cyber resilience startup Mitigata"
+  },
+  "cybersecuritystartupmitigata": {
+    "theme": "Cybersecurity",
+    "domain": "",
+    "clean": "Cybersecurity startup Mitigata"
+  },
+  "ladderhealth": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Ladder Health"
+  },
+  "halo": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Halo"
+  },
+  "halobraid": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "HaloBraid"
+  },
+  "sixmonth": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Six-month"
+  },
+  "menlo": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "Menlo"
+  },
+  "socialcryptoappfomo": {
+    "theme": "Crypto & digital assets",
+    "domain": "",
+    "clean": "Social Crypto App Fomo"
+  },
+  "tradingappfomo": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "Trading app Fomo"
+  },
+  "cryptotradingappfomo": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "Crypto trading app Fomo"
+  },
+  "vedanatherapeutics": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Vedana Therapeutics"
+  },
+  "prosperai": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Prosper AI"
+  },
+  "ploy": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Ploy"
+  },
+  "syntaxbio": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Syntax Bio"
+  },
+  "latestfansidedmockdraft": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Latest FanSided mock draft"
+  },
+  "vetic": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Vetic"
+  },
+  "sengillibrands22year": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "Sen. Gillibrand’s 22-year"
+  },
+  "portalbiotechnologies": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Portal Biotechnologies"
+  },
+  "twenty": {
+    "theme": "Cybersecurity",
+    "domain": "",
+    "clean": "Twenty"
+  },
+  "gradial": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Gradial"
+  },
+  "pethealthcarestartupvetic": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Pet healthcare startup Vetic"
+  },
+  "sonofpro": {
+    "theme": "Crypto & digital assets",
+    "domain": "",
+    "clean": "Son of pro"
+  },
+  "pramaanalabs": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Pramaana Labs"
+  },
+  "vergennesbatteryproject": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "Vergennes battery project"
+  },
+  "convey": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Convey"
+  },
+  "telepatia": {
+    "theme": "Crypto & digital assets",
+    "domain": "",
+    "clean": "Telepatia"
+  },
+  "boldcap": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "BoldCap"
+  },
+  "flutterwave": {
+    "theme": "Crypto & digital assets",
+    "domain": "",
+    "clean": "Flutterwave"
+  },
+  "solarsquare": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "SolarSquare"
+  },
+  "bland": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Bland"
+  },
+  "watch": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Watch"
+  },
+  "boj": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "BOJ"
+  },
+  "latestactionbyright": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Latest Action by Right"
+  },
+  "sarvam": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Sarvam"
+  },
+  "edgemarkets": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "EDGE Markets"
+  },
+  "chatseeai": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "ChatSee.ai"
+  },
+  "mnxanaieconomy": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "MNX, an AI economy"
+  },
+  "digitalasset": {
+    "theme": "Crypto & digital assets",
+    "domain": "",
+    "clean": "Digital Asset"
+  },
+  "sonothera": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "SonoThera"
+  },
+  "theker": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Theker"
+  },
+  "enduranceenergy": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "Endurance Energy"
+  },
+  "artis": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Artis"
+  },
+  "spanishcompanytheker": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Spanish company Theker"
+  },
+  "maneva": {
+    "theme": "Physical AI & robotics",
+    "domain": "",
+    "clean": "Maneva"
+  },
+  "cantondeveloperdigitalasset": {
+    "theme": "Crypto & digital assets",
+    "domain": "",
+    "clean": "Canton developer Digital Asset"
+  },
+  "koho": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Koho"
+  },
+  "current": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Current"
+  },
+  "poetic": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Poetic"
+  },
+  "turnout": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Turnout"
+  },
+  "starshoney": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Stars + Honey"
+  },
+  "europescentral": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Europe's central"
+  },
+  "wimbledon": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Wimbledon"
+  },
+  "orbital": {
+    "theme": "Vertical SaaS",
+    "domain": "",
+    "clean": "Orbital"
+  },
+  "solidiontechnology": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "Solidion Technology"
+  },
+  "eclipse": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "Eclipse"
+  },
+  "journey": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Journey"
+  },
+  "syntheticfi": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "SyntheticFi"
+  },
+  "flux": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Flux"
+  },
+  "aigamestudioonibi": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "AI Game Studio Onibi"
+  },
+  "usenergycompany": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "US Energy Company"
+  },
+  "beacon": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Beacon"
+  },
+  "allencontrolsystems": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Allen Control Systems"
+  },
+  "morpho": {
+    "theme": "Crypto & digital assets",
+    "domain": "",
+    "clean": "Morpho"
+  },
+  "rylo": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Rylo"
+  },
+  "adaptiveinnovations": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Adaptive Innovations"
+  },
+  "campground": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Campground"
+  },
+  "pointfive": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "PointFive"
+  },
+  "stepful": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Stepful"
+  },
+  "asecurity": {
+    "theme": "Cybersecurity",
+    "domain": "",
+    "clean": "A Security"
+  },
+  "factorial": {
+    "theme": "HR & workforce",
+    "domain": "",
+    "clean": "Factorial"
+  },
+  "collate": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Collate"
+  },
+  "hypernative": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Hypernative"
+  },
+  "cross": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Cross"
+  },
+  "helion": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "Helion"
+  },
+  "samaltman": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "Sam Altman"
+  },
+  "fusiondeveloperhelion": {
+    "theme": "AI dev tooling",
+    "domain": "",
+    "clean": "Fusion Developer Helion"
+  },
+  "findigs": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Findigs"
+  },
+  "opalsecurity": {
+    "theme": "Cybersecurity",
+    "domain": "",
+    "clean": "Opal Security"
+  },
+  "helionthesamaltman": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "Helion, the Sam Altman"
+  },
+  "fusionfirmhelion": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "Fusion firm Helion"
+  },
+  "suno": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Suno"
+  },
+  "lassie": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Lassie"
+  }
+}
