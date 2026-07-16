@@ -1,19 +1,105 @@
 {
   "_doc": "Founder/CEO name + title + email per company, powering the on-site Email popup. Bounded to the emailable set (Pipeline + Actionable sourcing); resolved via Harmonic/PitchBook, cached (fetched once).",
-  "salient": {"name": "Arijit Malik", "title": "Co-Founder & CEO", "email": "ari@trysalient.com", "source": "pitchbook"},
-  "taktile": {"name": "Maik Wehmeyer", "title": "Co-Founder & CEO", "email": "maik.wehmeyer@taktile.com", "source": "pitchbook"},
-  "netboxlabs": {"name": "Kristopher Beevers", "title": "Co-Founder & CEO", "email": "kbeevers@netboxlabs.com", "source": "pitchbook"},
-  "bretton": {"name": "Will Lawrence", "title": "Co-Founder & CEO", "email": "wlawrence@bretton.com", "source": "pitchbook"},
-  "parspec": {"name": "Forest Flager", "title": "Co-Founder & CEO", "email": "forest@parspec.io", "source": "pitchbook"},
-  "xcures": {"name": "Mika Newton", "title": "CEO", "email": "mika@xcures.com", "source": "pitchbook"},
-  "stepful": {"name": "Carl Madi", "title": "Co-Founder & CEO", "email": "", "source": "pitchbook"},
-  "lyzrai": {"name": "Siva Selvaraj", "title": "Co-Founder & CEO", "email": "siva@lyzr.ai", "source": "pitchbook"},
-  "feathery": {"name": "Peter Dun", "title": "Co-Founder & CEO", "email": "peter@feathery.io", "source": "pitchbook"},
-  "collate": {"name": "Surbhi Sarna", "title": "Co-Founder & CEO", "email": "surbhi.sarna@collate.com", "source": "pitchbook"},
-  "cadence": {"name": "Chris Altchek", "title": "Co-Founder & CEO", "email": "christopher@cadence.care", "source": "pitchbook"},
-  "prosperai": {"name": "Xavier Gracia", "title": "Co-Founder & Co-CEO", "email": "xavier.gracia@getprosper.ai", "source": "pitchbook"},
-  "hera": {"name": "Jenny Lee", "title": "Co-Founder & CEO", "email": "jenny@hellohera.com", "source": "pitchbook"},
-  "tjmlabs": {"name": "Jonathan Adly", "title": "Founder & CEO", "email": "jonathan@tjmlabs.com", "source": "pitchbook"},
-  "auger": {"name": "Dave Clark", "title": "Founder & CEO", "email": "dave@auger.com", "source": "harmonic"},
-  "instalilyai": {"name": "Amit Shah", "title": "Founder & CEO", "email": "amit@instalily.ai", "source": "harmonic"}
+  "salient": {
+    "name": "Arijit Malik",
+    "title": "Co-Founder & CEO",
+    "email": "ari@trysalient.com",
+    "source": "pitchbook"
+  },
+  "taktile": {
+    "name": "Maik Wehmeyer",
+    "title": "Co-Founder & CEO",
+    "email": "maik.wehmeyer@taktile.com",
+    "source": "pitchbook"
+  },
+  "netboxlabs": {
+    "name": "Kristopher Beevers",
+    "title": "Co-Founder & CEO",
+    "email": "kbeevers@netboxlabs.com",
+    "source": "pitchbook"
+  },
+  "bretton": {
+    "name": "Will Lawrence",
+    "title": "Co-Founder & CEO",
+    "email": "wlawrence@bretton.com",
+    "source": "pitchbook"
+  },
+  "parspec": {
+    "name": "Forest Flager",
+    "title": "Co-Founder & CEO",
+    "email": "forest@parspec.io",
+    "source": "pitchbook"
+  },
+  "xcures": {
+    "name": "Mika Newton",
+    "title": "CEO",
+    "email": "mika@xcures.com",
+    "source": "pitchbook"
+  },
+  "stepful": {
+    "name": "Carl Madi",
+    "title": "Co-Founder & CEO",
+    "email": "",
+    "source": "pitchbook"
+  },
+  "lyzrai": {
+    "name": "Siva Selvaraj",
+    "title": "Co-Founder & CEO",
+    "email": "siva@lyzr.ai",
+    "source": "pitchbook"
+  },
+  "feathery": {
+    "name": "Peter Dun",
+    "title": "Co-Founder & CEO",
+    "email": "peter@feathery.io",
+    "source": "pitchbook"
+  },
+  "collate": {
+    "name": "Surbhi Sarna",
+    "title": "Co-Founder & CEO",
+    "email": "surbhi.sarna@collate.com",
+    "source": "pitchbook"
+  },
+  "cadence": {
+    "name": "Chris Altchek",
+    "title": "Co-Founder & CEO",
+    "email": "christopher@cadence.care",
+    "source": "pitchbook"
+  },
+  "prosperai": {
+    "name": "Xavier Gracia",
+    "title": "Co-Founder & Co-CEO",
+    "email": "xavier.gracia@getprosper.ai",
+    "source": "pitchbook"
+  },
+  "hera": {
+    "name": "Jenny Lee",
+    "title": "Co-Founder & CEO",
+    "email": "jenny@hellohera.com",
+    "source": "pitchbook"
+  },
+  "tjmlabs": {
+    "name": "Jonathan Adly",
+    "title": "Founder & CEO",
+    "email": "jonathan@tjmlabs.com",
+    "source": "pitchbook"
+  },
+  "auger": {
+    "name": "Dave Clark",
+    "title": "Founder & CEO",
+    "email": "dave@auger.com",
+    "source": "harmonic"
+  },
+  "instalilyai": {
+    "name": "Amit Shah",
+    "title": "Founder & CEO",
+    "email": "amit@instalily.ai",
+    "source": "harmonic"
+  },
+  "aria": {
+    "name": "Clément Carrier",
+    "title": "Co-Founder & CEO",
+    "email": "clement@helloaria.eu",
+    "source": "pitchbook"
+  }
 }
