@@ -119,6 +119,14 @@ def main():
                           "date": d.isoformat() if d else "", "link": link})
     items.sort(key=lambda x: x.get("date", ""), reverse=True)
     items = items[:80]
+    if not items:
+        # never wipe a good file on a transient fetch failure — keep the last-good data
+        try:
+            prev = json.load(open(OUT, encoding="utf-8"))
+            if prev.get("items"):
+                print("stealth: fetch returned 0 — keeping last-good %d items" % len(prev["items"])); return
+        except Exception:
+            pass
     json.dump({"generated": TODAY.isoformat(), "window_days": WINDOW, "count": len(items), "items": items},
               open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print("Wrote stealth.json — %d B2B-fit stealth items" % len(items))
