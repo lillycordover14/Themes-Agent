@@ -3,7 +3,7 @@
   "window_days": 45,
   "counts": {
     "actionable": 16,
-    "watchlist": 25,
+    "watchlist": 23,
     "excluded_off_thesis": 1
   },
   "actionable": [
@@ -687,23 +687,6 @@
       "connection_status": "no connection surfaced — good to flag"
     },
     {
-      "company": "Swedish legaltech startup Lightbringer",
-      "desc": "Swedish legaltech startup Lightbringer secures $10M Series A to expand AI - powered patent platform",
-      "theme": "Precision Applications",
-      "vertical": "Legal",
-      "stage": "Series A",
-      "amount_m": 10,
-      "investors": [],
-      "date": "2026-06-16",
-      "link": "https://arcticstartup.com/lightbringer-raises-10m-series-a/",
-      "domain": "",
-      "tier": "watchlist",
-      "fit_reason": "Series A ($10M) — track for the next round",
-      "source": "news",
-      "connections": [],
-      "connection_status": "no connection surfaced — good to flag"
-    },
-    {
       "company": "SonoThera",
       "desc": "Healthcare & bio AI",
       "theme": "Precision Applications",
@@ -738,23 +721,6 @@
       "tier": "watchlist",
       "fit_reason": "stage unconfirmed — track",
       "source": "funds",
-      "connections": [],
-      "connection_status": "no connection surfaced — good to flag"
-    },
-    {
-      "company": "Wordsmith",
-      "desc": "Wordsmith Raises $70m to Bring Legal Work Back In - House and Away From Law firms",
-      "theme": "Precision Applications",
-      "vertical": "Legal",
-      "stage": "Venture",
-      "amount_m": 70,
-      "investors": [],
-      "date": "2026-06-03",
-      "link": "http://www.californiatelegraph.com/news/279099132/wordsmith-raises-70m-to-bring-legal-work-back-in-house-and-away-from-law-firms",
-      "domain": "wordsmith.org",
-      "tier": "watchlist",
-      "fit_reason": "stage unconfirmed — track",
-      "source": "news",
       "connections": [],
       "connection_status": "no connection surfaced — good to flag"
     },

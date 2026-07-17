@@ -243,6 +243,19 @@ def _lstrip_html(t):
 def linkedin_posts(comp):
     """Recent LinkedIn posts via a user-provided RSS bridge (rss.app etc.) in pipeline.json['linkedin_rss'].
     LinkedIn itself is unscrapable from CI; the bridge fetches it server-side and serves clean RSS."""
+    # Prefer manually-curated posts pulled via a logged-in browser session (LinkedIn
+    # blocks CI/RSS scrapers). These are stored on the company in pipeline.json and
+    # are refreshed by the weekly enrichment task; fall back to an RSS bridge if set.
+    manual = comp.get("linkedin_posts") or []
+    if manual:
+        out = []
+        for m in manual[:6]:
+            t = (m.get("title") or "").strip()
+            if not t:
+                continue
+            out.append({"title": t[:260], "link": m.get("link", ""), "date": m.get("date", "")})
+        if out:
+            return out
     url = comp.get("linkedin_rss") or ""
     if not url or not feedparser:
         return []

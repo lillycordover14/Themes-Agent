@@ -5,11 +5,24 @@
    "domain": "trysalient.com",
    "founders": [],
    "substack": "",
-   "linkedin": "https://www.linkedin.com/company/trysalient",
+   "linkedin": "https://www.linkedin.com/company/salientai",
    "x": "",
    "ats": "ashby:salient",
    "desc": "AI voice and text agents that automate loan servicing for lenders — collections, onboarding, payments, and compliance in real time",
-   "linkedin_rss": ""
+   "linkedin_rss": "",
+   "linkedin_posts": [
+    {
+     "date": "2026-07-15",
+     "title": "Hosting its first Salient Fireside Chat with a16z (Aug 11) — “How Lean Teams Drive Outsized Revenue,” featuring CEO Ari M., CTO Mukund Tibrewala, and a16z GP / board member Alex Rampell",
+     "link": "https://www.linkedin.com/company/salientai/posts/"
+    },
+    {
+     "date": "2026-07-03",
+     "title": "Hosted its first Engineering Happy Hour — 30+ Bay Area engineers at the office (recruiting / brand-building push)",
+     "link": "https://www.linkedin.com/company/salientai/posts/"
+    }
+   ],
+   "linkedin_posts_updated": "2026-07-17"
   },
   {
    "name": "Taktile",
@@ -21,10 +34,23 @@
     "Maximilian Eber"
    ],
    "substack": "",
-   "linkedin": "https://www.linkedin.com/company/taktile1/",
+   "linkedin": "https://www.linkedin.com/company/taktile1",
    "x": "https://x.com/taktile_org",
    "desc": "the decisioning platform banks and insurers run their credit, risk, and onboarding decisions on — AI agents, rules, and data orchestration with real governance",
-   "linkedin_rss": ""
+   "linkedin_rss": "",
+   "linkedin_posts": [
+    {
+     "date": "2026-07-13",
+     "title": "Customer proof: “How Brex’s Head of Onboarding (Flora Zhang) approves customers in minutes with AI” — AI Field Notes case study with Brex",
+     "link": "https://www.linkedin.com/company/taktile1/posts/"
+    },
+    {
+     "date": "2026-06-22",
+     "title": "Page cover promoting its $110M Series C — “Tougher AI for banks & insurers”",
+     "link": "https://www.linkedin.com/company/taktile1/posts/"
+    }
+   ],
+   "linkedin_posts_updated": "2026-07-17"
   },
   {
    "name": "NetBox Labs",
@@ -34,7 +60,15 @@
    "linkedin": "https://www.linkedin.com/company/netboxlabs",
    "x": "",
    "desc": "the commercial source-of-truth and automation layer for enterprise network infrastructure (the team behind NetBox)",
-   "linkedin_rss": ""
+   "linkedin_rss": "",
+   "linkedin_posts": [
+    {
+     "date": "2026-07-17",
+     "title": "Broad hiring push (VP Eng, Dir. Solutions Eng, Staff PM, RevOps, SDR, etc.) — “As AI data centers, hybrid cloud & multi-vendor networks pile on complexity… we’re growing the team”",
+     "link": "https://www.linkedin.com/company/netboxlabs/posts/"
+    }
+   ],
+   "linkedin_posts_updated": "2026-07-17"
   },
   {
    "name": "Bretton",
@@ -44,7 +78,15 @@
    "linkedin": "https://www.linkedin.com/company/bretton-ai",
    "x": "https://x.com/brettonai",
    "desc": "an AI compliance agent for financial-crime investigations — automating suspicious-activity reports, entity due diligence, and regulatory reporting",
-   "linkedin_rss": ""
+   "linkedin_rss": "",
+   "linkedin_posts": [
+    {
+     "date": "2026-07-10",
+     "title": "Senior GTM hire: Rick Shooman joins as Managing Director, Financial Crimes Consulting (deep AML / fincrime credibility; founder Will Lawrence)",
+     "link": "https://www.linkedin.com/company/bretton-ai/posts/"
+    }
+   ],
+   "linkedin_posts_updated": "2026-07-17"
   }
  ]
 }

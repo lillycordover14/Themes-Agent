@@ -1,211 +1,249 @@
 {
-  "generated": "2026-07-17",
-  "companies": [
+ "generated": "2026-07-17",
+ "companies": [
+  {
+   "name": "Salient",
+   "domain": "trysalient.com",
+   "slug": "salient",
+   "updates": [],
+   "conferences": [],
+   "new_customers": [],
+   "linkedin": "https://www.linkedin.com/company/salientai",
+   "x": "",
+   "substack": "",
+   "url": "https://trysalient.com",
+   "linkedin_posts": [
     {
-      "name": "Salient",
-      "domain": "trysalient.com",
-      "slug": "salient",
-      "updates": [],
-      "conferences": [],
-      "new_customers": [],
-      "linkedin": "https://www.linkedin.com/company/trysalient",
-      "x": "",
-      "substack": "",
-      "url": "https://trysalient.com"
+     "date": "2026-07-15",
+     "title": "Hosting its first Salient Fireside Chat with a16z (Aug 11) — “How Lean Teams Drive Outsized Revenue,” featuring CEO Ari M., CTO Mukund Tibrewala, and a16z GP / board member Alex Rampell",
+     "link": "https://www.linkedin.com/company/salientai/posts/"
     },
     {
-      "name": "Taktile",
-      "domain": "taktile.com",
-      "slug": "taktile",
-      "updates": [],
-      "conferences": [
-        {
-          "date": "",
-          "title": "cover upcoming webinars, on-demand insights, and connect with us",
-          "link": "https://taktile.com/events",
-          "when": "upcoming",
-          "source": "Events page"
-        },
-        {
-          "date": "",
-          "title": "deas with the AI community at global events. Community events Connect with yo",
-          "link": "https://taktile.com/events",
-          "when": "upcoming",
-          "source": "Events page"
-        },
-        {
-          "date": "",
-          "title": "ive community gatherings. Taktile Labs Login Contact us Community events Connect with pe",
-          "link": "https://taktile.com/events",
-          "when": "upcoming",
-          "source": "Events page"
-        },
-        {
-          "date": "",
-          "title": "6 , Amsterdam, Netherlands Taktile on Deck | Money20/20 Canal C",
-          "link": "https://taktile.com/events",
-          "when": "upcoming",
-          "source": "Events page"
-        }
-      ],
-      "new_customers": [],
-      "linkedin": "https://www.linkedin.com/company/taktile1/",
-      "x": "https://x.com/taktile_org",
-      "substack": "",
-      "url": "https://taktile.com"
-    },
-    {
-      "name": "NetBox Labs",
-      "domain": "netboxlabs.com",
-      "slug": "netbox-labs",
-      "updates": [
-        {
-          "date": "2026-07-07",
-          "category": "Blog",
-          "title": "Meet Chris Veith, the VP Building NetBox Labs’ Global Ecosystem",
-          "link": "https://netboxlabs.com/blog/meet-chris-veith-the-vp-building-netbox-labs-global-ecosystem/",
-          "source": "Blog"
-        },
-        {
-          "date": "2026-07-01",
-          "category": "Blog",
-          "title": "New in NetBox Validation: A HIPAA Security Rule Compliance Pack",
-          "link": "https://netboxlabs.com/blog/netbox-validation-hipaa-security-rule-compliance-pack/",
-          "source": "Blog"
-        },
-        {
-          "date": "2026-06-30",
-          "category": "Blog",
-          "title": "Your Infrastructure Lives in One System. Now Procurement Can, Too.",
-          "link": "https://netboxlabs.com/blog/netbox-asset-lifecycle-ga/",
-          "source": "Blog"
-        },
-        {
-          "date": "2026-06-27",
-          "category": "Blog",
-          "title": "NetBox Evolve Call for Papers Is Open",
-          "link": "https://netboxlabs.com/blog/netbox-evolve-call-for-papers-is-open/",
-          "source": "Blog"
-        },
-        {
-          "date": "2026-06-19",
-          "category": "Blog",
-          "title": "Meet Natalia Kepets, the Engineer Reshaping QA at NetBox Labs",
-          "link": "https://netboxlabs.com/blog/meet-natalia-kepets-the-engineer-reshaping-qa-at-netbox-labs/",
-          "source": "Blog"
-        },
-        {
-          "date": "2026-06-11",
-          "category": "Blog",
-          "title": "Introducing the NetBox Data Exchange",
-          "link": "https://netboxlabs.com/blog/netbox-data-exchange-curated-infrastructure-dataset/",
-          "source": "Blog"
-        },
-        {
-          "date": "2026-06-11",
-          "category": "Blog",
-          "title": "Public Preview: NetBox Validation Brings Continuous Compliance and Pre-Change Safety to the System of Record",
-          "link": "https://netboxlabs.com/blog/netbox-validation-compliance-public-preview/",
-          "source": "Blog"
-        },
-        {
-          "date": "2026-06-11",
-          "category": "Blog",
-          "title": "Your Infrastructure Is Now Agent-Native",
-          "link": "https://netboxlabs.com/blog/your-infrastructure-is-now-agent-native/",
-          "source": "Blog"
-        },
-        {
-          "date": "2026-06-11",
-          "category": "Blog",
-          "title": "Celebrating Ten Years of NetBox & Announcing our Infrastructure Intelligence Platform",
-          "link": "https://netboxlabs.com/blog/evolving-infrastructure-intelligence-platform/",
-          "source": "Blog"
-        },
-        {
-          "date": "2026-06-04",
-          "category": "Blog",
-          "title": "Meet Jay Harrison, the Director Building NetBox Cloud’s Foundations",
-          "link": "https://netboxlabs.com/blog/meet-jay-harrison-the-director-building-netbox-clouds-foundations/",
-          "source": "Blog"
-        }
-      ],
-      "conferences": [
-        {
-          "date": "",
-          "title": "y Meetup Sep 15, 2026 | 11:00 AM EST | 15:00 UTC Event NetBox Labs Partner Summit 2026 Oc",
-          "link": "https://netboxlabs.com/events",
-          "when": "upcoming",
-          "source": "Events page"
-        },
-        {
-          "date": "",
-          "title": "tBox Community Meetup Event Datacloud Global Congress 2026 Event Cisco Live 2026 La",
-          "link": "https://netboxlabs.com/events",
-          "when": "upcoming",
-          "source": "Events page"
-        },
-        {
-          "date": "",
-          "title": "Cisco Live 2026 Las Vegas Event Data Centre Congress 2026 Event Megaport World Tour AP",
-          "link": "https://netboxlabs.com/events",
-          "when": "upcoming",
-          "source": "Events page"
-        },
-        {
-          "date": "",
-          "title": "webinars. Browse dates, topics, and formats, and register to join live or on d",
-          "link": "https://netboxlabs.com/events",
-          "when": "upcoming",
-          "source": "Events page"
-        },
-        {
-          "date": "",
-          "title": "026 banner\"},\"acf\":{\"event_details\":{\"type\":\"Conference\",\"locat",
-          "link": "https://netboxlabs.com/events",
-          "when": "upcoming",
-          "source": "Events page"
-        }
-      ],
-      "new_customers": [],
-      "linkedin": "https://www.linkedin.com/company/netboxlabs",
-      "x": "",
-      "substack": "",
-      "url": "https://netboxlabs.com"
-    },
-    {
-      "name": "Bretton",
-      "domain": "bretton.com",
-      "slug": "bretton",
-      "updates": [],
-      "conferences": [
-        {
-          "date": "",
-          "title": ":before { content: counter(activity-count) ' way to connect'; } .ev",
-          "link": "https://bretton.com/events",
-          "when": "upcoming",
-          "source": "Events page"
-        },
-        {
-          "date": "",
-          "title": ":before { content: counter(activity-count) ' ways to connect'; } .ev",
-          "link": "https://bretton.com/events",
-          "when": "upcoming",
-          "source": "Events page"
-        },
-        {
-          "date": "",
-          "title": "tems found. Upcoming Events Event Type Hub / Marquee Conference Month J",
-          "link": "https://bretton.com/events",
-          "when": "upcoming",
-          "source": "Events page"
-        }
-      ],
-      "new_customers": [],
-      "linkedin": "https://www.linkedin.com/company/bretton-ai",
-      "x": "https://x.com/brettonai",
-      "substack": "",
-      "url": "https://bretton.com"
+     "date": "2026-07-03",
+     "title": "Hosted its first Engineering Happy Hour — 30+ Bay Area engineers at the office (recruiting / brand-building push)",
+     "link": "https://www.linkedin.com/company/salientai/posts/"
     }
-  ]
+   ]
+  },
+  {
+   "name": "Taktile",
+   "domain": "taktile.com",
+   "slug": "taktile",
+   "updates": [],
+   "conferences": [
+    {
+     "date": "",
+     "title": "cover upcoming webinars, on-demand insights, and connect with us",
+     "link": "https://taktile.com/events",
+     "when": "upcoming",
+     "source": "Events page"
+    },
+    {
+     "date": "",
+     "title": "deas with the AI community at global events. Community events Connect with yo",
+     "link": "https://taktile.com/events",
+     "when": "upcoming",
+     "source": "Events page"
+    },
+    {
+     "date": "",
+     "title": "ive community gatherings. Taktile Labs Login Contact us Community events Connect with pe",
+     "link": "https://taktile.com/events",
+     "when": "upcoming",
+     "source": "Events page"
+    },
+    {
+     "date": "",
+     "title": "6 , Amsterdam, Netherlands Taktile on Deck | Money20/20 Canal C",
+     "link": "https://taktile.com/events",
+     "when": "upcoming",
+     "source": "Events page"
+    }
+   ],
+   "new_customers": [],
+   "linkedin": "https://www.linkedin.com/company/taktile1",
+   "x": "https://x.com/taktile_org",
+   "substack": "",
+   "url": "https://taktile.com",
+   "linkedin_posts": [
+    {
+     "date": "2026-07-13",
+     "title": "Customer proof: “How Brex’s Head of Onboarding (Flora Zhang) approves customers in minutes with AI” — AI Field Notes case study with Brex",
+     "link": "https://www.linkedin.com/company/taktile1/posts/"
+    },
+    {
+     "date": "2026-06-22",
+     "title": "Page cover promoting its $110M Series C — “Tougher AI for banks & insurers”",
+     "link": "https://www.linkedin.com/company/taktile1/posts/"
+    }
+   ]
+  },
+  {
+   "name": "NetBox Labs",
+   "domain": "netboxlabs.com",
+   "slug": "netbox-labs",
+   "updates": [
+    {
+     "date": "2026-07-07",
+     "category": "Blog",
+     "title": "Meet Chris Veith, the VP Building NetBox Labs’ Global Ecosystem",
+     "link": "https://netboxlabs.com/blog/meet-chris-veith-the-vp-building-netbox-labs-global-ecosystem/",
+     "source": "Blog"
+    },
+    {
+     "date": "2026-07-01",
+     "category": "Blog",
+     "title": "New in NetBox Validation: A HIPAA Security Rule Compliance Pack",
+     "link": "https://netboxlabs.com/blog/netbox-validation-hipaa-security-rule-compliance-pack/",
+     "source": "Blog"
+    },
+    {
+     "date": "2026-06-30",
+     "category": "Blog",
+     "title": "Your Infrastructure Lives in One System. Now Procurement Can, Too.",
+     "link": "https://netboxlabs.com/blog/netbox-asset-lifecycle-ga/",
+     "source": "Blog"
+    },
+    {
+     "date": "2026-06-27",
+     "category": "Blog",
+     "title": "NetBox Evolve Call for Papers Is Open",
+     "link": "https://netboxlabs.com/blog/netbox-evolve-call-for-papers-is-open/",
+     "source": "Blog"
+    },
+    {
+     "date": "2026-06-19",
+     "category": "Blog",
+     "title": "Meet Natalia Kepets, the Engineer Reshaping QA at NetBox Labs",
+     "link": "https://netboxlabs.com/blog/meet-natalia-kepets-the-engineer-reshaping-qa-at-netbox-labs/",
+     "source": "Blog"
+    },
+    {
+     "date": "2026-06-11",
+     "category": "Blog",
+     "title": "Introducing the NetBox Data Exchange",
+     "link": "https://netboxlabs.com/blog/netbox-data-exchange-curated-infrastructure-dataset/",
+     "source": "Blog"
+    },
+    {
+     "date": "2026-06-11",
+     "category": "Blog",
+     "title": "Public Preview: NetBox Validation Brings Continuous Compliance and Pre-Change Safety to the System of Record",
+     "link": "https://netboxlabs.com/blog/netbox-validation-compliance-public-preview/",
+     "source": "Blog"
+    },
+    {
+     "date": "2026-06-11",
+     "category": "Blog",
+     "title": "Your Infrastructure Is Now Agent-Native",
+     "link": "https://netboxlabs.com/blog/your-infrastructure-is-now-agent-native/",
+     "source": "Blog"
+    },
+    {
+     "date": "2026-06-11",
+     "category": "Blog",
+     "title": "Celebrating Ten Years of NetBox & Announcing our Infrastructure Intelligence Platform",
+     "link": "https://netboxlabs.com/blog/evolving-infrastructure-intelligence-platform/",
+     "source": "Blog"
+    },
+    {
+     "date": "2026-06-04",
+     "category": "Blog",
+     "title": "Meet Jay Harrison, the Director Building NetBox Cloud’s Foundations",
+     "link": "https://netboxlabs.com/blog/meet-jay-harrison-the-director-building-netbox-clouds-foundations/",
+     "source": "Blog"
+    }
+   ],
+   "conferences": [
+    {
+     "date": "",
+     "title": "y Meetup Sep 15, 2026 | 11:00 AM EST | 15:00 UTC Event NetBox Labs Partner Summit 2026 Oc",
+     "link": "https://netboxlabs.com/events",
+     "when": "upcoming",
+     "source": "Events page"
+    },
+    {
+     "date": "",
+     "title": "tBox Community Meetup Event Datacloud Global Congress 2026 Event Cisco Live 2026 La",
+     "link": "https://netboxlabs.com/events",
+     "when": "upcoming",
+     "source": "Events page"
+    },
+    {
+     "date": "",
+     "title": "Cisco Live 2026 Las Vegas Event Data Centre Congress 2026 Event Megaport World Tour AP",
+     "link": "https://netboxlabs.com/events",
+     "when": "upcoming",
+     "source": "Events page"
+    },
+    {
+     "date": "",
+     "title": "webinars. Browse dates, topics, and formats, and register to join live or on d",
+     "link": "https://netboxlabs.com/events",
+     "when": "upcoming",
+     "source": "Events page"
+    },
+    {
+     "date": "",
+     "title": "026 banner\"},\"acf\":{\"event_details\":{\"type\":\"Conference\",\"locat",
+     "link": "https://netboxlabs.com/events",
+     "when": "upcoming",
+     "source": "Events page"
+    }
+   ],
+   "new_customers": [],
+   "linkedin": "https://www.linkedin.com/company/netboxlabs",
+   "x": "",
+   "substack": "",
+   "url": "https://netboxlabs.com",
+   "linkedin_posts": [
+    {
+     "date": "2026-07-17",
+     "title": "Broad hiring push (VP Eng, Dir. Solutions Eng, Staff PM, RevOps, SDR, etc.) — “As AI data centers, hybrid cloud & multi-vendor networks pile on complexity… we’re growing the team”",
+     "link": "https://www.linkedin.com/company/netboxlabs/posts/"
+    }
+   ]
+  },
+  {
+   "name": "Bretton",
+   "domain": "bretton.com",
+   "slug": "bretton",
+   "updates": [],
+   "conferences": [
+    {
+     "date": "",
+     "title": ":before { content: counter(activity-count) ' way to connect'; } .ev",
+     "link": "https://bretton.com/events",
+     "when": "upcoming",
+     "source": "Events page"
+    },
+    {
+     "date": "",
+     "title": ":before { content: counter(activity-count) ' ways to connect'; } .ev",
+     "link": "https://bretton.com/events",
+     "when": "upcoming",
+     "source": "Events page"
+    },
+    {
+     "date": "",
+     "title": "tems found. Upcoming Events Event Type Hub / Marquee Conference Month J",
+     "link": "https://bretton.com/events",
+     "when": "upcoming",
+     "source": "Events page"
+    }
+   ],
+   "new_customers": [],
+   "linkedin": "https://www.linkedin.com/company/bretton-ai",
+   "x": "https://x.com/brettonai",
+   "substack": "",
+   "url": "https://bretton.com",
+   "linkedin_posts": [
+    {
+     "date": "2026-07-10",
+     "title": "Senior GTM hire: Rick Shooman joins as Managing Director, Financial Crimes Consulting (deep AML / fincrime credibility; founder Will Lawrence)",
+     "link": "https://www.linkedin.com/company/bretton-ai/posts/"
+    }
+   ]
+  }
+ ]
 }
