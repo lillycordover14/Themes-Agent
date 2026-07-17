@@ -1223,5 +1223,75 @@
     "theme": "Applied / horizontal AI",
     "domain": "",
     "clean": "Gradient Labs"
+  },
+  "limxdynamics": {
+    "theme": "Physical AI & robotics",
+    "domain": "",
+    "clean": "LimX Dynamics"
+  },
+  "sableai": {
+    "theme": "Applied AI agents",
+    "domain": "",
+    "clean": "Sable AI"
+  },
+  "mosaic": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Mosaic"
+  },
+  "namespace": {
+    "theme": "AI dev tooling",
+    "domain": "",
+    "clean": "Namespace"
+  },
+  "marginedge": {
+    "theme": "Logistics & supply chain",
+    "domain": "",
+    "clean": "MarginEdge"
+  },
+  "concentricsoftware": {
+    "theme": "Cybersecurity",
+    "domain": "",
+    "clean": "Concentric Software"
+  },
+  "kea": {
+    "theme": "Vertical SaaS",
+    "domain": "",
+    "clean": "Kea"
+  },
+  "trajectory": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Trajectory"
+  },
+  "observablespace": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Observable Space"
+  },
+  "picogrid": {
+    "theme": "Defense & national security",
+    "domain": "",
+    "clean": "Picogrid"
+  },
+  "fragrancetechcompanypatina": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Fragrance Tech Company Patina"
+  },
+  "wingstopwingrebound": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Wingstop (WING) Rebound"
+  },
+  "cognition": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Cognition"
+  },
+  "garnerhealth": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Garner Health"
   }
 }
