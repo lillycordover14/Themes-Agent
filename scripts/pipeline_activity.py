@@ -234,6 +234,42 @@ def dedup_events(confs):
     return out
 
 
+def _lstrip_html(t):
+    t = re.sub(r"(?s)<[^>]+>", " ", t or "")
+    t = re.sub(r"&[a-z#0-9]+;", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def linkedin_posts(comp):
+    """Recent LinkedIn posts via a user-provided RSS bridge (rss.app etc.) in pipeline.json['linkedin_rss'].
+    LinkedIn itself is unscrapable from CI; the bridge fetches it server-side and serves clean RSS."""
+    url = comp.get("linkedin_rss") or ""
+    if not url or not feedparser:
+        return []
+    try:
+        raw = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=15).read()
+        f = feedparser.parse(raw)
+    except Exception:
+        return []
+    out = []
+    for e in getattr(f, "entries", [])[:10]:
+        txt = _lstrip_html(e.get("title") or "")
+        if len(txt) < 8:
+            txt = _lstrip_html(e.get("summary") or "")
+        dt = None
+        for k in ("published_parsed", "updated_parsed"):
+            if e.get(k):
+                try:
+                    dt = datetime.date(*e[k][:3]); break
+                except Exception:
+                    pass
+        if dt and not within_window(dt.isoformat()):
+            continue
+        if txt:
+            out.append({"title": txt[:220], "link": e.get("link", ""), "date": dt.isoformat() if dt else ""})
+    return out[:5]
+
+
 def activity(comp):
     name = comp.get("name"); domain = comp.get("domain", "")
     slug = re.sub(r"[^a-z0-9]+", "-", (comp.get("slug") or name or "").lower()).strip("-")
@@ -289,6 +325,7 @@ def activity(comp):
         "conferences": confs[:5],
         "new_customers": new_customers(slug),
         "linkedin": li,
+        "linkedin_posts": linkedin_posts(comp),
         "x": xx,
         "substack": comp.get("substack", ""),
         "url": ("https://" + domain if domain else ""),

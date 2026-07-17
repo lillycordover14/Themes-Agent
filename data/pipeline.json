@@ -8,7 +8,8 @@
    "linkedin": "https://www.linkedin.com/company/trysalient",
    "x": "",
    "ats": "ashby:salient",
-   "desc": "AI voice and text agents that automate loan servicing for lenders — collections, onboarding, payments, and compliance in real time"
+   "desc": "AI voice and text agents that automate loan servicing for lenders — collections, onboarding, payments, and compliance in real time",
+   "linkedin_rss": ""
   },
   {
    "name": "Taktile",
@@ -22,7 +23,8 @@
    "substack": "",
    "linkedin": "https://www.linkedin.com/company/taktile1/",
    "x": "https://x.com/taktile_org",
-   "desc": "the decisioning platform banks and insurers run their credit, risk, and onboarding decisions on — AI agents, rules, and data orchestration with real governance"
+   "desc": "the decisioning platform banks and insurers run their credit, risk, and onboarding decisions on — AI agents, rules, and data orchestration with real governance",
+   "linkedin_rss": ""
   },
   {
    "name": "NetBox Labs",
@@ -31,7 +33,8 @@
    "substack": "",
    "linkedin": "https://www.linkedin.com/company/netboxlabs",
    "x": "",
-   "desc": "the commercial source-of-truth and automation layer for enterprise network infrastructure (the team behind NetBox)"
+   "desc": "the commercial source-of-truth and automation layer for enterprise network infrastructure (the team behind NetBox)",
+   "linkedin_rss": ""
   },
   {
    "name": "Bretton",
@@ -40,7 +43,8 @@
    "substack": "",
    "linkedin": "https://www.linkedin.com/company/bretton-ai",
    "x": "https://x.com/brettonai",
-   "desc": "an AI compliance agent for financial-crime investigations — automating suspicious-activity reports, entity due diligence, and regulatory reporting"
+   "desc": "an AI compliance agent for financial-crime investigations — automating suspicious-activity reports, entity due diligence, and regulatory reporting",
+   "linkedin_rss": ""
   }
  ]
 }
