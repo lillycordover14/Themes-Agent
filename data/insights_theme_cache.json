@@ -1293,5 +1293,40 @@
     "theme": "Healthcare & bio AI",
     "domain": "",
     "clean": "Garner Health"
+  },
+  "vorflux": {
+    "theme": "AI dev tooling",
+    "domain": "",
+    "clean": "Vorflux"
+  },
+  "reactmobile": {
+    "theme": "Vertical SaaS",
+    "domain": "",
+    "clean": "React Mobile"
+  },
+  "logcatai": {
+    "theme": "Data infrastructure",
+    "domain": "",
+    "clean": "logcat.ai"
+  },
+  "inspectorio": {
+    "theme": "Logistics & supply chain",
+    "domain": "",
+    "clean": "Inspectorio"
+  },
+  "learnupon": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "LearnUpon"
+  },
+  "vntana": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "VNTANA"
+  },
+  "nestermind": {
+    "theme": "Vertical SaaS",
+    "domain": "",
+    "clean": "nestermind"
   }
 }

@@ -1,8 +1,23 @@
 {
-  "generated": "2026-07-17",
+  "generated": "2026-07-18",
   "mode": "full",
-  "count": 37,
+  "count": 38,
   "companies": [
+    {
+      "name": "Feathery",
+      "domain": "feathery.io",
+      "desc": "The company provides an AI-powered platform that automates processes such as client onboarding, underwriting, and proposal generation for the financial services industry. It utilizes advanced document analysis, a no-code",
+      "stage": "SERIES_A",
+      "last_amount": 30000000.0,
+      "total": 34550000.0,
+      "investors": [
+        "Index Ventures",
+        "Clocktower Ventures",
+        "Allstate Strategic Ventures",
+        "BrokerTech Ventures"
+      ],
+      "location": "San Francisco, California"
+    },
     {
       "name": "InstaLILY AI",
       "domain": "instalily.ai",
@@ -17,21 +32,6 @@
         "United Rentals"
       ],
       "location": "New York, NY"
-    },
-    {
-      "name": "Feathery",
-      "domain": "feathery.io",
-      "desc": "The company provides an AI-powered platform that automates processes such as client onboarding, underwriting, and proposal generation for the financial services industry. It utilizes advanced document analysis, a no-code",
-      "stage": "SERIES_A",
-      "last_amount": 30000000.0,
-      "total": 34050000.0,
-      "investors": [
-        "Index Ventures",
-        "Clocktower Ventures",
-        "Allstate Strategic Ventures",
-        "BrokerTech Ventures"
-      ],
-      "location": "San Francisco, California"
     },
     {
       "name": "Flex",
@@ -78,21 +78,6 @@
       "location": "Berkeley, California"
     },
     {
-      "name": "Parspec",
-      "domain": "parspec.io",
-      "desc": "The company offers an AI-driven platform designed to streamline the discovery, quoting, and procurement processes in the construction materials industry, addressing inefficiencies from fragmented systems. It employs arti",
-      "stage": "SERIES_A",
-      "last_amount": 20000000.0,
-      "total": 51500000.0,
-      "investors": [
-        "Great Wave Ventures",
-        "Threshold Ventures",
-        "Building Ventures",
-        "Heartland Ventures"
-      ],
-      "location": "San Francisco , CA"
-    },
-    {
       "name": "Risk Ledger",
       "domain": "riskledger.com",
       "desc": "Risk Ledger offers a third-party risk management platform designed to enhance supply chain security through a dynamic network model that facilitates real-time collaboration among organizations. The platform utilizes tool",
@@ -123,6 +108,21 @@
       "location": "San Francisco, CA"
     },
     {
+      "name": "Prolo",
+      "domain": "prolo.io",
+      "desc": "Prolo offers an AI-driven procurement platform specifically designed for the construction industry, which automates the material ordering process to improve project management efficiency. The platform utilizes technologi",
+      "stage": "SEED",
+      "last_amount": 5626521.0,
+      "total": 5626521.0,
+      "investors": [
+        "Andreessen Horowitz",
+        "Triple Point",
+        "Concrete Ventures",
+        "Explorer"
+      ],
+      "location": "London"
+    },
+    {
       "name": "Namespace",
       "domain": "namespace.so",
       "desc": "The company provides a developer infrastructure platform that accelerates software development by offering high-performance cloud computing solutions, including fast, isolated instances for continuous integration and del",
@@ -136,21 +136,6 @@
         "New Enterprise Associates (NEA)"
       ],
       "location": "San Francisco"
-    },
-    {
-      "name": "Prolo",
-      "domain": "prolo.io",
-      "desc": "Prolo offers an AI-driven procurement platform specifically designed for the construction industry, which automates the material ordering process to improve project management efficiency. The platform utilizes technologi",
-      "stage": "SEED",
-      "last_amount": 5597823.0,
-      "total": 5597823.0,
-      "investors": [
-        "Andreessen Horowitz",
-        "Triple Point",
-        "Concrete Ventures",
-        "Explorer"
-      ],
-      "location": "London"
     },
     {
       "name": "Linker Finance",
@@ -183,21 +168,6 @@
       "location": "London"
     },
     {
-      "name": "Nurix",
-      "domain": "nurix.ai",
-      "desc": "The company develops conversational AI agents that automate workflows across various enterprise functions, such as sales and customer support, by managing tasks end-to-end and integrating with existing systems. These age",
-      "stage": "VENTURE_UNKNOWN",
-      "last_amount": 14131800.0,
-      "total": 44711800.0,
-      "investors": [
-        "Meraki Labs",
-        "Accel",
-        "General Catalyst",
-        "Prosus"
-      ],
-      "location": "Mountain View, CA"
-    },
-    {
       "name": "MarginEdge",
       "domain": "marginedge.com",
       "desc": "MarginEdge offers a restaurant management software platform that automates invoice processing, tracks inventory, and manages food costs, providing real-time insights into operational efficiency. The system integrates wit",
@@ -213,19 +183,19 @@
       "location": "Arlington, Virginia"
     },
     {
-      "name": "Concentric Software",
-      "domain": "concentric.ai",
-      "desc": "The main product is a data security governance platform that employs machine learning and Semantic Intelligence to autonomously identify, classify, and manage risks associated with sensitive data across various storage e",
+      "name": "Inspectorio",
+      "domain": "inspectorio.com",
+      "desc": "The company offers a cloud-based supply chain management platform that utilizes AI and machine learning to enhance transparency, collaboration, and decision-making across various processes, including quality management, ",
       "stage": "SERIES_B",
       "last_amount": 0,
-      "total": 70650000.0,
+      "total": 64819981.0,
       "investors": [
-        "Elron Ventures",
-        "Core Ventures Group",
-        "Ballistic Ventures",
-        "HarbourVest Partners"
+        "Insight Partners",
+        "Techstars",
+        "Target",
+        "Apax Digital"
       ],
-      "location": "San Jose, California"
+      "location": "Minneapolis, Minnesota"
     },
     {
       "name": "Proaction",
@@ -301,19 +271,48 @@
       "location": "Palo Alto, California"
     },
     {
-      "name": "PreciTaste",
-      "domain": "precitaste.com",
-      "desc": "PreciTaste offers an AI-driven platform that automates kitchen operations, employing machine learning and computer vision technologies to optimize food preparation processes in restaurants. Key functionalities include de",
-      "stage": "SERIES_A",
-      "last_amount": 0,
-      "total": 30355999.0,
+      "name": "Sable AI",
+      "domain": "withsable.com",
+      "desc": "Sable develops AI agents that leverage real-time screen comprehension to provide context-aware guidance and automate user interactions without requiring integration. The technology features multimodal capabilities that a",
+      "stage": "SERIES_B",
+      "last_amount": 45000000.0,
+      "total": 45000000.0,
       "investors": [
-        "Enlightened Hospitality Investments",
-        "Melitas Ventures",
-        "Cleveland Avenue",
-        "Monogram Capital Partners"
+        "8VC",
+        "Sequoia Capital",
+        "BoxGroup",
+        "SV Angel"
       ],
-      "location": "New York City, New York"
+      "location": "731 Fell Street, San Francisco, CA 94117, United States"
+    },
+    {
+      "name": "LearnUpon",
+      "domain": "learnupon.com",
+      "desc": "The main product is a learning management system (LMS) that facilitates the creation, management, delivery, and tracking of training programs for diverse audiences, focusing on user engagement and performance. It utilize",
+      "stage": "SEED",
+      "last_amount": 0,
+      "total": 56828019.0,
+      "investors": [
+        "Summit Partners",
+        "Enterprise Ireland",
+        "NDRC"
+      ],
+      "location": "Dublin , Ireland"
+    },
+    {
+      "name": "VNTANA",
+      "domain": "vntana.com",
+      "desc": "The company offers a platform for content orchestration and automation that centralizes the management and distribution of 3D models and CAD files, enabling teams to access optimized 3D assets without requiring engineeri",
+      "stage": "SERIES_A",
+      "last_amount": 500000.0,
+      "total": 14436000.0,
+      "investors": [
+        "Plug and Play",
+        "Anorak Ventures",
+        "Navigate Ventures",
+        "Alpaca VC"
+      ],
+      "location": "Los Angeles, CA"
     },
     {
       "name": "InsideDesk",
@@ -330,9 +329,24 @@
       "location": "Toronto, Ontario"
     },
     {
+      "name": "PreciTaste",
+      "domain": "precitaste.com",
+      "desc": "PreciTaste offers an AI-driven platform that automates kitchen operations, employing machine learning and computer vision technologies to optimize food preparation processes in restaurants. Key functionalities include de",
+      "stage": "SERIES_A",
+      "last_amount": 0,
+      "total": 30355999.0,
+      "investors": [
+        "Enlightened Hospitality Investments",
+        "Melitas Ventures",
+        "Cleveland Avenue",
+        "Monogram Capital Partners"
+      ],
+      "location": "New York City, New York"
+    },
+    {
       "name": "Synthreo",
       "domain": "synthreo.ai",
-      "desc": "Synthreo offers a multi-tenant AI platform tailored for managed service providers, enabling the creation and deployment of AI agents without the need for coding. The platform features large language model integration, a ",
+      "desc": "Synthreo provides a multi-tenant AI platform designed for managed service providers, allowing for the creation and deployment of AI agents without coding. The platform incorporates large language model integration, a no-",
       "stage": "SEED",
       "last_amount": 2500000.0,
       "total": 4613219.0,
@@ -345,48 +359,28 @@
       "location": "Phoenix, Arizona"
     },
     {
-      "name": "Aria Systems",
-      "domain": "ariasystems.com",
-      "desc": "Aria Systems offers a SaaS Billing Cloud platform that automates billing processes for complex usage and subscription models, leveraging AI technologies for real-time rating and charging. The platform is designed for sea",
-      "stage": "SERIES_A",
-      "last_amount": 7992656.0,
-      "total": 616676576.0,
-      "investors": [
-        "Venrock",
-        "TUGBOAT VENTURE MANAGEMENT, LLC",
-        "Madison Bay Capital Partners",
-        "13books Capital"
-      ],
-      "location": "San Francisco, California"
+      "name": "nestermind",
+      "domain": "nestermind.com",
+      "desc": "The company offers a software-as-a-service platform designed for the real estate sector, utilizing artificial intelligence to automate administrative tasks and streamline follow-up processes. It employs data-driven insig",
+      "stage": "SEED",
+      "last_amount": 0,
+      "total": 808000.0,
+      "investors": [],
+      "location": "Kloten, Zurich"
     },
     {
-      "name": "Sable AI",
-      "domain": "withsable.com",
-      "desc": "Sable develops AI agents that leverage real-time screen comprehension to provide context-aware guidance and automate user interactions without requiring integration. The technology features multimodal capabilities that a",
-      "stage": "SERIES_B",
-      "last_amount": 45000000.0,
-      "total": 45000000.0,
+      "name": "React Mobile",
+      "domain": "reactmobile.com",
+      "desc": "React Mobile offers panic button solutions tailored for the hospitality industry, utilizing technologies such as GPS geolocation, Bluetooth beacon technology, and various communication methods to ensure rapid response du",
+      "stage": "VENTURE_UNKNOWN",
+      "last_amount": 3480000.0,
+      "total": 17222289.0,
       "investors": [
-        "8VC",
-        "Sequoia Capital",
-        "BoxGroup",
-        "SV Angel"
+        "VisionTech Partners | VisionTech Angels",
+        "Keiretsu Capital",
+        "Brady Corporation"
       ],
-      "location": "731 Fell Street, San Francisco, CA 94117, United States"
-    },
-    {
-      "name": "AltaML",
-      "domain": "altaml.com",
-      "desc": "AltaML provides vertical AI solutions designed to enhance operational efficiency and decision-making through artificial intelligence and machine learning. Their development platform, AltaForge, facilitates the entire mac",
-      "stage": "SERIES_A",
-      "last_amount": 6100000.0,
-      "total": 19871973.0,
-      "investors": [
-        "Prairies Economic Development Canada I Développement économique Canada pour les Prairies",
-        "The Opportunity Calgary Investment Fund",
-        "VerticalScope Holdings"
-      ],
-      "location": "Edmonton, Alberta"
+      "location": "Seattle, Washington"
     },
     {
       "name": "Cue",
@@ -417,14 +411,17 @@
       "location": "Milan, Lombardy"
     },
     {
-      "name": "SimpleAI",
-      "domain": "simpleaiworks.com",
-      "desc": "The primary offering is an AI-driven accounting software that automates various tasks including data entry, invoice processing, and bank reconciliation, leveraging Generative Pre-Trained Transformers for efficient docume",
+      "name": "Pulse Security AI, Inc.",
+      "domain": "pulsesecurity.ai",
+      "desc": "Building an agentic workforce for security leaders to transform the way they do their jobs in this AI Era",
       "stage": "SEED",
-      "last_amount": 5000000.0,
-      "total": 5000000.0,
-      "investors": [],
-      "location": "Singapore"
+      "last_amount": 8000000.0,
+      "total": 8000000.0,
+      "investors": [
+        "Zetta Venture Partners",
+        "Foundation Capital"
+      ],
+      "location": "Los Altos, California"
     },
     {
       "name": "Whale",
@@ -442,31 +439,14 @@
       "location": "Singapore"
     },
     {
-      "name": "Pulse Security AI, Inc.",
-      "domain": "pulsesecurity.ai",
-      "desc": "Building an agentic workforce for security leaders to transform the way they do their jobs in this AI Era",
+      "name": "SimpleAI",
+      "domain": "simpleaiworks.com",
+      "desc": "The primary offering is an AI-driven accounting software that automates various tasks including data entry, invoice processing, and bank reconciliation, leveraging Generative Pre-Trained Transformers for efficient docume",
       "stage": "SEED",
-      "last_amount": 8000000.0,
-      "total": 8000000.0,
-      "investors": [
-        "Zetta Venture Partners",
-        "Foundation Capital"
-      ],
-      "location": "Los Altos, California"
-    },
-    {
-      "name": "ESGAgent.ai - AI Agents for ESG Compliance",
-      "domain": "kleantech.com.au",
-      "desc": "Klean Technologies offers a B2B SaaS platform that enables retailers to integrate sustainability initiatives into their operations, featuring tools for carbon footprint measurement, impact tracking, and customer engageme",
-      "stage": "SEED",
-      "last_amount": 725000.0,
-      "total": 1592791.0,
-      "investors": [
-        "DNX Ventures - US",
-        "Prtnr",
-        "Greg Steele"
-      ],
-      "location": "Brisbane, Queensland"
+      "last_amount": 5000000.0,
+      "total": 5000000.0,
+      "investors": [],
+      "location": "Singapore"
     },
     {
       "name": "LimX Dynamics",
@@ -484,6 +464,20 @@
       "location": "15th Floor, Building E, Nanshan Zhigu Industrial Park, Number 3157 Shahe West Road, Nanshan District, Shenzhen, Guangdong 518000, China"
     },
     {
+      "name": "ESGAgent.ai - AI Agents for ESG Compliance",
+      "domain": "kleantech.com.au",
+      "desc": "Klean Technologies offers a B2B SaaS platform that enables retailers to integrate sustainability initiatives into their operations, featuring tools for carbon footprint measurement, impact tracking, and customer engageme",
+      "stage": "SEED",
+      "last_amount": 725000.0,
+      "total": 1592791.0,
+      "investors": [
+        "DNX Ventures - US",
+        "Prtnr",
+        "Greg Steele"
+      ],
+      "location": "Brisbane, Queensland"
+    },
+    {
       "name": "Velocity AI",
       "domain": "velocityai.io",
       "desc": "Velocity AI provides an AI-driven platform designed to enhance sales processes through real-time guidance, automated CRM updates, and dynamic checklists that adapt during sales conversations. The technology leverages pre",
@@ -499,19 +493,34 @@
       "location": "SAN FRANCISCO, CA"
     },
     {
-      "name": "ASGN Incorporated",
-      "domain": "everforth.com",
-      "desc": "ASGN Incorporated provides IT services and solutions that support digital innovation and transformation for commercial and government sectors, utilizing AI-powered Agile project management and integration with ServiceNow",
-      "stage": "",
-      "last_amount": 700000000.0,
-      "total": 700000000.0,
+      "name": "logcat.ai",
+      "domain": "logcat.ai",
+      "desc": "AI-powered analysis of logcat, dmesg, and bugreports for deep Android OS and Linux kernel observability.",
+      "stage": "PRE_SEED",
+      "last_amount": 2550000.0,
+      "total": 2550000.0,
       "investors": [
-        "JPMorganChase",
-        "Wells Fargo",
-        "Truist Securities",
-        "BofA Securities"
+        "Founders Co-op",
+        "Alumni Ventures",
+        "Act One Ventures",
+        "Shorewind Capital"
       ],
-      "location": "Glen Allen, Virginia"
+      "location": "Seattle"
+    },
+    {
+      "name": "Vorflux",
+      "domain": "vorflux.com",
+      "desc": "Vorflux is a cloud-based coding agent that runs your whole stack on a real machine. Hand it a complex, ambiguous problem the way you would a senior engineer, and it plans deeply, builds, tests on real infrastructure, rev",
+      "stage": "SEED",
+      "last_amount": 15000000.0,
+      "total": 15000000.0,
+      "investors": [
+        "Peak XV Partners",
+        "Y Combinator",
+        "Alliance VC",
+        "Powerset"
+      ],
+      "location": ""
     },
     {
       "name": "Solving.AI",

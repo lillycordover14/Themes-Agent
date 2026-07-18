@@ -1,28 +1,28 @@
 {
-  "generated": "2026-07-17",
+  "generated": "2026-07-18",
   "count": 200,
   "summary": "",
   "kpis": {
     "strongest_theme": "Healthcare & bio AI",
     "total_raises": 200,
-    "early_raises": 81,
-    "total_cap_m": 14646,
-    "early_cap_m": 2668,
+    "early_raises": 82,
+    "total_cap_m": 13501,
+    "early_cap_m": 2649,
     "stage_counts": {
       "Pre-seed": 3,
-      "Seed": 24,
-      "Series A": 54,
+      "Seed": 27,
+      "Series A": 52,
       "Series B": 26,
       "Series C": 10,
       "Series D": 4,
-      "Venture": 73
+      "Venture": 72
     }
   },
   "raises": [
     {
       "company": "LimX Dynamics",
       "amount_m": 200,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://limxdynamics.com",
       "investors": [],
       "theme": "Physical AI & robotics",
@@ -31,7 +31,7 @@
     {
       "company": "Flex",
       "amount_m": 70,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://flex.one",
       "investors": [
         "Accel"
@@ -42,7 +42,7 @@
     {
       "company": "InstaLILY AI",
       "amount_m": 60,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://instalily.ai",
       "investors": [
         "Energize Capital",
@@ -54,7 +54,7 @@
     {
       "company": "Valarian",
       "amount_m": 50,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://valarian.com",
       "investors": [
         "New Enterprise Associates"
@@ -65,7 +65,7 @@
     {
       "company": "Sable AI",
       "amount_m": 45,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://withsable.com",
       "investors": [],
       "theme": "Applied AI agents",
@@ -74,7 +74,7 @@
     {
       "company": "Whale",
       "amount_m": 40,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://whale.sg",
       "investors": [],
       "theme": "Data infrastructure",
@@ -83,7 +83,7 @@
     {
       "company": "Velocity AI",
       "amount_m": 38,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://velocityai.io",
       "investors": [],
       "theme": "Sales & GTM AI",
@@ -92,7 +92,7 @@
     {
       "company": "Risk Ledger",
       "amount_m": 32,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://riskledger.com",
       "investors": [],
       "theme": "Cybersecurity",
@@ -101,7 +101,7 @@
     {
       "company": "Feathery",
       "amount_m": 30,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://feathery.io",
       "investors": [],
       "theme": "Financial back-office & compliance AI",
@@ -110,25 +110,16 @@
     {
       "company": "Rime",
       "amount_m": 24,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://rime.ai",
       "investors": [],
       "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
-      "company": "Parspec",
-      "amount_m": 20,
-      "date": "2026-07-17",
-      "link": "https://parspec.io",
-      "investors": [],
-      "theme": "Logistics & supply chain",
-      "stage": "Series A"
-    },
-    {
       "company": "Mosaic",
       "amount_m": 18,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://mosaicapp.com",
       "investors": [
         "Radical Ventures"
@@ -139,16 +130,25 @@
     {
       "company": "Project Q",
       "amount_m": 17,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://projectqai.github.io",
       "investors": [],
       "theme": "Applied / horizontal AI",
       "stage": "Series A"
     },
     {
+      "company": "Vorflux",
+      "amount_m": 15,
+      "date": "2026-07-18",
+      "link": "https://vorflux.com",
+      "investors": [],
+      "theme": "AI dev tooling",
+      "stage": "Seed"
+    },
+    {
       "company": "MeltPlan",
       "amount_m": 14,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://meltplan.com",
       "investors": [
         "Bessemer",
@@ -159,36 +159,18 @@
       "stage": "Seed"
     },
     {
-      "company": "Nurix",
-      "amount_m": 14,
-      "date": "2026-07-17",
-      "link": "https://nurix.ai",
-      "investors": [],
-      "theme": "Applied AI agents",
-      "stage": "Venture Unknown"
-    },
-    {
       "company": "InsideDesk",
       "amount_m": 13,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://insidedesk.com",
       "investors": [],
       "theme": "Insurance / insurtech",
       "stage": "Series A"
     },
     {
-      "company": "Aria Systems",
-      "amount_m": 8,
-      "date": "2026-07-17",
-      "link": "https://ariasystems.com",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Series A"
-    },
-    {
       "company": "Adaptive",
       "amount_m": 6,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://adaptive.build",
       "investors": [],
       "theme": "Applied AI agents",
@@ -197,25 +179,16 @@
     {
       "company": "Prolo",
       "amount_m": 6,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://prolo.io",
       "investors": [],
       "theme": "Logistics & supply chain",
       "stage": "Seed"
     },
     {
-      "company": "AltaML",
-      "amount_m": 6,
-      "date": "2026-07-17",
-      "link": "https://altaml.com",
-      "investors": [],
-      "theme": "Applied / horizontal AI",
-      "stage": "Series A"
-    },
-    {
       "company": "Linker Finance",
       "amount_m": 5,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://linkerfinance.com",
       "investors": [],
       "theme": "Fintech & payments",
@@ -224,7 +197,7 @@
     {
       "company": "Cue",
       "amount_m": 5,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://cuedesk.com",
       "investors": [],
       "theme": "Applied AI agents",
@@ -233,7 +206,7 @@
     {
       "company": "SimpleAI",
       "amount_m": 5,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://simpleaiworks.com",
       "investors": [],
       "theme": "Financial back-office & compliance AI",
@@ -242,16 +215,34 @@
     {
       "company": "Proaction",
       "amount_m": 4,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://proaction.com",
       "investors": [],
       "theme": "Applied / horizontal AI",
       "stage": "Seed"
     },
     {
+      "company": "React Mobile",
+      "amount_m": 3,
+      "date": "2026-07-18",
+      "link": "https://reactmobile.com",
+      "investors": [],
+      "theme": "Vertical SaaS",
+      "stage": "Venture Unknown"
+    },
+    {
+      "company": "logcat.ai",
+      "amount_m": 3,
+      "date": "2026-07-18",
+      "link": "https://logcat.ai",
+      "investors": [],
+      "theme": "Data infrastructure",
+      "stage": "Pre Seed"
+    },
+    {
       "company": "Synthreo",
       "amount_m": 2,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://synthreo.ai",
       "investors": [],
       "theme": "Applied AI agents",
@@ -260,7 +251,7 @@
     {
       "company": "Neocad",
       "amount_m": 1,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://neocadsrl.com",
       "investors": [],
       "theme": "Applied / horizontal AI",
@@ -269,7 +260,7 @@
     {
       "company": "ESGAgent.ai",
       "amount_m": 1,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://kleantech.com.au",
       "investors": [],
       "theme": "Energy & climate",
@@ -278,7 +269,7 @@
     {
       "company": "Solving.AI",
       "amount_m": 1,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://solving.ai",
       "investors": [],
       "theme": "Applied / horizontal AI",
@@ -287,7 +278,7 @@
     {
       "company": "Namespace",
       "amount_m": null,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://namespace.so",
       "investors": [],
       "theme": "AI dev tooling",
@@ -296,25 +287,25 @@
     {
       "company": "MarginEdge",
       "amount_m": null,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://marginedge.com",
       "investors": [],
       "theme": "Logistics & supply chain",
       "stage": "Series C"
     },
     {
-      "company": "Concentric Software",
+      "company": "Inspectorio",
       "amount_m": null,
-      "date": "2026-07-17",
-      "link": "https://concentric.ai",
+      "date": "2026-07-18",
+      "link": "https://inspectorio.com",
       "investors": [],
-      "theme": "Cybersecurity",
+      "theme": "Logistics & supply chain",
       "stage": "Series B"
     },
     {
       "company": "DSALTA",
       "amount_m": null,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://dsalta.com",
       "investors": [],
       "theme": "Financial back-office & compliance AI",
@@ -323,25 +314,52 @@
     {
       "company": "Kea",
       "amount_m": null,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://kea.ai",
       "investors": [],
       "theme": "Vertical SaaS",
       "stage": "Series A"
     },
     {
+      "company": "LearnUpon",
+      "amount_m": null,
+      "date": "2026-07-18",
+      "link": "https://learnupon.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Seed"
+    },
+    {
+      "company": "VNTANA",
+      "amount_m": null,
+      "date": "2026-07-18",
+      "link": "https://vntana.com",
+      "investors": [],
+      "theme": "Applied / horizontal AI",
+      "stage": "Series A"
+    },
+    {
       "company": "PreciTaste",
       "amount_m": null,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://precitaste.com",
       "investors": [],
       "theme": "AI compute & models",
       "stage": "Series A"
     },
     {
+      "company": "nestermind",
+      "amount_m": null,
+      "date": "2026-07-18",
+      "link": "https://nestermind.com",
+      "investors": [],
+      "theme": "Vertical SaaS",
+      "stage": "Seed"
+    },
+    {
       "company": "Liveday",
       "amount_m": null,
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "link": "https://liveday.se",
       "investors": [],
       "theme": "Sales & GTM AI",
@@ -2217,36 +2235,12 @@
       ],
       "theme": "Applied / horizontal AI",
       "stage": "Venture"
-    },
-    {
-      "company": "Cognition",
-      "amount_m": 1000,
-      "date": "2026-05-28",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOem9RbHdjb3JLSldxU2ZCMjJRT3dKcEl6ZHhqdlBVWUc4Q2czbHFTcEFPVTVCQnF0QWhWRERua0d2YW1qSFlwbW1uMkw5ZDNHUzExaGUzTFlBRENBSU5VaXkxRkJpVk9rdTJzTXlXTEo4a05BMkhiQnN3S1dnWWtqSkZFZ0UwU1N4ekNYYzZqMUNHTUhMZXZjM0l2d05Gbk1SZHZma0dIdzd3NTVvVTlNTTl5X1RIX0dCdkliQ2ZBajRnTWFxNWdmb2lGSlVmc3VGaTY0X0laY3YtTnJCTjNR?oc=5",
-      "investors": [
-        "8VC",
-        "Lux"
-      ],
-      "theme": "Applied / horizontal AI",
-      "stage": "Venture"
-    },
-    {
-      "company": "Garner Health",
-      "amount_m": 118,
-      "date": "2026-05-28",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQby16YkF4WVVLTVU3c3B5MjBTMXI0X3AxNHJhbWdXa0NZbjRtcDU4WDRGOXF6X3J3R0tXTnRvSTVveHo3ZGhUNng2RGJPWjRFbGRoTVNkeG9SY2NrZEJzTGd1Unc4dl83aUFpUS1vZy13VWFqb2Z4YjVBNEF6eXUtYzNJT1ZoMXJSZm54aFllQmR0U2ZSQ2ZzQVMyZmRnOFBNUjNyM3BiMFZKdGVHNl9ZOWo3UQ?oc=5",
-      "investors": [
-        "Kleiner Perkins",
-        "Thrive Capital"
-      ],
-      "theme": "Healthcare & bio AI",
-      "stage": "Series E"
     }
   ],
   "themes": [
     {
       "theme": "Applied / horizontal AI",
-      "count": 111,
+      "count": 110,
       "examples": [
         "Flex",
         "Valarian",
@@ -2258,7 +2252,7 @@
     },
     {
       "theme": "Healthcare & bio AI",
-      "count": 16,
+      "count": 15,
       "examples": [
         "Corner Health",
         "xCures",
@@ -2294,14 +2288,14 @@
     },
     {
       "theme": "Applied AI agents",
-      "count": 9,
+      "count": 8,
       "examples": [
         "InstaLILY AI",
         "Sable AI",
-        "Nurix",
         "Adaptive",
         "Cue",
-        "Synthreo"
+        "Synthreo",
+        "Pocket"
       ]
     },
     {
@@ -2317,14 +2311,15 @@
       ]
     },
     {
-      "theme": "Cybersecurity",
-      "count": 5,
+      "theme": "Vertical SaaS",
+      "count": 7,
       "examples": [
-        "Risk Ledger",
-        "Concentric Software",
-        "Twenty",
-        "A Security",
-        "Opal Security"
+        "React Mobile",
+        "Kea",
+        "nestermind",
+        "Agave",
+        "Orbital",
+        "Scotch"
       ]
     },
     {
@@ -2339,14 +2334,13 @@
       ]
     },
     {
-      "theme": "Vertical SaaS",
-      "count": 5,
+      "theme": "Cybersecurity",
+      "count": 4,
       "examples": [
-        "Kea",
-        "Agave",
-        "Orbital",
-        "Scotch",
-        "LightTable"
+        "Risk Ledger",
+        "Twenty",
+        "A Security",
+        "Opal Security"
       ]
     },
     {
@@ -2359,12 +2353,21 @@
       ]
     },
     {
+      "theme": "AI dev tooling",
+      "count": 3,
+      "examples": [
+        "Vorflux",
+        "Namespace",
+        "Fusion Developer Helion"
+      ]
+    },
+    {
       "theme": "Logistics & supply chain",
       "count": 3,
       "examples": [
-        "Parspec",
         "Prolo",
-        "MarginEdge"
+        "MarginEdge",
+        "Inspectorio"
       ]
     },
     {
@@ -2386,6 +2389,14 @@
       ]
     },
     {
+      "theme": "Data infrastructure",
+      "count": 2,
+      "examples": [
+        "Whale",
+        "logcat.ai"
+      ]
+    },
+    {
       "theme": "Sales & GTM AI",
       "count": 2,
       "examples": [
@@ -2394,26 +2405,11 @@
       ]
     },
     {
-      "theme": "AI dev tooling",
-      "count": 2,
-      "examples": [
-        "Namespace",
-        "Fusion Developer Helion"
-      ]
-    },
-    {
       "theme": "Defense & national security",
       "count": 2,
       "examples": [
         "STARK",
         "Picogrid"
-      ]
-    },
-    {
-      "theme": "Data infrastructure",
-      "count": 1,
-      "examples": [
-        "Whale"
       ]
     },
     {
@@ -2441,8 +2437,8 @@
   "emerging": [
     {
       "theme": "Applied / horizontal AI",
-      "count": 111,
-      "cap_m": 8198,
+      "count": 110,
+      "cap_m": 7184,
       "examples": [
         "Flex",
         "Valarian",
@@ -2455,8 +2451,8 @@
     },
     {
       "theme": "Healthcare & bio AI",
-      "count": 16,
-      "cap_m": 1214,
+      "count": 15,
+      "cap_m": 1096,
       "examples": [
         "Corner Health",
         "xCures",
@@ -2497,15 +2493,15 @@
     },
     {
       "theme": "Applied AI agents",
-      "count": 9,
-      "cap_m": 253,
+      "count": 8,
+      "cap_m": 239,
       "examples": [
         "InstaLILY AI",
         "Sable AI",
-        "Nurix",
         "Adaptive",
         "Cue",
-        "Synthreo"
+        "Synthreo",
+        "Pocket"
       ],
       "top_stage": "Series A"
     },
@@ -2524,17 +2520,18 @@
       "top_stage": "Venture"
     },
     {
-      "theme": "Cybersecurity",
-      "count": 5,
-      "cap_m": 192,
+      "theme": "Vertical SaaS",
+      "count": 7,
+      "cap_m": 120,
       "examples": [
-        "Risk Ledger",
-        "Concentric Software",
-        "Twenty",
-        "A Security",
-        "Opal Security"
+        "React Mobile",
+        "Kea",
+        "nestermind",
+        "Agave",
+        "Orbital",
+        "Scotch"
       ],
-      "top_stage": "Series B"
+      "top_stage": "Series A"
     },
     {
       "theme": "Fintech & payments",
@@ -2550,17 +2547,16 @@
       "top_stage": "Venture"
     },
     {
-      "theme": "Vertical SaaS",
-      "count": 5,
-      "cap_m": 117,
+      "theme": "Cybersecurity",
+      "count": 4,
+      "cap_m": 192,
       "examples": [
-        "Kea",
-        "Agave",
-        "Orbital",
-        "Scotch",
-        "LightTable"
+        "Risk Ledger",
+        "Twenty",
+        "A Security",
+        "Opal Security"
       ],
-      "top_stage": "Series A"
+      "top_stage": "Series B"
     },
     {
       "theme": "Financial back-office & compliance AI",
@@ -2574,26 +2570,26 @@
       "top_stage": "Series A"
     },
     {
-      "theme": "Logistics & supply chain",
+      "theme": "AI dev tooling",
       "count": 3,
-      "cap_m": 26,
+      "cap_m": 480,
       "examples": [
-        "Parspec",
-        "Prolo",
-        "MarginEdge"
+        "Vorflux",
+        "Namespace",
+        "Fusion Developer Helion"
       ],
-      "top_stage": "Series A"
+      "top_stage": "Seed"
     },
     {
-      "theme": "AI compute & models",
+      "theme": "Logistics & supply chain",
       "count": 3,
-      "cap_m": 430,
+      "cap_m": 6,
       "examples": [
-        "PreciTaste",
-        "Oratomic",
-        "Prime Intellect"
+        "Prolo",
+        "MarginEdge",
+        "Inspectorio"
       ],
-      "top_stage": "Series A"
+      "top_stage": "Seed"
     }
   ],
   "investor_signal": [
@@ -3565,8 +3561,18 @@
     "tw": [
       {
         "name": "Applied / horizontal AI",
-        "delta": 3,
-        "now": 111
+        "delta": 2,
+        "now": 110
+      },
+      {
+        "name": "Vertical SaaS",
+        "delta": 2,
+        "now": 7
+      },
+      {
+        "name": "AI dev tooling",
+        "delta": 2,
+        "now": 3
       },
       {
         "name": "Physical AI & robotics",
@@ -3574,12 +3580,7 @@
         "now": 7
       },
       {
-        "name": "Cybersecurity",
-        "delta": 1,
-        "now": 5
-      },
-      {
-        "name": "AI dev tooling",
+        "name": "Data infrastructure",
         "delta": 1,
         "now": 2
       },
@@ -3594,14 +3595,9 @@
         "now": 10
       },
       {
-        "name": "Applied AI agents",
+        "name": "Cybersecurity",
         "delta": 0,
-        "now": 9
-      },
-      {
-        "name": "Vertical SaaS",
-        "delta": 0,
-        "now": 5
+        "now": 4
       },
       {
         "name": "Financial back-office & compliance AI",
@@ -3619,11 +3615,6 @@
         "now": 3
       },
       {
-        "name": "Data infrastructure",
-        "delta": 0,
-        "now": 1
-      },
-      {
         "name": "Insurance / insurtech",
         "delta": 0,
         "now": 1
@@ -3634,14 +3625,14 @@
         "now": 1
       },
       {
-        "name": "Healthcare & bio AI",
-        "delta": -1,
-        "now": 16
-      },
-      {
         "name": "Crypto & digital assets",
         "delta": -1,
         "now": 10
+      },
+      {
+        "name": "Applied AI agents",
+        "delta": -1,
+        "now": 8
       },
       {
         "name": "Logistics & supply chain",
@@ -3657,6 +3648,11 @@
         "name": "HR & workforce",
         "delta": -1,
         "now": 1
+      },
+      {
+        "name": "Healthcare & bio AI",
+        "delta": -2,
+        "now": 15
       },
       {
         "name": "Fintech & payments",

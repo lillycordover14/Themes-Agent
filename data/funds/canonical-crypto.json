@@ -26,6 +26,13 @@
   },
   "updates": [
     {
+      "date": "2026-07-17",
+      "type": "Thesis",
+      "title": "Open Source Switched Sides",
+      "link": "https://blog.canonical.cc/p/open-source-switched-sides",
+      "summary": "Open source was the hedge against concentrated power. In 2026 its biggest sponsor is the Chinese state, and value moves accordingly."
+    },
+    {
       "date": "2026-07-10",
       "type": "Thesis",
       "title": "The Transistor Was the Easy Part",
