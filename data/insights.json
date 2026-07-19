@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-18",
+  "generated": "2026-07-19",
   "count": 200,
   "summary": "",
   "kpis": {
     "strongest_theme": "Healthcare & bio AI",
     "total_raises": 200,
     "early_raises": 82,
-    "total_cap_m": 13501,
+    "total_cap_m": 13731,
     "early_cap_m": 2649,
     "stage_counts": {
       "Pre-seed": 3,
@@ -20,18 +20,9 @@
   },
   "raises": [
     {
-      "company": "LimX Dynamics",
-      "amount_m": 200,
-      "date": "2026-07-18",
-      "link": "https://limxdynamics.com",
-      "investors": [],
-      "theme": "Physical AI & robotics",
-      "stage": "Series B"
-    },
-    {
       "company": "Flex",
-      "amount_m": 70,
-      "date": "2026-07-18",
+      "amount_m": 300,
+      "date": "2026-07-19",
       "link": "https://flex.one",
       "investors": [
         "Accel"
@@ -40,9 +31,18 @@
       "stage": "Series B"
     },
     {
+      "company": "LimX Dynamics",
+      "amount_m": 200,
+      "date": "2026-07-19",
+      "link": "https://limxdynamics.com",
+      "investors": [],
+      "theme": "Physical AI & robotics",
+      "stage": "Series B"
+    },
+    {
       "company": "InstaLILY AI",
       "amount_m": 60,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://instalily.ai",
       "investors": [
         "Energize Capital",
@@ -54,7 +54,7 @@
     {
       "company": "Valarian",
       "amount_m": 50,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://valarian.com",
       "investors": [
         "New Enterprise Associates"
@@ -65,7 +65,7 @@
     {
       "company": "Sable AI",
       "amount_m": 45,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://withsable.com",
       "investors": [],
       "theme": "Applied AI agents",
@@ -74,7 +74,7 @@
     {
       "company": "Whale",
       "amount_m": 40,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://whale.sg",
       "investors": [],
       "theme": "Data infrastructure",
@@ -83,7 +83,7 @@
     {
       "company": "Velocity AI",
       "amount_m": 38,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://velocityai.io",
       "investors": [],
       "theme": "Sales & GTM AI",
@@ -92,7 +92,7 @@
     {
       "company": "Risk Ledger",
       "amount_m": 32,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://riskledger.com",
       "investors": [],
       "theme": "Cybersecurity",
@@ -101,7 +101,7 @@
     {
       "company": "Feathery",
       "amount_m": 30,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://feathery.io",
       "investors": [],
       "theme": "Financial back-office & compliance AI",
@@ -110,7 +110,7 @@
     {
       "company": "Rime",
       "amount_m": 24,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://rime.ai",
       "investors": [],
       "theme": "Applied / horizontal AI",
@@ -119,7 +119,7 @@
     {
       "company": "Mosaic",
       "amount_m": 18,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://mosaicapp.com",
       "investors": [
         "Radical Ventures"
@@ -130,7 +130,7 @@
     {
       "company": "Project Q",
       "amount_m": 17,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://projectqai.github.io",
       "investors": [],
       "theme": "Applied / horizontal AI",
@@ -139,7 +139,7 @@
     {
       "company": "Vorflux",
       "amount_m": 15,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://vorflux.com",
       "investors": [],
       "theme": "AI dev tooling",
@@ -148,7 +148,7 @@
     {
       "company": "MeltPlan",
       "amount_m": 14,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://meltplan.com",
       "investors": [
         "Bessemer",
@@ -161,7 +161,7 @@
     {
       "company": "InsideDesk",
       "amount_m": 13,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://insidedesk.com",
       "investors": [],
       "theme": "Insurance / insurtech",
@@ -170,7 +170,7 @@
     {
       "company": "Adaptive",
       "amount_m": 6,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://adaptive.build",
       "investors": [],
       "theme": "Applied AI agents",
@@ -179,7 +179,7 @@
     {
       "company": "Prolo",
       "amount_m": 6,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://prolo.io",
       "investors": [],
       "theme": "Logistics & supply chain",
@@ -188,7 +188,7 @@
     {
       "company": "Linker Finance",
       "amount_m": 5,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://linkerfinance.com",
       "investors": [],
       "theme": "Fintech & payments",
@@ -197,7 +197,7 @@
     {
       "company": "Cue",
       "amount_m": 5,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://cuedesk.com",
       "investors": [],
       "theme": "Applied AI agents",
@@ -206,7 +206,7 @@
     {
       "company": "SimpleAI",
       "amount_m": 5,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://simpleaiworks.com",
       "investors": [],
       "theme": "Financial back-office & compliance AI",
@@ -215,7 +215,7 @@
     {
       "company": "Proaction",
       "amount_m": 4,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://proaction.com",
       "investors": [],
       "theme": "Applied / horizontal AI",
@@ -224,7 +224,7 @@
     {
       "company": "React Mobile",
       "amount_m": 3,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://reactmobile.com",
       "investors": [],
       "theme": "Vertical SaaS",
@@ -233,7 +233,7 @@
     {
       "company": "logcat.ai",
       "amount_m": 3,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://logcat.ai",
       "investors": [],
       "theme": "Data infrastructure",
@@ -242,7 +242,7 @@
     {
       "company": "Synthreo",
       "amount_m": 2,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://synthreo.ai",
       "investors": [],
       "theme": "Applied AI agents",
@@ -251,7 +251,7 @@
     {
       "company": "Neocad",
       "amount_m": 1,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://neocadsrl.com",
       "investors": [],
       "theme": "Applied / horizontal AI",
@@ -260,7 +260,7 @@
     {
       "company": "ESGAgent.ai",
       "amount_m": 1,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://kleantech.com.au",
       "investors": [],
       "theme": "Energy & climate",
@@ -269,7 +269,7 @@
     {
       "company": "Solving.AI",
       "amount_m": 1,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://solving.ai",
       "investors": [],
       "theme": "Applied / horizontal AI",
@@ -278,7 +278,7 @@
     {
       "company": "Namespace",
       "amount_m": null,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://namespace.so",
       "investors": [],
       "theme": "AI dev tooling",
@@ -287,7 +287,7 @@
     {
       "company": "MarginEdge",
       "amount_m": null,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://marginedge.com",
       "investors": [],
       "theme": "Logistics & supply chain",
@@ -296,7 +296,7 @@
     {
       "company": "Inspectorio",
       "amount_m": null,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://inspectorio.com",
       "investors": [],
       "theme": "Logistics & supply chain",
@@ -305,7 +305,7 @@
     {
       "company": "DSALTA",
       "amount_m": null,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://dsalta.com",
       "investors": [],
       "theme": "Financial back-office & compliance AI",
@@ -314,7 +314,7 @@
     {
       "company": "Kea",
       "amount_m": null,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://kea.ai",
       "investors": [],
       "theme": "Vertical SaaS",
@@ -323,7 +323,7 @@
     {
       "company": "LearnUpon",
       "amount_m": null,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://learnupon.com",
       "investors": [],
       "theme": "Applied / horizontal AI",
@@ -332,7 +332,7 @@
     {
       "company": "VNTANA",
       "amount_m": null,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://vntana.com",
       "investors": [],
       "theme": "Applied / horizontal AI",
@@ -341,7 +341,7 @@
     {
       "company": "PreciTaste",
       "amount_m": null,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://precitaste.com",
       "investors": [],
       "theme": "AI compute & models",
@@ -350,7 +350,7 @@
     {
       "company": "nestermind",
       "amount_m": null,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://nestermind.com",
       "investors": [],
       "theme": "Vertical SaaS",
@@ -359,7 +359,7 @@
     {
       "company": "Liveday",
       "amount_m": null,
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "link": "https://liveday.se",
       "investors": [],
       "theme": "Sales & GTM AI",
@@ -2438,7 +2438,7 @@
     {
       "theme": "Applied / horizontal AI",
       "count": 110,
-      "cap_m": 7184,
+      "cap_m": 7414,
       "examples": [
         "Flex",
         "Valarian",

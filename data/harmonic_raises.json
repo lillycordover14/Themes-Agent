@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18",
+  "generated": "2026-07-19",
   "mode": "full",
   "count": 38,
   "companies": [
@@ -38,8 +38,8 @@
       "domain": "flex.one",
       "desc": "Flex offers a financial technology platform that integrates business and personal finance management, utilizing advanced AI technology for transaction tracking, treasury management, and risk mitigation. Key features incl",
       "stage": "SERIES_B",
-      "last_amount": 70000000.0,
-      "total": 808608000.0,
+      "last_amount": 300000000.0,
+      "total": 878608000.0,
       "investors": [
         "Draft Ventures",
         "MS&AD Ventures",
@@ -213,6 +213,21 @@
       "location": "Des Moines, IA"
     },
     {
+      "name": "Sable AI",
+      "domain": "withsable.com",
+      "desc": "Sable develops AI agents that leverage real-time screen comprehension to provide context-aware guidance and automate user interactions without requiring integration. The technology features multimodal capabilities that a",
+      "stage": "SERIES_B",
+      "last_amount": 45000000.0,
+      "total": 45000000.0,
+      "investors": [
+        "8VC",
+        "Sequoia Capital",
+        "BoxGroup",
+        "SV Angel"
+      ],
+      "location": "731 Fell Street, San Francisco, CA 94117, United States"
+    },
+    {
       "name": "DSALTA",
       "domain": "dsalta.com",
       "desc": "The company offers a compliance management platform that integrates access reviews, risk management, and asset management to streamline compliance processes. It employs AI-driven automation for auditing and real-time ris",
@@ -269,21 +284,6 @@
         "Alumni Ventures"
       ],
       "location": "Palo Alto, California"
-    },
-    {
-      "name": "Sable AI",
-      "domain": "withsable.com",
-      "desc": "Sable develops AI agents that leverage real-time screen comprehension to provide context-aware guidance and automate user interactions without requiring integration. The technology features multimodal capabilities that a",
-      "stage": "SERIES_B",
-      "last_amount": 45000000.0,
-      "total": 45000000.0,
-      "investors": [
-        "8VC",
-        "Sequoia Capital",
-        "BoxGroup",
-        "SV Angel"
-      ],
-      "location": "731 Fell Street, San Francisco, CA 94117, United States"
     },
     {
       "name": "LearnUpon",
@@ -374,7 +374,7 @@
       "desc": "React Mobile offers panic button solutions tailored for the hospitality industry, utilizing technologies such as GPS geolocation, Bluetooth beacon technology, and various communication methods to ensure rapid response du",
       "stage": "VENTURE_UNKNOWN",
       "last_amount": 3480000.0,
-      "total": 17222289.0,
+      "total": 19222289.0,
       "investors": [
         "VisionTech Partners | VisionTech Angels",
         "Keiretsu Capital",
@@ -398,7 +398,7 @@
     {
       "name": "Neocad",
       "domain": "neocadsrl.com",
-      "desc": "The primary product leverages Generative AI to optimize the 3D CAD design process, allowing users to handle intricate design tasks with greater efficiency. This technology is designed to enhance productivity and support ",
+      "desc": "The main product is an AI-driven platform that facilitates the search and reuse of CAD files, enabling users to quickly locate existing components and designs through natural language queries and geometric similarity. It",
       "stage": "PRE_SEED",
       "last_amount": 661795.0,
       "total": 637467.0,
