@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19",
+  "generated": "2026-07-20",
   "mode": "full",
   "count": 38,
   "companies": [
@@ -38,7 +38,7 @@
       "domain": "flex.one",
       "desc": "Flex offers a financial technology platform that integrates business and personal finance management, utilizing advanced AI technology for transaction tracking, treasury management, and risk mitigation. Key features incl",
       "stage": "SERIES_B",
-      "last_amount": 300000000.0,
+      "last_amount": 70000000.0,
       "total": 878608000.0,
       "investors": [
         "Draft Ventures",
@@ -371,7 +371,7 @@
     {
       "name": "React Mobile",
       "domain": "reactmobile.com",
-      "desc": "React Mobile offers panic button solutions tailored for the hospitality industry, utilizing technologies such as GPS geolocation, Bluetooth beacon technology, and various communication methods to ensure rapid response du",
+      "desc": "The company provides panic button solutions specifically designed for the hospitality industry, incorporating technologies such as Bluetooth, cellular/Wi-Fi connectivity, and LoRa for effective emergency communication. T",
       "stage": "VENTURE_UNKNOWN",
       "last_amount": 3480000.0,
       "total": 19222289.0,
@@ -508,19 +508,16 @@
       "location": "Seattle"
     },
     {
-      "name": "Vorflux",
-      "domain": "vorflux.com",
-      "desc": "Vorflux is a cloud-based coding agent that runs your whole stack on a real machine. Hand it a complex, ambiguous problem the way you would a senior engineer, and it plans deeply, builds, tests on real infrastructure, rev",
+      "name": "Liveday",
+      "domain": "liveday.se",
+      "desc": "Liveday provides an integrated event platform tailored for the sports sector, which consolidates ticket sales, merchandise, restaurant bookings, and a point-of-sale system into a unified checkout experience. The platform",
       "stage": "SEED",
-      "last_amount": 15000000.0,
-      "total": 15000000.0,
+      "last_amount": 309669.0,
+      "total": 800662.0,
       "investors": [
-        "Peak XV Partners",
-        "Y Combinator",
-        "Alliance VC",
-        "Powerset"
+        "Henrik Zetterberg"
       ],
-      "location": ""
+      "location": "Helsingborg"
     },
     {
       "name": "Solving.AI",
@@ -535,16 +532,19 @@
       "location": "Montreal, QC, Canada"
     },
     {
-      "name": "Liveday",
-      "domain": "liveday.se",
-      "desc": "Liveday provides an integrated event platform tailored for the sports sector, which consolidates ticket sales, merchandise, restaurant bookings, and a point-of-sale system into a unified checkout experience. The platform",
-      "stage": "SEED",
-      "last_amount": 309669.0,
-      "total": 800662.0,
+      "name": "LAMP Japan",
+      "domain": "lamp.jp",
+      "desc": "The main product is a customizable online ordering system designed for the food retail sector, facilitating online reservations and payment management. This system aims to improve operational efficiency and increase reve",
+      "stage": "SERIES_A",
+      "last_amount": 6490000.0,
+      "total": 14177120.0,
       "investors": [
-        "Henrik Zetterberg"
+        "DNX Ventures - US",
+        "Mitsui Sumitomo Insurance Company, Limited",
+        "MS&AD Ventures",
+        "90s"
       ],
-      "location": "Helsingborg"
+      "location": "Kyoto Station Building, Number 5, 5th Floor, 214 Shinoyacho, Shichijo-dori Karasuma Higashiiru, Shimogyo-ku, Kyoto, 600-8211, Japan"
     }
   ]
 }

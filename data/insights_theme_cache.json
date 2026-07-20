@@ -1328,5 +1328,10 @@
     "theme": "Vertical SaaS",
     "domain": "",
     "clean": "nestermind"
+  },
+  "lampjapan": {
+    "theme": "Vertical SaaS",
+    "domain": "",
+    "clean": "LAMP Japan"
   }
 }
