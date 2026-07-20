@@ -11,19 +11,25 @@
       "linkedin": "https://www.linkedin.com/company/salientai",
       "linkedin_posts": [
         {
-          "title": "Hosting its first Salient Fireside Chat with a16z (Aug 11) — “How Lean Teams Drive Outsized Revenue,” featuring CEO Ari M., CTO Mukund Tibrewala, and a16z GP / board member Alex Rampell",
-          "link": "https://www.linkedin.com/company/salientai/posts/",
-          "date": "2026-07-15"
+          "date": "2026-07-13",
+          "title": "Recognized as the #2 most in-demand early-stage company on Harmonic's Hot 25 report, spotlighted by Harry Stebbings at 20VC",
+          "link": "https://www.linkedin.com/company/salientai/posts/"
         },
         {
-          "title": "Hosted its first Engineering Happy Hour — 30+ Bay Area engineers at the office (recruiting / brand-building push)",
-          "link": "https://www.linkedin.com/company/salientai/posts/",
-          "date": "2026-07-03"
+          "date": "2026-07-06",
+          "title": "Sneak peek from Salient's first Engineering Happy Hour — hosted 30+ Bay Area engineers at the SF office",
+          "link": "https://www.linkedin.com/company/salientai/posts/"
+        },
+        {
+          "date": "2026-07-06",
+          "title": "On why compliance is built into everything Salient does for heavily-regulated US consumer lenders",
+          "link": "https://www.linkedin.com/company/salientai/posts/"
         }
       ],
       "x": "",
       "substack": "",
-      "url": "https://trysalient.com"
+      "url": "https://trysalient.com",
+      "linkedin_posts_updated": "2026-07-20"
     },
     {
       "name": "Taktile",
@@ -64,19 +70,20 @@
       "linkedin": "https://www.linkedin.com/company/taktile1",
       "linkedin_posts": [
         {
-          "title": "Customer proof: “How Brex’s Head of Onboarding (Flora Zhang) approves customers in minutes with AI” — AI Field Notes case study with Brex",
-          "link": "https://www.linkedin.com/company/taktile1/posts/",
-          "date": "2026-07-13"
+          "date": "2026-07-20",
+          "title": "Hosting Mistral and Langfuse at Taktile's Berlin office to explore how teams instantly transform financial workflows",
+          "link": "https://www.linkedin.com/company/taktile1/posts/"
         },
         {
-          "title": "Page cover promoting its $110M Series C — “Tougher AI for banks & insurers”",
-          "link": "https://www.linkedin.com/company/taktile1/posts/",
-          "date": "2026-06-22"
+          "date": "2026-07-15",
+          "title": "AI Field Notes: How Brex's Head of Onboarding approves customers in minutes with AI (Taktile case study)",
+          "link": "https://www.linkedin.com/company/taktile1/posts/"
         }
       ],
       "x": "https://x.com/taktile_org",
       "substack": "",
-      "url": "https://taktile.com"
+      "url": "https://taktile.com",
+      "linkedin_posts_updated": "2026-07-20"
     },
     {
       "name": "NetBox Labs",
@@ -188,14 +195,15 @@
       "linkedin": "https://www.linkedin.com/company/netboxlabs",
       "linkedin_posts": [
         {
-          "title": "Broad hiring push (VP Eng, Dir. Solutions Eng, Staff PM, RevOps, SDR, etc.) — “As AI data centers, hybrid cloud & multi-vendor networks pile on complexity… we’re growing the team”",
-          "link": "https://www.linkedin.com/company/netboxlabs/posts/",
-          "date": "2026-07-17"
+          "date": "2026-07-16",
+          "title": "Join NetBox Labs' monthly NetBox Community Meetup next Tuesday — demos on advanced NetBox workflows, release updates, and live Q&A",
+          "link": "https://www.linkedin.com/company/netboxlabs/posts/"
         }
       ],
       "x": "",
       "substack": "",
-      "url": "https://netboxlabs.com"
+      "url": "https://netboxlabs.com",
+      "linkedin_posts_updated": "2026-07-20"
     },
     {
       "name": "Bretton",
@@ -229,14 +237,15 @@
       "linkedin": "https://www.linkedin.com/company/bretton-ai",
       "linkedin_posts": [
         {
-          "title": "Senior GTM hire: Rick Shooman joins as Managing Director, Financial Crimes Consulting (deep AML / fincrime credibility; founder Will Lawrence)",
-          "link": "https://www.linkedin.com/company/bretton-ai/posts/",
-          "date": "2026-07-10"
+          "date": "2026-07-13",
+          "title": "Launch of Bretton's AI Managed Services (via COO Natasha Vernier) — running banks' financial-crime operations end-to-end, priced on outcomes not headcount",
+          "link": "https://www.linkedin.com/company/bretton-ai/posts/"
         }
       ],
       "x": "https://x.com/brettonai",
       "substack": "",
-      "url": "https://bretton.com"
+      "url": "https://bretton.com",
+      "linkedin_posts_updated": "2026-07-20"
     }
   ]
 }

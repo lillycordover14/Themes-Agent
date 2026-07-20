@@ -39,8 +39,8 @@
   "stepful": {
     "name": "Carl Madi",
     "title": "Co-Founder & CEO",
-    "email": "",
-    "source": "pitchbook"
+    "email": "carl@stepful.com",
+    "source": "harmonic"
   },
   "lyzrai": {
     "name": "Siva Selvaraj",
@@ -101,5 +101,53 @@
     "title": "Co-Founder & CEO",
     "email": "clement@helloaria.eu",
     "source": "pitchbook"
+  },
+  "sableai": {
+    "name": "Nim Ravid",
+    "title": "Co-Founder & CEO",
+    "email": "nravid@withsable.com",
+    "source": "pitchbook"
+  },
+  "marginedge": {
+    "name": "Clyde (Bo) Davis IV",
+    "title": "Co-Founder & CEO",
+    "email": "bo@marginedge.com",
+    "source": "pitchbook"
+  },
+  "inspectorio": {
+    "name": "Chirag Patel",
+    "title": "CEO",
+    "email": "chirag.patel@inspectorio.com",
+    "source": "pitchbook"
+  },
+  "vedanatherapeutics": {
+    "name": "Anurag Agarwal",
+    "title": "Co-Founder & CEO",
+    "email": "",
+    "source": "pitchbook"
+  },
+  "sandstone": {
+    "name": "",
+    "title": "",
+    "email": "",
+    "source": "unresolved (no confident founder match)"
+  },
+  "fomo": {
+    "name": "",
+    "title": "",
+    "email": "",
+    "source": "unresolved (ambiguous Harmonic/PB match)"
+  },
+  "whale": {
+    "name": "",
+    "title": "",
+    "email": "",
+    "source": "unresolved (Harmonic could not resolve)"
+  },
+  "adaptiveinnovations": {
+    "name": "",
+    "title": "",
+    "email": "",
+    "source": "unresolved (ambiguous match)"
   }
 }
