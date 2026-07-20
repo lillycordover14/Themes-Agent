@@ -1333,5 +1333,10 @@
     "theme": "Vertical SaaS",
     "domain": "",
     "clean": "LAMP Japan"
+  },
+  "meshyai": {
+    "theme": "Consumer & marketplace",
+    "domain": "",
+    "clean": "MeshyAI"
   }
 }

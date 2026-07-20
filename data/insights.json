@@ -6,19 +6,28 @@
     "strongest_theme": "Healthcare & bio AI",
     "total_raises": 200,
     "early_raises": 82,
-    "total_cap_m": 13492,
+    "total_cap_m": 13892,
     "early_cap_m": 2640,
     "stage_counts": {
       "Pre-seed": 3,
       "Seed": 26,
       "Series A": 53,
-      "Series B": 26,
+      "Series B": 27,
       "Series C": 10,
       "Series D": 4,
-      "Venture": 72
+      "Venture": 71
     }
   },
   "raises": [
+    {
+      "company": "MeshyAI",
+      "amount_m": 400,
+      "date": "2026-07-20",
+      "link": "https://meshy.ai",
+      "investors": [],
+      "theme": "Consumer & marketplace",
+      "stage": "Series B"
+    },
     {
       "company": "LimX Dynamics",
       "amount_m": 200,
@@ -2224,23 +2233,12 @@
       ],
       "theme": "Applied / horizontal AI",
       "stage": "Venture"
-    },
-    {
-      "company": "Wingstop (WING) Rebound",
-      "amount_m": null,
-      "date": "2026-05-29",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWW1ucFhweGxsTjdiSlVaVE9nVGNfMGdKRDZsOGJDekR5YWExM2gzQXI4cVcySG0zcG9abHY2SnVnZ1RsOWhLTjlLUDg2MnZBQVlVT0wwYjgwODBOd1FhWTZPbkdnRFp4MUNaM25yc3d3Y25xLWdnVHlFSHZUMm5OMGlBa1NxeVhCZUtid0FXMGtlb1M3d19BZVdEZ1dpVXdmNkZoQWdXbS1teWVYR2tSY2xPY1NYX2VzZHlXS3liTHFYSjNLak8yQUt2ODg4YW42c2fSAdcBQVVfeXFMT3BaajlRQXl2T01tX3ZaNjZXT0R5eUZiblp0SVNCVEp1TDhvXzlZT0Vfd3ZFbEZUS2I1d2FCVzZjSmkyLXRyOE1IbXZZNkk0YmN4MkdZb19XU1RoYXJlcDRlUDdKdDB0Wl96aW9KX1ZnZ2Z5ZWM4ZnBzVVdiaEVwdnRySXZ2N0d0VVdTT2tocEg3Mm9HRlBicWYwMGtkRXlLVzRmemV6dC1ZeHhsbWt1U096WjVqRTU5Mzh1N3g4YXV4bTNtR1BJNmtzYi1BemxmYXg2RFF5bG8?oc=5",
-      "investors": [
-        "Wing"
-      ],
-      "theme": "Applied / horizontal AI",
-      "stage": "Venture"
     }
   ],
   "themes": [
     {
       "theme": "Applied / horizontal AI",
-      "count": 110,
+      "count": 109,
       "examples": [
         "Flex",
         "Valarian",
@@ -2412,6 +2410,13 @@
       ]
     },
     {
+      "theme": "Consumer & marketplace",
+      "count": 1,
+      "examples": [
+        "MeshyAI"
+      ]
+    },
+    {
       "theme": "Insurance / insurtech",
       "count": 1,
       "examples": [
@@ -2436,7 +2441,7 @@
   "emerging": [
     {
       "theme": "Applied / horizontal AI",
-      "count": 110,
+      "count": 109,
       "cap_m": 7184,
       "examples": [
         "Flex",
@@ -3565,8 +3570,8 @@
       },
       {
         "name": "Applied / horizontal AI",
-        "delta": 2,
-        "now": 110
+        "delta": 1,
+        "now": 109
       },
       {
         "name": "Physical AI & robotics",
@@ -3587,6 +3592,11 @@
         "name": "Defense & national security",
         "delta": 1,
         "now": 2
+      },
+      {
+        "name": "Consumer & marketplace",
+        "delta": 1,
+        "now": 1
       },
       {
         "name": "Energy & climate",

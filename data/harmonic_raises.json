@@ -1,7 +1,7 @@
 {
   "generated": "2026-07-20",
   "mode": "full",
-  "count": 38,
+  "count": 39,
   "companies": [
     {
       "name": "Feathery",
@@ -284,6 +284,21 @@
         "Alumni Ventures"
       ],
       "location": "Palo Alto, California"
+    },
+    {
+      "name": "MeshyAI",
+      "domain": "meshy.ai",
+      "desc": "Meshy provides a platform that leverages generative AI to transform text and images into 3D models, streamlining the design process for various applications such as gaming and product design. The technology includes text",
+      "stage": "SERIES_B",
+      "last_amount": 400000000.0,
+      "total": 450000000.0,
+      "investors": [
+        "MPCi 经纬创投",
+        "IDG Capital",
+        "HSG",
+        "Source Code Capital"
+      ],
+      "location": "Sunnyvale, California"
     },
     {
       "name": "LearnUpon",

@@ -11,25 +11,24 @@
       "linkedin": "https://www.linkedin.com/company/salientai",
       "linkedin_posts": [
         {
-          "date": "2026-07-13",
           "title": "Recognized as the #2 most in-demand early-stage company on Harmonic's Hot 25 report, spotlighted by Harry Stebbings at 20VC",
-          "link": "https://www.linkedin.com/company/salientai/posts/"
+          "link": "https://www.linkedin.com/company/salientai/posts/",
+          "date": "2026-07-13"
         },
         {
-          "date": "2026-07-06",
           "title": "Sneak peek from Salient's first Engineering Happy Hour — hosted 30+ Bay Area engineers at the SF office",
-          "link": "https://www.linkedin.com/company/salientai/posts/"
+          "link": "https://www.linkedin.com/company/salientai/posts/",
+          "date": "2026-07-06"
         },
         {
-          "date": "2026-07-06",
           "title": "On why compliance is built into everything Salient does for heavily-regulated US consumer lenders",
-          "link": "https://www.linkedin.com/company/salientai/posts/"
+          "link": "https://www.linkedin.com/company/salientai/posts/",
+          "date": "2026-07-06"
         }
       ],
       "x": "",
       "substack": "",
-      "url": "https://trysalient.com",
-      "linkedin_posts_updated": "2026-07-20"
+      "url": "https://trysalient.com"
     },
     {
       "name": "Taktile",
@@ -70,20 +69,19 @@
       "linkedin": "https://www.linkedin.com/company/taktile1",
       "linkedin_posts": [
         {
-          "date": "2026-07-20",
           "title": "Hosting Mistral and Langfuse at Taktile's Berlin office to explore how teams instantly transform financial workflows",
-          "link": "https://www.linkedin.com/company/taktile1/posts/"
+          "link": "https://www.linkedin.com/company/taktile1/posts/",
+          "date": "2026-07-20"
         },
         {
-          "date": "2026-07-15",
           "title": "AI Field Notes: How Brex's Head of Onboarding approves customers in minutes with AI (Taktile case study)",
-          "link": "https://www.linkedin.com/company/taktile1/posts/"
+          "link": "https://www.linkedin.com/company/taktile1/posts/",
+          "date": "2026-07-15"
         }
       ],
       "x": "https://x.com/taktile_org",
       "substack": "",
-      "url": "https://taktile.com",
-      "linkedin_posts_updated": "2026-07-20"
+      "url": "https://taktile.com"
     },
     {
       "name": "NetBox Labs",
@@ -195,15 +193,14 @@
       "linkedin": "https://www.linkedin.com/company/netboxlabs",
       "linkedin_posts": [
         {
-          "date": "2026-07-16",
           "title": "Join NetBox Labs' monthly NetBox Community Meetup next Tuesday — demos on advanced NetBox workflows, release updates, and live Q&A",
-          "link": "https://www.linkedin.com/company/netboxlabs/posts/"
+          "link": "https://www.linkedin.com/company/netboxlabs/posts/",
+          "date": "2026-07-16"
         }
       ],
       "x": "",
       "substack": "",
-      "url": "https://netboxlabs.com",
-      "linkedin_posts_updated": "2026-07-20"
+      "url": "https://netboxlabs.com"
     },
     {
       "name": "Bretton",
@@ -237,15 +234,14 @@
       "linkedin": "https://www.linkedin.com/company/bretton-ai",
       "linkedin_posts": [
         {
-          "date": "2026-07-13",
           "title": "Launch of Bretton's AI Managed Services (via COO Natasha Vernier) — running banks' financial-crime operations end-to-end, priced on outcomes not headcount",
-          "link": "https://www.linkedin.com/company/bretton-ai/posts/"
+          "link": "https://www.linkedin.com/company/bretton-ai/posts/",
+          "date": "2026-07-13"
         }
       ],
       "x": "https://x.com/brettonai",
       "substack": "",
-      "url": "https://bretton.com",
-      "linkedin_posts_updated": "2026-07-20"
+      "url": "https://bretton.com"
     }
   ]
 }
