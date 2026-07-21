@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20",
+  "generated": "2026-07-21",
   "companies": [
     {
       "name": "Salient",
@@ -70,7 +70,7 @@
       "strong_signals": 0,
       "supporting_signals": 1,
       "finance_leadership_open": false,
-      "open_roles": 8,
+      "open_roles": 9,
       "signals": [
         "5 mo since last round (Series B) · typical Series B cadence ~15 mo · just raised",
         "Last round: 2026-02-10 (Harmonic (by domain))",

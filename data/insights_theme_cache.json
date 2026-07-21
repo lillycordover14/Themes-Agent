@@ -1338,5 +1338,35 @@
     "theme": "Consumer & marketplace",
     "domain": "",
     "clean": "MeshyAI"
+  },
+  "runta": {
+    "theme": "Agent-native infra",
+    "domain": "",
+    "clean": "Runta"
+  },
+  "fazeshift": {
+    "theme": "Applied AI agents",
+    "domain": "",
+    "clean": "Fazeshift"
+  },
+  "siftmed": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "SiftMed"
+  },
+  "othorai": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Othor AI"
+  },
+  "reactor": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Reactor"
+  },
+  "countablelabs": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Countable Labs"
   }
 }

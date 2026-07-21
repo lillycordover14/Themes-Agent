@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-20",
+  "generated": "2026-07-21",
   "mode": "full",
-  "count": 39,
+  "count": 33,
   "companies": [
     {
       "name": "Feathery",
@@ -64,9 +64,24 @@
       "location": "New York, NY"
     },
     {
+      "name": "Fazeshift",
+      "domain": "fazeshift.com",
+      "desc": "Fazeshift offers an AI-driven platform that automates accounts receivable processes, including cash application, invoicing, and collections, utilizing enterprise-grade AI agents to manage complex payment scenarios and en",
+      "stage": "SERIES_A",
+      "last_amount": 0,
+      "total": 21500000.0,
+      "investors": [
+        "Pioneer Fund",
+        "2048 Ventures",
+        "Y Combinator",
+        "Ritual Capital"
+      ],
+      "location": "San Francisco, CA"
+    },
+    {
       "name": "MeltPlan",
       "domain": "meltplan.com",
-      "desc": "MeltPlan offers an AI-driven platform for pre-construction activities, focusing on building code compliance research and quantity takeoffs to improve construction workflow efficiency. The technology utilizes construction",
+      "desc": "MeltPlan provides an AI-driven platform designed for pre-construction activities, focusing on building code compliance research and quantity takeoffs to enhance construction workflow efficiency. The technology employs co",
       "stage": "SEED",
       "last_amount": 14000000.0,
       "total": 31409999.0,
@@ -153,21 +168,6 @@
       "location": "Pasadena, California"
     },
     {
-      "name": "Valarian",
-      "domain": "valarian.com",
-      "desc": "Valarian's main product is a secure software platform built on ACRA, designed to facilitate controlled data movement and enforce trust through compartmentalized data storage and access. The platform employs advanced encr",
-      "stage": "SERIES_A",
-      "last_amount": 50000000.0,
-      "total": 68554000.0,
-      "investors": [
-        "Founders Factory",
-        "Playfair",
-        "IQ Capital",
-        "XTX Markets"
-      ],
-      "location": "London"
-    },
-    {
       "name": "MarginEdge",
       "domain": "marginedge.com",
       "desc": "MarginEdge offers a restaurant management software platform that automates invoice processing, tracks inventory, and manages food costs, providing real-time insights into operational efficiency. The system integrates wit",
@@ -228,19 +228,6 @@
       "location": "731 Fell Street, San Francisco, CA 94117, United States"
     },
     {
-      "name": "DSALTA",
-      "domain": "dsalta.com",
-      "desc": "The company offers a compliance management platform that integrates access reviews, risk management, and asset management to streamline compliance processes. It employs AI-driven automation for auditing and real-time ris",
-      "stage": "PRE_SEED",
-      "last_amount": 0,
-      "total": 100000.0,
-      "investors": [
-        "AI Startup Factory",
-        "Ismail Sebe"
-      ],
-      "location": "San Francisco, CA"
-    },
-    {
       "name": "Project Q",
       "domain": "projectqai.github.io",
       "desc": "The main product is a software platform designed for API-first coordination of sensors, assets, and mission systems, enabling integration and interoperability across diverse environments without vendor lock-in. It utiliz",
@@ -256,21 +243,6 @@
       "location": "Berlin, Berlin"
     },
     {
-      "name": "Mosaic",
-      "domain": "mosaicapp.com",
-      "desc": "The main product is a resource management and project planning software that leverages AI and automation to optimize resource allocation and improve operational efficiency. Key technologies include workload forecasting, ",
-      "stage": "VENTURE_UNKNOWN",
-      "last_amount": 0,
-      "total": 25100000.0,
-      "investors": [
-        "Tensility Venture Partners",
-        "Entrepreneurs Roundtable Accelerator",
-        "Las Olas Venture Capital",
-        "Ocean Azul Partners"
-      ],
-      "location": "New York, NY"
-    },
-    {
       "name": "Kea",
       "domain": "kea.ai",
       "desc": "Kea AI provides a voice AI platform that automates phone order processing for restaurants, enabling them to handle multiple calls simultaneously and integrate with various point-of-sale systems. The technology employs na",
@@ -284,21 +256,6 @@
         "Alumni Ventures"
       ],
       "location": "Palo Alto, California"
-    },
-    {
-      "name": "MeshyAI",
-      "domain": "meshy.ai",
-      "desc": "Meshy provides a platform that leverages generative AI to transform text and images into 3D models, streamlining the design process for various applications such as gaming and product design. The technology includes text",
-      "stage": "SERIES_B",
-      "last_amount": 400000000.0,
-      "total": 450000000.0,
-      "investors": [
-        "MPCi 经纬创投",
-        "IDG Capital",
-        "HSG",
-        "Source Code Capital"
-      ],
-      "location": "Sunnyvale, California"
     },
     {
       "name": "LearnUpon",
@@ -344,21 +301,6 @@
       "location": "Toronto, Ontario"
     },
     {
-      "name": "PreciTaste",
-      "domain": "precitaste.com",
-      "desc": "PreciTaste offers an AI-driven platform that automates kitchen operations, employing machine learning and computer vision technologies to optimize food preparation processes in restaurants. Key functionalities include de",
-      "stage": "SERIES_A",
-      "last_amount": 0,
-      "total": 30355999.0,
-      "investors": [
-        "Enlightened Hospitality Investments",
-        "Melitas Ventures",
-        "Cleveland Avenue",
-        "Monogram Capital Partners"
-      ],
-      "location": "New York City, New York"
-    },
-    {
       "name": "Synthreo",
       "domain": "synthreo.ai",
       "desc": "Synthreo provides a multi-tenant AI platform designed for managed service providers, allowing for the creation and deployment of AI agents without coding. The platform incorporates large language model integration, a no-",
@@ -374,6 +316,21 @@
       "location": "Phoenix, Arizona"
     },
     {
+      "name": "Runta",
+      "domain": "runta.com",
+      "desc": "Runta is the missing execution layer for agentic software. So agents can run systems, not just write code.",
+      "stage": "SEED",
+      "last_amount": 20000000.0,
+      "total": 20000000.0,
+      "investors": [
+        "Andreessen Horowitz",
+        "Ram Shriram",
+        "Thomas Wolf",
+        "Jeff Dean"
+      ],
+      "location": "San Francisco, CA"
+    },
+    {
       "name": "nestermind",
       "domain": "nestermind.com",
       "desc": "The company offers a software-as-a-service platform designed for the real estate sector, utilizing artificial intelligence to automate administrative tasks and streamline follow-up processes. It employs data-driven insig",
@@ -384,18 +341,19 @@
       "location": "Kloten, Zurich"
     },
     {
-      "name": "React Mobile",
-      "domain": "reactmobile.com",
-      "desc": "The company provides panic button solutions specifically designed for the hospitality industry, incorporating technologies such as Bluetooth, cellular/Wi-Fi connectivity, and LoRa for effective emergency communication. T",
-      "stage": "VENTURE_UNKNOWN",
-      "last_amount": 3480000.0,
-      "total": 19222289.0,
+      "name": "SiftMed",
+      "domain": "siftmed.ca",
+      "desc": "SiftMed offers an AI-powered software solution designed to automate the organization, categorization, and analysis of medical records, significantly improving the medical file review process. The platform employs natural",
+      "stage": "SEED",
+      "last_amount": 0,
+      "total": 5649627.0,
       "investors": [
-        "VisionTech Partners | VisionTech Angels",
-        "Keiretsu Capital",
-        "Brady Corporation"
+        "Staircase Ventures",
+        "East Valley Ventures",
+        "Pelorus VC",
+        "Government of Newfoundland and Labrador"
       ],
-      "location": "Seattle, Washington"
+      "location": "St John’s, Newfoundland and Labrador"
     },
     {
       "name": "Cue",
@@ -454,60 +412,6 @@
       "location": "Singapore"
     },
     {
-      "name": "SimpleAI",
-      "domain": "simpleaiworks.com",
-      "desc": "The primary offering is an AI-driven accounting software that automates various tasks including data entry, invoice processing, and bank reconciliation, leveraging Generative Pre-Trained Transformers for efficient docume",
-      "stage": "SEED",
-      "last_amount": 5000000.0,
-      "total": 5000000.0,
-      "investors": [],
-      "location": "Singapore"
-    },
-    {
-      "name": "LimX Dynamics",
-      "domain": "limxdynamics.com",
-      "desc": "LimX Dynamics develops legged robots, including humanoid and quadruped models, utilizing advanced robotic software and hardware solutions. Their technology features Motion Intelligence, software algorithms, and artificia",
-      "stage": "SERIES_B",
-      "last_amount": 200000000.0,
-      "total": 496418000.0,
-      "investors": [
-        "Lenovo Capital and Incubator Group",
-        "Oasis Capital",
-        "Mingshi Investment",
-        "Alibaba Group"
-      ],
-      "location": "15th Floor, Building E, Nanshan Zhigu Industrial Park, Number 3157 Shahe West Road, Nanshan District, Shenzhen, Guangdong 518000, China"
-    },
-    {
-      "name": "ESGAgent.ai - AI Agents for ESG Compliance",
-      "domain": "kleantech.com.au",
-      "desc": "Klean Technologies offers a B2B SaaS platform that enables retailers to integrate sustainability initiatives into their operations, featuring tools for carbon footprint measurement, impact tracking, and customer engageme",
-      "stage": "SEED",
-      "last_amount": 725000.0,
-      "total": 1592791.0,
-      "investors": [
-        "DNX Ventures - US",
-        "Prtnr",
-        "Greg Steele"
-      ],
-      "location": "Brisbane, Queensland"
-    },
-    {
-      "name": "Velocity AI",
-      "domain": "velocityai.io",
-      "desc": "Velocity AI provides an AI-driven platform designed to enhance sales processes through real-time guidance, automated CRM updates, and dynamic checklists that adapt during sales conversations. The technology leverages pre",
-      "stage": "SERIES_A",
-      "last_amount": 38000000.0,
-      "total": 38000000.0,
-      "investors": [
-        "Wintermute Ventures",
-        "FirstMark",
-        "Activant Capital",
-        "Coinbase"
-      ],
-      "location": "SAN FRANCISCO, CA"
-    },
-    {
       "name": "logcat.ai",
       "domain": "logcat.ai",
       "desc": "AI-powered analysis of logcat, dmesg, and bugreports for deep Android OS and Linux kernel observability.",
@@ -535,6 +439,35 @@
       "location": "Helsingborg"
     },
     {
+      "name": "Othor AI",
+      "domain": "othor.ai",
+      "desc": "Othor AI offers a business intelligence platform that leverages artificial intelligence to provide immediate insights and dynamic visualizations, streamlining the decision-making process by eliminating traditional data b",
+      "stage": "PRE_SEED",
+      "last_amount": 62076.0,
+      "total": 171976.0,
+      "investors": [
+        "Vara Kumar Namburu",
+        "Avinash Kumar",
+        "Balasubrahmanyan Sridhara"
+      ],
+      "location": "Bangalore, Karnataka"
+    },
+    {
+      "name": "LAMP Japan",
+      "domain": "lamp.jp",
+      "desc": "The main product is a customizable online ordering system designed for the food retail sector, facilitating online reservations and payment management. This system aims to improve operational efficiency and increase reve",
+      "stage": "SERIES_A",
+      "last_amount": 2155300.0,
+      "total": 9842420.0,
+      "investors": [
+        "DNX Ventures - US",
+        "Mitsui Sumitomo Insurance Company, Limited",
+        "MS&AD Ventures",
+        "90s"
+      ],
+      "location": "Kyoto Station Building, Number 5, 5th Floor, 214 Shinoyacho, Shichijo-dori Karasuma Higashiiru, Shimogyo-ku, Kyoto, 600-8211, Japan"
+    },
+    {
       "name": "Solving.AI",
       "domain": "solving.ai",
       "desc": "The main product is an AI-driven platform that integrates into software applications to provide real-time, contextual guidance, enhancing user onboarding and feature adoption through interactive instructions. It utilizes",
@@ -545,21 +478,6 @@
         "AQC Capital"
       ],
       "location": "Montreal, QC, Canada"
-    },
-    {
-      "name": "LAMP Japan",
-      "domain": "lamp.jp",
-      "desc": "The main product is a customizable online ordering system designed for the food retail sector, facilitating online reservations and payment management. This system aims to improve operational efficiency and increase reve",
-      "stage": "SERIES_A",
-      "last_amount": 6490000.0,
-      "total": 14177120.0,
-      "investors": [
-        "DNX Ventures - US",
-        "Mitsui Sumitomo Insurance Company, Limited",
-        "MS&AD Ventures",
-        "90s"
-      ],
-      "location": "Kyoto Station Building, Number 5, 5th Floor, 214 Shinoyacho, Shichijo-dori Karasuma Higashiiru, Shimogyo-ku, Kyoto, 600-8211, Japan"
     }
   ]
 }
