@@ -2,7 +2,7 @@
   "generated": "2026-07-22",
   "window_days": 45,
   "counts": {
-    "actionable": 16,
+    "actionable": 14,
     "watchlist": 20,
     "excluded_off_thesis": 1
   },
@@ -138,49 +138,6 @@
       "connection_status": "prospective (web) — confirmed weekly via Affinity"
     },
     {
-      "company": "Sandstone",
-      "desc": "Legal AI",
-      "theme": "Precision Applications",
-      "vertical": "Legal",
-      "stage": "Series A",
-      "amount_m": 30,
-      "investors": [
-        "Lightspeed"
-      ],
-      "date": "2026-06-29",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5b2lGaVR4MThTdnNHc0dLZnJ6ZHR1SzBzckFvNFRoVkR0WldfcVZ3R3JOUkxuTmJPYTNlQUlaTmYtYWdzLW9CQTV0aDJVd3hkWFVUR3M4SEU?oc=5",
-      "domain": "sandstone.com",
-      "tier": "actionable",
-      "fit_reason": "Series A ($30M) — sizable A, likely at/near the ARR floor",
-      "source": "funds",
-      "connections": [
-        {
-          "kind": "co-investor",
-          "detail": "Backed by Lightspeed — a fund SPC gets intros through"
-        }
-      ],
-      "connection_status": "prospective (web) — confirmed weekly via Affinity"
-    },
-    {
-      "company": "Fomo",
-      "desc": "Fintech & payments",
-      "theme": "Precision Applications",
-      "vertical": "",
-      "stage": "Series B",
-      "amount_m": 75,
-      "investors": [
-        "Union Square Ventures"
-      ],
-      "date": "2026-06-26",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX2tONFZLdDMzdkhuU3FEZW5TU19VbVNvbk9wNVFycGZlQnpyMl9hZUFDalgtbHY3ZE50RmtHZmdvejR3RldUTnFONFp4Z2tfWkpKZDFTUGs3SG5lSkVGaDhRcVFFSkNKVWhJQ2VWZ2huSnUyOXJRN284TzJPdDlBaFZkdm12dTRnd1RJUWUzUnhUX3lsMVh1Uy1LLXU1cnJTM3JJMVhZNGpEUQ?oc=5",
-      "domain": "fomo.com",
-      "tier": "actionable",
-      "fit_reason": "Series B ($75M) — growth-stage sweet spot",
-      "source": "funds",
-      "connections": [],
-      "connection_status": "no connection surfaced — good to flag"
-    },
-    {
       "company": "Hera",
       "desc": "Healthcare & bio AI",
       "theme": "Precision Applications",
@@ -213,8 +170,8 @@
         "Spark Capital",
         "Thrive Capital"
       ],
-      "date": "2026-06-24",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEJlbTFiOHNTZnFEWmR4RTF1NjZzSDBKX1RHS29uTDUtM055cDA0eERFZFVPdEczejBoeHgyOWZuVHJoOEcwNXh3WVVjRS1nUjl5VENfMGE5bzRJYVhZaWpRbTUtczI1ZThFcmdKTDlrOV9yWW42MUlQY2w5TzF3d2U3MUhHcTZxRW5mNTVoYjZvaXpZckl2MGJMcWtzUnBONXU2b25rYzBLb1ZHRTU0X2tFUVQ2aXhWYW9hTlB4dW9ucE0?oc=5",
+      "date": "2026-06-23",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaWRTQ2p6cW9RTFh0VWFiQWZxSzRJWGRpaEJyeVdQWGtONWlwdnZzaXFudzBQejM0SmVBN1liUWNubElwWVQ4Wm9JTVZhTnhzaEwycG5lMWd1TklkYTdLLTh3bzVObkx6Y3AxeHp1a0RFcDZjRkJ4UU5veVVoQXU4NlhlQWt2c0NsX0lsckNKbFVUX1dhQnNCNzJReVB3dUhMRWxV?oc=5",
       "domain": "cadence.care",
       "tier": "actionable",
       "fit_reason": "Series C ($100M) — growth-stage sweet spot",
@@ -230,6 +187,25 @@
         }
       ],
       "connection_status": "prospective (web) — confirmed weekly via Affinity"
+    },
+    {
+      "company": "Fomo",
+      "desc": "Fintech & payments",
+      "theme": "Precision Applications",
+      "vertical": "",
+      "stage": "Series B",
+      "amount_m": 75,
+      "investors": [
+        "Union Square Ventures"
+      ],
+      "date": "2026-06-22",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxORE90cGhNN05vVHByU2dBc2lXZS1JOUxwaURDREJwbU9XRjV5d1JlTkRhLXZQY1IyOUxITWtEZmFabW9sVHlmOGRIWUhnb1M2WWluaC15RUVQR3hmSHVLbzltaml1Rm44WXMtRXp3ZV9BZzRnZ3dkZzIyTlAxZmdDS0JYaWxPYXZZSnR4SVhwaHhjOTVmSVJzLXRXZVdWVTVqQ1IyVDRfWG90SzU2Zk1Vek5ubGdmRU15NWc3MWtJcjRNYXhVeUhLQV81MnlaeHZmNFhuYlpSc0NITHRqSXByOS1uM1NBcFR1QlF2QkZBYmFRODY1ZnEw0gH8AUFVX3lxTE9rWUxDeTI3ZjdVY3BBcXBTeHZwX19aS280MHhYNVd6cFRwNV9XTDVDUGxmYnRhV0V4VzZJRDNTUTR4aFNyNmtoMHZZLXB0UWRIazIyRm5HTGZTSnd4QkZ5SkJoSnk4U01UbEc5LTBremFnWWs2SEZTLTFKOFpLTGlxandiRFJHTjlGSUVZbmZzVWFvRmdnZ2V0WXpPWlRpbUQySFBrU0xjbUJtWkxramhUeXpoOWhUYVB1eUNyempnUzJ6M0JQUlJKYU1UbWRDemRHYkZtSFJLNl9vaExFeVlucFVpeFRka09nSnBJSUJQY21PV3E0bFlnbmxlTA?oc=5",
+      "domain": "fomo.com",
+      "tier": "actionable",
+      "fit_reason": "Series B ($75M) — growth-stage sweet spot",
+      "source": "funds",
+      "connections": [],
+      "connection_status": "no connection surfaced — good to flag"
     },
     {
       "company": "Vedana Therapeutics",
@@ -275,23 +251,28 @@
       "connection_status": "prospective (web) — confirmed weekly via Affinity"
     },
     {
-      "company": "Adaptive Innovations",
-      "desc": "Healthcare & bio AI",
+      "company": "Sandstone",
+      "desc": "Legal AI",
       "theme": "Precision Applications",
-      "vertical": "Healthcare",
+      "vertical": "Legal",
       "stage": "Series A",
-      "amount_m": 60,
+      "amount_m": 30,
       "investors": [
-        "Bain Capital Ventures"
+        "Lightspeed"
       ],
       "date": "2026-06-09",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObFJXOGkySHZaVnctbUNsRmF5MGZFZzRZNFJHMlBoWHlMMDJfOF9fNmRGUUNFdHliSFJHUFI1QnlNd3FZb3BXeFRVc0VxcXZMdng1cmNQUlpTc1VNMVJqQksydjZwR2l3UkJ3MXdqM3hfekhDam5hZDdvdkV3MVJkUnFmQm81V244V2ZwNV9VaXg1UQ?oc=5",
-      "domain": "adaptive-innovations.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUlBqSnJIR1ZZeWZ5VWQwMnc5bUQyVnpGb2o1UmxPQkJvUEJHelUtWDVRYUl2MHZhSWVieTdaNE9BRmdKaUczS09jeWJrWjF3cE1fR3gtTVdJeUpvYS1Wc1o1MjZUWkdFcFZqNUQwd2ttLW5JSVZiRXQ4WUEyV05mdG51SHpiQ2FSdlI0VTFlNDBlTVp6MGc?oc=5",
+      "domain": "sandstone.com",
       "tier": "actionable",
-      "fit_reason": "Series A ($60M) — sizable A, likely at/near the ARR floor",
+      "fit_reason": "Series A ($30M) — sizable A, likely at/near the ARR floor",
       "source": "funds",
-      "connections": [],
-      "connection_status": "no connection surfaced — good to flag"
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Lightspeed — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
     },
     {
       "company": "Stepful",
@@ -311,31 +292,6 @@
       "source": "funds",
       "connections": [],
       "connection_status": "no connection surfaced — good to flag"
-    },
-    {
-      "company": "Collate",
-      "desc": "Healthcare & bio AI",
-      "theme": "Precision Applications",
-      "vertical": "Healthcare",
-      "stage": "Series A",
-      "amount_m": 95,
-      "investors": [
-        "First Round",
-        "Redpoint"
-      ],
-      "date": "2026-06-07",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRzFZNDRYWFVndVd5YXRwUmJNLVEtZU5JaTFWemJRSnNhSHlJTkQ0SW1pTVBEY09MWFFER1N2RG9acGJ1bVBFRm40ZDA4MmR2d1kxREpkUFZLRFZsQXpjVUUzLTRlNWRCbXVUNzl4djAzeWc4RW5qVEFxVWRDWnF4TEplVHRaMkk4U0ZDa3lUM2JybzJyRng4QlBITWZCRXhNMHR3VXFzN1VibEFwQUV2RHBmQkHSAboBQVVfeXFMUDlfb0pkYWREOGZWWjNQRWR5SmJ1UmlYT29kaE9GckxGRFNxWHhtNmZUYlZxX3ZQNmpleUxxckctRTAxS3FTbTdzZ1F5V3NfeWlWTjdaQU1MLThTRkp2SkNHbVNnRDlVbDhxcS1QamJhVG0wY1E0T1pvanZBYzRsUmxhWjNfN0I1U0NDQThUcEV5aWhScDdZaXVhaGIyd1YxQmQyR0YtX0VCTWdLREs4YV9fQm1sVnNhQldR?oc=5",
-      "domain": "collate.com",
-      "tier": "actionable",
-      "fit_reason": "Series A ($95M) — sizable A, likely at/near the ARR floor",
-      "source": "funds",
-      "connections": [
-        {
-          "kind": "co-investor",
-          "detail": "Backed by Redpoint — a fund SPC gets intros through"
-        }
-      ],
-      "connection_status": "prospective (web) — confirmed weekly via Affinity"
     }
   ],
   "watchlist": [
@@ -641,33 +597,6 @@
       "connection_status": "no connection surfaced — good to flag"
     },
     {
-      "company": "Vetic",
-      "desc": "Healthcare & bio AI",
-      "theme": "Precision Applications",
-      "vertical": "Healthcare",
-      "stage": "Venture",
-      "amount_m": 40,
-      "investors": [
-        "Bessemer",
-        "Bessemer - Entrackr",
-        "Bessemer Venture Partners - BusinessLine",
-        "Bessemer Venture Partners - YourStory.com"
-      ],
-      "date": "2026-06-19",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb2dlX2xwbUdWVDNuN0t1Qk5zSWlKS0luWmxtRTVQZVQtWDcyVnl3VWxXeWVZRkJLNi1WLVF0cFV1aDFJLXRqQ1JicWp2dkZPcWwyel9sc3ZYSkkweER2OHdyUldaS0ZwV2tWZGFnd1dIdVVoQWhUeENtZEZYemI0NUJIMHZMa2h3RmRFVDAyeUE3Wmo2dzh3c0ZGaGd2c09ob1JBcUdnU2lndEtB?oc=5",
-      "domain": "vet-i-care.org",
-      "tier": "watchlist",
-      "fit_reason": "stage unconfirmed — track",
-      "source": "funds",
-      "connections": [
-        {
-          "kind": "co-investor",
-          "detail": "Backed by Bessemer — a fund SPC gets intros through"
-        }
-      ],
-      "connection_status": "prospective (web) — confirmed weekly via Affinity"
-    },
-    {
       "company": "Portal Biotechnologies",
       "desc": "Healthcare & bio AI",
       "theme": "Edge Computing",
@@ -685,6 +614,33 @@
       "source": "funds",
       "connections": [],
       "connection_status": "no connection surfaced — good to flag"
+    },
+    {
+      "company": "Vetic",
+      "desc": "Healthcare & bio AI",
+      "theme": "Precision Applications",
+      "vertical": "Healthcare",
+      "stage": "Venture",
+      "amount_m": 40,
+      "investors": [
+        "Bessemer",
+        "Bessemer - Entrackr",
+        "Bessemer Venture Partners - BusinessLine",
+        "Bessemer Venture Partners - YourStory.com"
+      ],
+      "date": "2026-06-18",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVhSUGY2ck90Q0tRaG5tbTZyNDU3V1JZSWtmZTR3Mm9FNldCYTZ4ckN0SnNBam43cVJDYl81LWRzcWJZRFJ0Tm5xdnl0eUhVaDNCeklpb3h6TzJ1d21QUkFuYlNidXFDVGNxMkZsSFdDdzBVUVVFQjhiaTJxQ2stZDFOY3FEcExoRUF3aklZUndoOGVNUS0w0gGXAUFVX3lxTE9NWFJQZjZyT3RDS1Fobm1tNnI0NTdXUllJa2ZlNHcyb0U2V0JhNnhyQ3RKc0FqbjdxUkNiXzUtZHNxYllEUnRObnF2eXR5SFVoM0J6SWlveHpPMnV3bVBSQW5iU2J1cUNUY3EyRmxIV0N3MFVRVUVCOGJpMnFDay1kMU5jcURwTGhFQXdqSVlSd2g4ZU1RLTA?oc=5",
+      "domain": "vet-i-care.org",
+      "tier": "watchlist",
+      "fit_reason": "stage unconfirmed — track",
+      "source": "funds",
+      "connections": [
+        {
+          "kind": "co-investor",
+          "detail": "Backed by Bessemer — a fund SPC gets intros through"
+        }
+      ],
+      "connection_status": "prospective (web) — confirmed weekly via Affinity"
     },
     {
       "company": "SonoThera",

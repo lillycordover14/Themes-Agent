@@ -382,16 +382,22 @@ def main():
             return
         r = ledger.get(k)
         if not r:
-            ledger[k] = {"company": company, "amount_m": amt, "date": date, "link": link,
-                         "investors": set(investors), "theme": theme, "stage": stage}
-            return
-        r["investors"].update(investors)
-        if amt and (not r["amount_m"] or amt > r["amount_m"]):
-            r["amount_m"] = amt
-        if date > (r["date"] or ""):
-            r["date"] = date; r["link"] = link or r["link"]
-        if stage and r["stage"] in ("", "Venture") and stage != "Venture":
-            r["stage"] = stage
+            r = ledger[k] = {"company": company, "amount_m": amt, "date": date, "link": link,
+                             "investors": set(investors), "theme": theme, "stage": stage,
+                             "_dc": {}, "_dl": {}}
+        else:
+            r["investors"].update(investors)
+            if amt and (not r["amount_m"] or amt > r["amount_m"]):
+                r["amount_m"] = amt
+            if stage and r["stage"] in ("", "Venture") and stage != "Venture":
+                r["stage"] = stage
+        # Accumulate every dated Investment mention. The announcement date is the MODAL
+        # date (the day the raise was actually covered), not the latest — this ignores
+        # stray late reposts (e.g. a fund re-sharing a months-old round) and early leaks.
+        d = (date or "")[:10]
+        if d:
+            r["_dc"][d] = r["_dc"].get(d, 0) + 1
+            r["_dl"].setdefault(d, link)
 
     def match_signal_fund(fund_name):
         fl = (fund_name or "").lower()
@@ -458,6 +464,15 @@ def main():
     for r in ledger.values():
         r["investors"] = sorted(i for i in r["investors"] if i)[:6]
         rows.append(r)
+
+    # ---- Modal announcement date (most-covered day; earliest wins ties) ----
+    for r in rows:
+        dc = r.pop("_dc", None); dl = r.pop("_dl", None)
+        if dc:
+            best = sorted(dc.items(), key=lambda kv: (-kv[1], kv[0]))[0][0]
+            r["date"] = best
+            if dl.get(best):
+                r["link"] = dl[best]
 
     # ---- Stable announcement/first-seen date -------------------------------
     # Real fund-article dates are the true announcement dates and are kept as-is.

@@ -1373,5 +1373,20 @@
     "theme": "Healthcare & bio AI",
     "domain": "",
     "clean": "Kubera Health"
+  },
+  "kuberahealth65million": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Kubera Health: $6.5 Million"
+  },
+  "ailasermosquitokiller": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "AI Laser Mosquito Killer"
+  },
+  "kopaai": {
+    "theme": "Applied AI agents",
+    "domain": "",
+    "clean": "Kopa.ai"
   }
 }
