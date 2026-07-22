@@ -54,5 +54,10 @@ jobs:
             echo "No changes this run."
           else
             git commit -m "Auto-update: fund intelligence + dashboard ($(date -u +%Y-%m-%d))"
-            git push
+            for i in 1 2 3 4 5; do
+              if git push; then echo "pushed"; break; fi
+              echo "push rejected (attempt $i) — rebasing onto latest and retrying"
+              git pull --rebase --autostash origin main || true
+              sleep 5
+            done
           fi
