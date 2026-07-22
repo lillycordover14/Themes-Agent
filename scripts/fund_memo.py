@@ -38,6 +38,12 @@ SECTORS = [
 STAGE = re.compile(r"\b(pre-?seed|seed|series\s+([a-e])|growth|late[- ]stage)\b", re.I)
 
 
+try:
+    STALE_CO = set(bi.norm(x) for x in json.load(open(os.path.join(ROOT, "data", "stale_rounds.json"), encoding="utf-8")).get("companies", []))
+except Exception:
+    STALE_CO = set()
+
+
 def sector_of(text):
     t = " " + (text or "").lower() + " "
     best, n = "", 0
@@ -107,6 +113,8 @@ def memo_for(f):
                 continue   # the fund's own fundraise, not a portfolio bet
             if re.search(r"\b(eyes|to raise|raises?\s+(new\s+)?\$|closes?\s+\$|fund\s+[ivx]+)\b", co.lower()):
                 continue
+            if bi.norm(co) in STALE_CO:
+                continue   # recirculated years-old round (see data/stale_rounds.json), not a current bet
             if amt and amt >= 5000:
                 amt = None   # $5B+ is a valuation/mega figure, not a clean round size
             bets.append({"company": co, "amt": amt, "amt_s": money(amt), "date": (u.get("date") or "")[:10], "link": u.get("link") or u.get("url", ""), "_sector": s})

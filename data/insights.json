@@ -6,15 +6,15 @@
     "strongest_theme": "Healthcare & bio AI",
     "total_raises": 200,
     "early_raises": 78,
-    "total_cap_m": 14058,
+    "total_cap_m": 13854,
     "early_cap_m": 2530,
     "stage_counts": {
       "Pre-seed": 3,
       "Seed": 25,
       "Series A": 50,
-      "Series B": 24,
+      "Series B": 25,
       "Series C": 10,
-      "Series D": 3,
+      "Series D": 2,
       "Venture": 80
     }
   },
@@ -1316,18 +1316,6 @@
       "stage": "Seed"
     },
     {
-      "company": "Flutterwave",
-      "amount_m": 250,
-      "date": "2026-06-16",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5pb28waUYzVldCQ1ItNlNZekZ0THVsX0M5aDhKenNXMEdUYXBvNERwYUZRVk9saGFrMElHbFhRWmt2NThQaU1GWnppUTR6RWNKcGh1UFloV2VyUUk3V2dVbFZ6Nzd5UFdtQzNjdDZaNzNjaDlBYk9vY3AtYw?oc=5",
-      "investors": [
-        "B Capital Group",
-        "Glynn Capital"
-      ],
-      "theme": "Crypto & digital assets",
-      "stage": "Series D"
-    },
-    {
       "company": "SolarSquare",
       "amount_m": 53,
       "date": "2026-06-16",
@@ -2240,6 +2228,18 @@
       ],
       "theme": "Applied AI agents",
       "stage": "Venture"
+    },
+    {
+      "company": "Pace",
+      "amount_m": 46,
+      "date": "2026-05-27",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQODZCZzg0elRTRXpHVVFsTk1pVEc2SHhORHBaQmdMSFFxYkpfZlJVMU9BUUhuRlhPYXVqU3Z1MjFjeFN5dm1WTG80dHB5V0tOOERfdXp1Z0Zfa1p5ay1XUmhCNGFQcTI4dERGSUZ2VHhSamVZY2N6RTJuN2hlZmJYM1duQ2RRallzaklYVDJrNnlseVdBNjNuUlJVZ1Q3UzY1TERKSWNNc2xEdm1Uczl1N0paN05OcTBuU2lDbXNHVVBuQXdJdzVsTUFn?oc=5",
+      "investors": [
+        "Sequoia",
+        "Thrive Capital"
+      ],
+      "theme": "Insurance / insurtech",
+      "stage": "Series B"
     }
   ],
   "themes": [
@@ -2281,14 +2281,14 @@
     },
     {
       "theme": "Crypto & digital assets",
-      "count": 10,
+      "count": 9,
       "examples": [
         "KorProtocol",
         "Ornn",
         "Allium",
         "Social Crypto App Fomo",
         "Telepatia",
-        "Flutterwave"
+        "Digital Asset"
       ]
     },
     {
@@ -2375,6 +2375,14 @@
       ]
     },
     {
+      "theme": "Insurance / insurtech",
+      "count": 2,
+      "examples": [
+        "InsideDesk",
+        "Pace"
+      ]
+    },
+    {
       "theme": "AI dev tooling",
       "count": 2,
       "examples": [
@@ -2403,13 +2411,6 @@
       "count": 1,
       "examples": [
         "Feathery"
-      ]
-    },
-    {
-      "theme": "Insurance / insurtech",
-      "count": 1,
-      "examples": [
-        "InsideDesk"
       ]
     },
     {
@@ -2479,15 +2480,15 @@
     },
     {
       "theme": "Crypto & digital assets",
-      "count": 10,
-      "cap_m": 1330,
+      "count": 9,
+      "cap_m": 1080,
       "examples": [
         "KorProtocol",
         "Ornn",
         "Allium",
         "Social Crypto App Fomo",
         "Telepatia",
-        "Flutterwave"
+        "Digital Asset"
       ],
       "top_stage": "Venture"
     },
@@ -3584,6 +3585,11 @@
         "now": 2
       },
       {
+        "name": "Insurance / insurtech",
+        "delta": 1,
+        "now": 2
+      },
+      {
         "name": "AI dev tooling",
         "delta": 1,
         "now": 2
@@ -3609,19 +3615,9 @@
         "now": 3
       },
       {
-        "name": "Insurance / insurtech",
-        "delta": 0,
-        "now": 1
-      },
-      {
         "name": "Legal AI",
         "delta": 0,
         "now": 1
-      },
-      {
-        "name": "Crypto & digital assets",
-        "delta": -1,
-        "now": 10
       },
       {
         "name": "Energy & climate",
@@ -3642,6 +3638,11 @@
         "name": "HR & workforce",
         "delta": -1,
         "now": 1
+      },
+      {
+        "name": "Crypto & digital assets",
+        "delta": -2,
+        "now": 9
       },
       {
         "name": "Fintech & payments",

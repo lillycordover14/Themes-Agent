@@ -1,0 +1,4 @@
+{
+ "note": "Companies/rounds to exclude from the raises table because the coverage is an outlet recirculating a years-old round (not a new raise). Maintained manually + by the weekly Harmonic date check.",
+ "companies": ["Flutterwave"]
+}

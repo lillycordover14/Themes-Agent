@@ -4059,7 +4059,7 @@
       "six_months": "Over the last six months we tracked 2 investments and 1 post/theses from B Capital Group, investing at selectively.",
       "thesis": "The money is concentrated in Crypto & web3 (1 deal), followed by Energy & climate (1 deal). That points to a thesis centered on onchain finance and infrastructure.",
       "how": "By stage, recent checks skew Series D — backing companies right as they scale.",
-      "notable": "Standout recent bets include Flutterwave ($250M), SolarSquare ($53M). Their largest tracked check went to Flutterwave ($250M), a read on where their conviction sits right now.",
+      "notable": "Standout recent bets include SolarSquare ($53M). Their largest tracked check went to SolarSquare ($53M), a read on where their conviction sits right now.",
       "watch": " Worth watching: continued concentration in Crypto & web3 suggests more of the same ahead, while rising Energy & climate activity is the emerging tell.",
       "sectors": [
         {
@@ -4073,12 +4073,6 @@
       ],
       "bets": [
         {
-          "company": "Flutterwave",
-          "amt": "$250M",
-          "date": "2026-06-16",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5pb28waUYzVldCQ1ItNlNZekZ0THVsX0M5aDhKenNXMEdUYXBvNERwYUZRVk9saGFrMElHbFhRWmt2NThQaU1GWnppUTR6RWNKcGh1UFloV2VyUUk3V2dVbFZ6Nzd5UFdtQzNjdDZaNzNjaDlBYk9vY3AtYw?oc=5"
-        },
-        {
           "company": "SolarSquare",
           "amt": "$53M",
           "date": "2026-06-16",
@@ -4089,13 +4083,7 @@
         {
           "name": "Crypto & web3",
           "n": 1,
-          "companies": [
-            {
-              "company": "Flutterwave",
-              "amt": "$250M",
-              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5pb28waUYzVldCQ1ItNlNZekZ0THVsX0M5aDhKenNXMEdUYXBvNERwYUZRVk9saGFrMElHbFhRWmt2NThQaU1GWnppUTR6RWNKcGh1UFloV2VyUUk3V2dVbFZ6Nzd5UFdtQzNjdDZaNzNjaDlBYk9vY3AtYw?oc=5"
-            }
-          ]
+          "companies": []
         },
         {
           "name": "Energy & climate",
@@ -11753,7 +11741,7 @@
       "six_months": "Over the last six months we tracked 6 investments and 4 posts/theses from Glynn Capital, investing at selectively.",
       "thesis": "The money is concentrated in Enterprise software (5 deals), followed by Crypto & web3 (1 deal). That points to a thesis centered on broad enterprise software and applied AI.",
       "how": "By stage, recent checks skew Series B — concentrating at the growth inflection, after product-market fit.",
-      "notable": "Standout recent bets include Flutterwave ($250M), BCDR Firm Slide ($70M), Slide ($70M). Their largest tracked check went to Flutterwave ($250M), a read on where their conviction sits right now.",
+      "notable": "Standout recent bets include BCDR Firm Slide ($70M), Slide ($70M). Their largest tracked check went to BCDR Firm Slide ($70M), a read on where their conviction sits right now.",
       "watch": "For Smith Point, the overlap is clearest in Enterprise software. Worth watching: continued concentration in Enterprise software suggests more of the same ahead, while rising Crypto & web3 activity is the emerging tell.",
       "sectors": [
         {
@@ -11766,12 +11754,6 @@
         }
       ],
       "bets": [
-        {
-          "company": "Flutterwave",
-          "amt": "$250M",
-          "date": "2026-06-16",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5pb28waUYzVldCQ1ItNlNZekZ0THVsX0M5aDhKenNXMEdUYXBvNERwYUZRVk9saGFrMElHbFhRWmt2NThQaU1GWnppUTR6RWNKcGh1UFloV2VyUUk3V2dVbFZ6Nzd5UFdtQzNjdDZaNzNjaDlBYk9vY3AtYw?oc=5"
-        },
         {
           "company": "BCDR Firm Slide",
           "amt": "$70M",
@@ -11805,13 +11787,7 @@
         {
           "name": "Crypto & web3",
           "n": 1,
-          "companies": [
-            {
-              "company": "Flutterwave",
-              "amt": "$250M",
-              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5pb28waUYzVldCQ1ItNlNZekZ0THVsX0M5aDhKenNXMEdUYXBvNERwYUZRVk9saGFrMElHbFhRWmt2NThQaU1GWnppUTR6RWNKcGh1UFloV2VyUUk3V2dVbFZ6Nzd5UFdtQzNjdDZaNzNjaDlBYk9vY3AtYw?oc=5"
-            }
-          ]
+          "companies": []
         }
       ],
       "partners": [

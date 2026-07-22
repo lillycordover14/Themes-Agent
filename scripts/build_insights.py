@@ -10,6 +10,7 @@ FUNDS = os.path.join(ROOT, "data", "funds.json")
 HARM = os.path.join(ROOT, "data", "harmonic_raises.json")
 OUT = os.path.join(ROOT, "data", "insights.json")
 FIRST_SEEN = os.path.join(ROOT, "data", "raise_first_seen.json")
+STALE_ROUNDS = os.path.join(ROOT, "data", "stale_rounds.json")
 THEME_HIST = os.path.join(ROOT, "data", "insights_theme_history.jsonl")
 NAME_RES_PATH = os.path.join(ROOT, "data", "name_resolution.json")
 try:
@@ -376,7 +377,7 @@ def main():
     ledger = {}
     inv_sig = {}   # fund -> list of picks
 
-    def add(company, amt, date, link, investors, theme, stage):
+    def add(company, amt, date, link, investors, theme, stage, title=""):
         k = norm(company)
         if not k:
             return
@@ -384,7 +385,7 @@ def main():
         if not r:
             r = ledger[k] = {"company": company, "amount_m": amt, "date": date, "link": link,
                              "investors": set(investors), "theme": theme, "stage": stage,
-                             "_dc": {}, "_dl": {}}
+                             "_dc": {}, "_dl": {}, "_dt": {}}
         else:
             r["investors"].update(investors)
             if amt and (not r["amount_m"] or amt > r["amount_m"]):
@@ -398,6 +399,8 @@ def main():
         if d:
             r["_dc"][d] = r["_dc"].get(d, 0) + 1
             r["_dl"].setdefault(d, link)
+            tnorm = re.sub(r"[^a-z0-9]+", "", (title or "").lower())[:70]
+            r["_dt"].setdefault(d, set()).add(tnorm)
 
     def match_signal_fund(fund_name):
         fl = (fund_name or "").lower()
@@ -430,7 +433,7 @@ def main():
                 continue
             inv = set(frominv); inv.add(fund_name)
             th = theme_of(co + " " + title)
-            add(co, amt, date, u.get("link") or u.get("url", ""), inv, th, st)
+            add(co, amt, date, u.get("link") or u.get("url", ""), inv, th, st, title)
             if sigfund:
                 inv_sig.setdefault(sigfund, {}).setdefault(norm(co), {
                     "company": co, "stage": st, "amount_m": amt, "date": date,
@@ -466,13 +469,36 @@ def main():
         rows.append(r)
 
     # ---- Modal announcement date (most-covered day; earliest wins ties) ----
+    try:
+        STALE = set(norm(x) for x in json.load(open(STALE_ROUNDS, encoding="utf-8")).get("companies", []))
+    except Exception:
+        STALE = set()
+    kept = []
     for r in rows:
-        dc = r.pop("_dc", None); dl = r.pop("_dl", None)
+        dc = r.pop("_dc", None); dl = r.pop("_dl", None); dt = r.pop("_dt", None)
         if dc:
             best = sorted(dc.items(), key=lambda kv: (-kv[1], kv[0]))[0][0]
             r["date"] = best
             if dl.get(best):
                 r["link"] = dl[best]
+            r["_mt"] = len(dt.get(best, set())) if dt else 0   # distinct headlines on the modal day
+            r["_mc"] = dc.get(best, 0)                         # mentions on the modal day
+        else:
+            r["_mt"] = 0; r["_mc"] = 0
+        r.pop("_mt", None); r.pop("_mc", None)
+        k = norm(r.get("company"))
+        # Recirculated-old-round guard: an explicit blocklist of companies whose "raise"
+        # coverage is an outlet recycling a years-old round rather than new news
+        # (e.g. Flutterwave's 2022 $250M Series D). The weekly Harmonic date-check
+        # appends to this list; a generic thin-coverage heuristic was rejected because a
+        # narrow fund feed legitimately has sparse per-company coverage (it dropped real
+        # raises like Suno and Beacon).
+        if k in STALE:
+            print("  recirculated old round dropped [blocklist]:", r.get("company"),
+                  r.get("amount_m"), r.get("stage"))
+            continue
+        kept.append(r)
+    rows = kept
 
     # ---- Stable announcement/first-seen date -------------------------------
     # Real fund-article dates are the true announcement dates and are kept as-is.

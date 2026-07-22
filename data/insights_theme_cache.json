@@ -1388,5 +1388,20 @@
     "theme": "Applied AI agents",
     "domain": "",
     "clean": "Kopa.ai"
+  },
+  "pace": {
+    "theme": "Insurance / insurtech",
+    "domain": "",
+    "clean": "Pace"
+  },
+  "itera": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Itera"
+  },
+  "canyoncode": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Canyon Code"
   }
 }
