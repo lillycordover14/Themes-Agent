@@ -1368,5 +1368,10 @@
     "theme": "Healthcare & bio AI",
     "domain": "",
     "clean": "Countable Labs"
+  },
+  "kuberahealth": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Kubera Health"
   }
 }

@@ -9,6 +9,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FUNDS = os.path.join(ROOT, "data", "funds.json")
 HARM = os.path.join(ROOT, "data", "harmonic_raises.json")
 OUT = os.path.join(ROOT, "data", "insights.json")
+FIRST_SEEN = os.path.join(ROOT, "data", "raise_first_seen.json")
 THEME_HIST = os.path.join(ROOT, "data", "insights_theme_history.jsonl")
 NAME_RES_PATH = os.path.join(ROOT, "data", "name_resolution.json")
 try:
@@ -447,13 +448,43 @@ def main():
         raw = (c.get("stage") or "").replace("SERIES_", "Series ").replace("_", " ").title().strip()
         st = raw or "Venture"
         amt = round((c.get("last_amount") or 0) / 1e6) or None
-        add(name, amt, TODAY.isoformat(), ("https://" + c["domain"]) if c.get("domain") else "", set(),
+        # Harmonic gives no announcement date; leave it empty so a real fund-update date
+        # is never overwritten. Undated (Harmonic-only) rows get a persistent first-seen
+        # date below so they don't jump to "today" on every run.
+        add(name, amt, "", ("https://" + c["domain"]) if c.get("domain") else "", set(),
             theme_of(name + " " + (c.get("desc") or "")), st)
 
     rows = []
     for r in ledger.values():
         r["investors"] = sorted(i for i in r["investors"] if i)[:6]
         rows.append(r)
+
+    # ---- Stable announcement/first-seen date -------------------------------
+    # Real fund-article dates are the true announcement dates and are kept as-is.
+    # Companies with no real date (Harmonic-only) are stamped once with the date we
+    # first saw them and never re-stamped, so "newest first" reflects genuinely new deals.
+    try:
+        first_seen = json.load(open(FIRST_SEEN, encoding="utf-8"))
+    except Exception:
+        first_seen = {}
+    today_iso = TODAY.isoformat()
+    for r in rows:
+        k = norm(r.get("company"))
+        d = (r.get("date") or "").strip()
+        if d:
+            # record the earliest real date we've ever seen for this company
+            prev = first_seen.get(k)
+            first_seen[k] = min(prev, d) if prev else d
+            r["date"] = first_seen[k]
+        else:
+            if k not in first_seen:
+                first_seen[k] = today_iso   # first time this Harmonic-only deal appears
+            r["date"] = first_seen[k]
+    try:
+        json.dump(first_seen, open(FIRST_SEEN, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    except Exception as e:
+        print("first_seen write skipped:", e)
+
     rows.sort(key=lambda x: (x.get("date") or "", x.get("amount_m") or 0), reverse=True)
     rows = rows[:200]
     enrich_themes(rows)   # free: resolve each unclassified company's site and theme from what it does
