@@ -1,67 +1,52 @@
 {
-  "generated": "2026-07-21",
+  "generated": "2026-07-22",
   "mode": "full",
-  "count": 33,
+  "count": 31,
   "companies": [
     {
-      "name": "Feathery",
-      "domain": "feathery.io",
-      "desc": "The company provides an AI-powered platform that automates processes such as client onboarding, underwriting, and proposal generation for the financial services industry. It utilizes advanced document analysis, a no-code",
-      "stage": "SERIES_A",
-      "last_amount": 30000000.0,
-      "total": 34550000.0,
+      "name": "PermitFlow",
+      "domain": "permitflow.com",
+      "desc": "The main product is a construction permitting software that utilizes AI agents to automate the entire permitting lifecycle, including project initiation, requirement research, form submission, coordination with authoriti",
+      "stage": "SERIES_B",
+      "last_amount": 0,
+      "total": 91049999.0,
       "investors": [
-        "Index Ventures",
-        "Clocktower Ventures",
-        "Allstate Strategic Ventures",
-        "BrokerTech Ventures"
+        "Mighty Buildings",
+        "75 & Sunny",
+        "DVC",
+        "Felicis"
       ],
-      "location": "San Francisco, California"
+      "location": "New York, New York"
     },
     {
-      "name": "InstaLILY AI",
-      "domain": "instalily.ai",
-      "desc": "InstaLILY AI provides a platform that leverages specialized language models tailored to individual businesses, facilitating the deployment of autonomous AI agents designed to enhance workflows in sales, service, and oper",
+      "name": "Trunk Tools",
+      "domain": "trunktools.com",
+      "desc": "Trunk Tools provides an AI-driven platform for construction project management that transforms unstructured construction data into actionable insights through intelligent agents, enhancing efficiency and safety on job si",
       "stage": "SERIES_B",
-      "last_amount": 60000000.0,
-      "total": 88000000.0,
+      "last_amount": 40000000.0,
+      "total": 109900000.0,
       "investors": [
         "Insight Partners",
-        "Google for Startups",
-        "Perceptive Ventures",
-        "United Rentals"
+        "STO Building Group",
+        "Alumni Ventures",
+        "Foundation Capital"
       ],
-      "location": "New York, NY"
+      "location": "New York, New York 10011, US"
     },
     {
-      "name": "Flex",
-      "domain": "flex.one",
-      "desc": "Flex offers a financial technology platform that integrates business and personal finance management, utilizing advanced AI technology for transaction tracking, treasury management, and risk mitigation. Key features incl",
-      "stage": "SERIES_B",
-      "last_amount": 70000000.0,
-      "total": 878608000.0,
+      "name": "BuildOps",
+      "domain": "buildops.com",
+      "desc": "BuildOps offers a cloud-based software platform designed for commercial contractors, integrating functionalities such as project management, scheduling, dispatching, invoicing, and asset management. The platform utilizes",
+      "stage": "SERIES_C",
+      "last_amount": 127000000.0,
+      "total": 400990000.0,
       "investors": [
-        "Draft Ventures",
-        "MS&AD Ventures",
-        "Dualcore",
-        "SPiCE VC"
+        "SE Ventures",
+        "TenOneTen Ventures",
+        "Global Founders Capital",
+        "Schneider Electric"
       ],
-      "location": "San Francisco, CA"
-    },
-    {
-      "name": "Adaptive",
-      "domain": "adaptive.build",
-      "desc": "The company offers an AI-driven financial management platform specifically designed for the construction industry, automating processes such as job costing, billing, and compliance documentation. It employs AI agents to ",
-      "stage": "SERIES_A",
-      "last_amount": 6500000.0,
-      "total": 32775000.0,
-      "investors": [
-        "Andreessen Horowitz",
-        "Exponent",
-        "Third Kind Venture Capital",
-        "Definition"
-      ],
-      "location": "New York, NY"
+      "location": "Santa Monica, CA"
     },
     {
       "name": "Fazeshift",
@@ -77,20 +62,6 @@
         "Ritual Capital"
       ],
       "location": "San Francisco, CA"
-    },
-    {
-      "name": "MeltPlan",
-      "domain": "meltplan.com",
-      "desc": "MeltPlan provides an AI-driven platform designed for pre-construction activities, focusing on building code compliance research and quantity takeoffs to enhance construction workflow efficiency. The technology employs co",
-      "stage": "SEED",
-      "last_amount": 14000000.0,
-      "total": 31409999.0,
-      "investors": [
-        "noa",
-        "Bessemer Venture Partners",
-        "DPR Construction"
-      ],
-      "location": "Berkeley, California"
     },
     {
       "name": "Risk Ledger",
@@ -123,96 +94,6 @@
       "location": "San Francisco, CA"
     },
     {
-      "name": "Prolo",
-      "domain": "prolo.io",
-      "desc": "Prolo offers an AI-driven procurement platform specifically designed for the construction industry, which automates the material ordering process to improve project management efficiency. The platform utilizes technologi",
-      "stage": "SEED",
-      "last_amount": 5626521.0,
-      "total": 5626521.0,
-      "investors": [
-        "Andreessen Horowitz",
-        "Triple Point",
-        "Concrete Ventures",
-        "Explorer"
-      ],
-      "location": "London"
-    },
-    {
-      "name": "Namespace",
-      "domain": "namespace.so",
-      "desc": "The company provides a developer infrastructure platform that accelerates software development by offering high-performance cloud computing solutions, including fast, isolated instances for continuous integration and del",
-      "stage": "SERIES_A",
-      "last_amount": 0,
-      "total": 32250000.0,
-      "investors": [
-        "Crossover VC",
-        "K5 Global",
-        "Olima Ventures",
-        "New Enterprise Associates (NEA)"
-      ],
-      "location": "San Francisco"
-    },
-    {
-      "name": "Linker Finance",
-      "domain": "linkerfinance.com",
-      "desc": "Linker Finance offers a fintech platform that enhances digital banking experiences for community financial institutions, featuring capabilities such as digital account opening, business onboarding, and commercial banking",
-      "stage": "SEED",
-      "last_amount": 5000000.0,
-      "total": 8820000.0,
-      "investors": [
-        "TenOneTen Ventures",
-        "Techstars",
-        "Audaz Capital",
-        "Commerce Ventures"
-      ],
-      "location": "Pasadena, California"
-    },
-    {
-      "name": "MarginEdge",
-      "domain": "marginedge.com",
-      "desc": "MarginEdge offers a restaurant management software platform that automates invoice processing, tracks inventory, and manages food costs, providing real-time insights into operational efficiency. The system integrates wit",
-      "stage": "SERIES_C",
-      "last_amount": 0,
-      "total": 78720000.0,
-      "investors": [
-        "Schooner Capital",
-        "IrishAngels",
-        "Nigel Morris",
-        "Relish Works"
-      ],
-      "location": "Arlington, Virginia"
-    },
-    {
-      "name": "Inspectorio",
-      "domain": "inspectorio.com",
-      "desc": "The company offers a cloud-based supply chain management platform that utilizes AI and machine learning to enhance transparency, collaboration, and decision-making across various processes, including quality management, ",
-      "stage": "SERIES_B",
-      "last_amount": 0,
-      "total": 64819981.0,
-      "investors": [
-        "Insight Partners",
-        "Techstars",
-        "Target",
-        "Apax Digital"
-      ],
-      "location": "Minneapolis, Minnesota"
-    },
-    {
-      "name": "Proaction",
-      "domain": "proaction.com",
-      "desc": "Proaction provides a modular fleet management platform that integrates various workflows and automates daily operations, allowing for efficient management of fleet data across multiple devices. The system employs technol",
-      "stage": "SEED",
-      "last_amount": 4200000.0,
-      "total": 4527500.0,
-      "investors": [
-        "Leazar Capital Holdings LLC",
-        "Holman Growth Ventures",
-        "InnoVenture Iowa",
-        "GTMfund"
-      ],
-      "location": "Des Moines, IA"
-    },
-    {
       "name": "Sable AI",
       "domain": "withsable.com",
       "desc": "Sable develops AI agents that leverage real-time screen comprehension to provide context-aware guidance and automate user interactions without requiring integration. The technology features multimodal capabilities that a",
@@ -228,34 +109,49 @@
       "location": "731 Fell Street, San Francisco, CA 94117, United States"
     },
     {
-      "name": "Project Q",
-      "domain": "projectqai.github.io",
-      "desc": "The main product is a software platform designed for API-first coordination of sensors, assets, and mission systems, enabling integration and interoperability across diverse environments without vendor lock-in. It utiliz",
-      "stage": "SERIES_A",
-      "last_amount": 17136195.0,
-      "total": 25990140.0,
+      "name": "Inspectorio",
+      "domain": "inspectorio.com",
+      "desc": "The company provides a cloud-based supply chain management platform that leverages AI and machine learning to enhance transparency, collaboration, and decision-making across various processes, including quality managemen",
+      "stage": "SERIES_B",
+      "last_amount": 0,
+      "total": 64819981.0,
       "investors": [
-        "HENSOLDT",
-        "Heliad",
-        "SuperAngel.Fund",
-        "Project A"
+        "Insight Partners",
+        "Techstars",
+        "Target",
+        "Apax Digital"
       ],
-      "location": "Berlin, Berlin"
+      "location": "Minneapolis, Minnesota"
     },
     {
-      "name": "Kea",
-      "domain": "kea.ai",
-      "desc": "Kea AI provides a voice AI platform that automates phone order processing for restaurants, enabling them to handle multiple calls simultaneously and integrate with various point-of-sale systems. The technology employs na",
-      "stage": "SERIES_A",
-      "last_amount": 0,
-      "total": 26814443.0,
+      "name": "Cascade",
+      "domain": "usecascade.ai",
+      "desc": "The company provides an AI-driven platform tailored for the architecture, engineering, and construction (AEC) sector, which automates the discovery and qualification of government RFPs by integrating with existing ERP sy",
+      "stage": "SEED",
+      "last_amount": 3500000.0,
+      "total": 4000000.0,
       "investors": [
-        "Annex Ventures",
-        "Rajil Kapoor",
-        "Xfund",
-        "Alumni Ventures"
+        "Ada Ventures",
+        "Índico Capital Partners",
+        "Blitzscaling Ventures",
+        "a16z speedrun"
       ],
-      "location": "Palo Alto, California"
+      "location": "New York City"
+    },
+    {
+      "name": "Proaction",
+      "domain": "proaction.com",
+      "desc": "Proaction provides a modular fleet management platform that integrates various workflows and automates daily operations, allowing for efficient management of fleet data across multiple devices. The system employs technol",
+      "stage": "SEED",
+      "last_amount": 4200000.0,
+      "total": 4527500.0,
+      "investors": [
+        "Leazar Capital Holdings LLC",
+        "Holman Growth Ventures",
+        "InnoVenture Iowa",
+        "GTMfund"
+      ],
+      "location": "Des Moines, IA"
     },
     {
       "name": "LearnUpon",
@@ -301,21 +197,6 @@
       "location": "Toronto, Ontario"
     },
     {
-      "name": "Synthreo",
-      "domain": "synthreo.ai",
-      "desc": "Synthreo provides a multi-tenant AI platform designed for managed service providers, allowing for the creation and deployment of AI agents without coding. The platform incorporates large language model integration, a no-",
-      "stage": "SEED",
-      "last_amount": 2500000.0,
-      "total": 4613219.0,
-      "investors": [
-        "Swiss InsurEvolution Partners Holding AG",
-        "Top Down",
-        "David Bellini, CPA",
-        "Rashaad Bajwa"
-      ],
-      "location": "Phoenix, Arizona"
-    },
-    {
       "name": "Runta",
       "domain": "runta.com",
       "desc": "Runta is the missing execution layer for agentic software. So agents can run systems, not just write code.",
@@ -356,6 +237,19 @@
       "location": "St John’s, Newfoundland and Labrador"
     },
     {
+      "name": "Pulse Security AI, Inc.",
+      "domain": "pulsesecurity.ai",
+      "desc": "Building an agentic workforce for security leaders to transform the way they do their jobs in this AI Era",
+      "stage": "SEED",
+      "last_amount": 8000000.0,
+      "total": 8000000.0,
+      "investors": [
+        "Zetta Venture Partners",
+        "Foundation Capital"
+      ],
+      "location": "Los Altos, California"
+    },
+    {
       "name": "Cue",
       "domain": "cuedesk.com",
       "desc": "The company provides a customer service platform that incorporates AI agents, chatbots, and live chat to automate routine inquiries and improve communication across multiple channels, including WhatsApp and Messenger. Ad",
@@ -369,32 +263,17 @@
       "location": "London"
     },
     {
-      "name": "Neocad",
-      "domain": "neocadsrl.com",
-      "desc": "The main product is an AI-driven platform that facilitates the search and reuse of CAD files, enabling users to quickly locate existing components and designs through natural language queries and geometric similarity. It",
-      "stage": "PRE_SEED",
-      "last_amount": 661795.0,
-      "total": 637467.0,
-      "investors": [
-        "40Jemz Ventures",
-        "HabiSmart",
-        "COIMA",
-        "Zest Group"
-      ],
-      "location": "Milan, Lombardy"
-    },
-    {
-      "name": "Pulse Security AI, Inc.",
-      "domain": "pulsesecurity.ai",
-      "desc": "Building an agentic workforce for security leaders to transform the way they do their jobs in this AI Era",
+      "name": "FactorLab, Inc.",
+      "domain": "factorlab.com",
+      "desc": "FactorLab provides digital services and wearable applications that leverage advanced AI to analyze audio and video data, converting it into actionable insights aimed at improving safety and productivity in high-risk envi",
       "stage": "SEED",
-      "last_amount": 8000000.0,
-      "total": 8000000.0,
+      "last_amount": 0,
+      "total": 341000.0,
       "investors": [
-        "Zetta Venture Partners",
-        "Foundation Capital"
+        "Falfurrias Management Partners",
+        "The Entrepreneurs' Fund"
       ],
-      "location": "Los Altos, California"
+      "location": "Pleasanton, CA"
     },
     {
       "name": "Whale",
@@ -410,6 +289,49 @@
         "Bosch Ventures"
       ],
       "location": "Singapore"
+    },
+    {
+      "name": "MAIA",
+      "domain": "getmaia.ai",
+      "desc": "The main product is an AI-driven knowledge management platform that facilitates the efficient analysis and retrieval of information from technical documents and external market knowledge via an intuitive chat interface. ",
+      "stage": "SEED",
+      "last_amount": 4567932.0,
+      "total": 5374593.0,
+      "investors": [
+        "S2S Ventures",
+        "SpinLab - The HHL Accelerator",
+        "TGFS Technologiegründerfonds Sachsen",
+        "Swiss Family Office Channel"
+      ],
+      "location": "Leipzig"
+    },
+    {
+      "name": "mydecisive.ai",
+      "domain": "mydecisive.ai",
+      "desc": "The main product is an autonomous telemetry hub that enables real-time observability and management of telemetry data through intelligent log streaming, stateful alerting, and automated trace sampling. It utilizes machin",
+      "stage": "SEED",
+      "last_amount": 12000000.0,
+      "total": 12000000.0,
+      "investors": [
+        "invisionAZ",
+        "Copper Sky Capital"
+      ],
+      "location": "San Francisco, California, US"
+    },
+    {
+      "name": "Kaleidos",
+      "domain": "kaleidos.net",
+      "desc": "Kaleidos provides open-source products, including a project management platform tailored for agile teams and a collaborative design and prototyping tool that facilitates interaction between designers and developers. The ",
+      "stage": "SERIES_B",
+      "last_amount": 2192025.0,
+      "total": 22591873.0,
+      "investors": [
+        "Decibel Partners",
+        "CDTI Innovación - Centro para el Desarrollo Tecnológico y la Innovación",
+        "Athos Capital",
+        "Dave Crossland"
+      ],
+      "location": "Madrid, Community of Madrid"
     },
     {
       "name": "logcat.ai",
@@ -441,7 +363,7 @@
     {
       "name": "Othor AI",
       "domain": "othor.ai",
-      "desc": "Othor AI offers a business intelligence platform that leverages artificial intelligence to provide immediate insights and dynamic visualizations, streamlining the decision-making process by eliminating traditional data b",
+      "desc": "Othor AI provides a business intelligence platform that utilizes artificial intelligence to deliver immediate insights and dynamic visualizations, effectively streamlining the decision-making process by removing traditio",
       "stage": "PRE_SEED",
       "last_amount": 62076.0,
       "total": 171976.0,
@@ -468,16 +390,59 @@
       "location": "Kyoto Station Building, Number 5, 5th Floor, 214 Shinoyacho, Shichijo-dori Karasuma Higashiiru, Shimogyo-ku, Kyoto, 600-8211, Japan"
     },
     {
-      "name": "Solving.AI",
-      "domain": "solving.ai",
-      "desc": "The main product is an AI-driven platform that integrates into software applications to provide real-time, contextual guidance, enhancing user onboarding and feature adoption through interactive instructions. It utilizes",
-      "stage": "PRE_SEED",
-      "last_amount": 782882.0,
-      "total": 782882.0,
+      "name": "瑞莱智慧 RealAI",
+      "domain": "realai.ai",
+      "desc": "RealAI provides artificial intelligence solutions that include platforms for AI collaboration, privacy protection computing, AI security systems, and deepfake content detection, utilizing third-generation AI technology. ",
+      "stage": "SERIES_B",
+      "last_amount": 0,
+      "total": 49057000.0,
       "investors": [
-        "AQC Capital"
+        "Baidu Venture",
+        "Lubbock Angel Network",
+        "Koala Fund",
+        "China Internet Investment Fund"
       ],
-      "location": "Montreal, QC, Canada"
+      "location": "北京市, 北京市"
+    },
+    {
+      "name": "Growwr AI",
+      "domain": "growwr.co",
+      "desc": "The platform facilitates connections between businesses and vetted professionals across various fields, including marketing, design, and software development, allowing for freelance, contract, and full-time hiring. It ut",
+      "stage": "SEED",
+      "last_amount": 0,
+      "total": 200000.0,
+      "investors": [
+        "Launch Africa Ventures"
+      ],
+      "location": "San Francisco, California"
+    },
+    {
+      "name": "Masunga (formerly Solaris Offgrid)",
+      "domain": "masunga.tech",
+      "desc": "The main product is a cloud-based IT infrastructure designed to manage Paygo assets and operations, facilitating the delivery of essential services in developing markets. Additionally, it offers engineering services to s",
+      "stage": "PRE_SEED",
+      "last_amount": 0,
+      "total": 1111025.0,
+      "investors": [
+        "emaze",
+        "Launch Africa Ventures",
+        "Gaia Impact",
+        "YES!Delft"
+      ],
+      "location": "London"
+    },
+    {
+      "name": "Voxshell",
+      "domain": "voxshell.com",
+      "desc": "Voxshell’s mission is to accelerate productivity in hardware development. We build advanced meshing and geometry processing software that enables scalable, high-fidelity engineering simulation. By automating simulation-r",
+      "stage": "SEED",
+      "last_amount": 1074496.0,
+      "total": 1074496.0,
+      "investors": [
+        "Innovate UK",
+        "DSW Ventures"
+      ],
+      "location": "Cranfield, England"
     }
   ]
 }

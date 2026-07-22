@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-21",
+  "generated": "2026-07-22",
   "companies": [
     {
       "name": "Salient",
@@ -163,13 +163,6 @@
         {
           "date": "",
           "title": "tBox Community Meetup Event Datacloud Global Congress 2026 Event Cisco Live 2026 La",
-          "link": "https://netboxlabs.com/events",
-          "when": "upcoming",
-          "source": "Events page"
-        },
-        {
-          "date": "",
-          "title": "Cisco Live 2026 Las Vegas Event Data Centre Congress 2026 Event Megaport World Tour AP",
           "link": "https://netboxlabs.com/events",
           "when": "upcoming",
           "source": "Events page"

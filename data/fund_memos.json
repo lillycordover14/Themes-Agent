@@ -215,7 +215,7 @@
     "sequoia": {
       "name": "Sequoia",
       "overview": "Sequoia is a Menlo Park venture firm managing $60.5B, among the most active investors we track. Its stated focus: Seed → growth.",
-      "six_months": "Over the last six months we tracked 39 investments and 31 posts/theses from Sequoia, investing at a rapid clip.",
+      "six_months": "Over the last six months we tracked 39 investments and 30 posts/theses from Sequoia, investing at a rapid clip.",
       "thesis": "The money is concentrated in Enterprise software (24 deals), followed by Insurance (4 deals), Defense, aero & space (3 deals). That points to a thesis centered on broad enterprise software and applied AI.",
       "how": "By stage, recent checks skew Series B — concentrating at the growth inflection, after product-market fit.",
       "notable": "Standout recent bets include ElevenLabs ($500M), Factory ($150M), Startup Oasis Security ($120M), SendCutSend manufacturing company ($110M), Standard Intelligence ($75M). Their largest tracked check went to ElevenLabs ($500M), a read on where their conviction sits right now.",
@@ -419,15 +419,15 @@
     "accel": {
       "name": "Accel",
       "overview": "Accel is a Palo Alto venture firm managing $38.0B, among the most active investors we track. Its stated focus: Seed → growth; enterprise, AI, infra.",
-      "six_months": "Over the last six months we tracked 59 investments and 24 posts/theses from Accel, investing at a rapid clip.",
-      "thesis": "The money is concentrated in Enterprise software (39 deals), followed by Cybersecurity (5 deals), Vertical SaaS (4 deals). That points to a thesis centered on broad enterprise software and applied AI.",
+      "six_months": "Over the last six months we tracked 58 investments and 24 posts/theses from Accel, investing at a rapid clip.",
+      "thesis": "The money is concentrated in Enterprise software (38 deals), followed by Cybersecurity (5 deals), Vertical SaaS (4 deals). That points to a thesis centered on broad enterprise software and applied AI.",
       "how": "By stage, recent checks skew Series B — concentrating at the growth inflection, after product-market fit.",
       "notable": "Standout recent bets include Vega ($120M), Twenty ($100M), Viktor ($75M), Flex ($70M), PointFive ($60M). Their largest tracked check went to Vega ($120M), a read on where their conviction sits right now.",
       "watch": "For Smith Point, the overlap is clearest in Enterprise software, Cybersecurity, AI agents & apps and they're a fund we can often reach founders through. Worth watching: continued concentration in Enterprise software suggests more of the same ahead, while rising Cybersecurity activity is the emerging tell.",
       "sectors": [
         {
           "name": "Enterprise software",
-          "n": 39
+          "n": 38
         },
         {
           "name": "Cybersecurity",
@@ -499,7 +499,7 @@
       "sectors_detail": [
         {
           "name": "Enterprise software",
-          "n": 39,
+          "n": 38,
           "companies": [
             {
               "company": "Viktor",
@@ -2567,8 +2567,8 @@
     "thrive-capital": {
       "name": "Thrive Capital",
       "overview": "Thrive Capital is a New York venture firm managing $50.5B, among the most active investors we track. Its stated focus: Founded in 2009, Thrive Capital is a venture capital firm headquartered in New York. The f.",
-      "six_months": "Over the last six months we tracked 52 investments and 38 posts/theses from Thrive Capital, investing at a rapid clip.",
-      "thesis": "The money is concentrated in Enterprise software (32 deals), followed by Healthcare & bio (7 deals), Energy & climate (5 deals). That points to a thesis centered on broad enterprise software and applied AI.",
+      "six_months": "Over the last six months we tracked 51 investments and 38 posts/theses from Thrive Capital, investing at a rapid clip.",
+      "thesis": "The money is concentrated in Enterprise software (32 deals), followed by Healthcare & bio (6 deals), Energy & climate (5 deals). That points to a thesis centered on broad enterprise software and applied AI.",
       "how": "By stage, recent checks skew Series B — concentrating at the growth inflection, after product-market fit.",
       "notable": "Standout recent bets include DeepMind spinout Isomorphic Labs ($2.1B), Isomorphic Labs ($2.1B), Isomorphic ($2.1B), Cursor to ($2.0B), Cursor in talks to ($2.0B). Their largest tracked check went to DeepMind spinout Isomorphic Labs ($2.1B), a read on where their conviction sits right now.",
       "watch": "For Smith Point, the overlap is clearest in Enterprise software, Healthcare & bio, Insurance and they're a fund we can often reach founders through. Worth watching: continued concentration in Enterprise software suggests more of the same ahead, while rising Healthcare & bio activity is the emerging tell.",
@@ -2579,7 +2579,7 @@
         },
         {
           "name": "Healthcare & bio",
-          "n": 7
+          "n": 6
         },
         {
           "name": "Energy & climate",
@@ -2683,7 +2683,7 @@
         },
         {
           "name": "Healthcare & bio",
-          "n": 7,
+          "n": 6,
           "companies": [
             {
               "company": "DeepMind spinout Isomorphic Labs",
@@ -4352,15 +4352,15 @@
     "goodwater-capital": {
       "name": "Goodwater Capital",
       "overview": "Goodwater Capital is a Burlingame venture firm managing $5.0B. Its stated focus: Founded in 2014, Goodwater Capital is a venture capital investment firm based in Burlingam.",
-      "six_months": "Over the last six months we tracked 9 investments and 1 post/theses from Goodwater Capital, investing at selectively.",
-      "thesis": "The money is concentrated in Enterprise software (7 deals), followed by AI agents & apps (1 deal), Healthcare & bio (1 deal). That points to a thesis centered on broad enterprise software and applied AI.",
+      "six_months": "Over the last six months we tracked 8 investments and 1 post/theses from Goodwater Capital, investing at selectively.",
+      "thesis": "The money is concentrated in Enterprise software (6 deals), followed by AI agents & apps (1 deal), Healthcare & bio (1 deal). That points to a thesis centered on broad enterprise software and applied AI.",
       "how": "By stage, recent checks skew Seed — leaning early and taking first-check risk.",
       "notable": "Standout recent bets include Midi Health ($100M), AI Start-Up Kaon AI ($60M), Mega ($12M), Astor ($5M), Trace ($3M). Their largest tracked check went to Midi Health ($100M), a read on where their conviction sits right now.",
       "watch": "For Smith Point, the overlap is clearest in Enterprise software, AI agents & apps, Healthcare & bio. Worth watching: continued concentration in Enterprise software suggests more of the same ahead, while rising AI agents & apps activity is the emerging tell.",
       "sectors": [
         {
           "name": "Enterprise software",
-          "n": 7
+          "n": 6
         },
         {
           "name": "AI agents & apps",
@@ -4412,7 +4412,7 @@
       "sectors_detail": [
         {
           "name": "Enterprise software",
-          "n": 7,
+          "n": 6,
           "companies": [
             {
               "company": "AI Start-Up Kaon AI",
@@ -4585,8 +4585,8 @@
     "eniac-ventures": {
       "name": "Eniac Ventures",
       "overview": "Eniac Ventures is a New York venture firm managing $310M. Its stated focus: Founded in 2009, Eniac Ventures is a venture capital firm based in New York, New York. The.",
-      "six_months": "Over the last six months we tracked 8 investments and 3 posts/theses from Eniac Ventures, investing at selectively.",
-      "thesis": "The money is concentrated in Healthcare & bio (4 deals), followed by Enterprise software (4 deals). That points to a thesis centered on AI and software reengineering clinical, care-delivery and life-science workflows. There's a genuine second leg in Enterprise software (broad enterprise software and applied AI), so this isn't a one-note fund.",
+      "six_months": "Over the last six months we tracked 7 investments and 3 posts/theses from Eniac Ventures, investing at selectively.",
+      "thesis": "The money is concentrated in Healthcare & bio (4 deals), followed by Enterprise software (3 deals). That points to a thesis centered on AI and software reengineering clinical, care-delivery and life-science workflows. There's a genuine second leg in Enterprise software (broad enterprise software and applied AI), so this isn't a one-note fund.",
       "how": "By stage, recent checks skew Seed — leaning early and taking first-check risk.",
       "notable": "Standout recent bets include Mia Labs ($20M), Kin Health ($9M), Pelgo ($6M). Their largest tracked check went to Mia Labs ($20M), a read on where their conviction sits right now.",
       "watch": "For Smith Point, the overlap is clearest in Healthcare & bio, Enterprise software. Worth watching: continued concentration in Healthcare & bio suggests more of the same ahead, while rising Enterprise software activity is the emerging tell.",
@@ -4597,7 +4597,7 @@
         },
         {
           "name": "Enterprise software",
-          "n": 4
+          "n": 3
         }
       ],
       "bets": [
@@ -4634,7 +4634,7 @@
         },
         {
           "name": "Enterprise software",
-          "n": 4,
+          "n": 3,
           "companies": [
             {
               "company": "Mia Labs",
@@ -13777,15 +13777,15 @@
     "5am-ventures": {
       "name": "5AM Ventures",
       "overview": "5AM Ventures is a San Francisco venture firm managing $1.3B. Its stated focus: Founded in 2002, 5AM Ventures is a venture capital firm based in San Francisco, California.",
-      "six_months": "Over the last six months we tracked 2 investments and 0 posts/theses from 5AM Ventures, investing at selectively.",
-      "thesis": "The money is concentrated in Healthcare & bio (2 deals). That points to a thesis centered on AI and software reengineering clinical, care-delivery and life-science workflows.",
+      "six_months": "Over the last six months we tracked 1 investment and 0 posts/theses from 5AM Ventures, investing at selectively.",
+      "thesis": "The money is concentrated in Healthcare & bio (1 deal). That points to a thesis centered on AI and software reengineering clinical, care-delivery and life-science workflows.",
       "how": "By stage, recent checks skew Series A — backing companies right as they scale.",
       "notable": "Standout recent bets include Mendra ($82M). Their largest tracked check went to Mendra ($82M), a read on where their conviction sits right now.",
       "watch": "For Smith Point, the overlap is clearest in Healthcare & bio. Worth watching: continued concentration in Healthcare & bio suggests more of the same ahead.",
       "sectors": [
         {
           "name": "Healthcare & bio",
-          "n": 2
+          "n": 1
         }
       ],
       "bets": [
@@ -13799,7 +13799,7 @@
       "sectors_detail": [
         {
           "name": "Healthcare & bio",
-          "n": 2,
+          "n": 1,
           "companies": [
             {
               "company": "Mendra",
@@ -15130,7 +15130,7 @@
     "benchmark": {
       "name": "Benchmark",
       "overview": "Benchmark is a venture firm, among the most active investors we track. Its stated focus: Series A-focused, concentrated.",
-      "six_months": "Over the last six months we tracked 65 investments and 38 posts/theses from Benchmark, investing at a rapid clip.",
+      "six_months": "Over the last six months we tracked 64 investments and 38 posts/theses from Benchmark, investing at a rapid clip.",
       "thesis": "The money is concentrated in Enterprise software (53 deals), followed by Robotics & industrial (4 deals), Crypto & web3 (2 deals). That points to a thesis centered on broad enterprise software and applied AI.",
       "how": "By stage, recent checks skew Growth — concentrating at the growth inflection, after product-market fit.",
       "notable": "Standout recent bets include New Zealand, Indonesia, Watch, BOJ, Rivan.",
@@ -15425,7 +15425,7 @@
     "bessemer": {
       "name": "Bessemer",
       "overview": "Bessemer is a venture firm, among the most active investors we track. Its stated focus: Seed → growth; cloud/AI (Atlas + Roadmaps).",
-      "six_months": "Over the last six months we tracked 58 investments and 16 posts/theses from Bessemer, investing at a rapid clip.",
+      "six_months": "Over the last six months we tracked 58 investments and 15 posts/theses from Bessemer, investing at a rapid clip.",
       "thesis": "The money is concentrated in Enterprise software (29 deals), followed by Healthcare & bio (8 deals), Cybersecurity (6 deals). That points to a thesis centered on broad enterprise software and applied AI.",
       "how": "By stage, recent checks skew Seed — leaning early and taking first-check risk.",
       "notable": "Standout recent bets include Legora ($550M), DriveNets ($410M), Sarvam ($300M), Online car dealer Kavak ($300M), Cloud Security Unicorn Upwind ($250M). Their largest tracked check went to Legora ($550M), a read on where their conviction sits right now.",
@@ -17225,15 +17225,15 @@
     "yc": {
       "name": "Y Combinator",
       "overview": "Y Combinator is a venture firm, among the most active investors we track. Its stated focus: Accelerator / pre-seed.",
-      "six_months": "Over the last six months we tracked 34 investments and 46 posts/theses from Y Combinator, investing at a rapid clip.",
-      "thesis": "The money is concentrated in Enterprise software (20 deals), followed by Legal & compliance (3 deals), Crypto & web3 (2 deals). That points to a thesis centered on broad enterprise software and applied AI.",
+      "six_months": "Over the last six months we tracked 33 investments and 46 posts/theses from Y Combinator, investing at a rapid clip.",
+      "thesis": "The money is concentrated in Enterprise software (19 deals), followed by Legal & compliance (3 deals), Crypto & web3 (2 deals). That points to a thesis centered on broad enterprise software and applied AI.",
       "how": "By stage, recent checks skew Series A — backing companies right as they scale.",
       "notable": "Standout recent bets include Warp ($60M), Letter AI ($40M), AI call receptionist ($22M), Greenboard ($16M), Moritz ($9M). Their largest tracked check went to Warp ($60M), a read on where their conviction sits right now.",
       "watch": "For Smith Point, the overlap is clearest in Enterprise software, Legal & compliance, Supply chain & logistics. Worth watching: continued concentration in Enterprise software suggests more of the same ahead, while rising Legal & compliance activity is the emerging tell.",
       "sectors": [
         {
           "name": "Enterprise software",
-          "n": 20
+          "n": 19
         },
         {
           "name": "Legal & compliance",
@@ -17284,12 +17284,6 @@
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaTI1TzY3RVd0VzRGcWdRam15WWlmY2dNUEttRElPWUJyR1pqdVJ3MjBwelBVZG92OUdCRG82M1RhQTBRWmV3Qjc2Ykt5SjJsTDdQRUJKWW5udUZCVXpXNWVURktNczEyUTQ2TFVOdGJ1azlPR0xvYmRqRlBmeGhvT19WYmJHNWVGdlp3S29YNDM4UVZyZXJTTWR3ZjJENmxBRVhr0gGoAUFVX3lxTE9kNUJfcDVrSUpJZTQ3djlXMXpPMUdHbGd5YWZQSlBfdHJIaTBkam93eFA5cnp3cmNIeHJBOTNYTlVoV2lZUXVNSG01alpHa05ZOFpGazhzN2xaMlJ2cmt0Ml9Od1FYRzlUNEtaZDBxckluZE0zcVFfU01IbzZYU0FGNDJraTVRVS1jU3ZlMmUzSFY2WnN1ZUY4TXA1UTZKUlo2ZzZKVktwZw?oc=5"
         },
         {
-          "company": "OpenCX",
-          "amt": "$7M",
-          "date": "2026-01-22",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObktNWkgzb2Q4d0JKeE9rSHFYVmhPSnRldDl3azI3NEJwcHZDeGFqYnd4TmVMRDNVeWtrbWJucHZzejdHQk5nVjZabU5JdUM1Rl9XNFVqTE5ZT2haOWxxS2d2RElkOXlxOTJ1YWNZV2JzT2JBRHhBNGt3OVNIa2Y2a1FHVlF6aEVkWGRwcFpIV0hpa1k1ZDF5Z0NDaHJlelpMOFBNLWlwYi12SlMzMDhJVFRnNFNfZFh6YldZTTRMWkFRUQ?oc=5"
-        },
-        {
           "company": "AI robo-advisor Astor",
           "amt": "$5M",
           "date": "2026-04-27",
@@ -17300,12 +17294,18 @@
           "amt": "$5M",
           "date": "2026-03-10",
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZmY3bmJnUzl4c0Z4VTNjQXdvOHVRZ0h6WjhIcWhNM1dzZHRGX0JkYTRGT3duQ19KcmVHRG5pYm85Rk13dDJDZDdFN0E5QjF6bkRvQTFWMVFycGMzOFEwY2lMYmM2MlVkMXBicDdSQ212eEhuaU53X24zc2NzaHkzVmZ4VWk1MGVUV3pfcnB2TTEteG9VaTJwclZ2X2lwdlB1eWdzT3JfOFNwNGR4M1gyNHExSjU1UFpmb2F1M2ZqU2ZOODBEWkc1cURZYlJpN0VyYTd1T0QtWXoxdWVJc3FfQTB3?oc=5"
+        },
+        {
+          "company": "Plume",
+          "amt": "$4M",
+          "date": "2026-04-10",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GcEV6djFzMVV6Wi1FOXBxRmFsUGcxZVp1WjFRQkdkZEliOEQ5QjMwYk1fbllhMUlQS0RtOHhSU3g0RmFROTRpWjBldE5sR1duemdqMEQ5cnRTNFpJSTdiTVhFbWEzZ2M4bjJkSUxicDlQaGc?oc=5"
         }
       ],
       "sectors_detail": [
         {
           "name": "Enterprise software",
-          "n": 20,
+          "n": 19,
           "companies": [
             {
               "company": "Warp",
@@ -17316,11 +17316,6 @@
               "company": "AI call receptionist",
               "amt": "$22M",
               "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTnVvbXg5LXRFZk02azVxTTR2Q2w3bGc2dld4NDlPYXJ2WVo1UlJ5UzA4bno2Zy1iNXBKNlhtR0czNXZWQm45YW1Fc0wzaHZ4UHBoblpCNC1iNHVIZlRkbHZ2VFE0RXpYSk12NjR6WWNaU3J3bHNnMEJtMS1HbE9CZUxCVHF6Q09CTjhaWmkyYlNQak5LMmFxN0dhdnUxX09rdmxWUGl2eEIyUkd6RTg5Rw?oc=5"
-            },
-            {
-              "company": "OpenCX",
-              "amt": "$7M",
-              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObktNWkgzb2Q4d0JKeE9rSHFYVmhPSnRldDl3azI3NEJwcHZDeGFqYnd4TmVMRDNVeWtrbWJucHZzejdHQk5nVjZabU5JdUM1Rl9XNFVqTE5ZT2haOWxxS2d2RElkOXlxOTJ1YWNZV2JzT2JBRHhBNGt3OVNIa2Y2a1FHVlF6aEVkWGRwcFpIV0hpa1k1ZDF5Z0NDaHJlelpMOFBNLWlwYi12SlMzMDhJVFRnNFNfZFh6YldZTTRMWkFRUQ?oc=5"
             },
             {
               "company": "AI robo-advisor Astor",
@@ -17336,6 +17331,11 @@
               "company": "Plume",
               "amt": "$4M",
               "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GcEV6djFzMVV6Wi1FOXBxRmFsUGcxZVp1WjFRQkdkZEliOEQ5QjMwYk1fbllhMUlQS0RtOHhSU3g0RmFROTRpWjBldE5sR1duemdqMEQ5cnRTNFpJSTdiTVhFbWEzZ2M4bjJkSUxicDlQaGc?oc=5"
+            },
+            {
+              "company": "Finto",
+              "amt": "$3M",
+              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHdwcF83VExYcktpNy1zN091YUpVNE1iT3dScW1JaEhpT1hmTDhsTDIxOUZzZE9aZk9Bek9XNDBySGU2TlU2V3dCdUlTU3hsekQtd0w1WUZaQkhxeFlfVmp4RUJDSXU5T0dkb09zMmZiRFlpcU5UblZLSjgwanY0TjY1Q280V0VJWFFMN2hMZ01JZWdpV05PNU5fRk1xdmhPaHc1dlBobXdfYTRrdnNGWG1MSQ?oc=5"
             }
           ]
         },
@@ -17730,15 +17730,15 @@
     "coatue": {
       "name": "Coatue",
       "overview": "Coatue is a venture firm. Its stated focus: Crossover / growth; AI, enterprise, public + private.",
-      "six_months": "Over the last six months we tracked 23 investments and 6 posts/theses from Coatue, investing at a steady pace.",
-      "thesis": "The money is concentrated in Enterprise software (17 deals), followed by AI agents & apps (5 deals), Consumer & marketplace (1 deal). That points to a thesis centered on broad enterprise software and applied AI. There's a genuine second leg in AI agents & apps (autonomous agents and applied-AI products that do real work), so this isn't a one-note fund.",
+      "six_months": "Over the last six months we tracked 22 investments and 6 posts/theses from Coatue, investing at a steady pace.",
+      "thesis": "The money is concentrated in Enterprise software (16 deals), followed by AI agents & apps (5 deals), Consumer & marketplace (1 deal). That points to a thesis centered on broad enterprise software and applied AI. There's a genuine second leg in AI agents & apps (autonomous agents and applied-AI products that do real work), so this isn't a one-note fund.",
       "how": "By stage, recent checks skew Seed — leaning early and taking first-check risk.",
       "notable": "Standout recent bets include Kalshi ($1.0B), Sycamore ($65M), OpenAI to, OpenAI Set to, Anthropic. Their largest tracked check went to Kalshi ($1.0B), a read on where their conviction sits right now.",
       "watch": "For Smith Point, the overlap is clearest in Enterprise software, AI agents & apps and they're a fund we can often reach founders through. Worth watching: continued concentration in Enterprise software suggests more of the same ahead, while rising AI agents & apps activity is the emerging tell.",
       "sectors": [
         {
           "name": "Enterprise software",
-          "n": 17
+          "n": 16
         },
         {
           "name": "AI agents & apps",
@@ -17784,7 +17784,7 @@
       "sectors_detail": [
         {
           "name": "Enterprise software",
-          "n": 17,
+          "n": 16,
           "companies": [
             {
               "company": "Kalshi",

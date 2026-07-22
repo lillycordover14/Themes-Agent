@@ -1403,5 +1403,60 @@
     "theme": "Applied / horizontal AI",
     "domain": "",
     "clean": "Canyon Code"
+  },
+  "buildops": {
+    "theme": "Legal AI",
+    "domain": "",
+    "clean": "BuildOps"
+  },
+  "trunktools": {
+    "theme": "Vertical SaaS",
+    "domain": "",
+    "clean": "Trunk Tools"
+  },
+  "mydecisiveai": {
+    "theme": "Data infrastructure",
+    "domain": "",
+    "clean": "mydecisive.ai"
+  },
+  "maia": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "MAIA"
+  },
+  "cascade": {
+    "theme": "Vertical SaaS",
+    "domain": "",
+    "clean": "Cascade"
+  },
+  "kaleidos": {
+    "theme": "AI dev tooling",
+    "domain": "",
+    "clean": "Kaleidos"
+  },
+  "voxshell": {
+    "theme": "Physical AI & robotics",
+    "domain": "",
+    "clean": "Voxshell"
+  },
+  "permitflow": {
+    "theme": "Applied AI agents",
+    "domain": "",
+    "clean": "PermitFlow"
+  },
+  "realai": {
+    "theme": "Cybersecurity",
+    "domain": "",
+    "clean": "瑞莱智慧 RealAI"
+  },
+  "growwrai": {
+    "theme": "Legal AI",
+    "domain": "",
+    "clean": "Growwr AI"
+  },
+  "masungaformerlysolarisoffgrid": {
+    "theme": "Energy & climate",
+    "domain": "",
+    "clean": "Masunga (formerly Solaris Offgrid)"
   }
 }
