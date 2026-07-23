@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22",
+  "generated": "2026-07-23",
   "companies": [
     {
       "name": "Salient",
@@ -89,6 +89,20 @@
       "slug": "netbox-labs",
       "updates": [
         {
+          "date": "2026-07-23",
+          "category": "Blog",
+          "title": "Multi-Vendor by Design: Seven New Integrations for the Stack You Actually Run",
+          "link": "https://netboxlabs.com/blog/multi-vendor-new-integrations/",
+          "source": "Blog"
+        },
+        {
+          "date": "2026-07-22",
+          "category": "Blog",
+          "title": "Meet Natalie Pastrof, the AE Who Leads With Trust",
+          "link": "https://netboxlabs.com/blog/meet-natalie-pastrof-the-ae-who-leads-with-trust/",
+          "source": "Blog"
+        },
+        {
           "date": "2026-07-07",
           "category": "Blog",
           "title": "Meet Chris Veith, the VP Building NetBox Labs’ Global Ecosystem",
@@ -142,13 +156,6 @@
           "category": "Blog",
           "title": "Your Infrastructure Is Now Agent-Native",
           "link": "https://netboxlabs.com/blog/your-infrastructure-is-now-agent-native/",
-          "source": "Blog"
-        },
-        {
-          "date": "2026-06-11",
-          "category": "Blog",
-          "title": "Celebrating Ten Years of NetBox & Announcing our Infrastructure Intelligence Platform",
-          "link": "https://netboxlabs.com/blog/evolving-infrastructure-intelligence-platform/",
           "source": "Blog"
         }
       ],

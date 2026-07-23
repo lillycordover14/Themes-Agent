@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22",
+  "generated": "2026-07-23",
   "count": 183,
   "funds": [
     {
@@ -8149,6 +8149,13 @@
       },
       "updates": [
         {
+          "date": "2026-07-22",
+          "type": "New fund",
+          "title": "SEC Form D — CRV XIX-C, LP  (CIK 0002145391)",
+          "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=CRV&type=D&count=20",
+          "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+        },
+        {
           "date": "2026-06-19",
           "type": "Investment",
           "title": "California invests millions to expand bottle deposit return network - Packaging Insights",
@@ -10584,13 +10591,6 @@
           "title": "The Weekly Notable Startup Funding Report: 2/2/26 - AlleyWatch",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNVpodmVsT2pIcXNzaVEybnNDM1BQb3QybmlnM1ZvRzlaWDNIajFXNWZNa1hsZXNlSFpLb2hRNHhNTFA4cHBGM2lKdjJGX1Y2RTlyNkNhZnVYV3dPSkNlTmhkcXdxS09WOEJWcU9PcHNBdGRoOG12MzZ1VUE5WFN4UmdkYmFOUkpPRzdwWA?oc=5",
           "summary": "The Weekly Notable Startup Funding Report: 2/2/26&nbsp;&nbsp;AlleyWatch"
-        },
-        {
-          "date": "2026-01-23",
-          "type": "Investment",
-          "title": "Mia Labs raises $20M in fresh capital as dealers seek powerful AI platforms - Car Dealership Guy News",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNXBiZmtuRWU2R2V5UnE5MjZjaWdIako3WE9YVUlCTDA2ZzJpeHRsTngyNl90cG5pZkIyYlBtQmQ3cklHRTlRN1dDWmxIX2t6Um1CZ0U4RklhbkVfWFpXUFpMRWxNd3N0aEo0OFFQQzFqOHBqWE1QZEhKRnBucmlFZW05VUY2SGhWTm5wVnZKMzNNaG5lMTFyOGo3S1ZBeVRVbEgtd2pnMjMxMnBwclQ1Vy1fQzBjWWtFX0E?oc=5",
-          "summary": "Mia Labs raises $20M in fresh capital as dealers seek powerful AI platforms&nbsp;&nbsp;Car Dealership Guy News"
         }
       ],
       "podcasts": [
@@ -12321,13 +12321,6 @@
           "title": "Fundamental raises $255M Series A for enterprise data AI model - The Tech Buzz",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcGdxbWJOU2RkdzVNRGdibWw0SDVyV0VzZVZ5Sl8zV1JSdVBmSm53QnFxS3RBNzRoUG5pNmpsWTdYOHpxclR3VFFBZVRJWFFNUVRiS09wMWJ4VnMwajBReUg2T3JHUHFsZDR5VkpPbWdVSDBROHZmUjJraVNzZ1EtNTdRV1NhUldxSmRPQU45endubldKTFUyZzVn?oc=5",
           "summary": "Fundamental raises $255M Series A for enterprise data AI model&nbsp;&nbsp;The Tech Buzz"
-        },
-        {
-          "date": "2026-01-23",
-          "type": "Post",
-          "title": "LADWP adds real estate, PE funds - Alternatives Watch",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd2tNcU4wdFVnRVVxVXdRVktWMThuQ2FXbTlCd3B3WVlldVdibW9lMEJZZjZMR0FlSGd2VUl6VmprSUJLbXIxVE1Ob21jdkd0QUFMendkOUlmbGVOWmprbHhiYVUweTFpX1RLOEFLU0lWTS1VVTdVaVZkY29uWXdxRTZHSHp4bGJwbDV3?oc=5",
-          "summary": "LADWP adds real estate, PE funds&nbsp;&nbsp;Alternatives Watch"
         }
       ],
       "podcasts": [
@@ -26646,15 +26639,7 @@
         "x": "https://x.com/5amventures",
         "linkedin": "https://www.linkedin.com/company/5amventures"
       },
-      "updates": [
-        {
-          "date": "2026-01-23",
-          "type": "Investment",
-          "title": "Mendra raises $82m Series A for rare disease drugs - BioXconomy",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVTl5YVNMR3hfQU1oWm1OaUhiT1J2SThjeUI1YnBuU2t2Q0dTUFRONmc3VnM5WkYybGVDUE1tb2RaMHNGTHdKTzZlTGo2emNVbEdyTHRwX3lPNXJFbW9INGxQTFNocVlySzRqNUh5aUFSMi03a3ZLcmViVHRPRjRXUW1MZmZ0U2NDY1BsN0ZRQ3Q?oc=5",
-          "summary": "Mendra raises $82m Series A for rare disease drugs&nbsp;&nbsp;BioXconomy"
-        }
-      ],
+      "updates": [],
       "podcasts": [
         {
           "person": "Andy Schwab",
@@ -28626,13 +28611,6 @@
           "title": "Are you a winner or a whiner?",
           "link": "https://newsletter.equal.vc/p/winner-or-whiner",
           "summary": "Next week will mark 3 years since my Grandmother passed."
-        },
-        {
-          "date": "2026-01-23",
-          "type": "Thesis",
-          "title": "Equal Ventures’ “State of the Economy”",
-          "link": "https://newsletter.equal.vc/p/equal-ventures-state-of-the-economy",
-          "summary": "Last month we presented to our LPAC and shared our \"State of the Venture Economy\", alongside the usual general updates that we do for such meetings."
         }
       ],
       "podcasts": [
@@ -33726,13 +33704,6 @@
           "title": "NFO Insight: Can JioBlackRock Sector Rotation Fund help investors navigate market cycles? - The Economic Times",
           "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcEFNZjg5N3RRbDQ3a2JobW9WR2tvMk41VFBYUGVvaDBpMVQ3OUktcUZHbzlfeDVhVjc4Y1VTVmJlNXEzQ0FkYjR2Z21rUTA2NFdLY1RqblBSX3ZMbE9WZG5UQkllN3JZa04wc1EtTll3Y2dnWHBMeGk1WVFSd2N4ZFFWRU0wX1pkY0Iwc0pPZjlfZm94R1VaT2pjX3ZYMVI0N3BCOVhzY3k0WU1mOUhDYVh1YWY3RkxTVm1OSGhoQ2NzTllZTnZxbWoxY2k4cVRuVVl3SlUwcHRmbFNJNXkyOFIyUWlzcWdK0gHuAUFVX3lxTE96WjFZMHdYQ2NSamxHbEhXV3lISVpfTVpDN2xHcDd3WlJZd1JNWlNHaHNxeXdYaURueTVVbTkxdlNRaEYyb2E1UTFxZnVWN1JqRVhpS19GTWJ3ZGNwN01XTDZuOEcwV05oYmZfaHlfUGdteFpNaTNtQ2JocEphZXJJVWtKbHVWb2ltRnRBaGhpbHlZT3Y2UjJjQVlWeWh3ajhaWUR3N2hyT3ZuVWpVNjFUMEdrOV9vbllrRGxlbGJTZ001dEhXbXh4dVhnM0pMUDM5U0dCeWR6YlNrVjd6ZlJsaFc0Z1FZTXJBaUgwOUE?oc=5",
           "summary": "NFO Insight: Can JioBlackRock Sector Rotation Fund help investors navigate market cycles?&nbsp;&nbsp;The Economic Times"
-        },
-        {
-          "date": "2026-01-23",
-          "type": "Investment",
-          "title": "Pomelo Raises New Investment Round Co-Led by Kaszek and Insight Partners - Financial IT",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc0FxcVhUVmJWV0Q3dy1xRDZNWklHbkRCUm03aHBqUWZTZi0tT1dyd0JiN3k0QTFIOWEyRXhDZW92Wks4XzVrWXI4U3hNLWNhcGJGZFhQc2hDYWg2TGJROUdXVS1YWkdES2tRb0xyd2x6NWtaR3pwMXZuLS0zMFZrY3MzdmRmR0lvQi1OUXA4cnBXTkdfMk9iV0JaS0FldjZ0TThRNGdWLS03MHFwZWhtc2VIMTYwZw?oc=5",
-          "summary": "Pomelo Raises New Investment Round Co-Led by Kaszek and Insight Partners&nbsp;&nbsp;Financial IT"
         }
       ],
       "region": "Americas",
@@ -38988,13 +38959,6 @@
           "title": "Y Combinator website no longer lists Canada as a country it invests in - BetaKit",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVnIzXzRFS1NuWUdtZGpjMENUM2xibG9tcjk0VkhfVjFFUU1fNmZmd1NSMmR1cDF6ck40RGc1QnVaM2JaY3lYVGtCTmk5TDhuS1V0UC1RY1lBQzZEZDBHMHltNk5pMjI4M19GV1dwTWRVcmpOOGg4Tk1BZXl5MXZTT29iWGRSWHVmNG1LTTNfOUlWVmo4clE?oc=5",
           "summary": "Y Combinator website no longer lists Canada as a country it invests in&nbsp;&nbsp;BetaKit"
-        },
-        {
-          "date": "2026-01-23",
-          "type": "Thesis",
-          "title": "Congratulations to EquipmentShare on Going Public",
-          "link": "https://www.ycombinator.com/blog/congratulations-to-equipmentshare/",
-          "summary": "Today, EquipmentShare (YC W15) goes public. From Missouri to 373 locations nationwide, they've built the operating system construction has been missing—built by contractors, for co"
         }
       ],
       "region": "Americas",

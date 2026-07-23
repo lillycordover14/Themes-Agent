@@ -25,6 +25,13 @@
   },
   "updates": [
     {
+      "date": "2026-07-22",
+      "type": "New fund",
+      "title": "SEC Form D — CRV XIX-C, LP  (CIK 0002145391)",
+      "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=CRV&type=D&count=20",
+      "summary": "New fund / securities offering filed with the SEC — fresh capital to deploy."
+    },
+    {
       "date": "2026-06-19",
       "type": "Investment",
       "title": "California invests millions to expand bottle deposit return network - Packaging Insights",

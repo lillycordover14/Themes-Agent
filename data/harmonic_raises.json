@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-22",
+  "generated": "2026-07-23",
   "mode": "full",
-  "count": 31,
+  "count": 29,
   "companies": [
     {
       "name": "PermitFlow",
@@ -34,6 +34,21 @@
       "location": "New York, New York 10011, US"
     },
     {
+      "name": "Candid Health",
+      "domain": "joincandidhealth.com",
+      "desc": "Candid Health offers a revenue cycle management automation platform that aims to streamline billing processes for healthcare providers by reducing the need for human intervention. The platform utilizes automation, artifi",
+      "stage": "SERIES_D",
+      "last_amount": 120000000.0,
+      "total": 219650000.0,
+      "investors": [
+        "Snowpoint Ventures",
+        "Oak HC/FT",
+        "First Round Capital",
+        "Y Combinator"
+      ],
+      "location": "San Francisco, California"
+    },
+    {
       "name": "BuildOps",
       "domain": "buildops.com",
       "desc": "BuildOps offers a cloud-based software platform designed for commercial contractors, integrating functionalities such as project management, scheduling, dispatching, invoicing, and asset management. The platform utilizes",
@@ -64,34 +79,19 @@
       "location": "San Francisco, CA"
     },
     {
-      "name": "Risk Ledger",
-      "domain": "riskledger.com",
-      "desc": "Risk Ledger offers a third-party risk management platform designed to enhance supply chain security through a dynamic network model that facilitates real-time collaboration among organizations. The platform utilizes tool",
-      "stage": "SERIES_B",
-      "last_amount": 32498088.0,
-      "total": 44866292.0,
+      "name": "Cascade",
+      "domain": "usecascade.ai",
+      "desc": "The company provides an AI-driven platform tailored for the architecture, engineering, and construction (AEC) sector, which automates the discovery and qualification of government RFPs by integrating with existing ERP sy",
+      "stage": "SEED",
+      "last_amount": 3500000.0,
+      "total": 4000000.0,
       "investors": [
-        "Episode 1 Ventures",
-        "Google for Startups",
-        "Axiom Equity",
-        "Lifeline Ventures"
+        "Andreessen Horowitz",
+        "Ada Ventures",
+        "Índico Capital Partners",
+        "Blitzscaling Ventures"
       ],
-      "location": "London, London"
-    },
-    {
-      "name": "Rime",
-      "domain": "rime.ai",
-      "desc": "Rime develops advanced text-to-speech models that leverage a proprietary dataset of expressive, multilingual conversational speech, enabling highly realistic voice interactions that incorporate natural speech patterns an",
-      "stage": "SERIES_A",
-      "last_amount": 24000000.0,
-      "total": 32593986.0,
-      "investors": [
-        "Plug and Play",
-        "Moth Fund",
-        "Twilio Ventures",
-        "Unusual Ventures"
-      ],
-      "location": "San Francisco, CA"
+      "location": "New York City"
     },
     {
       "name": "Sable AI",
@@ -124,77 +124,34 @@
       "location": "Minneapolis, Minnesota"
     },
     {
-      "name": "Cascade",
-      "domain": "usecascade.ai",
-      "desc": "The company provides an AI-driven platform tailored for the architecture, engineering, and construction (AEC) sector, which automates the discovery and qualification of government RFPs by integrating with existing ERP sy",
-      "stage": "SEED",
-      "last_amount": 3500000.0,
-      "total": 4000000.0,
-      "investors": [
-        "Ada Ventures",
-        "Índico Capital Partners",
-        "Blitzscaling Ventures",
-        "a16z speedrun"
-      ],
-      "location": "New York City"
-    },
-    {
-      "name": "Proaction",
-      "domain": "proaction.com",
-      "desc": "Proaction provides a modular fleet management platform that integrates various workflows and automates daily operations, allowing for efficient management of fleet data across multiple devices. The system employs technol",
-      "stage": "SEED",
-      "last_amount": 4200000.0,
-      "total": 4527500.0,
-      "investors": [
-        "Leazar Capital Holdings LLC",
-        "Holman Growth Ventures",
-        "InnoVenture Iowa",
-        "GTMfund"
-      ],
-      "location": "Des Moines, IA"
-    },
-    {
-      "name": "LearnUpon",
-      "domain": "learnupon.com",
-      "desc": "The main product is a learning management system (LMS) that facilitates the creation, management, delivery, and tracking of training programs for diverse audiences, focusing on user engagement and performance. It utilize",
-      "stage": "SEED",
-      "last_amount": 0,
-      "total": 56828019.0,
-      "investors": [
-        "Summit Partners",
-        "Enterprise Ireland",
-        "NDRC"
-      ],
-      "location": "Dublin , Ireland"
-    },
-    {
-      "name": "VNTANA",
-      "domain": "vntana.com",
-      "desc": "The company offers a platform for content orchestration and automation that centralizes the management and distribution of 3D models and CAD files, enabling teams to access optimized 3D assets without requiring engineeri",
+      "name": "Uniti AI",
+      "domain": "getuniti.com",
+      "desc": "Uniti AI provides an intelligent platform for the real estate sector, utilizing AI-driven agents to automate lead engagement and qualification across multiple communication channels, including email, SMS, WhatsApp, and w",
       "stage": "SERIES_A",
-      "last_amount": 500000.0,
-      "total": 14436000.0,
+      "last_amount": 12000000.0,
+      "total": 16160000.0,
       "investors": [
-        "Plug and Play",
-        "Anorak Ventures",
-        "Navigate Ventures",
-        "Alpaca VC"
+        "Alate Partners",
+        "FLEX Capital",
+        "RE Angels",
+        "Prudence"
       ],
-      "location": "Los Angeles, CA"
+      "location": "New York, NY"
     },
     {
-      "name": "InsideDesk",
-      "domain": "insidedesk.com",
-      "desc": "InsideDesk provides a Revenue Cycle Management platform specifically for dental support organizations, leveraging AI and RPA technologies to automate claims management, streamline payment posting, and enhance operational",
-      "stage": "SERIES_A",
-      "last_amount": 12600000.0,
-      "total": 12600000.0,
+      "name": "StrongestLayer",
+      "domain": "strongestlayer.com",
+      "desc": "The company provides an AI-native email security platform that detects and mitigates sophisticated phishing attacks and financial fraud by analyzing email content, metadata, and user behavior. It utilizes advanced reason",
+      "stage": "SEED",
+      "last_amount": 4100000.0,
+      "total": 9300000.0,
       "investors": [
-        "Pender Ventures",
-        "Round13 Capital",
-        "Graphite Ventures"
+        "Inovia Capital",
+        "Alumni Ventures",
+        "Sorenson Capital",
+        "Recall Capital"
       ],
-      "location": "Toronto, Ontario"
+      "location": "San Francisco, California"
     },
     {
       "name": "Runta",
@@ -212,14 +169,33 @@
       "location": "San Francisco, CA"
     },
     {
-      "name": "nestermind",
-      "domain": "nestermind.com",
-      "desc": "The company offers a software-as-a-service platform designed for the real estate sector, utilizing artificial intelligence to automate administrative tasks and streamline follow-up processes. It employs data-driven insig",
+      "name": "LearnUpon",
+      "domain": "learnupon.com",
+      "desc": "The main product is a learning management system (LMS) that facilitates the creation, management, delivery, and tracking of training programs for diverse audiences, focusing on user engagement and performance. It utilize",
       "stage": "SEED",
       "last_amount": 0,
-      "total": 808000.0,
-      "investors": [],
-      "location": "Kloten, Zurich"
+      "total": 56828019.0,
+      "investors": [
+        "Summit Partners",
+        "Enterprise Ireland",
+        "NDRC"
+      ],
+      "location": "Dublin , Ireland"
+    },
+    {
+      "name": "Jusfy",
+      "domain": "jusfy.com.br",
+      "desc": "The main product is a comprehensive legal platform that integrates automated financial calculation tools, document management, and access to extensive legal databases to enhance the efficiency of legal professionals. It ",
+      "stage": "SERIES_A",
+      "last_amount": 15000000.0,
+      "total": 21525393.0,
+      "investors": [
+        "FJ Labs",
+        "Citrino Gestão de Recursos",
+        "SaaSholic",
+        "MAYA CAPITAL"
+      ],
+      "location": "Brasil"
     },
     {
       "name": "SiftMed",
@@ -237,30 +213,34 @@
       "location": "St John’s, Newfoundland and Labrador"
     },
     {
-      "name": "Pulse Security AI, Inc.",
-      "domain": "pulsesecurity.ai",
-      "desc": "Building an agentic workforce for security leaders to transform the way they do their jobs in this AI Era",
+      "name": "Innerlogic",
+      "domain": "innerlogic.com",
+      "desc": "The main product is an AI-driven platform that centralizes employee feedback and survey data, utilizing advanced algorithms and predictive models to generate actionable insights for improving engagement and organizationa",
       "stage": "SEED",
-      "last_amount": 8000000.0,
-      "total": 8000000.0,
+      "last_amount": 11500000.0,
+      "total": 12569286.0,
       "investors": [
-        "Zetta Venture Partners",
-        "Foundation Capital"
+        "PTX Capital",
+        "Bison Ventures",
+        "Techstars",
+        "Tidal Venture Partners"
       ],
-      "location": "Los Altos, California"
+      "location": "Halifax, Nova Scotia"
     },
     {
-      "name": "Cue",
-      "domain": "cuedesk.com",
-      "desc": "The company provides a customer service platform that incorporates AI agents, chatbots, and live chat to automate routine inquiries and improve communication across multiple channels, including WhatsApp and Messenger. Ad",
-      "stage": "SERIES_A",
-      "last_amount": 5000000.0,
-      "total": 7500000.0,
+      "name": "Talentware",
+      "domain": "talentware.ai",
+      "desc": "Talentware offers an AI-native talent management platform that consolidates data from various HR systems to create a dynamic skill map, facilitating real-time skill mapping and personalized career planning. This technolo",
+      "stage": "SEED",
+      "last_amount": 3762656.0,
+      "total": 6506063.0,
       "investors": [
-        "Knife Capital",
-        "FAM Investments"
+        "Cenciarini & Co.",
+        "360 Capital",
+        "035 Investimenti",
+        "CDP Venture Capital SGR"
       ],
-      "location": "London"
+      "location": "Milan"
     },
     {
       "name": "FactorLab, Inc.",
@@ -291,12 +271,27 @@
       "location": "Singapore"
     },
     {
+      "name": "FlareLane",
+      "domain": "flarelane.com",
+      "desc": "FlareLane offers a customer engagement platform that enables personalized messaging through various channels such as mobile push, web push, SMS, and in-app notifications. The platform features event-based automation, A/B",
+      "stage": "SEED",
+      "last_amount": 540800.0,
+      "total": 1050594.0,
+      "investors": [
+        "Ryukyung PSG Asset Management",
+        "Ministry of SMEs and Startups, Republic of Korea, 대한민국 중소벤처기업부",
+        "Sazze Partners",
+        "Bridge Alliance Partners"
+      ],
+      "location": "Middletown, Delaware"
+    },
+    {
       "name": "MAIA",
       "domain": "getmaia.ai",
       "desc": "The main product is an AI-driven knowledge management platform that facilitates the efficient analysis and retrieval of information from technical documents and external market knowledge via an intuitive chat interface. ",
       "stage": "SEED",
-      "last_amount": 4567932.0,
-      "total": 5374593.0,
+      "last_amount": 4560796.0,
+      "total": 5367457.0,
       "investors": [
         "S2S Ventures",
         "SpinLab - The HHL Accelerator",
@@ -347,18 +342,6 @@
         "Shorewind Capital"
       ],
       "location": "Seattle"
-    },
-    {
-      "name": "Liveday",
-      "domain": "liveday.se",
-      "desc": "Liveday provides an integrated event platform tailored for the sports sector, which consolidates ticket sales, merchandise, restaurant bookings, and a point-of-sale system into a unified checkout experience. The platform",
-      "stage": "SEED",
-      "last_amount": 309669.0,
-      "total": 800662.0,
-      "investors": [
-        "Henrik Zetterberg"
-      ],
-      "location": "Helsingborg"
     },
     {
       "name": "Othor AI",

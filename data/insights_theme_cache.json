@@ -1458,5 +1458,40 @@
     "theme": "Energy & climate",
     "domain": "",
     "clean": "Masunga (formerly Solaris Offgrid)"
+  },
+  "candidhealth": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Candid Health"
+  },
+  "jusfy": {
+    "theme": "Legal AI",
+    "domain": "",
+    "clean": "Jusfy"
+  },
+  "unitiai": {
+    "theme": "Vertical SaaS",
+    "domain": "",
+    "clean": "Uniti AI"
+  },
+  "innerlogic": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Innerlogic"
+  },
+  "strongestlayer": {
+    "theme": "Cybersecurity",
+    "domain": "",
+    "clean": "StrongestLayer"
+  },
+  "talentware": {
+    "theme": "HR & workforce",
+    "domain": "",
+    "clean": "Talentware"
+  },
+  "flarelane": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "FlareLane"
   }
 }
