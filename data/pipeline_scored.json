@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23",
+  "generated": "2026-07-24",
   "companies": [
     {
       "name": "Salient",
@@ -98,7 +98,7 @@
       "strong_signals": 0,
       "supporting_signals": 1,
       "finance_leadership_open": false,
-      "open_roles": 45,
+      "open_roles": 44,
       "signals": [
         "1 mo since last round (Series C) · typical Series C cadence ~19 mo · just raised",
         "Last round: 2026-06-22 (provided)",

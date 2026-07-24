@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-23",
+  "generated": "2026-07-24",
   "mode": "full",
-  "count": 29,
+  "count": 41,
   "companies": [
     {
       "name": "PermitFlow",
@@ -64,19 +64,19 @@
       "location": "Santa Monica, CA"
     },
     {
-      "name": "Fazeshift",
-      "domain": "fazeshift.com",
-      "desc": "Fazeshift offers an AI-driven platform that automates accounts receivable processes, including cash application, invoicing, and collections, utilizing enterprise-grade AI agents to manage complex payment scenarios and en",
-      "stage": "SERIES_A",
-      "last_amount": 0,
-      "total": 21500000.0,
+      "name": "GlossGenius",
+      "domain": "glossgenius.com",
+      "desc": "GlossGenius offers a management platform designed for appointment-based businesses, particularly in the salon and spa sector, which includes automated appointment scheduling, payment processing, and client management. Th",
+      "stage": "SERIES_D",
+      "last_amount": 44000000.0,
+      "total": 116340000.0,
       "investors": [
-        "Pioneer Fund",
-        "2048 Ventures",
-        "Y Combinator",
-        "Ritual Capital"
+        "Imaginary",
+        "Wormhole Capital",
+        "Techstars",
+        "2048 Ventures"
       ],
-      "location": "San Francisco, CA"
+      "location": "New York, NY"
     },
     {
       "name": "Cascade",
@@ -94,24 +94,84 @@
       "location": "New York City"
     },
     {
-      "name": "Sable AI",
-      "domain": "withsable.com",
-      "desc": "Sable develops AI agents that leverage real-time screen comprehension to provide context-aware guidance and automate user interactions without requiring integration. The technology features multimodal capabilities that a",
-      "stage": "SERIES_B",
-      "last_amount": 45000000.0,
-      "total": 45000000.0,
+      "name": "Fazeshift",
+      "domain": "fazeshift.com",
+      "desc": "Fazeshift offers an AI-driven platform that automates accounts receivable processes, including cash application, invoicing, and collections, utilizing enterprise-grade AI agents to manage complex payment scenarios and en",
+      "stage": "SERIES_A",
+      "last_amount": 0,
+      "total": 21500000.0,
       "investors": [
-        "8VC",
-        "Sequoia Capital",
-        "BoxGroup",
-        "SV Angel"
+        "Pioneer Fund",
+        "2048 Ventures",
+        "Y Combinator",
+        "Ritual Capital"
       ],
-      "location": "731 Fell Street, San Francisco, CA 94117, United States"
+      "location": "San Francisco, CA"
+    },
+    {
+      "name": "Assured",
+      "domain": "withassured.com",
+      "desc": "The product is an AI-driven platform that automates credentialing, licensing, and payer enrollment processes for healthcare organizations, streamlining provider onboarding and reducing administrative burdens. It employs ",
+      "stage": "SERIES_A",
+      "last_amount": 19000000.0,
+      "total": 25000000.0,
+      "investors": [
+        "Insight Partners",
+        "First Round Capital",
+        "Bragiel Brothers",
+        "Kindred Ventures"
+      ],
+      "location": "New York, NY"
+    },
+    {
+      "name": "Paper",
+      "domain": "paper.design",
+      "desc": "The main product is a digital canvas that facilitates the integration of design tools, enabling seamless interaction between design and code through the import of code components. It employs web standards and AI support ",
+      "stage": "SERIES_A",
+      "last_amount": 34000000.0,
+      "total": 38200000.0,
+      "investors": [
+        "Designer Fund",
+        "OpenAI",
+        "basecase capital",
+        "ICONIQ"
+      ],
+      "location": "Palo Alto, CA, United States"
+    },
+    {
+      "name": "Pelico",
+      "domain": "pelico.ai",
+      "desc": "Pelico offers a manufacturing orchestration platform that utilizes AI-driven agents to manage production disruptions and recommend recovery strategies across complex multi-level BOMs and multi-plant networks. The platfor",
+      "stage": "VENTURE_UNKNOWN",
+      "last_amount": 0,
+      "total": 72000000.0,
+      "investors": [
+        "La Famiglia",
+        "Serena",
+        "ISAI",
+        "Carsten Thoma"
+      ],
+      "location": "Miami, Florida"
+    },
+    {
+      "name": "Rescale",
+      "domain": "rescale.com",
+      "desc": "The company offers a cloud-based high-performance computing (HPC) platform designed to enhance engineering and research applications through automated workflows and secure data management. It integrates AI technologies t",
+      "stage": "SERIES_D",
+      "last_amount": 0,
+      "total": 272400000.0,
+      "investors": [
+        "Andreessen Horowitz",
+        "伊藤忠テクノロジーベンチャーズ（株）",
+        "Jump Capital",
+        "Mitsubishi UFJ Capital Co.,Ltd."
+      ],
+      "location": "San Francisco, California"
     },
     {
       "name": "Inspectorio",
       "domain": "inspectorio.com",
-      "desc": "The company provides a cloud-based supply chain management platform that leverages AI and machine learning to enhance transparency, collaboration, and decision-making across various processes, including quality managemen",
+      "desc": "The company offers a cloud-based supply chain management platform that utilizes AI and machine learning to enhance transparency, collaboration, and decision-making across various processes, including quality management, ",
       "stage": "SERIES_B",
       "last_amount": 0,
       "total": 64819981.0,
@@ -154,6 +214,21 @@
       "location": "San Francisco, California"
     },
     {
+      "name": "LemonSlice",
+      "domain": "lemonslice.com",
+      "desc": "The main product is a video model that generates interactive avatars capable of real-time speech and animation, utilizing a 20B parameter causal model optimized for low latency and seamless video playback. It employs var",
+      "stage": "SEED",
+      "last_amount": 15000000.0,
+      "total": 31000000.0,
+      "investors": [
+        "OpenAI",
+        "Y Combinator",
+        "The Chainsmokers Headquarters",
+        "3cubed LLC"
+      ],
+      "location": "2108 North Street, Suite N, Sacramento, CA 95816, United States"
+    },
+    {
       "name": "Runta",
       "domain": "runta.com",
       "desc": "Runta is the missing execution layer for agentic software. So agents can run systems, not just write code.",
@@ -169,18 +244,19 @@
       "location": "San Francisco, CA"
     },
     {
-      "name": "LearnUpon",
-      "domain": "learnupon.com",
-      "desc": "The main product is a learning management system (LMS) that facilitates the creation, management, delivery, and tracking of training programs for diverse audiences, focusing on user engagement and performance. It utilize",
+      "name": "PhnyX Lab",
+      "domain": "cheiron.bio",
+      "desc": "The primary offering is an AI-based solution tailored for the biopharma industry, which automates processes like literature reviews, document creation, and data analysis to enhance operational efficiency. It utilizes sop",
       "stage": "SEED",
-      "last_amount": 0,
-      "total": 56828019.0,
+      "last_amount": 8000000.0,
+      "total": 12000000.0,
       "investors": [
-        "Summit Partners",
-        "Enterprise Ireland",
-        "NDRC"
+        "Menlo Ventures",
+        "SK Networks",
+        "Aidan Gomez",
+        "Illia Polosukhin"
       ],
-      "location": "Dublin , Ireland"
+      "location": "575 High Street, Suite 320, Palo Alto, CA 94301, United States"
     },
     {
       "name": "Jusfy",
@@ -198,6 +274,36 @@
       "location": "Brasil"
     },
     {
+      "name": "Innerlogic",
+      "domain": "innerlogic.com",
+      "desc": "The main product is an AI-driven platform that centralizes employee feedback and survey data, utilizing advanced algorithms and predictive models to generate actionable insights for improving engagement and organizationa",
+      "stage": "SEED",
+      "last_amount": 11500000.0,
+      "total": 12569286.0,
+      "investors": [
+        "PTX Capital",
+        "Bison Ventures",
+        "Techstars",
+        "Tidal Venture Partners"
+      ],
+      "location": "Halifax, Nova Scotia"
+    },
+    {
+      "name": "Cashboard (YC S22)",
+      "domain": "cashboard.finance",
+      "desc": "Cashboard is an analytics platform that automates financial planning and analysis by integrating data from over 400 sources, allowing for the creation of real-time reports and customizable dashboards. It utilizes AI for ",
+      "stage": "SEED",
+      "last_amount": 5000000.0,
+      "total": 6500000.0,
+      "investors": [
+        "TTV Capital",
+        "Y Combinator",
+        "Gaingels",
+        "FINTOP"
+      ],
+      "location": "New York, New York"
+    },
+    {
       "name": "SiftMed",
       "domain": "siftmed.ca",
       "desc": "SiftMed offers an AI-powered software solution designed to automate the organization, categorization, and analysis of medical records, significantly improving the medical file review process. The platform employs natural",
@@ -213,19 +319,77 @@
       "location": "St John’s, Newfoundland and Labrador"
     },
     {
-      "name": "Innerlogic",
-      "domain": "innerlogic.com",
-      "desc": "The main product is an AI-driven platform that centralizes employee feedback and survey data, utilizing advanced algorithms and predictive models to generate actionable insights for improving engagement and organizationa",
-      "stage": "SEED",
-      "last_amount": 11500000.0,
-      "total": 12569286.0,
+      "name": "CRMNEXT",
+      "domain": "crmnext.us",
+      "desc": "The main product is a customer relationship management system specifically designed for banks and credit unions, which focuses on data orchestration and seamless integration with existing systems. It utilizes AI and mach",
+      "stage": "SERIES_B",
+      "last_amount": 40000000.0,
+      "total": 103003500.0,
       "investors": [
-        "PTX Capital",
-        "Bison Ventures",
-        "Techstars",
-        "Tidal Venture Partners"
+        "ServiceNow Ventures",
+        "Avataar Venture Partners",
+        "ServiceNow",
+        "Ascent Capital"
       ],
-      "location": "Halifax, Nova Scotia"
+      "location": "Candor Tech Space, Ground Floor, Tower 1, 12th Floor, Tower 5, Sector 62, Noida, Uttar Pradesh 201309, India"
+    },
+    {
+      "name": "ASUENE Inc.",
+      "domain": "asuene.com",
+      "desc": "The company provides a cloud-based service for visualizing and managing greenhouse gas emissions, focusing on CO2 reduction and carbon offset support throughout the supply chain. It utilizes technologies such as AI-OCR f",
+      "stage": "SERIES_D",
+      "last_amount": 43800000.0,
+      "total": 190912732.0,
+      "investors": [
+        "Plug and Play",
+        "GREE, Inc.",
+        "Japan International Cooperation Agency (JICA)",
+        "JERA Co., Inc."
+      ],
+      "location": "Minato-Ku, Tokyo"
+    },
+    {
+      "name": "mydecisive.ai",
+      "domain": "mydecisive.ai",
+      "desc": "The main product is an autonomous telemetry hub that enables real-time observability and management of telemetry data through intelligent log streaming, stateful alerting, and automated trace sampling. It utilizes machin",
+      "stage": "SEED",
+      "last_amount": 12000000.0,
+      "total": 12000000.0,
+      "investors": [
+        "invisionAZ",
+        "Copper Sky Capital"
+      ],
+      "location": "San Francisco, California, US"
+    },
+    {
+      "name": "Coverwatch",
+      "domain": "coverwatch.com",
+      "desc": "The company provides insurance brokerage services that leverage advanced technologies, including AI, to analyze risk profiles and optimize coverage for complex business risks. This technology enables the quick generation",
+      "stage": "PRE_SEED",
+      "last_amount": 4500000.0,
+      "total": 4500000.0,
+      "investors": [
+        "Kfund",
+        "CoFound",
+        "Restive Ventures",
+        "Liquid 2 Ventures"
+      ],
+      "location": "San Francisco, California"
+    },
+    {
+      "name": "RevComm Inc.",
+      "domain": "revcomm.com",
+      "desc": "RevComm offers a cloud-based IP phone system that utilizes AI and deep learning technologies to analyze and improve customer interactions, enhancing communication clarity. Additionally, the company provides online meetin",
+      "stage": "SERIES_B",
+      "last_amount": 20700000.0,
+      "total": 46261670.0,
+      "investors": [
+        "Plug and Play",
+        "DNX Ventures - US",
+        "Mitsubishi UFJ Capital Co.,Ltd.",
+        "Google for Startups"
+      ],
+      "location": "Chiyoda-ku, Tokyo"
     },
     {
       "name": "Talentware",
@@ -256,19 +420,19 @@
       "location": "Pleasanton, CA"
     },
     {
-      "name": "Whale",
-      "domain": "whale.sg",
-      "desc": "The company provides an AI-driven platform focused on surveillance and operational management, particularly for the retail sector, utilizing data analytics and visual intelligence to enhance efficiency and customer engag",
-      "stage": "SERIES_C",
-      "last_amount": 40000000.0,
-      "total": 181037371.0,
+      "name": "MAIA",
+      "domain": "getmaia.ai",
+      "desc": "The main product is an AI-driven knowledge management platform that facilitates the efficient analysis and retrieval of information from technical documents and external market knowledge via an intuitive chat interface. ",
+      "stage": "SEED",
+      "last_amount": 4560796.0,
+      "total": 5367457.0,
       "investors": [
-        "Charisma Partners 弘章资本",
-        "Hyundai Motor Group",
-        "Gentree Fund",
-        "Bosch Ventures"
+        "S2S Ventures",
+        "SpinLab - The HHL Accelerator",
+        "TGFS Technologiegründerfonds Sachsen",
+        "Swiss Family Office Channel"
       ],
-      "location": "Singapore"
+      "location": "Leipzig"
     },
     {
       "name": "FlareLane",
@@ -286,37 +450,24 @@
       "location": "Middletown, Delaware"
     },
     {
-      "name": "MAIA",
-      "domain": "getmaia.ai",
-      "desc": "The main product is an AI-driven knowledge management platform that facilitates the efficient analysis and retrieval of information from technical documents and external market knowledge via an intuitive chat interface. ",
-      "stage": "SEED",
-      "last_amount": 4560796.0,
-      "total": 5367457.0,
+      "name": "PolyBox.app",
+      "domain": "polybox.app",
+      "desc": "PolyBox is a platform that automates marketing analytics, allowing users to generate reports and insights from over 700 data sources, including social media and web analytics. It employs AI and machine learning to facili",
+      "stage": "PRE_SEED",
+      "last_amount": 200628.0,
+      "total": 1171036.0,
       "investors": [
-        "S2S Ventures",
-        "SpinLab - The HHL Accelerator",
-        "TGFS Technologiegründerfonds Sachsen",
-        "Swiss Family Office Channel"
+        "Innovate UK",
+        "Creative UK",
+        "The North East Fund Ltd.",
+        "Northstar Ventures"
       ],
-      "location": "Leipzig"
-    },
-    {
-      "name": "mydecisive.ai",
-      "domain": "mydecisive.ai",
-      "desc": "The main product is an autonomous telemetry hub that enables real-time observability and management of telemetry data through intelligent log streaming, stateful alerting, and automated trace sampling. It utilizes machin",
-      "stage": "SEED",
-      "last_amount": 12000000.0,
-      "total": 12000000.0,
-      "investors": [
-        "invisionAZ",
-        "Copper Sky Capital"
-      ],
-      "location": "San Francisco, California, US"
+      "location": "Newcastle Upon Tyne"
     },
     {
       "name": "Kaleidos",
       "domain": "kaleidos.net",
-      "desc": "Kaleidos provides open-source products, including a project management platform tailored for agile teams and a collaborative design and prototyping tool that facilitates interaction between designers and developers. The ",
+      "desc": "Kaleidos develops an open-source design platform that enables collaboration between design and development teams, facilitating scalable workflows. The technologies employed focus on open-source methodologies to improve p",
       "stage": "SERIES_B",
       "last_amount": 2192025.0,
       "total": 22591873.0,
@@ -327,6 +478,21 @@
         "Dave Crossland"
       ],
       "location": "Madrid, Community of Madrid"
+    },
+    {
+      "name": "Zazu",
+      "domain": "get-zazu.com",
+      "desc": "Zazu offers a comprehensive banking solution designed for African entrepreneurs and small to medium-sized enterprises, featuring an all-in-one business account that includes payment cards, real-time transfers, invoicing,",
+      "stage": "PRE_SEED",
+      "last_amount": 0,
+      "total": 1000000.0,
+      "investors": [
+        "Plug and Play",
+        "Launch Africa Ventures",
+        "Fiat Republic",
+        "Axel Peyriere"
+      ],
+      "location": "Innovation City Cape Town, ZA"
     },
     {
       "name": "logcat.ai",
@@ -342,35 +508,6 @@
         "Shorewind Capital"
       ],
       "location": "Seattle"
-    },
-    {
-      "name": "Othor AI",
-      "domain": "othor.ai",
-      "desc": "Othor AI provides a business intelligence platform that utilizes artificial intelligence to deliver immediate insights and dynamic visualizations, effectively streamlining the decision-making process by removing traditio",
-      "stage": "PRE_SEED",
-      "last_amount": 62076.0,
-      "total": 171976.0,
-      "investors": [
-        "Vara Kumar Namburu",
-        "Avinash Kumar",
-        "Balasubrahmanyan Sridhara"
-      ],
-      "location": "Bangalore, Karnataka"
-    },
-    {
-      "name": "LAMP Japan",
-      "domain": "lamp.jp",
-      "desc": "The main product is a customizable online ordering system designed for the food retail sector, facilitating online reservations and payment management. This system aims to improve operational efficiency and increase reve",
-      "stage": "SERIES_A",
-      "last_amount": 2155300.0,
-      "total": 9842420.0,
-      "investors": [
-        "DNX Ventures - US",
-        "Mitsui Sumitomo Insurance Company, Limited",
-        "MS&AD Ventures",
-        "90s"
-      ],
-      "location": "Kyoto Station Building, Number 5, 5th Floor, 214 Shinoyacho, Shichijo-dori Karasuma Higashiiru, Shimogyo-ku, Kyoto, 600-8211, Japan"
     },
     {
       "name": "瑞莱智慧 RealAI",
@@ -400,6 +537,20 @@
       "location": "San Francisco, California"
     },
     {
+      "name": "Pagemind.ai",
+      "domain": "pagemind.ai",
+      "desc": "PageMind.ai makes websites conversational with AI. Our platform helps visitors find what they need, discover more, and feel understood — without heavy technical work or big budgets. With PageMind, businesses can instantl",
+      "stage": "PRE_SEED",
+      "last_amount": 1364349.0,
+      "total": 1364349.0,
+      "investors": [
+        "4Founders Capital",
+        "Javier Perez-Tenessa",
+        "David Martin"
+      ],
+      "location": "Barcelona, Catalonia, Spain"
+    },
+    {
       "name": "Masunga (formerly Solaris Offgrid)",
       "domain": "masunga.tech",
       "desc": "The main product is a cloud-based IT infrastructure designed to manage Paygo assets and operations, facilitating the delivery of essential services in developing markets. Additionally, it offers engineering services to s",
@@ -426,6 +577,31 @@
         "DSW Ventures"
       ],
       "location": "Cranfield, England"
+    },
+    {
+      "name": "Greenhouse OS",
+      "domain": "greenhouseos.com",
+      "desc": "Greenhouse OS is a customizable CRM platform tailored for estate and letting agencies, enabling automation of tasks such as prospecting, booking viewings, and tracking sales progression through AI integration. The platfo",
+      "stage": "SEED",
+      "last_amount": 1203771.0,
+      "total": 1203771.0,
+      "investors": [
+        "Finance Yorkshire"
+      ],
+      "location": "York, England"
+    },
+    {
+      "name": "Infinity, Inc.",
+      "domain": "infinityinc.us",
+      "desc": "Infinity, Inc. offers managed IT services that include network security, cybersecurity, unified communications, and business continuity solutions tailored for small and medium-sized businesses. Their technology is design",
+      "stage": "SEED",
+      "last_amount": 15000000.0,
+      "total": 15000000.0,
+      "investors": [
+        "Touring Capital",
+        "Principal VC"
+      ],
+      "location": "Savannah, GA"
     }
   ]
 }

@@ -1493,5 +1493,75 @@
     "theme": "Applied / horizontal AI",
     "domain": "",
     "clean": "FlareLane"
+  },
+  "glossgenius": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "GlossGenius"
+  },
+  "crmnext": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "CRMNEXT"
+  },
+  "paper": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Paper"
+  },
+  "assured": {
+    "theme": "Healthcare & bio AI",
+    "domain": "",
+    "clean": "Assured"
+  },
+  "lemonslice": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "LemonSlice"
+  },
+  "phnyxlab": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "PhnyX Lab"
+  },
+  "cashboardycs22": {
+    "theme": "Data infrastructure",
+    "domain": "",
+    "clean": "Cashboard (YC S22)"
+  },
+  "coverwatch": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "Coverwatch"
+  },
+  "pagemindai": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Pagemind.ai"
+  },
+  "greenhouseos": {
+    "theme": "Sales & GTM AI",
+    "domain": "",
+    "clean": "Greenhouse OS"
+  },
+  "pelico": {
+    "theme": "Physical AI & robotics",
+    "domain": "",
+    "clean": "Pelico"
+  },
+  "rescale": {
+    "theme": "Applied / horizontal AI",
+    "domain": "",
+    "clean": "Rescale"
+  },
+  "polyboxapp": {
+    "theme": "Data infrastructure",
+    "domain": "",
+    "clean": "PolyBox.app"
+  },
+  "zazu": {
+    "theme": "Fintech & payments",
+    "domain": "",
+    "clean": "Zazu"
   }
 }
